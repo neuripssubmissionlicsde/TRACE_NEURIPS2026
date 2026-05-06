@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-09-01",
+  "end_date": "2019-09-15",
+  "window_type": "monthly",
+  "price_change_pct": 2.5686438712703343,
+  "factors": [
+    {
+      "name": "saudi_aramco_drone_attacks",
+      "category": "geopolitical",
+      "direction": 0.9333333333333332,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Drone attacks on Saudi Aramco facilities led to a significant surge in oil prices, positively impacting market sentiment and driving up HON's stock price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"saudi_aramco_drone_attacks\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Drone attacks on Saudi Aramco facilities led to a significant surge in oil prices, positively impacting market sentiment and driving up HON's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

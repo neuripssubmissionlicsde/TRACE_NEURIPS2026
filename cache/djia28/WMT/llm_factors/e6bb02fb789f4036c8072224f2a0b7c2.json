@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-08-14",
+  "end_date": "2022-08-28",
+  "window_type": "monthly",
+  "price_change_pct": -0.022794825779303383,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_2022-08\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.30,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [19, 20, 28],\n    \"description\": \"10-Year Treasury yields rose significantly during the period, impacting investor sentiment and valuations [19][20][28].\"\n  },\n  {\n    \"name\": \"intra_window_drawdown\",\n    \"category\": \"technical\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"The maximum intra-window drawdown of 5.7% indicates significant volatility and potential profit-taking behavior.\"\n  }\n]"
+}

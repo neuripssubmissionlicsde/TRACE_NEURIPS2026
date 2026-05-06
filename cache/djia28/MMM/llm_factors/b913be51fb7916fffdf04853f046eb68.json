@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": -5.57974075424852,
+  "factors": [
+    {
+      "name": "russia_interest_rate_hike_2022",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.5599999999999999,
+      "persistence": "short",
+      "description": "[conf=0.90] The Central Bank of Russia raised interest rates from 9.5% to 20%, causing significant market volatility and impacting investor sentiment globally [1][2][3]."
+    },
+    {
+      "name": "ukraine_peace_talks_progress",
+      "category": "geopolitical",
+      "direction": 0.4,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.85] Stock prices increased after reports of progress in peace talks between Russia and Ukraine, boosting market sentiment [45][46]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.18000000000000002,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"russia_interest_rate_hike_2022\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Central Bank of Russia raised interest rates from 9.5% to 20%, causing significant market volatility and impacting investor sentiment globally [1][2][3].\"\n  },\n  {\n    \"name\": \"ukraine_peace_talks_progress\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [45, 46],\n    \"description\": \"Stock prices increased after reports of progress in peace talks between Russia and Ukraine, boosting market sentiment [45][46].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this period.\"\n  }\n]"
+}

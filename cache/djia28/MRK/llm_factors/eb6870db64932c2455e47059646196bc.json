@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-03-03",
+  "end_date": "2019-03-17",
+  "window_type": "monthly",
+  "price_change_pct": 0.11403481247956145,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2.5900",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.35024154589371975,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 2.5900 on March 15 may have contributed to a bullish sentiment in the market, as lower rates typically support equity valuations."
+    },
+    {
+      "name": "treasury_rate_decline_2.6300",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.30193236714975846,
+      "persistence": "short",
+      "description": "[conf=0.80] The earlier decline in the 10-Year Treasury Rate to 2.6300 on March 14 also likely supported bullish sentiment, as it indicated easing monetary conditions."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.34782608695652173,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with minor fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2.5900\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 21],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.5900 on March 15 may have contributed to a bullish sentiment in the market, as lower rates typically support equity valuations.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2.6300\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 25],\n    \"description\": \"The earlier decline in the 10-Year Treasury Rate to 2.6300 on March 14 also likely supported bullish sentiment, as it indicated easing monetary conditions.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with minor fluctuations.\"\n  }\n]"
+}

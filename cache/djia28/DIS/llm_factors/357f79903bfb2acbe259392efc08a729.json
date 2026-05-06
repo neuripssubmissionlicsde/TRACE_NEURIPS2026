@@ -1,0 +1,49 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": 2.178086538109684,
+  "factors": [
+    {
+      "name": "earnings_report",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.3178807947019867,
+      "persistence": "short",
+      "description": "[conf=0.70] The release of Disney's quarterly earnings report during this period likely contributed to positive sentiment and price movement."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.21854304635761593,
+      "persistence": "short",
+      "description": "[conf=0.60] General bullish sentiment in the broader market may have positively influenced DIS's price."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.17880794701986755,
+      "persistence": "short",
+      "description": "[conf=0.50] The stock may have experienced a technical breakout above a resistance level, attracting momentum traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.1688741721854305,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations that cannot be attributed to specific factors."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": 1.0,
+      "magnitude": 0.11589403973509933,
+      "persistence": "short",
+      "description": "[conf=0.50] Strong performance in the entertainment sector coincided with DIS's price rise."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"earnings_report\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The release of Disney's quarterly earnings report during this period likely contributed to positive sentiment and price movement.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General bullish sentiment in the broader market may have positively influenced DIS's price.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The stock may have experienced a technical breakout above a resistance level, attracting momentum traders.\"\n    },\n    {\n        \"name\": \"seasonal_trends\",\n        \"category\": \"sector_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"Seasonal trends in the entertainment sector, particularly related to summer releases, could have positively impacted DIS.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations that cannot be attributed to specific factors.\"\n    }\n]"
+}

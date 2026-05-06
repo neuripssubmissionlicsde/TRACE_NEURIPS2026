@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-04",
+  "end_date": "2019-08-18",
+  "window_type": "monthly",
+  "price_change_pct": 10.715283661493553,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.18874172185430466,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "imf_stability_report_yuan",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.48013245033112584,
+      "persistence": "short",
+      "description": "[conf=0.85] The IMF's report on the stability of the yuan amidst economic pressures provided a positive sentiment, contributing to AMGN's price increase [1]."
+    },
+    {
+      "name": "declining_10yr_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.33112582781456956,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-year Treasury rate to 1.5500 on August 16 indicated lower borrowing costs, supporting equity valuations and contributing to AMGN's price rise [10][20][30]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"imf_yuan_stability_report\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The IMF's report on the stability of the yuan amidst economic pressures may have boosted investor confidence in global markets, positively impacting AMGN's price.\"\n  },\n  {\n    \"name\": \"declining_10yr_treasury_yield\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [10, 20, 30],\n    \"description\": \"The decline in the 10-year Treasury yield from 1.7400 to 1.5500 during the window likely encouraged equity investments, contributing to AMGN's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

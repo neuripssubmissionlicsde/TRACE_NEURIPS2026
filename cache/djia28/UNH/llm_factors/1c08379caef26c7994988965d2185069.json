@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-10-25",
+  "end_date": "2020-11-08",
+  "window_type": "monthly",
+  "price_change_pct": 6.478314922759706,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "unemployment_rate_release",
+      "category": "macroeconomic",
+      "direction": 0.35,
+      "magnitude": 0.30999999999999994,
+      "persistence": "short",
+      "description": "[conf=0.80] Unemployment rate reported at 6.7% on 2020-11-01, indicating economic stress which may have influenced market sentiment."
+    },
+    {
+      "name": "australia_cash_rate_cut",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.24,
+      "persistence": "medium",
+      "description": "[conf=0.75] The Reserve Bank of Australia cut its cash rate to a historic low of 0.1% on 2020-11-03, aiming to boost economic activity."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"unemployment_rate_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [24],\n    \"description\": \"Unemployment rate reported at 6.7% on 2020-11-01, indicating economic stress which may have influenced market sentiment.\"\n  },\n  {\n    \"name\": \"australia_cash_rate_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The Reserve Bank of Australia cut its cash rate to a historic low of 0.1% on 2020-11-03, aiming to boost economic activity.\"\n  }\n]"
+}

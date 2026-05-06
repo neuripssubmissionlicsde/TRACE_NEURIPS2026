@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-15",
+  "end_date": "2021-08-29",
+  "window_type": "monthly",
+  "price_change_pct": -2.1111911919277775,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6948356807511737,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted WMT's price movement during this period."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.325,
+      "magnitude": 0.3051643192488263,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate from 1.2900 to 1.3500 on August 25 may have contributed to bearish sentiment in the market, impacting WMT's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 1.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted WMT's price movement during this period.\"\n  }\n]"
+}

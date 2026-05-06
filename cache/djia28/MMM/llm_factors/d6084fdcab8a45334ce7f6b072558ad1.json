@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-15",
+  "end_date": "2020-03-29",
+  "window_type": "monthly",
+  "price_change_pct": 2.6028013282141376,
+  "factors": [
+    {
+      "name": "fed_rate_cut_100bps",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.95] The Fed cut its benchmark rate by 100bps and announced a $700 billion quantitative easing program [1], boosting market sentiment and liquidity."
+    },
+    {
+      "name": "asian_market_selloff",
+      "category": "geopolitical",
+      "direction": -0.575,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.85] Asian markets fell substantially, leading to a negative sentiment spillover into U.S. markets [19], contributing to volatility."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_100bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Fed cut its benchmark rate by 100bps and announced a $700 billion quantitative easing program [1], boosting market sentiment and liquidity.\"\n  },\n  {\n    \"name\": \"asian_market_selloff\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [19, 20],\n    \"description\": \"Asian markets fell substantially, leading to a negative sentiment spillover into U.S. markets [19], contributing to volatility.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market.\"\n  }\n]"
+}

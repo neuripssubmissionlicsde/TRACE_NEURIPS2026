@@ -1,0 +1,57 @@
+{
+  "start_date": "2021-09-26",
+  "end_date": "2021-10-10",
+  "window_type": "monthly",
+  "price_change_pct": 0.062269652349354575,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.1,
+      "magnitude": 0.27272727272727276,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment during this period was cautiously optimistic, contributing to slight upward pressure on DIS prices."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 0.08,
+      "magnitude": 0.2181818181818182,
+      "persistence": "short",
+      "description": "[conf=0.50] Recent announcements regarding Disney's streaming services may have positively influenced investor perception."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 0.02,
+      "magnitude": 0.1090909090909091,
+      "persistence": "transient",
+      "description": "[conf=0.40] Technical indicators showed mixed signals, contributing to minor fluctuations without a clear trend."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.09090909090909093,
+      "persistence": "short",
+      "description": "[conf=0.50] Average daily volume was relatively high, indicating sufficient liquidity but not a strong directional influence."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.23636363636363636,
+      "persistence": "transient",
+      "description": "[conf=0.70] A significant portion of price movement appears to be random noise, reflecting typical market volatility."
+    },
+    {
+      "name": "consolidation",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.07272727272727274,
+      "persistence": "medium",
+      "description": "[conf=0.60] The stock exhibited a range-bound behavior, indicating a period of consolidation with no clear breakout direction."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment during this period was cautiously optimistic, contributing to slight upward pressure on DIS prices.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": 0.05,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Recent announcements regarding Disney's streaming services may have positively influenced investor perception.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Technical indicators showed mixed signals, contributing to minor fluctuations without a clear trend.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Average daily volume was relatively high, indicating sufficient liquidity but not a strong directional influence.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.7,\n        \"description\": \"A significant portion of price movement appears to be random noise, reflecting typical market volatility.\"\n    },\n    {\n        \"name\": \"consolidation\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.6,\n        \"description\": \"The stock exhibited a range-bound behavior, indicating a period of consolidation with no clear breakout direction.\"\n    }\n]"
+}

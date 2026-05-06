@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-04-28",
+  "end_date": "2019-05-12",
+  "window_type": "monthly",
+  "price_change_pct": -4.060960418966305,
+  "factors": [
+    {
+      "name": "us_china_trade_tensions",
+      "category": "geopolitical",
+      "direction": -0.7333333333333334,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] U.S. President Trump's threats to raise tariffs against Chinese goods led to a significant drop in Chinese stocks and negatively impacted U.S. stock futures, contributing to CRM's price decline."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"us_china_trade_tensions\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"U.S. President Trump's threats to raise tariffs against Chinese goods led to a significant drop in Chinese stocks and negatively impacted U.S. stock futures, contributing to CRM's price decline.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period.\"\n  }\n]"
+}

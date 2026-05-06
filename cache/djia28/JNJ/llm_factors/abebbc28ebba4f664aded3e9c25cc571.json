@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-03-26",
+  "end_date": "2023-04-09",
+  "window_type": "monthly",
+  "price_change_pct": 7.101140927002167,
+  "factors": [
+    {
+      "name": "market_sentiment_improvement",
+      "category": "market_sentiment",
+      "direction": 0.8,
+      "magnitude": 0.5188679245283019,
+      "persistence": "short",
+      "description": "[conf=0.85] Overall market sentiment improved during this period, contributing to JNJ's price increase despite no specific news."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.23584905660377356,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield declined from 3.5700 to 3.3000, which typically supports equity valuations [9, 15]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24528301886792453,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_improvement\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment improved during this period, contributing to JNJ's price increase despite no specific news.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 15],\n    \"description\": \"The 10-Year Treasury yield declined from 3.5700 to 3.3000, which typically supports equity valuations [9, 15].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

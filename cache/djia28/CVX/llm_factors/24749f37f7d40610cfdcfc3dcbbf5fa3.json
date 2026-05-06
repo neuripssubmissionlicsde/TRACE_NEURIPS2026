@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-07-18",
+  "end_date": "2021-08-01",
+  "window_type": "monthly",
+  "price_change_pct": 6.251305137013634,
+  "factors": [
+    {
+      "name": "vix_increase_18_24",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.5405405405405407,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased from 17.58 to 18.24, indicating rising market volatility and contributing to a cautious sentiment around equities [9][10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45945945945945943,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_18_24\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10],\n    \"description\": \"The VIX increased from 17.58 to 18.24, indicating rising market volatility and contributing to a cautious sentiment around equities [9][10].\"\n  },\n  {\n    \"name\": \"vix_decrease_22_50\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42],\n    \"description\": \"The VIX decreased from 22.50 to 17.20, suggesting a return to stability and supporting bullish sentiment for equities [41][42].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

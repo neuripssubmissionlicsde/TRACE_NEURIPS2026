@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": -8.930524976594686,
+  "factors": [
+    {
+      "name": "russia_interest_rate_hike_2022",
+      "category": "macroeconomic",
+      "direction": -0.8000000000000002,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.95] The Central Bank of Russia raised the interest rate from 9.5% to 20%, causing significant market turmoil and impacting investor sentiment [1][2][3]."
+    },
+    {
+      "name": "moscow_stock_exchange_suspension",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.85] The suspension of stock trading on the Moscow Stock Exchange due to the invasion fallout added to market uncertainty and contributed to price declines [49][50]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during a volatile period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"russia_interest_rate_hike_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Central Bank of Russia raised the interest rate from 9.5% to 20%, causing significant market turmoil and impacting investor sentiment [1][2][3].\"\n  },\n  {\n    \"name\": \"moscow_stock_exchange_suspension\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The suspension of stock trading on the Moscow Stock Exchange due to the invasion fallout added to market uncertainty and contributed to price declines [49][50].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during a volatile period.\"\n  }\n]"
+}

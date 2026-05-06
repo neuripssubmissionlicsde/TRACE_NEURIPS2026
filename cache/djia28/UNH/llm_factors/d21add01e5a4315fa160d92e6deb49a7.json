@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-05-27",
+  "end_date": "2018-06-10",
+  "window_type": "monthly",
+  "price_change_pct": 2.7967219854689236,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4444444444444444,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "unemployment_rate_stable_4pct",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5555555555555556,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 4%, indicating a strong labor market which generally supports healthcare stocks like UNH."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable_4_percent\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 4%, contributing to positive market sentiment and investor confidence in economic stability [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_10_year\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [31, 39, 47],\n    \"description\": \"The 10-Year Treasury yield rose to 2.89% and then to 2.97%, indicating tightening monetary conditions that may have pressured equity valuations [39, 47].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

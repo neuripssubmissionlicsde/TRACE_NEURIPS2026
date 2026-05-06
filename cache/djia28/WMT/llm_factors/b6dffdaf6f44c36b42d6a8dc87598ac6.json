@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-09-01",
+  "end_date": "2019-09-15",
+  "window_type": "monthly",
+  "price_change_pct": 3.298738237796702,
+  "factors": [
+    {
+      "name": "drone_attacks_saudi_aramco",
+      "category": "geopolitical",
+      "direction": 0.64,
+      "magnitude": 0.5662650602409638,
+      "persistence": "transient",
+      "description": "[conf=0.85] Drone attacks on Saudi Aramco facilities led to a surge in oil prices, positively impacting WMT's stock as a major retailer benefiting from increased consumer spending."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4337349397590361,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"drone_attacks_saudi_aramco\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [28, 29, 30],\n    \"description\": \"Drone attacks on Saudi Aramco facilities led to a surge in oil prices, positively impacting WMT's stock as a major retailer benefiting from increased consumer spending.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [34, 35, 36],\n    \"description\": \"Stable federal funds rate at 2.04% during this period contributed to a favorable borrowing environment, supporting retail sector performance.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

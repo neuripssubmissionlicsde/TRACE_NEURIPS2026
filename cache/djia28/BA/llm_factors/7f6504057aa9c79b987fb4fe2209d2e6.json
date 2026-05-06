@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-01-29",
+  "end_date": "2023-02-12",
+  "window_type": "monthly",
+  "price_change_pct": 1.768725515110862,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.37499999999999994,
+      "persistence": "medium",
+      "description": "[conf=0.85] Stable unemployment rate at 3.6% reported on February 1 [1], contributing to positive market sentiment regarding economic stability."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.42000000000000004,
+      "magnitude": 0.325,
+      "persistence": "medium",
+      "description": "[conf=0.85] Federal Funds Effective Rate reported at 4.57% on February 1 [9], indicating a stable monetary policy environment that supports investor confidence."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.30000000000000004,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Stable unemployment rate at 3.6% reported on February 1 [1], contributing to positive market sentiment regarding economic stability.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"Federal Funds Effective Rate reported at 4.57% on February 1 [9], indicating a stable monetary policy environment that supports investor confidence.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 33],\n    \"description\": \"Fluctuation in the 10-Year Treasury Rate, rising to 3.74% on February 10 [33], may have pressured equity valuations, contributing to downward price pressure.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

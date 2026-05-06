@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-04-15",
+  "end_date": "2018-04-29",
+  "window_type": "monthly",
+  "price_change_pct": -2.3894825066182497,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_april_2018",
+      "category": "macroeconomic",
+      "direction": -0.7000000000000001,
+      "magnitude": 0.5445544554455446,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 2.8300 to 3.0300 during the window, indicating tighter monetary conditions that negatively impacted equity valuations [1, 3, 17]."
+    },
+    {
+      "name": "increased_market_volatility_april_2018",
+      "category": "market_sentiment",
+      "direction": -0.30000000000000004,
+      "magnitude": 0.24752475247524752,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index increased, reflecting heightened market uncertainty and contributing to downward pressure on stock prices [23, 45]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.20792079207920794,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_april_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 3, 17],\n    \"description\": \"The 10-Year Treasury Rate rose from 2.8300 to 3.0300 during the window, indicating tighter monetary conditions that negatively impacted equity valuations [1, 3, 17].\"\n  },\n  {\n    \"name\": \"increased_market_volatility_april_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [23, 45],\n    \"description\": \"The VIX Volatility Index increased, reflecting heightened market uncertainty and contributing to downward pressure on stock prices [23, 45].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

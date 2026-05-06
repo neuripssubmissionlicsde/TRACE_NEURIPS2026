@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": 0.6135524654742389,
+  "factors": [
+    {
+      "name": "ecb_rate_hike_25bps",
+      "category": "macroeconomic",
+      "direction": 0.32,
+      "magnitude": 0.54,
+      "persistence": "short",
+      "description": "[conf=0.85] The European Central Bank raised interest rates by 25bps, signaling a cautious approach to monetary tightening which positively influenced market sentiment [1]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.32,
+      "magnitude": 0.26,
+      "persistence": "medium",
+      "description": "[conf=0.75] The unemployment rate remained stable at 3.6%, contributing to a positive outlook on economic stability [15]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_rate_hike_25bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank raised interest rates by 25bps, signaling a cautious approach to monetary tightening which positively influenced market sentiment [1].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [15],\n    \"description\": \"The unemployment rate remained stable at 3.6%, contributing to a positive outlook on economic stability [15].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some stochastic price movements.\"\n  }\n]"
+}

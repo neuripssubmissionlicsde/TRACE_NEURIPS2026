@@ -1,0 +1,49 @@
+{
+  "start_date": "2022-12-18",
+  "end_date": "2023-01-01",
+  "window_type": "monthly",
+  "price_change_pct": 3.432329461579362,
+  "factors": [
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": 0.75,
+      "magnitude": 0.293398533007335,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive macroeconomic indicators during this period likely contributed to investor confidence."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": 0.6,
+      "magnitude": 0.19559902200489002,
+      "persistence": "short",
+      "description": "[conf=0.60] The financial sector showed strong performance, which may have positively influenced JPM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.8400000000000001,
+      "magnitude": 0.293398533007335,
+      "persistence": "short",
+      "description": "[conf=0.80] Overall bullish market sentiment during this period likely drove demand for JPM shares."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 0.8500000000000001,
+      "magnitude": 0.1100244498777506,
+      "persistence": "transient",
+      "description": "[conf=0.50] JPM's price movement may have triggered technical buying as it approached key resistance levels."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10757946210268948,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_conditions\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive macroeconomic indicators during this period likely contributed to investor confidence.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The financial sector showed strong performance, which may have positively influenced JPM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.8,\n        \"description\": \"Overall bullish market sentiment during this period likely drove demand for JPM shares.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"JPM's price movement may have triggered technical buying as it approached key resistance levels.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-01-19",
+  "end_date": "2020-02-02",
+  "window_type": "monthly",
+  "price_change_pct": 0.195186440632369,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"treasury_rate_fluctuation_january_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 5, 11, 13],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate during January 2020, particularly the drop from 1.7700 to 1.5100, may have influenced investor sentiment towards equities.\"\n  },\n  {\n    \"name\": \"vix_volatility_increase_january_2020\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [37, 49],\n    \"description\": \"An increase in the VIX Volatility Index from 12.8500 to 14.5600 indicated rising market uncertainty, potentially impacting JNJ's price stability.\"\n  },\n  {\n    \"name\": \"sec_filing_jnj_2020\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.10,\n    \"magnitude\": 0.10,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.65,\n    \"source_articles\": [1],\n    \"description\": \"The SEC filing by Johnson & Johnson on January 22 may have provided a slight positive sentiment among investors.\"\n  },\n  {\n    \"name\": \"market_sentiment_stability\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.10,\n    \"magnitude\": 0.10,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment remained stable during this period, contributing to a lack of significant price movement.\"\n  }\n]"
+}

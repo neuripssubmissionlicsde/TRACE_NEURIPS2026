@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": -5.946086378332026,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.36363636363636365,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "unemployment_rate_spike_april_2020",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.6363636363636365,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate surged to 13.2% in April 2020 [41], raising concerns about economic recovery and negatively impacting market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_rise_13.2%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42, 43, 44, 45, 46, 47, 48],\n    \"description\": \"The unemployment rate rose to 13.2% [41], signaling economic distress and negatively impacting market sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_fluctuation_0.64%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury Rate increased to 0.64% [9], indicating rising borrowing costs which can pressure equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

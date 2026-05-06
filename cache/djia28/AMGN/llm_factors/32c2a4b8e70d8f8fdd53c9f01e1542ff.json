@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-11-11",
+  "end_date": "2018-11-25",
+  "window_type": "monthly",
+  "price_change_pct": 0.13669519523026222,
+  "factors": [
+    {
+      "name": "stable_treasury_rates",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.36458333333333326,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 3.06% to 3.08% during this period, contributing to a favorable environment for equities [1][6][26]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6354166666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were minimal and lacked a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rates\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 6, 26],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 3.06% to 3.08% during this period, contributing to a favorable environment for equities [1][6][26].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were minimal and lacked a dominant driver.\"\n  }\n]"
+}

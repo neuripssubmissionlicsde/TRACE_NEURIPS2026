@@ -1,0 +1,57 @@
+{
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-22",
+  "window_type": "monthly",
+  "price_change_pct": 0.5794948213591629,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.30000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.70] Recent fluctuations in crude oil prices likely contributed to the movement in XOM's stock price."
+    },
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": -1.0,
+      "magnitude": 0.18000000000000005,
+      "persistence": "short",
+      "description": "[conf=0.60] Ongoing geopolitical tensions in oil-producing regions may have created bearish sentiment around energy stocks."
+    },
+    {
+      "name": "earnings_report_expectations",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.20000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.50] Anticipation of upcoming earnings reports could have led to bullish sentiment among investors."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.12000000000000001,
+      "persistence": "transient",
+      "description": "[conf=0.50] General positive market sentiment during this period may have supported XOM's price movement."
+    },
+    {
+      "name": "technical_support_levels",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.10000000000000002,
+      "persistence": "transient",
+      "description": "[conf=0.40] XOM's stock price may have bounced off key technical support levels, contributing to its upward movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10000000000000002,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading could account for some of the price movement."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Recent fluctuations in crude oil prices likely contributed to the movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Ongoing geopolitical tensions in oil-producing regions may have created bearish sentiment around energy stocks.\"\n    },\n    {\n        \"name\": \"earnings_report_expectations\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Anticipation of upcoming earnings reports could have led to bullish sentiment among investors.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"General positive market sentiment during this period may have supported XOM's price movement.\"\n    },\n    {\n        \"name\": \"technical_support_levels\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"XOM's stock price may have bounced off key technical support levels, contributing to its upward movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading could account for some of the price movement.\"\n    }\n]"
+}

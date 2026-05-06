@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-07-17",
+  "end_date": "2022-07-31",
+  "window_type": "monthly",
+  "price_change_pct": 2.6391384202514465,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": -0.07999999999999999,
+      "magnitude": 0.5842696629213483,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Federal Reserve raised its benchmark interest rate by 0.75%, which generally supports a stronger dollar and can lead to increased consumer spending, positively impacting stocks like KO."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4157303370786517,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve raised its benchmark interest rate by 0.75%, which generally supports a stronger dollar and can lead to increased consumer spending, positively impacting stocks like KO.\"\n  },\n  {\n    \"name\": \"ecb_rate_hike_50bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 18, 19],\n    \"description\": \"The European Central Bank raised interest rates by 0.5 percentage points, indicating a global tightening trend that can affect multinational companies like KO positively by stabilizing currency fluctuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

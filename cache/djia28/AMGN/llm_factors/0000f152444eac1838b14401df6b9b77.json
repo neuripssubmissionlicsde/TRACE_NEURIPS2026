@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-06-23",
+  "end_date": "2019-07-07",
+  "window_type": "monthly",
+  "price_change_pct": -0.06991226689369333,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_july_2019",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.35,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 2.0300 to 1.9600 during the window, indicating a flight to safety that generally supports equity prices [1, 6, 26]."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained stable at 2.4000, suggesting no immediate tightening, which can support market confidence [31]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_july_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 6, 26],\n    \"description\": \"The 10-Year Treasury yield declined from 2.0300 to 1.9600 during the window, indicating a flight to safety that generally supports equity prices [1, 6, 26].\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [31],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 2.4000, suggesting no immediate tightening, which can support market confidence [31].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

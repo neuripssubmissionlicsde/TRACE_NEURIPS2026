@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-01-06",
+  "end_date": "2019-01-20",
+  "window_type": "monthly",
+  "price_change_pct": 0.08410239119139326,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 33],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 2.75% during this period contributed to a positive sentiment in the market, supporting KO's price movement [1, 9, 33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver.\"\n  }\n]"
+}

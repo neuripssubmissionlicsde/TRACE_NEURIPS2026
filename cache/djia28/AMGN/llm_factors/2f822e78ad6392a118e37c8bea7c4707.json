@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-01-21",
+  "end_date": "2018-02-04",
+  "window_type": "monthly",
+  "price_change_pct": -1.4336524185737218,
+  "factors": [
+    {
+      "name": "strong_dollar_policy_change_indication",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.44000000000000006,
+      "persistence": "short",
+      "description": "[conf=0.85] Remarks by Treasury Secretary Mnuchin suggested a potential shift away from the longstanding strong dollar policy, leading to market uncertainty and a bearish sentiment for AMGN."
+    },
+    {
+      "name": "euro_strength_uncertainty",
+      "category": "geopolitical",
+      "direction": -0.4,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.75] Mario Draghi's comments on the euro's strength created uncertainty in the market, contributing to bearish sentiment around AMGN."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"strong_dollar_policy_change_indication\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 6],\n    \"description\": \"Remarks by Treasury Secretary Mnuchin suggested a potential shift away from the longstanding strong dollar policy, leading to market uncertainty and a bearish sentiment for AMGN.\"\n  },\n  {\n    \"name\": \"euro_strength_uncertainty\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"Mario Draghi's comments on the euro's strength created uncertainty in the market, contributing to bearish sentiment around AMGN.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

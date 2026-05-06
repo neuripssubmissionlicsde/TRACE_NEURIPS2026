@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-16",
+  "end_date": "2020-08-30",
+  "window_type": "monthly",
+  "price_change_pct": 5.670176055475954,
+  "factors": [
+    {
+      "name": "bank_of_korea_growth_forecast_cut",
+      "category": "macroeconomic",
+      "direction": -0.52,
+      "magnitude": 0.488262910798122,
+      "persistence": "short",
+      "description": "[conf=0.85] The Bank of Korea cut its growth forecast, indicating economic weakness which may have influenced investor sentiment negatively [1][21]."
+    },
+    {
+      "name": "ant_group_ipo_filing",
+      "category": "geopolitical",
+      "direction": 0.42500000000000004,
+      "magnitude": 0.3051643192488263,
+      "persistence": "transient",
+      "description": "[conf=0.75] Ant Group's IPO filing generated positive market sentiment, suggesting increased investor interest in growth sectors [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.20657276995305168,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_korea_growth_forecast_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 21],\n    \"description\": \"The Bank of Korea cut its growth forecast, indicating economic weakness which may have influenced investor sentiment negatively [1][21].\"\n  },\n  {\n    \"name\": \"ant_group_ipo_filing\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"Ant Group's IPO filing generated positive market sentiment, suggesting increased investor interest in growth sectors [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained market movements.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-12-09",
+  "end_date": "2018-12-23",
+  "window_type": "monthly",
+  "price_change_pct": -7.445614951260289,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_december_2018",
+      "category": "macroeconomic",
+      "direction": -0.525,
+      "magnitude": 0.5231143552311436,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 2.8900 to 2.7900 during the window, indicating a shift in investor sentiment towards safer assets, which negatively impacted HD's stock price [9][25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4768856447688565,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced high volatility and a significant price drop without clear single drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_december_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury yield declined from 2.8900 to 2.7900 during the window, indicating a shift in investor sentiment towards safer assets, which negatively impacted HD's stock price [9][25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced high volatility and a significant price drop without clear single drivers.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-06-10",
+  "end_date": "2018-06-24",
+  "window_type": "monthly",
+  "price_change_pct": -0.7162705014858758,
+  "factors": [
+    {
+      "name": "euro_decline_ecb_announcement",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.45180722891566266,
+      "persistence": "short",
+      "description": "[conf=0.85] The euro fell by one percent following the ECB's announcement to halve bond purchases, which likely contributed to a bearish sentiment affecting KO's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3072289156626506,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver."
+    },
+    {
+      "name": "north_korea_us_summit_aftermath",
+      "category": "geopolitical",
+      "direction": -0.26666666666666666,
+      "magnitude": 0.24096385542168675,
+      "persistence": "transient",
+      "description": "[conf=0.75] The aftermath of the North Korea\u2013United States summit created uncertainty in geopolitical relations, contributing to negative market sentiment [16]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"euro_decline_ecb_announcement\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The euro fell by one percent following the ECB's announcement to halve bond purchases, which likely contributed to a bearish sentiment affecting KO's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver.\"\n  }\n]"
+}

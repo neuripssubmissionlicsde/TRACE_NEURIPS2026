@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": -0.18095329857287007,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_3.76",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4910714285714286,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 3.76% on July 13 [33] contributed to a more favorable borrowing environment, positively impacting investor sentiment towards equities like AXP [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5089285714285714,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_3.76\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.76% on July 13 [33] contributed to a more favorable borrowing environment, positively impacting investor sentiment towards equities like AXP [41].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_4.06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 4.06% on July 7 [25] created concerns over rising borrowing costs, negatively impacting AXP's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period.\"\n  }\n]"
+}

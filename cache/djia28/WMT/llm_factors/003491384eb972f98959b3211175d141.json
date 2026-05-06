@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-06-23",
+  "end_date": "2019-07-07",
+  "window_type": "monthly",
+  "price_change_pct": 0.4395329879870359,
+  "factors": [
+    {
+      "name": "declining_10y_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5882352941176471,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 2.03% to 1.96% during the window, indicating lower borrowing costs and supporting equity valuations [1, 4, 7]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.41176470588235287,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10y_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 4, 7],\n    \"description\": \"The 10-Year Treasury Rate declined from 2.03% to 1.96% during the window, indicating lower borrowing costs and supporting equity valuations [1, 4, 7].\"\n  },\n  {\n    \"name\": \"stable_consumer_price_index\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [34],\n    \"description\": \"The Consumer Price Index remained stable at 255.8020, suggesting no immediate inflationary pressures that could negatively impact consumer spending [34].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

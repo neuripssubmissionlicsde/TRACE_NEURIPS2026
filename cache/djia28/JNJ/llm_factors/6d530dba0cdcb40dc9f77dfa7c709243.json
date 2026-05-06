@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": -0.7978333544071134,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7058823529411764,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news directly impacted JNJ's price during this period."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.29411764705882354,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate rose to 2.90% by April 22, contributing to bearish sentiment in the equity markets [5, 13, 15]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.80,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news directly impacted JNJ's price during this period.\"\n  },\n  {\n    \"name\": \"sec_filing_impact\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"The SEC filing on April 19 may have contributed to a slight bearish sentiment as investors reacted to regulatory disclosures [1].\"\n  }\n]"
+}

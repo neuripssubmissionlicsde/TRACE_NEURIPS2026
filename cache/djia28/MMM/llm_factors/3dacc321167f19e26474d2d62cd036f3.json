@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-01-06",
+  "end_date": "2019-01-20",
+  "window_type": "monthly",
+  "price_change_pct": 2.351589668364757,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.7400 to 2.7900 during the window, indicating rising interest rates which typically support financial sector stocks like MMM [1, 9, 17].\"\n  },\n  {\n    \"name\": \"market_sentiment_improvement\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment improved during this period, contributing to upward price movement despite no specific news articles detailing this.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating stochastic price movements.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-03-31",
+  "end_date": "2019-04-14",
+  "window_type": "monthly",
+  "price_change_pct": 1.5437799954582951,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4937027707808564,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 2.4200, contributing to a positive sentiment in the market as investors anticipated continued economic growth [1]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.26448362720403024,
+      "persistence": "long",
+      "description": "[conf=0.80] The unemployment rate held steady at 3.7%, indicating a robust labor market which supported investor confidence [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24181360201511334,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 2.4200, contributing to a positive sentiment in the market as investors anticipated continued economic growth [1].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 26, 27],\n    \"description\": \"The unemployment rate held steady at 3.7%, indicating a robust labor market which supported investor confidence [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

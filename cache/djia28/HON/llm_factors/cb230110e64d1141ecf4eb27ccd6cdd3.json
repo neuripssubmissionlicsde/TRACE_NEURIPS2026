@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-09-27",
+  "end_date": "2020-10-11",
+  "window_type": "monthly",
+  "price_change_pct": 6.044748895346775,
+  "factors": [
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.4983388704318937,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.09%, indicating accommodative monetary policy which supported investor confidence [9][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21926910299003324,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.28239202657807305,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate from 0.81% to 0.79% indicated lower long-term borrowing costs, which positively influenced investor sentiment [17][49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.09%, indicating accommodative monetary policy which supported investor confidence [9][41].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The unemployment rate held steady at 6.9%, suggesting a stabilization in the labor market which may have positively influenced market sentiment [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

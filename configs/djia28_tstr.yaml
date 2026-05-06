@@ -1,0 +1,60 @@
+# TSTR-only re-run for DJIA-28 (DJIA-28)
+# Skips TimeGAN training (checkpoints already in results/benchmark/timegan/checkpoints/)
+# and jumps straight to TSTR evaluation in newco312 (numpy 2.2 / numpy.trapezoid OK)
+
+tickers:
+  - AAPL
+  - MSFT
+  - JPM
+  - XOM
+  - JNJ
+  - WMT
+  - CAT
+  - AMGN
+  - AMZN
+  - AXP
+  - BA
+  - CRM
+  - CSCO
+  - CVX
+  - DIS
+  - GS
+  - HD
+  - HON
+  - IBM
+  - KO
+  - MCD
+  - MMM
+  - MRK
+  - NKE
+  - PG
+  - TRV
+  - UNH
+  - V
+
+train_start: "2018-01-01"
+train_end:   "2023-12-31"
+output_dir:  "djia28"
+seed: 42
+
+timegan:
+  seq_len: 24
+  hidden_dim: 24
+  embedding_epochs: 600
+  supervised_epochs: 600
+  joint_epochs: 600
+  batch_size: 128
+  device: "auto"
+
+tstr:
+  n_lags: 10
+  epochs: 100
+  n_runs: 3
+  vol_window: 20
+
+benchmark:
+  output_dir: "results/benchmark"
+  skip_timegan: true   # checkpoints already exist — skip re-training
+
+generation:
+  n_samples: 10

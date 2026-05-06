@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": -2.595952070390927,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.2506265664160401,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.6%, indicating a resilient labor market which may have supported consumer confidence [1-8]."
+    },
+    {
+      "name": "consumer_price_index_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.2506265664160401,
+      "persistence": "short",
+      "description": "[conf=0.80] The Consumer Price Index remained stable, suggesting no immediate inflationary pressures that could impact consumer spending [9-16]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2105263157894737,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "treasury_rate_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.2882205513784461,
+      "persistence": "short",
+      "description": "[conf=0.85] Fluctuations in the 10-Year Treasury Rate, particularly a drop from 3.83% to 3.69%, may have negatively impacted investor sentiment towards equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.6%, indicating a resilient labor market which may have supported consumer confidence [1-8].\"\n  },\n  {\n    \"name\": \"consumer_price_index_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The Consumer Price Index remained stable, suggesting no immediate inflationary pressures that could impact consumer spending [9-16].\"\n  },\n  {\n    \"name\": \"treasury_rate_fluctuations\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.30,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25, 41, 49],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, particularly the rise to 3.83% on May 25, may have contributed to bearish sentiment in the market [17, 25, 41, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

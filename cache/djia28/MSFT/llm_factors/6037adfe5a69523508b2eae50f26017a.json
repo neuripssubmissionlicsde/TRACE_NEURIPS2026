@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-04-29",
+  "end_date": "2018-05-13",
+  "window_type": "monthly",
+  "price_change_pct": 1.4221797834535521,
+  "factors": [
+    {
+      "name": "earnings_report",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.4000000000000001,
+      "persistence": "short",
+      "description": "[conf=0.70] The upcoming earnings report likely generated bullish sentiment as investors anticipated positive results."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.30000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.60] General positive market sentiment during this period contributed to upward price movement."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.20000000000000004,
+      "persistence": "transient",
+      "description": "[conf=0.50] The stock may have experienced a technical breakout above a resistance level, attracting momentum traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10000000000000002,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume contributed to unexplained price variance."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"earnings_report\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The upcoming earnings report likely generated bullish sentiment as investors anticipated positive results.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General positive market sentiment during this period contributed to upward price movement.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"The stock may have experienced a technical breakout above a resistance level, attracting momentum traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume contributed to unexplained price variance.\"\n    }\n]"
+}

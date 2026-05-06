@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-10-22",
+  "end_date": "2023-11-05",
+  "window_type": "monthly",
+  "price_change_pct": 9.139535992346572,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22297297297297297,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "treasury_rate_decline_2023_11_03",
+      "category": "macroeconomic",
+      "direction": 0.7333333333333334,
+      "magnitude": 0.5236486486486486,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate declined to 4.5700 on 2023-11-03, which likely boosted investor sentiment and contributed to the price increase of MMM."
+    },
+    {
+      "name": "treasury_rate_stability_2023_10_27",
+      "category": "macroeconomic",
+      "direction": 0.3666666666666667,
+      "magnitude": 0.25337837837837834,
+      "persistence": "medium",
+      "description": "[conf=0.85] The stability of the 10-Year Treasury Rate around 4.8400 on 2023-10-27 provided a favorable environment for equities, supporting MMM's price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2023_nov_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [41, 42, 43],\n    \"description\": \"The 10-Year Treasury Rate declined to 4.5700 on November 3, 2023, which likely boosted investor sentiment and equity valuations.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_2023_oct_27\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 25],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 4.8400 on October 27, 2023, contributed to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

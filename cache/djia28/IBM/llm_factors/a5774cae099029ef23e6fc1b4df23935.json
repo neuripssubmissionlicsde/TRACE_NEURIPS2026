@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-10-13",
+  "end_date": "2019-10-27",
+  "window_type": "monthly",
+  "price_change_pct": -4.827489237503511,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5614035087719298,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly explain the price decline."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": -0.4375,
+      "magnitude": 0.4385964912280702,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 1.76% during this period, contributing to a bearish sentiment in the market [1, 9, 17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.45,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.76% during this period, contributing to a bearish sentiment in the market [1, 9, 17].\"\n  }\n]"
+}

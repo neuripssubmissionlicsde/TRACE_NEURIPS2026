@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-04-28",
+  "end_date": "2019-05-12",
+  "window_type": "monthly",
+  "price_change_pct": 2.089004060808868,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.28027681660899656,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.6% on 2019-05-01, contributing to positive sentiment in the market [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.47750865051903113,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "chinese_stock_market_decline",
+      "category": "geopolitical",
+      "direction": -0.4666666666666666,
+      "magnitude": 0.2422145328719723,
+      "persistence": "transient",
+      "description": "[conf=0.75] Chinese stocks fell sharply due to U.S. tariff threats, impacting global market sentiment [33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The unemployment rate remained stable at 3.6% on 2019-05-01, contributing to positive sentiment in the market [1].\"\n  },\n  {\n    \"name\": \"trade_tensions_escalation\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.90,\n    \"source_articles\": [33],\n    \"description\": \"Escalating trade tensions between the U.S. and China led to significant declines in Chinese stocks, impacting overall market sentiment negatively [33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

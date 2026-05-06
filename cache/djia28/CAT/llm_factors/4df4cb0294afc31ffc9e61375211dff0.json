@@ -1,0 +1,17 @@
+{
+  "start_date": "2018-11-25",
+  "end_date": "2018-12-09",
+  "window_type": "monthly",
+  "price_change_pct": -0.08087766398999098,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2.85\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [29, 30],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.85% on 2018-12-07 contributed to a bullish sentiment in the market, as lower rates typically support equity valuations.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability_3.9\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [37, 38],\n    \"description\": \"The stable unemployment rate at 3.9% reported on 2018-12-01 indicated a strong labor market, supporting investor confidence and contributing to price stability.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

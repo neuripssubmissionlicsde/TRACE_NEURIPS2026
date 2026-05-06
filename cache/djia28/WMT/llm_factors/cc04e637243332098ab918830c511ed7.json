@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-05-09",
+  "end_date": "2021-05-23",
+  "window_type": "monthly",
+  "price_change_pct": 0.9256170450590196,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6458333333333334,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    },
+    {
+      "name": "stable_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.26,
+      "magnitude": 0.35416666666666663,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 1.6300 during the period, contributing to a favorable environment for equities [1, 4, 10]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"stable_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 4, 10],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.6300 during the period, contributing to a favorable environment for equities [1, 4, 10].\"\n  },\n  {\n    \"name\": \"intra_window_drawdown\",\n    \"category\": \"technical\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The maximum intra-window drawdown of 3.4% indicates some selling pressure, reflecting market volatility and uncertainty.\"\n  }\n]"
+}

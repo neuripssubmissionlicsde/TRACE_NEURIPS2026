@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-11-07",
+  "end_date": "2021-11-21",
+  "window_type": "monthly",
+  "price_change_pct": 4.3519622817000645,
+  "factors": [
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.45918367346938777,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 1.6300 to 1.6000 on November 17 contributed to a bullish sentiment for AMZN as lower yields typically support higher equity valuations [9, 25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5408163265306123,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited characteristics of market noise with no clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.6300 to 1.6000 on November 17 contributed to a bullish sentiment for AMZN as lower yields typically support higher equity valuations [9, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited characteristics of market noise with no clear dominant driver.\"\n  }\n]"
+}

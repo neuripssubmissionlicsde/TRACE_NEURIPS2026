@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-12-20",
+  "end_date": "2021-01-03",
+  "window_type": "monthly",
+  "price_change_pct": 0.6296307057887196,
+  "factors": [
+    {
+      "name": "eu_china_investment_deal",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.42352941176470593,
+      "persistence": "medium",
+      "description": "[conf=0.85] The EU's announcement of a potential investment deal with China boosted market sentiment, positively impacting CSCO's price as it suggested improved global economic conditions [49][50]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5764705882352941,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market fluctuations during the holiday period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"eu_china_investment_deal\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The EU's announcement of a potential investment deal with China boosted market sentiment, positively impacting CSCO's price as it suggested improved global economic conditions [49][50].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market fluctuations during the holiday period.\"\n  }\n]"
+}

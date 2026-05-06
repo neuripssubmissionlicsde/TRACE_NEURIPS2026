@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-02-14",
+  "end_date": "2021-02-28",
+  "window_type": "monthly",
+  "price_change_pct": -10.97710617126188,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_february_2021",
+      "category": "macroeconomic",
+      "direction": -0.6599999999999999,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose significantly during this period, reaching 1.5400 on February 25, which typically pressures equity valuations and contributed to the decline in WMT's stock price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_february_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [10, 13, 19],\n    \"description\": \"The 10-Year Treasury yield rose significantly during this period, reaching 1.5400 on February 25, which typically pressures equity valuations and contributed to the decline in WMT's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver.\"\n  }\n]"
+}

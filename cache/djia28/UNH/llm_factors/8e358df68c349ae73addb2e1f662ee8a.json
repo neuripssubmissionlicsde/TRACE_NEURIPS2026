@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": 5.004359955423377,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "ecb_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": 0.16666666666666666,
+      "magnitude": 0.5333333333333333,
+      "persistence": "medium",
+      "description": "[conf=0.85] The European Central Bank raised interest rates for the 10th time to combat high inflation, which positively influenced market sentiment towards healthcare stocks like UNH [1]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.26666666666666666,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate rose to 4.49% on September 21, which typically pressures healthcare stocks due to increased borrowing costs [47]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_interest_rate_hike_10th_time\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank raised interest rates for the 10th time to combat high inflation, which positively influenced market sentiment towards healthcare stocks like UNH [1].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [23, 47],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.49% on September 21, which typically pressures healthcare stocks due to increased borrowing costs [47].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

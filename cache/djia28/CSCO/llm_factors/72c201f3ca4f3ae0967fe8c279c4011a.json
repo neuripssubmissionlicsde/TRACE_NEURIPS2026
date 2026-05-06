@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-10-23",
+  "end_date": "2022-11-06",
+  "window_type": "monthly",
+  "price_change_pct": 3.246769055299049,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": -0.78,
+      "magnitude": 0.5314009661835748,
+      "persistence": "medium",
+      "description": "[conf=0.95] The Federal Reserve raised its benchmark interest rate by 0.75 percentage points, signaling tighter monetary policy which typically pressures equity valuations [1]."
+    },
+    {
+      "name": "bank_of_england_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.1875,
+      "magnitude": 0.1690821256038647,
+      "persistence": "medium",
+      "description": "[conf=0.80] The Bank of England also raised its interest rates by 0.75 percentage points, contributing to global tightening sentiment [11]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.29951690821256033,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve raised its benchmark interest rate by 0.75 percentage points, signaling tighter monetary policy which typically pressures equity valuations [1].\"\n  },\n  {\n    \"name\": \"bank_of_england_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [11, 12],\n    \"description\": \"The Bank of England also raised its interest rates by 0.75 percentage points, contributing to global tightening sentiment [11].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

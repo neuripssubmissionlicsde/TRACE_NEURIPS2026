@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-11-21",
+  "end_date": "2021-12-05",
+  "window_type": "monthly",
+  "price_change_pct": -2.1391426420181223,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4943820224719101,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility and drawdowns without a clear dominant driver."
+    },
+    {
+      "name": "treasury_rate_decline_2021_dec",
+      "category": "macroeconomic",
+      "direction": -0.16666666666666666,
+      "magnitude": 0.5056179775280898,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 1.3500 on December 3, 2021, contributed to bearish sentiment in the market, impacting GS's price negatively [33][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_yield_decline_2021_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 41],\n    \"description\": \"The 10-Year Treasury yield declined from 1.4400 to 1.3500 during the window, contributing to bearish sentiment in equity markets [33][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility and drawdowns without a clear dominant driver.\"\n  }\n]"
+}

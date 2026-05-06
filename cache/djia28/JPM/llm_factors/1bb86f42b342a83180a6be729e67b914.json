@@ -1,0 +1,49 @@
+{
+  "start_date": "2019-02-17",
+  "end_date": "2019-03-03",
+  "window_type": "monthly",
+  "price_change_pct": -0.45753405021995064,
+  "factors": [
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3125,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over economic growth and interest rate changes may have negatively impacted investor sentiment."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.38,
+      "magnitude": 0.22916666666666666,
+      "persistence": "transient",
+      "description": "[conf=0.50] General market sentiment was cautious, leading to selling pressure on financial stocks."
+    },
+    {
+      "name": "technical_indicators",
+      "category": "technical",
+      "direction": -0.24000000000000005,
+      "magnitude": 0.16666666666666669,
+      "persistence": "transient",
+      "description": "[conf=0.40] Technical indicators suggested overbought conditions, prompting profit-taking."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.13333333333333333,
+      "magnitude": 0.10416666666666669,
+      "persistence": "short",
+      "description": "[conf=0.40] Liquidity in the market was tightening, which may have contributed to downward price pressure."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.1875,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_conditions\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over economic growth and interest rate changes may have negatively impacted investor sentiment.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The financial sector faced headwinds due to regulatory concerns and market volatility.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"General market sentiment was cautious, leading to selling pressure on financial stocks.\"\n    },\n    {\n        \"name\": \"technical_indicators\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Technical indicators suggested overbought conditions, prompting profit-taking.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.4,\n        \"description\": \"Liquidity in the market was tightening, which may have contributed to downward price pressure.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    },\n    {\n        \"name\": \"consolidation\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"The stock exhibited range-bound behavior, indicating a period of consolidation.\"\n    }\n]"
+}

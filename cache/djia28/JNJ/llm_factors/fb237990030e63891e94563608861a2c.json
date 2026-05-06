@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-01-01",
+  "end_date": "2023-01-15",
+  "window_type": "monthly",
+  "price_change_pct": -1.549714103434266,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_january_2023",
+      "category": "macroeconomic",
+      "direction": -0.675,
+      "magnitude": 0.5486284289276808,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate increased from 3.4300 to 3.4900 during the window, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations [3, 5, 9]."
+    },
+    {
+      "name": "increased_market_volatility_january_2023",
+      "category": "market_sentiment",
+      "direction": -0.325,
+      "magnitude": 0.26184538653366585,
+      "persistence": "transient",
+      "description": "[conf=0.80] The VIX Volatility Index rose from 22.9000 to 18.3500, indicating increased market uncertainty and contributing to downward pressure on JNJ's price [27, 29]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.18952618453865339,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_january_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.75,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [3, 5, 9],\n    \"description\": \"The 10-Year Treasury Rate increased from 3.4300 to 3.4900 during the window, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations [3, 5, 9].\"\n  },\n  {\n    \"name\": \"increased_market_volatility_january_2023\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [27, 29],\n    \"description\": \"The VIX Volatility Index rose from 22.9000 to 18.3500, indicating increased market uncertainty and contributing to downward pressure on JNJ's price [27, 29].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

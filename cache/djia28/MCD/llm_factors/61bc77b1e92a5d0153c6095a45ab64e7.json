@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-12-06",
+  "end_date": "2020-12-20",
+  "window_type": "monthly",
+  "price_change_pct": 3.141057551878005,
+  "factors": [
+    {
+      "name": "brexit_internal_market_bill",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.35,
+      "persistence": "short",
+      "description": "[conf=0.80] The Internal Market Bill related to Brexit created optimism about trade stability, positively impacting market sentiment for companies like McDonald's [9]."
+    },
+    {
+      "name": "stable_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.75] The stable 10-Year Treasury Rate at 0.92% during this period contributed to a favorable borrowing environment, supporting equity valuations [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"brexit_internal_market_bill\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The Internal Market Bill related to Brexit created optimism about trade stability, positively impacting market sentiment for companies like McDonald's [9].\"\n  },\n  {\n    \"name\": \"stable_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 40],\n    \"description\": \"The stable 10-Year Treasury Rate at 0.92% during this period contributed to a favorable borrowing environment, supporting equity valuations [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

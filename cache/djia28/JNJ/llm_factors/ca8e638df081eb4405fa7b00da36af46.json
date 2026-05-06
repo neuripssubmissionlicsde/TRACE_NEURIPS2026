@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-15",
+  "end_date": "2020-03-29",
+  "window_type": "monthly",
+  "price_change_pct": -0.3317746335201138,
+  "factors": [
+    {
+      "name": "fed_rate_cut_100bps",
+      "category": "macroeconomic",
+      "direction": 0.52,
+      "magnitude": 0.3909774436090226,
+      "persistence": "short",
+      "description": "[conf=0.90] The Fed's emergency rate cut of 100bps and a $700 billion quantitative easing program aimed to stabilize markets [1, 2], providing a temporary bullish sentiment."
+    },
+    {
+      "name": "global_market_selloff",
+      "category": "geopolitical",
+      "direction": -0.575,
+      "magnitude": 0.3884711779448622,
+      "persistence": "short",
+      "description": "[conf=0.85] Substantial declines in Asian and European markets triggered by the Fed's actions led to a bearish sentiment in the U.S. markets [3, 4]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2205513784461153,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_100bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2],\n    \"description\": \"The Fed's emergency rate cut of 100bps and a $700 billion quantitative easing program aimed to stabilize markets [1, 2], providing a temporary bullish sentiment.\"\n  },\n  {\n    \"name\": \"global_market_selloff\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [3, 4],\n    \"description\": \"Substantial declines in Asian and European markets triggered by the Fed's actions led to a bearish sentiment in the U.S. markets [3, 4].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty during this period.\"\n  }\n]"
+}

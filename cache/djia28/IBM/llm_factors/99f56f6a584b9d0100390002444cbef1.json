@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-04-24",
+  "end_date": "2022-05-08",
+  "window_type": "monthly",
+  "price_change_pct": 0.05815600035309086,
+  "factors": [
+    {
+      "name": "fed_rate_hike_50bps",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Federal Reserve raised interest rates by 0.5%, the largest hike since 2000, to combat inflation, leading to negative sentiment in equity markets [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minimal and lacked a clear directional trend."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_50bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve raised interest rates by 0.5%, the largest hike since 2000, to combat inflation, leading to negative sentiment in equity markets [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minimal and lacked a clear directional trend.\"\n  }\n]"
+}

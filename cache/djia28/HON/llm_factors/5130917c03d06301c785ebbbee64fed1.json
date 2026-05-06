@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-16",
+  "end_date": "2020-08-30",
+  "window_type": "monthly",
+  "price_change_pct": 5.217769045799456,
+  "factors": [
+    {
+      "name": "bank_of_korea_growth_forecast_cut",
+      "category": "macroeconomic",
+      "direction": -0.52,
+      "magnitude": 0.503562945368171,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Bank of Korea cut its growth forecast, indicating economic weakness which negatively impacted market sentiment [1][2][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24703087885985744,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "10_year_treasury_rate_increase",
+      "category": "macroeconomic",
+      "direction": -0.325,
+      "magnitude": 0.24940617577197152,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-year Treasury rate from 0.6400 to 0.7400 during the period indicated rising borrowing costs, which may have pressured equity valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_korea_growth_forecast_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Bank of Korea cut its growth forecast, indicating economic weakness which negatively impacted market sentiment [1][2][3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

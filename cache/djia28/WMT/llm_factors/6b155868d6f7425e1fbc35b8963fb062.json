@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": 6.040906525385245,
+  "factors": [
+    {
+      "name": "fed_rate_cut_50bps",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.53,
+      "persistence": "short",
+      "description": "[conf=0.90] The Fed cut the federal funds rate by 0.5% in an emergency move, which generally supports equity prices [7][8][9]."
+    },
+    {
+      "name": "market_selloff_due_to_coronavirus",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.85] Major U.S. indexes fell sharply due to fears surrounding the coronavirus, leading to increased volatility and selling pressure [10][11][12][49][50]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_50bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [7, 8, 9],\n    \"description\": \"The Fed cut the federal funds rate by 0.5% in an emergency move, which generally supports equity prices [7][8][9].\"\n  },\n  {\n    \"name\": \"market_selloff_due_to_coronavirus\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [10, 11, 12, 49, 50],\n    \"description\": \"Major U.S. indexes fell sharply due to fears surrounding the coronavirus, leading to increased volatility and selling pressure [10][11][12][49][50].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

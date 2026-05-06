@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": -1.7003288748808767,
+  "factors": [
+    {
+      "name": "fdic_seizure_first_republic_bank",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.49000000000000005,
+      "persistence": "transient",
+      "description": "[conf=0.85] The FDIC's seizure of First Republic Bank and subsequent acquisition by JPMorgan Chase raised concerns about banking stability, negatively impacting market sentiment [11][19]."
+    },
+    {
+      "name": "ecb_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.43999999999999995,
+      "magnitude": 0.27,
+      "persistence": "medium",
+      "description": "[conf=0.80] The European Central Bank's decision to raise interest rates by a quarter percentage point contributed to a tightening monetary environment, affecting investor sentiment towards equities [1][10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fdic_seizure_first_republic_bank\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [11, 19],\n    \"description\": \"The FDIC's seizure of First Republic Bank and subsequent acquisition by JPMorgan Chase raised concerns about banking stability, negatively impacting market sentiment [11][19].\"\n  },\n  {\n    \"name\": \"ecb_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 10],\n    \"description\": \"The European Central Bank's decision to raise interest rates by a quarter percentage point contributed to a tightening monetary environment, affecting investor sentiment towards equities [1][10].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty during the period.\"\n  }\n]"
+}

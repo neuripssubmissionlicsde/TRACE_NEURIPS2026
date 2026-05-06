@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": 3.334931457796167,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_17.48\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17],\n    \"description\": \"The VIX declined to 17.48 on June 2, indicating reduced market volatility and contributing to a bullish sentiment for equities.\"\n  },\n  {\n    \"name\": \"vix_decline_16.74\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25],\n    \"description\": \"The VIX fell to 16.74 on May 27, further supporting a bullish market environment as investor fear decreased.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-03-26",
+  "end_date": "2023-04-09",
+  "window_type": "monthly",
+  "price_change_pct": -0.6456549911845217,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.4%, contributing to positive market sentiment regarding economic stability [1]."
+    },
+    {
+      "name": "treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.275,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 3.3% on April 5 indicated easing financial conditions, which may have supported equity valuations [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.4%, contributing to positive market sentiment regarding economic stability [1].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 41, 42],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.3% on April 5 indicated easing financial conditions, which may have supported equity valuations [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

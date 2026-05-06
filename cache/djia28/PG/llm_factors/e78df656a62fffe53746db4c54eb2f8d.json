@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-02-17",
+  "end_date": "2019-03-03",
+  "window_type": "monthly",
+  "price_change_pct": -0.12172734026600528,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minimal and lacked clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minimal and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.8,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 2.73% to 2.76% during this period, contributing to a lack of significant market movement.\"\n  }\n]"
+}

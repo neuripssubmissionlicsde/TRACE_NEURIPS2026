@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-07-03",
+  "end_date": "2022-07-17",
+  "window_type": "monthly",
+  "price_change_pct": -2.6176482526092864,
+  "factors": [
+    {
+      "name": "bank_of_canada_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.8,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Bank of Canada raised its benchmark interest rate from 1.5% to 2.5%, the largest increase since 1998, amid surging inflation, which likely contributed to bearish sentiment in the market."
+    },
+    {
+      "name": "south_korea_inflation_record",
+      "category": "macroeconomic",
+      "direction": -0.48,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] South Korea's inflation reached a 24-year record, raising concerns about global inflationary pressures and impacting investor sentiment negatively."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_canada_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 4, 10],\n    \"description\": \"The Bank of Canada raised its benchmark interest rate from 1.5% to 2.5%, the largest increase since 1998, amid surging inflation, which likely contributed to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"south_korea_inflation_record\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [31, 35],\n    \"description\": \"South Korea's inflation reached a 24-year record, raising concerns about global inflationary pressures and impacting investor sentiment negatively.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

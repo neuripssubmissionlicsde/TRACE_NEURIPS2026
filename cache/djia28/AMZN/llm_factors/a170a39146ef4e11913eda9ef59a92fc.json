@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-11-25",
+  "end_date": "2018-12-09",
+  "window_type": "monthly",
+  "price_change_pct": 5.856400809439628,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4565217391304348,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market exhibited high volatility and a significant price range."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5434782608695652,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 3.0600 to 2.8500 [41, 49] likely boosted investor sentiment towards equities, including AMZN."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 49],\n    \"description\": \"The 10-Year Treasury yield declined from 3.0700 to 2.8500 during the window, which typically supports equity valuations and investor sentiment [41][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market exhibited high volatility and a significant price range.\"\n  }\n]"
+}

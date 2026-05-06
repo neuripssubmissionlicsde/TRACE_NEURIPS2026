@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": 0.4195671321351585,
+  "factors": [
+    {
+      "name": "fdic_seizure_first_republic_bank",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.85] The FDIC's seizure of First Republic Bank raised concerns about financial stability, leading to a bearish sentiment in the market [25]."
+    },
+    {
+      "name": "european_central_bank_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.80] The European Central Bank's decision to raise interest rates contributed to a tightening financial environment, impacting investor sentiment [34]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fdic_seizure_first_republic_bank\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26, 27],\n    \"description\": \"The FDIC's seizure of First Republic Bank raised concerns about financial stability, leading to a bearish sentiment in the market [25].\"\n  },\n  {\n    \"name\": \"european_central_bank_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [34, 35, 36],\n    \"description\": \"The European Central Bank's decision to raise interest rates contributed to a tightening financial environment, impacting investor sentiment [34].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

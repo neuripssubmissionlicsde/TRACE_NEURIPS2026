@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-07-21",
+  "end_date": "2019-08-04",
+  "window_type": "monthly",
+  "price_change_pct": -4.119170090022913,
+  "factors": [
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 2.08% to 1.86% during the window indicated a shift in investor sentiment towards lower growth expectations, contributing to bearish pressure on WMT's stock."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [4, 10, 28],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 2.08% to 1.86% during the window indicated a shift in investor sentiment towards lower growth expectations, contributing to bearish pressure on WMT's stock.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": -4.947384184510288,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "long",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 1.5500, indicating no immediate monetary policy changes that could influence market sentiment [1][9]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "long",
+      "description": "[conf=0.85] The unemployment rate held steady at 3.6%, suggesting a stable labor market that did not contribute to significant market movements [9]."
+    },
+    {
+      "name": "treasury_yield_fluctuations",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.29000000000000004,
+      "persistence": "medium",
+      "description": "[conf=0.75] Fluctuations in the 10-Year Treasury Rate, which rose from 1.7600 to 1.8400 during the period, likely contributed to bearish sentiment in the equity markets [17][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21000000000000002,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.5500, indicating no immediate monetary policy changes that could influence market sentiment [1][9].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9],\n    \"description\": \"The unemployment rate held steady at 3.6%, suggesting a stable labor market that did not contribute to significant market movements [9].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuations\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 41],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, which rose from 1.7600 to 1.8400 during the period, likely contributed to bearish sentiment in the equity markets [17][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

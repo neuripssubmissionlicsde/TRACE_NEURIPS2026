@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-10-11",
+  "end_date": "2020-10-25",
+  "window_type": "monthly",
+  "price_change_pct": -0.6294188687665836,
+  "factors": [
+    {
+      "name": "south_korea_easing_restrictions",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.3884711779448621,
+      "persistence": "transient",
+      "description": "[conf=0.85] South Korea announced easing of social distancing rules, which may have positively influenced market sentiment and consumer behavior [16][19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6115288220551379,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"south_korea_easing_restrictions\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [16, 19],\n    \"description\": \"South Korea announced easing of social distancing rules, which may have positively influenced market sentiment and consumer behavior [16][19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in the market.\"\n  }\n]"
+}

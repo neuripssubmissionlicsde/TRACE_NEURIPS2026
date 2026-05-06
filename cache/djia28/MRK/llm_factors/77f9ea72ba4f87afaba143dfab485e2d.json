@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-09-26",
+  "end_date": "2021-10-10",
+  "window_type": "monthly",
+  "price_change_pct": 9.68577405690381,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.56,
+      "magnitude": 0.34,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 4.5%, indicating a resilient labor market which likely supported investor confidence [1]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.22000000000000003,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield increased from 1.55% to 1.61%, reflecting market expectations of tighter monetary policy, which may have influenced MRK's price positively [9, 49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating unpredictable market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 4.5%, indicating a resilient labor market which likely supported investor confidence [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 49],\n    \"description\": \"The 10-Year Treasury yield increased from 1.55% to 1.61%, reflecting market expectations of tighter monetary policy, which may have influenced MRK's price positively [9, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating unpredictable market movements.\"\n  }\n]"
+}

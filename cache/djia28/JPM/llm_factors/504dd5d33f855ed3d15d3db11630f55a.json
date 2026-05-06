@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-08-05",
+  "end_date": "2018-08-19",
+  "window_type": "monthly",
+  "price_change_pct": -1.729595153337136,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.2962962962962963,
+      "persistence": "short",
+      "description": "[conf=0.70] General market sentiment was bearish during this period, contributing to the price decline."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.32499999999999996,
+      "magnitude": 0.2592592592592593,
+      "persistence": "short",
+      "description": "[conf=0.60] JPMorgan Chase faced some negative news regarding regulatory scrutiny, which may have influenced investor sentiment."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.22500000000000003,
+      "magnitude": 0.19753086419753088,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested a potential reversal, leading to selling pressure."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.2469135802469136,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations contributed to price changes that cannot be attributed to specific factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General market sentiment was bearish during this period, contributing to the price decline.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"JPMorgan Chase faced some negative news regarding regulatory scrutiny, which may have influenced investor sentiment.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested a potential reversal, leading to selling pressure.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations contributed to price changes that cannot be attributed to specific factors.\"\n    }\n]"
+}

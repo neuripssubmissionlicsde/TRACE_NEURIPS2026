@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-04-25",
+  "end_date": "2021-05-09",
+  "window_type": "monthly",
+  "price_change_pct": 0.02555428285898717,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5503597122302157,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver."
+    },
+    {
+      "name": "stable_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.44964028776978415,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable around 1.6300, supporting investor confidence in equities [1]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rate_1_6300\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 1.6300, indicating a favorable borrowing environment that supported equity valuations [1, 9].\"\n  },\n  {\n    \"name\": \"declining_treasury_rate_1_6000\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 49],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.6000 on May 7 suggested easing financial conditions, which likely contributed to positive sentiment in the equity markets [9, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver.\"\n  }\n]"
+}

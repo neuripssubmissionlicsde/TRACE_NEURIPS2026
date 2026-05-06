@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-04-11",
+  "end_date": "2021-04-25",
+  "window_type": "monthly",
+  "price_change_pct": 2.749994706626245,
+  "factors": [
+    {
+      "name": "vaccine_rollout_resume_europe",
+      "category": "company_specific",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The resumption of the Johnson & Johnson vaccine rollouts in Europe positively impacted investor sentiment and contributed to the price increase [27][28]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vaccine_rollout_resume_europe\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [27, 28],\n    \"description\": \"The resumption of the Johnson & Johnson vaccine rollouts in Europe positively impacted investor sentiment and contributed to the price increase [27][28].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market fluctuations.\"\n  }\n]"
+}

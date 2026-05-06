@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-03-14",
+  "end_date": "2021-03-28",
+  "window_type": "monthly",
+  "price_change_pct": -1.3028206234610724,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  },\n  {\n    \"name\": \"pope_francis_salary_cut_decree\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Pope Francis announced salary cuts for cardinals due to a financial deficit, which may have influenced market sentiment negatively [1, 2, 3].\"\n  },\n  {\n    \"name\": \"stable_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [10, 18],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 1.6300 during this period, indicating no significant macroeconomic shifts impacting CRM's price.\"\n  }\n]"
+}

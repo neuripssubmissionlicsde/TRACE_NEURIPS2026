@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": 2.0966983829544468,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6172839506172839,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    },
+    {
+      "name": "covid_impact_south_korea",
+      "category": "geopolitical",
+      "direction": 0.009999999999999998,
+      "magnitude": 0.38271604938271603,
+      "persistence": "short",
+      "description": "[conf=0.70] Ongoing COVID-19 pandemic in South Korea raised concerns about consumer behavior and economic recovery [29][30]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  },\n  {\n    \"name\": \"covid_impact_south_korea\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [29, 30],\n    \"description\": \"Ongoing COVID-19 pandemic in South Korea raised concerns about consumer behavior and economic recovery [29][30].\"\n  },\n  {\n    \"name\": \"russian_debt_rating_downgrade\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2],\n    \"description\": \"S&P's downgrade of Russian foreign debt to 'SD' created geopolitical uncertainty, impacting market sentiment [1][2].\"\n  },\n  {\n    \"name\": \"stable_treasury_rates\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [13, 21],\n    \"description\": \"Stable 10-Year Treasury rates at 2.85% provided a favorable environment for equities, supporting price stability [13][21].\"\n  }\n]"
+}

@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -4.447621027235151,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 4.0%, indicating a steady labor market which may have contributed to market sentiment."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The Federal Funds Effective Rate was stable at 1.69%, suggesting no immediate changes in monetary policy that could impact market valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "treasury_yield_fluctuations",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "medium",
+      "description": "[conf=0.85] Fluctuations in the 10-Year Treasury Rate, particularly a drop to 2.74%, may have influenced investor sentiment negatively, contributing to the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The unemployment rate remained stable at 4.0%, indicating a steady labor market which may have contributed to market sentiment.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [5, 6, 7, 8],\n    \"description\": \"The Federal Funds Effective Rate was stable at 1.69%, suggesting no immediate changes in monetary policy that could impact market valuations.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.30,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 13, 21],\n    \"description\": \"The 10-Year Treasury Rate fluctuated, peaking at 2.89% and then declining to 2.74%, which may have influenced investor sentiment negatively.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

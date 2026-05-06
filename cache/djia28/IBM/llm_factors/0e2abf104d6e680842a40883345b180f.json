@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": 1.6269233006871096,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.29752066115702475,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "treasury_rate_decline_1.56",
+      "category": "macroeconomic",
+      "direction": 0.55,
+      "magnitude": 0.37190082644628103,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 1.56% on June 4 supported equity valuations, contributing to IBM's price increase [9, 10, 49]."
+    },
+    {
+      "name": "treasury_rate_decline_1.62",
+      "category": "macroeconomic",
+      "direction": 0.4666666666666666,
+      "magnitude": 0.3305785123966942,
+      "persistence": "short",
+      "description": "[conf=0.85] The earlier decline in the 10-Year Treasury Rate to 1.62% on June 1 also contributed to positive market sentiment, supporting IBM's price movement [1][2][3]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2021_06_04\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.56% on June 4, 2021, likely boosted investor sentiment towards equities, including IBM.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_2021_05_25_to_2021_06_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"Stable Treasury rates around 1.62% during late May to early June provided a favorable environment for equities, supporting IBM's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

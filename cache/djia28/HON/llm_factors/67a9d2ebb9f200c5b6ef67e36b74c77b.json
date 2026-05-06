@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -9.468205983025745,
+  "factors": [
+    {
+      "name": "dow_correction_700_points",
+      "category": "macroeconomic",
+      "direction": -0.6499999999999999,
+      "magnitude": 0.6424581005586593,
+      "persistence": "short",
+      "description": "[conf=0.85] The Dow Jones Industrial Average entered correction territory after a significant drop of 700 points, reflecting broader market weakness that impacted HON's stock price [27]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.35754189944134074,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during a volatile period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_crash_fears\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 14],\n    \"description\": \"Global markets faced severe sell-offs due to fears of a market crash, with reports indicating a loss of $6 trillion in value over six days [14], contributing to HON's price decline.\"\n  },\n  {\n    \"name\": \"dow_correction_700_points\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [27],\n    \"description\": \"The Dow Jones Industrial Average entered correction territory after a significant drop of 700 points, reflecting broader market weakness that impacted HON's stock price [27].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during a volatile period.\"\n  }\n]"
+}

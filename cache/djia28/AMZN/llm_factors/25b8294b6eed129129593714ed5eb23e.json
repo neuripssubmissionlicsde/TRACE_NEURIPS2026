@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": -15.152875763878157,
+  "factors": [
+    {
+      "name": "cpi_release_august_2022",
+      "category": "macroeconomic",
+      "direction": -0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The release of the Bureau of Labor Statistics consumer price index for August showed higher inflation, leading to a significant drop in the Dow Jones Industrial Average and negatively impacting AMZN's stock price."
+    },
+    {
+      "name": "rising_treasury_yields_september_2022",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.29,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate to 3.69% on September 23 raised borrowing costs, contributing to downward pressure on AMZN's stock price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.15999999999999998,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_august_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The release of the Bureau of Labor Statistics consumer price index for August showed higher inflation, leading to a significant drop in the Dow Jones Industrial Average and negatively impacting AMZN's stock price.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_september_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [8, 40],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 3.69% on September 23 raised borrowing costs, contributing to downward pressure on AMZN's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

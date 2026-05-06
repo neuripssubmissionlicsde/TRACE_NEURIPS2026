@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -0.36352588972092376,
+  "factors": [
+    {
+      "name": "dow_jones_bear_market_entry",
+      "category": "market_sentiment",
+      "direction": -0.4,
+      "magnitude": 0.47540983606557374,
+      "persistence": "short",
+      "description": "[conf=0.85] The Dow Jones Industrial Average entered a bear market, plunging 1,400 points, which negatively impacted investor sentiment across the market, including JNJ [27][35]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5245901639344261,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_0.5%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [3, 5],\n    \"description\": \"The Fed cut the federal funds rate by 0.5% in an emergency move, contributing to a broader market sell-off as investors reacted negatively to the economic implications [3][5].\"\n  },\n  {\n    \"name\": \"dow_jones_bear_market_entry\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [27, 35],\n    \"description\": \"The Dow Jones Industrial Average entered a bear market, plunging 1,400 points, which negatively impacted investor sentiment across the market, including JNJ [27][35].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period.\"\n  }\n]"
+}

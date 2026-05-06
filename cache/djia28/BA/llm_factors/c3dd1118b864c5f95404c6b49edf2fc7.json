@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": 1.4835148067264765,
+  "factors": [
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3859060402684563,
+      "persistence": "short",
+      "description": "[conf=0.80] The stability of the 10-Year Treasury Rate around 3.51% during this period provided a supportive backdrop for equities, contributing to a bullish sentiment [1, 9, 17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6140939597315437,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating a lack of clear drivers for price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 3.51% during this period provided a supportive backdrop for equities, contributing to a bullish sentiment [1, 9, 17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating a lack of clear drivers for price movements.\"\n  }\n]"
+}

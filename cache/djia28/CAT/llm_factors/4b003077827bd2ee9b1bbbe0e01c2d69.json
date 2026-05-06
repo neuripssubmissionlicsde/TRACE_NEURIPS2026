@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-07-03",
+  "end_date": "2022-07-17",
+  "window_type": "monthly",
+  "price_change_pct": -0.22442888714068396,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24657534246575347,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed a slight decline with no clear dominant driver."
+    },
+    {
+      "name": "bank_of_canada_rate_hike_100bps",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4794520547945206,
+      "persistence": "short",
+      "description": "[conf=0.85] The Bank of Canada raised its benchmark interest rate by 100bps, the largest increase since 1998, which contributed to bearish sentiment in the market due to concerns over inflation and tighter monetary policy."
+    },
+    {
+      "name": "central_bank_of_peru_rate_hike_50bps",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.27397260273972607,
+      "persistence": "short",
+      "description": "[conf=0.75] The Central Bank of Peru increased its interest rate by 50bps to combat record-high inflation, adding to global concerns about rising rates and their impact on economic growth."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_canada_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Bank of Canada raised its benchmark interest rate by 100bps, the largest increase since 1998, amid surging inflation, which likely contributed to bearish sentiment in the market [1][2][3].\"\n  },\n  {\n    \"name\": \"central_bank_of_peru_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [4, 5, 6],\n    \"description\": \"The Central Bank of Peru increased its interest rate to combat record-high inflation, reflecting global tightening trends that may have influenced investor sentiment negatively [4][5][6].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed a slight decline with no clear dominant driver.\"\n  }\n]"
+}

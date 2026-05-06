@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.3435119386417957,
+  "factors": [
+    {
+      "name": "vix_volatility_index_decline",
+      "category": "market_sentiment",
+      "direction": -0.18,
+      "magnitude": 0.2549019607843137,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index declined slightly, indicating reduced market fear and contributing to a bearish sentiment for V [8, 40]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.35294117647058826,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "india_economic_rebound",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3921568627450981,
+      "persistence": "medium",
+      "description": "[conf=0.85] India's economy rebounded at a record rate of 20.1%, boosting investor sentiment and expectations for growth [1-6]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"india_economic_rebound_q2_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"India's economy rebounded at a record rate of 20.1% in Q2 2021, boosting investor sentiment and expectations for growth [1, 2, 3].\"\n  },\n  {\n    \"name\": \"vix_volatility_index_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [8, 40],\n    \"description\": \"The VIX Volatility Index declined slightly, indicating reduced market fear and contributing to a bearish sentiment for V [8, 40].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

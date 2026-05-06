@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-06-10",
+  "end_date": "2018-06-24",
+  "window_type": "monthly",
+  "price_change_pct": 0.5484830502779559,
+  "factors": [
+    {
+      "name": "euro_value_decline_ecb_announcement",
+      "category": "geopolitical",
+      "direction": -0.4,
+      "magnitude": 0.40816326530612246,
+      "persistence": "short",
+      "description": "[conf=0.85] The euro fell by one percent after the ECB announced plans to halve bond purchases, creating a negative sentiment in global markets [16]."
+    },
+    {
+      "name": "treasury_rate_decline_2018_06_19",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.30612244897959184,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined to 2.89% on June 19, which may have contributed to a more favorable environment for equities [6]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2857142857142857,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"euro_value_decline_ecb_announcement\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [16, 17, 18],\n    \"description\": \"The euro fell by one percent after the ECB announced plans to halve bond purchases, creating a negative sentiment in global markets [16].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2018_06_19\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [6, 11, 20],\n    \"description\": \"The 10-Year Treasury Rate declined to 2.89% on June 19, which may have contributed to a more favorable environment for equities [6].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver.\"\n  }\n]"
+}

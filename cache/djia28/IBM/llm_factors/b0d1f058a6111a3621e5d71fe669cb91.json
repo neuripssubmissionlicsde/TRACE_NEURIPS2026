@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-01-30",
+  "end_date": "2022-02-13",
+  "window_type": "monthly",
+  "price_change_pct": 0.1479299044761976,
+  "factors": [
+    {
+      "name": "sec_filing_2022_02_08",
+      "category": "company_specific",
+      "direction": 0.1,
+      "magnitude": 0.2658227848101266,
+      "persistence": "transient",
+      "description": "[conf=0.75] IBM filed with the SEC on 2022-02-08, which may have provided some investor confidence."
+    },
+    {
+      "name": "treasury_rate_increase_2022_02_11",
+      "category": "macroeconomic",
+      "direction": -0.13333333333333333,
+      "magnitude": 0.3164556962025316,
+      "persistence": "transient",
+      "description": "[conf=0.70] The 10-Year Treasury Rate increased to 1.9200 on 2022-02-11, which typically raises borrowing costs and can negatively impact equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4177215189873417,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2022_02_08\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.1,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"IBM filed with the SEC on 2022-02-08, which may have provided some investor confidence.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2022_02_11\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.1,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [17],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.9200 on 2022-02-11, which typically raises borrowing costs and can negatively impact equity valuations.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2022_02_09\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.1,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [33],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.9400 on 2022-02-09, contributing to market concerns over rising interest rates.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained market movements.\"\n  }\n]"
+}

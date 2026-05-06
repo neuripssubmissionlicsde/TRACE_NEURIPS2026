@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-04-25",
+  "end_date": "2021-05-09",
+  "window_type": "monthly",
+  "price_change_pct": 1.243527855755446,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.50,\n    \"magnitude\": 0.50,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"10-Year Treasury yields rose from 1.6300 to 1.6000 during the window, contributing to bearish sentiment in the market [9, 17].\"\n  }\n]"
+}

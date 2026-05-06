@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-27",
+  "window_type": "monthly",
+  "price_change_pct": 4.4714045768938036,
+  "factors": [
+    {
+      "name": "norway_divestment_russian_holdings",
+      "category": "geopolitical",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.5471698113207547,
+      "persistence": "transient",
+      "description": "[conf=0.75] Norway's sovereign fund announced it would divest its Russian holdings, contributing to negative sentiment around Russian assets and impacting broader market dynamics [17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45283018867924524,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"massive_selloff_moscow_stock_exchange\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"A massive selloff on the Moscow Stock Exchange triggered by geopolitical tensions led to increased market volatility and affected investor sentiment globally [1].\"\n  },\n  {\n    \"name\": \"norway_divestment_russian_holdings\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 18, 19],\n    \"description\": \"Norway's sovereign fund announced it would divest its Russian holdings, contributing to negative sentiment around Russian assets and impacting broader market dynamics [17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

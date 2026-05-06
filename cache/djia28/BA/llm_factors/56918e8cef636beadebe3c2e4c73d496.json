@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-02-04",
+  "end_date": "2018-02-18",
+  "window_type": "monthly",
+  "price_change_pct": 4.121333677596977,
+  "factors": [
+    {
+      "name": "market_selloff_feb_2018",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.7333333333333334,
+      "persistence": "short",
+      "description": "[conf=0.90] The Wall Street stock market experienced a significant selloff, with the Dow Jones Industrial Average dropping 4.6% on February 5, impacting investor sentiment and causing volatility across equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this volatile period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_selloff_feb_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The Wall Street stock market experienced a significant selloff, with the Dow Jones Industrial Average dropping 4.6% on February 5, impacting investor sentiment and causing volatility across equities.\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [7, 15, 23],\n    \"description\": \"The 10-Year Treasury Rate showed stability around 2.84% to 2.91% during the period, which may have provided a supportive backdrop for equities amidst the broader market volatility.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this volatile period.\"\n  }\n]"
+}

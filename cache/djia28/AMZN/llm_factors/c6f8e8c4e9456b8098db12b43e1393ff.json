@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": 18.148040771484375,
+  "factors": [
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.5333333333333333,
+      "magnitude": 0.4973821989528795,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 0.6000 on April 24 [17] contributed to a favorable borrowing environment, supporting equity valuations [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5026178010471204,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"increased_online_shopping_demand_covid19\",\n    \"category\": \"sector_specific\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"long\",\n    \"confidence\": 0.90,\n    \"source_articles\": [],\n    \"description\": \"The ongoing COVID-19 pandemic continued to drive increased demand for online shopping, benefiting Amazon's sales significantly.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 9],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 0.6000 on April 24 [17] contributed to a favorable borrowing environment, supporting equity valuations [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

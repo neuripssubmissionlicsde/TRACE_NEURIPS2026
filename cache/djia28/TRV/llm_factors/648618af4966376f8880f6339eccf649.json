@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-06-19",
+  "end_date": "2022-07-03",
+  "window_type": "monthly",
+  "price_change_pct": 3.91550143154447,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_3.2%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 3.2% on June 27 likely boosted investor confidence in TRV, reflecting a positive sentiment towards financial stability.\"\n  },\n  {\n    \"name\": \"decreasing_treasury_yields_2.98%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33, 49],\n    \"description\": \"The drop in the 10-Year Treasury Rate to 2.98% on June 30 may have created a temporary bearish sentiment, counteracting some of the bullish momentum.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

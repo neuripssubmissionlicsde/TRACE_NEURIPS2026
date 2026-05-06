@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-08-19",
+  "end_date": "2018-09-02",
+  "window_type": "monthly",
+  "price_change_pct": 2.38158168775052,
+  "factors": [
+    {
+      "name": "argentina_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": 0.32,
+      "magnitude": 0.49523809523809526,
+      "persistence": "short",
+      "description": "[conf=0.85] Argentina's interest rate hike to 60% amid currency turmoil created a risk-off sentiment, benefiting HON as investors sought safer assets."
+    },
+    {
+      "name": "federal_funds_rate_release",
+      "category": "macroeconomic",
+      "direction": 0.325,
+      "magnitude": 0.23809523809523814,
+      "persistence": "medium",
+      "description": "[conf=0.75] The Federal Funds Effective Rate remained stable at 1.95%, indicating a supportive monetary environment that likely contributed to HON's price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"argentina_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Argentina's interest rate hike to 60% amid currency turmoil created a risk-off sentiment, benefiting HON as investors sought safer assets.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [14, 15, 16],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.95%, indicating a supportive monetary environment that likely contributed to HON's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

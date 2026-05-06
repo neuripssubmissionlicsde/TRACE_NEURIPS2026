@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-06-20",
+  "end_date": "2021-07-04",
+  "window_type": "monthly",
+  "price_change_pct": 0.9941243202297707,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6694214876033059,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    },
+    {
+      "name": "sec_filing_2021_07_02",
+      "category": "company_specific",
+      "direction": 0.25,
+      "magnitude": 0.3305785123966942,
+      "persistence": "transient",
+      "description": "[conf=0.70] AMZN filed with the SEC on 2021-07-02, which may have provided some investor confidence."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"sec_filing_2021_07_02\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"AMZN filed with the SEC on 2021-07-02, which may have provided some investor confidence.\"\n  },\n  {\n    \"name\": \"stable_treasury_rate_1_50\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.65,\n    \"source_articles\": [1, 17],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.50%, contributing to a favorable borrowing environment for growth stocks like AMZN.\"\n  },\n  {\n    \"name\": \"consolidation_period\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Price movements were relatively stable with minor fluctuations, indicating a consolidation phase.\"\n  }\n]"
+}

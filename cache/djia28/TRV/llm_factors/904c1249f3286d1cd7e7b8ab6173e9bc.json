@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-12-06",
+  "end_date": "2020-12-20",
+  "window_type": "monthly",
+  "price_change_pct": 3.8019138055610733,
+  "factors": [
+    {
+      "name": "internal_market_bill_brexit",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The passage of the Internal Market Bill related to Brexit created optimism in the market, contributing to TRV's price increase during this period."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3666666666666667,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10-Year Treasury Rate around 0.92% during this period provided a favorable environment for equities, supporting TRV's price rise [20]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"internal_market_bill_brexit\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n    \"description\": \"The passage of the Internal Market Bill related to Brexit created optimism in the market, contributing to TRV's price increase during this period.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [20, 28],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 0.94% on December 17 indicated rising investor confidence, which likely supported TRV's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

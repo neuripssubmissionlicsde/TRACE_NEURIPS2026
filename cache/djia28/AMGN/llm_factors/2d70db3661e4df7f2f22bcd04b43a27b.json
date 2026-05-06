@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-01-05",
+  "end_date": "2020-01-19",
+  "window_type": "monthly",
+  "price_change_pct": 1.8086176096320226,
+  "factors": [
+    {
+      "name": "fed_interest_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5800000000000001,
+      "magnitude": 0.53,
+      "persistence": "medium",
+      "description": "[conf=0.85] Raphael Bostic indicated a preference to maintain low interest rates, supporting investor confidence and contributing to upward price movement [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.47000000000000003,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_interest_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Raphael Bostic indicated a preference to maintain low interest rates, supporting investor confidence and contributing to upward price movement [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

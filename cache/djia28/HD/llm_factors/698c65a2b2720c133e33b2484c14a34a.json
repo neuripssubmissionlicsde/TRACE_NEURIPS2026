@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": 5.851844316586066,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stimulus_package_expectations\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2],\n    \"description\": \"Expectations of fiscal stimulus measures boosted market sentiment, contributing to the price increase [1][2].\"\n  },\n  {\n    \"name\": \"market_sentiment_recovery\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"General recovery in market sentiment as investors reacted positively to economic reopening news.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": 0.035335604187339706,
+  "factors": [
+    {
+      "name": "food_price_index_increase_march_2022",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.7333333333333334,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Food and Agriculture Organisation's food price index increased by 13% in March due to the fallout from the Russian invasion of Ukraine, impacting market sentiment negatively."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"food_price_index_increase_march_2022\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Food and Agriculture Organisation's food price index increased by 13% in March due to the fallout from the Russian invasion of Ukraine, impacting market sentiment negatively.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_april_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [22, 23, 24],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.72% on April 8, contributing to bearish sentiment in the equity markets.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

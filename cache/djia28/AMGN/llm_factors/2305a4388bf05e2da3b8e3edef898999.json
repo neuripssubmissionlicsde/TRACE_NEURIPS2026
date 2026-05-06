@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-01-19",
+  "end_date": "2020-02-02",
+  "window_type": "monthly",
+  "price_change_pct": -10.341554438919456,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5045045045045045,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was significant without clear causal news."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.13513513513513511,
+      "persistence": "short",
+      "description": "[conf=0.75] Federal Funds Effective Rate remained stable at 1.5800 during this period, contributing to a lack of bullish sentiment."
+    },
+    {
+      "name": "sec_filings_january_2020",
+      "category": "company_specific",
+      "direction": -0.5,
+      "magnitude": 0.3603603603603604,
+      "persistence": "transient",
+      "description": "[conf=0.85] Amgen filed SEC reports on January 27 and January 30, which may have raised concerns among investors about regulatory scrutiny, contributing to the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was significant without clear causal news.\"\n  },\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"Federal Funds Effective Rate remained stable at 1.5800 during this period, contributing to a lack of bullish sentiment.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [6, 11, 26],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.7400 to 1.5100 indicated a bearish sentiment in the market, impacting AMGN's price.\"\n  }\n]"
+}

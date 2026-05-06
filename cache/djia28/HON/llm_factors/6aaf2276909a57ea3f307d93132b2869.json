@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-09",
+  "end_date": "2023-04-23",
+  "window_type": "monthly",
+  "price_change_pct": 2.799619539851374,
+  "factors": [
+    {
+      "name": "macron_pension_reform_signing",
+      "category": "geopolitical",
+      "direction": 0.5666666666666668,
+      "magnitude": 0.46583850931677023,
+      "persistence": "short",
+      "description": "[conf=0.85] President Macron signed the pension reform bill into law, which may have positively influenced market sentiment amid ongoing protests, suggesting a resolution to political uncertainty [1-10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3167701863354037,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.2333333333333333,
+      "magnitude": 0.21739130434782608,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10-Year Treasury Rate around 3.58% during this period likely contributed to a favorable environment for equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"macron_pension_reform_signing\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n    \"description\": \"President Macron signed the pension reform bill into law, which may have positively influenced market sentiment amid ongoing protests, suggesting a resolution to political uncertainty [1-10].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [15, 23, 39],\n    \"description\": \"The 10-Year Treasury rate rose to 3.5800, indicating tightening financial conditions that could negatively impact equity valuations [15, 23, 39].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

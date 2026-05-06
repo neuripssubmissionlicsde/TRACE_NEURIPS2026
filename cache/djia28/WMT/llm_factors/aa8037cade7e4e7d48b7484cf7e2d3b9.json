@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-09-26",
+  "end_date": "2021-10-10",
+  "window_type": "monthly",
+  "price_change_pct": -2.2467989978637557,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_october_2021",
+      "category": "macroeconomic",
+      "direction": -0.675,
+      "magnitude": 0.5789473684210527,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate rose from 1.4800 to 1.5800 during the window, contributing to bearish sentiment in equities as higher yields typically increase discount rates on future earnings."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_october_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.75,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 4, 25],\n    \"description\": \"The 10-Year Treasury Rate rose from 1.4800 to 1.5800 during the window, contributing to bearish sentiment in equities as higher yields typically increase discount rates on future earnings.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver.\"\n  }\n]"
+}

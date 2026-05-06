@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": -4.054223516000819,
+  "factors": [
+    {
+      "name": "economic_impact_covid19",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.4883720930232558,
+      "persistence": "medium",
+      "description": "[conf=0.85] The economic impact of the COVID-19 pandemic led to reduced consumer demand and uncertainty, negatively affecting market sentiment [49][50]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5116279069767442,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"economic_impact_covid19\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The economic impact of the COVID-19 pandemic led to reduced consumer demand and uncertainty, negatively affecting market sentiment [49][50].\"\n  },\n  {\n    \"name\": \"airbnb_financial_troubles\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [45, 46],\n    \"description\": \"Airbnb's announcement of securing a $1 billion loan due to pandemic-related demand drops highlighted broader economic vulnerabilities, contributing to negative sentiment [45][46].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period.\"\n  }\n]"
+}

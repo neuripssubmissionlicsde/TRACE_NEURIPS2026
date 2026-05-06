@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-18",
+  "end_date": "2019-09-01",
+  "window_type": "monthly",
+  "price_change_pct": 0.6597845022111851,
+  "factors": [
+    {
+      "name": "modification_volcker_rule",
+      "category": "geopolitical",
+      "direction": 0.3,
+      "magnitude": 0.25125628140703515,
+      "persistence": "transient",
+      "description": "[conf=0.75] The approval of a modification to the Volcker rule eased trading restrictions for banks [49], potentially boosting market confidence."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22110552763819094,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "declining_treasury_yields_august_2019",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5276381909547739,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 1.6200 to 1.5000 during the period, indicating lower borrowing costs and supporting equity valuations [13][25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [13, 25],\n    \"description\": \"The 10-Year Treasury yield declined from 1.6200 to 1.5000 during the window [13, 25], contributing to a bullish sentiment in equities.\"\n  },\n  {\n    \"name\": \"modification_volcker_rule\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [49],\n    \"description\": \"The approval of a modification to the Volcker rule eased trading restrictions for banks [49], potentially boosting market confidence.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

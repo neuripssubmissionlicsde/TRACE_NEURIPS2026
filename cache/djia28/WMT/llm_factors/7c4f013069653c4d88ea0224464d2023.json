@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-09-12",
+  "end_date": "2021-09-26",
+  "window_type": "monthly",
+  "price_change_pct": -2.286376495555316,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7849462365591398,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.2,
+      "magnitude": 0.21505376344086025,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate from 1.3200 to 1.4700 [4, 10] likely contributed to bearish sentiment in the market, impacting WMT's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_1.47\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [4, 10, 46],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.47% on September 24, indicating increased borrowing costs which negatively impacted equity valuations, including WMT.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver.\"\n  }\n]"
+}

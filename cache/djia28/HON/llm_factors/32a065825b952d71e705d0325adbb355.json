@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-10-11",
+  "end_date": "2020-10-25",
+  "window_type": "monthly",
+  "price_change_pct": 0.2741964379559877,
+  "factors": [
+    {
+      "name": "treasury_rate_increase_0.8100",
+      "category": "macroeconomic",
+      "direction": 0.16666666666666666,
+      "magnitude": 0.4330708661417323,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 0.8100 on 2020-10-20, indicating rising interest rates which typically support equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5669291338582677,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_0.8100\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17],\n    \"description\": \"The 10-Year Treasury Rate increased to 0.8100 on 2020-10-20, indicating rising interest rates which typically support equity valuations.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_0.8500\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41],\n    \"description\": \"The 10-Year Treasury Rate further increased to 0.8500 on 2020-10-23, contributing to bullish sentiment in the market.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

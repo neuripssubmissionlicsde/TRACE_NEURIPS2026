@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-09-24",
+  "end_date": "2023-10-08",
+  "window_type": "monthly",
+  "price_change_pct": -4.689767693805664,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty and volatility in the market."
+    },
+    {
+      "name": "rising_treasury_yields_2023_october",
+      "category": "macroeconomic",
+      "direction": -0.6999999999999998,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The 10-Year Treasury Rate rose to 4.8100 on October 3, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_october_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 25, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.8100 on October 3, 2023, contributing to bearish sentiment in equities as higher yields typically increase borrowing costs and reduce valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty and volatility in the market.\"\n  }\n]"
+}

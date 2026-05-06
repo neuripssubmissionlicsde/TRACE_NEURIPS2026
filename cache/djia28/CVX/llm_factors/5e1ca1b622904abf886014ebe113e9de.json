@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": 10.051887344067012,
+  "factors": [
+    {
+      "name": "vix_increase_2020_05_01",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.53,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased to 37.19 on 2020-05-01, indicating heightened market volatility and uncertainty, which typically pressures stock prices."
+    },
+    {
+      "name": "vix_decrease_2020_05_07",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX decreased to 31.44 on 2020-05-07, suggesting reduced market anxiety, which likely contributed to the upward price movement of CVX."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2020_05_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The VIX increased to 37.19 on 2020-05-01, indicating heightened market volatility and uncertainty, which typically pressures stock prices.\"\n  },\n  {\n    \"name\": \"vix_decrease_2020_05_07\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 26, 27, 28, 29, 30, 31, 32],\n    \"description\": \"The VIX decreased to 31.44 on 2020-05-07, suggesting reduced market anxiety, which likely contributed to the upward price movement of CVX.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

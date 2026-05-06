@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-06-20",
+  "end_date": "2021-07-04",
+  "window_type": "monthly",
+  "price_change_pct": 2.223980359416653,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced MRK's price movement during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.70,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced MRK's price movement during this period.\"\n  },\n  {\n    \"name\": \"stable_treasury_rates\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.5000, contributing to a favorable environment for equities [1, 9].\"\n  },\n  {\n    \"name\": \"low_volatility_environment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.10,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The annualized volatility of 11.1% indicates a low-volatility environment, suggesting limited price fluctuations.\"\n  }\n]"
+}

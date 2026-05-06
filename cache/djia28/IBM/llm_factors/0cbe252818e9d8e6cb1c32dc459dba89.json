@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-07-05",
+  "end_date": "2020-07-19",
+  "window_type": "monthly",
+  "price_change_pct": 3.183508607955078,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6245733788395904,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3754266211604096,
+      "persistence": "short",
+      "description": "[conf=0.85] The stability of the 10-Year Treasury Rate around 0.6200 to 0.6400 during this period contributed to a positive sentiment in the equity markets, supporting IBM's price increase [1][17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 17],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 0.6200 to 0.6400 during this period provided a favorable environment for equities, including IBM [1, 17].\"\n  },\n  {\n    \"name\": \"market_sentiment_recovery\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment showed signs of recovery during this period, contributing to upward pressure on IBM's stock price.\"\n  },\n  {\n    \"name\": \"technical_rebound\",\n    \"category\": \"technical\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.10,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.65,\n    \"source_articles\": [],\n    \"description\": \"Technical indicators suggested a rebound after previous lows, supporting the upward price movement of IBM.\"\n  }\n]"
+}

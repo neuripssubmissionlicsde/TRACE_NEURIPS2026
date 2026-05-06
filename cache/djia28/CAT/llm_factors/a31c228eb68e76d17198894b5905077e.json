@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-12-08",
+  "end_date": "2019-12-22",
+  "window_type": "monthly",
+  "price_change_pct": 3.217449012720354,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10y_treasury_rate_1.89\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 17],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.89% on December 17, indicating improved economic sentiment which likely supported CAT's price increase [5][17].\"\n  },\n  {\n    \"name\": \"rising_10y_2y_treasury_spread_0.3\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [45],\n    \"description\": \"The 10Y-2Y Treasury Spread increased to 0.30 on December 19, suggesting a positive outlook for economic growth, contributing to CAT's price rise [45].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

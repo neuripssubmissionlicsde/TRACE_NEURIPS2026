@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": -4.194064110745059,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty during this period."
+    },
+    {
+      "name": "food_price_index_increase",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The Food and Agriculture Organisation's food price index increased by 13% in March, impacting consumer sentiment and spending power, which likely contributed to the decline in NKE's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"food_price_index_increase_march_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Food and Agriculture Organisation's food price index increased by 13% in March, impacting consumer sentiment and spending expectations, which likely contributed to the decline in NKE's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty during this period.\"\n  }\n]"
+}

@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-09-29",
+  "end_date": "2019-10-13",
+  "window_type": "monthly",
+  "price_change_pct": -2.1096534496106134,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.23963133640552997,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 1.83%, contributing to a cautious market sentiment as investors weighed economic conditions [1][9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2304147465437788,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "treasury_yield_fluctuations",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.2995391705069125,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased from 1.6800 to 1.7600, indicating rising borrowing costs which negatively impacted equity valuations [25][41]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.2304147465437788,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate held steady at 3.6% [9], indicating a stable labor market which may have supported investor confidence."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.83%, contributing to a cautious market sentiment as investors weighed economic conditions [1][9].\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 41],\n    \"description\": \"The 10-Year Treasury Rate increased from 1.68% to 1.76%, indicating rising borrowing costs and contributing to bearish sentiment in the equity markets [25][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

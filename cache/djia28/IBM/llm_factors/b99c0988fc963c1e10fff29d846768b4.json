@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": 8.050030731793992,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"sec_filing_2022_april\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2],\n    \"description\": \"IBM filed with the SEC on April 20, which may have contributed to positive sentiment around transparency and compliance [1, 2].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_april_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.20,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.8500 on April 18, indicating a shift in investor sentiment that may have supported equities, including IBM [9, 17].\"\n  }\n]"
+}

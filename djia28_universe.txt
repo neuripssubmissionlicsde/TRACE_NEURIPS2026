@@ -1,0 +1,31 @@
+# DJIA-28 universe for DJIA-28 expansion
+# Frozen 8 (already in publication / final_run_gpt4o_mini):
+AAPL
+MSFT
+JPM
+XOM
+JNJ
+WMT
+CAT
+AMGN
+# 20 new (current DJIA-30 minus the frozen 8 minus the two most recent removals: WBA, INTC):
+AMZN
+AXP
+BA
+CRM
+CSCO
+CVX
+DIS
+GS
+HD
+HON
+IBM
+KO
+MCD
+MMM
+MRK
+NKE
+PG
+TRV
+UNH
+V

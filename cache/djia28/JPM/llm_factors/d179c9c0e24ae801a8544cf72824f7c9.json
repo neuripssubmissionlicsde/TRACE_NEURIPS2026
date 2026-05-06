@@ -1,0 +1,57 @@
+{
+  "start_date": "2023-02-26",
+  "end_date": "2023-03-12",
+  "window_type": "monthly",
+  "price_change_pct": -5.9531275901754634,
+  "factors": [
+    {
+      "name": "macroeconomic_concerns",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.29315960912052114,
+      "persistence": "short",
+      "description": "[conf=0.70] Concerns over inflation and interest rate hikes may have negatively impacted investor sentiment during this period."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.8800000000000001,
+      "magnitude": 0.20521172638436483,
+      "persistence": "short",
+      "description": "[conf=0.60] The financial sector faced headwinds due to broader market volatility and regulatory concerns."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.9199999999999999,
+      "magnitude": 0.2345276872964169,
+      "persistence": "short",
+      "description": "[conf=0.50] Negative market sentiment driven by geopolitical tensions and economic uncertainty contributed to the price decline."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -1.0,
+      "magnitude": 0.09771986970684039,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested bearish momentum, prompting some traders to sell."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -1.0,
+      "magnitude": 0.08143322475570032,
+      "persistence": "short",
+      "description": "[conf=0.40] Tighter liquidity conditions may have exacerbated selling pressure in the stock."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.08794788273615635,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_concerns\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Concerns over inflation and interest rate hikes may have negatively impacted investor sentiment during this period.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The financial sector faced headwinds due to broader market volatility and regulatory concerns.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Negative market sentiment driven by geopolitical tensions and economic uncertainty contributed to the price decline.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested bearish momentum, prompting some traders to sell.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.4,\n        \"description\": \"Tighter liquidity conditions may have exacerbated selling pressure in the stock.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.05,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

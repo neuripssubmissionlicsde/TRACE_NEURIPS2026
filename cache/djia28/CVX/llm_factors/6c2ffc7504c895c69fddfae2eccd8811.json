@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-06-19",
+  "end_date": "2022-07-03",
+  "window_type": "monthly",
+  "price_change_pct": -3.6435272043311664,
+  "factors": [
+    {
+      "name": "vix_volatility_index_increase",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.41666666666666663,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index increased significantly during this period, indicating heightened market uncertainty and contributing to bearish sentiment [9, 10, 41]."
+    },
+    {
+      "name": "vix_volatility_index_decrease",
+      "category": "market_sentiment",
+      "direction": 0.3,
+      "magnitude": 0.23148148148148145,
+      "persistence": "short",
+      "description": "[conf=0.70] Towards the end of the period, the VIX showed a decrease, suggesting a potential easing of market fears, but not enough to offset earlier bearish sentiment [17, 41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.35185185185185186,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_index_increase\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 41],\n    \"description\": \"The VIX Volatility Index increased significantly during this period, indicating heightened market uncertainty and contributing to bearish sentiment [9, 10, 41].\"\n  },\n  {\n    \"name\": \"vix_volatility_index_decrease\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [17, 41],\n    \"description\": \"Towards the end of the period, the VIX showed a decrease, suggesting a potential easing of market fears, but not enough to offset earlier bearish sentiment [17, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

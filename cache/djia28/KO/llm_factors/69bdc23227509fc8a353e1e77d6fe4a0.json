@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-01-17",
+  "end_date": "2021-01-31",
+  "window_type": "monthly",
+  "price_change_pct": -1.210482802774319,
+  "factors": [
+    {
+      "name": "south_korea_economic_growth_contraction",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] South Korea recorded its worst annual economic growth since 1998, with GDP contracting 1.0% in 2020, raising concerns about economic recovery and impacting investor sentiment [7][10][19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed a slight decline without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"south_korea_economic_growth_contraction\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [7, 10, 19],\n    \"description\": \"South Korea recorded its worst annual economic growth since 1998, with GDP contracting 1.0% in 2020, raising concerns about economic recovery and impacting investor sentiment [7][10][19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed a slight decline without a clear dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-07-19",
+  "end_date": "2020-08-02",
+  "window_type": "monthly",
+  "price_change_pct": 0.4632638571957608,
+  "factors": [
+    {
+      "name": "south_korea_recession",
+      "category": "macroeconomic",
+      "direction": -0.52,
+      "magnitude": 0.48,
+      "persistence": "short",
+      "description": "[conf=0.85] South Korea's economy entered recession after exports plunged, raising concerns about global economic conditions [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.52,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were influenced by broader market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"south_korea_recession\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"South Korea's economy entered recession after exports plunged, raising concerns about global economic conditions [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were influenced by broader market sentiment.\"\n  }\n]"
+}

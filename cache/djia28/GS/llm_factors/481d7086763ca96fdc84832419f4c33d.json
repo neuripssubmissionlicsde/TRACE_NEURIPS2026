@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-05-08",
+  "end_date": "2022-05-22",
+  "window_type": "monthly",
+  "price_change_pct": -0.6863127457816501,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2022_may",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.6175298804780877,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.0500 on May 9, contributing to bearish sentiment in the equity markets as higher yields typically lead to increased borrowing costs and reduced valuations [33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3824701195219123,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022_may\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 9],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.0500 on May 9, contributing to bearish sentiment in the equity markets as higher yields typically lead to increased borrowing costs and reduced valuations [33].\"\n  },\n  {\n    \"name\": \"declining_treasury_yields_2022_may\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 17],\n    \"description\": \"Subsequent declines in the 10-Year Treasury Rate to 2.8400 by May 19 provided some relief, but the overall trend remained bearish [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

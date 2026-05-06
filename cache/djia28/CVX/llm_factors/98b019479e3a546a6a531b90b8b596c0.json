@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-06-06",
+  "end_date": "2021-06-20",
+  "window_type": "monthly",
+  "price_change_pct": -4.927563424889399,
+  "factors": [
+    {
+      "name": "vix_increase_2021_06_18",
+      "category": "market_sentiment",
+      "direction": -0.5800000000000001,
+      "magnitude": 0.49,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose to 20.70 on June 18, indicating increased market uncertainty and contributing to bearish sentiment around CVX."
+    },
+    {
+      "name": "vix_stability_2021_06_10",
+      "category": "market_sentiment",
+      "direction": 0.4,
+      "magnitude": 0.25000000000000006,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX was stable at 16.10 on June 10, suggesting a period of calm before the volatility spike, which may have temporarily supported CVX prices."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2021_06_18\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The VIX Volatility Index rose to 20.70 on June 18, indicating increased market uncertainty and contributing to bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"vix_stability_2021_06_10\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10],\n    \"description\": \"The VIX was stable at 16.10 on June 10, suggesting a period of calm before the volatility spike, which may have temporarily supported CVX prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market movements during the period.\"\n  }\n]"
+}

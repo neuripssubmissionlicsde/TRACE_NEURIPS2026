@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-05-12",
+  "end_date": "2019-05-26",
+  "window_type": "monthly",
+  "price_change_pct": -1.6668546682236403,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_20_5500\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The VIX Volatility Index spiked to 20.55 on May 13, indicating increased market uncertainty and contributing to bearish sentiment.\"\n  },\n  {\n    \"name\": \"vix_decline_14_7500\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 42],\n    \"description\": \"The VIX declined to 14.75 on May 22, suggesting a temporary easing of market fears, which could have supported a rebound in prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-03-13",
+  "end_date": "2022-03-27",
+  "window_type": "monthly",
+  "price_change_pct": 10.08465733933682,
+  "factors": [
+    {
+      "name": "moscow_stock_exchange_reopening",
+      "category": "geopolitical",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The reopening of the Moscow Stock Exchange for bond trading after a month-long closure boosted market confidence and contributed to price increases [15][19]."
+    },
+    {
+      "name": "russian_central_bank_exchange_split",
+      "category": "geopolitical",
+      "direction": 0.42000000000000004,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.80] The consideration by the Russian Central Bank to split its stock exchange into two separate entities created speculation and optimism in the market [1][10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"moscow_stock_exchange_reopening\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [15, 19],\n    \"description\": \"The reopening of the Moscow Stock Exchange for bond trading after a month-long closure boosted market confidence and contributed to price increases [15][19].\"\n  },\n  {\n    \"name\": \"russian_central_bank_exchange_split\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 10],\n    \"description\": \"The consideration by the Russian Central Bank to split its stock exchange into two separate entities created speculation and optimism in the market [1][10].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

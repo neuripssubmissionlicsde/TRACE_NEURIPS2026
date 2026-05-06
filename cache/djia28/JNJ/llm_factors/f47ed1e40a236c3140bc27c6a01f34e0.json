@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-05-22",
+  "end_date": "2022-06-05",
+  "window_type": "monthly",
+  "price_change_pct": -0.6644153418844506,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23645320197044337,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "rising_treasury_yields_may_2022",
+      "category": "macroeconomic",
+      "direction": -0.475,
+      "magnitude": 0.4679802955665025,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 2.8600 to 2.9600 during the window, contributing to bearish sentiment in the equity markets [1, 3, 9]."
+    },
+    {
+      "name": "vix_volatility_increase_may_2022",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.2955665024630542,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index rose from 26.1900 to 25.6900, indicating increased market uncertainty and contributing to downward pressure on JNJ's price [33, 37]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 3, 9],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.8600 to 2.9600 during the window, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks.\"\n  },\n  {\n    \"name\": \"vix_volatility_increase\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33, 37, 49],\n    \"description\": \"The VIX Volatility Index rose from 26.1900 to 25.6900, indicating increased market uncertainty and contributing to downward pressure on JNJ's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

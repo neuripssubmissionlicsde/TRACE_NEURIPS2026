@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-06-24",
+  "end_date": "2018-07-08",
+  "window_type": "monthly",
+  "price_change_pct": 3.4291036250472757,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5915492957746479,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced KO's price movement during this period."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.34,
+      "magnitude": 0.3380281690140845,
+      "persistence": "short",
+      "description": "[conf=0.75] The Federal Funds Effective Rate remained stable at 1.91% [16], contributing to a favorable interest rate environment for equities."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.06666666666666667,
+      "magnitude": 0.0704225352112676,
+      "persistence": "transient",
+      "description": "[conf=0.00] The 10-Year Treasury Rate showed fluctuations but did not have a significant impact on KO's price movement during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced KO's price movement during this period.\"\n  },\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [16],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.91% [16], contributing to a favorable interest rate environment for equities.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [24],\n    \"description\": \"The 10-Year Treasury Rate was stable around 2.85% [24], indicating a low-interest environment that supports equity valuations.\"\n  }\n]"
+}

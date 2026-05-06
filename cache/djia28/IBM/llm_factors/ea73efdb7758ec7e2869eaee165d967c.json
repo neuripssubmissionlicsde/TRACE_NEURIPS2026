@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-02-26",
+  "end_date": "2023-03-12",
+  "window_type": "monthly",
+  "price_change_pct": -4.542689157151825,
+  "factors": [
+    {
+      "name": "rising_10_year_treasury_rate_4.08",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5851063829787235,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 4.08% on March 2, contributing to bearish sentiment in the equity markets as higher rates typically increase borrowing costs and reduce valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4148936170212766,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate_4.08\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.08% on March 2, contributing to bearish sentiment in the equity markets as higher rates typically increase borrowing costs and reduce valuations.\"\n  },\n  {\n    \"name\": \"declining_10_year_treasury_rate_3.98\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 33],\n    \"description\": \"The subsequent decline in the 10-Year Treasury Rate to 3.98% on March 6 provided a temporary bullish sentiment, but was not enough to offset the earlier bearish impact.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period.\"\n  }\n]"
+}

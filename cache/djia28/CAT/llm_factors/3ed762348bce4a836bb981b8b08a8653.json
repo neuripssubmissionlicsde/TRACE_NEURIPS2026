@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-22",
+  "window_type": "monthly",
+  "price_change_pct": -1.0343085059403643,
+  "factors": [
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.34,
+      "magnitude": 0.2919463087248322,
+      "persistence": "medium",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate from 0.9800 to 0.8300 during the window indicated lower borrowing costs, which generally supports equity valuations [5][13][21]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32214765100671144,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vaccine_announcement_market_reaction",
+      "category": "macroeconomic",
+      "direction": 0.5333333333333333,
+      "magnitude": 0.3859060402684564,
+      "persistence": "short",
+      "description": "[conf=0.85] The announcement of Pfizer's COVID-19 vaccine results led to a significant market rally, influencing investor sentiment positively [39][40][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vaccine_announcement_market_rally\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [39, 40, 41],\n    \"description\": \"The announcement of Pfizer's COVID-19 vaccine results led to a significant market rally, impacting investor sentiment positively [39][40][41].\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 13, 21],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 0.9800 to 0.8300 during the window indicated lower borrowing costs, which generally supports equity valuations [5][13][21].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-07-21",
+  "end_date": "2019-08-04",
+  "window_type": "monthly",
+  "price_change_pct": -1.9379321410494956,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5502645502645502,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted IBM's price movement during this period."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.425,
+      "magnitude": 0.4497354497354498,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined from 1.9000 to 1.8600 during the window, indicating a flight to safety that may have negatively impacted IBM's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted IBM's price movement during this period.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.45,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate declined from 1.9000 to 1.8600 during the window, indicating a flight to safety that may have negatively impacted IBM's stock price.\"\n  }\n]"
+}

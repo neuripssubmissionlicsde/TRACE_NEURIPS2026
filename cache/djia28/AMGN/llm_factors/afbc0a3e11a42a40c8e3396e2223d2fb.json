@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-07-07",
+  "end_date": "2019-07-21",
+  "window_type": "monthly",
+  "price_change_pct": -3.3954196863630637,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4665012406947891,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver."
+    },
+    {
+      "name": "declining_treasury_yields_july_2019",
+      "category": "macroeconomic",
+      "direction": -0.5750000000000001,
+      "magnitude": 0.533498759305211,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined to 2.0400 on July 18, 2019, contributing to bearish sentiment in the market as lower yields often signal economic concerns."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10yr_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 6, 21, 46],\n    \"description\": \"The 10-Year Treasury Rate declined from 2.0900 to 2.0400 during the window, indicating a shift in investor sentiment towards lower yields, which typically pressures equity prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver.\"\n  }\n]"
+}

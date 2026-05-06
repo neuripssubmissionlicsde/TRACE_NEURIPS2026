@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-18",
+  "end_date": "2023-01-01",
+  "window_type": "monthly",
+  "price_change_pct": 0.5208272336380475,
+  "factors": [
+    {
+      "name": "treasury_rate_increase_dec2022",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 3.8800 on December 30, 2022 [25], contributing to a bearish sentiment in the market as rising rates typically pressure equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed limited directional clarity amidst mixed signals."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_dec2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 33],\n    \"description\": \"The 10-Year Treasury Rate increased to 3.8800 on December 30, 2022 [25], contributing to a bearish sentiment in the market as rising rates typically pressure equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed limited directional clarity amidst mixed signals.\"\n  }\n]"
+}

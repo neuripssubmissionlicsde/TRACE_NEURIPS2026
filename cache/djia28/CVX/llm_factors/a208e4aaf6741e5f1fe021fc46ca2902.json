@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-04",
+  "end_date": "2019-08-18",
+  "window_type": "monthly",
+  "price_change_pct": -1.83697063319478,
+  "factors": [
+    {
+      "name": "vix_increase_2019_08_14",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.4433497536945813,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased to 22.10 on 2019-08-14, indicating heightened market volatility and contributing to bearish sentiment around CVX [9][14]."
+    },
+    {
+      "name": "vix_stability_2019_08_06",
+      "category": "market_sentiment",
+      "direction": 0.325,
+      "magnitude": 0.2216748768472906,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX was stable at 20.17 on 2019-08-06, suggesting a temporary period of calm before subsequent volatility [1][17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.334975369458128,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market behavior during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2019_08_14\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 14],\n    \"description\": \"The VIX increased to 22.10 on 2019-08-14, indicating heightened market volatility and contributing to bearish sentiment around CVX [9][14].\"\n  },\n  {\n    \"name\": \"vix_stability_2019_08_06\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 17],\n    \"description\": \"The VIX was stable at 20.17 on 2019-08-06, suggesting a temporary period of calm before subsequent volatility [1][17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market behavior during the period.\"\n  }\n]"
+}

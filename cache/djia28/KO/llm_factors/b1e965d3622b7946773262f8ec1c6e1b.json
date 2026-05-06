@@ -1,0 +1,17 @@
+{
+  "start_date": "2018-12-09",
+  "end_date": "2018-12-23",
+  "window_type": "monthly",
+  "price_change_pct": -3.8017960915339097,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yield_2_7700\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [23, 30],\n    \"description\": \"The decline in the 10-Year Treasury yield to 2.7700 on 2018-12-19 indicated a shift in investor sentiment towards safer assets, which typically supports equity prices.\"\n  },\n  {\n    \"name\": \"vix_volatility_spike_30_1100\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [31, 38],\n    \"description\": \"The spike in the VIX Volatility Index to 30.1100 on 2018-12-21 reflected increased market uncertainty, contributing to downward pressure on equity prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

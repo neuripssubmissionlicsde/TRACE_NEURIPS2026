@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-12-22",
+  "end_date": "2020-01-05",
+  "window_type": "monthly",
+  "price_change_pct": -1.1848552826486656,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.6%, contributing to a positive sentiment in the market as it indicated a strong labor market [1]."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.45999999999999996,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained stable at 1.55%, suggesting no immediate changes in monetary policy that could impact market valuations [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.475,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.70] The 10-Year Treasury Rate increased from 1.88% to 1.92%, which may have pressured equity valuations negatively [17, 33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.6%, contributing to a positive sentiment in the market as it indicated a strong labor market [1].\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.55%, suggesting no immediate changes in monetary policy that could impact market valuations [9].\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 18, 19, 20, 21, 22, 23, 24],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.88% to 1.92%, indicating a lack of significant shifts in investor sentiment towards risk [17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

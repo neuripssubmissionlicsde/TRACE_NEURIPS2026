@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-06-24",
+  "end_date": "2018-07-08",
+  "window_type": "monthly",
+  "price_change_pct": -0.6078188985915042,
+  "factors": [
+    {
+      "name": "vix_increase_16.14",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.41958041958041964,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index increased to 16.14 on 2018-07-03, indicating heightened market uncertainty and contributing to bearish sentiment."
+    },
+    {
+      "name": "vix_decrease_13.37",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.2447552447552447,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX Volatility Index decreased to 13.37 on 2018-07-06, suggesting a temporary easing of market fears, which may have supported a slight recovery."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3356643356643356,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_16.14\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The VIX Volatility Index increased to 16.14 on 2018-07-03, indicating heightened market uncertainty and contributing to bearish sentiment.\"\n  },\n  {\n    \"name\": \"vix_decrease_13.37\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33, 34],\n    \"description\": \"The VIX Volatility Index decreased to 13.37 on 2018-07-06, suggesting a temporary easing of market fears, which may have supported a slight recovery.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

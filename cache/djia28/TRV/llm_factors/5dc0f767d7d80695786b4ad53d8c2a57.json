@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-23",
+  "window_type": "monthly",
+  "price_change_pct": 11.77139934367445,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear single driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022_oct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [17, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.21% on October 21, 2022, indicating increased borrowing costs which typically support insurance stocks like TRV.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear single driver.\"\n  }\n]"
+}

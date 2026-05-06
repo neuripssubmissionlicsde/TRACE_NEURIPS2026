@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-03",
+  "end_date": "2021-01-17",
+  "window_type": "monthly",
+  "price_change_pct": -1.491080680422749,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_january_2021",
+      "category": "macroeconomic",
+      "direction": -0.52,
+      "magnitude": 0.51,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 1.0800 to 1.1300 during the window, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations [9][42]."
+    },
+    {
+      "name": "north_korea_south_korea_relations_january_2021",
+      "category": "geopolitical",
+      "direction": -0.32,
+      "magnitude": 0.29,
+      "persistence": "transient",
+      "description": "[conf=0.75] Increased tensions in North Korea-South Korea relations may have contributed to market uncertainty, impacting investor sentiment towards equities like NKE [25][39]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_january_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 42],\n    \"description\": \"The 10-Year Treasury Rate rose from 1.0800 to 1.1300 during the window, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations [9][42].\"\n  },\n  {\n    \"name\": \"north_korea_south_korea_relations_january_2021\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 39],\n    \"description\": \"Increased tensions in North Korea-South Korea relations may have contributed to market uncertainty, impacting investor sentiment towards equities like NKE [25][39].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

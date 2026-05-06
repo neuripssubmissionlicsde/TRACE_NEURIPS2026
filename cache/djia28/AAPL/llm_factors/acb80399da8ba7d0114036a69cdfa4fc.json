@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-09",
+  "end_date": "2023-04-23",
+  "window_type": "monthly",
+  "price_change_pct": 2.230213176647576,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.7999999999999999,
+      "magnitude": 0.4065040650406504,
+      "persistence": "short",
+      "description": "[conf=0.50] Overall bullish market sentiment, driven by investor optimism, likely supported AAPL's price increase."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.4471544715447155,
+      "persistence": "transient",
+      "description": "[conf=0.60] A technical breakout above key resistance levels may have attracted momentum traders to AAPL."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.1463414634146342,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and noise that cannot be attributed to specific observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_indicators\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive macroeconomic indicators, such as employment data and consumer spending, likely contributed to bullish sentiment in the market.\"\n    },\n    {\n        \"name\": \"tech_sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Strong performance in the technology sector during this period may have positively influenced AAPL's price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Overall bullish market sentiment, driven by investor optimism, likely supported AAPL's price increase.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"A technical breakout above key resistance levels may have attracted momentum traders to AAPL.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and noise that cannot be attributed to specific observable factors.\"\n    }\n]"
+}

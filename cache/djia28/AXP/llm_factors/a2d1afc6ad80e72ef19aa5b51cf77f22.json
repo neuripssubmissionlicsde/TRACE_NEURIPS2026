@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": 9.689607740510457,
+  "factors": [
+    {
+      "name": "unemployment_rate_release",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.3756476683937824,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate was reported at 3.6%, indicating a strong labor market, which likely boosted investor confidence in AXP's growth prospects [49]."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.272020725388601,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate showed stability around 3.69% to 3.83%, which may have supported equity valuations and investor sentiment towards AXP [17, 25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.35233160621761656,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49],\n    \"description\": \"The unemployment rate was reported at 3.6%, indicating a strong labor market, which likely boosted investor confidence in AXP's growth prospects [49].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 25],\n    \"description\": \"The 10-Year Treasury Rate showed stability around 3.69% to 3.83%, which may have supported equity valuations and investor sentiment towards AXP [17, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

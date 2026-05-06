@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-08-27",
+  "end_date": "2023-09-10",
+  "window_type": "monthly",
+  "price_change_pct": 4.814123456476717,
+  "factors": [
+    {
+      "name": "vix_decline_2023_09_01",
+      "category": "market_sentiment",
+      "direction": 0.68,
+      "magnitude": 0.51,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 15.08 on 2023-08-28 to 13.09 on 2023-09-01, indicating reduced market fear and contributing to bullish sentiment for CVX [9, 41]."
+    },
+    {
+      "name": "vix_stability_2023_09_08",
+      "category": "market_sentiment",
+      "direction": 0.32,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX remained stable around 13.84 on 2023-09-08, suggesting a period of low volatility that supported the price stability of CVX [33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2023_09_01\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The VIX Volatility Index declined from 15.08 on 2023-08-28 to 13.09 on 2023-09-01, indicating reduced market fear and contributing to bullish sentiment for CVX [9, 41].\"\n  },\n  {\n    \"name\": \"vix_stability_2023_09_08\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33],\n    \"description\": \"The VIX remained stable around 13.84 on 2023-09-08, suggesting a period of low volatility that supported the price stability of CVX [33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

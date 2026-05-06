@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": -3.1361506873261287,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.21212121212121215,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 4.0%, indicating a steady labor market which may have contributed to market sentiment."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4545454545454546,
+      "persistence": "medium",
+      "description": "[conf=0.90] The 10-Year Treasury Rate increased from 2.81% to 2.86%, raising concerns about higher borrowing costs and impacting equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.33333333333333337,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 4.0%, indicating a steady labor market which may have contributed to market sentiment.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16, 25, 26, 27, 28, 29],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.81% to 2.86%, raising concerns about higher borrowing costs and impacting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment.\"\n  }\n]"
+}

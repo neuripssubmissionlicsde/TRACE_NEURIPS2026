@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-09-27",
+  "end_date": "2020-10-11",
+  "window_type": "monthly",
+  "price_change_pct": 3.146627067781169,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events drove the price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events drove the price movement.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_oct_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"10-Year Treasury yields rose from 0.6800 to 0.8100 during the window, indicating a shift in investor sentiment towards riskier assets [9][17].\"\n  }\n]"
+}

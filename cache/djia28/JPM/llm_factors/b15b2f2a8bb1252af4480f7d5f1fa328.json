@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-21",
+  "window_type": "monthly",
+  "price_change_pct": -13.755398461811405,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.38709677419354843,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment due to broader economic concerns likely contributed to the decline in JPM's stock price."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -1.0,
+      "magnitude": 0.2903225806451613,
+      "persistence": "short",
+      "description": "[conf=0.60] JPMorgan Chase's performance and outlook during this period may have been negatively impacted by concerns over loan defaults and credit quality."
+    },
+    {
+      "name": "noise_residual",
+      "category": "technical",
+      "direction": 0.0,
+      "magnitude": 0.09677419354838711,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and noise that cannot be attributed to specific observable factors."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": -1.0,
+      "magnitude": 0.22580645161290322,
+      "persistence": "medium",
+      "description": "[conf=0.50] Increased selling pressure and lower liquidity in the market could have exacerbated the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment due to broader economic concerns likely contributed to the decline in JPM's stock price.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"JPMorgan Chase's performance and outlook during this period may have been negatively impacted by concerns over loan defaults and credit quality.\"\n    },\n    {\n        \"name\": \"macroeconomic\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Macroeconomic indicators, such as unemployment rates and GDP forecasts, were showing signs of weakness, which could have influenced investor behavior.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and noise that cannot be attributed to specific observable factors.\"\n    }\n]"
+}

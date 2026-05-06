@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-12-23",
+  "end_date": "2019-01-06",
+  "window_type": "monthly",
+  "price_change_pct": 3.7225965079285883,
+  "factors": [
+    {
+      "name": "dow_jones_drop_christmas_eve",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.5386533665835412,
+      "persistence": "short",
+      "description": "[conf=0.90] The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, creating a market environment that led to a rebound in CSCO as investors sought stability in tech stocks."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19950124688279303,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.26184538653366585,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 4.0%, contributing to investor confidence in the tech sector during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"dow_jones_drop_christmas_eve\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, creating a market environment that led to a rebound in CSCO as investors sought stability in tech stocks.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stable\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [10],\n    \"description\": \"The unemployment rate remained stable at 4.0%, contributing to investor confidence in the tech sector during this period.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

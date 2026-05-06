@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-18",
+  "window_type": "monthly",
+  "price_change_pct": 1.1559048009776876,
+  "factors": [
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4111111111111111,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate showed stability around 3.73% to 3.84%, which supported investor confidence in TRV's pricing [9][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.588888888888889,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The 10-Year Treasury Rate showed stability around 3.73% to 3.84%, which supported investor confidence in TRV's pricing [9][41].\"\n  },\n  {\n    \"name\": \"market_sentiment_improvement\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment improved during this period, contributing to upward price movement despite no specific news.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating stochastic price movements.\"\n  }\n]"
+}

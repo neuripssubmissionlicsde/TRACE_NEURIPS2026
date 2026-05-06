@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-31",
+  "end_date": "2021-02-14",
+  "window_type": "monthly",
+  "price_change_pct": -2.0266929829832208,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": -0.125,
+      "magnitude": 0.2918781725888325,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 6.2%, indicating a lack of immediate economic distress, which may have contributed to market sentiment."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.44416243654822335,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 1.2%, reflecting concerns over inflation and potentially impacting equity valuations negatively."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2639593908629442,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 6.2%, indicating a lack of immediate economic distress, which may have contributed to market sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.2%, reflecting concerns over inflation and potentially impacting equity valuations negatively.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

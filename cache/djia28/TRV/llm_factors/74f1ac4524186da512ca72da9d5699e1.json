@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": 1.9426318314341031,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2019_11_06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.8100 on 2019-11-06 [9] contributed to a bullish sentiment in the market, positively impacting TRV's price.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2019_11_08\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.9400 on 2019-11-08 [17] created some bearish pressure, but was not strong enough to offset the previous bullish momentum.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-07-22",
+  "end_date": "2018-08-05",
+  "window_type": "monthly",
+  "price_change_pct": 1.7041647521901127,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32692307692307687,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "stable_treasury_rate_2.98",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3846153846153847,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable at 2.98%, contributing to a favorable borrowing environment for healthcare companies like UNH [1, 17]."
+    },
+    {
+      "name": "low_unemployment_rate_3.8",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.28846153846153844,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate reported at 3.8% indicates a strong labor market, supporting consumer spending and healthcare demand [25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable_3.8\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26, 27],\n    \"description\": \"The unemployment rate remained stable at 3.8%, indicating a strong labor market which supports consumer spending and investor confidence [25].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_2.98\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 17],\n    \"description\": \"The 10-Year Treasury Rate stabilized at 2.98%, suggesting a balanced interest rate environment that supports equity valuations [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

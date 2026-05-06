@@ -1,0 +1,41 @@
+{
+  "start_date": "2021-12-19",
+  "end_date": "2022-01-02",
+  "window_type": "monthly",
+  "price_change_pct": 5.52056786280348,
+  "factors": [
+    {
+      "name": "strong_holiday_spending",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.37499999999999994,
+      "persistence": "short",
+      "description": "[conf=0.70] Increased consumer spending during the holiday season likely boosted investor sentiment."
+    },
+    {
+      "name": "market_sentiment_positive",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.25000000000000006,
+      "persistence": "short",
+      "description": "[conf=0.50] General bullish sentiment in the market during this period likely supported AAPL's price rise."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.18750000000000003,
+      "persistence": "short",
+      "description": "[conf=0.50] AAPL's price movement above key resistance levels may have triggered buying activity."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.18750000000000003,
+      "persistence": "transient",
+      "description": "[conf=0.40] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"strong_holiday_spending\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Increased consumer spending during the holiday season likely boosted investor sentiment.\"\n    },\n    {\n        \"name\": \"tech_sector_growth\",\n        \"category\": \"sector_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.6,\n        \"description\": \"Positive performance in the technology sector contributed to AAPL's price increase.\"\n    },\n    {\n        \"name\": \"market_sentiment_positive\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General bullish sentiment in the market during this period likely supported AAPL's price rise.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"AAPL's price movement above key resistance levels may have triggered buying activity.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-06-19",
+  "end_date": "2022-07-03",
+  "window_type": "monthly",
+  "price_change_pct": -3.6533613627779458,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.23097112860892388,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.5%, indicating a resilient labor market which may have supported investor sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.49343832020997375,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.2755905511811023,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate to 2.98% may have eased borrowing costs, contributing to a more favorable environment for equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.5%, indicating a resilient labor market which may have supported investor sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.50,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 25, 33, 41],\n    \"description\": \"The 10-Year Treasury Rate rose from 3.16% to 2.98%, reflecting increased borrowing costs and negatively impacting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

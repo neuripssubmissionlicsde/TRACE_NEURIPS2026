@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": 3.599590599244899,
+  "factors": [
+    {
+      "name": "turkish_interest_rate_hike",
+      "category": "geopolitical",
+      "direction": 0.175,
+      "magnitude": 0.5555555555555556,
+      "persistence": "transient",
+      "description": "[conf=0.75] The Turkish central bank raised its main interest rate to combat inflation, which may have influenced global market sentiment negatively [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4444444444444445,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_index_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 20],\n    \"description\": \"The VIX Volatility Index remained low at 13.3, indicating reduced market fear and supporting bullish sentiment for equities [1, 20].\"\n  },\n  {\n    \"name\": \"turkish_interest_rate_hike\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9],\n    \"description\": \"The Turkish central bank raised its main interest rate to combat inflation, which may have influenced global market sentiment negatively [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

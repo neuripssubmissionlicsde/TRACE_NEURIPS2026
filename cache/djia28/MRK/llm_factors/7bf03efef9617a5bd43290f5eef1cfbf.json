@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": -2.5632309354156844,
+  "factors": [
+    {
+      "name": "cpi_release_2023_06_01",
+      "category": "macroeconomic",
+      "direction": -0.575,
+      "magnitude": 0.4047802621434079,
+      "persistence": "short",
+      "description": "[conf=0.85] The Consumer Price Index (CPI) release on June 1 indicated inflationary pressures, contributing to bearish sentiment in the market [1-8]."
+    },
+    {
+      "name": "unemployment_rate_release_2023_06_01",
+      "category": "macroeconomic",
+      "direction": -0.3666666666666667,
+      "magnitude": 0.2621434078643023,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.6% as reported on June 1, which may have contributed to concerns about economic growth [9-16]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3330763299922899,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_2023_06_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 9],\n    \"description\": \"The Consumer Price Index (CPI) release on June 1 indicated inflationary pressures, contributing to bearish sentiment in the market [1-8].\"\n  },\n  {\n    \"name\": \"unemployment_rate_release_2023_06_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The unemployment rate remained stable at 3.6% as reported on June 1, which may have contributed to concerns about economic growth [9-16].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-05-22",
+  "end_date": "2022-06-05",
+  "window_type": "monthly",
+  "price_change_pct": 14.420709524932573,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5800000000000001,
+      "magnitude": 0.3651315789473685,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.6%, contributing to positive market sentiment and investor confidence [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3552631578947369,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.43333333333333335,
+      "magnitude": 0.27960526315789475,
+      "persistence": "medium",
+      "description": "[conf=0.80] The Federal Funds Effective Rate was reported at 1.21%, suggesting a stable monetary policy environment that may have encouraged investment in equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 3.6%, contributing to positive market sentiment and investor confidence [1].\"\n  },\n  {\n    \"name\": \"federal_funds_rate_increase\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The Federal Funds Effective Rate was reported at 1.21%, indicating a tightening monetary policy that could negatively impact equity valuations [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

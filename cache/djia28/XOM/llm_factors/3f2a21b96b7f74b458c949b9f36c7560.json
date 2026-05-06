@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": -1.6197770223818433,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.70] The price of crude oil experienced fluctuations during this period, impacting XOM's stock price negatively."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.2,
+      "persistence": "short",
+      "description": "[conf=0.60] General market sentiment was bearish due to ongoing economic uncertainties related to the COVID-19 pandemic."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations contributed to unexplained price movements."
+    },
+    {
+      "name": "covid19_impact",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.60] Ongoing concerns about the economic impact of COVID-19 continued to affect investor sentiment and energy demand."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The price of crude oil experienced fluctuations during this period, impacting XOM's stock price negatively.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was bearish due to ongoing economic uncertainties related to the COVID-19 pandemic.\"\n    },\n    {\n        \"name\": \"technical_resistance\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's stock faced technical resistance around the $34 level, contributing to the downward price movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations contributed to unexplained price movements.\"\n    }\n]"
+}

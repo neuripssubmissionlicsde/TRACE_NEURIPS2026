@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.2391613613259547,
+  "factors": [
+    {
+      "name": "india_economic_rebound",
+      "category": "macroeconomic",
+      "direction": 0.42000000000000004,
+      "magnitude": 0.32781456953642385,
+      "persistence": "medium",
+      "description": "[conf=0.85] Reports of India's economy rebounding at a record rate of 20.1% boosted investor sentiment, positively impacting CRM's price."
+    },
+    {
+      "name": "stable_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.20000000000000004,
+      "magnitude": 0.21523178807947022,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10-Year Treasury Rate around 1.30% during this period contributed to a favorable environment for equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45695364238410596,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"india_economic_rebound\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"Reports of India's economy rebounding at a record rate of 20.1% boosted investor sentiment, positively impacting CRM's price.\"\n  },\n  {\n    \"name\": \"stable_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [6, 14, 30, 38],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 1.30% during this period contributed to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-04-29",
+  "end_date": "2018-05-13",
+  "window_type": "monthly",
+  "price_change_pct": 4.008218059159496,
+  "factors": [
+    {
+      "name": "vix_decline_2018_05_11",
+      "category": "market_sentiment",
+      "direction": 0.6799999999999999,
+      "magnitude": 0.53,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined to 12.65 on 2018-05-11, indicating reduced market fear and contributing to bullish sentiment [17]."
+    },
+    {
+      "name": "vix_decline_2018_05_09",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index fell to 13.42 on 2018-05-09, further supporting a bullish market environment [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2018_05_11\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 18, 19],\n    \"description\": \"The VIX Volatility Index declined to 12.65 on 2018-05-11, indicating reduced market fear and contributing to bullish sentiment [17].\"\n  },\n  {\n    \"name\": \"vix_decline_2018_05_09\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 42, 43],\n    \"description\": \"The VIX Volatility Index fell to 13.42 on 2018-05-09, further supporting a bullish market environment [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

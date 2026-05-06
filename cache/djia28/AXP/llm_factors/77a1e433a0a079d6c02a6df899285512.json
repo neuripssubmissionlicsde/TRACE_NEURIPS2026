@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-08-13",
+  "end_date": "2023-08-27",
+  "window_type": "monthly",
+  "price_change_pct": -3.6572920587515574,
+  "factors": [
+    {
+      "name": "chinese_rate_cut_2023",
+      "category": "macroeconomic",
+      "direction": -0.52,
+      "magnitude": 0.5425531914893618,
+      "persistence": "short",
+      "description": "[conf=0.85] The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] raised concerns about economic slowdown, negatively impacting investor sentiment towards AXP."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4574468085106383,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"chinese_rate_cut_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] raised concerns about economic slowdown, negatively impacting investor sentiment towards AXP.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty during the period.\"\n  }\n]"
+}

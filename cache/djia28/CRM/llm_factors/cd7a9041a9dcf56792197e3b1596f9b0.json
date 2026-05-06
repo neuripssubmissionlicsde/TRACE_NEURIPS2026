@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-08-13",
+  "end_date": "2023-08-27",
+  "window_type": "monthly",
+  "price_change_pct": 0.7551671111890165,
+  "factors": [
+    {
+      "name": "treasury_yield_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.2971576227390181,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10-Year Treasury Rate around 4.3% during this period [10, 18] may have provided a favorable environment for equities, including CRM."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28940568475452194,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "chinese_rate_cut_2023",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.41343669250646,
+      "persistence": "short",
+      "description": "[conf=0.85] The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] likely boosted investor sentiment, contributing to CRM's price increase."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"chinese_rate_cut_2.5%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] likely boosted investor sentiment, contributing to CRM's price increase.\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [10, 18],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 4.3% during this period [10, 18] may have provided a favorable environment for equities, including CRM.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

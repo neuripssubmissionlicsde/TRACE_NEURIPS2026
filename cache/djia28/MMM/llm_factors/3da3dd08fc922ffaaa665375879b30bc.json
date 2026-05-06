@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-09-12",
+  "end_date": "2021-09-26",
+  "window_type": "monthly",
+  "price_change_pct": -2.298964950760517,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields_2021_september",
+      "category": "macroeconomic",
+      "direction": -0.65,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 1.4700 on September 24, contributing to bearish sentiment in the equity markets as higher yields typically lead to lower valuations for stocks [17][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_09_22\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.4100 on 2021-09-23, contributing to bearish sentiment in equities as higher yields typically lead to increased discount rates on future cash flows.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver.\"\n  }\n]"
+}

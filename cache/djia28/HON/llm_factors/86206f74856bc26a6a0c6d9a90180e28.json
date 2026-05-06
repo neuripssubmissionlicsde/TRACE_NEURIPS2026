@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": -2.0478475119560073,
+  "factors": [
+    {
+      "name": "russia_interest_rate_hike_2022",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.59,
+      "persistence": "short",
+      "description": "[conf=0.85] The Central Bank of Russia raised interest rates from 9.5% to 20% in response to economic instability, causing global market concerns and negatively impacting HON's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.41000000000000003,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"russia_interest_rate_hike_2022\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.6,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 15],\n    \"description\": \"The Central Bank of Russia raised interest rates from 9.5% to 20% in response to economic instability, causing global market concerns and negatively impacting HON's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in the market during this period.\"\n  }\n]"
+}

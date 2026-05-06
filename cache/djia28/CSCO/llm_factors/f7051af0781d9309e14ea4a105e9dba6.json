@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-07-22",
+  "end_date": "2018-08-05",
+  "window_type": "monthly",
+  "price_change_pct": 2.1707864474821714,
+  "factors": [
+    {
+      "name": "facebook_stock_drop_20_percent",
+      "category": "market_sentiment",
+      "direction": -0.25,
+      "magnitude": 0.35,
+      "persistence": "transient",
+      "description": "[conf=0.85] Facebook's significant stock drop created a ripple effect in the tech sector, leading to increased buying interest in other tech stocks like CSCO as investors sought perceived value."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable at 2.98%, supporting investor confidence in tech stocks [1]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"facebook_stock_drop_20_percent\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 11],\n    \"description\": \"Facebook's significant stock drop created a ripple effect in the tech sector, leading to increased buying interest in other tech stocks like CSCO as investors sought perceived value.\"\n  },\n  {\n    \"name\": \"fed_funds_rate_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [18],\n    \"description\": \"The release of the Federal Funds Effective Rate at 1.91% indicated a stable monetary policy environment, contributing to a positive sentiment in the market.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

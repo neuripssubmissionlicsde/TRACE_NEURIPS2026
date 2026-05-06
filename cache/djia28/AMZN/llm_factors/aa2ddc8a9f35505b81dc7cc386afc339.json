@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-05-22",
+  "end_date": "2022-06-05",
+  "window_type": "monthly",
+  "price_change_pct": 12.805524683108002,
+  "factors": [
+    {
+      "name": "market_sentiment_recovery",
+      "category": "market_sentiment",
+      "direction": 0.8,
+      "magnitude": 0.5238095238095238,
+      "persistence": "short",
+      "description": "[conf=0.85] The overall market sentiment improved during this period, contributing to a bullish trend in AMZN's price."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.2,
+      "magnitude": 0.23809523809523808,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased to 2.96% on June 3, indicating rising borrowing costs which typically exert downward pressure on equities [1, 9, 33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23809523809523808,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_recovery\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"The overall market sentiment improved during this period, contributing to a bullish trend in AMZN's price.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 9, 33],\n    \"description\": \"The 10-Year Treasury Rate increased to 2.96% on June 3, indicating rising borrowing costs which typically exert downward pressure on equities [1, 9, 33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,49 @@
+{
+  "start_date": "2021-03-14",
+  "end_date": "2021-03-28",
+  "window_type": "monthly",
+  "price_change_pct": -6.147339661885728,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.297029702970297,
+      "persistence": "short",
+      "description": "[conf=0.70] A decline in oil prices during this period likely contributed to the bearish movement in XOM's stock price."
+    },
+    {
+      "name": "market_sentiment_towards_energy",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.2376237623762376,
+      "persistence": "short",
+      "description": "[conf=0.60] Negative sentiment towards the energy sector, influenced by broader market trends, coincided with the decline in XOM's stock price."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -1.0,
+      "magnitude": 0.19801980198019803,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showed sell signals, which may have prompted traders to exit positions."
+    },
+    {
+      "name": "high_volume_sell_off",
+      "category": "liquidity",
+      "direction": -1.0,
+      "magnitude": 0.1485148514851485,
+      "persistence": "short",
+      "description": "[conf=0.50] An increase in trading volume during the decline suggests a sell-off, contributing to the downward price movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.1188118811881188,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in stock price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"A decline in oil prices during this period likely contributed to the bearish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment_towards_energy\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Negative sentiment towards the energy sector, influenced by broader market trends, coincided with the decline in XOM's stock price.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed sell signals, which may have prompted traders to exit positions.\"\n    },\n    {\n        \"name\": \"high_volume_sell_off\",\n        \"category\": \"liquidity\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"An increase in trading volume during the decline suggests a sell-off, contributing to the downward price movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in stock price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

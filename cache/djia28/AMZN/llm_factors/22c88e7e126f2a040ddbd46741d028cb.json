@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-03-26",
+  "end_date": "2023-04-09",
+  "window_type": "monthly",
+  "price_change_pct": 3.0180658857171068,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4021739130434782,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "declining_treasury_yield_2023_april",
+      "category": "macroeconomic",
+      "direction": 0.7333333333333334,
+      "magnitude": 0.5978260869565217,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 3.5700 to 3.3000 during the window, which typically supports higher equity valuations and investor sentiment [9][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yield_3.30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 41],\n    \"description\": \"The 10-Year Treasury yield declined to 3.30% on April 6, supporting higher equity valuations and investor sentiment towards growth stocks like AMZN [9][41].\"\n  },\n  {\n    \"name\": \"stable_treasury_yield_3.57\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 17],\n    \"description\": \"The 10-Year Treasury yield was stable at 3.57% on March 29, contributing to a favorable environment for equities [1][17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-07-05",
+  "end_date": "2020-07-19",
+  "window_type": "monthly",
+  "price_change_pct": 5.263126889119587,
+  "factors": [
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4040404040404041,
+      "persistence": "short",
+      "description": "[conf=0.85] The stability of the 10-Year Treasury Rate around 0.6200 to 0.6400 during this period contributed to a favorable environment for equities, supporting HON's price increase [1, 9, 25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5959595959595959,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced fluctuations without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 25],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 0.6200 to 0.6400 during this period contributed to a favorable environment for equities, supporting HON's price increase [1, 9, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced fluctuations without a clear dominant driver.\"\n  }\n]"
+}

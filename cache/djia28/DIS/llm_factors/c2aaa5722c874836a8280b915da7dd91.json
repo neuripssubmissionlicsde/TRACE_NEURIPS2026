@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-07-17",
+  "end_date": "2022-07-31",
+  "window_type": "monthly",
+  "price_change_pct": 10.107915695616274,
+  "factors": [
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] The stock may have experienced a technical breakout above a resistance level, attracting momentum traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations contributed to unexplained price changes."
+    },
+    {
+      "name": "positive_earnings_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive sentiment surrounding upcoming earnings reports likely contributed to the price increase."
+    },
+    {
+      "name": "strong_market_trend",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] A general bullish trend in the broader market during this period may have supported DIS's price movement."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"earnings_report\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The release of a positive earnings report likely boosted investor sentiment and contributed to the price increase.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Overall positive market sentiment during this period may have influenced DIS's upward price movement.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"The stock may have experienced a technical breakout above a resistance level, attracting momentum traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations contributed to unexplained price changes.\"\n    }\n]"
+}

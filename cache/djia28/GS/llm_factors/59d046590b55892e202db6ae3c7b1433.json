@@ -1,0 +1,17 @@
+{
+  "start_date": "2018-04-01",
+  "end_date": "2018-04-15",
+  "window_type": "monthly",
+  "price_change_pct": 1.8546543606366677,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_april_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 49],\n    \"description\": \"The 10-Year Treasury Rate increased to 2.8300 on April 12, which typically signals investor confidence and can lead to higher equity prices [25, 49].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_april_11\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 33],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 2.7900 on April 11 provided a supportive backdrop for equity markets, contributing to the price increase [1, 33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

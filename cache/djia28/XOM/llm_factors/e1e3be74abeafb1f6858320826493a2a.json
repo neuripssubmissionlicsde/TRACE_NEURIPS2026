@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-02-02",
+  "end_date": "2020-02-16",
+  "window_type": "monthly",
+  "price_change_pct": 0.22924063999250419,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.15999999999999998,
+      "magnitude": 0.34782608695652173,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment during this period was cautiously optimistic, contributing to slight upward movement."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": 0.1,
+      "magnitude": 0.13043478260869568,
+      "persistence": "short",
+      "description": "[conf=0.50] Average daily volume was relatively high, indicating sufficient liquidity for trading."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.4057971014492754,
+      "persistence": "transient",
+      "description": "[conf=0.80] Price movements during this period may largely be attributed to random market noise."
+    },
+    {
+      "name": "consolidation",
+      "category": "technical",
+      "direction": 0.0,
+      "magnitude": 0.11594202898550726,
+      "persistence": "medium",
+      "description": "[conf=0.90] The stock exhibited range-bound behavior, indicating a consolidation phase."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment during this period was cautiously optimistic, contributing to slight upward movement.\"\n    },\n    {\n        \"name\": \"technical_support\",\n        \"category\": \"technical\",\n        \"direction\": 0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The stock approached a technical support level, which may have attracted buying interest.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Average daily volume was relatively high, indicating sufficient liquidity for trading.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Price movements during this period may largely be attributed to random market noise.\"\n    },\n    {\n        \"name\": \"consolidation\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.9,\n        \"description\": \"The stock exhibited range-bound behavior, indicating a consolidation phase.\"\n    }\n]"
+}

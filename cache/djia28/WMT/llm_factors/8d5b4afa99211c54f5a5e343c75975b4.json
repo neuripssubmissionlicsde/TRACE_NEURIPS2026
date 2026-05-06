@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-02-28",
+  "end_date": "2021-03-14",
+  "window_type": "monthly",
+  "price_change_pct": 1.9304213564274308,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5320197044334976,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields_2021_03",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4679802955665024,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose from 1.4500 to 1.6400 during the window, contributing to bearish sentiment in equities as higher yields typically signal increased borrowing costs and reduced valuations [7][10][13]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_03_05\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [7, 8, 9],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.5600 on March 5, contributing to bearish sentiment in the equity markets as investors reacted to increasing yields.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver.\"\n  }\n]"
+}

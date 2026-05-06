@@ -1,0 +1,49 @@
+{
+  "start_date": "2019-06-09",
+  "end_date": "2019-06-23",
+  "window_type": "monthly",
+  "price_change_pct": 3.3249121701449456,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.31143552311435524,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.24330900243309,
+      "persistence": "short",
+      "description": "[conf=0.60] Positive market sentiment towards energy stocks may have influenced investor behavior, supporting XOM's price increase."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.194647201946472,
+      "persistence": "transient",
+      "description": "[conf=0.50] A technical breakout above a key resistance level could have attracted momentum traders, contributing to the price rise."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.1167883211678832,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations that cannot be attributed to specific factors."
+    },
+    {
+      "name": "earnings_expectations",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.13381995133819952,
+      "persistence": "short",
+      "description": "[conf=0.50] Anticipation of favorable earnings reports may have led to increased buying interest in XOM shares."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Positive market sentiment towards energy stocks may have influenced investor behavior, supporting XOM's price increase.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"A technical breakout above a key resistance level could have attracted momentum traders, contributing to the price rise.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations that cannot be attributed to specific factors.\"\n    }\n]"
+}

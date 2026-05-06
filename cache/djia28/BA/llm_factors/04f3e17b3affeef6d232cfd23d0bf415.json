@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-12-09",
+  "end_date": "2018-12-23",
+  "window_type": "monthly",
+  "price_change_pct": -5.2043380474954715,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_2018_dec",
+      "category": "macroeconomic",
+      "direction": -0.54,
+      "magnitude": 0.52,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 2.8900 to 2.7700 during this period indicated a shift in investor sentiment towards risk-off assets, contributing to the bearish price movement in BA [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_2018_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 9],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 2.8900 to 2.7700 during this period indicated a shift in investor sentiment towards risk-off assets, contributing to the bearish price movement in BA [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

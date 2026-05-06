@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": -0.28718675353690215,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7452229299363058,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements during this period."
+    },
+    {
+      "name": "sec_filings_2022_april",
+      "category": "company_specific",
+      "direction": 0.0,
+      "magnitude": 0.25477707006369427,
+      "persistence": "transient",
+      "description": "[conf=0.60] American Express filed with the SEC on April 15 and April 22, which may have had a neutral impact on investor sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 1.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements during this period.\"\n  }\n]"
+}

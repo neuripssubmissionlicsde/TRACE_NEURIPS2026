@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-04-14",
+  "end_date": "2019-04-28",
+  "window_type": "monthly",
+  "price_change_pct": -0.26941463917743935,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with minor fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_2.57\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 2.57% on April 18 raised borrowing costs, negatively impacting equity valuations [9][25].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2.60\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17],\n    \"description\": \"The further increase in the 10-Year Treasury Rate to 2.60% on April 16 contributed to bearish sentiment in the market [17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with minor fluctuations.\"\n  }\n]"
+}

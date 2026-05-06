@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": 1.1633490782674882,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_3.49",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5357142857142857,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 3.49% on December 14 [17] likely boosted investor sentiment, contributing to the price increase of PG."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.46428571428571425,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_3.49\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.49% on December 14 [17] likely boosted investor sentiment, contributing to the price increase of PG.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_3.48\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 41],\n    \"description\": \"The further decline in the 10-Year Treasury Rate to 3.48% on December 16 [41] reinforced positive market sentiment, supporting PG's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

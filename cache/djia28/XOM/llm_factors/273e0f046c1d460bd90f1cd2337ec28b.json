@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-06-10",
+  "end_date": "2018-06-24",
+  "window_type": "monthly",
+  "price_change_pct": -2.795027566367484,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.30612244897959184,
+      "persistence": "short",
+      "description": "[conf=0.70] Recent fluctuations in crude oil prices negatively impacted XOM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.44000000000000006,
+      "magnitude": 0.20408163265306123,
+      "persistence": "transient",
+      "description": "[conf=0.60] General bearish sentiment in the market contributed to the decline in XOM's stock price."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -0.4,
+      "magnitude": 0.20408163265306123,
+      "persistence": "short",
+      "description": "[conf=0.50] Technical indicators suggested sell signals, leading to increased selling pressure on XOM."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.28571428571428575,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to price movements."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Recent fluctuations in crude oil prices negatively impacted XOM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General bearish sentiment in the market contributed to the decline in XOM's stock price.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested sell signals, leading to increased selling pressure on XOM.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Ongoing geopolitical tensions in oil-producing regions raised concerns about supply stability.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to price movements.\"\n    }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-04-14",
+  "end_date": "2019-04-28",
+  "window_type": "monthly",
+  "price_change_pct": 1.939549239889078,
+  "factors": [
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.24834437086092712,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 2.57%, supporting investor confidence in equities [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23841059602649003,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5132450331125827,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index remained stable around 12.32 to 13.25 during the period, indicating reduced market fear and contributing to upward price momentum [1][9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_stability_below_13\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The VIX remained stable below 13, indicating low market volatility and contributing to a bullish sentiment [1][9].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 2.57%, supporting investor confidence in equities [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,49 @@
+{
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-24",
+  "window_type": "monthly",
+  "price_change_pct": 0.4756349905518648,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.26785714285714285,
+      "persistence": "short",
+      "description": "[conf=0.70] General positive sentiment in the market during this period may have contributed to the upward price movement."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 0.3333333333333333,
+      "magnitude": 0.193452380952381,
+      "persistence": "short",
+      "description": "[conf=0.60] MSFT's strong performance in cloud computing and software services likely supported its stock price."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 0.2333333333333333,
+      "magnitude": 0.1488095238095238,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators may have suggested a bullish trend, attracting traders to buy MSFT shares."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": 0.4666666666666666,
+      "magnitude": 0.10416666666666667,
+      "persistence": "medium",
+      "description": "[conf=0.50] High average daily volume indicates strong liquidity, which can support price stability and upward movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.28571428571428575,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations that cannot be attributed to any specific observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General positive sentiment in the market during this period may have contributed to the upward price movement.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": 0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"MSFT's strong performance in cloud computing and software services likely supported its stock price.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": 0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have suggested a bullish trend, attracting traders to buy MSFT shares.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.2,\n        \"magnitude\": 0.15,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"High average daily volume indicates strong liquidity, which can support price stability and upward movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations that cannot be attributed to any specific observable factors.\"\n    }\n]"
+}

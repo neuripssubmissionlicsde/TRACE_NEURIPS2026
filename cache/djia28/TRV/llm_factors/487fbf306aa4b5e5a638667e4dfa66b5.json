@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": 1.554224485667436,
+  "factors": [
+    {
+      "name": "fdic_seizure_first_republic_bank",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The FDIC's seizure of First Republic Bank and JPMorgan's acquisition of its assets created a sense of stability in the banking sector, positively impacting TRV's price."
+    },
+    {
+      "name": "ecb_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.08,
+      "magnitude": 0.26,
+      "persistence": "medium",
+      "description": "[conf=0.75] The European Central Bank's interest rate hike raised concerns about tighter monetary conditions, which may have negatively influenced investor sentiment towards TRV."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fdic_seizure_first_republic_bank\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [23, 24, 25],\n    \"description\": \"The FDIC's seizure of First Republic Bank and JPMorgan's acquisition of its assets created a sense of stability in the banking sector, positively impacting TRV's price.\"\n  },\n  {\n    \"name\": \"ecb_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank's interest rate hike raised concerns about tighter monetary conditions, which may have negatively influenced investor sentiment towards TRV.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

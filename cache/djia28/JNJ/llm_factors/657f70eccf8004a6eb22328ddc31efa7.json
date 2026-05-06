@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -10.056809013733822,
+  "factors": [
+    {
+      "name": "coronavirus_market_selloff",
+      "category": "macroeconomic",
+      "direction": -0.8,
+      "magnitude": 0.5463576158940399,
+      "persistence": "short",
+      "description": "[conf=0.90] The Dow Jones Industrial Average dropped significantly due to fears surrounding the coronavirus pandemic, leading to widespread market selloffs [5][9]."
+    },
+    {
+      "name": "global_market_decline",
+      "category": "macroeconomic",
+      "direction": -0.6999999999999998,
+      "magnitude": 0.31456953642384106,
+      "persistence": "short",
+      "description": "[conf=0.85] Global stock markets lost approximately $6 trillion in value over a short period, contributing to negative sentiment and further declines in JNJ's stock price [7][8]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1390728476821192,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this volatile period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"coronavirus_market_selloff\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [5, 9],\n    \"description\": \"The Dow Jones Industrial Average dropped significantly due to fears surrounding the coronavirus pandemic, leading to widespread market selloffs [5][9].\"\n  },\n  {\n    \"name\": \"global_market_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [7, 8],\n    \"description\": \"Global stock markets lost approximately $6 trillion in value over a short period, contributing to negative sentiment and further declines in JNJ's stock price [7][8].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this volatile period.\"\n  }\n]"
+}

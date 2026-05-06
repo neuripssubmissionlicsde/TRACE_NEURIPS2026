@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": -0.11754787748646665,
+  "factors": [
+    {
+      "name": "vix_volatility_decline_2021_08_12",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.43749999999999994,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index declined from 16.7900 on August 10 to 15.5900 on August 12, indicating reduced market fear and supporting a bullish sentiment for equities [17, 18]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5625000000000001,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were minor and lacked a clear directional driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_decline_2021_08_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 18, 25],\n    \"description\": \"The VIX Volatility Index declined from 16.7900 on August 10 to 15.5900 on August 12, indicating reduced market fear and supporting a bullish sentiment for equities [17, 18].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were minor and lacked a clear directional driver.\"\n  }\n]"
+}

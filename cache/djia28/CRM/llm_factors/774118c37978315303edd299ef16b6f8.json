@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-12-22",
+  "end_date": "2020-01-05",
+  "window_type": "monthly",
+  "price_change_pct": 1.2984788837169439,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5783132530120483,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "treasury_rate_decline_2020_jan",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4216867469879518,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 1.8000 on January 3, 2020, which typically supports equity valuations and investor sentiment [25, 26]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2020_01_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26, 27],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.8000 on 2020-01-03, which typically supports equity valuations and investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_2019_12_30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The stability of the 10-Year Treasury Rate at 1.9000 on 2019-12-30 contributed to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

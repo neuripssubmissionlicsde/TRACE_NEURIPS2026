@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-07-30",
+  "end_date": "2023-08-13",
+  "window_type": "monthly",
+  "price_change_pct": 3.9114165414670774,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filings_2023_08_03_04\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Amazon filed multiple SEC documents on 2023-08-03 and 2023-08-04, which may have reassured investors about corporate governance and compliance.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2023_08_01_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 17],\n    \"description\": \"The 10-Year Treasury Rate increased to 4.2000 on 2023-08-03, which typically raises borrowing costs and can negatively impact equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

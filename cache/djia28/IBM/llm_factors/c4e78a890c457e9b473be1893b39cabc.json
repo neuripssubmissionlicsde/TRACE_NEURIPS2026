@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -17.43784854444954,
+  "factors": [
+    {
+      "name": "fed_rate_cut_100bps",
+      "category": "macroeconomic",
+      "direction": -0.82,
+      "magnitude": 0.7647058823529411,
+      "persistence": "medium",
+      "description": "[conf=0.95] The Fed's emergency rate cut of 100bps and announcement of a $700 billion quantitative easing program created significant market uncertainty, contributing to the sharp decline in IBM's stock price [1, 2, 3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23529411764705885,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_100bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Fed's emergency rate cut of 100bps and announcement of a $700 billion quantitative easing program created significant market uncertainty, contributing to the sharp decline in IBM's stock price [1, 2, 3].\"\n  },\n  {\n    \"name\": \"market_sell_off\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.75,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [16, 46],\n    \"description\": \"A broader market sell-off occurred as investors reacted to the Fed's actions and the bond market's decline, leading to increased selling pressure on equities, including IBM [16, 46].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period.\"\n  }\n]"
+}

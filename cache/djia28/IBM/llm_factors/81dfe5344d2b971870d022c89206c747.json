@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": -2.3620219383225023,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2231075697211155,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    },
+    {
+      "name": "food_price_index_increase_march_2022",
+      "category": "geopolitical",
+      "direction": -0.55,
+      "magnitude": 0.7768924302788844,
+      "persistence": "short",
+      "description": "[conf=0.85] The Food and Agriculture Organisation reported a 13% increase in the food price index in March, driven by the fallout from the Russian invasion of Ukraine, which likely raised inflation concerns and negatively impacted market sentiment [1]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"food_price_index_increase\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The Food and Agriculture Organisation's food price index increased by 13% in March, reflecting inflationary pressures that negatively impacted market sentiment [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [16, 24],\n    \"description\": \"The 10-Year Treasury Rate rose from 2.32% to 2.39% during the window, contributing to bearish sentiment in equity markets [16, 24].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

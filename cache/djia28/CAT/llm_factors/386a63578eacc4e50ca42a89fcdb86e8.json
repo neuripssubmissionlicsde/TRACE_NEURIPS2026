@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-06-06",
+  "end_date": "2021-06-20",
+  "window_type": "monthly",
+  "price_change_pct": -14.419187176135278,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_june_2021",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose to 1.5700 on June 16, contributing to bearish sentiment in equity markets as higher yields typically reduce the attractiveness of stocks [9][10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_june_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 25],\n    \"description\": \"The 10-Year Treasury yield rose to 1.5700 on June 16, contributing to bearish sentiment in equity markets as higher yields typically reduce the attractiveness of stocks [9][10].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

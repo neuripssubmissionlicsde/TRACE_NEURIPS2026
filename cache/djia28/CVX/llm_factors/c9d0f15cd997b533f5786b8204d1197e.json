@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-08-14",
+  "end_date": "2022-08-28",
+  "window_type": "monthly",
+  "price_change_pct": 6.260353482801459,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_24_august\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 34, 40],\n    \"description\": \"The VIX increased to 24.11 on August 23, indicating heightened market volatility and uncertainty, which typically pressures stock prices [33].\"\n  },\n  {\n    \"name\": \"vix_stability_19_august\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The VIX was stable around 20.60 on August 19, suggesting a temporary calm in market sentiment that may have supported the price increase [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market movements.\"\n  }\n]"
+}

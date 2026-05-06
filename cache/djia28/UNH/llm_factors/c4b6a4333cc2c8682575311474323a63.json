@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": -0.9429838367960439,
+  "factors": [
+    {
+      "name": "unemployment_rate_stable",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.24038461538461536,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 5.1%, indicating a lack of significant economic change during this period [1-8]."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4326923076923077,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield fluctuated, peaking at 1.36% on August 10, which may have contributed to bearish sentiment in equities [9, 25, 33, 41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3269230769230769,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 5.1%, indicating a lack of significant economic change during this period [1-8].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25, 33, 41],\n    \"description\": \"The 10-Year Treasury yield fluctuated, peaking at 1.36% on August 10, which may have contributed to bearish sentiment in equities [9, 25, 33, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

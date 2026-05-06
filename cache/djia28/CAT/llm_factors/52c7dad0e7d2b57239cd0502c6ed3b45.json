@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-06-23",
+  "end_date": "2019-07-07",
+  "window_type": "monthly",
+  "price_change_pct": 1.3843341600181163,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_july_2019",
+      "category": "macroeconomic",
+      "direction": 0.7600000000000001,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury yield declined from 2.03% to 1.96% during the window, signaling lower interest rates which typically support equity prices [1, 5, 17]."
+    },
+    {
+      "name": "stable_unemployment_rate_july_2019",
+      "category": "macroeconomic",
+      "direction": 0.45999999999999996,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.7%, indicating a strong labor market which supports consumer spending and economic growth [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_july_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 5, 17],\n    \"description\": \"The 10-Year Treasury yield declined from 2.03% to 1.96% during the window, signaling lower interest rates which typically support equity prices [1, 5, 17].\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate_july_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41],\n    \"description\": \"The unemployment rate remained stable at 3.7%, indicating a strong labor market which supports consumer spending and economic growth [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

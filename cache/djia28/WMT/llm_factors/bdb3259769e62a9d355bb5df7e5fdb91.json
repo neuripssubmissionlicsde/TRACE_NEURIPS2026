@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-24",
+  "window_type": "monthly",
+  "price_change_pct": 1.048424026712379,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.36363636363636365,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "market_sentiment_covid_impact",
+      "category": "market_sentiment",
+      "direction": 0.5333333333333333,
+      "magnitude": 0.3939393939393939,
+      "persistence": "medium",
+      "description": "[conf=0.85] The ongoing economic impact of the COVID-19 pandemic influenced consumer behavior and spending patterns, positively affecting Walmart's stock price as a key retailer during the crisis."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3333333333333333,
+      "magnitude": 0.2424242424242424,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10-Year Treasury Rate around 0.68% during this period provided a favorable environment for equities, contributing to a bullish sentiment for Walmart's stock."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"economic_impact_covid19\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.45,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [43, 44],\n    \"description\": \"The ongoing economic impact of the COVID-19 pandemic influenced consumer behavior and spending patterns, supporting WMT's price increase [43][44].\"\n  }\n]"
+}

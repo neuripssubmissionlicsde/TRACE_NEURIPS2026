@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -27.51474083815446,
+  "factors": [
+    {
+      "name": "oil_price_decline",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.4000000000000001,
+      "persistence": "short",
+      "description": "[conf=0.80] A significant decline in oil prices during this period negatively impacted XOM's stock price."
+    },
+    {
+      "name": "covid19_market_reaction",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.30000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.70] Market reactions to the COVID-19 pandemic led to widespread sell-offs, affecting XOM's stock price."
+    },
+    {
+      "name": "increased_volatility",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.20000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.60] Heightened market volatility during this period contributed to bearish sentiment around XOM."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10000000000000002,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity that did not correlate with observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_decline\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.8,\n        \"description\": \"A significant decline in oil prices during this period negatively impacted XOM's stock price.\"\n    },\n    {\n        \"name\": \"covid19_market_reaction\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Market reactions to the COVID-19 pandemic led to widespread sell-offs, affecting XOM's stock price.\"\n    },\n    {\n        \"name\": \"increased_volatility\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Heightened market volatility during this period contributed to bearish sentiment around XOM.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity that did not correlate with observable factors.\"\n    }\n]"
+}

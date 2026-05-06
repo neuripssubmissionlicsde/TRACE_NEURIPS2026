@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": 2.8308106650619984,
+  "factors": [
+    {
+      "name": "bank_of_japan_loose_policy",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Bank of Japan's commitment to maintaining loose monetary policy [1] supported investor sentiment, contributing to price increases for KO."
+    },
+    {
+      "name": "turkish_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.75] The Turkish central bank's interest rate hike to combat inflation [17] created a ripple effect in global markets, impacting investor sentiment towards KO."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_japan_loose_policy\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Bank of Japan's commitment to maintaining loose monetary policy [1] supported investor sentiment, contributing to price increases for KO.\"\n  },\n  {\n    \"name\": \"turkish_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 18],\n    \"description\": \"The Turkish central bank's interest rate hike to combat inflation [17] created a ripple effect in global markets, impacting investor sentiment towards KO.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

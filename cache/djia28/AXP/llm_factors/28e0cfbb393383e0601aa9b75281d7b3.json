@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-09",
+  "end_date": "2021-05-23",
+  "window_type": "monthly",
+  "price_change_pct": -1.802844888058294,
+  "factors": [
+    {
+      "name": "sec_filing_2021_05_17",
+      "category": "company_specific",
+      "direction": -0.5,
+      "magnitude": 0.24509803921568626,
+      "persistence": "transient",
+      "description": "[conf=0.70] American Express filed with the SEC on 2021-05-17, which may have raised concerns among investors about regulatory scrutiny."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.24509803921568626,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 1.63% to 1.64% during the period, indicating a lack of upward pressure on interest rates that could have supported stock prices."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5098039215686274,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2021_05_17\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"American Express filed with the SEC on 2021-05-17, which may have raised concerns among investors about regulatory scrutiny.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.63% to 1.64% during the period, indicating a lack of upward pressure on interest rates that could have supported stock prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in the market.\"\n  }\n]"
+}

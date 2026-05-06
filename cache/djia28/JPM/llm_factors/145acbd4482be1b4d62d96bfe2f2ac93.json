@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-02-03",
+  "end_date": "2019-02-17",
+  "window_type": "monthly",
+  "price_change_pct": 1.695725399738375,
+  "factors": [
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3260869565217391,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive macroeconomic indicators during this period may have contributed to investor confidence."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.62,
+      "magnitude": 0.391304347826087,
+      "persistence": "short",
+      "description": "[conf=0.80] Overall bullish sentiment in the market may have driven demand for JPM shares."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 0.68,
+      "magnitude": 0.17391304347826086,
+      "persistence": "transient",
+      "description": "[conf=0.50] JPM's price movement may have triggered technical buying as it approached key resistance levels."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10869565217391304,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume contributed to unexplained price variance."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_conditions\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive macroeconomic indicators during this period may have contributed to investor confidence.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": 0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The financial sector showed strong performance, which likely supported JPM's price movement.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.6,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.8,\n        \"description\": \"Overall bullish sentiment in the market may have driven demand for JPM shares.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 0.7,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"JPM's price movement may have triggered technical buying as it approached key resistance levels.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume contributed to unexplained price variance.\"\n    }\n]"
+}

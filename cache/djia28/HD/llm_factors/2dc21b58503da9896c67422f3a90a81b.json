@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-04-09",
+  "end_date": "2023-04-23",
+  "window_type": "monthly",
+  "price_change_pct": 4.861418923493351,
+  "factors": [
+    {
+      "name": "stable_treasury_rate_3.6000",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate stabilized at 3.6000, contributing to a favorable borrowing environment and supporting equity valuations [1][9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rate_3.6000\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate stabilized at 3.6000, contributing to a favorable borrowing environment and supporting equity valuations [1][9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

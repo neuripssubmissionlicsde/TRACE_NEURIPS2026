@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": 5.456736004217563,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.70] Overall positive market sentiment towards tech stocks contributed to AAPL's price increase."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.33333333333333337,
+      "persistence": "short",
+      "description": "[conf=0.60] AAPL's price movement broke through key technical resistance levels, attracting momentum traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.16666666666666669,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations contributed to unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"earnings_report\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.8,\n        \"description\": \"AAPL's earnings report released during this period showed strong performance, positively influencing investor sentiment.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Overall positive market sentiment towards tech stocks contributed to AAPL's price increase.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"AAPL's price movement broke through key technical resistance levels, attracting momentum traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations contributed to unexplained price movements.\"\n    }\n]"
+}

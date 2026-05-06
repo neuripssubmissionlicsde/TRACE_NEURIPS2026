@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-11-10",
+  "end_date": "2019-11-24",
+  "window_type": "monthly",
+  "price_change_pct": -1.815521243400767,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6875000000000001,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited a decline without clear causative news."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.3125,
+      "persistence": "short",
+      "description": "[conf=0.80] 10-Year Treasury yields declined from 1.8800 to 1.7900 [33], contributing to a bearish sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10yr_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 41],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.7900 on 2019-11-19 [33], contributing to bearish sentiment in the market as lower yields often signal economic concerns.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited a decline without clear causative news.\"\n  }\n]"
+}

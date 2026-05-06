@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-01-06",
+  "end_date": "2019-01-20",
+  "window_type": "monthly",
+  "price_change_pct": 15.585223176988409,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5789473684210527,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 2.7400 to 2.7900 during the window, indicating rising interest rates which typically support financial sector stocks like GS [1, 9, 17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_january_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.7400 to 2.7900 during the window, indicating rising yields which typically support financial sector stocks like GS [1, 9, 17].\"\n  },\n  {\n    \"name\": \"market_sentiment_recovery\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Overall positive market sentiment during the period contributed to the upward price movement, reflecting investor confidence.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

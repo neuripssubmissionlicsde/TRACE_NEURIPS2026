@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-10-28",
+  "end_date": "2018-11-11",
+  "window_type": "monthly",
+  "price_change_pct": 3.58320228648538,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "rising_10yr_treasury_rate_3.2pct",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.20% on 2018-11-05, indicating increased investor confidence and contributing to HON's price increase."
+    },
+    {
+      "name": "federal_funds_rate_2.2pct",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The Federal Funds Effective Rate was reported at 2.20% on 2018-11-01, reflecting a stable monetary policy environment that supported market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10yr_treasury_rate_3.20\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.20% on 2018-11-05, indicating increased investor confidence and contributing to the bullish sentiment in the market [9][33].\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 2.20% on 2018-11-01, supporting a favorable borrowing environment for companies [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

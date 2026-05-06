@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-31",
+  "end_date": "2021-02-14",
+  "window_type": "monthly",
+  "price_change_pct": -2.1801728570088557,
+  "factors": [
+    {
+      "name": "sec_filings_feb_2021",
+      "category": "company_specific",
+      "direction": -0.5,
+      "magnitude": 0.3201219512195122,
+      "persistence": "transient",
+      "description": "[conf=0.75] Multiple SEC filings by Amgen in early February raised concerns about regulatory scrutiny, contributing to negative sentiment."
+    },
+    {
+      "name": "rising_treasury_yields_feb_2021",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.25914634146341464,
+      "persistence": "short",
+      "description": "[conf=0.80] Increasing 10-year Treasury yields during the period indicated tightening financial conditions, negatively impacting equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42073170731707316,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filings_feb_2021\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"Multiple SEC filings by Amgen in early February raised concerns about regulatory scrutiny, contributing to negative sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_feb_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [11, 12, 13, 14, 15],\n    \"description\": \"Increasing 10-year Treasury yields during the period indicated tightening financial conditions, negatively impacting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

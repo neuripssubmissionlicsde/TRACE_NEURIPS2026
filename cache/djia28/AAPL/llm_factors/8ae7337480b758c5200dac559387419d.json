@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": 2.417893003023865,
+  "factors": [
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.11764705882352941,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations that cannot be attributed to any specific observable factor."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.75,
+      "magnitude": 0.3431372549019608,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment around technology stocks likely contributed to the upward price movement."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 0.9,
+      "magnitude": 0.34313725490196073,
+      "persistence": "short",
+      "description": "[conf=0.60] AAPL's strong product lineup and positive sales forecasts may have driven investor interest."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 0.85,
+      "magnitude": 0.19607843137254902,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showing bullish patterns could have attracted momentum traders."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"positive_earnings_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive sentiment surrounding AAPL's earnings report likely contributed to the upward price movement.\"\n    },\n    {\n        \"name\": \"strong_tech_sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The technology sector was performing well during this period, which may have positively influenced AAPL's price.\"\n    },\n    {\n        \"name\": \"market_volatility\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Increased market volatility may have led to fluctuations in AAPL's price, contributing to uncertainty.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"AAPL's price breaking above key technical levels may have attracted momentum traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations that cannot be attributed to any specific observable factor.\"\n    }\n]"
+}

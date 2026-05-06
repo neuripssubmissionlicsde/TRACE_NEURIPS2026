@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-09",
+  "end_date": "2023-04-23",
+  "window_type": "monthly",
+  "price_change_pct": -1.1783876709028185,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5283018867924528,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted JNJ's price movement."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.35,
+      "magnitude": 0.31839622641509435,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield declined from 3.6000 to 3.5800 during the window, which typically supports equity valuations [3, 4]."
+    },
+    {
+      "name": "increased_market_volatility",
+      "category": "market_sentiment",
+      "direction": -0.2,
+      "magnitude": 0.15330188679245282,
+      "persistence": "transient",
+      "description": "[conf=0.70] The VIX increased during the period, indicating heightened market volatility which may have pressured JNJ's price [33, 47]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted JNJ's price movement.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [3, 4],\n    \"description\": \"The 10-Year Treasury yield declined from 3.6000 to 3.5800 during the window, which typically supports equity valuations [3, 4].\"\n  },\n  {\n    \"name\": \"increased_market_volatility\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [33, 47],\n    \"description\": \"The VIX increased during the period, indicating heightened market volatility which may have pressured JNJ's price [33, 47].\"\n  }\n]"
+}

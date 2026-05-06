@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-05-13",
+  "end_date": "2018-05-27",
+  "window_type": "monthly",
+  "price_change_pct": -2.566631852444876,
+  "factors": [
+    {
+      "name": "turkish_central_bank_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.58,
+      "magnitude": 0.6,
+      "persistence": "short",
+      "description": "[conf=0.85] The Turkish Central Bank raised its late liquidity window rate from 13.5% to 16.5% to counter the slide of the Turkish lira, creating uncertainty in global markets [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.39999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced a price decline without clear additional drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkish_central_bank_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Turkish Central Bank raised its late liquidity window rate from 13.5% to 16.5% to counter the slide of the Turkish lira, creating uncertainty in global markets [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced a price decline without clear additional drivers.\"\n  }\n]"
+}

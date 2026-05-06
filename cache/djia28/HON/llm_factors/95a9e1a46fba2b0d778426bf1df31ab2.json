@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-20",
+  "window_type": "monthly",
+  "price_change_pct": 3.794202024147191,
+  "factors": [
+    {
+      "name": "uk_inflation_record_high",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] UK inflation reached a record 11.1%, raising concerns about economic stability and influencing investor sentiment positively towards certain sectors, including HON."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury yield from 4.22% to 3.77% during the window provided a favorable environment for equities, supporting HON's price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"uk_inflation_record_high\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"UK inflation reached a record 11.1%, raising concerns about economic stability and influencing investor sentiment positively towards certain sectors, including HON.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [39, 47],\n    \"description\": \"The decline in the 10-Year Treasury yield from 4.22% to 3.77% during the window provided a favorable environment for equities, supporting HON's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

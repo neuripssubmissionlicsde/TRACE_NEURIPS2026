@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-03-26",
+  "end_date": "2023-04-09",
+  "window_type": "monthly",
+  "price_change_pct": 3.6285751675185653,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_improvement\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment improved during this period, contributing to the upward price movement.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 41],\n    \"description\": \"The 10-Year Treasury Rate declined from 3.5700 to 3.3000, which typically supports equity valuations [17, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

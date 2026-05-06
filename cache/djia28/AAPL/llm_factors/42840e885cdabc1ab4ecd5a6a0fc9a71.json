@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-03-28",
+  "end_date": "2021-04-11",
+  "window_type": "monthly",
+  "price_change_pct": 9.330031806538186,
+  "factors": [
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"company_earnings_report\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The anticipation of AAPL's upcoming earnings report likely drove bullish sentiment among investors.\"\n    },\n    {\n        \"name\": \"macroeconomic_data\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Positive macroeconomic indicators released during this period may have contributed to overall market optimism.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General bullish sentiment in the tech sector likely influenced AAPL's price movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations.\"\n    }\n]"
+}

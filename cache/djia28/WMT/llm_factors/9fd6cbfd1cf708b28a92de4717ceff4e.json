@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-02-03",
+  "end_date": "2019-02-17",
+  "window_type": "monthly",
+  "price_change_pct": 6.5309883597999026,
+  "factors": [
+    {
+      "name": "wmt_sec_filing_2019_02_11",
+      "category": "company_specific",
+      "direction": 0.525,
+      "magnitude": 0.5425219941348973,
+      "persistence": "transient",
+      "description": "[conf=0.85] Walmart filed with the SEC on 2019-02-11, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4574780058651026,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"wmt_sec_filing_2019_02_11\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Walmart filed with the SEC on 2019-02-11, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

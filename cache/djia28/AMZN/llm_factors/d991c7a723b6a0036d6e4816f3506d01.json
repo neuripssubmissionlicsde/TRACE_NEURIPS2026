@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-01-21",
+  "end_date": "2018-02-04",
+  "window_type": "monthly",
+  "price_change_pct": 10.23612970177034,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4318181818181818,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "sec_filings_january_2018",
+      "category": "company_specific",
+      "direction": 0.5333333333333333,
+      "magnitude": 0.5681818181818182,
+      "persistence": "short",
+      "description": "[conf=0.85] Multiple SEC filings by Amazon during this period indicated ongoing corporate activity, which likely contributed to positive investor sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_positive_trend\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"Overall positive sentiment in the market contributed to AMZN's price increase during this period.\"\n  },\n  {\n    \"name\": \"sec_filings_2018_02_02\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"Multiple SEC filings on 2018-02-02 may have reassured investors about AMZN's compliance and transparency.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

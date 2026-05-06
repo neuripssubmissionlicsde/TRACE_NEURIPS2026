@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-06-18",
+  "end_date": "2023-07-02",
+  "window_type": "monthly",
+  "price_change_pct": 0.7685103258811208,
+  "factors": [
+    {
+      "name": "vix_decline_2023_06_22",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.35,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index declined to 12.91 on June 22, indicating reduced market fear and contributing to a bullish sentiment for CVX [9, 12]."
+    },
+    {
+      "name": "vix_increase_2023_06_26",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX increased to 14.25 on June 26, reflecting heightened market uncertainty which may have pressured CVX's price [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2023_06_22\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 12, 25],\n    \"description\": \"The VIX Volatility Index declined to 12.91 on June 22, indicating reduced market fear and contributing to a bullish sentiment for CVX [9, 12].\"\n  },\n  {\n    \"name\": \"vix_increase_2023_06_26\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The VIX increased to 14.25 on June 26, reflecting heightened market uncertainty which may have pressured CVX's price [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-21",
+  "window_type": "monthly",
+  "price_change_pct": -11.692475644107613,
+  "factors": [
+    {
+      "name": "vix_spike_june_2020",
+      "category": "market_sentiment",
+      "direction": -0.7749999999999999,
+      "magnitude": 0.5445544554455446,
+      "persistence": "short",
+      "description": "[conf=0.90] The VIX Volatility Index spiked to 40.79 on June 11 and remained elevated, indicating increased market fear and contributing to the bearish sentiment around CVX [1][9][17]."
+    },
+    {
+      "name": "oil_price_decline_june_2020",
+      "category": "sector_specific",
+      "direction": -0.525,
+      "magnitude": 0.297029702970297,
+      "persistence": "medium",
+      "description": "[conf=0.85] While specific oil price data is not provided, the overall bearish sentiment in the energy sector during this period likely contributed to CVX's price decline."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1584158415841584,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_june_2020\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The VIX Volatility Index spiked to 40.79 on June 11 and remained elevated, indicating increased market fear and contributing to the bearish sentiment around CVX [1][9][17].\"\n  },\n  {\n    \"name\": \"oil_price_decline_june_2020\",\n    \"category\": \"sector_specific\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.30,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"While specific oil price data is not provided, the overall bearish sentiment in the energy sector during this period likely contributed to CVX's price decline.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

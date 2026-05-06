@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-06-09",
+  "end_date": "2019-06-23",
+  "window_type": "monthly",
+  "price_change_pct": 2.2340417056361197,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4043887147335423,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.3291536050156739,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index showed stability around 15.15, indicating reduced market fear and contributing to a bullish sentiment for CVX [1][17]."
+    },
+    {
+      "name": "oil_price_stability",
+      "category": "sector_specific",
+      "direction": 0.5,
+      "magnitude": 0.26645768025078365,
+      "persistence": "short",
+      "description": "[conf=0.75] Stability in oil prices during this period likely supported CVX's price movement, although specific articles were not provided."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_stability_june_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17],\n    \"description\": \"The VIX Volatility Index showed stability around 15.15 during this period [1], indicating reduced market fear and contributing to a bullish sentiment for CVX.\"\n  },\n  {\n    \"name\": \"oil_price_recovery_june_2019\",\n    \"category\": \"sector_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"While specific oil price movements are not detailed in the articles, the general recovery in oil prices during this period likely supported CVX's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

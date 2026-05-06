@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -0.06899419521697649,
+  "factors": [
+    {
+      "name": "north_korea_reconciliation_signals",
+      "category": "geopolitical",
+      "direction": -0.1,
+      "magnitude": 0.44000000000000006,
+      "persistence": "short",
+      "description": "[conf=0.85] Positive signals from North Korea regarding reconciliation with South Korea and a change in stance from the U.S. created a favorable geopolitical atmosphere, boosting market sentiment [1][2][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.56,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minor and lacked a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_reconciliation_signals\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Positive signals from North Korea regarding reconciliation with South Korea and a change in stance from the U.S. created a favorable geopolitical atmosphere, boosting market sentiment [1][2][3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minor and lacked a dominant driver.\"\n  }\n]"
+}

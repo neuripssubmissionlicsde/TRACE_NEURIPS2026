@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -6.986984261091936,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.1,
+      "magnitude": 0.24509803921568626,
+      "persistence": "long",
+      "description": "[conf=0.80] The unemployment rate remained stable at 4.0%, indicating a solid labor market which can support consumer spending and economic growth [1]."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.06,
+      "magnitude": 0.23529411764705882,
+      "persistence": "long",
+      "description": "[conf=0.75] The Federal Funds Effective Rate was stable at 1.69%, suggesting no immediate tightening of monetary policy which can support equity valuations [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22549019607843135,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    },
+    {
+      "name": "ten_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.29411764705882354,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 2.89% to 2.83%, reflecting a flight to safety that may have negatively impacted equities, including MMM."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 4.0%, indicating a solid labor market which can support consumer spending and economic growth [1].\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.20,\n    \"persistence\": \"long\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The Federal Funds Effective Rate was stable at 1.69%, suggesting no immediate tightening of monetary policy which can support equity valuations [9].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuations\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, which dropped to 2.83% during this period, may have contributed to bearish sentiment in the equity markets [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

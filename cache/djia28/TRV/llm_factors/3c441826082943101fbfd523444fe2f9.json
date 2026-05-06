@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-07-08",
+  "end_date": "2018-07-22",
+  "window_type": "monthly",
+  "price_change_pct": 1.0981891938721577,
+  "factors": [
+    {
+      "name": "sec_filings_july_19",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.4069767441860465,
+      "persistence": "transient",
+      "description": "[conf=0.80] Multiple SEC filings by Travelers Companies on July 19 indicated ongoing corporate activity, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "treasury_rate_decline_july_19",
+      "category": "macroeconomic",
+      "direction": 0.39999999999999997,
+      "magnitude": 0.2906976744186046,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate to 2.84% on July 19 may have made equities more attractive, contributing to TRV's price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3023255813953488,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filings_july_19\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"Multiple SEC filings by Travelers Companies on July 19 indicated ongoing corporate activity, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_july_19\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11, 12, 13],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.84% on July 19 may have made equities more attractive, contributing to TRV's price increase.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_july_20\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [17, 18, 19, 20],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 2.89% on July 20 could have exerted downward pressure on TRV's price, counteracting some bullish sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during the period.\"\n  }\n]"
+}

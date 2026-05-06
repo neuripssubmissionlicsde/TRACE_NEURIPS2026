@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-03-13",
+  "end_date": "2022-03-27",
+  "window_type": "monthly",
+  "price_change_pct": 11.060498652142012,
+  "factors": [
+    {
+      "name": "market_sentiment_recovery",
+      "category": "market_sentiment",
+      "direction": 0.32,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.75] General market sentiment improved during this period, contributing to AXP's price increase, although specific articles were not identified."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "rising_treasury_yields_2022",
+      "category": "macroeconomic",
+      "direction": 0.7333333333333334,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 2.1500 to 2.3200 during the window, indicating rising yields which typically support financial stocks like AXP [9][17][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_march_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17, 41],\n    \"description\": \"The 10-Year Treasury Rate rose from 2.1500 to 2.3200 during the window, indicating increased investor confidence and expectations of economic growth, which positively impacted AXP's stock price [9][17][41].\"\n  },\n  {\n    \"name\": \"market_sentiment_recovery\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment improved during this period, contributing to AXP's price increase, although specific articles were not identified.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

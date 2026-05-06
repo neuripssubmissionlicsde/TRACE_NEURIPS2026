@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-12-23",
+  "end_date": "2019-01-06",
+  "window_type": "monthly",
+  "price_change_pct": 9.477385303075732,
+  "factors": [
+    {
+      "name": "vix_volatility_decline_jan_2019",
+      "category": "market_sentiment",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The decline in the VIX from 30.41 on January 2 to 23.22 on January 2 indicated reduced market volatility, contributing to bullish sentiment and driving prices higher [9][25]."
+    },
+    {
+      "name": "vix_volatility_peak_dec_2018",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.85] The peak VIX of 36.07 on December 24 created a fear-driven environment that likely led to initial selling pressure before the subsequent recovery [17][49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_decline_jan_2019\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 25],\n    \"description\": \"The decline in the VIX from 30.41 on January 2 to 23.22 on January 2 indicated reduced market volatility, contributing to bullish sentiment and driving prices higher [9][25].\"\n  },\n  {\n    \"name\": \"vix_volatility_peak_dec_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 49],\n    \"description\": \"The peak VIX of 36.07 on December 24 created a fear-driven environment that likely led to initial selling pressure before the subsequent recovery [17][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": -10.482350972266758,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.4117647058823529,
+      "persistence": "short",
+      "description": "[conf=0.60] Overall bearish market sentiment led to increased selling pressure across major tech stocks, including MSFT."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.1470588235294118,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations contributed to unexplained price movements."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -1.0,
+      "magnitude": 0.44117647058823534,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns about MSFT's growth prospects and competitive pressures may have influenced investor sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Concerns over inflation and interest rate hikes were prevalent during this period, negatively impacting investor sentiment.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Ongoing geopolitical tensions, particularly related to energy prices and supply chains, contributed to market volatility.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The technology sector faced headwinds as investors rotated into more defensive sectors amid market uncertainty.\"\n    },\n    {\n        \"name\": \"company_specific_news\",\n        \"category\": \"company_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Negative sentiment surrounding earnings forecasts and competitive pressures affected MSFT's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Overall bearish market sentiment led to increased selling pressure across major tech stocks, including MSFT.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations contributed to unexplained price movements.\"\n    }\n]"
+}

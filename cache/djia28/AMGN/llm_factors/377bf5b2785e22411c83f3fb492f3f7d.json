@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-03-28",
+  "end_date": "2021-04-11",
+  "window_type": "monthly",
+  "price_change_pct": -1.025709278277449,
+  "factors": [
+    {
+      "name": "fed_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "long",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.07%, indicating no immediate monetary tightening, which contributed to a neutral market sentiment [1][6]."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.42000000000000004,
+      "magnitude": 0.37,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate fluctuated, dropping from 1.73% to 1.68%, which may have negatively impacted investor sentiment towards equities, including AMGN [11][21][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 6],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.07%, indicating no immediate monetary tightening, which contributed to a neutral market sentiment [1][6].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [11, 21, 41],\n    \"description\": \"The 10-Year Treasury Rate fluctuated, dropping from 1.73% to 1.68%, which may have negatively impacted investor sentiment towards equities, including AMGN [11][21][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

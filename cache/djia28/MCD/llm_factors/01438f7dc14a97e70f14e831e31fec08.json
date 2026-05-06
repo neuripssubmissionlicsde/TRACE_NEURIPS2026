@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-09-30",
+  "end_date": "2018-10-14",
+  "window_type": "monthly",
+  "price_change_pct": -2.7023558075158602,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver."
+    },
+    {
+      "name": "rising_10_year_treasury_rate_3.22",
+      "category": "macroeconomic",
+      "direction": -0.6333333333333333,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.22% on 2018-10-10, contributing to bearish sentiment in equities as higher rates typically increase borrowing costs and reduce consumer spending."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate_3.15\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.15% on 2018-10-03, contributing to bearish sentiment in equities as higher rates typically increase borrowing costs and reduce consumer spending.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver.\"\n  }\n]"
+}

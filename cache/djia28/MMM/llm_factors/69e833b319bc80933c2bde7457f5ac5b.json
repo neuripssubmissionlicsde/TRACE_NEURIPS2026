@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-03-14",
+  "end_date": "2021-03-28",
+  "window_type": "monthly",
+  "price_change_pct": 4.757306110900818,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6464646464646465,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    },
+    {
+      "name": "sec_filing_2021_03_22",
+      "category": "company_specific",
+      "direction": 0.35,
+      "magnitude": 0.35353535353535354,
+      "persistence": "short",
+      "description": "[conf=0.75] 3M filed with the SEC on 2021-03-22, which may have contributed to positive sentiment around transparency and compliance."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"sec_filing_2021_03_22\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"3M filed with the SEC on 2021-03-22, which may have contributed to positive sentiment around transparency and compliance.\"\n  },\n  {\n    \"name\": \"stable_treasury_rate_2021_03_25\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"short\",\n    \"confidence\": 0.50,\n    \"source_articles\": [1],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 1.6300, indicating no significant macroeconomic shifts impacting MMM's price.\"\n  }\n]"
+}

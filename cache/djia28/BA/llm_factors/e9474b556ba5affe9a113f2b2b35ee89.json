@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-12-18",
+  "end_date": "2023-01-01",
+  "window_type": "monthly",
+  "price_change_pct": 3.0121173368874463,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.38,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.5%, contributing to positive market sentiment and investor confidence in economic stability [1]."
+    },
+    {
+      "name": "treasury_yield_increase",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.28,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate from 3.68% to 3.84% during the window raised concerns about rising borrowing costs, negatively impacting stock valuations [9, 25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.33999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.5%, contributing to positive market sentiment and investor confidence in economic stability [1].\"\n  },\n  {\n    \"name\": \"treasury_yield_increase\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 25, 41],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 3.68% to 3.84% during the window raised concerns about rising borrowing costs, negatively impacting stock valuations [9, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

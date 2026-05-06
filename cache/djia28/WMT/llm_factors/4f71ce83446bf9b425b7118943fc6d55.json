@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": -0.008289383141787733,
+  "factors": [
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5555555555555556,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 3.91% on December 15, indicating easing financial conditions which may have supported WMT's price stability [13][16]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4444444444444444,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [13, 16],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.91% on December 15, indicating easing financial conditions which may have supported WMT's price stability [13][16].\"\n  },\n  {\n    \"name\": \"intra_window_drawdown\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"The maximum intra-window drawdown of 2.8% suggests some selling pressure, but no clear cause was identified.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

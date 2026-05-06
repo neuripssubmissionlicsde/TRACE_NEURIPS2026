@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": 2.4291710962690543,
+  "factors": [
+    {
+      "name": "vix_increase_april_2022",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.42000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index increased to 22.10 on April 6, indicating rising market uncertainty and contributing to downward pressure on CVX prices [33, 49]."
+    },
+    {
+      "name": "vix_stability_march_2022",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.34,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX remained relatively stable around 19.63 on March 28, suggesting a brief period of market calm that supported CVX's price increase [1, 9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_april_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 49],\n    \"description\": \"The VIX Volatility Index increased to 22.10 on April 6, indicating rising market uncertainty and contributing to downward pressure on CVX prices [33, 49].\"\n  },\n  {\n    \"name\": \"vix_stability_march_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The VIX remained relatively stable around 19.63 on March 28, suggesting a brief period of market calm that supported CVX's price increase [1, 9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

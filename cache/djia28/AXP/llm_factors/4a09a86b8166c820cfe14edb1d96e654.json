@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-18",
+  "end_date": "2019-09-01",
+  "window_type": "monthly",
+  "price_change_pct": -4.5440263494317295,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_august_2019",
+      "category": "macroeconomic",
+      "direction": -0.6399999999999999,
+      "magnitude": 0.5,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate fell to 1.4700 by August 28, indicating a flight to safety that negatively impacted AXP's stock price [25, 41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2727272727272727,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting overall market uncertainty during the period."
+    },
+    {
+      "name": "market_sentiment_deterioration",
+      "category": "market_sentiment",
+      "direction": -0.3333333333333333,
+      "magnitude": 0.22727272727272727,
+      "persistence": "transient",
+      "description": "[conf=0.75] General market sentiment deteriorated due to ongoing trade tensions and economic uncertainty, contributing to AXP's price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_august_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 41],\n    \"description\": \"The 10-Year Treasury Rate fell to 1.4700 by August 28, indicating a flight to safety that negatively impacted AXP's stock price [25, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting overall market uncertainty during the period.\"\n  }\n]"
+}

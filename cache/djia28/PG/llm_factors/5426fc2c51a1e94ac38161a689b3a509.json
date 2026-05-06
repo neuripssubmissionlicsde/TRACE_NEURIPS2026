@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-30",
+  "end_date": "2023-08-13",
+  "window_type": "monthly",
+  "price_change_pct": 0.3964324482255614,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.43820224719101125,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields_2023_08_11",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.5617977528089888,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 4.16% on 2023-08-11, contributing to bearish sentiment in the market as higher yields typically pressure equity valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_4.16\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.16% on August 11, indicating increased borrowing costs which typically pressure equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver.\"\n  }\n]"
+}

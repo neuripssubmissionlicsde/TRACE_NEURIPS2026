@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-05-22",
+  "end_date": "2022-06-05",
+  "window_type": "monthly",
+  "price_change_pct": 2.1410983129073418,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.39,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.6%, contributing to positive sentiment around consumer spending and economic stability [1]."
+    },
+    {
+      "name": "russia_debt_default_risk",
+      "category": "geopolitical",
+      "direction": -0.48,
+      "magnitude": 0.29,
+      "persistence": "transient",
+      "description": "[conf=0.75] The announcement of the expiration of the sanctions exemption for Russia increased concerns about potential defaults, negatively impacting market sentiment [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 3.6%, contributing to positive sentiment around consumer spending and economic stability [1].\"\n  },\n  {\n    \"name\": \"russia_debt_default_risk\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The announcement of the expiration of the sanctions exemption for Russia increased concerns about potential defaults, negatively impacting market sentiment [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

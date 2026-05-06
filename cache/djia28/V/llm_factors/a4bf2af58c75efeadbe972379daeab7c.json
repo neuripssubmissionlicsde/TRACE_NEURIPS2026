@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-09-29",
+  "end_date": "2019-10-13",
+  "window_type": "monthly",
+  "price_change_pct": 1.6592870962673838,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2019_10_07",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.6053811659192825,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate fell to 1.56% on 2019-10-07, which typically supports equity valuations by lowering discount rates [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.39461883408071746,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2019_10_03\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The VIX declined from 19.12 on 2019-10-03 to 15.58 on 2019-10-11, indicating reduced market volatility and contributing to bullish sentiment [9][17].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2019_10_07\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41],\n    \"description\": \"The 10-Year Treasury Rate fell to 1.56% on 2019-10-07, which typically supports equity valuations by lowering discount rates [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-02-14",
+  "end_date": "2021-02-28",
+  "window_type": "monthly",
+  "price_change_pct": -3.2200820352621813,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5631067961165049,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed a decline without clear structural drivers."
+    },
+    {
+      "name": "sec_trading_halt_concerns",
+      "category": "geopolitical",
+      "direction": -0.375,
+      "magnitude": 0.24271844660194175,
+      "persistence": "transient",
+      "description": "[conf=0.80] Concerns over the SEC halting trading of stocks due to potential market manipulation created bearish sentiment [1, 2, 3]."
+    },
+    {
+      "name": "japan_gdp_contraction",
+      "category": "macroeconomic",
+      "direction": -0.2333333333333333,
+      "magnitude": 0.19417475728155342,
+      "persistence": "short",
+      "description": "[conf=0.70] Japan's GDP contraction raised concerns about global economic recovery, impacting investor sentiment [17, 18]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_trading_halt_penny_stocks\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The SEC's temporary halt of trading in 15 stocks due to concerns of market manipulation created a bearish sentiment that likely affected KO's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed a decline without clear structural drivers.\"\n  }\n]"
+}

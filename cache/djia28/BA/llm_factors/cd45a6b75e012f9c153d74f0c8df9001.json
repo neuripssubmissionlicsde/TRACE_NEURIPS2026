@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-08-28",
+  "end_date": "2022-09-11",
+  "window_type": "monthly",
+  "price_change_pct": -2.9331985103781015,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.60431654676259,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market movements."
+    },
+    {
+      "name": "stable_unemployment_rate",
+      "category": "macroeconomic",
+      "direction": 0.26666666666666666,
+      "magnitude": 0.39568345323741005,
+      "persistence": "short",
+      "description": "[conf=0.75] The unemployment rate remained stable at 3.5% [1], which could have provided some support to market sentiment despite the overall bearish trend."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 10],\n    \"description\": \"The Federal Funds Effective Rate was reported at 2.56% [9], indicating a tightening monetary policy that negatively impacted market sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 49],\n    \"description\": \"The 10-Year Treasury Rate increased to 3.27% [25], raising borrowing costs and contributing to bearish sentiment in equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market movements.\"\n  }\n]"
+}

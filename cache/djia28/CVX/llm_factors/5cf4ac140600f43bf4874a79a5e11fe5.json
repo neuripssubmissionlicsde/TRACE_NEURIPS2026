@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-01-02",
+  "end_date": "2022-01-16",
+  "window_type": "monthly",
+  "price_change_pct": 9.827981337906373,
+  "factors": [
+    {
+      "name": "vix_increase_january_2022",
+      "category": "market_sentiment",
+      "direction": -0.52,
+      "magnitude": 0.6805555555555557,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased from 18.41 on January 11 to 19.19 on January 14, indicating rising market volatility and contributing to a bearish sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3194444444444444,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by various unpredictable market dynamics."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_january_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The VIX increased from 18.41 on January 11 to 19.19 on January 14, indicating rising market volatility and contributing to a bearish sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by various unpredictable market dynamics.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": -2.2925541594126595,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty."
+    },
+    {
+      "name": "north_korea_crisis_2018",
+      "category": "geopolitical",
+      "direction": -0.75,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] Escalating tensions related to the North Korea crisis [16] led to increased market uncertainty, negatively impacting NKE's stock price [19, 31]."
+    },
+    {
+      "name": "south_korea_relations_2018",
+      "category": "geopolitical",
+      "direction": -0.475,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] Concerns over North Korea's relations with South Korea [31] contributed to negative sentiment affecting NKE's stock performance [32]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_crisis_feb_2018\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [16, 19, 31],\n    \"description\": \"Escalating tensions related to the North Korea crisis [16] led to increased market uncertainty, negatively impacting NKE's stock price [19, 31].\"\n  },\n  {\n    \"name\": \"south_korea_relations_feb_2018\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [31, 32],\n    \"description\": \"Concerns over North Korea's relations with South Korea [31] contributed to negative sentiment affecting NKE's stock performance [32].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty.\"\n  }\n]"
+}

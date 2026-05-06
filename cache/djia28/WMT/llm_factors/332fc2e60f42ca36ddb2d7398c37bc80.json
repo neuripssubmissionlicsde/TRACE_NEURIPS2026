@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-07-04",
+  "end_date": "2021-07-18",
+  "window_type": "monthly",
+  "price_change_pct": 1.1865447038474,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_july_2021",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5851063829787234,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate from 1.3000 to 1.4200 during the window indicated rising borrowing costs, which typically supports financial sector stocks like WMT."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4148936170212766,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_july_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [4, 7, 10],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 1.3000 to 1.4200 during the window indicated rising borrowing costs, which typically supports financial sector stocks like WMT.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver.\"\n  }\n]"
+}

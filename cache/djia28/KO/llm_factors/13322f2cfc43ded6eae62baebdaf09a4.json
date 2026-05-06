@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-02-17",
+  "end_date": "2019-03-03",
+  "window_type": "monthly",
+  "price_change_pct": 0.13240491809054622,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9, 33],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 2.6500 to 2.7600 during this period provided a favorable environment for equities, supporting a slight upward price movement for KO [1, 9, 33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver.\"\n  }\n]"
+}

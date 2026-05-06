@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": -3.946778440007078,
+  "factors": [
+    {
+      "name": "economic_impact_covid_recession",
+      "category": "geopolitical",
+      "direction": -0.625,
+      "magnitude": 0.472636815920398,
+      "persistence": "medium",
+      "description": "[conf=0.85] The ongoing economic impact of the COVID-19 pandemic and the resulting recession led to negative sentiment affecting JNJ's stock price [23][24][25]."
+    },
+    {
+      "name": "rising_unemployment_rate",
+      "category": "macroeconomic",
+      "direction": -0.38,
+      "magnitude": 0.24875621890547267,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate surged to 13.2%, raising concerns about consumer spending and economic recovery, which negatively impacted JNJ's stock [21]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2786069651741294,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"economic_impact_covid_recession\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [23, 24, 25],\n    \"description\": \"The ongoing economic impact of the COVID-19 pandemic and the resulting recession led to negative sentiment affecting JNJ's stock price [23][24][25].\"\n  },\n  {\n    \"name\": \"rising_unemployment_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [21],\n    \"description\": \"The unemployment rate surged to 13.2%, raising concerns about consumer spending and economic recovery, which negatively impacted JNJ's stock [21].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-15",
+  "end_date": "2018-04-29",
+  "window_type": "monthly",
+  "price_change_pct": 1.2644985092559822,
+  "factors": [
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.52,
+      "magnitude": 0.5333333333333333,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.0000 on April 24, contributing to bearish sentiment in the market as higher rates typically pressure equity valuations [1][25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4666666666666667,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 25],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.0000 on April 24, contributing to bearish sentiment in the market as higher rates typically pressure equity valuations [1][25].\"\n  },\n  {\n    \"name\": \"increased_10_year_2_year_spread\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [34, 46],\n    \"description\": \"The 10Y-2Y Treasury Spread increased to 0.5000 on April 20, indicating a potential for economic growth, which could have provided some support to WMT's price [34][46].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

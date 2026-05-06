@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-10-11",
+  "end_date": "2020-10-25",
+  "window_type": "monthly",
+  "price_change_pct": -4.315283279730395,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.46808510638297873,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    },
+    {
+      "name": "high_vix_volatility_2020_10_19",
+      "category": "market_sentiment",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.5319148936170213,
+      "persistence": "transient",
+      "description": "[conf=0.80] The VIX Volatility Index reached 29.1800 on 2020-10-19, reflecting heightened market uncertainty and contributing to downward pressure on prices [33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2020_oct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate increased from 0.7400 to 0.8300 during the window, indicating rising borrowing costs which negatively impacted asset valuations [9][17].\"\n  },\n  {\n    \"name\": \"high_vix_volatility_2020_oct\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33, 41],\n    \"description\": \"The VIX Volatility Index peaked at 29.18, reflecting heightened market uncertainty and contributing to bearish sentiment [33][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

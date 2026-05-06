@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-02-03",
+  "end_date": "2019-02-17",
+  "window_type": "monthly",
+  "price_change_pct": 2.595532736837469,
+  "factors": [
+    {
+      "name": "vix_decline_feb_2019",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5913978494623656,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined to 14.91 on February 15, 2019, indicating reduced market fear and contributing to bullish sentiment for CVX."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4086021505376344,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_feb_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49],\n    \"description\": \"The VIX Volatility Index declined to 14.91 on February 15, 2019, indicating reduced market fear and contributing to bullish sentiment for CVX.\"\n  },\n  {\n    \"name\": \"vix_stability_feb_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 49],\n    \"description\": \"The VIX remained relatively stable around 15.43 to 15.97 during the week, suggesting a lack of significant market turmoil that could negatively impact CVX.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

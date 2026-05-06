@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-01-31",
+  "end_date": "2021-02-14",
+  "window_type": "monthly",
+  "price_change_pct": 5.791984021825606,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_feb_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 25],\n    \"description\": \"The 10-Year Treasury Rate rose from 1.0900 to 1.2000 during the window, indicating increased investor confidence and contributing to the bullish sentiment around CRM [1, 9, 25].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability_feb_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The unemployment rate remained stable at 6.2%, supporting a positive outlook for economic recovery and consumer spending, which likely benefited CRM [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-11-20",
+  "end_date": "2022-12-04",
+  "window_type": "monthly",
+  "price_change_pct": -0.999888813543692,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2022_dec",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.35714285714285715,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 3.5100 on December 2, 2022, indicated easing monetary conditions, which generally supports equity prices [33, 49]."
+    },
+    {
+      "name": "treasury_rate_fluctuation_2022_nov",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.25510204081632654,
+      "persistence": "short",
+      "description": "[conf=0.80] The fluctuation of the 10-Year Treasury Rate from 3.7600 on November 22 to 3.6800 on November 30 created uncertainty, contributing to price volatility [9, 17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3877551020408163,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and mixed signals during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2022_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 49],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.5100 on December 2, 2022, indicated easing monetary conditions, which generally supports equity prices [33, 49].\"\n  },\n  {\n    \"name\": \"treasury_rate_fluctuation_2022_nov\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"The fluctuation of the 10-Year Treasury Rate from 3.7600 on November 22 to 3.6800 on November 30 created uncertainty, contributing to price volatility [9, 17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and mixed signals during the period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-29",
+  "end_date": "2019-10-13",
+  "window_type": "monthly",
+  "price_change_pct": 1.9418554152449419,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2019_10_03",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.45918367346938777,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 1.5400 on 2019-10-03 contributed to a bullish sentiment in the market, supporting higher equity valuations [17][19]."
+    },
+    {
+      "name": "treasury_rate_increase_2019_10_11",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.25510204081632654,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate to 1.7600 on 2019-10-11 created bearish pressure, as rising rates typically dampen equity market enthusiasm [41][43]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28571428571428575,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2019_10_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 19],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.5400 on 2019-10-03 contributed to a bullish sentiment in the market, supporting higher equity valuations [17][19].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2019_10_11\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 43],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.7600 on 2019-10-11 created bearish pressure, as rising rates typically dampen equity market enthusiasm [41][43].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

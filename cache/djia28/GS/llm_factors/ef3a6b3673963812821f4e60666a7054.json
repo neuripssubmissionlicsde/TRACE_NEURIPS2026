@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": -3.327683039290657,
+  "factors": [
+    {
+      "name": "ukraine_peace_talks_progress",
+      "category": "geopolitical",
+      "direction": 0.42000000000000004,
+      "magnitude": 0.2754098360655738,
+      "persistence": "transient",
+      "description": "[conf=0.80] Stock prices increased following reports of progress in peace talks between Russia and Ukraine, providing a temporary boost to market sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2163934426229508,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this volatile period."
+    },
+    {
+      "name": "russia_interest_rate_hike_2022",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.5081967213114754,
+      "persistence": "short",
+      "description": "[conf=0.90] The Central Bank of Russia raised interest rates from 9.5% to 20% in response to economic instability, causing global market uncertainty and negatively impacting GS's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"russia_interest_rate_hike\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The Central Bank of Russia raised interest rates sharply from 9.5% to 20% in response to economic instability, causing global market concerns and negatively impacting investor sentiment.\"\n  },\n  {\n    \"name\": \"ukraine_peace_talks_progress\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [13, 14, 15, 16, 17],\n    \"description\": \"Stock prices increased following reports of progress in peace talks between Russia and Ukraine, providing a temporary boost to market sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this volatile period.\"\n  }\n]"
+}

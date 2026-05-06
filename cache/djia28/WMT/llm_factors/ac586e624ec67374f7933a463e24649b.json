@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-15",
+  "end_date": "2019-09-29",
+  "window_type": "monthly",
+  "price_change_pct": 1.638894555744498,
+  "factors": [
+    {
+      "name": "fed_liquidity_injection_sept_2019",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5264900662251656,
+      "persistence": "short",
+      "description": "[conf=0.85] The Federal Reserve injected over $200 billion into the money market to stabilize liquidity, positively impacting market sentiment and asset prices [1][2][3]."
+    },
+    {
+      "name": "oil_price_shock_sept_2019",
+      "category": "geopolitical",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.31456953642384106,
+      "persistence": "transient",
+      "description": "[conf=0.80] Following drone attacks on Saudi Aramco facilities, Brent Crude oil prices surged, influencing market dynamics and consumer sentiment positively [34][35][36]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.15894039735099338,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_liquidity_injection_sept_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve injected over $200 billion into the money market to stabilize liquidity, positively impacting market sentiment and asset prices [1][2][3].\"\n  },\n  {\n    \"name\": \"oil_price_shock_sept_2019\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [34, 35, 36],\n    \"description\": \"Following drone attacks on Saudi Aramco facilities, Brent Crude oil prices surged, influencing market dynamics and consumer sentiment positively [34][35][36].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.10,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained market movements.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-08-30",
+  "end_date": "2020-09-13",
+  "window_type": "monthly",
+  "price_change_pct": -0.5673670293008773,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5652173913043478,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "economic_impact_covid_recession",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.43478260869565216,
+      "persistence": "medium",
+      "description": "[conf=0.85] The ongoing economic impact of the COVID-19 pandemic contributed to negative sentiment affecting WMT's stock price [40, 41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"economic_impact_covid_recession\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [40, 41],\n    \"description\": \"The ongoing economic impact of the COVID-19 pandemic contributed to negative sentiment affecting WMT's stock price [40, 41].\"\n  }\n]"
+}

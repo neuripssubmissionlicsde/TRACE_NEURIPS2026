@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-01-20",
+  "end_date": "2019-02-03",
+  "window_type": "monthly",
+  "price_change_pct": 2.0964300269003764,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited some volatility without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 25],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.7000 on January 30 [33] and 2.7500 on January 28 [25] likely boosted investor sentiment towards equities, including KO.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited some volatility without a clear dominant driver.\"\n  }\n]"
+}

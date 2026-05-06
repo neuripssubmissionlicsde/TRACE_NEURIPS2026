@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": -11.819576018322648,
+  "factors": [
+    {
+      "name": "cpi_release_august_2022",
+      "category": "macroeconomic",
+      "direction": -0.8250000000000001,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.95] The release of the Bureau of Labor Statistics consumer price index for August led to a 3.9% drop in the Dow Jones Industrial Average, negatively impacting all stocks including CSCO [1]."
+    },
+    {
+      "name": "rising_treasury_yields_september_2022",
+      "category": "macroeconomic",
+      "direction": -0.35,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate from 3.4100 to 3.6900 during this period contributed to bearish sentiment in the equity markets [11, 19, 43]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_august_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The release of the Bureau of Labor Statistics consumer price index for August led to a 3.9% drop in the Dow Jones Industrial Average, negatively impacting all stocks including CSCO [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_september_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [11, 19, 43],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 3.4100 to 3.6900 during this period contributed to bearish sentiment in the equity markets [11, 19, 43].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

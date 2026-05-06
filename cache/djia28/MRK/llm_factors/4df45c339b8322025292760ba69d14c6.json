@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": -2.071746518700909,
+  "factors": [
+    {
+      "name": "ecb_interest_rate_hike_10th_time",
+      "category": "macroeconomic",
+      "direction": -0.7375,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The European Central Bank raised interest rates for the 10th time to combat high inflation, leading to concerns about economic slowdown and negatively impacting MRK's stock price [1]."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 4.49% on September 21, contributing to a bearish sentiment in the market as higher yields typically pressure equity valuations [27]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_interest_rate_hike_10th_time\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank raised interest rates for the 10th time to combat high inflation, leading to concerns about economic slowdown and negatively impacting MRK's stock price [1].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [19, 27],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.49% on September 21, contributing to a bearish sentiment in the market as higher yields typically pressure equity valuations [27].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

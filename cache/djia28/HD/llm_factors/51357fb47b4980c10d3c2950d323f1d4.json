@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-27",
+  "window_type": "monthly",
+  "price_change_pct": -9.00863591376685,
+  "factors": [
+    {
+      "name": "moscow_stock_exchange_selloff",
+      "category": "geopolitical",
+      "direction": -0.74,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] A massive selloff on the Moscow Stock Exchange triggered global market fears, contributing to a significant decline in HD's stock price [1][2][3]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.26,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.80] The 10-Year Treasury Rate rose to 1.9900, indicating tightening monetary conditions that negatively impacted equity valuations [14][22][30]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market behavior during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"moscow_stock_exchange_selloff\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"A massive selloff on the Moscow Stock Exchange triggered global market fears, contributing to a significant decline in HD's stock price [1][2][3].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [14, 22, 30],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.9900, indicating tightening monetary conditions that negatively impacted equity valuations [14][22][30].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market behavior during this period.\"\n  }\n]"
+}

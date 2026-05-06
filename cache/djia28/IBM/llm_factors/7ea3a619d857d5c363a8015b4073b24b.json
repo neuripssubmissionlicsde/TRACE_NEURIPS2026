@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-29",
+  "end_date": "2018-05-13",
+  "window_type": "monthly",
+  "price_change_pct": -0.7625938581776581,
+  "factors": [
+    {
+      "name": "rising_10_year_treasury_rate_2.97",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4081632653061225,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 2.97% on May 10, contributing to bearish sentiment in equities as higher rates typically increase borrowing costs and reduce valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5918367346938775,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random fluctuations in market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate_2.97\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.97% on May 10, contributing to bearish sentiment in equities as higher rates typically increase borrowing costs and reduce valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random fluctuations in market sentiment.\"\n  }\n]"
+}

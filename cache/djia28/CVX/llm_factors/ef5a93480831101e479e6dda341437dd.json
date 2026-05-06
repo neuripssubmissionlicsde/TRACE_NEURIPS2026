@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -14.366977258753394,
+  "factors": [
+    {
+      "name": "global_market_crash_feb_2020",
+      "category": "macroeconomic",
+      "direction": -0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Global stock markets lost US$6 trillion in value over six days, leading to widespread selling pressure across equities, including CVX [27][28]."
+    },
+    {
+      "name": "vix_spike_feb_2020",
+      "category": "market_sentiment",
+      "direction": -0.56,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 40.11, indicating heightened market fear and contributing to the sell-off in equities [11][19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the chaotic market environment during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"global_market_crash_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 27, 28],\n    \"description\": \"Global stock markets lost US$6 trillion in value over six days, leading to widespread selling pressure across equities, including CVX [27][28].\"\n  },\n  {\n    \"name\": \"vix_spike_feb_2020\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [11, 19],\n    \"description\": \"The VIX Volatility Index spiked to 40.11, indicating heightened market fear and contributing to the sell-off in equities [11][19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the chaotic market environment during this period.\"\n  }\n]"
+}

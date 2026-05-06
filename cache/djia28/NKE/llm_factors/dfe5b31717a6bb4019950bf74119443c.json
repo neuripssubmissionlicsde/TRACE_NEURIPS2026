@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-01-02",
+  "end_date": "2022-01-16",
+  "window_type": "monthly",
+  "price_change_pct": -11.550176332266156,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_january_2022",
+      "category": "macroeconomic",
+      "direction": -0.64,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 1.6300 to 1.7600 during the window, indicating tightening monetary conditions that pressured equity valuations [1, 26, 34]."
+    },
+    {
+      "name": "north_korea_south_korea_relations_january_2022",
+      "category": "geopolitical",
+      "direction": -0.3666666666666667,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.75] Increased tensions in North Korea\u2013South Korea relations may have contributed to market uncertainty, impacting investor sentiment towards equities like NKE [9, 19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_january_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 26, 34],\n    \"description\": \"The 10-Year Treasury Rate rose from 1.6300 to 1.7600 during the window, indicating tightening monetary conditions that pressured equity valuations [1, 26, 34].\"\n  },\n  {\n    \"name\": \"north_korea_south_korea_relations_january_2022\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 19],\n    \"description\": \"Increased tensions in North Korea\u2013South Korea relations may have contributed to market uncertainty, impacting investor sentiment towards equities like NKE [9, 19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

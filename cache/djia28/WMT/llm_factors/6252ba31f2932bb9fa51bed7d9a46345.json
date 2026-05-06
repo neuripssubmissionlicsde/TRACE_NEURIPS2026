@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-09-29",
+  "end_date": "2019-10-13",
+  "window_type": "monthly",
+  "price_change_pct": 1.3229816007680442,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2019_10_07\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [7, 10, 19],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.5600 on 2019-10-07 contributed to a bullish sentiment in the market, supporting WMT's price increase [7].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability_2019_10_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [31],\n    \"description\": \"The stable unemployment rate at 3.6% reported on 2019-10-01 reinforced consumer confidence, positively impacting WMT's stock price [31].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

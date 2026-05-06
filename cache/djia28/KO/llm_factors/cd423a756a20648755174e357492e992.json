@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-12-05",
+  "end_date": "2021-12-19",
+  "window_type": "monthly",
+  "price_change_pct": 6.297191696995153,
+  "factors": [
+    {
+      "name": "evergrande_liquidity_crisis",
+      "category": "geopolitical",
+      "direction": 0.52,
+      "magnitude": 0.6470588235294118,
+      "persistence": "short",
+      "description": "[conf=0.85] The Evergrande liquidity crisis raised concerns about global economic stability, leading to increased investor interest in defensive stocks like KO [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3529411764705882,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"evergrande_liquidity_crisis\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Evergrande liquidity crisis raised concerns about global economic stability, leading to increased investor interest in defensive stocks like KO [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 49],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.4700 on December 15, which typically pressures equity valuations, but KO's defensive nature mitigated this impact [17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

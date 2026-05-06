@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-06-09",
+  "end_date": "2019-06-23",
+  "window_type": "monthly",
+  "price_change_pct": 0.8001951362590394,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7659574468085106,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and lacked clear drivers."
+    },
+    {
+      "name": "japan_north_korea_relations",
+      "category": "geopolitical",
+      "direction": -0.21999999999999997,
+      "magnitude": 0.23404255319148934,
+      "persistence": "short",
+      "description": "[conf=0.70] Increased tensions in Japan-North Korea relations may have contributed to market uncertainty, impacting investor sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"japan_north_korea_relations\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [16, 19],\n    \"description\": \"Increased tensions in Japan-North Korea relations may have contributed to market uncertainty, impacting investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [34, 50],\n    \"description\": \"A decline in the 10-Year Treasury Rate to 2.01% on June 20 may have supported equity valuations, contributing to the price increase.\"\n  },\n  {\n    \"name\": \"consolidation\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The price exhibited a range-bound behavior with limited volatility, indicating a balance of buying and selling pressures.\"\n  }\n]"
+}

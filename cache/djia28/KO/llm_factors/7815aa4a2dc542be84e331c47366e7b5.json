@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-03-28",
+  "end_date": "2021-04-11",
+  "window_type": "monthly",
+  "price_change_pct": 0.8534080491729651,
+  "factors": [
+    {
+      "name": "unemployment_rate_stable_6.1",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.37755102040816324,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained stable at 6.1%, indicating a steady labor market which may have supported consumer confidence and spending."
+    },
+    {
+      "name": "sp500_above_4000",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.25510204081632654,
+      "persistence": "short",
+      "description": "[conf=0.80] The S&P 500 closing above 4,000 for the first time boosted market sentiment, contributing to a bullish environment for equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3673469387755102,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable_6.1\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 6.1%, indicating a steady labor market which may have supported consumer confidence and spending.\"\n  },\n  {\n    \"name\": \"sp500_above_4000\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],\n    \"description\": \"The S&P 500 closing above 4,000 for the first time boosted market sentiment, contributing to a bullish environment for equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

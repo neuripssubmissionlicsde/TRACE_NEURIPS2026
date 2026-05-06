@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-05-12",
+  "end_date": "2019-05-26",
+  "window_type": "monthly",
+  "price_change_pct": 1.3560085934056938,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4711538461538462,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed limited volatility and no clear dominant driver."
+    },
+    {
+      "name": "stable_treasury_rate_2.3200",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5288461538461539,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate stabilized at 2.3200, contributing to a favorable borrowing environment and supporting equity valuations [1]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rate_2.32\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The 10-Year Treasury Rate stabilized at 2.32% [1], contributing to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed limited volatility and no clear dominant driver.\"\n  }\n]"
+}

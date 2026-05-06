@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": 1.6061002846714436,
+  "factors": [
+    {
+      "name": "vix_decline_2023_06_02",
+      "category": "market_sentiment",
+      "direction": 0.6,
+      "magnitude": 0.41666666666666663,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined to 14.60 on 2023-06-02, indicating reduced market fear and contributing to bullish sentiment for CVX [17]."
+    },
+    {
+      "name": "vix_increase_2023_05_25",
+      "category": "market_sentiment",
+      "direction": -0.4,
+      "magnitude": 0.27298850574712646,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX Volatility Index increased to 19.14 on 2023-05-25, reflecting heightened market uncertainty which may have temporarily pressured CVX prices [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.31034482758620696,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2023_06_02\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 18, 19],\n    \"description\": \"The VIX Volatility Index declined to 14.60 on 2023-06-02, indicating reduced market fear and contributing to bullish sentiment for CVX [17].\"\n  },\n  {\n    \"name\": \"vix_increase_2023_05_25\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The VIX Volatility Index increased to 19.14 on 2023-05-25, reflecting heightened market uncertainty which may have temporarily pressured CVX prices [9].\"\n  },\n  {\n    \"name\": \"sec_filings_2023_05_22\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [2],\n    \"description\": \"Chevron filed with the SEC on 2023-05-22, which may have positively influenced investor sentiment towards CVX [2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

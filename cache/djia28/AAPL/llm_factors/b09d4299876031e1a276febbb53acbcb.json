@@ -1,0 +1,65 @@
+{
+  "start_date": "2018-04-15",
+  "end_date": "2018-04-29",
+  "window_type": "monthly",
+  "price_change_pct": -7.261580020017515,
+  "factors": [
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.25477707006369427,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over inflation and interest rates may have contributed to bearish sentiment in the market."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.38000000000000006,
+      "magnitude": 0.2038216560509554,
+      "persistence": "short",
+      "description": "[conf=0.50] The technology sector experienced a downturn during this period, impacting AAPL's performance."
+    },
+    {
+      "name": "company_specific_news",
+      "category": "company_specific",
+      "direction": -0.36,
+      "magnitude": 0.16985138004246286,
+      "persistence": "short",
+      "description": "[conf=0.50] Negative news regarding AAPL's sales forecasts may have influenced investor sentiment."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.58,
+      "magnitude": 0.11889596602972398,
+      "persistence": "transient",
+      "description": "[conf=0.40] Overall market sentiment was bearish, contributing to AAPL's price decline."
+    },
+    {
+      "name": "technical_indicators",
+      "category": "technical",
+      "direction": -0.4,
+      "magnitude": 0.08492569002123143,
+      "persistence": "transient",
+      "description": "[conf=0.40] Technical indicators suggested a bearish trend, influencing trading behavior."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.22500000000000003,
+      "magnitude": 0.07430997876857749,
+      "persistence": "short",
+      "description": "[conf=0.30] Tighter liquidity conditions may have affected trading volumes and price movements."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.09341825902335457,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movements that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over inflation and interest rates may have contributed to bearish sentiment in the market.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The technology sector experienced a downturn during this period, impacting AAPL's performance.\"\n    },\n    {\n        \"name\": \"company_specific_news\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Negative news regarding AAPL's sales forecasts may have influenced investor sentiment.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.6,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Overall market sentiment was bearish, contributing to AAPL's price decline.\"\n    },\n    {\n        \"name\": \"technical_indicators\",\n        \"category\": \"technical\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Technical indicators suggested a bearish trend, influencing trading behavior.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.05,\n        \"persistence\": \"short\",\n        \"confidence\": 0.3,\n        \"description\": \"Tighter liquidity conditions may have affected trading volumes and price movements.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.05,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movements that cannot be attributed to observable factors.\"\n    }\n]"
+}

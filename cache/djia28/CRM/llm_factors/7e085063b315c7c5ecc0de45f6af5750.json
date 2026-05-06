@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-02",
+  "end_date": "2020-08-16",
+  "window_type": "monthly",
+  "price_change_pct": -2.1941294744546687,
+  "factors": [
+    {
+      "name": "indonesian_economic_contraction_q2_2020",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.5252525252525252,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Indonesian economy contracted by 5.32% in Q2 2020, raising concerns about global economic recovery amidst COVID-19, which negatively impacted market sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2222222222222222,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "treasury_yield_decline_2020_08_06",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.25252525252525254,
+      "persistence": "transient",
+      "description": "[conf=0.75] The 10-Year Treasury yield declined to 0.55% on August 6, indicating lower investor confidence and contributing to bearish sentiment in equities [14-18]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"indonesian_economic_contraction_q2_2020\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The Indonesian economy contracted by 5.32% in Q2 2020, raising concerns about global economic recovery amidst COVID-19, which negatively impacted market sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2020-08-06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [14, 15, 16, 17, 18],\n    \"description\": \"The 10-Year Treasury Rate declined to 0.55% on August 6, indicating lower investor confidence and contributing to bearish sentiment in equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-29",
+  "end_date": "2019-10-13",
+  "window_type": "monthly",
+  "price_change_pct": -1.5697165657378893,
+  "factors": [
+    {
+      "name": "japan_south_korea_trade_dispute",
+      "category": "geopolitical",
+      "direction": -0.62,
+      "magnitude": 0.5,
+      "persistence": "medium",
+      "description": "[conf=0.85] The ongoing Japan-South Korea trade dispute raised concerns about regional economic stability, negatively impacting investor sentiment towards companies like KO."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2727272727272727,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market fluctuations."
+    },
+    {
+      "name": "greece_negative_interest_rate",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.22727272727272727,
+      "persistence": "transient",
+      "description": "[conf=0.75] Greece's issuance of debt at a negative interest rate indicated unusual market conditions, contributing to investor caution and impacting KO's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"japan_south_korea_trade_dispute\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n    \"description\": \"The ongoing Japan-South Korea trade dispute raised concerns about regional economic stability, negatively impacting investor sentiment towards companies like KO.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market fluctuations.\"\n  }\n]"
+}

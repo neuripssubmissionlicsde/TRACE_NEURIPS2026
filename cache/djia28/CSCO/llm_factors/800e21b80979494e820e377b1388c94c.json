@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-01-01",
+  "end_date": "2023-01-15",
+  "window_type": "monthly",
+  "price_change_pct": 2.947251219780187,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.339622641509434,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "unemployment_rate_stable_3.5",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.37735849056603776,
+      "persistence": "medium",
+      "description": "[conf=0.85] Stable unemployment rate at 3.5% [41] contributed to positive market sentiment and investor confidence."
+    },
+    {
+      "name": "treasury_rate_decline_3.43",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.2830188679245283,
+      "persistence": "short",
+      "description": "[conf=0.75] Decline in the 10-Year Treasury Rate to 3.43% [17] likely boosted equity valuations, supporting CSCO's price increase."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41],\n    \"description\": \"The unemployment rate remained stable at 3.5%, contributing to positive market sentiment and investor confidence [41].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 49],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.43% on January 12 supported equity valuations, encouraging buying in tech stocks like CSCO [17, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

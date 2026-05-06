@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-10-28",
+  "end_date": "2018-11-11",
+  "window_type": "monthly",
+  "price_change_pct": 3.969205123224827,
+  "factors": [
+    {
+      "name": "rising_10yr_treasury_rate_3.22",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.6875,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.22% on November 6, indicating increased investor confidence and contributing to GS's price increase [9][49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3125,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10yr_treasury_rate_3.22\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 49],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.22% on November 6, indicating increased investor confidence and contributing to GS's price increase [9][49].\"\n  },\n  {\n    \"name\": \"market_sentiment_positive\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Overall positive market sentiment during this period, reflected in GS's price increase despite volatility.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

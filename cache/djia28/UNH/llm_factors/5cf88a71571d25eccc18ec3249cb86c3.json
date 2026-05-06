@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-20",
+  "window_type": "monthly",
+  "price_change_pct": -1.5180920931635102,
+  "factors": [
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury yield from 4.22% to 3.77% during the window provided some support to equity valuations, countering bearish sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    },
+    {
+      "name": "uk_inflation_record_high",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] Record inflation in the UK at 11.1% raised concerns about global economic stability, negatively impacting market sentiment [1][2][3]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"uk_inflation_pressure\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Record inflation in the UK reached 11.1%, increasing pressure on the Bank of England to raise interest rates, which negatively impacted market sentiment and valuations.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [32, 48],\n    \"description\": \"The decline in the 10-Year Treasury yield from 4.22% to 3.77% during the window provided some support to equity valuations, countering bearish sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

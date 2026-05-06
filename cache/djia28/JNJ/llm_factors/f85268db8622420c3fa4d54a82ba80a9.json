@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-08-18",
+  "end_date": "2019-09-01",
+  "window_type": "monthly",
+  "price_change_pct": -2.3986113427888145,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_august_2019",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.7333333333333334,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 1.6000 to 1.4700 during the window, indicating a flight to safety that negatively impacted JNJ's stock price [7, 11, 15]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in JNJ's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_august_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [7, 11, 15],\n    \"description\": \"The 10-Year Treasury yield declined from 1.6000 to 1.4700 during the window, indicating a flight to safety that negatively impacted JNJ's stock price [7, 11, 15].\"\n  },\n  {\n    \"name\": \"vix_volatility_spike_august_2019\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [31, 35],\n    \"description\": \"The VIX volatility index increased from 16.6800 to 19.3200, reflecting heightened market uncertainty and contributing to downward pressure on JNJ's stock [31, 35].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in JNJ's stock price.\"\n  }\n]"
+}

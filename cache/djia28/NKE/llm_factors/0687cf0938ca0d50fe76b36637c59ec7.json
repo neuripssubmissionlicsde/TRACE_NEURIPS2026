@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-06-21",
+  "end_date": "2020-07-05",
+  "window_type": "monthly",
+  "price_change_pct": 1.631390728969587,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7530864197530863,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced NKE's price movement during this period."
+    },
+    {
+      "name": "pakistan_stock_exchange_attack",
+      "category": "geopolitical",
+      "direction": -0.22000000000000003,
+      "magnitude": 0.24691358024691357,
+      "persistence": "transient",
+      "description": "[conf=0.70] The attack on the Pakistan Stock Exchange [1] created geopolitical uncertainty, which may have negatively impacted investor sentiment, contributing to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced NKE's price movement during this period.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [29, 37],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 0.68% to 0.66% [29] may have contributed to a more favorable borrowing environment, supporting equity prices including NKE.\"\n  },\n  {\n    \"name\": \"pakistan_stock_exchange_attack\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2],\n    \"description\": \"The attack on the Pakistan Stock Exchange [1] created geopolitical uncertainty, which may have negatively impacted investor sentiment, contributing to price fluctuations.\"\n  }\n]"
+}

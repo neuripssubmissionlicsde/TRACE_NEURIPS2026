@@ -1,0 +1,17 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -5.666891920520279,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2_7700\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.7700 on 2018-03-28 may have contributed to a temporary bullish sentiment in the market.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver.\"\n  }\n]"
+}

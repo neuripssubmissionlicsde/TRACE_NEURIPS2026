@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-02-26",
+  "end_date": "2023-03-12",
+  "window_type": "monthly",
+  "price_change_pct": -7.108104343717543,
+  "factors": [
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.6,
+      "magnitude": 0.3867403314917127,
+      "persistence": "short",
+      "description": "[conf=0.60] The broader entertainment and media sector faced headwinds, which likely influenced DIS's stock performance."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5800000000000001,
+      "magnitude": 0.4475138121546962,
+      "persistence": "short",
+      "description": "[conf=0.50] Negative market sentiment driven by overall market volatility may have contributed to the decline in DIS's stock price."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.16574585635359118,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_concerns\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Concerns over inflation and interest rates may have negatively impacted investor sentiment during this period.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The broader entertainment and media sector faced headwinds, which likely influenced DIS's stock performance.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Negative market sentiment driven by overall market volatility may have contributed to the decline in DIS's stock price.\"\n    },\n    {\n        \"name\": \"technical_sell_off\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have triggered sell-offs as the stock broke below key support levels.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations.\"\n    }\n]"
+}

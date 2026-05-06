@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-29",
+  "window_type": "monthly",
+  "price_change_pct": -3.316096427200474,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48362720403022663,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty and mixed signals in the market."
+    },
+    {
+      "name": "bank_of_canada_rate_hike_4.5pct",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5163727959697734,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Bank of Canada raised its benchmark interest rate to 4.5%, contributing to bearish sentiment in the market as investors reacted to tighter monetary conditions [1][2]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_canada_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2],\n    \"description\": \"The Bank of Canada raised its benchmark interest rate to 4.5%, contributing to bearish sentiment in the market as investors reacted to tighter monetary conditions [1][2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty and mixed signals in the market.\"\n  }\n]"
+}

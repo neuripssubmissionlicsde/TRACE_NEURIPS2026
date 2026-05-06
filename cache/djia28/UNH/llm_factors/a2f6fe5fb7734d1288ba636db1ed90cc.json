@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-03-04",
+  "end_date": "2018-03-18",
+  "window_type": "monthly",
+  "price_change_pct": 2.3478973342503573,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2018_03_14",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.46666666666666656,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 2.81% on March 14 contributed to a bullish sentiment in the market, supporting higher equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5333333333333333,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2018_03_14\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.81% on March 14 contributed to a bullish sentiment in the market, supporting higher equity valuations.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2018_03_16\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 18, 19, 20, 21],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 2.85% on March 16 created bearish pressure, leading to a slight pullback in equity prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-07-18",
+  "end_date": "2021-08-01",
+  "window_type": "monthly",
+  "price_change_pct": -3.254709890212055,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted TRV's price during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.75,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted TRV's price during this period.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.2900 to 1.2600 [17, 41] may have contributed to bearish sentiment in the market, impacting TRV's price.\"\n  }\n]"
+}

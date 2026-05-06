@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-12-23",
+  "end_date": "2019-01-06",
+  "window_type": "monthly",
+  "price_change_pct": 13.884766868895419,
+  "factors": [
+    {
+      "name": "corporate_acquisitions_mergers",
+      "category": "geopolitical",
+      "direction": 0.6666666666666666,
+      "magnitude": 0.5056179775280899,
+      "persistence": "medium",
+      "description": "[conf=0.85] Increased activity in corporate acquisitions and mergers during this period boosted investor sentiment, contributing to CRM's price rise [1]."
+    },
+    {
+      "name": "dow_jones_christmas_eve_drop",
+      "category": "market_sentiment",
+      "direction": -0.4666666666666666,
+      "magnitude": 0.2808988764044944,
+      "persistence": "transient",
+      "description": "[conf=0.75] The Dow Jones Industrial Average's significant drop on Christmas Eve created a negative sentiment backdrop, but CRM managed to rise despite this [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21348314606741572,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"corporate_acquisitions_mergers\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Increased activity in corporate acquisitions and mergers during this period boosted investor sentiment, contributing to CRM's price rise [1].\"\n  },\n  {\n    \"name\": \"dow_jones_christmas_eve_drop\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The Dow Jones Industrial Average's significant drop on Christmas Eve created a negative sentiment backdrop, but CRM managed to rise despite this [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

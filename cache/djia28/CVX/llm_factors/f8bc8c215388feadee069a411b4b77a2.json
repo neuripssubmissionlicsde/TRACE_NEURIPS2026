@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-12-05",
+  "end_date": "2021-12-19",
+  "window_type": "monthly",
+  "price_change_pct": -2.035168903152938,
+  "factors": [
+    {
+      "name": "vix_spike_dec_2021",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.6111111111111112,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 27.18 on December 6, indicating increased market fear and contributing to bearish sentiment around CVX [17], which persisted with a reading of 20.57 on December 16 [33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38888888888888884,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited randomness amidst the prevailing market conditions."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_dec_2021\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 33],\n    \"description\": \"The VIX Volatility Index spiked to 27.18 on December 6, indicating increased market fear and contributing to bearish sentiment around CVX [17], which persisted with a reading of 20.57 on December 16 [33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited randomness amidst the prevailing market conditions.\"\n  }\n]"
+}

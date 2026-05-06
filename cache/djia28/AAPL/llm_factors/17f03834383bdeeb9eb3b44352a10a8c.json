@@ -1,0 +1,57 @@
+{
+  "start_date": "2018-10-28",
+  "end_date": "2018-11-11",
+  "window_type": "monthly",
+  "price_change_pct": -6.390168806634756,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5599999999999999,
+      "magnitude": 0.17094017094017092,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment surrounding tech stocks contributed to the decline in AAPL's price."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.10256410256410255,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and noise that cannot be attributed to specific factors."
+    },
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.2564102564102564,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over inflation and interest rates may have contributed to bearish sentiment in the market."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.4,
+      "magnitude": 0.21367521367521364,
+      "persistence": "short",
+      "description": "[conf=0.50] The technology sector faced headwinds due to broader market corrections affecting tech stocks."
+    },
+    {
+      "name": "company_earnings_report",
+      "category": "company_specific",
+      "direction": -0.6,
+      "magnitude": 0.17094017094017092,
+      "persistence": "short",
+      "description": "[conf=0.70] AAPL's recent earnings report may have disappointed investors, leading to a decline in stock price."
+    },
+    {
+      "name": "technical_indicators",
+      "category": "technical",
+      "direction": -0.4,
+      "magnitude": 0.08547008547008546,
+      "persistence": "transient",
+      "description": "[conf=0.40] Technical indicators may have signaled a bearish trend, contributing to selling pressure."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.6,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment surrounding tech stocks contributed to the decline in AAPL's price.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over AAPL's sales performance and supply chain issues were prevalent during this period.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Increased selling pressure due to liquidity constraints in the market may have contributed to the price drop.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and noise that cannot be attributed to specific factors.\"\n    }\n]"
+}

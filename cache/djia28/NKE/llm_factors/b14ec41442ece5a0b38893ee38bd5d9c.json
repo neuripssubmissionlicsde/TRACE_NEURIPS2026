@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-05-13",
+  "end_date": "2018-05-27",
+  "window_type": "monthly",
+  "price_change_pct": 5.3207461160648135,
+  "factors": [
+    {
+      "name": "sanctions_against_north_korea",
+      "category": "geopolitical",
+      "direction": 0.58,
+      "magnitude": 0.47619047619047616,
+      "persistence": "short",
+      "description": "[conf=0.85] Sanctions against North Korea were imposed, contributing to a positive market sentiment as geopolitical tensions shifted focus away from domestic issues [20][35]."
+    },
+    {
+      "name": "turkish_central_bank_rate_hike",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.23809523809523808,
+      "persistence": "transient",
+      "description": "[conf=0.75] The Turkish Central Bank raised its late liquidity window rate to combat currency depreciation, which may have influenced investor sentiment positively towards global equities [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2857142857142857,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sanctions_against_north_korea\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [20, 35],\n    \"description\": \"Sanctions against North Korea were imposed, contributing to a positive market sentiment as geopolitical tensions shifted focus away from domestic issues [20][35].\"\n  },\n  {\n    \"name\": \"turkish_central_bank_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The Turkish Central Bank raised its late liquidity window rate to combat currency depreciation, which may have influenced investor sentiment positively towards global equities [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

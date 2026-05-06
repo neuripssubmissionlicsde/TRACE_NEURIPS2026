@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-18",
+  "end_date": "2019-09-01",
+  "window_type": "monthly",
+  "price_change_pct": -1.5489286683356207,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.42000000000000004,
+      "magnitude": 0.3123425692695214,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.5%, indicating a strong labor market which can support consumer spending and investor confidence."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.275,
+      "magnitude": 0.26448362720403024,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined from 1.6% to 1.5%, suggesting lower borrowing costs and potentially boosting equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4231738035264484,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.5%, indicating a strong labor market which can support consumer spending and investor confidence.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17, 25, 41],\n    \"description\": \"The 10-Year Treasury Rate declined from 1.6% to 1.5%, suggesting lower borrowing costs and potentially boosting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market movements during the period.\"\n  }\n]"
+}

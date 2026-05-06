@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-10-14",
+  "end_date": "2018-10-28",
+  "window_type": "monthly",
+  "price_change_pct": -1.5439840851103503,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3434343434343434,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    },
+    {
+      "name": "vix_increase_2018_10_26",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.4545454545454546,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose to 24.16 on 2018-10-26, indicating increased market fear and contributing to downward pressure on asset V's price [9][17]."
+    },
+    {
+      "name": "vix_stability_2018_10_19",
+      "category": "market_sentiment",
+      "direction": 0.3,
+      "magnitude": 0.20202020202020204,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX was relatively stable at 19.89 on 2018-10-19, which may have provided a temporary support for asset V's price before the subsequent volatility spike [25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_24_16\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The VIX increased to 24.16 on 2018-10-26, indicating heightened market volatility and contributing to bearish sentiment.\"\n  },\n  {\n    \"name\": \"vix_increase_21_30\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"The VIX was reported at 21.30 on 2018-10-15, reflecting increased market uncertainty and contributing to downward pressure on prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

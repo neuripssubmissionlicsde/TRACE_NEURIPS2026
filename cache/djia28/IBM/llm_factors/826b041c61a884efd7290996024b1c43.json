@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-09-01",
+  "end_date": "2019-09-15",
+  "window_type": "monthly",
+  "price_change_pct": 6.540622732819562,
+  "factors": [
+    {
+      "name": "treasury_rate_increase_1.7900",
+      "category": "macroeconomic",
+      "direction": 0.5333333333333333,
+      "magnitude": 0.5833333333333333,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate was reported at 1.7900 on 2019-09-12, reflecting a positive sentiment in the market that likely supported IBM's price rise."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.41666666666666663,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_1.9000\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [49],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.9000 on 2019-09-13, indicating increased investor confidence and contributing to IBM's price increase.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_1.7900\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"The 10-Year Treasury Rate was reported at 1.7900 on 2019-09-12, reflecting a positive sentiment in the market that likely supported IBM's price rise.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

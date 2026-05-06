@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-01-21",
+  "end_date": "2018-02-04",
+  "window_type": "monthly",
+  "price_change_pct": -4.807260247158668,
+  "factors": [
+    {
+      "name": "strong_dollar_policy_change_indication",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "transient",
+      "description": "[conf=0.85] Remarks by Treasury Secretary Steven Mnuchin suggested a potential shift away from the longstanding strong dollar policy, leading to market uncertainty and a bearish sentiment for UNH [30][31]."
+    },
+    {
+      "name": "euro_uncertainty_due_to_draghi",
+      "category": "geopolitical",
+      "direction": -0.4,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.75] Mario Draghi's comments on the euro's strength created uncertainty in the market, contributing to bearish sentiment for UNH [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market volatility."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"strong_dollar_policy_change_indication\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [30, 31],\n    \"description\": \"Remarks by Treasury Secretary Steven Mnuchin suggested a potential shift away from the longstanding strong dollar policy, leading to market uncertainty and a bearish sentiment for UNH [30][31].\"\n  },\n  {\n    \"name\": \"euro_uncertainty_due_to_draghi\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"Mario Draghi's comments on the euro's strength created uncertainty in the market, contributing to bearish sentiment for UNH [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market volatility.\"\n  }\n]"
+}

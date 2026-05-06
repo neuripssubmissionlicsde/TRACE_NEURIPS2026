@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-06-19",
+  "end_date": "2022-07-03",
+  "window_type": "monthly",
+  "price_change_pct": 5.136155730107475,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_june_2022",
+      "category": "macroeconomic",
+      "direction": 0.76,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The decline in the 10-Year Treasury Rate from 3.2000 to 2.8800 during the period [9, 13] contributed to a bullish sentiment in equities, including JNJ."
+    },
+    {
+      "name": "vix_volatility_decline_june_2022",
+      "category": "market_sentiment",
+      "direction": 0.52,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.85] The decrease in the VIX Volatility Index from 30.1900 to 26.7000 [45] indicated reduced market fear, supporting upward price movement in JNJ."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_june_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 13],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 3.2000 to 2.8800 during the period [9, 13] contributed to a bullish sentiment in equities, including JNJ.\"\n  },\n  {\n    \"name\": \"vix_volatility_decline_june_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [45, 39],\n    \"description\": \"The decrease in the VIX Volatility Index from 30.1900 to 26.7000 [45] indicated reduced market fear, supporting upward price movement in JNJ.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

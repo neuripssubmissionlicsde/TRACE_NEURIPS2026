@@ -1,0 +1,65 @@
+{
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-19",
+  "window_type": "monthly",
+  "price_change_pct": -2.0802666848841627,
+  "factors": [
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.23255813953488372,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over inflation and interest rates may have contributed to bearish sentiment in the broader market."
+    },
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": -0.375,
+      "magnitude": 0.20930232558139533,
+      "persistence": "short",
+      "description": "[conf=0.70] Ongoing geopolitical tensions in oil-producing regions likely influenced investor sentiment negatively."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.275,
+      "magnitude": 0.1627906976744186,
+      "persistence": "short",
+      "description": "[conf=0.50] The energy sector faced headwinds due to fluctuating oil prices, impacting XOM's performance."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.375,
+      "magnitude": 0.13953488372093023,
+      "persistence": "short",
+      "description": "[conf=0.60] Overall market sentiment was bearish, affecting investor behavior towards XOM."
+    },
+    {
+      "name": "technical_indicators",
+      "category": "technical",
+      "direction": -0.22500000000000003,
+      "magnitude": 0.0930232558139535,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested a potential downturn, influencing trading decisions."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.125,
+      "magnitude": 0.06976744186046513,
+      "persistence": "transient",
+      "description": "[conf=0.40] Liquidity conditions were slightly tighter, which may have contributed to downward pressure."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.0930232558139535,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over inflation and interest rates may have contributed to bearish sentiment in the broader market.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Ongoing geopolitical tensions in oil-producing regions likely influenced investor sentiment negatively.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.15,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The energy sector faced headwinds due to fluctuating oil prices, impacting XOM's performance.\"\n    },\n    {\n        \"name\": \"company_news\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Recent company announcements regarding production cuts may have contributed to negative sentiment.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Overall market sentiment was bearish, affecting investor behavior towards XOM.\"\n    },\n    {\n        \"name\": \"technical_indicators\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested a potential downturn, influencing trading decisions.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.05,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Liquidity conditions were slightly tighter, which may have contributed to downward pressure.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.05,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations.\"\n    }\n]"
+}

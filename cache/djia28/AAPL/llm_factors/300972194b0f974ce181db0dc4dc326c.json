@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-24",
+  "window_type": "monthly",
+  "price_change_pct": 3.502133824053984,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.4000000000000001,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment around technology stocks likely contributed to the upward price movement."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.30000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.60] AAPL's strong performance in previous quarters and product announcements may have bolstered investor confidence."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.20000000000000004,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showing bullish patterns could have attracted momentum traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10000000000000002,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and noise contributed to some of the price movement without clear causation."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive market sentiment around technology stocks likely contributed to the upward price movement.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"AAPL's strong performance in previous quarters and product announcements may have bolstered investor confidence.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showing bullish patterns could have attracted momentum traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and noise contributed to some of the price movement without clear causation.\"\n    }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-03-14",
+  "end_date": "2021-03-28",
+  "window_type": "monthly",
+  "price_change_pct": 6.7386778915981935,
+  "factors": [
+    {
+      "name": "sec_filing_2021_03_19",
+      "category": "company_specific",
+      "direction": 0.525,
+      "magnitude": 0.437135720233139,
+      "persistence": "short",
+      "description": "[conf=0.85] IBM filed with the SEC on 2021-03-19, which may have positively influenced investor sentiment and contributed to the price increase."
+    },
+    {
+      "name": "stable_treasury_rate_2021_03_15",
+      "category": "macroeconomic",
+      "direction": 0.3333333333333333,
+      "magnitude": 0.283097418817652,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 1.6200 to 1.6300 during this period, supporting equity valuations and investor confidence."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.279766860949209,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2021_03_19\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"IBM filed with the SEC on 2021-03-19, which may have positively influenced investor sentiment and contributed to the price increase.\"\n  },\n  {\n    \"name\": \"stable_treasury_rate_2021_03_15\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 25],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.6200 to 1.6300 during this period, supporting equity valuations and investor confidence.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

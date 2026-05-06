@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-27",
+  "window_type": "monthly",
+  "price_change_pct": -7.292195553948598,
+  "factors": [
+    {
+      "name": "vix_increase_27_78",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.45,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose to 27.78 on September 21, indicating increased market uncertainty and contributing to bearish sentiment around CVX [1, 9]."
+    },
+    {
+      "name": "vix_increase_28_58",
+      "category": "market_sentiment",
+      "direction": -0.4,
+      "magnitude": 0.32999999999999996,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX further increased to 28.58 on September 23, amplifying fears of market volatility and negatively impacting CVX's price [9, 17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_27_78\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The VIX Volatility Index rose to 27.78 on September 21, indicating increased market uncertainty and contributing to bearish sentiment around CVX [1, 9].\"\n  },\n  {\n    \"name\": \"vix_increase_28_58\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"The VIX further increased to 28.58 on September 23, amplifying fears of market volatility and negatively impacting CVX's price [9, 17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

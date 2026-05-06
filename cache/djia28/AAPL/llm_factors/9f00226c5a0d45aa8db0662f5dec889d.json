@@ -1,0 +1,57 @@
+{
+  "start_date": "2023-03-26",
+  "end_date": "2023-04-09",
+  "window_type": "monthly",
+  "price_change_pct": 2.9511158540697546,
+  "factors": [
+    {
+      "name": "macroeconomic_indicators",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.3061224489795918,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive macroeconomic indicators, such as employment data and consumer spending, likely contributed to bullish sentiment in the market."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.8,
+      "magnitude": 0.13265306122448978,
+      "persistence": "short",
+      "description": "[conf=0.50] General bullish market sentiment during this period likely contributed to AAPL's upward price movement."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 0.8400000000000001,
+      "magnitude": 0.08163265306122448,
+      "persistence": "transient",
+      "description": "[conf=0.40] A technical breakout above key resistance levels may have attracted momentum traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.07142857142857141,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": 0.7333333333333334,
+      "magnitude": 0.20408163265306126,
+      "persistence": "short",
+      "description": "[conf=0.60] The technology sector showed strong performance, which may have positively influenced AAPL's price movement."
+    },
+    {
+      "name": "company_news",
+      "category": "company_specific",
+      "direction": 0.7999999999999999,
+      "magnitude": 0.20408163265306126,
+      "persistence": "short",
+      "description": "[conf=0.80] Positive news regarding AAPL's product launches and sales forecasts likely contributed to the upward price movement."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_indicators\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive macroeconomic indicators, such as employment data and consumer spending, likely contributed to bullish sentiment in the market.\"\n    },\n    {\n        \"name\": \"tech_sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Strong performance in the technology sector during this period likely supported AAPL's price increase.\"\n    },\n    {\n        \"name\": \"company_earnings_expectations\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.65,\n        \"description\": \"Positive sentiment around upcoming earnings reports may have driven investor interest in AAPL.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General bullish market sentiment during this period likely contributed to AAPL's upward price movement.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.05,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"A technical breakout above key resistance levels may have attracted momentum traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.05,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

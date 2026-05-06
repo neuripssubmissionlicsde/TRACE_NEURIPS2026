@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-26",
+  "window_type": "monthly",
+  "price_change_pct": 4.171204201981338,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price movement.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_march_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.45,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [4, 10, 16],\n    \"description\": \"The 10-Year Treasury Rate increased from 3.5100 to 3.5900 during the period, which typically influences investor sentiment and equity valuations.\"\n  }\n]"
+}

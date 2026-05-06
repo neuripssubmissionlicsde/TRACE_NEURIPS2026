@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": 3.675312749076834,
+  "factors": [
+    {
+      "name": "ecb_interest_rate_hike_10th_time",
+      "category": "macroeconomic",
+      "direction": 0.13999999999999999,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The European Central Bank raised interest rates for the 10th time to combat high inflation, which may have positively influenced investor sentiment towards AMGN."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5000000000000001,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by various market dynamics without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_interest_rate_hike_10th_time\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The European Central Bank raised interest rates for the 10th time to combat high inflation, which may have positively influenced investor sentiment towards AMGN.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by various market dynamics without a clear dominant driver.\"\n  }\n]"
+}

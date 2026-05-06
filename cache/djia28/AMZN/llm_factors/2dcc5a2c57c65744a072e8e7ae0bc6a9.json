@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-04",
+  "end_date": "2018-02-18",
+  "window_type": "monthly",
+  "price_change_pct": 3.2845746561490654,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_feb_12",
+      "category": "macroeconomic",
+      "direction": -0.38000000000000006,
+      "magnitude": 0.3092269326683291,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 2.8600 on February 12, indicating increasing borrowing costs that may have pressured equity valuations, including AMZN."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22942643391521197,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "market_selloff_feb_5",
+      "category": "market_sentiment",
+      "direction": -0.575,
+      "magnitude": 0.4613466334164588,
+      "persistence": "transient",
+      "description": "[conf=0.90] A significant selloff occurred on February 5, with the Dow Jones Industrial Average dropping a record 1,175 points, contributing to negative sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"wall_street_selloff_feb_5\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 10, 11, 12, 13],\n    \"description\": \"The Wall Street stock market experienced a significant selloff on February 5, shedding 4.6% of its value, which likely impacted investor sentiment and contributed to AMZN's price movements.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_feb_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [14, 22],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.8600 on February 12, indicating increasing borrowing costs that may have pressured equity valuations, including AMZN.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

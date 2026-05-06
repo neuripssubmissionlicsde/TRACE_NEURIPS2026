@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-07-05",
+  "end_date": "2020-07-19",
+  "window_type": "monthly",
+  "price_change_pct": 3.3836725140578428,
+  "factors": [
+    {
+      "name": "sec_filing_trv_2020_07_14",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.23148148148148145,
+      "persistence": "transient",
+      "description": "[conf=0.75] TRV filed with the SEC on 2020-07-14, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "treasury_rate_stability_2020_07_16",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.23148148148148145,
+      "persistence": "short",
+      "description": "[conf=0.70] The 10-Year Treasury Rate remained stable around 0.6200 to 0.6400 during this period, supporting a favorable borrowing environment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5370370370370371,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_trv_2020_07_14\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"TRV filed with the SEC on 2020-07-14, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_2020_07_16\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 0.6200 to 0.6400 during this period, supporting a favorable borrowing environment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-04-25",
+  "end_date": "2021-05-09",
+  "window_type": "monthly",
+  "price_change_pct": 3.275711134687455,
+  "factors": [
+    {
+      "name": "sec_filing_2021_04_30",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "[conf=0.85] IBM filed with the SEC on 2021-04-30, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate stabilized around 1.5800 to 1.6300 during the window, supporting equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2021_04_30\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"IBM filed with the SEC on 2021-04-30, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 41],\n    \"description\": \"The 10-Year Treasury Rate stabilized around 1.5800 to 1.6300 during the window, supporting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-09-30",
+  "end_date": "2018-10-14",
+  "window_type": "monthly",
+  "price_change_pct": -4.977621141760583,
+  "factors": [
+    {
+      "name": "fed_funds_rate_2.19",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5882352941176471,
+      "persistence": "short",
+      "description": "[conf=0.85] The Federal Funds Effective Rate was reported at 2.19%, contributing to bearish sentiment as higher rates typically pressure equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.411764705882353,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_2.19\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The Federal Funds Effective Rate was reported at 2.19%, contributing to bearish sentiment as higher rates typically pressure equity valuations.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_yield\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [6, 11, 21, 26],\n    \"description\": \"The 10-Year Treasury Rate increased to 3.15% during the window, indicating rising borrowing costs and contributing to downward pressure on equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

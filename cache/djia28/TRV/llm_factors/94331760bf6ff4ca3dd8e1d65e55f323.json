@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-02-28",
+  "end_date": "2021-03-14",
+  "window_type": "monthly",
+  "price_change_pct": 7.573480072686046,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2021_03_10",
+      "category": "macroeconomic",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.7142857142857143,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate rose to 1.5300 on 2021-03-10, signaling increased investor confidence and contributing to TRV's price increase [1][17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2857142857142857,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_03_10\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 17],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.5300 on 2021-03-10, signaling increased investor confidence and contributing to TRV's price increase [1][17].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability_2021_03_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9],\n    \"description\": \"The unemployment rate remained stable at 6.1% on 2021-03-01, supporting a positive economic outlook that likely buoyed TRV's stock price [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

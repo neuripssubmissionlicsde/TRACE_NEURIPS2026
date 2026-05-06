@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-01-30",
+  "end_date": "2022-02-13",
+  "window_type": "monthly",
+  "price_change_pct": -6.750402191040203,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced high volatility and a significant drawdown."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_feb_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 25, 49],\n    \"description\": \"The 10-Year Treasury Rate rose from 1.8100 to 2.0300 during the period, indicating tightening monetary conditions that pressured equity valuations [9, 25, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced high volatility and a significant drawdown.\"\n  }\n]"
+}

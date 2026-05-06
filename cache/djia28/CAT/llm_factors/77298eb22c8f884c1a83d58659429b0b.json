@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-06-10",
+  "end_date": "2018-06-24",
+  "window_type": "monthly",
+  "price_change_pct": -9.826633145012599,
+  "factors": [
+    {
+      "name": "euro_value_decline_ecb_announcement",
+      "category": "geopolitical",
+      "direction": -0.52,
+      "magnitude": 0.38,
+      "persistence": "short",
+      "description": "[conf=0.85] The euro fell by one percent after the European Central Bank announced plans to halve bond purchases, creating negative sentiment in global markets [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.3333333333333333,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury rate fluctuated, with a notable rise to 2.9800 on June 13, contributing to bearish sentiment in equities including CAT."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"euro_value_decline_ecb_announcement\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42, 43, 44],\n    \"description\": \"The euro fell by one percent after the European Central Bank announced plans to halve bond purchases, creating negative sentiment in global markets [41].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [5, 25],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.92% on June 18, contributing to bearish sentiment as higher rates typically pressure equity valuations [5].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

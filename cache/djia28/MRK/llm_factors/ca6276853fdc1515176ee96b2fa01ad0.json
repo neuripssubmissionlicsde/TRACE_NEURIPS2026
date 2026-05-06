@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-10-25",
+  "end_date": "2020-11-08",
+  "window_type": "monthly",
+  "price_change_pct": 1.298376020670216,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6153846153846154,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events drove significant price movements."
+    },
+    {
+      "name": "sec_filing_2020_10_27",
+      "category": "company_specific",
+      "direction": 0.35,
+      "magnitude": 0.38461538461538464,
+      "persistence": "transient",
+      "description": "[conf=0.70] Merck filed with the SEC on 2020-10-27, which may have contributed to a slight positive sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.70,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events drove significant price movements.\"\n  },\n  {\n    \"name\": \"sec_filing_2020_10_27\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"Merck filed with the SEC on 2020-10-27, which may have contributed to a slight positive sentiment.\"\n  },\n  {\n    \"name\": \"australia_cash_rate_cut_2020_11_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"The Reserve Bank of Australia cut its cash rate to a historic low on 2020-11-03, potentially influencing global market sentiment positively.\"\n  },\n  {\n    \"name\": \"market_sentiment_consolidation\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.10,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Price movements were constrained within a range, indicating a balance of bullish and bearish forces during the period.\"\n  }\n]"
+}

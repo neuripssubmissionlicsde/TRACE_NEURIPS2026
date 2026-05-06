@@ -1,0 +1,79 @@
+tickers:
+- AAPL
+- AXP
+- BA
+- BAC
+- CAT
+- CSCO
+- CVX
+- DIS
+- GS
+- HD
+- IBM
+- INTC
+- JNJ
+- JPM
+- KO
+- MCD
+- MMM
+- MRK
+- MSFT
+- NKE
+- PFE
+- PG
+- RTX
+- TRV
+- UNH
+- V
+- WMT
+- XOM
+train_start: '2019-01-01'
+train_end: '2021-01-01'
+output_dir: djia_2019_2020_bear_amplified_full
+cache_dir: cache/djia_2019
+resume: true
+llm_provider: openrouter
+llm_model: openrouter/google/gemma-3-27b-it
+llm_temperature: 0.4
+llm_n_samples: 7
+llm_max_workers: 8
+min_sample_freq: 0.25
+use_rag: true
+rag_persist_dir: cache/djia_2019/rag_store
+rag_sources:
+- wikipedia
+- fred
+- sec_edgar
+rag_cache_mode: reuse
+rag_max_articles: 50
+rag_content_limit: 500
+fred_api_key: ''
+sec_email: ''
+window_sizes:
+- 1BD
+factor_threshold: 0.0
+max_factors: 200
+cross_window_validation: false
+fin:
+  architecture: tft
+  n_lags: 5
+  epochs: 300
+  batch_size: 32
+  learning_rate: 0.001
+  patience: 30
+  device: auto
+n_scenarios: 1
+scenario_llm_samples: 1
+generation:
+  n_steps: 0
+  n_samples: 50
+  noise_scale: 1.0
+  start_date: ''
+  regime_blend: 0.1
+  drift_correction_strength: 0.0
+evaluation:
+  skip: true
+  include_deep_metrics: false
+  skip_if_no_test: true
+neural_sde:
+  enabled: false

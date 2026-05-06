@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-27",
+  "window_type": "monthly",
+  "price_change_pct": -0.9137635743926922,
+  "factors": [
+    {
+      "name": "norway_divestment_russian_holdings",
+      "category": "geopolitical",
+      "direction": -0.45999999999999996,
+      "magnitude": 0.39,
+      "persistence": "short",
+      "description": "[conf=0.85] Norway's sovereign fund announced it would divest its Russian holdings, contributing to negative sentiment in global markets amid rising geopolitical tensions [1][19]."
+    },
+    {
+      "name": "moscow_stock_exchange_selloff",
+      "category": "geopolitical",
+      "direction": -0.44000000000000006,
+      "magnitude": 0.35,
+      "persistence": "transient",
+      "description": "[conf=0.80] A massive selloff on the Moscow Stock Exchange triggered circuit breakers, reflecting heightened market volatility and uncertainty, which likely impacted investor sentiment towards equities like NKE [19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"norway_divestment_russian_holdings\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 19],\n    \"description\": \"Norway's sovereign fund announced it would divest its Russian holdings, contributing to negative sentiment in global markets amid rising geopolitical tensions [1][19].\"\n  },\n  {\n    \"name\": \"moscow_stock_exchange_selloff\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [19],\n    \"description\": \"A massive selloff on the Moscow Stock Exchange triggered circuit breakers, reflecting heightened market volatility and uncertainty, which likely impacted investor sentiment towards equities like NKE [19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

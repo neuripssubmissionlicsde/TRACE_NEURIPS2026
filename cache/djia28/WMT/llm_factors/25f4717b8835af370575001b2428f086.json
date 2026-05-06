@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-11-25",
+  "end_date": "2018-12-09",
+  "window_type": "monthly",
+  "price_change_pct": -2.081142450620098,
+  "factors": [
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3851351351351351,
+      "persistence": "medium",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 3.0300 to 2.8500 during the window indicated easing financial conditions, which generally supports equity valuations [16, 19, 22]."
+    },
+    {
+      "name": "stable_unemployment_rate",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.27027027027027023,
+      "persistence": "long",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.9%, suggesting a resilient labor market that supports consumer spending [28, 29, 30]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.34459459459459457,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [16, 19, 22],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 3.0300 to 2.8500 during the window indicated easing financial conditions, which generally supports equity valuations [16, 19, 22].\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [28, 29, 30],\n    \"description\": \"The unemployment rate remained stable at 3.9%, suggesting a resilient labor market that supports consumer spending [28, 29, 30].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

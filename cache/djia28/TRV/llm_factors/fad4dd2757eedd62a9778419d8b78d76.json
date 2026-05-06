@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-10-24",
+  "end_date": "2021-11-07",
+  "window_type": "monthly",
+  "price_change_pct": -1.481453228846497,
+  "factors": [
+    {
+      "name": "central_bank_brazil_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.58,
+      "magnitude": 0.6,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Central Bank of Brazil raised its interest rate by 150 basis points, impacting global market sentiment and contributing to a bearish outlook for TRV [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.39999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in market conditions."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"central_bank_brazil_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Central Bank of Brazil raised its interest rate by 150 basis points, impacting global market sentiment and contributing to a bearish outlook for TRV [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in market conditions.\"\n  }\n]"
+}

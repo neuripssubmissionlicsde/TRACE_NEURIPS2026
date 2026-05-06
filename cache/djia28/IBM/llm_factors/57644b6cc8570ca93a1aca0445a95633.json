@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -13.111668004922116,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.15841584158415842,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the chaotic market environment during this period."
+    },
+    {
+      "name": "market_crash_fears",
+      "category": "macroeconomic",
+      "direction": -0.8000000000000002,
+      "magnitude": 0.5445544554455446,
+      "persistence": "short",
+      "description": "[conf=0.90] Markets were on pace for their worst week since the 2008 financial crisis due to fears surrounding economic impacts from global events [1, 15, 28]."
+    },
+    {
+      "name": "global_market_loss",
+      "category": "macroeconomic",
+      "direction": -0.6999999999999998,
+      "magnitude": 0.297029702970297,
+      "persistence": "short",
+      "description": "[conf=0.85] Global stock markets lost US$6 trillion in value over six days, contributing to a bearish sentiment across equities [28, 29]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_crash_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 15, 28],\n    \"description\": \"Global markets faced severe declines, with the Dow entering correction territory and losing significant value due to fears surrounding the COVID-19 outbreak [1][15][28].\"\n  },\n  {\n    \"name\": \"global_stock_market_loss\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [28],\n    \"description\": \"Global stock markets lost approximately $6 trillion in value over a short period, contributing to bearish sentiment across equities [28].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the chaotic market environment during this period.\"\n  }\n]"
+}

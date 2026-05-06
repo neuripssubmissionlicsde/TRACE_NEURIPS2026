@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-02",
+  "end_date": "2020-02-16",
+  "window_type": "monthly",
+  "price_change_pct": 4.12962505529859,
+  "factors": [
+    {
+      "name": "vix_decline_feb_2020",
+      "category": "market_sentiment",
+      "direction": 0.64,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 17.97 on February 3 to 13.68 on February 14, indicating reduced market fear and contributing to bullish sentiment for CVX [9][33]."
+    },
+    {
+      "name": "oil_price_stability",
+      "category": "sector_specific",
+      "direction": 0.44000000000000006,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.75] Stable oil prices during this period likely supported CVX's price increase, although specific articles on oil prices were not provided."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_feb_2020\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33],\n    \"description\": \"The VIX Volatility Index declined from 17.97 on February 3 to 13.68 on February 14, indicating reduced market fear and contributing to bullish sentiment for CVX [9][33].\"\n  },\n  {\n    \"name\": \"oil_price_stability\",\n    \"category\": \"sector_specific\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Stable oil prices during this period likely supported CVX's price increase, although specific articles on oil prices were not provided.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

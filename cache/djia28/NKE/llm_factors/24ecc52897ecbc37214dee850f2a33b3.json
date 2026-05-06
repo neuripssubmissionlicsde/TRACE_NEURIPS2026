@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-11-10",
+  "end_date": "2019-11-24",
+  "window_type": "monthly",
+  "price_change_pct": 4.442156492145253,
+  "factors": [
+    {
+      "name": "south_korea_japan_trade_tensions",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] Increased tensions between South Korea and Japan regarding export restrictions may have positively influenced investor sentiment towards NKE, as the company has significant exposure to Asian markets."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"south_korea_japan_trade_tensions\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Increased tensions between South Korea and Japan regarding export restrictions may have positively influenced investor sentiment towards NKE, as the company has significant exposure to Asian markets.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market fluctuations.\"\n  }\n]"
+}

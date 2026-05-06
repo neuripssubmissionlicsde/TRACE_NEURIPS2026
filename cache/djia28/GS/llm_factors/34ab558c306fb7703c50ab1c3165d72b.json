@@ -1,0 +1,17 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": -3.014503258688378,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2_8100\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17],\n    \"description\": \"The 10-Year Treasury Rate declined to 2.8100 on 2018-03-01, which typically supports equity valuations and may have contributed to a temporary bullish sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2_8600\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25],\n    \"description\": \"The 10-Year Treasury Rate was reported at 2.8600 on 2018-02-26, indicating a decline that could have supported investor sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

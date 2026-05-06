@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-29",
+  "end_date": "2020-04-12",
+  "window_type": "monthly",
+  "price_change_pct": 9.077755168581659,
+  "factors": [
+    {
+      "name": "fed_rate_cut_0.25",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.5789473684210527,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Federal Funds Effective Rate was reported at a historic low of 0.0500, indicating a supportive monetary policy environment that likely boosted investor sentiment towards equities [1][10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced high volatility with no clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_0.25\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 10],\n    \"description\": \"The Federal Funds Effective Rate was reported at a historic low of 0.0500, indicating a supportive monetary policy environment that likely boosted investor sentiment towards equities [1][10].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced high volatility with no clear dominant driver.\"\n  }\n]"
+}

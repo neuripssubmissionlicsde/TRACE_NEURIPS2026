@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-05-27",
+  "end_date": "2018-06-10",
+  "window_type": "monthly",
+  "price_change_pct": 4.409596094923931,
+  "factors": [
+    {
+      "name": "vix_decline_below_13",
+      "category": "market_sentiment",
+      "direction": 0.75,
+      "magnitude": 0.5263157894736842,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX declined below 13, indicating reduced market volatility and contributing to bullish sentiment around CVX [1][9][17]."
+    },
+    {
+      "name": "oil_price_stability",
+      "category": "sector_specific",
+      "direction": 0.6,
+      "magnitude": 0.2631578947368421,
+      "persistence": "medium",
+      "description": "[conf=0.75] Stable oil prices during this period likely supported CVX's price increase, although specific articles were not provided."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2105263157894737,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_below_13\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The VIX declined below 13, indicating reduced market volatility and contributing to bullish sentiment around CVX [1][9][17].\"\n  },\n  {\n    \"name\": \"oil_price_stability\",\n    \"category\": \"sector_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Stable oil prices during this period likely supported CVX's price increase, although specific articles were not provided.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

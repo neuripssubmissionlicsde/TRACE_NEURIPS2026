@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-12-22",
+  "end_date": "2020-01-05",
+  "window_type": "monthly",
+  "price_change_pct": 1.424867436629773,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4318181818181818,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "vix_increase_january_2020",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5681818181818182,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index increased to 14.02 on January 3, 2020, indicating rising market uncertainty which likely pressured stock prices."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2020_01_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 19],\n    \"description\": \"The VIX Volatility Index increased to 14.02 on 2020-01-03, indicating rising market uncertainty which likely pressured CVX prices.\"\n  },\n  {\n    \"name\": \"vix_stability_2019_12_31\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The VIX was stable at 13.78 on 2019-12-31, contributing to a positive sentiment that supported CVX's price increase during the period.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

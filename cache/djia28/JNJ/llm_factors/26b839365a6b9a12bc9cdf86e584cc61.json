@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-02-14",
+  "end_date": "2021-02-28",
+  "window_type": "monthly",
+  "price_change_pct": -4.281338271622452,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_february_2021",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5150753768844222,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose significantly from 1.2900 to 1.5400 during the period, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks."
+    },
+    {
+      "name": "vix_volatility_spike_february_2021",
+      "category": "market_sentiment",
+      "direction": -0.4,
+      "magnitude": 0.2638190954773869,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index spiked to 28.89 on February 25, indicating increased market uncertainty and contributing to downward pressure on JNJ's stock price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22110552763819097,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_february_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10],\n    \"description\": \"The 10-Year Treasury Rate rose significantly from 1.2900 to 1.5400 during the period, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks.\"\n  },\n  {\n    \"name\": \"vix_volatility_spike_february_2021\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [44],\n    \"description\": \"The VIX Volatility Index spiked to 28.89 on February 25, indicating increased market uncertainty and contributing to downward pressure on JNJ's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

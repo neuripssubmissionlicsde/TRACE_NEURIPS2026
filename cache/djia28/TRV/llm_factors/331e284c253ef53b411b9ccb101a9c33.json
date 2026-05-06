@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -12.85276008791586,
+  "factors": [
+    {
+      "name": "coronavirus_market_selloff",
+      "category": "macroeconomic",
+      "direction": -0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The Dow Jones Industrial Average dropped more than 3% as the coronavirus pandemic spread outside China, leading to widespread market selloffs [43][44][45]."
+    },
+    {
+      "name": "worst_week_since_2008",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.29000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.85] Markets were on pace for their worst week since the 2008 financial crisis, contributing to negative sentiment and further selling pressure [1][2][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.16,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"coronavirus_market_selloff\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [43, 44, 45],\n    \"description\": \"The Dow Jones Industrial Average dropped more than 3% as the coronavirus pandemic spread outside China, leading to widespread market selloffs [43][44][45].\"\n  },\n  {\n    \"name\": \"worst_week_since_2008\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Markets were on pace for their worst week since the 2008 financial crisis, contributing to negative sentiment and further selling pressure [1][2][3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

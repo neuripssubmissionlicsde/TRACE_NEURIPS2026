@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-09-24",
+  "end_date": "2023-10-08",
+  "window_type": "monthly",
+  "price_change_pct": -0.1444386149847728,
+  "factors": [
+    {
+      "name": "increasing_vix_19.78",
+      "category": "market_sentiment",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.5555555555555556,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index increased to 19.78 on 2023-10-03, indicating rising market uncertainty and contributing to downward pressure on prices [33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4444444444444445,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yield_4.81\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 4],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.81% on 2023-10-03, contributing to bearish sentiment as higher yields typically pressure equity valuations [1].\"\n  },\n  {\n    \"name\": \"increasing_vix_19.78\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33, 36],\n    \"description\": \"The VIX Volatility Index increased to 19.78 on 2023-10-03, indicating rising market uncertainty and contributing to downward pressure on prices [33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

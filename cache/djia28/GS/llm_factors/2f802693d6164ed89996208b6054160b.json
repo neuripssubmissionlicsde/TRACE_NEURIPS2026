@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -8.50613168635635,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10_year_treasury_rate_2022_12_14\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 41],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.49% on 2022-12-14, which typically supports equity valuations and investor sentiment.\"\n  },\n  {\n    \"name\": \"increased_market_volatility_2022_12\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"High annualized volatility of 23.4% during this period indicates increased uncertainty and selling pressure in the market.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

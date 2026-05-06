@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-26",
+  "window_type": "monthly",
+  "price_change_pct": -0.3415546970933574,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_3_3800",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.33018867924528295,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 3.3800 on March 24 [17] likely supported investor sentiment, contributing to a slight upward pressure on HD's price."
+    },
+    {
+      "name": "treasury_rate_decline_3_4700",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.23584905660377356,
+      "persistence": "short",
+      "description": "[conf=0.80] The drop in the 10-Year Treasury Rate to 3.4700 on March 20 [25] may have provided a favorable environment for equities, influencing HD's price positively."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.43396226415094347,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_3_3800\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.3800 on March 24 [17] likely supported investor sentiment, contributing to a slight upward pressure on HD's price.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_3_4700\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 49],\n    \"description\": \"The drop in the 10-Year Treasury Rate to 3.4700 on March 20 [25] may have provided a favorable environment for equities, influencing HD's price positively.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period.\"\n  }\n]"
+}

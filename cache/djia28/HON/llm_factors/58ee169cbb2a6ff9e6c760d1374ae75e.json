@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.827535705728148,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6064139941690962,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "india_economic_rebound",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.3935860058309038,
+      "persistence": "short",
+      "description": "[conf=0.75] India's economy rebounded at a record rate of 20.1%, potentially boosting global market sentiment [1]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"india_economic_rebound\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"India's economy rebounded at a record rate of 20.1%, potentially boosting global market sentiment [1].\"\n  },\n  {\n    \"name\": \"stable_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [8, 24],\n    \"description\": \"10-Year Treasury yields remained stable around 1.30%, indicating low inflation expectations and supporting equity valuations [8, 24].\"\n  }\n]"
+}

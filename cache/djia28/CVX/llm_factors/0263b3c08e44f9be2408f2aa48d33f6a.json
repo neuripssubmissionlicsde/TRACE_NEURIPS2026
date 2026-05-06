@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-26",
+  "window_type": "monthly",
+  "price_change_pct": -0.24292774715185023,
+  "factors": [
+    {
+      "name": "vix_volatility_increase_2023_03_15",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5063291139240507,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 26.14 on March 15, indicating increased market uncertainty, which likely pressured CVX's price downward [33, 34, 35]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4936708860759494,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_increase_2023_03_15\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 34, 35],\n    \"description\": \"The VIX Volatility Index spiked to 26.14 on March 15, indicating increased market uncertainty, which likely pressured CVX's price downward [33, 34, 35].\"\n  },\n  {\n    \"name\": \"vix_volatility_decline_2023_03_21\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 18, 19],\n    \"description\": \"A decline in the VIX to 21.38 on March 21 suggested reduced market fear, providing a slight bullish influence on CVX's price [17, 18, 19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period.\"\n  }\n]"
+}

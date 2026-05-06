@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": 3.3816702907993483,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.54,
+      "magnitude": 0.43107769423558895,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 1.5500 [1], contributing to a favorable interest rate environment that supported equity valuations [9]."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.45,
+      "magnitude": 0.28822055137844615,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate from 1.8500 to 1.8100 [25] and then to 1.9400 [41] indicated a shift in investor sentiment towards equities, supporting BA's price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2807017543859649,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.5500 [1], contributing to a favorable interest rate environment that supported equity valuations [9].\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.8500 to 1.8100 [25] and then to 1.9400 [41] indicated a shift in investor sentiment towards equities, supporting BA's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

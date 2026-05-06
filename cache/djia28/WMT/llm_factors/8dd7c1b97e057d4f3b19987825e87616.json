@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-21",
+  "window_type": "monthly",
+  "price_change_pct": -0.8990567204563001,
+  "factors": [
+    {
+      "name": "bank_of_england_rate_hike_4.5%",
+      "category": "macroeconomic",
+      "direction": -0.54,
+      "magnitude": 0.48,
+      "persistence": "short",
+      "description": "[conf=0.85] The Bank of England raised interest rates to 4.5%, impacting market sentiment and leading to a bearish outlook for equities including WMT [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.52,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear trend amidst mixed signals."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_england_rate_hike_4.5%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The Bank of England raised interest rates to 4.5%, impacting market sentiment and leading to a bearish outlook for equities including WMT [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear trend amidst mixed signals.\"\n  }\n]"
+}

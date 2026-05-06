@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-16",
+  "end_date": "2020-08-30",
+  "window_type": "monthly",
+  "price_change_pct": -0.8225462531886609,
+  "factors": [
+    {
+      "name": "sec_direct_listing_rule_approval",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3448275862068966,
+      "persistence": "medium",
+      "description": "[conf=0.85] The SEC approved new rules for direct listings, which could positively impact market sentiment and capital raising for tech companies like Cisco [1]."
+    },
+    {
+      "name": "covid_economic_impact",
+      "category": "macroeconomic",
+      "direction": -0.45999999999999996,
+      "magnitude": 0.29310344827586204,
+      "persistence": "short",
+      "description": "[conf=0.75] Ongoing economic impacts from the COVID-19 pandemic raised concerns about future growth, negatively affecting investor sentiment [11]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3620689655172414,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed a slight decline without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_direct_listing_rule_approval\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The SEC approved new rules for direct listings, which could positively impact market sentiment and capital raising for tech companies like Cisco [1].\"\n  },\n  {\n    \"name\": \"covid_economic_impact\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [11, 12, 13],\n    \"description\": \"Ongoing economic impacts from the COVID-19 pandemic raised concerns about future growth, negatively affecting investor sentiment [11].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed a slight decline without a clear dominant driver.\"\n  }\n]"
+}

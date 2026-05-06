@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-07-30",
+  "end_date": "2023-08-13",
+  "window_type": "monthly",
+  "price_change_pct": 0.996030643949226,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3391521197007481,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.7%, contributing to positive sentiment in the market [1]."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.26184538653366585,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-year Treasury rate increased from 4.05% to 4.20%, which typically pressures equity valuations negatively [9, 17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.39900249376558605,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 3.7%, contributing to positive sentiment in the market [1].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17, 25],\n    \"description\": \"The 10-year Treasury rate increased from 4.05% to 4.20%, which typically pressures equity valuations negatively [9, 17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,57 @@
+{
+  "start_date": "2021-03-28",
+  "end_date": "2021-04-11",
+  "window_type": "monthly",
+  "price_change_pct": 3.3397719767982794,
+  "factors": [
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.28846153846153844,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive macroeconomic indicators, such as GDP growth and employment data, likely contributed to bullish sentiment in the market."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": 1.0,
+      "magnitude": 0.19230769230769232,
+      "persistence": "short",
+      "description": "[conf=0.60] The financial sector showed strong performance during this period, which likely supported JPM's price increase."
+    },
+    {
+      "name": "earnings_expectations",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.19230769230769232,
+      "persistence": "short",
+      "description": "[conf=0.80] Market anticipation of favorable earnings results for JPM contributed to upward price movement."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.19230769230769232,
+      "persistence": "short",
+      "description": "[conf=0.70] Overall positive market sentiment and investor confidence likely fueled buying activity in JPM shares."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.11538461538461538,
+      "persistence": "transient",
+      "description": "[conf=0.50] JPM's price movement above key technical resistance levels may have triggered additional buying from technical traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.019230769230769232,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_conditions\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive macroeconomic indicators, such as GDP growth and employment data, likely contributed to bullish sentiment in the market.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The financial sector showed strong performance during this period, which likely supported JPM's price increase.\"\n    },\n    {\n        \"name\": \"earnings_expectations\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.8,\n        \"description\": \"Market anticipation of favorable earnings results for JPM contributed to upward price movement.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Overall positive market sentiment and investor confidence likely fueled buying activity in JPM shares.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"JPM's price movement above key technical resistance levels may have triggered additional buying from technical traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

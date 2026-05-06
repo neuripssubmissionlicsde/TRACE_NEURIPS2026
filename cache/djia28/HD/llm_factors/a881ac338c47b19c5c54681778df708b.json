@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-09-26",
+  "end_date": "2021-10-10",
+  "window_type": "monthly",
+  "price_change_pct": -0.7510700809921794,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty and volatility in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2021_10_06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.5300 on 2021-10-06 contributed to a temporary bullish sentiment in the market, as lower yields typically support equity valuations [9][41].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2021_10_07\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41],\n    \"description\": \"The subsequent increase in the 10-Year Treasury Rate to 1.5800 on 2021-10-07 created bearish pressure on equities, as rising yields can lead to higher discount rates for future earnings [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty and volatility in the market during this period.\"\n  }\n]"
+}

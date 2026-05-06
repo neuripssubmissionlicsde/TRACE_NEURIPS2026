@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": 0.8604901369053324,
+  "factors": [
+    {
+      "name": "ecb_interest_rate_hike_25bps",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The European Central Bank raised interest rates by 25bps, signaling a tightening monetary policy that positively influenced market sentiment towards equities, including NKE."
+    },
+    {
+      "name": "first_republic_bank_failure",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.75] The seizure of First Republic Bank by the FDIC created uncertainty in the financial sector, leading to some bearish sentiment that may have affected NKE's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_interest_rate_hike_25bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank raised interest rates by 25bps, signaling a tightening monetary policy that positively influenced market sentiment towards equities, including NKE.\"\n  },\n  {\n    \"name\": \"first_republic_bank_failure\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [37, 38, 39],\n    \"description\": \"The seizure of First Republic Bank by the FDIC created uncertainty in the financial sector, leading to some bearish sentiment that may have affected NKE's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

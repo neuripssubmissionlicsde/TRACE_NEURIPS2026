@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-07-18",
+  "end_date": "2021-08-01",
+  "window_type": "monthly",
+  "price_change_pct": 5.918464611800043,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42367601246105924,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "north_korea_south_korea_relations",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.5763239875389409,
+      "persistence": "short",
+      "description": "[conf=0.85] Increased tensions in North Korea\u2013South Korea relations [17, 19, 21] led to a risk-on sentiment, benefiting equities like NKE."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_south_korea_relations_tension\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 19],\n    \"description\": \"Increased tensions in North Korea\u2013South Korea relations [17, 19] led to a risk-on sentiment, benefiting equities like NKE.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

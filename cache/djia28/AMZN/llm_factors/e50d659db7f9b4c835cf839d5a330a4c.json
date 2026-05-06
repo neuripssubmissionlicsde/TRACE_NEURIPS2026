@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-06-23",
+  "end_date": "2019-07-07",
+  "window_type": "monthly",
+  "price_change_pct": 1.5815637876891462,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_july_2019",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5789473684210527,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 2.0500 to 1.9600 during this period, indicating lower borrowing costs and supporting equity valuations [1, 25, 41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by various market sentiments without a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_july_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 25, 41],\n    \"description\": \"The 10-Year Treasury yield declined from 2.0500 to 1.9600 during this period, indicating lower borrowing costs and supporting equity valuations [1, 25, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by various market sentiments without a dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-02-17",
+  "end_date": "2019-03-03",
+  "window_type": "monthly",
+  "price_change_pct": 6.045732789565651,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.51,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 2.4100, contributing to a positive sentiment in the market as investors anticipated continued economic growth [1]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate remained low at 3.8000, indicating a strong labor market which supported investor confidence [17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 4],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 2.4100, contributing to a positive sentiment in the market as investors anticipated continued economic growth [1].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17],\n    \"description\": \"The unemployment rate remained low at 3.8000, indicating a strong labor market which supported investor confidence [17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

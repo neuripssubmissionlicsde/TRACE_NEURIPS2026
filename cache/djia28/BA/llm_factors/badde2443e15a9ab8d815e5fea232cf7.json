@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": -2.082391735373243,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.33713784021071114,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.276558384547849,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 1.51% [1], contributing to a neutral market sentiment during this period [9]."
+    },
+    {
+      "name": "ten_year_treasury_rate_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.43333333333333335,
+      "magnitude": 0.3863037752414399,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate fluctuated from 2.88% to 2.86% [25, 41], indicating changing investor sentiment and contributing to bearish pressure on equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The Federal Funds Effective Rate was reported at 1.51% [1], indicating tighter monetary conditions which negatively impacted market sentiment [9].\"\n  },\n  {\n    \"name\": \"ten_year_treasury_rate_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 41],\n    \"description\": \"The 10-Year Treasury Rate was reported at 2.81% [17], contributing to rising borrowing costs and negatively affecting equity valuations [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

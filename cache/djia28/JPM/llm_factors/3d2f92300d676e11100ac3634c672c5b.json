@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-09-29",
+  "end_date": "2019-10-13",
+  "window_type": "monthly",
+  "price_change_pct": -1.0895757043152419,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.31914893617021267,
+      "persistence": "short",
+      "description": "[conf=0.60] General market sentiment was cautious, contributing to a slight bearish outlook."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.3,
+      "magnitude": 0.23936170212765953,
+      "persistence": "short",
+      "description": "[conf=0.70] JPMorgan Chase's recent earnings report showed mixed results, leading to some investor concern."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.15,
+      "magnitude": 0.18617021276595744,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showed a bearish trend, influencing trading behavior."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.2553191489361702,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations contributed to unexplained price variance."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was cautious, contributing to a slight bearish outlook.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"JPMorgan Chase's recent earnings report showed mixed results, leading to some investor concern.\"\n    },\n    {\n        \"name\": \"macroeconomic\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"Economic indicators released during this period suggested slowing growth, impacting financial stocks.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed a bearish trend, influencing trading behavior.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations contributed to unexplained price variance.\"\n    }\n]"
+}

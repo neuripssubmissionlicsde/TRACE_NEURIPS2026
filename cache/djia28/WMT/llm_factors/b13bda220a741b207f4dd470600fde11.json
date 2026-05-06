@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-07-31",
+  "end_date": "2022-08-14",
+  "window_type": "monthly",
+  "price_change_pct": 1.3244603017374161,
+  "factors": [
+    {
+      "name": "bank_of_england_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.39622641509433965,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Bank of England raised its benchmark interest rate by 50bps, signaling tighter monetary policy which negatively impacted market sentiment [1, 2]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.2830188679245283,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield rose to 2.84%, reflecting increased borrowing costs and contributing to downward pressure on equity valuations [9, 12, 27]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32075471698113206,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_england_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2],\n    \"description\": \"The Bank of England raised its benchmark interest rate by 50bps, signaling tighter monetary policy which negatively impacted market sentiment [1, 2].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 12, 27],\n    \"description\": \"The 10-Year Treasury yield rose to 2.84%, reflecting increased borrowing costs and contributing to downward pressure on equity valuations [9, 12, 27].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

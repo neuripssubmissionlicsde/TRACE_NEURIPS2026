@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-08-13",
+  "end_date": "2023-08-27",
+  "window_type": "monthly",
+  "price_change_pct": -2.594596266927625,
+  "factors": [
+    {
+      "name": "chinese_rate_cut_2023",
+      "category": "macroeconomic",
+      "direction": -0.52,
+      "magnitude": 0.8360655737704918,
+      "persistence": "short",
+      "description": "[conf=0.85] The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] raised concerns about economic growth, negatively impacting market sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1639344262295082,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"chinese_rate_cut_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] raised concerns about economic growth, negatively impacting market sentiment.\"\n  },\n  {\n    \"name\": \"treasury_yield_increase_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [14, 22, 38],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 4.34% [38] contributed to a bearish sentiment in the equity markets, impacting HD's price negatively.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

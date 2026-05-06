@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-24",
+  "window_type": "monthly",
+  "price_change_pct": 3.275013951859633,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "rising_treasury_yields_0.6800",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5789473684210527,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate to 0.6800 on May 20 indicated rising investor confidence, contributing to the bullish sentiment around HON's stock."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_may_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33],\n    \"description\": \"The 10-Year Treasury Rate increased from 0.6300 to 0.6800 during the window, indicating rising yields which typically support equity valuations [9][33].\"\n  },\n  {\n    \"name\": \"market_sentiment_recovery_post_covid\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment improved as investors anticipated economic recovery from COVID-19, contributing to upward price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

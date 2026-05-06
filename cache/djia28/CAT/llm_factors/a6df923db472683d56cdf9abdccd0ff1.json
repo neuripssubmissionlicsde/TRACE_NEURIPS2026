@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-17",
+  "end_date": "2021-01-31",
+  "window_type": "monthly",
+  "price_change_pct": -5.893273385451835,
+  "factors": [
+    {
+      "name": "game_stop_short_squeeze",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.4125,
+      "persistence": "transient",
+      "description": "[conf=0.85] A short squeeze in GameStop stock led to increased volatility and negative sentiment in the broader market, impacting CAT's price negatively [48][49][50]."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.37500000000000006,
+      "magnitude": 0.28750000000000003,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate from 1.1200 to 1.0500 during the window suggested easing financial conditions, which could have provided some support to CAT's price [5][9][25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"game_stop_short_squeeze\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [48, 49, 50],\n    \"description\": \"A short squeeze in GameStop stock led to increased volatility and negative sentiment in the broader market, impacting CAT's price negatively [48][49][50].\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 9, 25],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.1200 to 1.0500 during the window suggested easing financial conditions, which could have provided some support to CAT's price [5][9][25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

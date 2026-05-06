@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-05-27",
+  "end_date": "2018-06-10",
+  "window_type": "monthly",
+  "price_change_pct": 4.344724810120077,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5555555555555556,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price movement."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.45,
+      "magnitude": 0.4444444444444445,
+      "persistence": "short",
+      "description": "[conf=0.75] The unemployment rate remained stable at 4.0% [16], contributing to a positive economic outlook that may have supported stock prices."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price movement.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [16],\n    \"description\": \"The unemployment rate remained stable at 4.0% [16], contributing to a positive economic outlook that may have supported stock prices.\"\n  },\n  {\n    \"name\": \"geopolitical_tensions\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.65,\n    \"source_articles\": [24],\n    \"description\": \"Arrests of South Korean media personnel related to North Korea raised geopolitical tensions [24], potentially creating uncertainty in the market.\"\n  }\n]"
+}

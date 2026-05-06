@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-06-20",
+  "end_date": "2021-07-04",
+  "window_type": "monthly",
+  "price_change_pct": 2.419166727469799,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.47592067988668557,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "stable_treasury_rate_1.48",
+      "category": "macroeconomic",
+      "direction": 0.525,
+      "magnitude": 0.5240793201133145,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate stabilized at 1.48%, contributing to a favorable borrowing environment and supporting equity valuations [1, 9, 17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_1.5pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.5% on June 21, which typically signals investor confidence and can lead to increased equity valuations, contributing to PG's price increase.\"\n  },\n  {\n    \"name\": \"stable_treasury_yields_1.48pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 17],\n    \"description\": \"The stabilization of the 10-Year Treasury Rate at 1.48% on July 1 provided a supportive backdrop for equities, including PG, as it indicated reduced inflation fears.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

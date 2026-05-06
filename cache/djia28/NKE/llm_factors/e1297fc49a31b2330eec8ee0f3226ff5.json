@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-09-30",
+  "end_date": "2018-10-14",
+  "window_type": "monthly",
+  "price_change_pct": -10.799044185086958,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4134078212290503,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "north_korea_south_korea_relations",
+      "category": "geopolitical",
+      "direction": -0.575,
+      "magnitude": 0.5865921787709497,
+      "persistence": "short",
+      "description": "[conf=0.85] Increased tensions in North Korea-South Korea relations [19] led to negative sentiment impacting NKE's stock price [20, 21]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_relations_tension\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [19, 20, 21],\n    \"description\": \"Increased tensions in North Korea-South Korea relations [19] led to broader geopolitical concerns, negatively impacting market sentiment towards NKE.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [36, 44],\n    \"description\": \"The 10-Year Treasury yield rose to 3.09% [36], contributing to higher discount rates and negatively affecting equity valuations, including NKE.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

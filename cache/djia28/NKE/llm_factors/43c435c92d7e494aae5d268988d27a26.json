@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-01-19",
+  "end_date": "2020-02-02",
+  "window_type": "monthly",
+  "price_change_pct": -7.625904000090903,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5195530726256983,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.34,
+      "magnitude": 0.28491620111731847,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined from 1.7700 on January 22 to 1.5700 on January 30, indicating a shift in investor sentiment that may have contributed to the bearish trend."
+    },
+    {
+      "name": "market_sentiment_covid_concerns",
+      "category": "market_sentiment",
+      "direction": -0.26666666666666666,
+      "magnitude": 0.19553072625698323,
+      "persistence": "transient",
+      "description": "[conf=0.70] General market sentiment was negatively affected by ongoing concerns related to COVID-19, contributing to the downward pressure on NKE's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 24],\n    \"description\": \"The 10-Year Treasury Rate declined from 1.7700 on January 22 to 1.5700 on January 30, indicating a shift in investor sentiment that may have contributed to the bearish trend.\"\n  },\n  {\n    \"name\": \"global_market_uncertainty\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [49],\n    \"description\": \"Elliott Management's exit from Hyundai raised concerns about broader market stability, potentially impacting investor sentiment towards NKE.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -11.353775035577776,
+  "factors": [
+    {
+      "name": "global_market_selloff_feb_2020",
+      "category": "macroeconomic",
+      "direction": -0.7799999999999999,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Global stock markets lost US$6 trillion in value over six days, contributing to a significant selloff in equities including AMZN [1][7]."
+    },
+    {
+      "name": "dow_jones_correction_feb_2020",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.28,
+      "persistence": "short",
+      "description": "[conf=0.85] The Dow Jones Industrial Average entered correction territory after a significant drop, impacting investor sentiment across the market [46]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.17,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"global_market_selloff_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 7],\n    \"description\": \"Global stock markets lost US$6 trillion in value over six days, contributing to a significant selloff in equities including AMZN [1][7].\"\n  },\n  {\n    \"name\": \"dow_jones_correction_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [46],\n    \"description\": \"The Dow Jones Industrial Average entered correction territory after a significant drop, impacting investor sentiment across the market [46].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this period.\"\n  }\n]"
+}

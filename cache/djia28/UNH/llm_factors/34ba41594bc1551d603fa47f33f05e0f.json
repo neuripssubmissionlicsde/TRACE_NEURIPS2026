@@ -1,0 +1,41 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.20763753454235,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.2,
+      "magnitude": 0.2516778523489933,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 4.7%, indicating a steady labor market which may have contributed to investor confidence."
+    },
+    {
+      "name": "india_economic_rebound",
+      "category": "geopolitical",
+      "direction": 0.23333333333333336,
+      "magnitude": 0.20134228187919462,
+      "persistence": "transient",
+      "description": "[conf=0.70] Reports of India's economy rebounding at a record rate of 20.1% may have positively influenced global market sentiment."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.1342281879194631,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 1.3%, suggesting no immediate pressure on equity valuations from rising rates."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.412751677852349,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 4.7%, indicating a steady labor market which may have contributed to investor confidence.\"\n  },\n  {\n    \"name\": \"india_economic_rebound\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15],\n    \"description\": \"Reports of India's economy rebounding at a record rate of 20.1% may have positively influenced global market sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [16, 24, 40],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.3%, suggesting no immediate pressure on equity valuations from rising rates.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

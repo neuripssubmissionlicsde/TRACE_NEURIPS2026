@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-08-14",
+  "end_date": "2022-08-28",
+  "window_type": "monthly",
+  "price_change_pct": -0.8327997402148182,
+  "factors": [
+    {
+      "name": "eurozone_inflation_record_high",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5112781954887218,
+      "persistence": "medium",
+      "description": "[conf=0.85] Eurozone inflation reached a record 8.9% in July [1], raising concerns about economic stability and impacting consumer sentiment."
+    },
+    {
+      "name": "euro_usd_exchange_rate_decline",
+      "category": "geopolitical",
+      "direction": -0.3,
+      "magnitude": 0.28822055137844615,
+      "persistence": "short",
+      "description": "[conf=0.75] The euro dropped to its lowest exchange rate against the US dollar in 20 years [48], affecting multinational companies like KO with potential revenue impacts."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.20050125313283207,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"eurozone_inflation_record_high\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Eurozone inflation reached a record 8.9% in July [1], raising concerns about economic stability and impacting consumer sentiment.\"\n  },\n  {\n    \"name\": \"euro_usd_exchange_rate_decline\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [48, 49, 50],\n    \"description\": \"The euro dropped to its lowest exchange rate against the US dollar in 20 years [48], affecting multinational companies like KO with potential revenue impacts.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-22",
+  "window_type": "monthly",
+  "price_change_pct": 11.519550344797485,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26735218508997427,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "japanese_economy_growth_q3",
+      "category": "geopolitical",
+      "direction": 0.6333333333333333,
+      "magnitude": 0.41131105398457585,
+      "persistence": "medium",
+      "description": "[conf=0.85] Japanese economy grew at an annualized rate of 21.4% in Q3, boosting global market sentiment and positively impacting BA's stock price [25]."
+    },
+    {
+      "name": "treasury_rate_decline_nov_2020",
+      "category": "macroeconomic",
+      "direction": 0.42500000000000004,
+      "magnitude": 0.3213367609254498,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate to 0.8600 on November 19 contributed to a favorable borrowing environment, supporting equity valuations [41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"japanese_economy_growth_q3_2020\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26, 27],\n    \"description\": \"Japanese economy grew at an annualized rate of 21.4% in Q3 2020, boosting global economic sentiment and positively impacting BA's stock price [25].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2020_11_19\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 42],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 0.8600 on November 19, 2020, contributed to a favorable borrowing environment, supporting equity valuations [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

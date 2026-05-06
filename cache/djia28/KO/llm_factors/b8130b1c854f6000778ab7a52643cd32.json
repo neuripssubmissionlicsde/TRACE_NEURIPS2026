@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-09-25",
+  "end_date": "2022-10-09",
+  "window_type": "monthly",
+  "price_change_pct": -6.804588873243348,
+  "factors": [
+    {
+      "name": "north_korea_missile_launch",
+      "category": "geopolitical",
+      "direction": -0.56,
+      "magnitude": 0.44000000000000006,
+      "persistence": "transient",
+      "description": "[conf=0.85] North Korea's missile launch over Japan heightened geopolitical tensions, contributing to market uncertainty and a sell-off in equities [1][2][3]."
+    },
+    {
+      "name": "inflation_surge_europe",
+      "category": "macroeconomic",
+      "direction": -0.36,
+      "magnitude": 0.31999999999999995,
+      "persistence": "medium",
+      "description": "[conf=0.80] The ongoing inflation surge in Europe raised concerns about economic stability, negatively impacting investor sentiment [10][11][12]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_missile_launch\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"North Korea's missile launch over Japan heightened geopolitical tensions, contributing to market uncertainty and a sell-off in equities [1][2][3].\"\n  },\n  {\n    \"name\": \"inflation_surge_europe\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [10, 11, 12],\n    \"description\": \"The ongoing inflation surge in Europe raised concerns about economic stability, negatively impacting investor sentiment [10][11][12].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

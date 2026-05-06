@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-12-23",
+  "end_date": "2019-01-06",
+  "window_type": "monthly",
+  "price_change_pct": 4.551833827696072,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5454545454545455,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "nikkei_drop_5_percent",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.45454545454545453,
+      "persistence": "short",
+      "description": "[conf=0.85] The Nikkei index dropped 5% to below 20,000, indicating broader market concerns that likely influenced investor sentiment towards NKE."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"nikkei_index_drop_5_percent\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Nikkei index dropped 5% to below 20,000, indicating broader market concerns that likely influenced investor sentiment towards NKE.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

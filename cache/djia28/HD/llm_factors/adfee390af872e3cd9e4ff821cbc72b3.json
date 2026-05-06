@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-18",
+  "end_date": "2019-09-01",
+  "window_type": "monthly",
+  "price_change_pct": 10.112101148939454,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_august_2019",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.5555555555555556,
+      "persistence": "medium",
+      "description": "[conf=0.90] The 10-Year Treasury yield declined from 1.6200 to 1.5000 during the period, indicating a flight to safety that boosted equities like HD [25][33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19191919191919193,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "strong_housing_data_august_2019",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.25252525252525254,
+      "persistence": "short",
+      "description": "[conf=0.80] Positive sentiment from strong housing market data during August likely contributed to bullish sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_august_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [25, 33],\n    \"description\": \"The 10-Year Treasury yield declined from 1.6200 to 1.5000 during the period, indicating a flight to safety that boosted equities like HD [25][33].\"\n  },\n  {\n    \"name\": \"strong_home_depot_sales_report\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"While no specific articles were retrieved, the price movement suggests strong sales performance or positive sentiment around HD during this period.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

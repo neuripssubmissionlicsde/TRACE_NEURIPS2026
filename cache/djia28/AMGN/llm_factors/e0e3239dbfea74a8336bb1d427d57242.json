@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-29",
+  "end_date": "2019-10-13",
+  "window_type": "monthly",
+  "price_change_pct": 4.149369234459909,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32989690721649484,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "fed_funds_rate_release",
+      "category": "macroeconomic",
+      "direction": 0.55,
+      "magnitude": 0.4123711340206186,
+      "persistence": "short",
+      "description": "[conf=0.85] The Federal Funds Effective Rate was reported at 1.8300 on 2019-10-01, indicating a stable monetary policy environment that supported investor confidence."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.2577319587628866,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined from 1.6800 to 1.5600 during the window, suggesting a flight to safety that often benefits equities like AMGN."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_release_2019_10_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [6, 8],\n    \"description\": \"The Federal Funds Effective Rate was reported at 1.8300 on 2019-10-01, indicating a stable monetary policy environment that supported investor confidence.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2019_10_11\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [11, 20],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.7600 on 2019-10-11, which typically boosts equity valuations as lower yields make stocks more attractive.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

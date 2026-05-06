@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-04-14",
+  "end_date": "2019-04-28",
+  "window_type": "monthly",
+  "price_change_pct": 2.943677754697902,
+  "factors": [
+    {
+      "name": "singapore_export_slump_april_2019",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.5813953488372093,
+      "persistence": "short",
+      "description": "[conf=0.85] Singapore's non-oil exports slumped in March, raising concerns about global trade dynamics and impacting market sentiment [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.41860465116279066,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"singapore_export_slump_april_2019\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"Singapore's non-oil exports slumped in March, raising concerns about global trade dynamics and impacting market sentiment [1].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_april_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [13, 21, 49],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.5500 to 2.6000 during the window, indicating rising borrowing costs which can negatively affect equity valuations [13, 21].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

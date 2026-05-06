@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-04-28",
+  "end_date": "2019-05-12",
+  "window_type": "monthly",
+  "price_change_pct": 2.462669638215087,
+  "factors": [
+    {
+      "name": "stable_treasury_rate_2.47",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5225653206650832,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate stabilized at 2.47%, contributing to a favorable borrowing environment and supporting TRV's price increase [1]."
+    },
+    {
+      "name": "low_unemployment_rate_3.6",
+      "category": "macroeconomic",
+      "direction": 0.37500000000000006,
+      "magnitude": 0.24940617577197152,
+      "persistence": "medium",
+      "description": "[conf=0.75] The unemployment rate remained low at 3.6%, indicating a strong labor market that supports consumer spending and insurance demand [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22802850356294535,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rate_2.47\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate stabilized at 2.47%, contributing to a favorable borrowing environment and supporting TRV's price increase [1].\"\n  },\n  {\n    \"name\": \"low_unemployment_rate_3.6\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The unemployment rate remained low at 3.6%, indicating a strong labor market that supports consumer spending and insurance demand [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

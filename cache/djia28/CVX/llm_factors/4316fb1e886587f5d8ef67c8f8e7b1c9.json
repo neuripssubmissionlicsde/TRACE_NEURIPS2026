@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -0.8951201816192164,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32296047098402014,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    },
+    {
+      "name": "vix_increase_22.87",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.39108494533221194,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased to 22.87 on March 28, indicating heightened market volatility and investor anxiety, which likely contributed to the bearish sentiment around CVX."
+    },
+    {
+      "name": "vix_increase_19.02",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.2859545836837678,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX rose to 19.02 on March 19, reflecting increased market uncertainty that may have pressured CVX's price downward."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_march_28\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 21],\n    \"description\": \"The VIX Volatility Index rose to 22.87 on March 28, indicating increased market uncertainty and contributing to bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"vix_increase_march_26\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33, 40],\n    \"description\": \"The VIX Volatility Index increased to 21.03 on March 26, reflecting heightened volatility and negatively impacting investor sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

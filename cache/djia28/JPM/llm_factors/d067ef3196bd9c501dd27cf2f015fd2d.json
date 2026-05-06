@@ -1,0 +1,49 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": -9.517500524131773,
+  "factors": [
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.30927835051546393,
+      "persistence": "short",
+      "description": "[conf=0.70] Concerns over inflation and interest rate hikes were prevalent during this period, negatively impacting investor sentiment."
+    },
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": -1.0,
+      "magnitude": 0.2061855670103093,
+      "persistence": "short",
+      "description": "[conf=0.60] Ongoing geopolitical tensions, particularly related to energy prices and supply chains, contributed to market volatility."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -1.0,
+      "magnitude": 0.2061855670103093,
+      "persistence": "short",
+      "description": "[conf=0.50] The financial sector faced headwinds due to rising concerns about economic slowdown affecting lending and investment."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.21649484536082478,
+      "persistence": "short",
+      "description": "[conf=0.60] Negative market sentiment was reflected in declining stock prices across major indices, influencing JPM's performance."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.0618556701030928,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movements that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Concerns over inflation and interest rate hikes were prevalent during this period, negatively impacting investor sentiment.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Ongoing geopolitical tensions, particularly related to energy prices and supply chains, contributed to market volatility.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The financial sector faced headwinds due to rising concerns about economic slowdown affecting lending and investment.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Negative market sentiment was reflected in declining stock prices across major indices, influencing JPM's performance.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested bearish trends, prompting some investors to sell.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movements that cannot be attributed to observable factors.\"\n    }\n]"
+}

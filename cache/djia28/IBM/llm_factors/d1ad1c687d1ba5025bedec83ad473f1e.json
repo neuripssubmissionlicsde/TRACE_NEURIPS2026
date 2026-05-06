@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-05-08",
+  "end_date": "2022-05-22",
+  "window_type": "monthly",
+  "price_change_pct": -4.4118978745132615,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2727272727272727,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market exhibited high volatility and a significant drawdown during this period."
+    },
+    {
+      "name": "rising_treasury_yields_2022_05_09",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.0500 on 2022-05-09, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks."
+    },
+    {
+      "name": "declining_treasury_yields_2022_05_18",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.22727272727272727,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined to 2.8900 on 2022-05-18, which could have provided a temporary relief to the market, but was insufficient to reverse the overall bearish trend."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_may_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17, 25],\n    \"description\": \"The 10-Year Treasury Rate rose from 3.05% on May 9 to 2.84% on May 19, indicating rising borrowing costs which negatively impacted equity valuations [9, 17, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market exhibited high volatility and a significant drawdown during this period.\"\n  }\n]"
+}

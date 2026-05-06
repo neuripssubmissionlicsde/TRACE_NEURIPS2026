@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-03-14",
+  "end_date": "2021-03-28",
+  "window_type": "monthly",
+  "price_change_pct": 9.939130111084825,
+  "factors": [
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.45454545454545453,
+      "persistence": "medium",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate to 1.7400 on March 19 may have influenced investor sentiment positively towards equities, including AMGN [30, 40]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5454545454545454,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"positive_clinical_trial_results\",\n    \"category\": \"company_specific\",\n    \"direction\": 1.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [],\n    \"description\": \"The price increase was likely driven by positive sentiment surrounding recent clinical trial results, although specific articles were not provided.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [30, 40],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.7400 on March 19 may have influenced investor sentiment positively towards equities, including AMGN [30, 40].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-09-25",
+  "end_date": "2022-10-09",
+  "window_type": "monthly",
+  "price_change_pct": 11.464787453356887,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_increase_30_1000\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The VIX Volatility Index rose to 30.1000, indicating increased market uncertainty and contributing to bullish sentiment in CVX as investors sought safe-haven assets.\"\n  },\n  {\n    \"name\": \"vix_volatility_increase_31_6200\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 18, 19],\n    \"description\": \"The VIX Volatility Index further increased to 31.6200, reflecting heightened market anxiety which may have driven investors towards energy stocks like CVX.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

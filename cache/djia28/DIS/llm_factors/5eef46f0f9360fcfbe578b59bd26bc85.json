@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": -9.051057725566737,
+  "factors": [
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.11392405063291139,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in stock price movement that cannot be attributed to observable factors."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.8666666666666667,
+      "magnitude": 0.5063291139240507,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment surrounding the broader market may have contributed to the decline in DIS's stock price."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.8333333333333334,
+      "magnitude": 0.37974683544303794,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns about DIS's financial performance and future growth prospects may have led to selling pressure."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"company_specific_earnings_report\",\n        \"category\": \"company_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The decline in DIS's stock price may have been influenced by disappointing earnings reports or guidance released during this period.\"\n    },\n    {\n        \"name\": \"market_sentiment_bearish_trend\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Overall market sentiment was bearish, which likely contributed to the downward pressure on DIS's stock price.\"\n    },\n    {\n        \"name\": \"sector_specific_media_trends\",\n        \"category\": \"sector_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Negative trends in the media and entertainment sector may have coincided with DIS's price decline.\"\n    },\n    {\n        \"name\": \"technical_support_break\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The stock may have broken through key technical support levels, triggering further selling.\"\n    },\n    {\n        \"name\": \"liquidity_market_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Tightening liquidity conditions in the broader market could have contributed to the stock's decline.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in stock price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

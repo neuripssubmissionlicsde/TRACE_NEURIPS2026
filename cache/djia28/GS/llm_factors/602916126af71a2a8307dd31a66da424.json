@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-29",
+  "window_type": "monthly",
+  "price_change_pct": -3.0427351329863637,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38888888888888884,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment."
+    },
+    {
+      "name": "bank_of_canada_rate_hike_4.5pct",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.6111111111111112,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Bank of Canada raised its benchmark interest rate to 4.5%, contributing to bearish sentiment in financial markets as higher rates typically dampen economic growth expectations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_canada_rate_hike_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Bank of Canada raised its benchmark interest rate to 4.5%, increasing market concerns about tighter monetary conditions and their impact on economic growth [1].\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [12, 20, 28],\n    \"description\": \"The 10-Year Treasury Rate fluctuated, with a notable decline to 3.49%, reflecting changing investor sentiment and contributing to downward pressure on GS's stock price [12, 28].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment.\"\n  }\n]"
+}

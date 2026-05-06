@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": 0.43293513978899867,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2023_07_11\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.99% on July 11 [9] contributed to a bullish sentiment in the market, supporting higher equity valuations [33].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_07_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 49],\n    \"description\": \"The further decline in the 10-Year Treasury Rate to 3.86% on July 12 [33] reinforced positive market sentiment, encouraging buying in equities like UNH [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

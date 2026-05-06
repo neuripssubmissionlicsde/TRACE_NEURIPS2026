@@ -1,0 +1,41 @@
+{
+  "start_date": "2021-09-26",
+  "end_date": "2021-10-10",
+  "window_type": "monthly",
+  "price_change_pct": -2.1456416959804505,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.2568493150684931,
+      "persistence": "long",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.08%, indicating no immediate monetary tightening, which contributed to a neutral market sentiment [1-8]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.2568493150684931,
+      "persistence": "long",
+      "description": "[conf=0.85] The unemployment rate held steady at 4.5%, suggesting a stable labor market, which did not provide a strong directional influence on market sentiment [9-16]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1952054794520548,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "treasury_yield_fluctuations",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.29109589041095896,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased from 1.53% to 1.58%, contributing to bearish sentiment as rising yields typically pressure equity valuations [17][25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.08%, indicating no immediate monetary tightening, which contributed to a neutral market sentiment [1-8].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The unemployment rate held steady at 4.5%, suggesting a stable labor market, which did not provide a strong directional influence on market sentiment [9-16].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.30,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 25, 33, 41],\n    \"description\": \"The 10-Year Treasury Rate fluctuated, peaking at 1.58%, which likely contributed to bearish sentiment as rising yields can pressure equity valuations [17, 25, 33, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

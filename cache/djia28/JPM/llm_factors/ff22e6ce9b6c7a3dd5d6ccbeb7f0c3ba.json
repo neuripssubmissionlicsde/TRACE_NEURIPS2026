@@ -1,0 +1,57 @@
+{
+  "start_date": "2023-08-27",
+  "end_date": "2023-09-10",
+  "window_type": "monthly",
+  "price_change_pct": -2.5344104152547224,
+  "factors": [
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.27272727272727276,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over inflation and interest rate hikes may have negatively impacted investor sentiment during this period."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.4,
+      "magnitude": 0.2090909090909091,
+      "persistence": "short",
+      "description": "[conf=0.50] The financial sector faced headwinds due to regulatory concerns and market volatility, affecting JPM's performance."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.18181818181818185,
+      "persistence": "short",
+      "description": "[conf=0.50] General market sentiment was bearish, influenced by broader economic uncertainties."
+    },
+    {
+      "name": "technical_indicators",
+      "category": "technical",
+      "direction": -0.2,
+      "magnitude": 0.1181818181818182,
+      "persistence": "transient",
+      "description": "[conf=0.40] Technical indicators suggested a potential downward trend, contributing to selling pressure."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.1,
+      "magnitude": 0.09090909090909093,
+      "persistence": "transient",
+      "description": "[conf=0.40] Liquidity conditions were slightly tighter, which may have contributed to price declines."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.1272727272727273,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and noise contributed to unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over inflation and interest rate hikes may have negatively impacted investor sentiment during this period.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The financial sector faced headwinds due to regulatory concerns and market volatility, affecting JPM's performance.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General market sentiment was bearish, influenced by broader economic uncertainties.\"\n    },\n    {\n        \"name\": \"technical_indicators\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Technical indicators suggested a potential downward trend, contributing to selling pressure.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Liquidity conditions were slightly tighter, which may have contributed to price declines.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and noise contributed to unexplained price movements.\"\n    }\n]"
+}

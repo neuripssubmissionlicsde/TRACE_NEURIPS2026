@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -1.7198435997276638,
+  "factors": [
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4391891891891892,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 2.7400 on March 29, contributing to bearish sentiment in the market [33, 49]."
+    },
+    {
+      "name": "stable_unemployment_rate",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.23648648648648646,
+      "persistence": "short",
+      "description": "[conf=0.75] The unemployment rate remained stable at 4.0000 on April 1, suggesting a resilient labor market [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32432432432432434,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 49],\n    \"description\": \"The 10-Year Treasury Rate declined to 2.7400 on March 29, contributing to bearish sentiment in the market [33, 49].\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The unemployment rate remained stable at 4.0000 on April 1, suggesting a resilient labor market [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

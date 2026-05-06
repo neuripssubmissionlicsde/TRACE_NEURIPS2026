@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-04-25",
+  "end_date": "2021-05-09",
+  "window_type": "monthly",
+  "price_change_pct": -7.49444215019775,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events explain the significant price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events explain the significant price decline.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.50,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.6300 to 1.6000 [9, 10] may have contributed to a bearish sentiment in the market, impacting CRM's price.\"\n  }\n]"
+}

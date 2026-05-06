@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-30",
+  "end_date": "2023-08-13",
+  "window_type": "monthly",
+  "price_change_pct": 1.1334540310288028,
+  "factors": [
+    {
+      "name": "unemployment_rate_stable_3.7",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4736842105263158,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.7%, supporting consumer confidence and spending, which is positive for WMT's retail business [34]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5263157894736842,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable_3.7\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [34],\n    \"description\": \"The unemployment rate remained stable at 3.7%, supporting consumer confidence and spending, which is positive for WMT's retail business [34].\"\n  },\n  {\n    \"name\": \"treasury_rate_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [4, 10, 19],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, particularly the rise to 4.20% on August 3, created uncertainty in the market, negatively impacting WMT's price [4][10][19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market movements during this period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-07-19",
+  "end_date": "2020-08-02",
+  "window_type": "monthly",
+  "price_change_pct": 5.482300729677537,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3985637342908438,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events drove the price movement."
+    },
+    {
+      "name": "sec_filings_july_30",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.3500897666068223,
+      "persistence": "transient",
+      "description": "[conf=0.85] Amazon filed multiple SEC documents on July 30, indicating ongoing corporate activity that may have reassured investors."
+    },
+    {
+      "name": "sec_filings_july_31",
+      "category": "company_specific",
+      "direction": 0.43333333333333335,
+      "magnitude": 0.2513464991023339,
+      "persistence": "transient",
+      "description": "[conf=0.75] Additional SEC filings on July 31 further demonstrated Amazon's active corporate governance, contributing to positive sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events drove the price movement.\"\n  },\n  {\n    \"name\": \"declining_treasury_yield_0.55\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 0.55% on July 30 may have supported equity valuations, contributing to the price increase.\"\n  },\n  {\n    \"name\": \"consolidation_period\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Price movements were characterized by a lack of strong directional trends, indicating a consolidation phase.\"\n  }\n]"
+}

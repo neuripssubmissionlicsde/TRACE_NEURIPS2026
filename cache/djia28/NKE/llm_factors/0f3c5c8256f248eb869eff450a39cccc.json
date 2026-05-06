@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": 3.703452563605134,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.56656346749226,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors with no clear dominant driver."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.3666666666666667,
+      "magnitude": 0.2786377708978328,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 1.7700 to 1.8400 during the window likely supported equity valuations, contributing to the price increase."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.16666666666666666,
+      "magnitude": 0.1547987616099071,
+      "persistence": "short",
+      "description": "[conf=0.00] The stability of the 10-Year Treasury Rate during this period did not contribute to significant price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.70,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors with no clear dominant driver.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.7700 to 1.8400 during the window likely supported equity valuations, contributing to the price increase.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"short\",\n    \"confidence\": 0.0,\n    \"source_articles\": [],\n    \"description\": \"The stability of the 10-Year Treasury Rate during this period did not contribute to significant price movements.\"\n  }\n]"
+}

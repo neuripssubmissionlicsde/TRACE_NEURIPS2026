@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-07-21",
+  "end_date": "2019-08-04",
+  "window_type": "monthly",
+  "price_change_pct": -7.503268872430797,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.40594059405940597,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "declining_treasury_yields_2019_08_01",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.34653465346534645,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield dropped to 1.90% on 2019-08-01, indicating a flight to safety that typically supports tech stocks like AMZN [9][17]."
+    },
+    {
+      "name": "market_sentiment_decline",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.24752475247524752,
+      "persistence": "transient",
+      "description": "[conf=0.80] Overall market sentiment was bearish during this period, contributing to downward pressure on AMZN's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_10yr\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-year Treasury yield dropped from 2.06% to 1.90% [9], indicating a flight to safety that typically supports equities like AMZN.\"\n  },\n  {\n    \"name\": \"market_sentiment_deterioration\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment deteriorated during this period, contributing to selling pressure on AMZN despite the decline in yields.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

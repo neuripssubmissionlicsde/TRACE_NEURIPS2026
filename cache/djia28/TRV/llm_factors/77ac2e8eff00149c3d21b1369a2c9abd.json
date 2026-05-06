@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-01-05",
+  "end_date": "2020-01-19",
+  "window_type": "monthly",
+  "price_change_pct": 3.3639521323549033,
+  "factors": [
+    {
+      "name": "fed_interest_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.6111111111111112,
+      "persistence": "medium",
+      "description": "[conf=0.90] Raphael Bostic indicated a preference to maintain low interest rates, which likely supported investor confidence and contributed to the price increase [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38888888888888884,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_interest_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1],\n    \"description\": \"Raphael Bostic indicated a preference to maintain low interest rates, which likely supported investor confidence and contributed to the price increase [1].\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [22, 30],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.79% to 1.84%, which may have encouraged investment in equities like TRV [22, 30].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

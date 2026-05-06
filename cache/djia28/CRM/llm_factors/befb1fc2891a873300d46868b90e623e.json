@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-26",
+  "window_type": "monthly",
+  "price_change_pct": -3.6130314838163646,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5205479452054794,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.42500000000000004,
+      "magnitude": 0.2968036529680365,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased to 3.8600 on February 16, contributing to bearish sentiment in equities [19]."
+    },
+    {
+      "name": "bearish_market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.22499999999999998,
+      "magnitude": 0.182648401826484,
+      "persistence": "transient",
+      "description": "[conf=0.70] General market sentiment was bearish during this period, influenced by macroeconomic factors and rising yields."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [19, 27],\n    \"description\": \"The 10-Year Treasury Rate increased to 3.8600 on February 16, contributing to bearish sentiment in equities [19].\"\n  },\n  {\n    \"name\": \"bearish_market_sentiment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment was bearish during this period, influenced by macroeconomic factors and rising yields.\"\n  }\n]"
+}

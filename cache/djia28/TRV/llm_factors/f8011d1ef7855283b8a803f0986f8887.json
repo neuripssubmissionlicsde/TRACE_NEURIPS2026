@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-08-28",
+  "end_date": "2022-09-11",
+  "window_type": "monthly",
+  "price_change_pct": -0.0810591736601644,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2022_09_08",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.49019607843137253,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 3.2900 on 2022-09-08, contributing to bearish sentiment in the market as higher yields typically lead to lower equity valuations [9][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5098039215686274,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minor and lacked a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022_09_08\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The 10-Year Treasury Rate increased to 3.2900 on 2022-09-08, contributing to bearish sentiment in the market as higher yields typically lead to lower equity valuations [9][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minor and lacked a clear dominant driver.\"\n  }\n]"
+}

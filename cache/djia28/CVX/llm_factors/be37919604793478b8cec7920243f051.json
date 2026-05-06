@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-06-24",
+  "end_date": "2018-07-08",
+  "window_type": "monthly",
+  "price_change_pct": -0.23302117851523693,
+  "factors": [
+    {
+      "name": "vix_increase_july_3",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.5450236966824644,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased to 16.14 on July 3, indicating heightened market volatility and contributing to bearish sentiment around CVX."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4549763033175355,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_july_3\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The VIX increased to 16.14 on July 3, indicating heightened market volatility and contributing to bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"vix_decrease_july_6\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33, 34],\n    \"description\": \"The VIX decreased to 13.37 on July 6, suggesting a reduction in market volatility and potentially supporting a bullish sentiment for CVX.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

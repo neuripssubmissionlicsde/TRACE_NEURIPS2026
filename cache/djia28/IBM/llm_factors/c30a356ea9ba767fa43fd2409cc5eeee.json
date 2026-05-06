@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-08-16",
+  "end_date": "2020-08-30",
+  "window_type": "monthly",
+  "price_change_pct": -0.14370116737421487,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5348837209302325,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period."
+    },
+    {
+      "name": "treasury_rate_increase_0.7400",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4651162790697675,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 0.7400 on August 27, raising concerns about rising borrowing costs and impacting equity valuations [41, 42]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_0.64\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 0.6400 on 2020-08-21 likely supported equity valuations, contributing to a positive sentiment around IBM [9][10].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_0.74\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 49],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 0.7400 on 2020-08-27 may have pressured equity prices, including IBM, as higher rates typically reduce the attractiveness of stocks [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period.\"\n  }\n]"
+}

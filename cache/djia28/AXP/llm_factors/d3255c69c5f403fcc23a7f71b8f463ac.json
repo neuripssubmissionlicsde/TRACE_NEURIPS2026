@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-04",
+  "end_date": "2018-02-18",
+  "window_type": "monthly",
+  "price_change_pct": 1.0017618532675119,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23809523809523808,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market exhibited high volatility and uncertainty during this period."
+    },
+    {
+      "name": "market_selloff_feb_5",
+      "category": "macroeconomic",
+      "direction": -0.8000000000000002,
+      "magnitude": 0.5238095238095238,
+      "persistence": "short",
+      "description": "[conf=0.95] The Wall Street stock market experienced a significant selloff on February 5, shedding 4.6% of its value, which likely impacted AXP's price negatively."
+    },
+    {
+      "name": "treasury_yield_increase_feb_15",
+      "category": "macroeconomic",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.23809523809523808,
+      "persistence": "medium",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased to 2.90% on February 15, contributing to bearish sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"wall_street_selloff_feb_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The Wall Street stock market experienced a significant selloff, shedding 4.6% of its value, which likely influenced AXP's price movement negatively [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market exhibited high volatility and uncertainty during this period.\"\n  }\n]"
+}

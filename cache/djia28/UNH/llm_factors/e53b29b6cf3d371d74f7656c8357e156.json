@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-07-19",
+  "end_date": "2020-08-02",
+  "window_type": "monthly",
+  "price_change_pct": -1.3070607136416896,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4982698961937716,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver."
+    },
+    {
+      "name": "declining_treasury_yields_july_2020",
+      "category": "macroeconomic",
+      "direction": -0.2333333333333333,
+      "magnitude": 0.5017301038062284,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 0.6200 to 0.5500 during the window, indicating reduced investor confidence and contributing to the bearish sentiment in the market [9][33][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10yr_treasury_rate_july_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The 10-Year Treasury Rate declined from 0.6200 to 0.5500 during the window, indicating reduced investor confidence and contributing to bearish sentiment in equities [9, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver.\"\n  }\n]"
+}

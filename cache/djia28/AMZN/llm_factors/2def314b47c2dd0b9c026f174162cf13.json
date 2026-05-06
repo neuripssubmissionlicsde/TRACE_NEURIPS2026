@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -6.372444619669991,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.296875,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market."
+    },
+    {
+      "name": "fed_rate_cut_0.5pct_march_2020",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.703125,
+      "persistence": "short",
+      "description": "[conf=0.90] The Fed cut the federal funds rate by 0.5% in an emergency move, which contributed to market volatility and a bearish sentiment in equities [1][8]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_50bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 15],\n    \"description\": \"The Fed cut the federal funds rate by 0.5%, leading to increased market volatility and a negative reaction in U.S. stocks, including AMZN [1][15].\"\n  },\n  {\n    \"name\": \"market_sell_off\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [29, 30],\n    \"description\": \"All three major U.S. trading indexes fell over 9% during early trading, indicating a broad market sell-off that negatively impacted AMZN [29][30].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market.\"\n  }\n]"
+}

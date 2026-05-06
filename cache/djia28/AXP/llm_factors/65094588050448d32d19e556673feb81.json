@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-05-27",
+  "end_date": "2018-06-10",
+  "window_type": "monthly",
+  "price_change_pct": 1.1618555971443667,
+  "factors": [
+    {
+      "name": "dicks_sporting_goods_strong_quarter",
+      "category": "company_specific",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "transient",
+      "description": "[conf=0.85] Dick's Sporting Goods reported a stronger than expected quarter, leading to positive sentiment in the retail sector, which likely benefited AXP shares."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market showed mixed signals with no dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"dicks_sporting_goods_strong_quarter\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"Dick's Sporting Goods reported a stronger than expected quarter, leading to positive sentiment in the retail sector, which likely benefited AXP shares.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market showed mixed signals with no dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-26",
+  "window_type": "monthly",
+  "price_change_pct": -7.2331515756342295,
+  "factors": [
+    {
+      "name": "ftse_100_record_high",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The FTSE 100 Index reached a record high, which may have shifted investor sentiment negatively for BA as it indicated a strong market elsewhere, diverting attention and capital."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased during this period, which typically raises borrowing costs and can negatively impact equity valuations, contributing to BA's price decline."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ftse_100_record_high\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The FTSE 100 Index reached a record high, which may have shifted investor sentiment negatively for BA as it indicated a strong market elsewhere, diverting attention and capital.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 25, 33],\n    \"description\": \"The 10-Year Treasury Rate increased during this period, which typically raises borrowing costs and can negatively impact equity valuations, contributing to BA's price decline.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

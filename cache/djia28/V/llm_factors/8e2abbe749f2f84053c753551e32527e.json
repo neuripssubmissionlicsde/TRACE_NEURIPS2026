@@ -1,0 +1,41 @@
+{
+  "start_date": "2021-12-19",
+  "end_date": "2022-01-02",
+  "window_type": "monthly",
+  "price_change_pct": 3.644359353444069,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.52,
+      "magnitude": 0.27,
+      "persistence": "medium",
+      "description": "[conf=0.85] Stable unemployment rate at 4.0% reported [1], contributing to positive market sentiment and investor confidence."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.34,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.75] Increase in 10-Year Treasury Rate from 1.4300 to 1.5500 [9, 25] indicated rising borrowing costs, impacting market valuations."
+    },
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "market_sentiment",
+      "direction": 0.2,
+      "magnitude": 0.16999999999999998,
+      "persistence": "short",
+      "description": "[conf=0.70] VIX remained stable around 18.63 [17], suggesting low market volatility and contributing to a bullish sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.29000000000000004,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Stable unemployment rate at 4.0% reported [1], contributing to positive market sentiment and investor confidence.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 25],\n    \"description\": \"Increase in 10-Year Treasury Rate from 1.4300 to 1.5500 [9, 25] indicated rising borrowing costs, impacting market valuations.\"\n  },\n  {\n    \"name\": \"vix_volatility_index_stability\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [17],\n    \"description\": \"VIX remained stable around 18.63 [17], suggesting low market volatility and contributing to a bullish sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating stochastic price movements.\"\n  }\n]"
+}

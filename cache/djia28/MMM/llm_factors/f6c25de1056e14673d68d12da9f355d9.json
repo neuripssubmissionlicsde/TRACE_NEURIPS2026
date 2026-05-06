@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-21",
+  "window_type": "monthly",
+  "price_change_pct": -2.9207225748973107,
+  "factors": [
+    {
+      "name": "bank_of_england_rate_hike_4.5%",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Bank of England raised interest rates to 4.5%, the highest level since the 2008 financial crisis, which likely contributed to bearish sentiment in the market [1-18]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_england_rate_hike_4.5%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],\n    \"description\": \"The Bank of England raised interest rates to 4.5%, the highest level since the 2008 financial crisis, which likely contributed to bearish sentiment in the market [1-18].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

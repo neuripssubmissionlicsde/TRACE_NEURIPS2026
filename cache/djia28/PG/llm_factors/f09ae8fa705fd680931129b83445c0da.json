@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": -8.362653933219375,
+  "factors": [
+    {
+      "name": "russia_interest_rate_hike_2022",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.58,
+      "persistence": "short",
+      "description": "[conf=0.90] The Central Bank of Russia raised interest rates from 9.5% to 20% in response to economic instability, leading to a significant sell-off in global markets, including PG."
+    },
+    {
+      "name": "russia_stock_market_suspension",
+      "category": "geopolitical",
+      "direction": -0.38,
+      "magnitude": 0.32,
+      "persistence": "transient",
+      "description": "[conf=0.85] The suspension of stock trading on the Moscow Stock Exchange due to the Russian invasion created uncertainty and contributed to negative sentiment in global markets."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"russia_interest_rate_hike_2022\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Central Bank of Russia raised interest rates from 9.5% to 20% in response to economic instability, leading to a significant sell-off in global markets, including PG.\"\n  },\n  {\n    \"name\": \"russia_stock_market_suspension\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [22, 23],\n    \"description\": \"The suspension of stock trading on the Moscow Stock Exchange due to the Russian invasion created uncertainty and contributed to negative sentiment in global markets.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this period.\"\n  }\n]"
+}

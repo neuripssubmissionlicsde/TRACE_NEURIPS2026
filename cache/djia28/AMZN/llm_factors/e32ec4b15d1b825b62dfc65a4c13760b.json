@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-11-20",
+  "end_date": "2022-12-04",
+  "window_type": "monthly",
+  "price_change_pct": 0.1702628824480573,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2022_dec",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5045871559633028,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 3.51% on December 2, 2022, contributed to a more favorable borrowing environment, supporting equity valuations [33][34]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4954128440366972,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2022_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 34],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.51% on December 2, 2022, contributed to a more favorable borrowing environment, supporting equity valuations [33][34].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2022_nov\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 3.83% on November 21, 2022, created headwinds for equity markets, negatively impacting investor sentiment [9][25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

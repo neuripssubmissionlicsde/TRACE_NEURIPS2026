@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -1.0408525805629443,
+  "factors": [
+    {
+      "name": "inflation_philippines_record_high",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] Inflation in the Philippines reached a 14-year record high of 8%, raising concerns about economic stability and impacting investor sentiment [16][19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were influenced by mixed signals and overall market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"inflation_philippines_record_high\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [16, 19],\n    \"description\": \"Inflation in the Philippines reached a 14-year record high of 8%, raising concerns about economic stability and impacting investor sentiment [16][19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were influenced by mixed signals and overall market sentiment.\"\n  }\n]"
+}

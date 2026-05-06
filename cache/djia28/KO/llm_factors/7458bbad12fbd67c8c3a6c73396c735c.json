@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-04-09",
+  "end_date": "2023-04-23",
+  "window_type": "monthly",
+  "price_change_pct": 2.496411874361314,
+  "factors": [
+    {
+      "name": "japan_north_korea_relations",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.3846153846153846,
+      "persistence": "short",
+      "description": "[conf=0.80] Increased tensions in Japan-North Korea relations raised investor sentiment towards defensive stocks like KO, contributing to price gains [1-10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6153846153846154,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"japan_north_korea_relations\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n    \"description\": \"Increased tensions in Japan-North Korea relations raised investor sentiment towards defensive stocks like KO, contributing to price gains [1-10].\"\n  },\n  {\n    \"name\": \"stable_treasury_rates\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [21, 29, 45],\n    \"description\": \"Stable 10-Year Treasury rates around 3.6% during the period supported equity valuations, positively impacting KO's price [21, 29, 45].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

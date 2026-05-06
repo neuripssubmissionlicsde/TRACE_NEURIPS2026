@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-11-11",
+  "end_date": "2018-11-25",
+  "window_type": "monthly",
+  "price_change_pct": -14.819825406146462,
+  "factors": [
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5555555555555556,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 3.1200 to 3.0600 during the window [9, 33, 49], contributing to bearish sentiment in the market."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4444444444444445,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced significant volatility without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33, 49],\n    \"description\": \"The 10-Year Treasury Rate declined from 3.1200 to 3.0600 during the window [9, 33, 49], contributing to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced significant volatility without a clear dominant driver.\"\n  }\n]"
+}

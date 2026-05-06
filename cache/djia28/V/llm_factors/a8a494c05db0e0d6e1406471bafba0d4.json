@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-02-14",
+  "end_date": "2021-02-28",
+  "window_type": "monthly",
+  "price_change_pct": 0.8212452328461144,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_02_24\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 27],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.3800 on 2021-02-24, contributing to bearish sentiment in the market as higher yields typically pressure equity valuations [25][27].\"\n  },\n  {\n    \"name\": \"vix_volatility_increase_2021_02_19\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33, 49],\n    \"description\": \"The VIX Volatility Index increased to 23.1100 on 2021-02-23, indicating rising market uncertainty and contributing to downward pressure on asset prices [33][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-01-31",
+  "end_date": "2021-02-14",
+  "window_type": "monthly",
+  "price_change_pct": 6.477922497428051,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4666666666666666,
+      "magnitude": 0.5172413793103449,
+      "persistence": "short",
+      "description": "[conf=0.75] The unemployment rate remained stable at 6.2%, indicating a steady labor market which can support insurance demand [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48275862068965514,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_recovery_post_covid\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment improved as the economy began to recover from the COVID-19 pandemic, contributing to a bullish trend in TRV's price.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The unemployment rate remained stable at 6.2%, indicating a steady labor market which can support insurance demand [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

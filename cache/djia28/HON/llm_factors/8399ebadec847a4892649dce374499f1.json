@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-06-10",
+  "end_date": "2018-06-24",
+  "window_type": "monthly",
+  "price_change_pct": -5.213272603812016,
+  "factors": [
+    {
+      "name": "euro_value_decline_ecb_announcement",
+      "category": "geopolitical",
+      "direction": -0.525,
+      "magnitude": 0.5742296918767507,
+      "persistence": "medium",
+      "description": "[conf=0.90] The euro fell by one percent following the ECB's announcement to halve bond purchases and end quantitative easing, which likely impacted investor sentiment and contributed to HON's price decline."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42577030812324934,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"euro_value_decline_ecb_announcement\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The euro fell by one percent following the ECB's announcement to halve bond purchases and end quantitative easing, which likely impacted investor sentiment and contributed to HON's price decline.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [22, 30],\n    \"description\": \"The 10-Year Treasury yield declined from 2.94% to 2.89% during the window, which may have provided some support to equity valuations, albeit insufficient to offset the overall bearish sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

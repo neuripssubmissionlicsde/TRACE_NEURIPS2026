@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-07-05",
+  "end_date": "2020-07-19",
+  "window_type": "monthly",
+  "price_change_pct": 3.721770320967445,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5454545454545455,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.475,
+      "magnitude": 0.45454545454545453,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 0.6200 to 0.6400, contributing to a favorable environment for equities [1, 33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.50,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9, 33],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 0.6200 to 0.6400, contributing to a favorable environment for equities [1, 33].\"\n  }\n]"
+}

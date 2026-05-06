@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-01",
+  "end_date": "2019-09-15",
+  "window_type": "monthly",
+  "price_change_pct": -3.725977961181414,
+  "factors": [
+    {
+      "name": "drone_attacks_saudi_aramco",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Drone attacks on Saudi Aramco facilities led to a surge in oil prices, creating broader market uncertainty and negatively impacting MCD's stock."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market volatility."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.32499999999999996,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate from 1.6300 to 1.7900 raised concerns about borrowing costs and economic growth, contributing to MCD's price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"drone_attacks_saudi_aramco\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [17, 19],\n    \"description\": \"Drone attacks on Saudi Aramco facilities led to a surge in oil prices, creating broader market uncertainty and negatively impacting MCD's stock.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 49],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.79% raised concerns about borrowing costs and economic growth, contributing to MCD's price decline.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market volatility.\"\n  }\n]"
+}

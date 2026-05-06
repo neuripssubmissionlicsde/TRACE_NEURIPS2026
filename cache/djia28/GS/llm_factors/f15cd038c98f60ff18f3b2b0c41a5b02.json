@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-26",
+  "window_type": "monthly",
+  "price_change_pct": -2.22105017247213,
+  "factors": [
+    {
+      "name": "sec_filings_mortgage_securities",
+      "category": "company_specific",
+      "direction": -0.5,
+      "magnitude": 0.625,
+      "persistence": "transient",
+      "description": "[conf=0.85] Multiple SEC filings related to GS Mortgage Securities Trusts were released, which may have raised concerns about the company's exposure to mortgage-backed securities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.37499999999999994,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filings_mortgage_securities\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"Multiple SEC filings related to GS Mortgage Securities Trusts were released, which may have raised concerns about the company's exposure to mortgage-backed securities.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The 10-Year Treasury rate declined from 3.5600 to 3.3800 during the period, which typically supports equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

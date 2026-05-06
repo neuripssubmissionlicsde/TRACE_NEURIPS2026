@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-07-03",
+  "end_date": "2022-07-17",
+  "window_type": "monthly",
+  "price_change_pct": -0.3355318766780224,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.43349753694581283,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty."
+    },
+    {
+      "name": "bank_of_canada_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.37500000000000006,
+      "magnitude": 0.5665024630541872,
+      "persistence": "short",
+      "description": "[conf=0.80] The Bank of Canada raised its benchmark interest rate significantly, reflecting aggressive monetary policy to combat inflation, which influenced global market conditions [1]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"us_inflation_rate_rise_9.1_percent\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [31, 32],\n    \"description\": \"The annual inflation rate in the U.S. rose to 9.1%, the highest in 40 years, leading to increased market concerns about economic stability and tighter monetary policy.\"\n  },\n  {\n    \"name\": \"bank_of_canada_rate_hike_1.0_percent\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"The Bank of Canada raised its benchmark interest rate by 1.0% to combat inflation, contributing to a bearish sentiment in the markets.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -6.934404906210317,
+  "factors": [
+    {
+      "name": "market_crisis_feb_2020",
+      "category": "geopolitical",
+      "direction": -0.85,
+      "magnitude": 0.5339805825242718,
+      "persistence": "medium",
+      "description": "[conf=0.95] Global markets faced severe selling pressure as they were on pace for their worst week since the 2008 financial crisis due to rising concerns over economic impacts from the COVID-19 outbreak [1][2][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2233009708737864,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during a volatile period."
+    },
+    {
+      "name": "high_volatility_market_conditions",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24271844660194175,
+      "persistence": "short",
+      "description": "[conf=0.80] The market experienced high volatility and significant drawdowns, indicating a lack of clear direction amidst competing factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_crisis_feb_2020\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Global markets faced severe selling pressure as they were on pace for their worst week since the 2008 financial crisis due to rising concerns over economic impacts from the COVID-19 outbreak [1][2][3].\"\n  },\n  {\n    \"name\": \"fed_rate_cut_expectations\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [18, 19, 20],\n    \"description\": \"Expectations of a potential Federal Reserve rate cut to support the economy amid rising uncertainty contributed to bearish sentiment [18][19][20].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during a volatile period.\"\n  }\n]"
+}

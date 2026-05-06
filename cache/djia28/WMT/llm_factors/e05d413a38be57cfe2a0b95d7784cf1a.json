@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-12-08",
+  "end_date": "2019-12-22",
+  "window_type": "monthly",
+  "price_change_pct": 0.6021452494523875,
+  "factors": [
+    {
+      "name": "stable_treasury_rates",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3465346534653465,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 1.89% during this period, supporting investor confidence in equities [1, 4]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4059405940594059,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating stochastic price movements."
+    },
+    {
+      "name": "holiday_shopping_season",
+      "category": "sector_specific",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.24752475247524752,
+      "persistence": "short",
+      "description": "[conf=0.80] Increased consumer spending during the holiday shopping season likely boosted WMT's stock performance, although specific articles were not retrieved."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rates\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 4, 19],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.89% during this period, supporting investor confidence in equities [1, 4].\"\n  },\n  {\n    \"name\": \"positive_market_sentiment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"General market optimism contributed to WMT's price increase, reflecting a favorable sentiment environment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating stochastic price movements.\"\n  }\n]"
+}

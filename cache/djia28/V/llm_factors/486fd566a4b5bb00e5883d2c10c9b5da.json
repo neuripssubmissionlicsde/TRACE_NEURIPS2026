@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": 0.9811708045706616,
+  "factors": [
+    {
+      "name": "dollar_tree_earnings_miss",
+      "category": "company_specific",
+      "direction": -0.5,
+      "magnitude": 0.48,
+      "persistence": "transient",
+      "description": "[conf=0.85] Dollar Tree reported missing analysts' profit expectations due to tariff costs, which may have influenced market sentiment negatively [33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.52,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"dollar_tree_earnings_miss\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 34, 35],\n    \"description\": \"Dollar Tree reported missing analysts' profit expectations due to tariff costs, which may have influenced market sentiment negatively [33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-19",
+  "window_type": "monthly",
+  "price_change_pct": 0.4721951682049104,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2023_nov",
+      "category": "macroeconomic",
+      "direction": 0.5666666666666667,
+      "magnitude": 0.5434782608695652,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 4.4400 on November 17 [49, 50] likely boosted investor sentiment, contributing to the upward price movement of PG."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4565217391304348,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2023_nov\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 4.4400 on November 17 [49, 50] likely boosted investor sentiment, contributing to the upward price movement of PG.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-11-20",
+  "end_date": "2022-12-04",
+  "window_type": "monthly",
+  "price_change_pct": 5.530660813258618,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.4630541871921183,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.5%, indicating a resilient labor market which likely supported consumer confidence and spending."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2167487684729064,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.32019704433497537,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 3.53% on December 1 suggested easing financial conditions, supporting equity valuations [41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The unemployment rate remained stable at 3.5%, indicating a resilient labor market which likely supported consumer confidence and spending.\"\n  },\n  {\n    \"name\": \"eurozone_unemployment_decline\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"The eurozone's unemployment rate declined to 6.5%, reflecting positive economic sentiment in a major market, which could have influenced investor confidence in KO.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

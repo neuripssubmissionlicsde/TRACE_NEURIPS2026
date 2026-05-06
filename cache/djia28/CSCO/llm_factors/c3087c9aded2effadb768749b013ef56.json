@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-10-24",
+  "end_date": "2021-11-07",
+  "window_type": "monthly",
+  "price_change_pct": 3.5565166192363864,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4623655913978495,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "bullish_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.5376344086021506,
+      "persistence": "short",
+      "description": "[conf=0.75] General bullish sentiment in the tech sector contributed to upward price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_positive_trend\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"Overall positive sentiment in the tech sector contributed to upward price movement.\"\n  },\n  {\n    \"name\": \"fed_policy_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [10, 42],\n    \"description\": \"Stable Federal Funds Rate at 0.08% [10] and low unemployment rate at 4.1% [42] supported investor confidence.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

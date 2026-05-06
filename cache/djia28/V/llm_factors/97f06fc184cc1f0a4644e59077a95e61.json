@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-15",
+  "end_date": "2020-03-29",
+  "window_type": "monthly",
+  "price_change_pct": 6.894262940779789,
+  "factors": [
+    {
+      "name": "fed_rate_cut_100bps",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.95] The Fed's emergency rate cut of 100bps and announcement of a $700 billion quantitative easing program boosted market confidence and liquidity [1, 2, 3]."
+    },
+    {
+      "name": "market_reaction_to_fed_measures",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.85] Initial market optimism following the Fed's measures was countered by subsequent market reactions, leading to volatility and mixed sentiment [25, 26]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_100bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Fed's emergency rate cut of 100bps and announcement of a $700 billion quantitative easing program boosted market confidence and liquidity [1, 2, 3].\"\n  },\n  {\n    \"name\": \"market_reaction_to_fed_measures\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26],\n    \"description\": \"Initial market optimism following the Fed's measures was countered by subsequent market reactions, leading to volatility and mixed sentiment [25, 26].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market.\"\n  }\n]"
+}

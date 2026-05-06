@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-06-05",
+  "end_date": "2022-06-19",
+  "window_type": "monthly",
+  "price_change_pct": -5.567230231173199,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": -0.85,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.95] The Federal Reserve raised its benchmark interest rate by 0.75% to combat inflation, leading to a sell-off in equities including IBM [1][10]."
+    },
+    {
+      "name": "global_market_selloff",
+      "category": "market_sentiment",
+      "direction": -0.7300000000000001,
+      "magnitude": 0.32999999999999996,
+      "persistence": "short",
+      "description": "[conf=0.90] Global stocks and government bonds plunged, with major indices like the DOW and S&P 500 experiencing significant declines, contributing to negative sentiment around IBM [16][20]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.12,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 10],\n    \"description\": \"The Federal Reserve raised its benchmark interest rate by 0.75% to combat inflation, leading to a sell-off in equities including IBM [1][10].\"\n  },\n  {\n    \"name\": \"global_market_selloff\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [16, 20],\n    \"description\": \"Global stocks and government bonds plunged, with major indices like the DOW and S&P 500 experiencing significant declines, contributing to negative sentiment around IBM [16][20].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.10,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-06-20",
+  "end_date": "2021-07-04",
+  "window_type": "monthly",
+  "price_change_pct": 2.946884039859627,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.39393939393939387,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.6060606060606062,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.1000, contributing to a favorable interest rate environment for equities [1]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_stability_0.1\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.1%, contributing to a favorable borrowing environment and supporting equity valuations [1].\"\n  },\n  {\n    \"name\": \"treasury_yield_stability_1.49\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate stabilized around 1.49%, indicating investor confidence and supporting equity prices [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

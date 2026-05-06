@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": -0.47662707349565,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38095238095238093,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was largely influenced by market sentiment without clear directional drivers."
+    },
+    {
+      "name": "treasury_rate_decline_0.5800",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3333333333333333,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 0.5800 on April 21 may have supported MRK's price by reducing discount rates for future cash flows [41, 42]."
+    },
+    {
+      "name": "treasury_rate_decline_0.6000",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.2857142857142857,
+      "persistence": "short",
+      "description": "[conf=0.75] The further decline in the 10-Year Treasury Rate to 0.6000 on April 24 likely contributed to a favorable environment for equities, including MRK [1, 41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was largely influenced by market sentiment without clear directional drivers.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 0.5800 on April 21 may have contributed to bearish sentiment in the market, impacting MRK's price.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [41],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 0.6300 during the window may have led to uncertainty in the market, contributing to the price decline.\"\n  },\n  {\n    \"name\": \"market_sentiment_consolidation\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.10,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"The market exhibited consolidation behavior with mixed signals, leading to a range-bound price movement for MRK.\"\n  }\n]"
+}

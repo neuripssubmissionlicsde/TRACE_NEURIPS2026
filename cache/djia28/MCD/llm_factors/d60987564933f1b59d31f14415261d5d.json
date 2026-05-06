@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -3.4691596937223754,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_march_2018",
+      "category": "macroeconomic",
+      "direction": -0.38,
+      "magnitude": 0.51,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 2.8900 to 2.7400 during the period, which typically supports equity valuations and investor sentiment [25, 49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.49000000000000005,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_march_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 49],\n    \"description\": \"The 10-Year Treasury Rate declined from 2.8900 to 2.7400 during the period, which typically supports equity valuations and investor sentiment [25, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

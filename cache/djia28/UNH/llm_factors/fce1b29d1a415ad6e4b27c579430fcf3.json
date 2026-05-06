@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-21",
+  "window_type": "monthly",
+  "price_change_pct": -5.231209495853215,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_june_2020",
+      "category": "macroeconomic",
+      "direction": 0.27999999999999997,
+      "magnitude": 0.37142857142857144,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury yield declined to 0.7400 on June 17, 2020, which typically supports equity valuations and investor sentiment [17][33]."
+    },
+    {
+      "name": "market_sentiment_decline",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.23809523809523808,
+      "persistence": "transient",
+      "description": "[conf=0.75] Overall market sentiment was bearish during this period, contributing to downward pressure on UNH's stock price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3904761904761904,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating significant unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_june_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 33],\n    \"description\": \"The 10-Year Treasury yield declined to 0.7400 on June 17, 2020, which typically supports equity valuations and investor sentiment [17][33].\"\n  },\n  {\n    \"name\": \"market_sentiment_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment was bearish during this period, contributing to downward pressure on UNH's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating significant unexplained price movements.\"\n  }\n]"
+}

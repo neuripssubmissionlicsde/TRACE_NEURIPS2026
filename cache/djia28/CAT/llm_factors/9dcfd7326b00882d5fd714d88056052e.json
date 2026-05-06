@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-26",
+  "window_type": "monthly",
+  "price_change_pct": -2.5024849687639614,
+  "factors": [
+    {
+      "name": "argentina_inflation_peak",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.4081632653061225,
+      "persistence": "short",
+      "description": "[conf=0.85] Argentina's inflation rate surged to 102.5%, raising global inflation concerns and negatively impacting market sentiment [41]."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.30612244897959184,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury yield from 3.5100 to 3.3800 during the window indicated shifting investor sentiment towards risk aversion [9, 13]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2857142857142857,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"argentina_inflation_peak\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42, 43],\n    \"description\": \"Argentina's inflation rate surged to 102.5%, raising global inflation concerns and negatively impacting market sentiment [41].\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 13, 25],\n    \"description\": \"The decline in the 10-Year Treasury yield from 3.5100 to 3.3800 during the window indicated shifting investor sentiment towards risk aversion [9, 13].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

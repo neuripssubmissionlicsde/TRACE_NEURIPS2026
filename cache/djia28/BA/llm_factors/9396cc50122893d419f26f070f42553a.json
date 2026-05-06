@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -18.79151215473819,
+  "factors": [
+    {
+      "name": "global_market_selloff_feb_2020",
+      "category": "macroeconomic",
+      "direction": -0.8,
+      "magnitude": 0.5472636815920398,
+      "persistence": "short",
+      "description": "[conf=0.90] Global stock markets lost US$6 trillion in value over six days, contributing to a significant selloff in equities, including BA [1, 23]."
+    },
+    {
+      "name": "dow_jones_correction_feb_2020",
+      "category": "macroeconomic",
+      "direction": -0.6749999999999999,
+      "magnitude": 0.2736318407960199,
+      "persistence": "short",
+      "description": "[conf=0.85] The Dow Jones Industrial Average entered correction territory after a significant drop, impacting investor sentiment and leading to further selling pressure on BA [30]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.17910447761194026,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this volatile period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"global_market_selloff_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 23, 30],\n    \"description\": \"Global stock markets lost US$6 trillion in value over six days, contributing to a significant selloff in equities, including BA [1, 23].\"\n  },\n  {\n    \"name\": \"dow_jones_correction_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [30],\n    \"description\": \"The Dow Jones Industrial Average entered correction territory after a significant drop, impacting investor sentiment and leading to further selling pressure on BA [30].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this volatile period.\"\n  }\n]"
+}

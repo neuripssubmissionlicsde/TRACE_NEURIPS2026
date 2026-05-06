@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": 0.82839900271487,
+  "factors": [
+    {
+      "name": "vix_stability_december_2023",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.43,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index remained stable around 12.19, indicating low market fear and contributing to a bullish sentiment [1][25]."
+    },
+    {
+      "name": "treasury_rate_stability_december_2023",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.29000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 4.20%, suggesting a lack of immediate inflation concerns, which supported equity valuations [9][33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_stability_december_2023\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 25],\n    \"description\": \"The VIX Volatility Index remained stable around 12.19, indicating low market fear and contributing to a bullish sentiment [1][25].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_december_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 33],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 4.20%, suggesting a lack of immediate inflation concerns, which supported equity valuations [9][33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

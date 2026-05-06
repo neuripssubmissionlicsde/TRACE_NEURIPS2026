@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": 3.046422596302858,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2639593908629442,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "treasury_rate_decline_2019_11_06",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.48223350253807107,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 1.8100 on 2019-11-06 contributed to a bullish sentiment in the market, supporting GS's price increase [9][25]."
+    },
+    {
+      "name": "treasury_rate_decline_2019_11_08",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.25380710659898476,
+      "persistence": "short",
+      "description": "[conf=0.80] The further decline in the 10-Year Treasury Rate to 1.9400 on 2019-11-08 reinforced positive market sentiment, aiding GS's upward price movement [33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_1.8100\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.8100 on 2019-11-06 contributed to a bullish sentiment in the market, supporting higher equity valuations [9, 25].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_1.7300\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [49],\n    \"description\": \"The drop in the 10-Year Treasury Rate to 1.7300 on 2019-11-01 provided additional support for equity prices, reflecting investor confidence [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-27",
+  "window_type": "monthly",
+  "price_change_pct": -2.452301557455019,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5478036175710594,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": -0.275,
+      "magnitude": 0.45219638242894056,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable at 0.6800, contributing to bearish sentiment in the market as investors sought safer assets."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.55,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 0.6800, contributing to bearish sentiment in the market as investors sought safer assets.\"\n  }\n]"
+}

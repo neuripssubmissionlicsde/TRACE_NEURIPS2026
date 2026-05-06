@@ -1,0 +1,49 @@
+{
+  "start_date": "2019-03-17",
+  "end_date": "2019-03-31",
+  "window_type": "monthly",
+  "price_change_pct": 0.44750930727918264,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.31168831168831174,
+      "persistence": "short",
+      "description": "[conf=0.70] Recent fluctuations in crude oil prices likely influenced XOM's stock price due to its direct correlation with the company's revenue."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.44000000000000006,
+      "magnitude": 0.21428571428571427,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment during this period was cautiously optimistic, contributing to a slight upward movement in XOM's stock price."
+    },
+    {
+      "name": "technical_support_level",
+      "category": "technical",
+      "direction": 0.6,
+      "magnitude": 0.19480519480519481,
+      "persistence": "short",
+      "description": "[conf=0.50] XOM's stock price approached a technical support level, which may have attracted buying interest from traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.21428571428571427,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations and trading volume variations contributed to unexplained price movements."
+    },
+    {
+      "name": "consolidation",
+      "category": "technical",
+      "direction": 0.0,
+      "magnitude": 0.06493506493506494,
+      "persistence": "medium",
+      "description": "[conf=0.50] The stock exhibited a range-bound trading pattern, indicating a period of consolidation before potential breakout."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Recent fluctuations in crude oil prices likely influenced XOM's stock price due to its direct correlation with the company's revenue.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment during this period was cautiously optimistic, contributing to a slight upward movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"technical_support_level\",\n        \"category\": \"technical\",\n        \"direction\": 0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's stock price approached a technical support level, which may have attracted buying interest from traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations and trading volume variations contributed to unexplained price movements.\"\n    },\n    {\n        \"name\": \"consolidation\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"The stock exhibited a range-bound trading pattern, indicating a period of consolidation before potential breakout.\"\n    }\n]"
+}

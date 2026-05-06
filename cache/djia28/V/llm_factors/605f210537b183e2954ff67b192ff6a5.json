@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-06-09",
+  "end_date": "2019-06-23",
+  "window_type": "monthly",
+  "price_change_pct": 0.9310677023360695,
+  "factors": [
+    {
+      "name": "vix_stability_june_2019",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.51,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index showed stability around 15.15, indicating reduced market fear and contributing to a bullish sentiment [1, 9, 17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate was reported at 2.0600, reflecting stable interest rates that supported investor confidence [49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_stability_june_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The VIX Volatility Index showed stability around 15.15, indicating reduced market fear and contributing to a bullish sentiment [1, 9, 17].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_june_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [49],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 2.06%, supporting investor confidence and contributing to the price increase [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

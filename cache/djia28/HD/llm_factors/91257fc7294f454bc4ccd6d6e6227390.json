@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-01",
+  "end_date": "2018-04-15",
+  "window_type": "monthly",
+  "price_change_pct": -2.4555371334285656,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "trump_tariff_statement_april_2018",
+      "category": "geopolitical",
+      "direction": -0.7333333333333334,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] U.S. stocks dropped by about 2 percent following President Trump's tariff statement on Chinese imports, contributing to negative sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"trump_tariff_statement\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [33, 34, 35],\n    \"description\": \"U.S. stocks dropped by about 2 percent due to President Trump's tariff statement concerning Chinese imports, negatively impacting market sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

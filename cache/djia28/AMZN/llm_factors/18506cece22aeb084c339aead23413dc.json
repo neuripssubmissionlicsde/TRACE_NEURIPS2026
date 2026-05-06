@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": -0.0941071090858312,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_1.76_to_1.83",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.46025104602510464,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased from 1.76% to 1.83% during the window, indicating a shift in investor sentiment that may have supported AMZN's price stability despite overall market conditions."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5397489539748954,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minimal and lacked a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_1.76_to_1.83\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate increased from 1.76% to 1.83% during the window, indicating a shift in investor sentiment that may have supported AMZN's price stability despite overall market conditions.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minimal and lacked a clear dominant driver.\"\n  }\n]"
+}

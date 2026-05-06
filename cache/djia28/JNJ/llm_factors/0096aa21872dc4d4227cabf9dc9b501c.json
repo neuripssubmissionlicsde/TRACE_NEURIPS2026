@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-19",
+  "window_type": "monthly",
+  "price_change_pct": -1.3111003641480508,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_nov_2023",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 4.6300 on November 13, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks relative to bonds [1, 5]."
+    },
+    {
+      "name": "increased_market_volatility_nov_2023",
+      "category": "market_sentiment",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index showed increased volatility levels, peaking at 15.2900 on November 9, indicating heightened market uncertainty which likely pressured JNJ's stock price [23, 29]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_nov_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 5, 11],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.6300 on November 13, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks relative to bonds [1, 5].\"\n  },\n  {\n    \"name\": \"increased_market_volatility_nov_2023\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [23, 29],\n    \"description\": \"The VIX Volatility Index showed increased volatility levels, peaking at 15.2900 on November 9, indicating heightened market uncertainty which likely pressured JNJ's stock price [23, 29].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

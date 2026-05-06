@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-03-13",
+  "end_date": "2022-03-27",
+  "window_type": "monthly",
+  "price_change_pct": 4.415918035694104,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5364238410596027,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "moscow_stock_exchange_reopening",
+      "category": "geopolitical",
+      "direction": 0.4666666666666666,
+      "magnitude": 0.46357615894039733,
+      "persistence": "short",
+      "description": "[conf=0.75] The reopening of the Moscow Stock Exchange after a month-long closure may have contributed to a positive sentiment in the market, impacting MRK's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"moscow_stock_exchange_reopening\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The reopening of the Moscow Stock Exchange after a month-long closure may have contributed to a positive sentiment in the market, impacting MRK's price.\"\n  }\n]"
+}

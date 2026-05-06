@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-10-24",
+  "end_date": "2021-11-07",
+  "window_type": "monthly",
+  "price_change_pct": 0.7202460461952235,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.62,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events drove price movements."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.45999999999999996,
+      "magnitude": 0.38,
+      "persistence": "short",
+      "description": "[conf=0.80] Federal Funds Effective Rate remained stable at 0.08% [1, 9], contributing to a positive sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.70,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events drove price movements.\"\n  },\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9],\n    \"description\": \"Federal Funds Effective Rate remained stable at 0.08% [1, 9], contributing to a positive sentiment in the market.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.10,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [9],\n    \"description\": \"Unemployment rate held steady at 4.1% [9], indicating a stable labor market which may have supported investor confidence.\"\n  }\n]"
+}

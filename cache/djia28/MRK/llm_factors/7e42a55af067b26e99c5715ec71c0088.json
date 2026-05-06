@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -7.625487026488706,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19191919191919193,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this volatile period."
+    },
+    {
+      "name": "market_crash_fears",
+      "category": "macroeconomic",
+      "direction": -0.8000000000000002,
+      "magnitude": 0.5555555555555556,
+      "persistence": "short",
+      "description": "[conf=0.90] Widespread fears of a market crash due to the COVID-19 outbreak led to significant sell-offs, with the Dow Jones entering correction territory [1][19][36]."
+    },
+    {
+      "name": "dow_jones_correction",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.25252525252525254,
+      "persistence": "short",
+      "description": "[conf=0.85] The Dow Jones Industrial Average dropped significantly, contributing to negative sentiment across the market [19][36]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_crash_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 19, 36],\n    \"description\": \"Global markets faced severe declines, with the Dow Jones entering correction territory and experiencing significant drops, impacting investor sentiment and leading to sell-offs in equities including MRK.\"\n  },\n  {\n    \"name\": \"dow_jones_drop_800_points\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [36, 40],\n    \"description\": \"The Dow Jones dropped 800 points at opening, contributing to a broader market decline that affected MRK's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this volatile period.\"\n  }\n]"
+}

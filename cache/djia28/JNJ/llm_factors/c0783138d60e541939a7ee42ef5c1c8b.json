@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": -0.651908751056602,
+  "factors": [
+    {
+      "name": "german_recession_may_2023",
+      "category": "geopolitical",
+      "direction": -0.48,
+      "magnitude": 0.40206185567010305,
+      "persistence": "short",
+      "description": "[conf=0.85] The German economy entered a recession, raising concerns about global economic stability and impacting investor sentiment [21]."
+    },
+    {
+      "name": "rising_treasury_yields_may_2023",
+      "category": "macroeconomic",
+      "direction": -0.29000000000000004,
+      "magnitude": 0.288659793814433,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased from 3.7300 to 3.8300, indicating rising borrowing costs and negatively affecting equity valuations [3][5]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.30927835051546393,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"german_recession_may_2023\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [21],\n    \"description\": \"The German economy entered a recession, raising concerns about global economic stability and impacting investor sentiment [21].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_may_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [3, 5],\n    \"description\": \"The 10-Year Treasury Rate increased from 3.7300 to 3.8300, indicating rising borrowing costs and negatively affecting equity valuations [3][5].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

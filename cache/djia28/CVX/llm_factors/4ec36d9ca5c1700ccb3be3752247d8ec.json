@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-10-11",
+  "end_date": "2020-10-25",
+  "window_type": "monthly",
+  "price_change_pct": -1.4396135250363298,
+  "factors": [
+    {
+      "name": "vix_volatility_increase_2020_10_19",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.49839228295819943,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose to 29.18 on 2020-10-19, indicating increased market uncertainty and contributing to bearish sentiment around CVX [9, 25]."
+    },
+    {
+      "name": "vix_volatility_stabilization_2020_10_22",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.24115755627009647,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX stabilized at 28.11 on 2020-10-22, reflecting ongoing market anxiety that likely pressured CVX prices further [1, 49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26045016077170413,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in CVX's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_increase_2020_10_19\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The VIX Volatility Index rose to 29.18 on 2020-10-19, indicating increased market uncertainty and contributing to bearish sentiment around CVX [9, 25].\"\n  },\n  {\n    \"name\": \"vix_volatility_stabilization_2020_10_22\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 49],\n    \"description\": \"The VIX stabilized at 28.11 on 2020-10-22, reflecting ongoing market anxiety that likely pressured CVX prices further [1, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in CVX's price.\"\n  }\n]"
+}

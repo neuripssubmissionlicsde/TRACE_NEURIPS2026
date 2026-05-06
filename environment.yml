@@ -1,0 +1,18 @@
+# Conda environment for the LICSDE NeurIPS 2026 reproducibility snapshot.
+#
+# Usage:
+#   conda env create -f environment.yml
+#   conda activate licsde
+#   pip install -e .
+#
+# Tested on Linux x86_64 + Python 3.12.
+
+name: licsde
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip>=24.0
+  - pip:
+      - -r requirements.snapshot.txt

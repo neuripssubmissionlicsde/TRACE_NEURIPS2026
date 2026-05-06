@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-01-16",
+  "end_date": "2022-01-30",
+  "window_type": "monthly",
+  "price_change_pct": -4.771150868335273,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_january_2022",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5238095238095238,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 1.8300 on January 19, contributing to bearish sentiment in the market as higher yields typically pressure equity valuations [1][4]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23809523809523808,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility without a clear dominant driver."
+    },
+    {
+      "name": "declining_10y_2y_spread_january_2022",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.23809523809523808,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10Y-2Y Treasury Spread decreased to 0.6300 by January 28, indicating a flattening yield curve that often signals economic uncertainty and can negatively impact stock prices [34, 40]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_january_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 4, 10],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.8300 on January 19, contributing to bearish sentiment in the market as higher yields typically pressure equity valuations [1][4].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility without a clear dominant driver.\"\n  }\n]"
+}

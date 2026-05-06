@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -6.3829787959235755,
+  "factors": [
+    {
+      "name": "fed_rate_cut_50bps",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.4600000000000001,
+      "persistence": "short",
+      "description": "[conf=0.85] The Fed cut the federal funds rate by 0.5% in an emergency move, contributing to a bearish sentiment in the market as stocks extended their drop in response [19][37]."
+    },
+    {
+      "name": "fed_rate_cut_100bps",
+      "category": "macroeconomic",
+      "direction": -0.54,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.85] The Fed announced a further emergency rate cut of 1% and a $700 billion quantitative easing program, which heightened market uncertainty and contributed to the price decline [1][2][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.13999999999999999,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_50bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [19, 20, 37],\n    \"description\": \"The Fed cut the federal funds rate by 0.5% in an emergency move, contributing to a bearish sentiment in the market as stocks extended their drop in response [19][37].\"\n  },\n  {\n    \"name\": \"fed_rate_cut_100bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Fed announced a further emergency rate cut of 1% and a $700 billion quantitative easing program, which heightened market uncertainty and contributed to the price decline [1][2][3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period.\"\n  }\n]"
+}

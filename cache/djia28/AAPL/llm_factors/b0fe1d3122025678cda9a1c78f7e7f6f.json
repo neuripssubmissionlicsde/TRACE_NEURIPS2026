@@ -1,0 +1,49 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -0.020144079790688784,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.1,
+      "magnitude": 0.18072289156626506,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment was cautious, reflecting broader concerns about inflation and interest rates."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.05000000000000001,
+      "magnitude": 0.16566265060240964,
+      "persistence": "short",
+      "description": "[conf=0.50] AAPL's recent product announcements and performance metrics were met with mixed reactions from analysts."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": 0.03333333333333333,
+      "magnitude": 0.12048192771084337,
+      "persistence": "short",
+      "description": "[conf=0.50] Average daily volume was relatively high, indicating sufficient liquidity but not necessarily strong buying or selling pressure."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.2620481927710843,
+      "persistence": "transient",
+      "description": "[conf=0.70] The remaining price movement appears to be random noise, with no clear causal factors identified."
+    },
+    {
+      "name": "technical_consolidation",
+      "category": "technical",
+      "direction": 0.0,
+      "magnitude": 0.2710843373493976,
+      "persistence": "short",
+      "description": "[conf=0.70] AAPL's price movement exhibited consolidation, indicating a range-bound trading pattern."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was cautious, reflecting broader concerns about inflation and interest rates.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.05,\n        \"magnitude\": 0.15,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"AAPL's recent product announcements and performance metrics were met with mixed reactions from analysts.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Technical indicators showed a range-bound movement, suggesting a lack of strong directional momentum.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Average daily volume was relatively high, indicating sufficient liquidity but not necessarily strong buying or selling pressure.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.55,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.7,\n        \"description\": \"The remaining price movement appears to be random noise, with no clear causal factors identified.\"\n    }\n]"
+}

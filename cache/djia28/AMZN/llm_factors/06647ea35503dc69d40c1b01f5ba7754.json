@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-01-30",
+  "end_date": "2022-02-13",
+  "window_type": "monthly",
+  "price_change_pct": 5.9022471900636875,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and mixed signals in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filings_2022_feb_03_04\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"Multiple SEC filings by Amazon on February 3 and 4 indicated ongoing corporate activity, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_feb_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 33, 41],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 1.8100 to 1.9200 during the window raised concerns about higher borrowing costs, negatively impacting tech stocks like Amazon.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and mixed signals in the market.\"\n  }\n]"
+}

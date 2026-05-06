@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-06-23",
+  "end_date": "2019-07-07",
+  "window_type": "monthly",
+  "price_change_pct": 0.7151231306148318,
+  "factors": [
+    {
+      "name": "japan_south_korea_trade_dispute",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The escalation of the Japan-South Korea trade dispute, particularly Japan's tightening of chemical exports crucial for the semiconductor industry, created uncertainty in the market, negatively impacting investor sentiment [1][14]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"japan_south_korea_trade_dispute\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 14],\n    \"description\": \"The escalation of the Japan-South Korea trade dispute, particularly Japan's tightening of chemical exports crucial for the semiconductor industry, created uncertainty in the market, negatively impacting investor sentiment [1][14].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

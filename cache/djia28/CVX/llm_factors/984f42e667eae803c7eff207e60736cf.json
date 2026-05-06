@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-07-17",
+  "end_date": "2022-07-31",
+  "window_type": "monthly",
+  "price_change_pct": 16.51961769160384,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": -0.24,
+      "magnitude": 0.52,
+      "persistence": "short",
+      "description": "[conf=0.85] The Federal Reserve's consecutive 0.75% interest rate hike [1] created a tightening monetary environment, impacting investor sentiment towards equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48000000000000004,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The Federal Reserve's consecutive 0.75% interest rate hike [1] created a tightening monetary environment, impacting investor sentiment towards equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

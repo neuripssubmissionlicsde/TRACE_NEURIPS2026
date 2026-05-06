@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -3.8995384481047273,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2.89",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.47263681592039797,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 2.89%, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations [1][5][9]."
+    },
+    {
+      "name": "increased_market_volatility",
+      "category": "market_sentiment",
+      "direction": -0.3333333333333333,
+      "magnitude": 0.24875621890547261,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index increased, indicating heightened market uncertainty and contributing to downward pressure on JNJ's stock price [29][43]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2786069651741293,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2.89\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 5, 9],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.89%, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations [1][5][9].\"\n  },\n  {\n    \"name\": \"increased_market_volatility\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [29, 43],\n    \"description\": \"The VIX Volatility Index increased, indicating heightened market uncertainty and contributing to downward pressure on JNJ's stock price [29][43].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

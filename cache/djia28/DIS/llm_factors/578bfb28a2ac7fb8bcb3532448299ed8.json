@@ -1,0 +1,49 @@
+{
+  "start_date": "2020-02-02",
+  "end_date": "2020-02-16",
+  "window_type": "monthly",
+  "price_change_pct": -0.17882812501546147,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.2,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment was cautious during this period, contributing to slight bearish pressure."
+    },
+    {
+      "name": "technical_correction",
+      "category": "technical",
+      "direction": -0.25999999999999995,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] The stock experienced a technical correction after reaching recent highs, leading to downward price movement."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.1,
+      "magnitude": 0.1,
+      "persistence": "short",
+      "description": "[conf=0.40] Liquidity conditions were slightly tighter, which may have contributed to the price decline."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "[conf=0.70] A significant portion of the price movement appears to be random noise with no clear cause."
+    },
+    {
+      "name": "consolidation",
+      "category": "technical",
+      "direction": 0.0,
+      "magnitude": 0.0,
+      "persistence": "medium",
+      "description": "[conf=0.50] The stock was in a consolidation phase, showing limited directional movement."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was cautious during this period, contributing to slight bearish pressure.\"\n    },\n    {\n        \"name\": \"technical_correction\",\n        \"category\": \"technical\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"The stock experienced a technical correction after reaching recent highs, leading to downward price movement.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.4,\n        \"description\": \"Liquidity conditions were slightly tighter, which may have contributed to the price decline.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.7,\n        \"description\": \"A significant portion of the price movement appears to be random noise with no clear cause.\"\n    }\n]"
+}

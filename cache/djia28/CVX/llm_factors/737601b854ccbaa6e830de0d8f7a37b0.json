@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": -0.5699736248853591,
+  "factors": [
+    {
+      "name": "vix_volatility_increase_20_6000",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose to 20.6000 on February 20, indicating increased market uncertainty and contributing to bearish sentiment around CVX."
+    },
+    {
+      "name": "vix_volatility_decrease_19_5900",
+      "category": "market_sentiment",
+      "direction": 0.3,
+      "magnitude": 0.2,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX Volatility Index decreased to 19.5900 on March 2, suggesting a temporary easing of market fears, which may have supported a slight recovery in CVX."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_increase_20_6000\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The VIX Volatility Index rose to 20.6000 on February 20, indicating increased market uncertainty and contributing to bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"vix_volatility_decrease_19_5900\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9],\n    \"description\": \"The VIX Volatility Index decreased to 19.5900 on March 2, suggesting a temporary easing of market fears, which may have supported a slight recovery in CVX.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-07-07",
+  "end_date": "2019-07-21",
+  "window_type": "monthly",
+  "price_change_pct": 1.1159815754468376,
+  "factors": [
+    {
+      "name": "oil_price_stability",
+      "category": "sector_specific",
+      "direction": 0.475,
+      "magnitude": 0.4629629629629629,
+      "persistence": "short",
+      "description": "[conf=0.75] Stable oil prices during this period likely supported the performance of CVX, although specific articles on oil price movements were not provided."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.537037037037037,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_stability_july_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17],\n    \"description\": \"The VIX Volatility Index remained relatively stable around 12.68 to 13.97 during this period, indicating lower market fear and supporting bullish sentiment [1][17].\"\n  },\n  {\n    \"name\": \"oil_price_stability\",\n    \"category\": \"sector_specific\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Stable oil prices during this period likely supported the performance of CVX, although specific articles on oil price movements were not provided.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

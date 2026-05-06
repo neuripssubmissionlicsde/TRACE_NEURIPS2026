@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": 9.793919616660522,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5016722408026756,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "turkish_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": 0.32,
+      "magnitude": 0.2809364548494983,
+      "persistence": "short",
+      "description": "[conf=0.75] The Turkish central bank raised its main interest rate from 15% to 17.5% to control inflation, which may have influenced global market sentiment positively [1]."
+    },
+    {
+      "name": "japan_loose_monetary_policy",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.2173913043478261,
+      "persistence": "short",
+      "description": "[conf=0.70] The Bank of Japan reaffirmed its commitment to loose monetary policy, contributing to a favorable environment for equities [19]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"turkish_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The Turkish central bank raised its main interest rate from 15% to 17.5% to control inflation, which may have influenced global market sentiment positively [1].\"\n  },\n  {\n    \"name\": \"japan_loose_monetary_policy\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [19],\n    \"description\": \"The Bank of Japan reaffirmed its commitment to loose monetary policy, contributing to a favorable environment for equities [19].\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-18",
+  "end_date": "2023-01-01",
+  "window_type": "monthly",
+  "price_change_pct": 2.4198521654379057,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_dec2022",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.7333333333333334,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate from 3.5700 to 3.8800 during the period indicated rising yields, which typically support equity prices as investors seek higher returns."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_dec2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 9, 13],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 3.5700 to 3.8800 during the period indicated rising yields, which typically support equity prices as investors seek higher returns.\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate_dec2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [21],\n    \"description\": \"The unemployment rate remained stable at 3.5%, indicating a strong labor market that supports consumer spending and economic growth.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

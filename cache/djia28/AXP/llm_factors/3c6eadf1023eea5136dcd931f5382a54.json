@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": 4.62902454168593,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_1.56\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 25],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.56% on June 4 supported investor sentiment, contributing to AXP's price increase [9, 10, 25].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_1.62\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The earlier decline in the 10-Year Treasury Rate to 1.62% on June 1 also positively influenced market sentiment, aiding AXP's price movement [1, 2, 3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

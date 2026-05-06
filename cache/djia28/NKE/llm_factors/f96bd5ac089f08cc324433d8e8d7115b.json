@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-09-27",
+  "end_date": "2020-10-11",
+  "window_type": "monthly",
+  "price_change_pct": 4.650045327166954,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market fluctuations."
+    },
+    {
+      "name": "south_korea_easing_restrictions",
+      "category": "geopolitical",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Announcement of easing social distancing rules in South Korea boosted market sentiment, allowing for increased consumer activity and attendance at sporting events [1][2]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"south_korea_easing_social_distancing\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2],\n    \"description\": \"The announcement by South Korea to ease social distancing measures boosted market sentiment, particularly for companies like NKE that benefit from increased consumer activity [1][2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market fluctuations.\"\n  }\n]"
+}

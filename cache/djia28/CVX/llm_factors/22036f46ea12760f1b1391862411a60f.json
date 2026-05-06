@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-05-22",
+  "end_date": "2022-06-05",
+  "window_type": "monthly",
+  "price_change_pct": 4.822085200284167,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2971246006389776,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_decline_2022_06_01",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.415335463258786,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX declined from 26.19 on May 31 to 25.69 on June 1, indicating reduced market volatility and contributing to bullish sentiment for CVX [9][41]."
+    },
+    {
+      "name": "vix_decline_2022_06_03",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.28753993610223644,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX further declined to 24.79 on June 3, reinforcing the positive market sentiment and supporting the price increase of CVX [17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_24_79\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17],\n    \"description\": \"The VIX declined to 24.79 on June 3, indicating reduced market volatility and contributing to bullish sentiment for CVX.\"\n  },\n  {\n    \"name\": \"vix_decline_25_69\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9],\n    \"description\": \"The VIX also decreased to 25.69 on June 1, further supporting a bullish environment for equities including CVX.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

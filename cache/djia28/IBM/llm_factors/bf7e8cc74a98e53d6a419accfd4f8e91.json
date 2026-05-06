@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-04-28",
+  "end_date": "2019-05-12",
+  "window_type": "monthly",
+  "price_change_pct": -1.597256617302549,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted IBM's price during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted IBM's price during this period.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10],\n    \"description\": \"The 10-Year Treasury Rate declined from 2.5100 to 2.4700 [9, 10], which typically signals lower growth expectations and can negatively impact equities.\"\n  },\n  {\n    \"name\": \"consolidation_period\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [],\n    \"description\": \"Price movements were relatively stable with no dominant driver, indicating a consolidation phase.\"\n  }\n]"
+}

@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-10-13",
+  "end_date": "2019-10-27",
+  "window_type": "monthly",
+  "price_change_pct": 0.5917194140334936,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.70] General positive market sentiment during this period may have contributed to the slight upward price movement."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 0.3,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.60] Positive news or developments related to Disney's business operations could have influenced investor confidence."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 0.2,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators may have suggested a bullish trend, attracting momentum traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations that cannot be attributed to any specific observable factor."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General positive market sentiment during this period may have contributed to the slight upward price movement.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": 0.3,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Positive news or developments related to Disney's business operations could have influenced investor confidence.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": 0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have suggested a bullish trend, attracting momentum traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations that cannot be attributed to any specific observable factor.\"\n    }\n]"
+}

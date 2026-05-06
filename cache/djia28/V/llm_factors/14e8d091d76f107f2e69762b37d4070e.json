@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-06-10",
+  "end_date": "2018-06-24",
+  "window_type": "monthly",
+  "price_change_pct": 0.31881775331171663,
+  "factors": [
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "market_sentiment",
+      "direction": 0.3,
+      "magnitude": 0.26666666666666666,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX remained relatively stable around 12.12 to 13.35 during this period, indicating low market volatility and contributing to a more stable trading environment for V."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "euro_decline_ecb_announcement",
+      "category": "macroeconomic",
+      "direction": 0.16666666666666666,
+      "magnitude": 0.5333333333333333,
+      "persistence": "short",
+      "description": "[conf=0.85] The euro fell by one percent following the ECB's announcement to halve bond purchases and end quantitative easing, which likely boosted investor sentiment towards V."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"euro_value_decline_ecb_announcement\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The euro fell by one percent after the ECB announced plans to halve bond purchases and end quantitative easing, impacting investor sentiment and contributing to price movements in V.\"\n  },\n  {\n    \"name\": \"vix_volatility_index_stability\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [24, 32],\n    \"description\": \"The VIX remained relatively stable around 12.12 to 13.35 during this period, indicating low market volatility and contributing to a more stable trading environment for V.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

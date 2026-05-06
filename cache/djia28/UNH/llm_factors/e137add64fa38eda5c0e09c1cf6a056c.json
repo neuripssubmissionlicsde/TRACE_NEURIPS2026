@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-08-15",
+  "end_date": "2021-08-29",
+  "window_type": "monthly",
+  "price_change_pct": 2.176449382373057,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed some volatility without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_august\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 1.2700 to 1.3500 during the window indicated rising borrowing costs, which generally supports financial sector stocks like UNH [9][17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed some volatility without a clear dominant driver.\"\n  }\n]"
+}

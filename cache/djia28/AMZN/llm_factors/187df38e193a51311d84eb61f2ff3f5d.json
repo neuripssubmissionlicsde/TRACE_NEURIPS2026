@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-31",
+  "end_date": "2021-02-14",
+  "window_type": "monthly",
+  "price_change_pct": 1.0902564010855975,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5083932853717027,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements during this period."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3375,
+      "magnitude": 0.2997601918465228,
+      "persistence": "short",
+      "description": "[conf=0.80] The stability of the 10-Year Treasury Rate around 1.16% to 1.20% during this period contributed to a favorable environment for equities, supporting AMZN's price."
+    },
+    {
+      "name": "sec_filings",
+      "category": "company_specific",
+      "direction": 0.16666666666666666,
+      "magnitude": 0.1918465227817746,
+      "persistence": "transient",
+      "description": "[conf=0.70] Multiple SEC filings by Amazon during this period may have provided transparency and confidence to investors, contributing to a slight bullish sentiment [1, 2, 3, 4, 5]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements during this period.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.45,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9, 41],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 1.16% to 1.20% during this period contributed to a favorable environment for equities, supporting AMZN's price.\"\n  }\n]"
+}

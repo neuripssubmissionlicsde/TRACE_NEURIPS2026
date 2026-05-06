@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-21",
+  "window_type": "monthly",
+  "price_change_pct": -7.054806925493466,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"north_korea_tensions\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [23],\n    \"description\": \"North Korea's rejection of South Korea's diplomatic overtures heightened geopolitical tensions, potentially impacting market sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.60,\n    \"source_articles\": [15, 24],\n    \"description\": \"The 10-Year Treasury Rate remained stable during this period, indicating a lack of significant macroeconomic shifts that could influence equity valuations.\"\n  }\n]"
+}

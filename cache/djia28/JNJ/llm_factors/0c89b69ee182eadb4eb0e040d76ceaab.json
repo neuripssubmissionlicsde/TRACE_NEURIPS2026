@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-08-28",
+  "end_date": "2022-09-11",
+  "window_type": "monthly",
+  "price_change_pct": 1.3703107241733732,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2022",
+      "category": "macroeconomic",
+      "direction": 0.54,
+      "magnitude": 0.45205479452054803,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose from 3.1100 to 3.3300 during the window, indicating increased investor confidence in equities as yields rose [3, 7, 13]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3082191780821918,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and influenced by multiple factors."
+    },
+    {
+      "name": "vix_volatility_increase",
+      "category": "market_sentiment",
+      "direction": -0.3666666666666667,
+      "magnitude": 0.23972602739726026,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX increased from 25.5600 to 26.9100, reflecting heightened market uncertainty which can lead to defensive positioning in stocks like JNJ [45, 49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [3, 7, 13],\n    \"description\": \"The 10-Year Treasury yield rose from 3.1100 to 3.3300 during the window, indicating increased investor confidence in equities as yields rose [3, 7, 13].\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [19, 21],\n    \"description\": \"The unemployment rate remained stable at 3.5%, supporting consumer spending and economic stability [19, 21].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and influenced by multiple factors.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": -0.9440012426708543,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2023_07_12",
+      "category": "macroeconomic",
+      "direction": 0.2,
+      "magnitude": 0.3021582733812949,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate further declined to 3.8600 on July 12, 2023, reinforcing positive sentiment in the market [33, 39]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3021582733812949,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    },
+    {
+      "name": "treasury_rate_decline_2023_07_10",
+      "category": "macroeconomic",
+      "direction": 0.16666666666666666,
+      "magnitude": 0.3956834532374101,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 4.0100 on July 10 [9] contributed to a temporary bullish sentiment in the market, as lower yields typically support equity valuations [10]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2023_07_11\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 27],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.9900 on July 11, 2023, which typically supports equity valuations and investor sentiment [25, 27].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_07_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 39],\n    \"description\": \"The 10-Year Treasury Rate further declined to 3.8600 on July 12, 2023, reinforcing positive sentiment in the market [33, 39].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

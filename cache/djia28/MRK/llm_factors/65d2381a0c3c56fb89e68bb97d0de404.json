@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-01-30",
+  "end_date": "2022-02-13",
+  "window_type": "monthly",
+  "price_change_pct": -5.406059944100957,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating a high level of market uncertainty and volatility."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.08% during this period [1], contributing to a lack of significant market movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.75,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating a high level of market uncertainty and volatility.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-03-17",
+  "end_date": "2019-03-31",
+  "window_type": "monthly",
+  "price_change_pct": 1.5546619482131774,
+  "factors": [
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.47000000000000003,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 2.6000 to 2.3900 during the window, indicating lower borrowing costs and supporting equity valuations [3, 9, 13]."
+    },
+    {
+      "name": "increasing_vix_volatility_index",
+      "category": "market_sentiment",
+      "direction": -0.4,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX increased from 13.1000 to 15.1500, reflecting rising market uncertainty and contributing to downward pressure on JNJ's price [35, 49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [3, 9, 13],\n    \"description\": \"The 10-Year Treasury Rate declined from 2.6000 to 2.3900 during the window, indicating lower borrowing costs and supporting equity valuations [3, 9, 13].\"\n  },\n  {\n    \"name\": \"increasing_vix_volatility_index\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [35, 49],\n    \"description\": \"The VIX increased from 13.1000 to 15.1500, reflecting rising market uncertainty and contributing to downward pressure on JNJ's price [35, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

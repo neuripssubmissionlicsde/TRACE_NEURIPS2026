@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-06-19",
+  "end_date": "2022-07-03",
+  "window_type": "monthly",
+  "price_change_pct": 1.7730031970598434,
+  "factors": [
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.3256578947368421,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable at 3.20% during the period, supporting investor confidence and positively impacting asset prices [17, 33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1973684210526316,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_decline_2022_june",
+      "category": "market_sentiment",
+      "direction": 0.6,
+      "magnitude": 0.4769736842105264,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 31.03 on June 20 to 28.16 on June 29, indicating reduced market fear and contributing to upward price movement [25][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_index_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 29],\n    \"description\": \"The VIX Volatility Index declined from 31.03 on June 20 to 28.16 on June 29, indicating reduced market fear and contributing to upward price movement [25, 29].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 33],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 3.20% during the period, supporting investor confidence and positively impacting asset prices [17, 33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

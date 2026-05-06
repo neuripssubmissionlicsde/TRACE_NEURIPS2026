@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-10-14",
+  "end_date": "2018-10-28",
+  "window_type": "monthly",
+  "price_change_pct": -11.105566944489222,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.36046511627906974,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced high volatility and significant price movements without clear single drivers."
+    },
+    {
+      "name": "rising_treasury_yields_3.2pct",
+      "category": "macroeconomic",
+      "direction": -0.6666666666666666,
+      "magnitude": 0.6395348837209303,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose to 3.2% on 2018-10-19, contributing to a bearish sentiment in the equity markets as higher yields typically increase borrowing costs and reduce valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2018_oct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.2000 on 2018-10-19, contributing to a bearish sentiment in equities as higher yields typically increase borrowing costs and reduce valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced high volatility and significant price movements without clear single drivers.\"\n  }\n]"
+}

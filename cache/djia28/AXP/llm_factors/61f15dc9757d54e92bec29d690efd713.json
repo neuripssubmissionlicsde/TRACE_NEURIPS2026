@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-19",
+  "window_type": "monthly",
+  "price_change_pct": 6.526873299670999,
+  "factors": [
+    {
+      "name": "sec_filing_2023_11_15",
+      "category": "company_specific",
+      "direction": 0.5800000000000001,
+      "magnitude": 0.45999999999999996,
+      "persistence": "short",
+      "description": "[conf=0.85] American Express filed with the SEC on 2023-11-15, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "treasury_rate_decline_2023_11_17",
+      "category": "macroeconomic",
+      "direction": 0.42000000000000004,
+      "magnitude": 0.27999999999999997,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate to 4.44% on 2023-11-17 likely supported equity valuations, contributing to AXP's price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2023_11_15\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"American Express filed with the SEC on 2023-11-15, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_11_17\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 4.44% on 2023-11-17 likely supported equity valuations, contributing to AXP's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

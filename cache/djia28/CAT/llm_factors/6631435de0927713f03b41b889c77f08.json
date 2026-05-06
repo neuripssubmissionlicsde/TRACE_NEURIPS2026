@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-22",
+  "window_type": "monthly",
+  "price_change_pct": -5.845873746593947,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2023_oct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 13],\n    \"description\": \"The 10-Year Treasury Rate rose significantly from 4.5800 to 4.9800 during the window [9, 13], leading to increased borrowing costs and negatively impacting equity valuations.\"\n  },\n  {\n    \"name\": \"inverted_yield_curve_2023_oct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [37, 41],\n    \"description\": \"The 10Y-2Y Treasury Spread remained negative, indicating an inverted yield curve [37, 41], which historically signals recession fears and dampens investor sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

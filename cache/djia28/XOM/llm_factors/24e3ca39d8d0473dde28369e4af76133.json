@@ -1,0 +1,49 @@
+{
+  "start_date": "2018-01-07",
+  "end_date": "2018-01-21",
+  "window_type": "monthly",
+  "price_change_pct": 0.519027520623501,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.34517766497461927,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely contributed to the bullish sentiment around XOM."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.24365482233502533,
+      "persistence": "short",
+      "description": "[conf=0.60] General positive market sentiment in early 2018 may have supported XOM's price increase."
+    },
+    {
+      "name": "technical_support_level",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.17766497461928935,
+      "persistence": "transient",
+      "description": "[conf=0.50] XOM's price bouncing off a key technical support level may have contributed to the upward movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.13197969543147206,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations that cannot be attributed to specific factors."
+    },
+    {
+      "name": "earnings_expectations",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.10152284263959392,
+      "persistence": "short",
+      "description": "[conf=0.50] Positive earnings expectations for XOM could have influenced investor behavior during this period."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely contributed to the bullish sentiment around XOM.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General positive market sentiment in early 2018 may have supported XOM's price increase.\"\n    },\n    {\n        \"name\": \"technical_support_level\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's price bouncing off a key technical support level may have contributed to the upward movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations that cannot be attributed to specific factors.\"\n    }\n]"
+}

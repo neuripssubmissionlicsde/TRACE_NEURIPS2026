@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-27",
+  "window_type": "monthly",
+  "price_change_pct": -0.38425422567470074,
+  "factors": [
+    {
+      "name": "geopolitical_tensions_ukraine_russia",
+      "category": "geopolitical",
+      "direction": -0.4,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.80] Escalating geopolitical tensions surrounding Ukraine and Russia, including a massive selloff on the Moscow Stock Exchange, heightened market uncertainty and negatively impacted investor sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "rising_treasury_yields_feb_2022",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose from 1.9800 to 1.9900 during the window, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022_02_23\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [3, 4],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.9900 on 2022-02-23, contributing to bearish sentiment in the equity markets as higher yields typically lead to lower stock valuations.\"\n  },\n  {\n    \"name\": \"geopolitical_tensions_ukraine_russia\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [19, 21],\n    \"description\": \"Escalating geopolitical tensions surrounding Ukraine and Russia, including a massive selloff on the Moscow Stock Exchange, heightened market uncertainty and negatively impacted investor sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.1,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-01",
+  "end_date": "2018-04-15",
+  "window_type": "monthly",
+  "price_change_pct": 0.2568779625220136,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.53125,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.3666666666666667,
+      "magnitude": 0.46875,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury rate increased from 2.73% to 2.83%, reflecting rising borrowing costs which can negatively impact equity valuations [9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Stable unemployment rate at 4.0% [1] contributed to positive market sentiment, supporting consumer spending expectations.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 17, 49],\n    \"description\": \"Increase in 10-Year Treasury yields from 2.73% to 2.83% [9, 49] raised concerns about borrowing costs, negatively impacting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

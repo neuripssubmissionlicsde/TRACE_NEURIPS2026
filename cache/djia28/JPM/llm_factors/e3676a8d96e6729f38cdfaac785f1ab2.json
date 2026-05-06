@@ -1,0 +1,65 @@
+{
+  "start_date": "2019-01-20",
+  "end_date": "2019-02-03",
+  "window_type": "monthly",
+  "price_change_pct": 0.7761038016954431,
+  "factors": [
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": 0.2,
+      "magnitude": 0.2588597842835131,
+      "persistence": "short",
+      "description": "[conf=0.60] General economic indicators during this period suggested moderate growth, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": 0.3,
+      "magnitude": 0.2080123266563944,
+      "persistence": "short",
+      "description": "[conf=0.50] The financial sector was experiencing a positive trend, contributing to JPM's price movement."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.42000000000000004,
+      "magnitude": 0.1941448382126348,
+      "persistence": "transient",
+      "description": "[conf=0.40] Overall market sentiment was cautiously optimistic, which may have supported JPM's price."
+    },
+    {
+      "name": "technical_trends",
+      "category": "technical",
+      "direction": 0.19999999999999998,
+      "magnitude": 0.12326656394453003,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showed a slight bullish trend, contributing to short-term price movements."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": 0.16666666666666666,
+      "magnitude": 0.09244992295839755,
+      "persistence": "short",
+      "description": "[conf=0.50] Liquidity in the market was adequate, allowing for smoother transactions and potentially supporting price stability."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.09244992295839753,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations contributed to unexplained variance in price movement."
+    },
+    {
+      "name": "consolidation",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.03081664098613251,
+      "persistence": "transient",
+      "description": "[conf=0.00] The price movement was not characterized by a clear consolidation phase."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_conditions\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 0.2,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General economic indicators during this period suggested moderate growth, which may have positively influenced investor sentiment.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": 0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The financial sector was experiencing a positive trend, contributing to JPM's price movement.\"\n    },\n    {\n        \"name\": \"earnings_expectations\",\n        \"category\": \"company_specific\",\n        \"direction\": 0.4,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive earnings expectations for JPM were circulating, likely boosting investor confidence.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Overall market sentiment was cautiously optimistic, which may have supported JPM's price.\"\n    },\n    {\n        \"name\": \"technical_trends\",\n        \"category\": \"technical\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed a slight bullish trend, contributing to short-term price movements.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Liquidity in the market was adequate, allowing for smoother transactions and potentially supporting price stability.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations contributed to unexplained variance in price movement.\"\n    },\n    {\n        \"name\": \"consolidation\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.0,\n        \"description\": \"The price movement was not characterized by a clear consolidation phase.\"\n    }\n]"
+}

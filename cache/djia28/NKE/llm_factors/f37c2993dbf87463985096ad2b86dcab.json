@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-08-14",
+  "end_date": "2022-08-28",
+  "window_type": "monthly",
+  "price_change_pct": -6.210472760380373,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6315789473684211,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market dynamics."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.2333333333333333,
+      "magnitude": 0.3684210526315789,
+      "persistence": "short",
+      "description": "[conf=0.70] The increase in the 10-Year Treasury Rate to 3.0300 on August 25 contributed to bearish sentiment in the equity markets."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"10_year_treasury_rate_increase\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.79% to 3.03% during the window [17, 25], contributing to bearish sentiment in equity markets.\"\n  },\n  {\n    \"name\": \"covid_19_pandemic_north_korea\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"The resurgence of COVID-19 in North Korea [1, 2] raised concerns about global supply chain disruptions, negatively impacting market sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market dynamics.\"\n  }\n]"
+}

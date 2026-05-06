@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-11-19",
+  "end_date": "2023-12-03",
+  "window_type": "monthly",
+  "price_change_pct": -1.4896829486673986,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.70] General market sentiment was bearish during this period, influenced by broader economic concerns."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.4,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns regarding Disney's recent performance and strategic decisions contributed to negative sentiment."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations contributed to price changes that cannot be attributed to specific factors."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.3,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested a bearish trend, which may have prompted selling pressure."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General market sentiment was bearish during this period, influenced by broader economic concerns.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns regarding Disney's recent performance and strategic decisions contributed to negative sentiment.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"Average daily trading volume was relatively high, indicating active trading but also potential selling pressure.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations contributed to price changes that cannot be attributed to specific factors.\"\n    }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-03-03",
+  "end_date": "2019-03-17",
+  "window_type": "monthly",
+  "price_change_pct": -0.27667877226356563,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2.6100",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.38,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 2.6100 on March 13 contributed to a more favorable borrowing environment, supporting equity valuations [25]."
+    },
+    {
+      "name": "treasury_rate_decline_2.6300",
+      "category": "macroeconomic",
+      "direction": 0.38,
+      "magnitude": 0.31999999999999995,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate reported at 2.6300 on March 14 indicated a continued decline, which typically supports equity markets by lowering discount rates [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2.6100\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26, 27],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.6100 on March 13 contributed to a more favorable borrowing environment, supporting equity valuations [25].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2.6300\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The 10-Year Treasury Rate reported at 2.6300 on March 14 indicated a continued decline, which typically supports equity markets by lowering discount rates [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

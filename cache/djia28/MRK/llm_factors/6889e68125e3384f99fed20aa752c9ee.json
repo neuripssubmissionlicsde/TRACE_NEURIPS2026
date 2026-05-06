@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-12-22",
+  "end_date": "2020-01-05",
+  "window_type": "monthly",
+  "price_change_pct": -0.6315836274528774,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7959183673469388,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted MRK's price during this period."
+    },
+    {
+      "name": "stable_unemployment_rate",
+      "category": "macroeconomic",
+      "direction": 0.06666666666666667,
+      "magnitude": 0.20408163265306126,
+      "persistence": "long",
+      "description": "[conf=0.75] The unemployment rate remained stable at 3.6% [1], contributing to a generally positive economic sentiment but not directly influencing MRK's price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.80,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted MRK's price during this period.\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"long\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.6% [1], contributing to a generally positive economic sentiment but not directly influencing MRK's price movement.\"\n  }\n]"
+}

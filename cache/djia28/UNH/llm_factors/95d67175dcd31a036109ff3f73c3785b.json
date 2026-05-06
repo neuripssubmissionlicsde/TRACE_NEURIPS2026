@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-05-24",
+  "end_date": "2020-06-07",
+  "window_type": "monthly",
+  "price_change_pct": 5.177049015257112,
+  "factors": [
+    {
+      "name": "unemployment_rate_release_11pct",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.46191247974068067,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate was reported at 11.0% on June 1, indicating significant economic distress, which likely pressured stock prices."
+    },
+    {
+      "name": "treasury_rate_increase_0.77pct",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4213938411669368,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased to 0.77% on June 3, suggesting a shift in investor sentiment towards riskier assets, potentially supporting UNH's price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1166936790923825,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_release_11pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate was reported at 11.0% on June 1, indicating significant economic distress, which likely pressured stock prices.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_0.77pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate increased to 0.77% on June 3, suggesting a shift in investor sentiment towards riskier assets, potentially supporting UNH's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

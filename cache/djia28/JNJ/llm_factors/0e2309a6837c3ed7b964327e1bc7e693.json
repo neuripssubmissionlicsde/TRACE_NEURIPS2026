@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": 2.4222740479188873,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly influenced JNJ's price movement during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 1.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly influenced JNJ's price movement during this period.\"\n  }\n]"
+}

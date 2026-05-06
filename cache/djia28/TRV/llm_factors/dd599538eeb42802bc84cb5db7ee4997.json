@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-12-20",
+  "end_date": "2021-01-03",
+  "window_type": "monthly",
+  "price_change_pct": 0.8767647191004467,
+  "factors": [
+    {
+      "name": "stable_treasury_rate_0.94",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4081632653061225,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable at 0.94%, contributing to a favorable borrowing environment and supporting equity valuations [1, 9, 41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5918367346938775,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rate_0.94\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 41],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 0.94%, contributing to a favorable borrowing environment and supporting equity valuations [1, 9, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

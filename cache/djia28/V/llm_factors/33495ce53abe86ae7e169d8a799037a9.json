@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-08-05",
+  "end_date": "2018-08-19",
+  "window_type": "monthly",
+  "price_change_pct": 1.355096122405709,
+  "factors": [
+    {
+      "name": "turkey_financial_turmoil",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Asian stock prices sank due to fears of contagion from Turkey's financial turmoil, impacting investor sentiment and leading to a bearish environment for V."
+    },
+    {
+      "name": "vix_volatility_increase",
+      "category": "market_sentiment",
+      "direction": -0.4,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.80] The VIX Volatility Index rose from 11.27 to 13.45 during the window, indicating increased market uncertainty and contributing to downward pressure on V."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkey_financial_turmoil\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Asian stock prices sank due to fears of contagion from Turkey's financial turmoil, impacting investor sentiment and leading to a bearish environment for V.\"\n  },\n  {\n    \"name\": \"vix_volatility_increase\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [24, 32],\n    \"description\": \"The VIX Volatility Index rose from 11.27 to 13.45 during the window, indicating increased market uncertainty and contributing to downward pressure on V.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

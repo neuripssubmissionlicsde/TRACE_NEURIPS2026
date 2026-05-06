@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-08-02",
+  "end_date": "2020-08-16",
+  "window_type": "monthly",
+  "price_change_pct": -1.4434351887688701,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5642201834862386,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news directly impacted AMGN's price movement."
+    },
+    {
+      "name": "indonesian_economic_contraction",
+      "category": "macroeconomic",
+      "direction": -0.3833333333333333,
+      "magnitude": 0.4357798165137615,
+      "persistence": "short",
+      "description": "[conf=0.75] The contraction of the Indonesian economy by 5.32% amidst the COVID-19 pandemic raised concerns about global economic recovery, impacting investor sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news directly impacted AMGN's price movement.\"\n  },\n  {\n    \"name\": \"indonesian_economic_contraction\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The contraction of the Indonesian economy by 5.32% amidst the COVID-19 pandemic raised concerns about global economic recovery, impacting investor sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.00,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [4, 9, 24],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 0.5600 to 0.6400 during the window indicated rising borrowing costs, which may have negatively influenced equity valuations.\"\n  }\n]"
+}

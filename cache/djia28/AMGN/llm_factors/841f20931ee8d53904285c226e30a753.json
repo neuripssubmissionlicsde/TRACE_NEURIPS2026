@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -5.771880578383445,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2022_dec",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5555555555555556,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.6100 on December 12, contributing to bearish sentiment in the market as higher yields typically pressure equity valuations [1][26]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4444444444444445,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 6, 26],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.6100 on December 12, contributing to bearish sentiment in the market as higher yields typically pressure equity valuations [1][26].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility without a clear dominant driver.\"\n  }\n]"
+}

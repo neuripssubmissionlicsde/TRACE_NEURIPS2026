@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-08-30",
+  "end_date": "2020-09-13",
+  "window_type": "monthly",
+  "price_change_pct": 5.225607524897985,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    },
+    {
+      "name": "rising_treasury_yields_2020_09_10",
+      "category": "macroeconomic",
+      "direction": 0.575,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 0.6800 on 2020-09-10, indicating a shift in investor sentiment towards equities, including NKE."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_recovery\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"Positive market sentiment during this period likely contributed to NKE's price increase, as evidenced by the overall bullish trend in the market.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

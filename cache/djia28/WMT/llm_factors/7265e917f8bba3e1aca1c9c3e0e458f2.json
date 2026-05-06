@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-08-13",
+  "end_date": "2023-08-27",
+  "window_type": "monthly",
+  "price_change_pct": -2.580241933664219,
+  "factors": [
+    {
+      "name": "chinese_interest_rate_cut",
+      "category": "macroeconomic",
+      "direction": -0.58,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.85] The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] raised concerns about global economic growth, negatively impacting investor sentiment towards WMT."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.45999999999999996,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate to 4.34% [13] contributed to higher discount rates for future cash flows, pressuring WMT's stock price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"chinese_interest_rate_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] raised concerns about global economic growth, negatively impacting investor sentiment towards WMT.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [4, 10, 13],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 4.34% [13] contributed to higher discount rates for future cash flows, pressuring WMT's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

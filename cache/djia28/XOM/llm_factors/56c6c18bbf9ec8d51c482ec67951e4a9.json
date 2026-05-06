@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-03-31",
+  "end_date": "2019-04-14",
+  "window_type": "monthly",
+  "price_change_pct": -0.38162781887191594,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] Recent fluctuations in crude oil prices may have negatively impacted investor sentiment towards XOM."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] General market sentiment during this period was cautious, contributing to a slight decline in XOM's price."
+    },
+    {
+      "name": "technical_resistance",
+      "category": "technical",
+      "direction": -0.2,
+      "magnitude": 0.2,
+      "persistence": "short",
+      "description": "[conf=0.50] XOM faced technical resistance around the $60 mark, which may have contributed to the price decline."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "[conf=0.40] Unexplained random variance in trading activity likely contributed to the price movement."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Recent fluctuations in crude oil prices may have negatively impacted investor sentiment towards XOM.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"General market sentiment during this period was cautious, contributing to a slight decline in XOM's price.\"\n    },\n    {\n        \"name\": \"technical_resistance\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM faced technical resistance around the $60 mark, which may have contributed to the price decline.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Unexplained random variance in trading activity likely contributed to the price movement.\"\n    }\n]"
+}

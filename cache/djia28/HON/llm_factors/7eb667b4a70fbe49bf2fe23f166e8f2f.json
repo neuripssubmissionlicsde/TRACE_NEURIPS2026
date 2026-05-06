@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-12-22",
+  "end_date": "2020-01-05",
+  "window_type": "monthly",
+  "price_change_pct": 0.8343798308454896,
+  "factors": [
+    {
+      "name": "stable_unemployment_rate_3.6",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5714285714285715,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.6%, indicating a strong labor market which supported investor confidence [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4285714285714285,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_unemployment_rate_3.6\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 3.6%, indicating a strong labor market which supported investor confidence [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_1.88_to_1.92\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 25, 33],\n    \"description\": \"The 10-Year Treasury yield rose from 1.88% to 1.92%, reflecting expectations of economic growth and influencing equity valuations positively [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

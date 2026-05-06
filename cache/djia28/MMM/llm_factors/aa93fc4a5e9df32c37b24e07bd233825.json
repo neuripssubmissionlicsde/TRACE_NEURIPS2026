@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-02-26",
+  "end_date": "2023-03-12",
+  "window_type": "monthly",
+  "price_change_pct": -4.409337817479325,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2023_03_01",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.6,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 4.08% on March 2, 2023, contributing to bearish sentiment in equities as higher yields typically increase borrowing costs and reduce valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.39999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2023_03_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.08% on March 2, 2023, contributing to bearish sentiment in equities as higher yields typically increase borrowing costs and reduce valuations.\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate_2023_03_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17],\n    \"description\": \"The unemployment rate remained stable at 3.5% on March 1, 2023, which provided some support to market sentiment despite rising yields.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

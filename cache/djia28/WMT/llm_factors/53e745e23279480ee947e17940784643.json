@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-01-05",
+  "end_date": "2020-01-19",
+  "window_type": "monthly",
+  "price_change_pct": -2.0783663214957326,
+  "factors": [
+    {
+      "name": "fed_interest_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.31,
+      "persistence": "medium",
+      "description": "[conf=0.85] Fed's inclination to maintain low interest rates indicated stability in monetary policy, contributing to a neutral market sentiment [1]."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.42000000000000004,
+      "magnitude": 0.31000000000000005,
+      "persistence": "short",
+      "description": "[conf=0.75] Fluctuations in the 10-Year Treasury Rate, particularly a drop from 1.87% to 1.79%, may have influenced investor sentiment negatively, contributing to the price decline [4, 10, 19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38000000000000006,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_interest_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Fed's inclination to maintain low interest rates indicated stability in monetary policy, contributing to a neutral market sentiment [1].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [4, 10, 19],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, particularly a drop from 1.87% to 1.79%, may have influenced investor sentiment negatively, contributing to the price decline [4, 10, 19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

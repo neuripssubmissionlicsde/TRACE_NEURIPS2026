@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": 1.852990680544736,
+  "factors": [
+    {
+      "name": "cpi_release_2023_06_01",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.43,
+      "persistence": "short",
+      "description": "[conf=0.85] The Consumer Price Index (CPI) release on June 1 indicated stable inflation, which positively influenced market sentiment and contributed to CSCO's price increase."
+    },
+    {
+      "name": "unemployment_rate_release_2023_06_01",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate reported at 3.6% on June 1 suggested a strong labor market, further supporting investor confidence and contributing to the upward price movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_2023_06_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The Consumer Price Index (CPI) release on June 1 indicated stable inflation, which positively influenced market sentiment and contributed to CSCO's price increase.\"\n  },\n  {\n    \"name\": \"unemployment_rate_release_2023_06_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The unemployment rate reported at 3.6% on June 1 suggested a strong labor market, further supporting investor confidence and contributing to the upward price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

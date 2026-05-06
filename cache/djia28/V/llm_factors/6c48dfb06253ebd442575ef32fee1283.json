@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-03-31",
+  "end_date": "2019-04-14",
+  "window_type": "monthly",
+  "price_change_pct": 1.339386604140057,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by various market dynamics without a clear single driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_13.7400_to_12.0100\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17, 49],\n    \"description\": \"The VIX Volatility Index declined from 13.7400 to 12.0100, indicating reduced market fear and supporting bullish sentiment [1][17][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by various market dynamics without a clear single driver.\"\n  }\n]"
+}

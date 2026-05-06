@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-12-23",
+  "end_date": "2019-01-06",
+  "window_type": "monthly",
+  "price_change_pct": 8.880232722500885,
+  "factors": [
+    {
+      "name": "dow_jones_drop_christmas_eve",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.45999999999999996,
+      "persistence": "transient",
+      "description": "[conf=0.85] The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, contributing to negative market sentiment that affected AMGN's price."
+    },
+    {
+      "name": "nikkei_index_drop",
+      "category": "geopolitical",
+      "direction": -0.3,
+      "magnitude": 0.28,
+      "persistence": "transient",
+      "description": "[conf=0.75] The Nikkei index dropped 5%, indicating global market weakness that likely influenced investor sentiment towards AMGN."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"dow_jones_drop_christmas_eve\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, contributing to negative market sentiment that affected AMGN's price.\"\n  },\n  {\n    \"name\": \"nikkei_index_drop\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [10, 11, 12, 13],\n    \"description\": \"The Nikkei index dropped 5%, indicating global market weakness that likely influenced investor sentiment towards AMGN.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

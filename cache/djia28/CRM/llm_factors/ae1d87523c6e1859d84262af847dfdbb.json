@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-12-08",
+  "end_date": "2019-12-22",
+  "window_type": "monthly",
+  "price_change_pct": 4.5558322406189555,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3820224719101123,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    },
+    {
+      "name": "market_sentiment_improvement",
+      "category": "market_sentiment",
+      "direction": 0.6666666666666666,
+      "magnitude": 0.6179775280898877,
+      "persistence": "short",
+      "description": "[conf=0.85] General market sentiment improved during this period, contributing to the upward price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"sec_filing_2019_dec_12\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.45,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"Salesforce filed with the SEC on December 12, which may have positively influenced investor sentiment.\"\n  }\n]"
+}

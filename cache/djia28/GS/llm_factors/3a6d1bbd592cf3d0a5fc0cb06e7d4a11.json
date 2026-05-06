@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-11-19",
+  "end_date": "2023-12-03",
+  "window_type": "monthly",
+  "price_change_pct": 3.3208946297010553,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_nov_29\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 4.2700 on November 29 [17] likely boosted investor sentiment, contributing to GS's price increase.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_nov_24\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 32],\n    \"description\": \"The drop in the 10-Year Treasury Rate to 4.4700 on November 24 [25] may have positively influenced market conditions, supporting GS's upward price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

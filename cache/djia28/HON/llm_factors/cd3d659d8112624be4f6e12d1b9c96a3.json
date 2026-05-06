@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-30",
+  "end_date": "2020-09-13",
+  "window_type": "monthly",
+  "price_change_pct": -1.2634808398046138,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "long",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.09%, indicating a continued accommodative monetary policy environment [1-8]."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.45,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased from 0.6300 to 0.7100, reflecting rising bond yields that typically pressure equity valuations [9, 17, 49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.09%, indicating a continued accommodative monetary policy environment [1-8].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17, 49],\n    \"description\": \"The 10-Year Treasury Rate increased from 0.6300 to 0.7100, reflecting rising bond yields that typically pressure equity valuations [9, 17, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,17 @@
+{
+  "start_date": "2018-03-04",
+  "end_date": "2018-03-18",
+  "window_type": "monthly",
+  "price_change_pct": 3.9259903564251166,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_march_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 3, 5, 9],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.8800 to 2.9000 during the window, indicating rising yields which typically support financial sector stocks like JNJ [1, 3, 5].\"\n  },\n  {\n    \"name\": \"vix_volatility_decline_march_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [21, 25, 41],\n    \"description\": \"The VIX Volatility Index showed a decline from 18.7300 to 15.8000, reflecting reduced market fear and contributing to a bullish sentiment for equities including JNJ [21, 25, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

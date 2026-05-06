@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-02",
+  "end_date": "2020-08-16",
+  "window_type": "monthly",
+  "price_change_pct": 1.2637469088758786,
+  "factors": [
+    {
+      "name": "covid_economic_impact",
+      "category": "macroeconomic",
+      "direction": 0.18,
+      "magnitude": 0.29508196721311475,
+      "persistence": "medium",
+      "description": "[conf=0.85] The ongoing economic impact of the COVID-19 pandemic created uncertainty, affecting investor sentiment negatively [29][30]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5136612021857924,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "uk_recession",
+      "category": "macroeconomic",
+      "direction": -0.2375,
+      "magnitude": 0.1912568306010929,
+      "persistence": "short",
+      "description": "[conf=0.70] The announcement of the UK's recession added to global economic uncertainty, which may have contributed to bearish sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_stability\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The price remained relatively stable with only minor fluctuations, indicating a balance of bullish and bearish sentiments.\"\n  },\n  {\n    \"name\": \"covid_economic_impact\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [29, 30],\n    \"description\": \"The ongoing economic impact of the COVID-19 pandemic created uncertainty, affecting investor sentiment negatively [29][30].\"\n  },\n  {\n    \"name\": \"uk_recession_declaration\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.20,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [31, 32],\n    \"description\": \"The UK officially entering recession raised concerns about global economic recovery, impacting market sentiment [31][32].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

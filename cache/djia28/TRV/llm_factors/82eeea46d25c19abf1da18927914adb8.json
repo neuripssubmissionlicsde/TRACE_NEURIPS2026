@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-02",
+  "end_date": "2020-08-16",
+  "window_type": "monthly",
+  "price_change_pct": 3.707582589786742,
+  "factors": [
+    {
+      "name": "indonesian_economic_contraction_q2_2020",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4854368932038835,
+      "persistence": "short",
+      "description": "[conf=0.85] The Indonesian economy contracted by 5.32% in Q2 2020, raising concerns about global economic recovery amidst the COVID-19 pandemic [1][9]."
+    },
+    {
+      "name": "rising_treasury_yields_august_2020",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4368932038834951,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury yield rose from 0.5600 to 0.6400 during the window, indicating increased investor confidence and potential economic recovery [23][31]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.07766990291262135,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"indonesian_economic_contraction_q2_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The Indonesian economy contracted by 5.32% in Q2 2020, raising concerns about global economic recovery amidst the COVID-19 pandemic [1][9].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_august_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [23, 31],\n    \"description\": \"The 10-Year Treasury yield rose from 0.5600 to 0.6400 during the window, indicating increased investor confidence and potential economic recovery [23][31].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-07-18",
+  "end_date": "2021-08-01",
+  "window_type": "monthly",
+  "price_change_pct": 0.8061356139789075,
+  "factors": [
+    {
+      "name": "stable_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3836633663366337,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable around 1.30%, supporting investor confidence in equities [1, 4, 10]."
+    },
+    {
+      "name": "positive_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.4,
+      "magnitude": 0.25990099009900997,
+      "persistence": "transient",
+      "description": "[conf=0.80] General market optimism contributed to upward price movement, reflected in the absence of negative news during the period."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3564356435643565,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 4, 10],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.30%, supporting investor confidence in equities [1, 4, 10].\"\n  },\n  {\n    \"name\": \"positive_market_sentiment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"General market optimism contributed to upward price movement, reflected in the absence of negative news during the period.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

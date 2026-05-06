@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-10-25",
+  "end_date": "2020-11-08",
+  "window_type": "monthly",
+  "price_change_pct": -1.5093537426576835,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5275779376498801,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "covid_case_increase_nj",
+      "category": "geopolitical",
+      "direction": -0.42000000000000004,
+      "magnitude": 0.26858513189448446,
+      "persistence": "short",
+      "description": "[conf=0.80] New Jersey reported over 2,000 COVID-19 cases, raising concerns about the pandemic's impact on the economy [30][31]."
+    },
+    {
+      "name": "global_economic_uncertainty",
+      "category": "macroeconomic",
+      "direction": -0.2875,
+      "magnitude": 0.20383693045563553,
+      "persistence": "short",
+      "description": "[conf=0.75] Indonesia fell into recession, reflecting broader global economic challenges that may affect investor sentiment [23][24]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"covid_case_increase_nj\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [30, 31],\n    \"description\": \"New Jersey reported over 2,000 COVID-19 cases, raising concerns about the pandemic's impact on the economy [30][31].\"\n  },\n  {\n    \"name\": \"global_economic_uncertainty\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [23, 24],\n    \"description\": \"Indonesia fell into recession, reflecting broader global economic challenges that may affect investor sentiment [23][24].\"\n  }\n]"
+}

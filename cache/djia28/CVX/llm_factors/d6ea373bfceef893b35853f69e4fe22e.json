@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-01-05",
+  "end_date": "2020-01-19",
+  "window_type": "monthly",
+  "price_change_pct": -4.668426796478631,
+  "factors": [
+    {
+      "name": "fed_interest_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.30999999999999994,
+      "persistence": "medium",
+      "description": "[conf=0.85] Raphael Bostic indicated a preference to maintain low interest rates, contributing to a stable macroeconomic environment [1]."
+    },
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX remained relatively stable during this period, indicating low market volatility and contributing to a lack of significant price movement [11, 19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42000000000000004,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_interest_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Raphael Bostic indicated a preference to maintain low interest rates, contributing to a stable macroeconomic environment [1].\"\n  },\n  {\n    \"name\": \"vix_volatility_index_stability\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [11, 19],\n    \"description\": \"The VIX remained relatively stable during this period, indicating low market volatility and contributing to a lack of significant price movement [11, 19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

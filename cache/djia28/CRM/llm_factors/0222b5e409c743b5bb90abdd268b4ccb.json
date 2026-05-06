@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -10.175064850621936,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_2022_dec",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3365384615384615,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate from 3.6000 to 3.4800 during the window indicated a shift in investor sentiment towards equities, contributing to a partial recovery in CRM's price."
+    },
+    {
+      "name": "market_sentiment_deterioration",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.24038461538461542,
+      "persistence": "transient",
+      "description": "[conf=0.75] Overall market sentiment deteriorated during this period, leading to increased selling pressure on CRM despite the decline in treasury yields."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42307692307692313,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random fluctuations in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_2022_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 33],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 3.6000 to 3.4800 during the window indicated a shift in investor sentiment towards equities, contributing to a partial recovery in CRM's price.\"\n  },\n  {\n    \"name\": \"market_sentiment_deterioration\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment deteriorated during this period, leading to increased selling pressure on CRM despite the decline in treasury yields.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random fluctuations in the market.\"\n  }\n]"
+}

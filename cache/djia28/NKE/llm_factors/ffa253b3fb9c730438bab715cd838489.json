@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-10-11",
+  "end_date": "2020-10-25",
+  "window_type": "monthly",
+  "price_change_pct": -0.9147210320472017,
+  "factors": [
+    {
+      "name": "south_korea_easing_social_distancing",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.396039603960396,
+      "persistence": "short",
+      "description": "[conf=0.85] The announcement by South Korea to ease social distancing measures allowed for limited audiences at sporting events, which positively impacted market sentiment around consumer engagement and spending [1, 2, 3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6039603960396039,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed a slight decline without clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"south_korea_easing_social_distancing\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The announcement by South Korea to ease social distancing measures allowed for limited audiences at sporting events, which positively impacted market sentiment around consumer engagement and spending [1, 2, 3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed a slight decline without clear drivers.\"\n  }\n]"
+}

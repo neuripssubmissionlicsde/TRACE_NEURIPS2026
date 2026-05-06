@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-08-28",
+  "end_date": "2022-09-11",
+  "window_type": "monthly",
+  "price_change_pct": -1.67740761339582,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.25862068965517243,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.26666666666666666,
+      "magnitude": 0.25862068965517243,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.5%, indicating a resilient labor market which can support consumer spending and economic stability [1]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4827586206896552,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield increased from 3.11% to 3.29%, reflecting rising borrowing costs and negatively impacting equity valuations [9, 41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.2000 on 2022-09-02 and further to 3.2900 on 2022-09-08, contributing to bearish sentiment in the market [25][41].\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The unemployment rate remained stable at 3.5% on 2022-09-01, which could have provided some support to market sentiment despite rising yields [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period.\"\n  }\n]"
+}

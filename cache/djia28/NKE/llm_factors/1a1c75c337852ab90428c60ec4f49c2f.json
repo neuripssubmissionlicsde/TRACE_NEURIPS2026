@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-05-08",
+  "end_date": "2022-05-22",
+  "window_type": "monthly",
+  "price_change_pct": -4.399386876697829,
+  "factors": [
+    {
+      "name": "covid_outbreak_north_korea",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The COVID-19 outbreak in North Korea raised concerns about supply chain disruptions and market stability, negatively impacting investor sentiment [1, 2, 3, 4, 5, 6]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury yield to 3.05% on May 9 contributed to a bearish sentiment in the equity markets, impacting NKE's price [41, 49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"covid_outbreak_north_korea\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The COVID-19 outbreak in North Korea raised concerns about supply chain disruptions and market stability, negatively impacting investor sentiment [1, 2, 3, 4, 5, 6].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 49],\n    \"description\": \"The increase in the 10-Year Treasury yield to 3.05% on May 9 contributed to a bearish sentiment in the equity markets, impacting NKE's price [41, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

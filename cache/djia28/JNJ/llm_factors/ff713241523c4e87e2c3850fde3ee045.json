@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-11-25",
+  "end_date": "2018-12-09",
+  "window_type": "monthly",
+  "price_change_pct": 2.415478762871718,
+  "factors": [
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.49000000000000005,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 3.0600 to 2.8500 during the window [11, 15], leading to increased investor appetite for equities, including JNJ."
+    },
+    {
+      "name": "decreasing_vix_volatility",
+      "category": "market_sentiment",
+      "direction": 0.4,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX volatility index decreased from 18.9000 to 16.4400 [31, 45], indicating reduced market fear and contributing to a bullish sentiment for JNJ."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [11, 15],\n    \"description\": \"The 10-Year Treasury yield declined from 3.0600 to 2.8500 during the window [11, 15], leading to increased investor appetite for equities, including JNJ.\"\n  },\n  {\n    \"name\": \"decreasing_vix_volatility\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [31, 45],\n    \"description\": \"The VIX volatility index decreased from 18.9000 to 16.4400 [31, 45], indicating reduced market fear and contributing to a bullish sentiment for JNJ.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": -4.520408073326102,
+  "factors": [
+    {
+      "name": "vix_spike_april_2022",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.49382716049382713,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 28.21 on April 22, indicating increased market fear and contributing to the downward pressure on CVX's price."
+    },
+    {
+      "name": "vix_decline_april_2022",
+      "category": "market_sentiment",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.24691358024691357,
+      "persistence": "short",
+      "description": "[conf=0.75] A decline in the VIX to 20.32 on April 20 suggested a temporary easing of market fears, which may have provided a brief support to CVX's price before the subsequent drop."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2592592592592592,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_april_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26, 27],\n    \"description\": \"The VIX Volatility Index spiked to 28.21 on April 22, indicating increased market fear and contributing to the downward pressure on CVX's price.\"\n  },\n  {\n    \"name\": \"vix_decline_april_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"A decline in the VIX to 20.32 on April 20 suggested a temporary easing of market fears, which may have provided a brief support to CVX's price before the subsequent drop.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during the period.\"\n  }\n]"
+}

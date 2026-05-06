@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-06-20",
+  "end_date": "2021-07-04",
+  "window_type": "monthly",
+  "price_change_pct": 3.8151289907422448,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4660194174757281,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "vix_volatility_decline",
+      "category": "market_sentiment",
+      "direction": 0.6,
+      "magnitude": 0.5339805825242719,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 17.89 to 15.07 during the period, indicating reduced market fear and supporting bullish sentiment [27][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_june_2021\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [27, 41],\n    \"description\": \"The VIX Volatility Index declined from 17.89 to 15.07 during the period, indicating reduced market fear and contributing to a bullish sentiment for JNJ.\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation_june_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 11, 19],\n    \"description\": \"The 10-Year Treasury Rate fluctuated, with a notable drop to 1.44% on July 2, which typically supports equity prices by lowering discount rates.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

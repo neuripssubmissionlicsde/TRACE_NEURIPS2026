@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-08-19",
+  "end_date": "2018-09-02",
+  "window_type": "monthly",
+  "price_change_pct": 2.8732085208103437,
+  "factors": [
+    {
+      "name": "argentina_interest_rate_hike",
+      "category": "geopolitical",
+      "direction": 0.3,
+      "magnitude": 0.54,
+      "persistence": "short",
+      "description": "[conf=0.85] Argentina's interest rate hike to 60% amid currency crisis created a risk-off sentiment, leading to increased demand for stable assets like AXP."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4600000000000001,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"argentina_interest_rate_hike\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"Argentina's interest rate hike to 60% amid currency crisis created a risk-off sentiment, leading to increased demand for stable assets like AXP.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

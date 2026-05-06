@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-09-26",
+  "end_date": "2021-10-10",
+  "window_type": "monthly",
+  "price_change_pct": 5.322150415284679,
+  "factors": [
+    {
+      "name": "vix_decline_2021_10_01",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.4368932038834951,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined to 21.15 on 2021-10-01, indicating reduced market fear and contributing to bullish sentiment for CVX [1]."
+    },
+    {
+      "name": "vix_increase_2021_09_28",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.24271844660194175,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index increased to 23.25 on 2021-09-28, reflecting heightened market uncertainty which may have temporarily pressured CVX prices [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3203883495145631,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited some randomness."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2021_10_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The VIX Volatility Index declined to 21.15 on 2021-10-01, indicating reduced market fear and contributing to bullish sentiment for CVX [1].\"\n  },\n  {\n    \"name\": \"vix_increase_2021_09_28\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9],\n    \"description\": \"The VIX Volatility Index increased to 23.25 on 2021-09-28, reflecting heightened market uncertainty which may have temporarily pressured CVX prices [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited some randomness.\"\n  }\n]"
+}

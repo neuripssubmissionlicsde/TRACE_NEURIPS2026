@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-09-02",
+  "end_date": "2018-09-16",
+  "window_type": "monthly",
+  "price_change_pct": -0.6697032775683696,
+  "factors": [
+    {
+      "name": "ecb_policy_uncertainty",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5208333333333334,
+      "persistence": "medium",
+      "description": "[conf=0.85] The European Central Bank's decision to maintain its policy amid uncertainties related to rising protectionism created a bearish sentiment in the market [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.47916666666666663,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_policy_uncertainty\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank's decision to maintain its policy amid uncertainties related to rising protectionism created a bearish sentiment in the market [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

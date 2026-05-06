@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-09-26",
+  "end_date": "2021-10-10",
+  "window_type": "monthly",
+  "price_change_pct": -0.5663593267238446,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.51,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted HON's price during this period."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.06,
+      "magnitude": 0.26,
+      "persistence": "long",
+      "description": "[conf=0.75] The unemployment rate remained stable at 4.5%, contributing to a neutral sentiment in the market without causing significant price movement."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.27,
+      "magnitude": 0.22999999999999998,
+      "persistence": "short",
+      "description": "[conf=0.70] Fluctuations in the 10-Year Treasury Rate, which rose from 1.48% to 1.58%, likely contributed to bearish sentiment impacting HON's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted HON's price during this period.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 4.5%, contributing to a neutral sentiment in the market without causing significant price movement.\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, which rose from 1.48% to 1.58%, likely contributed to bearish sentiment impacting HON's price.\"\n  }\n]"
+}

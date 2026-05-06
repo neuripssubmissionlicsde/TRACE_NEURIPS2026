@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": 1.21029557809671,
+  "factors": [
+    {
+      "name": "sec_filing_2023_dec_12",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.3160453808752026,
+      "persistence": "transient",
+      "description": "[conf=0.80] IBM filed with the SEC on December 12, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "treasury_rate_decline_2023_dec_14",
+      "category": "macroeconomic",
+      "direction": 0.3333333333333333,
+      "magnitude": 0.27552674230145874,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined to 3.92% on December 14, potentially boosting equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.40842787682333875,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2023_dec_12\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"IBM filed with the SEC on December 12, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_dec_14\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.92% on December 14, potentially boosting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-07-07",
+  "end_date": "2019-07-21",
+  "window_type": "monthly",
+  "price_change_pct": -1.8774614706140846,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5145631067961165,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment."
+    },
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4854368932038835,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 2.0900 to 2.0500 during the window, contributing to bearish sentiment in the market [1, 33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2.0500\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 4],\n    \"description\": \"The 10-Year Treasury Rate declined to 2.0500, which typically supports equity valuations and investor sentiment [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment.\"\n  }\n]"
+}

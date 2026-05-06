@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-22",
+  "window_type": "monthly",
+  "price_change_pct": 0.3238241827083556,
+  "factors": [
+    {
+      "name": "japanese_economy_growth_q3_2020",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] Japan's economy grew at an annualized rate of 21.4% in Q3 2020, boosting global market sentiment and positively impacting consumer stocks like KO [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"japanese_economy_growth_q3_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Japan's economy grew at an annualized rate of 21.4% in Q3 2020, boosting global market sentiment and positively impacting consumer stocks like KO [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver.\"\n  }\n]"
+}

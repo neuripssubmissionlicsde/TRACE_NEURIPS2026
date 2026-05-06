@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-06-18",
+  "end_date": "2023-07-02",
+  "window_type": "monthly",
+  "price_change_pct": -0.38505027702589134,
+  "factors": [
+    {
+      "name": "cpi_release_2023_07_01",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.85] The Consumer Price Index (CPI) release on July 1 indicated inflationary pressures, contributing to bearish sentiment in the market."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "treasury_rate_increase_2023_06_29",
+      "category": "macroeconomic",
+      "direction": -0.3333333333333333,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate to 3.85% on June 29 raised concerns about higher borrowing costs, negatively impacting equity valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_2023_07_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The Consumer Price Index (CPI) release on July 1 indicated inflationary pressures, contributing to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2023_06_30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 3.81% on June 30 raised concerns about higher borrowing costs, negatively impacting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

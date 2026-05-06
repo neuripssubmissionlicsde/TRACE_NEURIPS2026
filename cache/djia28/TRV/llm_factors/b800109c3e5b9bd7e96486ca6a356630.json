@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": 0.37645269019734645,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_may_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 41],\n    \"description\": \"The 10-Year Treasury Rate increased from 1.5600 to 1.6300 during the window, indicating rising yields which typically support financial sector valuations [1, 9, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver.\"\n  }\n]"
+}

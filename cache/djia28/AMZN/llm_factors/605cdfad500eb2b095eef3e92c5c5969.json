@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-11-19",
+  "end_date": "2023-12-03",
+  "window_type": "monthly",
+  "price_change_pct": 1.3091668383933115,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_4.22",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.41,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 4.22% on December 1, 2023, likely boosted investor sentiment towards equities, including AMZN [9][10]."
+    },
+    {
+      "name": "treasury_rate_decline_4.27",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.80] The earlier decline in the 10-Year Treasury Rate to 4.27% on November 29, 2023, contributed to a favorable environment for equity investments [1][2]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_4.22\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 4.22% on December 1, 2023, likely boosted investor sentiment towards equities, including AMZN [9][10].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_4.27\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2],\n    \"description\": \"The earlier decline in the 10-Year Treasury Rate to 4.27% on November 29, 2023, contributed to a favorable environment for equity investments [1][2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

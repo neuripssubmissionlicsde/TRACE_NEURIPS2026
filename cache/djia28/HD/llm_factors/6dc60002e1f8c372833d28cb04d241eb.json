@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": 0.400020464468115,
+  "factors": [
+    {
+      "name": "treasury_rate_increase_2021_08_10",
+      "category": "macroeconomic",
+      "direction": -0.25,
+      "magnitude": 0.5437665782493368,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate to 1.3600 on 2021-08-10 raised concerns about rising borrowing costs, negatively impacting equity valuations [1][17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45623342175066317,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed limited directional clarity."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_2021_08_10\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.3600 on 2021-08-10 raised concerns about rising borrowing costs, negatively impacting equity valuations [1][17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed limited directional clarity.\"\n  }\n]"
+}

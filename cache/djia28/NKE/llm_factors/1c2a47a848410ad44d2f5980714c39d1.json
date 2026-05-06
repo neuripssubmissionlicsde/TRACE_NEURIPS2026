@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-08-02",
+  "end_date": "2020-08-16",
+  "window_type": "monthly",
+  "price_change_pct": 8.568813706167374,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"indonesia_economic_contraction\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The Indonesian economy contracted by 5.32% in Q2 2020 due to COVID-19, impacting global market sentiment and potentially affecting NKE's international sales.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [23, 39, 47],\n    \"description\": \"The 10-Year Treasury Rate increased from 0.5600 to 0.7100 during the period, indicating rising investor confidence and contributing to bullish sentiment in equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

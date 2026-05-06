@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": -0.19500530599179,
+  "factors": [
+    {
+      "name": "vix_increase_april_2020",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.5213270142180094,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose significantly during this period, indicating increased market fear and contributing to downward pressure on CVX prices [17][41]."
+    },
+    {
+      "name": "oil_price_decline_april_2020",
+      "category": "sector_specific",
+      "direction": -0.4,
+      "magnitude": 0.2606635071090047,
+      "persistence": "short",
+      "description": "[conf=0.75] While specific articles on oil prices were not provided, the context of the period suggests that declining oil prices likely impacted CVX negatively, as it is a major oil company."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21800947867298573,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_april_2020\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 41],\n    \"description\": \"The VIX Volatility Index rose significantly during this period, indicating increased market fear and contributing to downward pressure on CVX prices [17][41].\"\n  },\n  {\n    \"name\": \"oil_price_decline_april_2020\",\n    \"category\": \"sector_specific\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"While specific articles on oil prices were not provided, the context of the period suggests that declining oil prices likely impacted CVX negatively, as it is a major oil company.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

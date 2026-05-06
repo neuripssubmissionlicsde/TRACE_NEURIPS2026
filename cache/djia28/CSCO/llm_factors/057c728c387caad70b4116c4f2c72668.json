@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-06-10",
+  "end_date": "2018-06-24",
+  "window_type": "monthly",
+  "price_change_pct": -0.962876376235128,
+  "factors": [
+    {
+      "name": "euro_value_decline_ecb_announcement",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.4081632653061225,
+      "persistence": "short",
+      "description": "[conf=0.85] The euro fell by one percent after the European Central Bank announced plans to halve bond purchases, which likely impacted investor sentiment towards US tech stocks like CSCO [9]."
+    },
+    {
+      "name": "treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.09999999999999999,
+      "magnitude": 0.3061224489795918,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate from 2.9800 to 2.8900 may have contributed to a bearish sentiment in the market, affecting CSCO's price [18]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2857142857142857,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"euro_value_decline_ecb_announcement\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 11],\n    \"description\": \"The euro fell by one percent after the European Central Bank announced plans to halve bond purchases, which likely impacted investor sentiment towards US tech stocks like CSCO [9].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [18, 34],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 2.9800 to 2.8900 may have contributed to a bearish sentiment in the market, affecting CSCO's price [18].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

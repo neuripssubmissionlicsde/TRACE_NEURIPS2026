@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-26",
+  "window_type": "monthly",
+  "price_change_pct": 7.063618794233142,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price movement.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 25],\n    \"description\": \"10-Year Treasury yields declined from 3.5600 to 3.4700, contributing to a favorable environment for equities [9, 25].\"\n  },\n  {\n    \"name\": \"stable_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [41, 25],\n    \"description\": \"10-Year Treasury yields remained stable around 3.3800, indicating a lack of immediate economic distress that could negatively impact equities [41, 25].\"\n  }\n]"
+}

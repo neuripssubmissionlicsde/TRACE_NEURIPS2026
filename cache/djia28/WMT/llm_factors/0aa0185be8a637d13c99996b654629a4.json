@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": 0.067462901835076,
+  "factors": [
+    {
+      "name": "stable_treasury_rates",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3645833333333333,
+      "persistence": "short",
+      "description": "[conf=0.80] Stable 10-Year Treasury rates around 2.89% during the period provided a favorable environment for equities, supporting WMT's price stability [1, 4, 10]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.2604166666666667,
+      "persistence": "medium",
+      "description": "[conf=0.75] The unemployment rate remained stable at 4.00%, indicating a resilient labor market which supports consumer spending and positively impacts retail stocks like WMT [28, 31]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.37500000000000006,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rates\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 4, 10],\n    \"description\": \"Stable 10-Year Treasury rates around 2.89% during the period provided a favorable environment for equities, supporting WMT's price stability [1, 4, 10].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [28, 31],\n    \"description\": \"The unemployment rate remained stable at 4.00%, indicating a resilient labor market which supports consumer spending and positively impacts retail stocks like WMT [28, 31].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-06-05",
+  "end_date": "2022-06-19",
+  "window_type": "monthly",
+  "price_change_pct": -5.387020239660464,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": -0.85,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.95] The Federal Reserve raised its benchmark interest rate by 0.75% to combat inflation, leading to a sell-off in equities as tighter monetary conditions reduced valuations."
+    },
+    {
+      "name": "global_market_selloff",
+      "category": "market_sentiment",
+      "direction": -0.64,
+      "magnitude": 0.27,
+      "persistence": "transient",
+      "description": "[conf=0.85] Global stocks and government bonds experienced a significant drop, with major indices declining sharply, contributing to negative sentiment in the market."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.18,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve raised its benchmark interest rate by 0.75% to combat inflation, leading to a sell-off in equities as tighter monetary conditions reduced valuations.\"\n  },\n  {\n    \"name\": \"global_market_selloff\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [20, 21, 22],\n    \"description\": \"Global stocks and government bonds experienced a significant drop, with major indices declining sharply, contributing to negative sentiment in the market.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained market movements.\"\n  }\n]"
+}

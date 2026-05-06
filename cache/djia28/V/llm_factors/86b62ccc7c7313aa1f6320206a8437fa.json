@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": -4.95289806118877,
+  "factors": [
+    {
+      "name": "ecb_interest_rate_hike_10th_time",
+      "category": "macroeconomic",
+      "direction": -0.6875,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The European Central Bank raised interest rates for the 10th time to combat high inflation, leading to concerns about economic slowdown and negatively impacting asset prices [1]."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.26,
+      "magnitude": 0.22999999999999998,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased to 4.32%, reflecting higher borrowing costs and contributing to bearish sentiment in the market [24]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22000000000000003,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_interest_rate_hike_10th_time\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank raised interest rates for the 10th time to combat high inflation, leading to concerns about economic slowdown and negatively impacting asset prices [1].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [24, 40],\n    \"description\": \"The 10-Year Treasury Rate increased to 4.32%, reflecting higher borrowing costs and contributing to bearish sentiment in the market [24].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment.\"\n  }\n]"
+}

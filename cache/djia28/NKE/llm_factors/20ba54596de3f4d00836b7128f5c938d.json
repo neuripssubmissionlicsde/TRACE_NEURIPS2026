@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-11-25",
+  "end_date": "2018-12-09",
+  "window_type": "monthly",
+  "price_change_pct": 1.6832460226698611,
+  "factors": [
+    {
+      "name": "north_korea_south_korea_relations",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.4095238095238095,
+      "persistence": "short",
+      "description": "[conf=0.85] Positive developments in North Korea-South Korea relations boosted market sentiment, contributing to NKE's price increase."
+    },
+    {
+      "name": "treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.23809523809523808,
+      "persistence": "short",
+      "description": "[conf=0.75] A decline in the 10-Year Treasury Rate from 3.0700 to 3.0100 during the window supported equity valuations, aiding NKE's price rise."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.35238095238095235,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_south_korea_relations\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],\n    \"description\": \"Positive developments in North Korea-South Korea relations boosted market sentiment, contributing to NKE's price increase.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [34, 35, 36, 37, 38, 39, 40],\n    \"description\": \"A decline in the 10-Year Treasury Rate from 3.0700 to 3.0100 during the window supported equity valuations, aiding NKE's price rise.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

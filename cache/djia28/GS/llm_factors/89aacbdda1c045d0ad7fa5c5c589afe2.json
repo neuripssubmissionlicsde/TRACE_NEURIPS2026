@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-18",
+  "window_type": "monthly",
+  "price_change_pct": 4.7626520511570964,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability_3.84\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 25],\n    \"description\": \"The stability of the 10-Year Treasury Rate at 3.84% [1] contributed to a favorable environment for equities, supporting GS's price increase.\"\n  },\n  {\n    \"name\": \"market_sentiment_positive\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Overall positive market sentiment during this period, reflected in GS's upward price movement despite minor fluctuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some stochastic price movements.\"\n  }\n]"
+}

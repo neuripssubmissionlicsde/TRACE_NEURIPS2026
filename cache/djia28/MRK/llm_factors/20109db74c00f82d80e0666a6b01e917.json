@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-12-20",
+  "end_date": "2021-01-03",
+  "window_type": "monthly",
+  "price_change_pct": 3.8071007361387776,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4954128440366972,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "unemployment_rate_stabilization",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5045871559633028,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate stabilized at 6.4%, indicating a potential recovery in the labor market, which positively influenced investor sentiment [33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 39],\n    \"description\": \"The unemployment rate remained stable at 6.4%, contributing to positive sentiment around economic recovery [33].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 0.94%, indicating low borrowing costs and supporting equity valuations [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

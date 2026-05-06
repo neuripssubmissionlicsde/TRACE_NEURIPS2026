@@ -1,0 +1,49 @@
+{
+  "start_date": "2018-04-15",
+  "end_date": "2018-04-29",
+  "window_type": "monthly",
+  "price_change_pct": -0.4224512896572515,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.30612244897959184,
+      "persistence": "short",
+      "description": "[conf=0.70] The price of crude oil experienced fluctuations during this period, which likely impacted XOM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.2,
+      "magnitude": 0.14285714285714285,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment was cautious, influenced by broader economic concerns, which may have contributed to the decline in XOM's price."
+    },
+    {
+      "name": "earnings_report_anticipation",
+      "category": "company_specific",
+      "direction": -0.24,
+      "magnitude": 0.20408163265306123,
+      "persistence": "short",
+      "description": "[conf=0.50] Investors may have been cautious ahead of upcoming earnings reports, leading to a bearish sentiment around XOM."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.14285714285714285,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to the price movement during this period."
+    },
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": -0.3,
+      "magnitude": 0.20408163265306126,
+      "persistence": "short",
+      "description": "[conf=0.60] Ongoing geopolitical tensions in oil-producing regions may have contributed to bearish sentiment in the energy sector."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The price of crude oil experienced fluctuations during this period, which likely impacted XOM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was cautious, influenced by broader economic concerns, which may have contributed to the decline in XOM's price.\"\n    },\n    {\n        \"name\": \"earnings_report_anticipation\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Investors may have been cautious ahead of upcoming earnings reports, leading to a bearish sentiment around XOM.\"\n    },\n    {\n        \"name\": \"technical_retracement\",\n        \"category\": \"technical\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's stock may have experienced a technical retracement after a previous rally, contributing to the price decline.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to the price movement during this period.\"\n    }\n]"
+}

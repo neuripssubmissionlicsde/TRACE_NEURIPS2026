@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": 6.151827524962884,
+  "factors": [
+    {
+      "name": "food_price_index_increase_march_2022",
+      "category": "geopolitical",
+      "direction": 0.65,
+      "magnitude": 0.5238095238095238,
+      "persistence": "short",
+      "description": "[conf=0.90] The Food and Agriculture Organisation's food price index increased by 13% in March, driven by the fallout from the Russian invasion of Ukraine, which likely boosted investor sentiment in healthcare stocks like UNH."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.23809523809523808,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.7%, indicating a resilient labor market that supports consumer spending and healthcare demand."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23809523809523808,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"food_price_index_increase_march_2022\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Food and Agriculture Organisation's food price index increased by 13% in March, driven by the fallout from the Russian invasion of Ukraine, which likely boosted investor sentiment in healthcare stocks like UNH.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [24],\n    \"description\": \"The unemployment rate remained stable at 3.7%, indicating a resilient labor market that supports consumer spending and healthcare demand.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

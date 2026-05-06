@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-12-05",
+  "end_date": "2021-12-19",
+  "window_type": "monthly",
+  "price_change_pct": 7.734157204042165,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver."
+    },
+    {
+      "name": "declining_treasury_yields_dec_2021",
+      "category": "macroeconomic",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.5789473684210527,
+      "persistence": "short",
+      "description": "[conf=0.90] The decline in the 10-Year Treasury Rate from 1.4800 to 1.4100 during this period indicated a shift towards lower borrowing costs, positively impacting equity valuations, including UNH [9, 10, 41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_december_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.4800 to 1.4100 [9] contributed to a bullish sentiment in equities, including UNH, as lower yields typically support higher valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver.\"\n  }\n]"
+}

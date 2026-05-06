@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -20.319865534881036,
+  "factors": [
+    {
+      "name": "fed_rate_cut_0.5pct_march_2020",
+      "category": "macroeconomic",
+      "direction": -0.6666666666666666,
+      "magnitude": 0.5032467532467533,
+      "persistence": "short",
+      "description": "[conf=0.90] The Fed cut the federal funds rate by 0.5% in an emergency move, leading to a broader market sell-off as investors reacted negatively to the economic implications [1][5]."
+    },
+    {
+      "name": "dow_jones_bear_market_entry",
+      "category": "market_sentiment",
+      "direction": -0.56,
+      "magnitude": 0.3214285714285714,
+      "persistence": "short",
+      "description": "[conf=0.85] The Dow Jones Industrial Average plunged 1,400 points and entered a bear market, contributing to negative sentiment across equities [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.17532467532467533,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_0.5pct_march_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 5],\n    \"description\": \"The Fed cut the federal funds rate by 0.5% in an emergency move, leading to a broader market sell-off as investors reacted negatively to the economic implications [1][5].\"\n  },\n  {\n    \"name\": \"dow_jones_bear_market_entry\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25],\n    \"description\": \"The Dow Jones Industrial Average plunged 1,400 points and entered a bear market, contributing to negative sentiment across equities [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period.\"\n  }\n]"
+}

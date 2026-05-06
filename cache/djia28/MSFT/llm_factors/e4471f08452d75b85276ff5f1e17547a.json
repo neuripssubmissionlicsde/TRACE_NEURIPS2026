@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -2.634955809187601,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] General market sentiment was bearish during this period, contributing to the decline in MSFT's price."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.32,
+      "magnitude": 0.21000000000000002,
+      "persistence": "short",
+      "description": "[conf=0.50] Concerns regarding MSFT's recent earnings performance may have influenced investor sentiment negatively."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.26,
+      "magnitude": 0.21999999999999997,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested a potential reversal, which may have prompted selling pressure."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.27,
+      "persistence": "transient",
+      "description": "[conf=0.70] Unexplained random variance in trading activity contributed to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was bearish during this period, contributing to the decline in MSFT's price.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Concerns regarding MSFT's recent earnings performance may have influenced investor sentiment negatively.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested a potential reversal, which may have prompted selling pressure.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.7,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations.\"\n    }\n]"
+}

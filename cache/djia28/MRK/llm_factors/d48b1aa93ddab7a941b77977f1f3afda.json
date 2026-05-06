@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-10-13",
+  "end_date": "2019-10-27",
+  "window_type": "monthly",
+  "price_change_pct": -2.5008830673475884,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5494505494505495,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": -0.25,
+      "magnitude": 0.45054945054945056,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable at 1.7700 during the period, contributing to bearish sentiment in the market [1][9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 1.7700 during the period, contributing to bearish sentiment in the market [1][9].\"\n  },\n  {\n    \"name\": \"market_volatility_increase\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Increased market volatility during the period led to heightened uncertainty, contributing to the price decline.\"\n  }\n]"
+}

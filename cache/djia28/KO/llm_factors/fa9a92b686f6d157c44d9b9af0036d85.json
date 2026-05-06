@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-10-28",
+  "end_date": "2018-11-11",
+  "window_type": "monthly",
+  "price_change_pct": 7.648928912922848,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.65,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the significant price movement."
+    },
+    {
+      "name": "geopolitical_uncertainty_brexit",
+      "category": "geopolitical",
+      "direction": 0.35,
+      "magnitude": 0.35,
+      "persistence": "short",
+      "description": "[conf=0.75] Increased geopolitical uncertainty surrounding Brexit preparations by the Netherlands' financial authority may have contributed to market sentiment affecting KO's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the significant price movement.\"\n  },\n  {\n    \"name\": \"geopolitical_uncertainty_brexit\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.35,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Increased geopolitical uncertainty surrounding Brexit preparations by the Netherlands' financial authority may have contributed to market sentiment affecting KO's price.\"\n  }\n]"
+}

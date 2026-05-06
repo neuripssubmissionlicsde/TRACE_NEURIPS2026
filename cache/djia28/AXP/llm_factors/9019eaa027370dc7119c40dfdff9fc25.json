@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-29",
+  "end_date": "2020-04-12",
+  "window_type": "monthly",
+  "price_change_pct": 7.724224264064918,
+  "factors": [
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.525,
+      "magnitude": 0.379746835443038,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable around 0.62% to 0.77% during this period, contributing to a favorable borrowing environment and supporting equity valuations [1, 25]."
+    },
+    {
+      "name": "market_sentiment_recovery",
+      "category": "market_sentiment",
+      "direction": 0.39999999999999997,
+      "magnitude": 0.26898734177215194,
+      "persistence": "medium",
+      "description": "[conf=0.80] General market sentiment improved as investors began to price in recovery from the initial COVID-19 shock, leading to increased buying activity."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.35126582278481017,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market movements during this volatile period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17, 25],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 0.62% to 0.77% during this period, contributing to a favorable borrowing environment and supporting equity valuations [1, 25].\"\n  },\n  {\n    \"name\": \"market_sentiment_recovery\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment improved as investors began to price in recovery from the initial COVID-19 shock, leading to increased buying activity.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market movements during this volatile period.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-10-25",
+  "end_date": "2020-11-08",
+  "window_type": "monthly",
+  "price_change_pct": -3.2105102880896115,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5226130653266332,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    },
+    {
+      "name": "australia_cash_rate_cut",
+      "category": "macroeconomic",
+      "direction": -0.475,
+      "magnitude": 0.4773869346733668,
+      "persistence": "medium",
+      "description": "[conf=0.75] The Reserve Bank of Australia slashed its cash rate to a historic low, which may have influenced global market sentiment negatively, impacting CAT's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"australia_cash_rate_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The Reserve Bank of Australia slashed its cash rate to a historic low, which may have influenced global market sentiment negatively, impacting CAT's price.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"long\",\n    \"confidence\": 0.50,\n    \"source_articles\": [5, 6, 7, 8],\n    \"description\": \"The Federal Funds Effective Rate remained stable, indicating no immediate tightening, but did not provide bullish support for CAT.\"\n  }\n]"
+}

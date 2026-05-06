@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": 0.5218479449976037,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"stable_treasury_rate_3.44\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33, 41],\n    \"description\": \"The 10-Year Treasury Rate stabilized around 3.44% [33, 41], contributing to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"consolidation_period\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Price movements were largely range-bound with minimal fluctuations, indicating a consolidation phase.\"\n  }\n]"
+}

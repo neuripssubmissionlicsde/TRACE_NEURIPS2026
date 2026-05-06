@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-01-06",
+  "end_date": "2019-01-20",
+  "window_type": "monthly",
+  "price_change_pct": 8.147778529894206,
+  "factors": [
+    {
+      "name": "positive_market_sentiment_january_2019",
+      "category": "market_sentiment",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] Overall positive market sentiment in January 2019 contributed to the bullish price movement."
+    },
+    {
+      "name": "rising_10_year_treasury_rate_january_2019",
+      "category": "macroeconomic",
+      "direction": 0.2,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate to 2.79% on January 18 indicated a shift in investor expectations, which may have supported the stock price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"positive_market_sentiment_january_2019\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"Overall positive market sentiment in January 2019 contributed to the bullish price movement.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate_january_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 33],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 2.79% on January 18 indicated a shift in investor expectations, which may have supported the stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

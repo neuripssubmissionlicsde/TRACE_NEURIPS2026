@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-17",
+  "end_date": "2021-01-31",
+  "window_type": "monthly",
+  "price_change_pct": -7.355163732115094,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5113886847905951,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the significant price decline."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.3375,
+      "magnitude": 0.2975753122703894,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 1.0500 on January 25 may have contributed to bearish sentiment in the market [17], impacting AXP's price."
+    },
+    {
+      "name": "sec_filings",
+      "category": "company_specific",
+      "direction": -0.21666666666666667,
+      "magnitude": 0.19103600293901543,
+      "persistence": "transient",
+      "description": "[conf=0.70] The SEC filings on January 26 and 27 may have raised concerns among investors regarding regulatory scrutiny, contributing to the negative sentiment around AXP."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the significant price decline.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.0500 on January 25 may have contributed to bearish sentiment in the market [17], impacting AXP's price.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 41],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 1.1000 prior to the decline may have created uncertainty, contributing to the downward pressure on AXP's stock price [9].\"\n  },\n  {\n    \"name\": \"sec_filings\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2],\n    \"description\": \"The SEC filings on January 26 and 27 may have raised concerns among investors regarding regulatory scrutiny, contributing to the negative sentiment around AXP.\"\n  }\n]"
+}

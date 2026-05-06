@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": -5.047535935611152,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment surrounding broader economic concerns likely contributed to the decline in DIS's stock price."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.44000000000000006,
+      "magnitude": 0.34,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns about DIS's performance in the streaming sector and potential subscriber growth may have negatively impacted investor confidence."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.31999999999999995,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators may have suggested a bearish trend, prompting selling pressure among traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.15999999999999998,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to price fluctuations during this period."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment surrounding broader economic concerns likely contributed to the decline in DIS's stock price.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns about DIS's performance in the streaming sector and potential subscriber growth may have negatively impacted investor confidence.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have suggested a bearish trend, prompting selling pressure among traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations during this period.\"\n    }\n]"
+}

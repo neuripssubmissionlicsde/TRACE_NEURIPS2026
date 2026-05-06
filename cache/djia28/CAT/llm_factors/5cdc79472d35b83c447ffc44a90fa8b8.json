@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": -13.942885021433742,
+  "factors": [
+    {
+      "name": "cpi_release_market_reaction",
+      "category": "macroeconomic",
+      "direction": -0.8,
+      "magnitude": 0.5541561712846348,
+      "persistence": "short",
+      "description": "[conf=0.90] The release of the Bureau of Labor Statistics consumer price index for August led to a significant market reaction, causing all stocks in the Dow Jones Industrial Average to decrease, including CAT."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.26448362720403024,
+      "persistence": "medium",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate during this period contributed to bearish sentiment in the equity markets, impacting CAT's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.18136020151133503,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_market_reaction\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The release of the Bureau of Labor Statistics consumer price index for August led to a significant market reaction, causing all stocks in the Dow Jones Industrial Average to decrease, including CAT.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [5, 9, 25],\n    \"description\": \"The increase in the 10-Year Treasury Rate during this period contributed to bearish sentiment in the equity markets, impacting CAT's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

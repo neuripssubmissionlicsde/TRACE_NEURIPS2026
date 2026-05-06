@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-04-25",
+  "end_date": "2021-05-09",
+  "window_type": "monthly",
+  "price_change_pct": 1.418529683833651,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4639175257731959,
+      "persistence": "long",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.0600, contributing to a favorable borrowing environment that supported equity valuations [1-8]."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.30927835051546393,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate fluctuated, dropping to 1.5800 on May 6, which may have influenced investor sentiment and risk appetite [9, 17, 25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22680412371134023,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.0600, contributing to a favorable borrowing environment that supported equity valuations [1-8].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 17, 25],\n    \"description\": \"The 10-Year Treasury Rate fluctuated, dropping to 1.5800 on May 6, which may have influenced investor sentiment and risk appetite [9, 17, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations during the period.\"\n  }\n]"
+}

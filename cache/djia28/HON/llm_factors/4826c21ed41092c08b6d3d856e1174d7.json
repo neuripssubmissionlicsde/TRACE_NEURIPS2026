@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -4.342366847981506,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.1,
+      "magnitude": 0.2131979695431472,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate remained stable at 4.0%, indicating a steady labor market which may have contributed to market sentiment."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.075,
+      "magnitude": 0.27918781725888325,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined during the period, reflecting changing investor sentiment towards risk and potentially impacting equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5076142131979695,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating a significant amount of market noise during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 4.0%, indicating a steady labor market which may have contributed to market sentiment.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16, 25, 26, 27, 28, 29, 30, 31, 32, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],\n    \"description\": \"The 10-Year Treasury Rate declined during the period, reflecting changing investor sentiment towards risk and potentially impacting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating a significant amount of market noise during this period.\"\n  }\n]"
+}

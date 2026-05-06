@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-10-13",
+  "end_date": "2019-10-27",
+  "window_type": "monthly",
+  "price_change_pct": -3.481947279494904,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.49877750611246946,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market sentiment fluctuations."
+    },
+    {
+      "name": "north_korea_patience_warning",
+      "category": "geopolitical",
+      "direction": -0.5750000000000001,
+      "magnitude": 0.5012224938875305,
+      "persistence": "transient",
+      "description": "[conf=0.85] North Korea warned of deteriorating relations with the U.S., increasing geopolitical tensions and negatively impacting market sentiment [49][50]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_tensions\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"Increased tensions with North Korea as the government expressed impatience with the U.S., contributing to market uncertainty and negatively impacting NKE's stock price [49][50].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market sentiment fluctuations.\"\n  }\n]"
+}

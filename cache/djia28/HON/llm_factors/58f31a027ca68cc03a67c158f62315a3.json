@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-12-06",
+  "end_date": "2020-12-20",
+  "window_type": "monthly",
+  "price_change_pct": -0.6950292886141072,
+  "factors": [
+    {
+      "name": "internal_market_bill_brexit",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.52,
+      "persistence": "short",
+      "description": "[conf=0.85] The ongoing discussions and uncertainties surrounding the Internal Market Bill related to Brexit created negative sentiment, impacting market confidence and contributing to the price decline."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48000000000000004,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"internal_market_bill_brexit\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n    \"description\": \"The ongoing discussions and uncertainties surrounding the Internal Market Bill related to Brexit created negative sentiment, impacting market confidence and contributing to the price decline.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period.\"\n  }\n]"
+}

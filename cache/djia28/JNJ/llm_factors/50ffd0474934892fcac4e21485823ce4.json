@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": -0.34770194760377077,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2532467532467533,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by various competing market sentiments."
+    },
+    {
+      "name": "ecb_interest_rate_hike_10th_time",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.45454545454545453,
+      "persistence": "medium",
+      "description": "[conf=0.85] The European Central Bank raised interest rates for the 10th time to combat high inflation, contributing to bearish sentiment in the market [1]."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.2922077922077922,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate rose to 4.4900, indicating increased borrowing costs which negatively impacted equity valuations [10, 11]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The European Central Bank raised interest rates for the 10th time to combat high inflation, contributing to bearish sentiment in the market [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [10, 11],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.4900, indicating increased borrowing costs which negatively impacted equity valuations [10, 11].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by various competing market sentiments.\"\n  }\n]"
+}

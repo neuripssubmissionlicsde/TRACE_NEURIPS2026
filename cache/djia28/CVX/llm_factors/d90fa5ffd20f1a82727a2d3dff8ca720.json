@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-10-10",
+  "end_date": "2021-10-24",
+  "window_type": "monthly",
+  "price_change_pct": 2.9572671877731462,
+  "factors": [
+    {
+      "name": "vix_decline_2021_10_21",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.472636815920398,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined to 15.01 on 2021-10-21, indicating reduced market fear and contributing to bullish sentiment for equities [9, 49]."
+    },
+    {
+      "name": "vix_increase_2021_10_12",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.24875621890547267,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX Volatility Index increased to 19.85 on 2021-10-12, reflecting heightened market uncertainty which may have temporarily pressured prices [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2786069651741294,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2021_10_21\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 49],\n    \"description\": \"The VIX Volatility Index declined to 15.01 on 2021-10-21, indicating reduced market fear and contributing to bullish sentiment for equities [9, 49].\"\n  },\n  {\n    \"name\": \"vix_increase_2021_10_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"The VIX Volatility Index increased to 19.85 on 2021-10-12, reflecting heightened market uncertainty which may have temporarily pressured prices [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

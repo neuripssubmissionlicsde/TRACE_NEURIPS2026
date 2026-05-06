@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-02-26",
+  "end_date": "2023-03-12",
+  "window_type": "monthly",
+  "price_change_pct": -10.375264668310862,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2023_03_01",
+      "category": "macroeconomic",
+      "direction": -0.54,
+      "magnitude": 0.52,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 4.01% on March 1, contributing to bearish sentiment in equity markets as higher yields typically reduce the attractiveness of stocks."
+    },
+    {
+      "name": "declining_treasury_yields_2023_03_06",
+      "category": "macroeconomic",
+      "direction": 0.32,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined to 3.98% on March 6, providing a brief bullish sentiment that was not enough to offset prior bearish trends."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22000000000000003,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2023_03_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.01% on March 1, contributing to bearish sentiment in equity markets as higher yields typically reduce the attractiveness of stocks.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields_2023_03_06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.98% on March 6, providing a brief bullish sentiment that was not enough to offset prior bearish trends.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market movements during the period.\"\n  }\n]"
+}

@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-18",
+  "window_type": "monthly",
+  "price_change_pct": 0.1315991747267232,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.15999999999999998,
+      "magnitude": 0.371900826446281,
+      "persistence": "short",
+      "description": "[conf=0.60] General market sentiment during this period was cautiously optimistic, contributing to slight upward pressure on DIS prices."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": 0.06666666666666667,
+      "magnitude": 0.12396694214876036,
+      "persistence": "medium",
+      "description": "[conf=0.50] Average daily volume was relatively high, indicating sufficient liquidity which can support price stability."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.42148760330578516,
+      "persistence": "transient",
+      "description": "[conf=0.80] A portion of the price movement can be attributed to random noise and market fluctuations that are not easily explained."
+    },
+    {
+      "name": "consolidation",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.08264462809917356,
+      "persistence": "medium",
+      "description": "[conf=0.50] The price action exhibited characteristics of consolidation, indicating a range-bound market with limited directional movement."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment during this period was cautiously optimistic, contributing to slight upward pressure on DIS prices.\"\n    },\n    {\n        \"name\": \"technical_consolidation\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The price movement exhibited characteristics of consolidation, with limited volatility and range-bound trading.\"\n    },\n    {\n        \"name\": \"company_specific_news\",\n        \"category\": \"company_specific\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"There were some company-specific announcements that may have influenced investor perception, though their impact was limited.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"Average daily volume was relatively high, indicating sufficient liquidity which can support price stability.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"A portion of the price movement can be attributed to random noise and market fluctuations that are not easily explained.\"\n    }\n]"
+}

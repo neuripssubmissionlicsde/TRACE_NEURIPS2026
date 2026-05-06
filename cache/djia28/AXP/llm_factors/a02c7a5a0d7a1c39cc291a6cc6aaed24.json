@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-07-21",
+  "end_date": "2019-08-04",
+  "window_type": "monthly",
+  "price_change_pct": -0.3526909548527322,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_1.86",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3761755485893417,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 1.86% on 2019-08-02 indicated a shift towards lower interest rates, which generally supports equity valuations [9]."
+    },
+    {
+      "name": "treasury_rate_decline_1.90",
+      "category": "macroeconomic",
+      "direction": 0.3666666666666667,
+      "magnitude": 0.3134796238244514,
+      "persistence": "short",
+      "description": "[conf=0.80] The earlier decline in the 10-Year Treasury Rate to 1.90% on 2019-08-01 contributed to a favorable environment for equities, influencing investor sentiment positively [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3103448275862068,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_1.86\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.86% on 2019-08-02 indicated a shift towards lower interest rates, which generally supports equity valuations [9].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_1.90\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"The earlier decline in the 10-Year Treasury Rate to 1.90% on 2019-08-01 contributed to a favorable environment for equities, influencing investor sentiment positively [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

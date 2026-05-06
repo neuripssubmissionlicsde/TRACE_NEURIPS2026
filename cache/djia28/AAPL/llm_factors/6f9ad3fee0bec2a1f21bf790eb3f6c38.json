@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": 5.19394903561226,
+  "factors": [
+    {
+      "name": "strong_earnings_report",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.4000000000000001,
+      "persistence": "short",
+      "description": "[conf=0.80] AAPL's strong earnings report released during this period likely contributed to the upward price movement."
+    },
+    {
+      "name": "positive_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.30000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.70] General positive sentiment in the tech sector and broader market may have supported AAPL's price increase."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.20000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.60] AAPL's price breaking above key resistance levels likely attracted technical traders, contributing to the upward movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10000000000000002,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity may have influenced price movements without clear causation."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"strong_earnings_report\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.8,\n        \"description\": \"AAPL's strong earnings report released during this period likely contributed to the upward price movement.\"\n    },\n    {\n        \"name\": \"positive_market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General positive sentiment in the tech sector and broader market may have supported AAPL's price increase.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"AAPL's price breaking above key resistance levels likely attracted technical traders, contributing to the upward movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity may have influenced price movements without clear causation.\"\n    }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-29",
+  "window_type": "monthly",
+  "price_change_pct": 10.781786053574654,
+  "factors": [
+    {
+      "name": "bank_of_canada_rate_hike_4.5pct",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5339805825242718,
+      "persistence": "short",
+      "description": "[conf=0.85] The Bank of Canada raised its benchmark interest rate to 4.5%, which likely influenced investor sentiment positively towards financial stocks like AXP amid expectations of continued economic strength."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4660194174757281,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear single driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_canada_rate_hike_4.5pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The Bank of Canada raised its benchmark interest rate to 4.5%, which likely influenced investor sentiment positively towards financial stocks like AXP amid expectations of continued economic strength.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear single driver.\"\n  }\n]"
+}

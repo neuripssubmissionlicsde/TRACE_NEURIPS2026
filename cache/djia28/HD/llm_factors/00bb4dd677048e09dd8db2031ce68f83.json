@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -0.5566558654853088,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5955882352941176,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "treasury_rate_decline_2022_dec",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4044117647058824,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 3.6000 to 3.4800 during this period may have supported equity valuations, contributing to a less bearish sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2022_12_09\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.5700 on 2022-12-09 [9] contributed to a more favorable borrowing environment, supporting equity valuations [10].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_2022_12_15\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 42],\n    \"description\": \"The stability of the 10-Year Treasury Rate at 3.4400 on 2022-12-15 [41] helped maintain investor confidence, preventing further declines in HD's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

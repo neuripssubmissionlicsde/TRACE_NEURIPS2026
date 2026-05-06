@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": 0.8266084072832907,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.45999999999999996,
+      "magnitude": 0.35555555555555557,
+      "persistence": "short",
+      "description": "[conf=0.70] General positive market sentiment during this period contributed to upward price movement."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 0.3,
+      "magnitude": 0.22222222222222224,
+      "persistence": "short",
+      "description": "[conf=0.60] JPMorgan Chase's strong earnings report released prior to this period likely influenced investor confidence."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.31111111111111106,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations and noise contributed to price changes that cannot be attributed to specific factors."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 0.20000000000000004,
+      "magnitude": 0.11111111111111113,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators may have suggested a bullish trend, attracting momentum traders."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General positive market sentiment during this period contributed to upward price movement.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": 0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"JPMorgan Chase's strong earnings report released prior to this period likely influenced investor confidence.\"\n    },\n    {\n        \"name\": \"macroeconomic\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"Economic recovery signals and stimulus measures during this time may have supported financial sector stocks.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Increased liquidity in the market due to monetary policy actions may have provided support for stock prices.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations and noise contributed to price changes that cannot be attributed to specific factors.\"\n    }\n]"
+}

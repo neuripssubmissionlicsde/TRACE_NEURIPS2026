@@ -1,0 +1,49 @@
+{
+  "start_date": "2020-01-19",
+  "end_date": "2020-02-02",
+  "window_type": "monthly",
+  "price_change_pct": -3.520665620152789,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.2784222737819025,
+      "persistence": "short",
+      "description": "[conf=0.70] General market sentiment was bearish during this period, influenced by concerns over economic growth."
+    },
+    {
+      "name": "macroeconomic_indicators",
+      "category": "macroeconomic",
+      "direction": -0.375,
+      "magnitude": 0.22041763341067283,
+      "persistence": "short",
+      "description": "[conf=0.60] Weak macroeconomic indicators, including slowing GDP growth forecasts, contributed to negative sentiment."
+    },
+    {
+      "name": "sector_specific_trends",
+      "category": "sector_specific",
+      "direction": -0.26666666666666666,
+      "magnitude": 0.18561484918793505,
+      "persistence": "medium",
+      "description": "[conf=0.50] The financial sector faced headwinds due to low interest rate expectations, impacting bank stocks like JPM."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -0.22499999999999998,
+      "magnitude": 0.13921113689095127,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showed sell signals, prompting some traders to exit positions."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.17633410672853828,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations contributed to price changes that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General market sentiment was bearish during this period, influenced by concerns over economic growth.\"\n    },\n    {\n        \"name\": \"macroeconomic_indicators\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Weak macroeconomic indicators, including slowing GDP growth forecasts, contributed to negative sentiment.\"\n    },\n    {\n        \"name\": \"sector_specific_trends\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"The financial sector faced headwinds due to low interest rate expectations, impacting bank stocks like JPM.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed sell signals, prompting some traders to exit positions.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations contributed to price changes that cannot be attributed to observable factors.\"\n    }\n]"
+}

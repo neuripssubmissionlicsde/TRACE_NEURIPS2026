@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-09-27",
+  "end_date": "2020-10-11",
+  "window_type": "monthly",
+  "price_change_pct": 0.48888410748474526,
+  "factors": [
+    {
+      "name": "vix_increase_2020_10_01",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3667711598746081,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased to 26.7 on 2020-10-01, indicating rising market volatility and contributing to bearish sentiment around CVX."
+    },
+    {
+      "name": "vix_increase_2020_10_02",
+      "category": "macroeconomic",
+      "direction": -0.43333333333333335,
+      "magnitude": 0.31347962382445144,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX rose to 27.63 on 2020-10-02, further heightening market uncertainty and negatively impacting CVX's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.31974921630094044,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2020_10_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 41],\n    \"description\": \"The VIX increased to 26.7 on 2020-10-01, indicating rising market volatility and contributing to bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"vix_increase_2020_10_02\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 18],\n    \"description\": \"The VIX rose to 27.63 on 2020-10-02, further heightening market uncertainty and negatively impacting CVX's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

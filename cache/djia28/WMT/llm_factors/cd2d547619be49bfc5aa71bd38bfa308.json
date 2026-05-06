@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-31",
+  "end_date": "2021-02-14",
+  "window_type": "monthly",
+  "price_change_pct": 2.5264366076132596,
+  "factors": [
+    {
+      "name": "wmt_sec_filing_2021_02_05",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.38095238095238104,
+      "persistence": "transient",
+      "description": "[conf=0.85] Walmart filed with the SEC on 2021-02-05, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "rising_treasury_yields_2021_02_11",
+      "category": "macroeconomic",
+      "direction": -0.14999999999999997,
+      "magnitude": 0.28571428571428575,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate rose to 1.1600 on 2021-02-11, which typically pressures equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.33333333333333337,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"wmt_sec_filing_2021_02_05\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Walmart filed with the SEC on 2021-02-05, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_2021_02_11\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 7],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.1600 on 2021-02-11, which typically pressures equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

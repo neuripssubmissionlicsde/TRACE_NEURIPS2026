@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-27",
+  "window_type": "monthly",
+  "price_change_pct": 0.13470015644480418,
+  "factors": [
+    {
+      "name": "moscow_stock_exchange_selloff",
+      "category": "geopolitical",
+      "direction": -0.54,
+      "magnitude": 0.52,
+      "persistence": "short",
+      "description": "[conf=0.90] A massive selloff on the Moscow Stock Exchange due to geopolitical tensions led to increased market volatility and risk aversion, negatively impacting UNH's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"moscow_stock_exchange_selloff\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"A massive selloff on the Moscow Stock Exchange due to geopolitical tensions led to increased market volatility and risk aversion, negatively impacting UNH's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

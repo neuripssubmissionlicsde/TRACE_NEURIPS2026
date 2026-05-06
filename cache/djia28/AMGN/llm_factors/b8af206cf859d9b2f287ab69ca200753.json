@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-03-18",
+  "end_date": "2018-04-01",
+  "window_type": "monthly",
+  "price_change_pct": -8.975403398673471,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": -0.1,
+      "magnitude": 0.3896103896103896,
+      "persistence": "short",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained stable at 1.6900, indicating no immediate monetary policy changes that could influence market sentiment."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.04,
+      "magnitude": 0.28571428571428575,
+      "persistence": "short",
+      "description": "[conf=0.75] The unemployment rate held steady at 4.0000, suggesting a stable labor market that did not contribute to significant market movements."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3246753246753247,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.6900, indicating no immediate monetary policy changes that could influence market sentiment.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [6, 7, 8, 9, 10],\n    \"description\": \"The unemployment rate held steady at 4.0000, suggesting a stable labor market that did not contribute to significant market movements.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [11, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 2.8900 to 2.7700 indicated a flight to safety, contributing to bearish sentiment in equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

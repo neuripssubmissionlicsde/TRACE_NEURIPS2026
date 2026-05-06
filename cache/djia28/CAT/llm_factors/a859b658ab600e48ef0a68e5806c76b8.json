@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-04-11",
+  "end_date": "2021-04-25",
+  "window_type": "monthly",
+  "price_change_pct": 0.36917171412181177,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2021_april",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4411764705882353,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate to 1.5800 on April 20 influenced investor sentiment positively, suggesting confidence in economic recovery [5, 9]."
+    },
+    {
+      "name": "stable_treasury_spread_2021_april",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.24509803921568626,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10Y-2Y Treasury Spread around 1.4000 to 1.4200 indicated a balanced economic outlook, supporting equity valuations [41, 45]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3137254901960784,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_april\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 9, 41],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.5800 on April 20 influenced investor sentiment positively, suggesting confidence in economic recovery [5, 9].\"\n  },\n  {\n    \"name\": \"stable_treasury_spread_2021_april\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 45],\n    \"description\": \"The stability of the 10Y-2Y Treasury Spread around 1.4000 to 1.4200 indicated a balanced economic outlook, supporting equity valuations [41, 45].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

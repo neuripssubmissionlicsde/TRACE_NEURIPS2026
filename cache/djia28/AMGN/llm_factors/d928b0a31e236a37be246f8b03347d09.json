@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-03-26",
+  "end_date": "2023-04-09",
+  "window_type": "monthly",
+  "price_change_pct": 5.721785998148894,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_3.30",
+      "category": "macroeconomic",
+      "direction": 0.44999999999999996,
+      "magnitude": 0.31358885017421606,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 3.30%, which typically lowers borrowing costs and supports equity prices [11][36]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.25087108013937276,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "fed_funds_rate_release_4.83",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.4355400696864111,
+      "persistence": "short",
+      "description": "[conf=0.85] The Federal Funds Effective Rate was reported at 4.83%, indicating a tightening monetary policy that generally supports higher equity valuations [6][10]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_4.83\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [6, 10],\n    \"description\": \"The Federal Funds Effective Rate was reported at 4.83%, indicating a tightening monetary policy that generally supports higher equity valuations [6][10].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_3.30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [11, 36],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.30%, which typically lowers borrowing costs and supports equity prices [11][36].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

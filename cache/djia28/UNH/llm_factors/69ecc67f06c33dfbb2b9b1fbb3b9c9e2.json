@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-03-31",
+  "end_date": "2019-04-14",
+  "window_type": "monthly",
+  "price_change_pct": -10.60829998953421,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.2346938775510204,
+      "persistence": "short",
+      "description": "[conf=0.70] The unemployment rate remained stable at 3.7%, indicating a solid labor market which may have provided some support to investor sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5102040816326531,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.25510204081632654,
+      "persistence": "transient",
+      "description": "[conf=0.75] The 10-Year Treasury yield fluctuated, with a notable increase to 2.56% on April 12, which typically pressures equity valuations negatively [9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 3.7%, indicating a solid labor market which may have provided some support to investor sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 33],\n    \"description\": \"The 10-Year Treasury yield rose to 2.56%, leading to increased borrowing costs and negatively impacting equity valuations, particularly in the healthcare sector.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

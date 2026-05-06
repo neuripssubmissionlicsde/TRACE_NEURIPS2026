@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-01-01",
+  "end_date": "2023-01-15",
+  "window_type": "monthly",
+  "price_change_pct": 4.5204493497875715,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_january_2023",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.7333333333333334,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate to 3.49% on January 13 [9] indicated rising borrowing costs, which typically supports financial sector stocks like AXP."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_january_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 33],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 3.49% on January 13 [9] indicated rising borrowing costs, which typically supports financial sector stocks like AXP.\"\n  },\n  {\n    \"name\": \"strong_consumer_sentiment_january_2023\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"General positive sentiment around consumer spending during the holiday season likely contributed to AXP's price increase, although specific articles were not identified.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

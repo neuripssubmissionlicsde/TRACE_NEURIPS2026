@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-05-12",
+  "end_date": "2019-05-26",
+  "window_type": "monthly",
+  "price_change_pct": 2.0767164159438414,
+  "factors": [
+    {
+      "name": "sec_filing_amgen_2019_05_21",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "[conf=0.85] Amgen filed with the SEC on 2019-05-21, which may have positively influenced investor sentiment and contributed to the price increase."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate showed stability around 2.3200 during this period, which may have supported equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_amgen_2019_05_21\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Amgen filed with the SEC on 2019-05-21, which may have positively influenced investor sentiment and contributed to the price increase.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 6, 11, 16],\n    \"description\": \"The 10-Year Treasury Rate showed stability around 2.3200 during this period, which may have supported equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

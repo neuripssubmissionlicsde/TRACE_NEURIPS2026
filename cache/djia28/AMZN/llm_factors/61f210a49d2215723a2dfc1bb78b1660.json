@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-12-05",
+  "end_date": "2021-12-19",
+  "window_type": "monthly",
+  "price_change_pct": 0.21662714281885292,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6039603960396039,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver."
+    },
+    {
+      "name": "treasury_rate_decline_2021_dec",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.39603960396039595,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 1.4100 on December 17, 2021, contributed to a more favorable borrowing environment, supporting equity valuations [17][24]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_1.47\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.47% on December 15 supported equity valuations, contributing to a slight upward price movement for AMZN [1][17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver.\"\n  }\n]"
+}

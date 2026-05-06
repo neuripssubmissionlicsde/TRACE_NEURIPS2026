@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-03-03",
+  "end_date": "2019-03-17",
+  "window_type": "monthly",
+  "price_change_pct": -0.9002514457257421,
+  "factors": [
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield declined from 2.6400 to 2.5900, indicating a flight to safety that typically supports defensive stocks like JNJ [5][6]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkish_economy_recession\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [21, 22],\n    \"description\": \"The Turkish economy entered a recession, raising concerns about global economic stability and impacting investor sentiment [21][22].\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 6],\n    \"description\": \"The 10-Year Treasury yield declined from 2.6400 to 2.5900, indicating a flight to safety that typically supports defensive stocks like JNJ [5][6].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

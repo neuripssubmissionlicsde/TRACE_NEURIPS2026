@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-10-24",
+  "end_date": "2021-11-07",
+  "window_type": "monthly",
+  "price_change_pct": 6.470752773728653,
+  "factors": [
+    {
+      "name": "strong_earnings_report_q3_2021",
+      "category": "company_specific",
+      "direction": 0.8,
+      "magnitude": 0.6111111111111112,
+      "persistence": "medium",
+      "description": "[conf=0.90] MCD's strong earnings report for Q3 2021 likely boosted investor confidence, contributing significantly to the price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38888888888888884,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"strong_earnings_report_q3_2021\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [],\n    \"description\": \"MCD's strong earnings report for Q3 2021 likely boosted investor confidence, contributing significantly to the price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

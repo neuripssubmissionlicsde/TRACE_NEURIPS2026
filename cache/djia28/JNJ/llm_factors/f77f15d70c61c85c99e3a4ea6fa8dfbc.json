@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-01-16",
+  "end_date": "2022-01-30",
+  "window_type": "monthly",
+  "price_change_pct": 2.806711063606853,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_spike_jan_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [19, 47],\n    \"description\": \"The VIX Volatility Index spiked to 31.16 on January 25, indicating increased market uncertainty and contributing to price fluctuations.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_jan_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [3, 9],\n    \"description\": \"The 10-Year Treasury Rate declined from 1.87% on January 18 to 1.81% on January 27, which may have supported equity valuations, including JNJ.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": 6.285616576363543,
+  "factors": [
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5599999999999999,
+      "magnitude": 0.41943734015345263,
+      "persistence": "long",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained stable at 0.08%, suggesting accommodative monetary policy that supported equity valuations [1][2]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28644501278772383,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.375,
+      "magnitude": 0.29411764705882354,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate held steady at 5.9%, indicating a recovering labor market which supported consumer spending and economic optimism [9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stabilization\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10],\n    \"description\": \"The unemployment rate stabilized at 5.9%, indicating a recovering labor market which supported investor confidence [9][10].\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.08%, suggesting accommodative monetary policy that supported equity valuations [1][2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

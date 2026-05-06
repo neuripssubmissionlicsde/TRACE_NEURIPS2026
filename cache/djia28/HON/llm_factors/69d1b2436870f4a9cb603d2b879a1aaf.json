@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-01-19",
+  "end_date": "2020-02-02",
+  "window_type": "monthly",
+  "price_change_pct": -5.364985049992703,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.47928994082840237,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events explain the price decline."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.06,
+      "magnitude": 0.15088757396449703,
+      "persistence": "long",
+      "description": "[conf=0.70] Stable unemployment rate at 3.5% [1] suggests a resilient labor market, but did not drive significant price movement."
+    },
+    {
+      "name": "treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.08333333333333331,
+      "magnitude": 0.2071005917159763,
+      "persistence": "short",
+      "description": "[conf=0.80] Decline in the 10-Year Treasury Rate from 1.74% to 1.57% [9, 17] may have contributed to bearish sentiment."
+    },
+    {
+      "name": "market_sentiment_decline",
+      "category": "market_sentiment",
+      "direction": -0.31666666666666665,
+      "magnitude": 0.16272189349112426,
+      "persistence": "transient",
+      "description": "[conf=0.75] General market sentiment appears to have turned bearish during this period, contributing to the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events explain the price decline.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"long\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"Stable unemployment rate at 3.5% [1] suggests a resilient labor market, but did not drive significant price movement.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17, 25],\n    \"description\": \"Decline in the 10-Year Treasury Rate from 1.74% to 1.57% [9, 17] may have contributed to bearish sentiment.\"\n  },\n  {\n    \"name\": \"market_sentiment_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment appears to have turned bearish during this period, contributing to the price decline.\"\n  }\n]"
+}

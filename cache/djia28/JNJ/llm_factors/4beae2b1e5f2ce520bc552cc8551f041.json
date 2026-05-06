@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-09-01",
+  "end_date": "2019-09-15",
+  "window_type": "monthly",
+  "price_change_pct": 2.1798552531173234,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3820224719101123,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "rising_treasury_yields_september_2019",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.6179775280898877,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose from 1.5500 to 1.9000 during the window, indicating increased investor confidence and contributing to JNJ's price increase [3][5][7]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"drone_attacks_saudi_aramco\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 18],\n    \"description\": \"Drone attacks on Saudi Aramco facilities led to a surge in oil prices, positively impacting JNJ's stock as investors anticipated increased demand for healthcare products amid geopolitical tensions.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

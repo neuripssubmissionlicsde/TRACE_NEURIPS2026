@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": -4.634457665945955,
+  "factors": [
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.5599999999999999,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate during this period contributed to a bearish sentiment in the market, affecting AMGN's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "cpi_release_market_reaction",
+      "category": "macroeconomic",
+      "direction": -0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The release of the Bureau of Labor Statistics consumer price index for August led to a significant market reaction, causing all stocks in the Dow Jones Industrial Average to decrease, including AMGN."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_impact\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The release of the Bureau of Labor Statistics consumer price index for August led to a significant drop in the Dow Jones Industrial Average, impacting AMGN negatively as part of the broader market reaction.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [5, 10, 20, 35],\n    \"description\": \"The increase in the 10-Year Treasury Rate during this period contributed to a bearish sentiment in the market, affecting AMGN's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

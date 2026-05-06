@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-22",
+  "window_type": "monthly",
+  "price_change_pct": 1.5135072179311488,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"sec_filings_walmart_nov_16_17\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Walmart filed SEC documents on November 16 and 17, which may have reassured investors about corporate governance.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields_nov_18\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [10, 13, 19],\n    \"description\": \"The 10-Year Treasury yield declined to 0.8300 on November 20, which typically supports equity valuations.\"\n  },\n  {\n    \"name\": \"japanese_economy_growth_nov_17\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [37, 38, 39],\n    \"description\": \"Reports of Japan's economy growing at an annualized rate of 21.4% may have positively influenced global market sentiment.\"\n  }\n]"
+}

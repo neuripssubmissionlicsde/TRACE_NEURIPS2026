@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-01",
+  "end_date": "2018-04-15",
+  "window_type": "monthly",
+  "price_change_pct": 0.929022872146794,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4607843137254901,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields_april_2018",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5392156862745099,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 2.7300 to 2.8300 during the window, indicating increased investor confidence and contributing to a bullish sentiment for equities like AMZN [1, 9, 17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate_april_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate rose from 2.7300 to 2.8300 during the window, indicating tightening monetary conditions that negatively impacted equity valuations [1, 9, 17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver.\"\n  }\n]"
+}

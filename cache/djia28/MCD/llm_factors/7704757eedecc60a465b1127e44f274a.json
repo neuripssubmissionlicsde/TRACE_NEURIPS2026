@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-08-04",
+  "end_date": "2019-08-18",
+  "window_type": "monthly",
+  "price_change_pct": 2.2608217977661416,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_august_2019",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.6547619047619048,
+      "persistence": "medium",
+      "description": "[conf=0.90] The 10-Year Treasury yield declined from 1.7300 to 1.5500 during the window [9, 17], leading to increased investor appetite for equities like MCD."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3452380952380952,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_august_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury yield declined from 1.7300 to 1.5500 during the window [9, 17], leading to increased investor appetite for equities like MCD.\"\n  },\n  {\n    \"name\": \"positive_market_sentiment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"General positive sentiment in the market contributed to MCD's price increase, as evidenced by the upward price movement despite external pressures.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some stochastic price movements.\"\n  }\n]"
+}

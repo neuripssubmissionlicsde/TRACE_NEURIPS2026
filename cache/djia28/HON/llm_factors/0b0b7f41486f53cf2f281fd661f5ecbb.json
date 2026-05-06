@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-07-22",
+  "end_date": "2018-08-05",
+  "window_type": "monthly",
+  "price_change_pct": 1.2539152668529694,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "facebook_stock_drop_20pct",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "[conf=0.85] Facebook's stock dropped 20%, causing broader market concerns and impacting investor sentiment across tech stocks, including HON."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"facebook_stock_drop_20_percent\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Facebook's stock dropped 20%, causing broader market concerns and impacting investor sentiment across tech stocks, including HON.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

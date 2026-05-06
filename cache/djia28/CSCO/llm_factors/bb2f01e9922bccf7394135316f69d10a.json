@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-09-16",
+  "end_date": "2018-09-30",
+  "window_type": "monthly",
+  "price_change_pct": 3.0065866116083395,
+  "factors": [
+    {
+      "name": "rising_10_year_treasury_rate_3.08",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.08% on September 19 and September 24, indicating increased investor confidence in economic growth, which likely supported CSCO's price increase [9][10][49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by various market sentiments without a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate_3.08\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 49],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.08% on September 19 and September 24, indicating increased investor confidence in economic growth, which likely supported CSCO's price increase [9][10][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by various market sentiments without a dominant driver.\"\n  }\n]"
+}

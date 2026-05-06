@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-12-06",
+  "end_date": "2020-12-20",
+  "window_type": "monthly",
+  "price_change_pct": 1.4310238443708756,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6272493573264782,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3727506426735218,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 0.92% to 0.94% during this period, contributing to a favorable environment for equities [1, 17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_0.94\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 19],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 0.94% on December 17 indicated rising interest rates, which typically supports financial sector stocks and can positively influence tech valuations like AMZN.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver.\"\n  }\n]"
+}

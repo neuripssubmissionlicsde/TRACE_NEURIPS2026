@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-12-20",
+  "end_date": "2021-01-03",
+  "window_type": "monthly",
+  "price_change_pct": 0.11855808769205621,
+  "factors": [
+    {
+      "name": "vix_decline_dec_2020",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.37,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 25.16 on December 21 to 22.75 on December 31, indicating reduced market fear and supporting a bullish sentiment for equities [9][10]."
+    },
+    {
+      "name": "vix_stability_dec_2020",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX remained stable around 21.70 on December 28, suggesting a period of low volatility and contributing to a stable trading environment for CVX [41][42]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.36000000000000004,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the holiday trading period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_dec_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 41],\n    \"description\": \"The VIX Volatility Index declined from 25.16 on December 21 to 22.75 on December 31, indicating reduced market fear and supporting a bullish sentiment for equities [9][10].\"\n  },\n  {\n    \"name\": \"vix_stability_dec_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 42],\n    \"description\": \"The VIX remained stable around 21.70 on December 28, suggesting a period of low volatility and contributing to a stable trading environment for CVX [41][42].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the holiday trading period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-06-20",
+  "end_date": "2021-07-04",
+  "window_type": "monthly",
+  "price_change_pct": 3.1022065299078307,
+  "factors": [
+    {
+      "name": "vix_decline_june_2021",
+      "category": "market_sentiment",
+      "direction": 0.6,
+      "magnitude": 0.45,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the VIX from 16.32 to 15.48 during this period indicated reduced market volatility and increased investor confidence, contributing to the upward price movement of V [25][41]."
+    },
+    {
+      "name": "stable_treasury_rates_june_2021",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.35,
+      "persistence": "short",
+      "description": "[conf=0.80] The stability of the 10-Year Treasury Rate around 1.48% during this period suggested a favorable borrowing environment, supporting equity valuations and contributing to the price increase of V [9][33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_june_2021\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 41],\n    \"description\": \"The decline in the VIX from 16.32 to 15.48 during this period indicated reduced market volatility and increased investor confidence, contributing to the upward price movement of V [25][41].\"\n  },\n  {\n    \"name\": \"stable_treasury_rates_june_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 33],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 1.48% during this period suggested a favorable borrowing environment, supporting equity valuations and contributing to the price increase of V [9][33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

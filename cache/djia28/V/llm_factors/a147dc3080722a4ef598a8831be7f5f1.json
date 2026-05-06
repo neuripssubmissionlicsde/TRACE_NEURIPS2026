@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-04",
+  "end_date": "2018-02-18",
+  "window_type": "monthly",
+  "price_change_pct": 2.832441999565972,
+  "factors": [
+    {
+      "name": "wall_street_selloff_feb_5",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The Wall Street stock market experienced a significant selloff on February 5, dropping 4.6% and impacting investor sentiment across the board [1, 2, 3]."
+    },
+    {
+      "name": "vix_spike_feb_5",
+      "category": "market_sentiment",
+      "direction": -0.4,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 37.32 on February 5, indicating heightened market fear and contributing to price volatility [31, 32, 33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"wall_street_selloff_feb_5\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Wall Street stock market experienced a significant selloff on February 5, dropping 4.6% and impacting investor sentiment across the board [1, 2, 3].\"\n  },\n  {\n    \"name\": \"vix_spike_feb_5\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [31, 32, 33],\n    \"description\": \"The VIX Volatility Index spiked to 37.32 on February 5, indicating heightened market fear and contributing to price volatility [31, 32, 33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-05-27",
+  "end_date": "2018-06-10",
+  "window_type": "monthly",
+  "price_change_pct": 7.486077491517118,
+  "factors": [
+    {
+      "name": "dicks_sporting_goods_strong_quarter",
+      "category": "company_specific",
+      "direction": 0.8,
+      "magnitude": 0.5789473684210527,
+      "persistence": "short",
+      "description": "[conf=0.90] Dick's Sporting Goods reported a stronger than expected quarter, leading to a significant rise in their shares, which positively influenced market sentiment for related sectors, including HD."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"dicks_sporting_goods_strong_quarter\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Dick's Sporting Goods reported a stronger than expected quarter, leading to a significant rise in their shares, which positively influenced market sentiment for related sectors, including HD.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-17",
+  "end_date": "2021-01-31",
+  "window_type": "monthly",
+  "price_change_pct": -2.582759853549289,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.37500000000000006,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period."
+    },
+    {
+      "name": "treasury_rate_decline_2021_jan",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.34539473684210525,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 1.0700 on January 28, 2021, may have supported equity valuations, contributing to a temporary bullish sentiment."
+    },
+    {
+      "name": "treasury_rate_stability_2021_jan",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.27960526315789475,
+      "persistence": "short",
+      "description": "[conf=0.80] The stability of the 10-Year Treasury Rate around 1.0500 to 1.1200 during the period created uncertainty, leading to bearish pressure on HD's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_jan_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.0700 on January 28, 2021, contributed to a more favorable borrowing environment, supporting equity valuations [9][33].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_jan_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 49],\n    \"description\": \"The drop in the 10-Year Treasury Rate to 1.0400 on January 27, 2021, raised concerns about economic growth, leading to bearish sentiment in the market [41][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market during this period.\"\n  }\n]"
+}

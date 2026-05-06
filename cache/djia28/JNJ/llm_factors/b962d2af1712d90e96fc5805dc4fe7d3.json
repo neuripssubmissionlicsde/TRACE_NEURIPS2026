@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-08-16",
+  "end_date": "2020-08-30",
+  "window_type": "monthly",
+  "price_change_pct": 4.276271068977501,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced a notable price increase without clear additional drivers."
+    },
+    {
+      "name": "vaccine_progress_pfizer_biontech",
+      "category": "company_specific",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] Pfizer and BioNTech announced they are on track for regulatory review of their vaccine, boosting investor sentiment in the healthcare sector [43][44]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"pfizer_biontech_vaccine_progress\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [43, 44],\n    \"description\": \"Pfizer and BioNTech announced they are on track for regulatory review of their vaccine, boosting investor sentiment in the healthcare sector [43][44].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced a notable price increase without clear additional drivers.\"\n  }\n]"
+}

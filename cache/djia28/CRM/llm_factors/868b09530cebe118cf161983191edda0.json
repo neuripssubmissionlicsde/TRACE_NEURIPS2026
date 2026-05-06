@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-05-24",
+  "end_date": "2020-06-07",
+  "window_type": "monthly",
+  "price_change_pct": -4.461522107609095,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2020_06_03",
+      "category": "macroeconomic",
+      "direction": -0.5625,
+      "magnitude": 0.46218487394957986,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 0.7700 on 2020-06-03, contributing to bearish sentiment in equities as higher yields typically signal increased borrowing costs and reduced valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5378151260504201,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market exhibited high volatility and a lack of clear directional drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2020_06_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10],\n    \"description\": \"The 10-Year Treasury Rate rose to 0.7700 on 2020-06-03, contributing to bearish sentiment in equities as higher yields typically signal increased borrowing costs and reduced valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market exhibited high volatility and a lack of clear directional drivers.\"\n  }\n]"
+}

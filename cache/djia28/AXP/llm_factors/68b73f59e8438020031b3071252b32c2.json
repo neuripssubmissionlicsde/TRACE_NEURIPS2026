@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -19.091758527431168,
+  "factors": [
+    {
+      "name": "coronavirus_market_selloff",
+      "category": "geopolitical",
+      "direction": -0.8,
+      "magnitude": 0.7857142857142857,
+      "persistence": "short",
+      "description": "[conf=0.90] The Dow Jones Industrial Average dropped over 3% as the coronavirus pandemic spread outside China, triggering widespread market selloffs [23][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21428571428571425,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"coronavirus_market_selloff\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [23, 41],\n    \"description\": \"The Dow Jones Industrial Average dropped over 3% as the coronavirus pandemic spread outside China, triggering widespread market selloffs [23][41].\"\n  },\n  {\n    \"name\": \"global_market_loss_6_trillion\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [46],\n    \"description\": \"Global stock markets lost $6 trillion in value over six days, contributing to negative sentiment and further declines in equity prices [46].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

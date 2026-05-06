@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": -6.940544059684685,
+  "factors": [
+    {
+      "name": "ecb_interest_rate_hike_10th_time",
+      "category": "macroeconomic",
+      "direction": -0.65,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The European Central Bank raised interest rates for the 10th time to combat high inflation, raising concerns about economic slowdown and negatively impacting equity valuations [1, 2, 3, 4, 5, 6]."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.35,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased significantly during the window, indicating rising borrowing costs which typically pressure equity prices [7, 15, 23, 31, 39]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_interest_rate_hike_10th_time\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The European Central Bank raised interest rates for the 10th time to combat high inflation, raising concerns about economic slowdown and negatively impacting equity valuations [1, 2, 3, 4, 5, 6].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [7, 15, 23, 31, 39],\n    \"description\": \"The 10-Year Treasury Rate increased significantly during the window, indicating rising borrowing costs which typically pressure equity prices [7, 15, 23, 31, 39].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

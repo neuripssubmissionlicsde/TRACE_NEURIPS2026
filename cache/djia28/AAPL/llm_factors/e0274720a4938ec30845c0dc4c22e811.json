@@ -1,0 +1,49 @@
+{
+  "start_date": "2019-03-31",
+  "end_date": "2019-04-14",
+  "window_type": "monthly",
+  "price_change_pct": 3.772692770477088,
+  "factors": [
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.2823529411764706,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive macroeconomic indicators during this period may have contributed to investor confidence."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": 0.4666666666666666,
+      "magnitude": 0.20392156862745098,
+      "persistence": "short",
+      "description": "[conf=0.60] The technology sector was performing well, which likely supported AAPL's price increase."
+    },
+    {
+      "name": "company_news",
+      "category": "company_specific",
+      "direction": 0.6333333333333333,
+      "magnitude": 0.21960784313725487,
+      "persistence": "short",
+      "description": "[conf=0.80] Positive news regarding AAPL's product launches and sales forecasts may have driven investor interest."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.725,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] General bullish sentiment in the market could have influenced AAPL's upward price movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.09411764705882353,
+      "persistence": "transient",
+      "description": "[conf=0.90] Random market fluctuations and trading volume variations likely contributed to unexplained price changes."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_conditions\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive macroeconomic indicators during this period may have contributed to investor confidence.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": 0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The technology sector was performing well, which likely supported AAPL's price increase.\"\n    },\n    {\n        \"name\": \"company_news\",\n        \"category\": \"company_specific\",\n        \"direction\": 0.6,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.8,\n        \"description\": \"Positive news regarding AAPL's product launches and sales forecasts may have driven investor interest.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.7,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"General bullish sentiment in the market could have influenced AAPL's upward price movement.\"\n    },\n    {\n        \"name\": \"technical_factors\",\n        \"category\": \"technical\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have suggested a buying opportunity, contributing to the price increase.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.9,\n        \"description\": \"Random market fluctuations and trading volume variations likely contributed to unexplained price changes.\"\n    }\n]"
+}

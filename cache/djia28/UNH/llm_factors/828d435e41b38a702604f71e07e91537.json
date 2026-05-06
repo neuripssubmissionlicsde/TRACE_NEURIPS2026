@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": 6.170228961710046,
+  "factors": [
+    {
+      "name": "fed_rate_cut_0.5pct_march_2020",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Fed cut the federal funds rate by 0.5% in an emergency move, which generally supports equity prices and investor sentiment [1][24]."
+    },
+    {
+      "name": "fed_quantitative_easing_700bn",
+      "category": "macroeconomic",
+      "direction": 0.6999999999999998,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.85] The announcement of a $700 billion quantitative easing program by the Fed provided significant liquidity to the markets, boosting investor confidence [24][30]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.15,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_0.5pct_march_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 24],\n    \"description\": \"The Fed cut the federal funds rate by 0.5% in an emergency move, which generally supports equity prices and investor sentiment [1][24].\"\n  },\n  {\n    \"name\": \"fed_quantitative_easing_700bn\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.7,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [24, 30],\n    \"description\": \"The announcement of a $700 billion quantitative easing program by the Fed provided significant liquidity to the markets, boosting investor confidence [24][30].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period.\"\n  }\n]"
+}

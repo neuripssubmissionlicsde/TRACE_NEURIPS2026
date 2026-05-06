@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-10-24",
+  "end_date": "2021-11-07",
+  "window_type": "monthly",
+  "price_change_pct": 1.065779963533608,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6464646464646464,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and lacked clear drivers."
+    },
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.35353535353535354,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index remained relatively stable around 16.41, indicating lower market fear and supporting a bullish sentiment for equities [1]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_index_decline\", \n    \"category\": \"macroeconomic\", \n    \"direction\": 0.5, \n    \"magnitude\": 0.4, \n    \"persistence\": \"short\", \n    \"confidence\": 0.85, \n    \"source_articles\": [9, 10], \n    \"description\": \"The VIX Volatility Index declined from 16.41 to 15.10, indicating reduced market fear and supporting bullish sentiment [9][10].\"\n  },\n  {\n    \"name\": \"market_noise\", \n    \"category\": \"market_sentiment\", \n    \"direction\": 0.0, \n    \"magnitude\": 0.6, \n    \"persistence\": \"transient\", \n    \"confidence\": 1.0, \n    \"source_articles\": [], \n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and lacked clear drivers.\"\n  }\n]"
+}

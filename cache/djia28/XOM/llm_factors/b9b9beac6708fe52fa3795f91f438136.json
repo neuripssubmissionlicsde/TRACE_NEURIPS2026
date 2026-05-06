@@ -1,0 +1,49 @@
+{
+  "start_date": "2019-10-13",
+  "end_date": "2019-10-27",
+  "window_type": "monthly",
+  "price_change_pct": 0.9475457541109897,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.3137254901960784,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely contributed to the bullish sentiment around XOM."
+    },
+    {
+      "name": "earnings_report_expectation",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.2549019607843137,
+      "persistence": "short",
+      "description": "[conf=0.60] Anticipation of upcoming earnings reports may have driven investor interest in XOM shares."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.19607843137254902,
+      "persistence": "short",
+      "description": "[conf=0.50] General positive market sentiment during this period may have contributed to upward price movement."
+    },
+    {
+      "name": "technical_support_level",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.09803921568627451,
+      "persistence": "transient",
+      "description": "[conf=0.50] XOM's price bouncing off a technical support level may have provided a temporary bullish signal."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.13725490196078433,
+      "persistence": "transient",
+      "description": "[conf=0.80] Unexplained random variance in trading activity contributed to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely contributed to the bullish sentiment around XOM.\"\n    },\n    {\n        \"name\": \"earnings_report_expectation\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Anticipation of upcoming earnings reports may have driven investor interest in XOM shares.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General positive market sentiment during this period may have contributed to upward price movement.\"\n    },\n    {\n        \"name\": \"technical_support_level\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's price bouncing off a technical support level may have provided a temporary bullish signal.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations.\"\n    }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-10-24",
+  "end_date": "2021-11-07",
+  "window_type": "monthly",
+  "price_change_pct": -0.17717699564597453,
+  "factors": [
+    {
+      "name": "brazil_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4679802955665024,
+      "persistence": "short",
+      "description": "[conf=0.85] The Central Bank of Brazil raised its interest rate by 150 basis points, impacting investor sentiment and contributing to a bearish outlook for equities, including JNJ."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5320197044334976,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as JNJ experienced a slight price decline amidst mixed market signals."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"brazil_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2],\n    \"description\": \"The Central Bank of Brazil raised its interest rate by 150 basis points, impacting investor sentiment and contributing to a bearish outlook for equities, including JNJ.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as JNJ experienced a slight price decline amidst mixed market signals.\"\n  }\n]"
+}

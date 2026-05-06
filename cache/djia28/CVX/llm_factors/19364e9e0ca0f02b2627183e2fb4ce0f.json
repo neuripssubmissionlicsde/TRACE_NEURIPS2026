@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-08-05",
+  "end_date": "2018-08-19",
+  "window_type": "monthly",
+  "price_change_pct": -4.412949641680943,
+  "factors": [
+    {
+      "name": "turkey_financial_turmoil",
+      "category": "geopolitical",
+      "direction": -0.74,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Asian stock prices sank due to fears of contagion from Turkey's financial turmoil, negatively impacting investor sentiment and leading to a sell-off in CVX."
+    },
+    {
+      "name": "vix_volatility_increase",
+      "category": "market_sentiment",
+      "direction": -0.45,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased significantly, indicating heightened market volatility and uncertainty, contributing to the downward pressure on CVX prices."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkey_financial_turmoil\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n    \"description\": \"Asian stock prices sank due to fears of contagion from Turkey's financial turmoil, negatively impacting investor sentiment and leading to a sell-off in CVX.\"\n  },\n  {\n    \"name\": \"vix_volatility_increase\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [43, 44, 45, 46, 47, 48, 49, 50],\n    \"description\": \"The VIX increased significantly, indicating heightened market volatility and uncertainty, contributing to the downward pressure on CVX prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

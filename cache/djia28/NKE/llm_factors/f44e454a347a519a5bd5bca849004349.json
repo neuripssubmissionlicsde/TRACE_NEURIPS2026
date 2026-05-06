@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -12.982563461541657,
+  "factors": [
+    {
+      "name": "global_market_selloff_feb_2020",
+      "category": "macroeconomic",
+      "direction": -0.8000000000000002,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Global stock markets lost $6 trillion in value over six days, contributing to a significant selloff in equities [20]."
+    },
+    {
+      "name": "dow_jones_correction_feb_2020",
+      "category": "macroeconomic",
+      "direction": -0.7,
+      "magnitude": 0.29000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.85] The Dow Jones Industrial Average entered correction territory after a significant drop, impacting overall market sentiment [39]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.16,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"global_market_selloff_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 20],\n    \"description\": \"Global stock markets lost $6 trillion in value over six days, contributing to a significant selloff in equities [20].\"\n  },\n  {\n    \"name\": \"dow_jones_correction_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [39],\n    \"description\": \"The Dow Jones Industrial Average entered correction territory after a significant drop, impacting overall market sentiment [39].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market.\"\n  }\n]"
+}

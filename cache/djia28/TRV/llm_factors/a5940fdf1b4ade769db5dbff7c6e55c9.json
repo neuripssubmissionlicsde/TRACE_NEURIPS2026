@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-08-13",
+  "end_date": "2023-08-27",
+  "window_type": "monthly",
+  "price_change_pct": -3.0702630576526007,
+  "factors": [
+    {
+      "name": "chinese_rate_cut_2023",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] raised concerns about economic growth, negatively impacting market sentiment."
+    },
+    {
+      "name": "french_supermarket_price_increase",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] France's announcement of a 13.1% year-on-year increase in supermarket prices [23] indicated rising inflationary pressures, contributing to bearish sentiment in the market."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"chinese_rate_cut_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Chinese central bank's decision to lower the medium-term lending facility rate to 2.5% [1] raised concerns about economic growth, negatively impacting market sentiment.\"\n  },\n  {\n    \"name\": \"french_supermarket_price_increase\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [23, 24],\n    \"description\": \"France's announcement of a 13.1% year-on-year increase in supermarket prices [23] indicated rising inflationary pressures, contributing to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

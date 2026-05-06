@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-22",
+  "window_type": "monthly",
+  "price_change_pct": 0.24914724625086587,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5333333333333333,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.46666666666666656,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index showed stability around 19.22, indicating reduced market fear and supporting a bullish sentiment [1][9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_stability_october_2023\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The VIX remained relatively stable around 19.22, indicating low market fear and supporting a bullish sentiment [1][9].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_october_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 33],\n    \"description\": \"The 10-Year Treasury yield rose to 4.91%, which typically pressures equity valuations and contributed to bearish sentiment [17][33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

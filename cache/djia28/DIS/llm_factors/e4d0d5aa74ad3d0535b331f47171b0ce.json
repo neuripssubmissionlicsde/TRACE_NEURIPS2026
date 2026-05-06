@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-03-26",
+  "end_date": "2023-04-09",
+  "window_type": "monthly",
+  "price_change_pct": 5.475850472634591,
+  "factors": [
+    {
+      "name": "positive_earnings_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.70] Investor sentiment was buoyed by positive earnings expectations leading up to the reporting period."
+    },
+    {
+      "name": "strong_market_trend",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] The overall market was experiencing an upward trend, contributing to bullish sentiment for DIS."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] DIS's price broke through a key resistance level, attracting technical traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"positive_earnings_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Investor sentiment was buoyed by positive earnings expectations leading up to the reporting period.\"\n    },\n    {\n        \"name\": \"strong_market_trend\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The overall market was experiencing an upward trend, contributing to bullish sentiment for DIS.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"DIS's price broke through a key resistance level, attracting technical traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

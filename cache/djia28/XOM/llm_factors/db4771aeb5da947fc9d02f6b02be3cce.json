@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-01-01",
+  "end_date": "2023-01-15",
+  "window_type": "monthly",
+  "price_change_pct": 3.0697783284728395,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.3827751196172249,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.3110047846889952,
+      "persistence": "short",
+      "description": "[conf=0.60] Positive market sentiment towards energy stocks may have influenced investor behavior, supporting XOM's price increase."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.21052631578947362,
+      "persistence": "transient",
+      "description": "[conf=0.50] XOM's price breaking above key resistance levels may have attracted technical traders, contributing to upward momentum."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.0956937799043062,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity that does not correlate with observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Positive market sentiment towards energy stocks may have influenced investor behavior, supporting XOM's price increase.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's price breaking above key resistance levels may have attracted technical traders, contributing to upward momentum.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity that does not correlate with observable factors.\"\n    }\n]"
+}

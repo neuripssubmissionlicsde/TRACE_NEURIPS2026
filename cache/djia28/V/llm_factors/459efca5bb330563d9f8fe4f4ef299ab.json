@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-09-30",
+  "end_date": "2018-10-14",
+  "window_type": "monthly",
+  "price_change_pct": -7.177399263368047,
+  "factors": [
+    {
+      "name": "vix_spike_2018_10_08",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.47635135135135137,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 15.69 on 2018-10-08 and further to 22.96 on 2018-10-10, indicating increased market fear and contributing to the downward pressure on asset V."
+    },
+    {
+      "name": "treasury_yield_increase_2018_10_02",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.32094594594594594,
+      "persistence": "medium",
+      "description": "[conf=0.80] The 10-Year Treasury Rate rose to 3.05% on 2018-10-02, signaling tighter monetary conditions that negatively impacted asset valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.20270270270270271,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_2018_10_08\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25],\n    \"description\": \"The VIX Volatility Index spiked to 15.69 on 2018-10-08 and further to 22.96 on 2018-10-10, indicating increased market fear and contributing to the downward pressure on asset V.\"\n  },\n  {\n    \"name\": \"treasury_yield_increase_2018_10_02\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.05% on 2018-10-02, signaling tighter monetary conditions that negatively impacted asset valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

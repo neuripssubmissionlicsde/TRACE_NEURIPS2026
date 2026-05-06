@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": -2.7199709523735796,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5454545454545454,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver."
+    },
+    {
+      "name": "declining_10y_treasury_rate_july_2023",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.45454545454545453,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury rate declined from 4.0600 to 3.7600 during the window, indicating a shift in investor sentiment towards lower yields, which typically supports equity valuations [7][9][13]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_july_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 3, 5, 7, 9],\n    \"description\": \"The 10-Year Treasury Rate rose from 3.86% to 4.06% during the window, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver.\"\n  }\n]"
+}

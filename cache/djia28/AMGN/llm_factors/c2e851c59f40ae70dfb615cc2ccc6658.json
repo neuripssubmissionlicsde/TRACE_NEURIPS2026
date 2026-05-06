@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-07-22",
+  "end_date": "2018-08-05",
+  "window_type": "monthly",
+  "price_change_pct": 4.144984560136382,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.574468085106383,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    },
+    {
+      "name": "facebook_stock_drop",
+      "category": "geopolitical",
+      "direction": -0.39999999999999997,
+      "magnitude": 0.425531914893617,
+      "persistence": "transient",
+      "description": "[conf=0.80] Facebook's significant stock drop on July 26 created a negative sentiment in the tech sector, potentially impacting investor confidence in related stocks."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"facebook_stock_drop_20pct\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"Facebook's stock dropped 20%, causing broader market concerns that likely influenced investor sentiment towards biotech stocks like AMGN.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

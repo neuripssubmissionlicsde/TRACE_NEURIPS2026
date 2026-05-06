@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-08-27",
+  "end_date": "2023-09-10",
+  "window_type": "monthly",
+  "price_change_pct": 0.9612522537612025,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were influenced by multiple competing factors."
+    },
+    {
+      "name": "poland_interest_rate_cut",
+      "category": "macroeconomic",
+      "direction": 0.1375,
+      "magnitude": 0.28750000000000003,
+      "persistence": "short",
+      "description": "[conf=0.70] The National Bank of Poland's interest rate cut may have influenced global market sentiment positively, contributing to AMGN's price stability."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.22749999999999998,
+      "magnitude": 0.21250000000000002,
+      "persistence": "short",
+      "description": "[conf=0.70] Fluctuations in the 10-Year Treasury Rate during the period may have created headwinds for AMGN's price, reflecting investor caution."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were influenced by multiple competing factors.\"\n  },\n  {\n    \"name\": \"poland_interest_rate_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The National Bank of Poland's interest rate cut may have influenced global market sentiment positively, contributing to AMGN's price stability.\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [5, 10, 15, 25],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate during the period may have created headwinds for AMGN's price, reflecting investor caution.\"\n  },\n  {\n    \"name\": \"sec_filings\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.60,\n    \"source_articles\": [1, 2],\n    \"description\": \"Recent SEC filings by AMGN may have provided some reassurance to investors, contributing to a slight upward price movement.\"\n  }\n]"
+}

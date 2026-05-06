@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-09-24",
+  "end_date": "2023-10-08",
+  "window_type": "monthly",
+  "price_change_pct": -3.6706254988893177,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_4.81pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 4, 19],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.81% [1], leading to increased borrowing costs and negatively impacting equity valuations, including WMT.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stable_3.9pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [31],\n    \"description\": \"The unemployment rate remained stable at 3.9% [31], suggesting a resilient labor market that could support consumer spending.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

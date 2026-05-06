@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-06-18",
+  "end_date": "2023-07-02",
+  "window_type": "monthly",
+  "price_change_pct": 1.2509169825646165,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4684385382059801,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields_june_2023",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5315614617940199,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.8500 on June 29, impacting investor sentiment negatively towards equities, including CRM [41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2023_06_30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.8500 on June 30, contributing to bearish sentiment in the equity markets as higher yields typically reduce the attractiveness of stocks.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited volatility without a clear dominant driver.\"\n  }\n]"
+}

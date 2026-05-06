@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-10-24",
+  "end_date": "2021-11-07",
+  "window_type": "monthly",
+  "price_change_pct": 4.756227584423948,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5675675675675677,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "central_bank_brazil_rate_hike",
+      "category": "macroeconomic",
+      "direction": 0.059999999999999984,
+      "magnitude": 0.43243243243243246,
+      "persistence": "short",
+      "description": "[conf=0.80] The Central Bank of Brazil raised its interest rate by 150 basis points, impacting global market sentiment and potentially affecting CRM's valuation."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"central_bank_brazil_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Central Bank of Brazil raised its interest rate by 150 basis points, impacting global market sentiment and potentially affecting CRM's valuation.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 25],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.6300 to 1.6000 may have supported CRM's price increase by making equities more attractive.\"\n  }\n]"
+}

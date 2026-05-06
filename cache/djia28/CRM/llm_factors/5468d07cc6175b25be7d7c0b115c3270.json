@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-05-09",
+  "end_date": "2021-05-23",
+  "window_type": "monthly",
+  "price_change_pct": 3.2853860343091728,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5270270270270271,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "stable_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.4666666666666666,
+      "magnitude": 0.47297297297297297,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable at 1.6300 during the period, contributing to a favorable environment for equities [1, 9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"sec_filing_2021_05_12\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"Salesforce filed with the SEC on 2021-05-12, which may have positively influenced investor sentiment.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-05-12",
+  "end_date": "2019-05-26",
+  "window_type": "monthly",
+  "price_change_pct": -0.5868947385888249,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2.31",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.38000000000000006,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 2.31% on May 23 indicated a shift towards lower interest rates, which generally supports equity valuations [49]."
+    },
+    {
+      "name": "treasury_rate_decline_2.39",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.27999999999999997,
+      "persistence": "short",
+      "description": "[conf=0.80] The drop in the 10-Year Treasury Rate to 2.39% on May 22 contributed to a favorable environment for equities, enhancing investor sentiment [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.33999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2.31\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.31% on May 23 indicated a shift towards lower interest rates, which generally supports equity valuations [49].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2.39\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41],\n    \"description\": \"The drop in the 10-Year Treasury Rate to 2.39% on May 22 contributed to a favorable environment for equities, enhancing investor sentiment [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

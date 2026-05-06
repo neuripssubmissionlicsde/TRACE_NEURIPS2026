@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-30",
+  "end_date": "2023-08-13",
+  "window_type": "monthly",
+  "price_change_pct": 1.8742769379877973,
+  "factors": [
+    {
+      "name": "vix_increase_2023_08_02",
+      "category": "macroeconomic",
+      "direction": -0.4375,
+      "magnitude": 0.49206349206349204,
+      "persistence": "transient",
+      "description": "[conf=0.85] The VIX increased to 16.09 on 2023-08-02, indicating heightened market volatility and contributing to bearish sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5079365079365079,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2023_08_02\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26, 27],\n    \"description\": \"The VIX increased to 16.09 on 2023-08-02, indicating heightened market volatility and contributing to bearish sentiment.\"\n  },\n  {\n    \"name\": \"vix_stability_2023_08_10\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 34],\n    \"description\": \"The VIX stabilized at 15.85 on 2023-08-10, suggesting a return to calmer market conditions, which supported a price recovery.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

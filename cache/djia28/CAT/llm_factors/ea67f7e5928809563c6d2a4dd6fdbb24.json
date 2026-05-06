@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-05-27",
+  "end_date": "2018-06-10",
+  "window_type": "monthly",
+  "price_change_pct": 0.6871719091796519,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and lacked a clear dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] 10-Year Treasury yields rose from 2.8400 to 2.8900 during the window, contributing to bearish sentiment in equities [5][13]."
+    },
+    {
+      "name": "stable_unemployment_rate",
+      "category": "macroeconomic",
+      "direction": 0.2,
+      "magnitude": 0.2,
+      "persistence": "medium",
+      "description": "[conf=0.70] The unemployment rate remained stable at 4.0%, supporting consumer confidence and mitigating bearish pressures [17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and lacked a clear dominant driver.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 13],\n    \"description\": \"10-Year Treasury yields rose from 2.8400 to 2.8900 during the window, contributing to bearish sentiment in equities [5][13].\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.70,\n    \"source_articles\": [17],\n    \"description\": \"The unemployment rate remained stable at 4.0%, supporting consumer confidence and mitigating bearish pressures [17].\"\n  }\n]"
+}

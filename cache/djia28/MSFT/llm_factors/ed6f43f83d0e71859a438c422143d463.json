@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-08-30",
+  "end_date": "2020-09-13",
+  "window_type": "monthly",
+  "price_change_pct": -10.118926778171796,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.76,
+      "magnitude": 0.4081632653061225,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment due to broader market volatility and uncertainty during this period."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.7,
+      "magnitude": 0.30612244897959184,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns regarding MSFT's valuation and potential overextension contributed to the price decline."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.6399999999999999,
+      "magnitude": 0.20408163265306126,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested a bearish trend, influencing traders' decisions."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.0816326530612245,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment due to broader market volatility and uncertainty during this period.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns regarding MSFT's valuation and potential overextension contributed to the price decline.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested a bearish trend, influencing traders' decisions.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

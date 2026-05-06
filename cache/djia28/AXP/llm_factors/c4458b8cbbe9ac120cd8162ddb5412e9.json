@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-04-11",
+  "end_date": "2021-04-25",
+  "window_type": "monthly",
+  "price_change_pct": -1.9896567525822548,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5192307692307693,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver."
+    },
+    {
+      "name": "sec_filing_2021_04_23",
+      "category": "company_specific",
+      "direction": -0.5,
+      "magnitude": 0.24038461538461536,
+      "persistence": "transient",
+      "description": "[conf=0.75] American Express filed with the SEC on 2021-04-23, which may have raised concerns among investors about regulatory scrutiny."
+    },
+    {
+      "name": "treasury_rate_increase_2021_04_20",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.24038461538461536,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased to 1.5800 on 2021-04-20, contributing to bearish sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver.\"\n  },\n  {\n    \"name\": \"sec_filing_2021_april\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"American Express filed with the SEC on April 23, which may have contributed to investor caution leading to a slight decline in stock price [1].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_april_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.58% on April 20 and remained at that level, which typically pressures equity valuations negatively [9, 17].\"\n  },\n  {\n    \"name\": \"consolidation_april_2021\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The price exhibited a range-bound behavior with mixed signals, as evidenced by the average daily volume and limited weekly returns.\"\n  }\n]"
+}

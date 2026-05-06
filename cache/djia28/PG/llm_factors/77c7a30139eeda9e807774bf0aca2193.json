@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-27",
+  "window_type": "monthly",
+  "price_change_pct": 1.3449682751333902,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2022_02_23",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.5248618784530387,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 1.9900 on 2022-02-23, indicating increased investor confidence and contributing to PG's price increase [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4751381215469614,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022_02_23\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.9900 on 2022-02-23, indicating increased investor confidence and contributing to PG's price increase [9].\"\n  },\n  {\n    \"name\": \"stable_treasury_yields_2022_02_18\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The 10-Year Treasury Rate was stable around 1.9200 on 2022-02-18, providing a favorable environment for equities like PG [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

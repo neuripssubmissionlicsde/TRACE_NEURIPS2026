@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-01-02",
+  "end_date": "2022-01-16",
+  "window_type": "monthly",
+  "price_change_pct": 17.357948579477448,
+  "factors": [
+    {
+      "name": "oil_price_increase",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.4000000000000001,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely contributed to the bullish sentiment around XOM."
+    },
+    {
+      "name": "strong_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.30000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.60] Overall positive market sentiment in early January may have supported XOM's price increase."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.20000000000000004,
+      "persistence": "transient",
+      "description": "[conf=0.50] XOM's price breaking above key resistance levels could have attracted technical traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10000000000000002,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity may have contributed to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_increase\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely contributed to the bullish sentiment around XOM.\"\n    },\n    {\n        \"name\": \"strong_market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Overall positive market sentiment in early January may have supported XOM's price increase.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's price breaking above key resistance levels could have attracted technical traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity may have contributed to price fluctuations.\"\n    }\n]"
+}

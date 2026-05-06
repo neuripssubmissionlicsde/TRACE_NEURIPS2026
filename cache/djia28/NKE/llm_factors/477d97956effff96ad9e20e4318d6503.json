@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-11-21",
+  "end_date": "2021-12-05",
+  "window_type": "monthly",
+  "price_change_pct": -2.533997472200989,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this period."
+    },
+    {
+      "name": "omicron_variant_fears",
+      "category": "geopolitical",
+      "direction": -0.8000000000000002,
+      "magnitude": 0.5789473684210527,
+      "persistence": "short",
+      "description": "[conf=0.90] Growing concerns over the SARS-CoV-2 Omicron variant led to a sharp decline in stocks and oil prices, impacting market sentiment negatively [1][2][3]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"omicron_variant_concerns\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"Stocks and oil prices declined sharply due to growing concerns over the SARS-CoV-2 Omicron variant, impacting market sentiment and leading to sell-offs in equities including NKE.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this period.\"\n  }\n]"
+}

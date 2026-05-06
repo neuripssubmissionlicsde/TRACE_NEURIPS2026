@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-10-23",
+  "end_date": "2022-11-06",
+  "window_type": "monthly",
+  "price_change_pct": 12.64970809912045,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": 0.8400000000000001,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Federal Reserve raised its benchmark interest rate by 0.75 percentage points, signaling tighter monetary policy which generally supports higher asset prices in certain sectors [2]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear single driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve raised its benchmark interest rate by 0.75 percentage points, signaling tighter monetary policy which generally supports higher asset prices in certain sectors [2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear single driver.\"\n  }\n]"
+}

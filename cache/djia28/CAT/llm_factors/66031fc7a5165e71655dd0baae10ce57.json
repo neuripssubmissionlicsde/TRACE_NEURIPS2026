@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-29",
+  "end_date": "2020-04-12",
+  "window_type": "monthly",
+  "price_change_pct": 17.586735290112856,
+  "factors": [
+    {
+      "name": "fed_rate_cut_0.25",
+      "category": "macroeconomic",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.5670103092783505,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Federal Reserve cut the federal funds rate to 0.05%, signaling aggressive monetary easing to support the economy during the pandemic [1][2], which likely boosted investor sentiment and contributed to CAT's price increase."
+    },
+    {
+      "name": "unemployment_rate_spike",
+      "category": "macroeconomic",
+      "direction": -0.58,
+      "magnitude": 0.25773195876288657,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate surged to 14.8%, reflecting severe economic distress due to the pandemic [45], which could have tempered some bullish sentiment despite the Fed's actions."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.17525773195876287,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced high volatility and significant price movements without clear single drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_0.25\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 45],\n    \"description\": \"The Federal Reserve cut the federal funds rate to 0.05%, signaling aggressive monetary easing to support the economy during the pandemic [1][2], which likely boosted investor sentiment and contributed to CAT's price increase.\"\n  },\n  {\n    \"name\": \"unemployment_rate_spike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [45],\n    \"description\": \"The unemployment rate surged to 14.8%, reflecting severe economic distress due to the pandemic [45], which could have tempered some bullish sentiment despite the Fed's actions.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced high volatility and significant price movements without clear single drivers.\"\n  }\n]"
+}

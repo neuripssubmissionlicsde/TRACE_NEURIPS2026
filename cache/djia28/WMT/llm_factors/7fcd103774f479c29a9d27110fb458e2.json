@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-06-21",
+  "end_date": "2020-07-05",
+  "window_type": "monthly",
+  "price_change_pct": -1.454936780825986,
+  "factors": [
+    {
+      "name": "unemployment_rate_increase_july_2020",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.43478260869565216,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate rose to 10.2% on July 1, 2020, raising concerns about consumer spending and economic recovery."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5652173913043478,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_increase_july_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [31, 32, 33],\n    \"description\": \"The unemployment rate rose to 10.2% on July 1, 2020, raising concerns about consumer spending and economic recovery.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in the market.\"\n  }\n]"
+}

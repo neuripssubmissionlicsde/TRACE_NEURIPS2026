@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-06-24",
+  "end_date": "2018-07-08",
+  "window_type": "monthly",
+  "price_change_pct": 1.1599612024615047,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.6,
+      "magnitude": 0.32,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment around technology stocks may have contributed to the upward price movement."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 0.6599999999999999,
+      "magnitude": 0.3800000000000001,
+      "persistence": "short",
+      "description": "[conf=0.60] MSFT's strong performance in cloud computing and software services likely supported its price increase."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 0.74,
+      "magnitude": 0.20000000000000004,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators may have shown bullish signals, attracting short-term traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.10000000000000002,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive market sentiment around technology stocks may have contributed to the upward price movement.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": 0.3,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"MSFT's strong performance in cloud computing and software services likely supported its price increase.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": 0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have shown bullish signals, attracting short-term traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

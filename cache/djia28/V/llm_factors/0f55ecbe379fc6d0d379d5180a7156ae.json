@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-05-13",
+  "end_date": "2018-05-27",
+  "window_type": "monthly",
+  "price_change_pct": -0.7090669210504863,
+  "factors": [
+    {
+      "name": "turkish_central_bank_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4818181818181818,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Turkish Central Bank raised its late liquidity window rate from 13.5% to 16.5% to counter the slide of the Turkish lira, which negatively impacted market sentiment and contributed to the price decline of V."
+    },
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22727272727272727,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index remained stable around 13.22 during this period, indicating low volatility and contributing to a lack of strong directional movement in V's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.29090909090909084,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkish_central_bank_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Turkish Central Bank raised its late liquidity window rate from 13.5% to 16.5% to counter the slide of the Turkish lira, which negatively impacted market sentiment and contributed to the price decline of V.\"\n  },\n  {\n    \"name\": \"vix_volatility_index_stability\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [24, 32],\n    \"description\": \"The VIX Volatility Index remained stable around 13.22 during this period, indicating low volatility and contributing to a lack of strong directional movement in V's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

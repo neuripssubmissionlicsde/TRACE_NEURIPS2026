@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-12-08",
+  "end_date": "2019-12-22",
+  "window_type": "monthly",
+  "price_change_pct": 0.8277344529258573,
+  "factors": [
+    {
+      "name": "treasury_rate_increase_1.92",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.48746518105849584,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate to 1.92% on December 19 indicated rising interest rates, which typically supports financial sector stocks like TRV."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5125348189415042,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_1.92\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 49],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.92% on December 19 indicated rising interest rates, which typically supports financial sector stocks like TRV.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_1.89\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 25],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 1.89% during the window provided a favorable environment for TRV, suggesting investor confidence in the financial sector.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

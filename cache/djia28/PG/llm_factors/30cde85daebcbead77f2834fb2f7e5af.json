@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-02-28",
+  "end_date": "2021-03-14",
+  "window_type": "monthly",
+  "price_change_pct": 3.205535749186598,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced fluctuations without a clear dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields_2021_03_10",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 1.5300 on 2021-03-10, indicating increased investor confidence and contributing to the bullish sentiment in equities [1][25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_march_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [25, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.6400 on March 12, 2021, indicating increased investor confidence and contributing to the bullish sentiment in the market [25, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced fluctuations without a clear dominant driver.\"\n  }\n]"
+}

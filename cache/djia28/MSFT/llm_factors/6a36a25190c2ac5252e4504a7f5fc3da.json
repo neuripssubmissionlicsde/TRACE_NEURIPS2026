@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": -2.1146657748166255,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.70] General market sentiment was bearish during this period, contributing to the price decline."
+    },
+    {
+      "name": "technical_correction",
+      "category": "technical",
+      "direction": -0.42000000000000004,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.60] The stock experienced a technical correction after reaching a recent high, leading to downward pressure."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.3,
+      "magnitude": 0.1,
+      "persistence": "short",
+      "description": "[conf=0.50] Liquidity conditions were slightly tighter, which may have contributed to the price decline."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that does not correlate with observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General market sentiment was bearish during this period, contributing to the price decline.\"\n    },\n    {\n        \"name\": \"technical_correction\",\n        \"category\": \"technical\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"The stock experienced a technical correction after reaching a recent high, leading to downward pressure.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Liquidity conditions were slightly tighter, which may have contributed to the price decline.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that does not correlate with observable factors.\"\n    }\n]"
+}

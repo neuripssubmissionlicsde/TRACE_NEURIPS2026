@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-04-25",
+  "end_date": "2021-05-09",
+  "window_type": "monthly",
+  "price_change_pct": -0.9507003042924728,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5700000000000001,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were influenced by multiple competing factors without a clear dominant driver."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.16999999999999998,
+      "persistence": "long",
+      "description": "[conf=0.80] Federal Funds Effective Rate remained stable at 0.0600 [1], contributing to a neutral macroeconomic environment."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.27999999999999997,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.75] Fluctuations in the 10-Year Treasury Rate, dropping from 1.6300 to 1.5800 [6, 11], likely contributed to bearish sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were influenced by multiple competing factors without a clear dominant driver.\"\n  },\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"Federal Funds Effective Rate remained stable at 0.0600 [1], contributing to a neutral macroeconomic environment.\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [6, 11, 21],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, dropping from 1.6300 to 1.5800 [6, 11], likely contributed to bearish sentiment in the market.\"\n  }\n]"
+}

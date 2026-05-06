@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": -11.72955623127446,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_april_2022",
+      "category": "macroeconomic",
+      "direction": -0.6999999999999998,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The 10-Year Treasury Rate rose from 2.7900 to 2.9000 during the window, contributing to bearish sentiment in equity markets as higher yields typically reduce the attractiveness of growth stocks like CRM [9][17][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced high volatility and a significant drawdown without clear directional drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_april_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 17, 41],\n    \"description\": \"The 10-Year Treasury Rate rose from 2.7900 to 2.9000 during the window, contributing to bearish sentiment in equity markets as higher yields typically reduce the attractiveness of growth stocks like CRM [9][17][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced high volatility and a significant drawdown without clear directional drivers.\"\n  }\n]"
+}

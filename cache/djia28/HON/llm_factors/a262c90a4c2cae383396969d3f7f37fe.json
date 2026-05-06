@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-11-22",
+  "end_date": "2020-12-06",
+  "window_type": "monthly",
+  "price_change_pct": 4.43409236262465,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 12],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.09%, contributing to a favorable borrowing environment and supporting equity valuations [9][12].\"\n  },\n  {\n    \"name\": \"ten_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 41],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 0.84% to 0.92%, indicating low interest rate volatility which supported investor confidence in equities [1][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

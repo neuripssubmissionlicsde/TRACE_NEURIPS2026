@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-01-21",
+  "end_date": "2018-02-04",
+  "window_type": "monthly",
+  "price_change_pct": -3.921263105988568,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6597938144329897,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "strong_dollar_policy_change_indication",
+      "category": "macroeconomic",
+      "direction": -0.31000000000000005,
+      "magnitude": 0.3402061855670103,
+      "persistence": "short",
+      "description": "[conf=0.85] Remarks by Treasury Secretary Mnuchin suggested a potential shift in the U.S. strong dollar policy, impacting market sentiment negatively [18][19]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"strong_dollar_policy_change_indication\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [18, 19],\n    \"description\": \"Remarks by Treasury Secretary Mnuchin suggested a potential shift in the U.S. strong dollar policy, impacting market sentiment negatively [18][19].\"\n  }\n]"
+}

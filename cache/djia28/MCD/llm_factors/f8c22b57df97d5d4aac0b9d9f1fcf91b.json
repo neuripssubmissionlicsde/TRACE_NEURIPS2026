@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-01-06",
+  "end_date": "2019-01-20",
+  "window_type": "monthly",
+  "price_change_pct": 2.486791242689591,
+  "factors": [
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5238095238095238,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 2.7900 on January 18, indicating a shift in investor sentiment towards equities, which likely supported MCD's price increase [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.47619047619047616,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.7900 on January 18, indicating a shift in investor sentiment towards equities, which likely supported MCD's price increase [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

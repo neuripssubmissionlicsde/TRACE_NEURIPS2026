@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-23",
+  "window_type": "monthly",
+  "price_change_pct": 5.030195683627384,
+  "factors": [
+    {
+      "name": "sec_filing_jnj_2022_10_18",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.36432160804020103,
+      "persistence": "transient",
+      "description": "[conf=0.85] Johnson & Johnson filed with the SEC on 2022-10-18, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "rising_treasury_yields_2022_10_18",
+      "category": "macroeconomic",
+      "direction": -0.34,
+      "magnitude": 0.2914572864321608,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury rate rose to 4.1400 on 2022-10-19, which typically pressures equity valuations."
+    },
+    {
+      "name": "vix_volatility_index_decline_2022_10_20",
+      "category": "market_sentiment",
+      "direction": 0.3,
+      "magnitude": 0.2135678391959799,
+      "persistence": "short",
+      "description": "[conf=0.70] The VIX Volatility Index declined to 29.9800 on 2022-10-20, indicating reduced market fear and supporting equity prices."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.13065326633165825,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_jnj_2022_10_18\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Johnson & Johnson filed with the SEC on 2022-10-18, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_2022_10_18\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 11],\n    \"description\": \"The 10-Year Treasury rate rose to 4.1400 on 2022-10-19, which typically pressures equity valuations.\"\n  },\n  {\n    \"name\": \"vix_volatility_index_decline_2022_10_20\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [41],\n    \"description\": \"The VIX Volatility Index declined to 29.9800 on 2022-10-20, indicating reduced market fear and supporting equity prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.1,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

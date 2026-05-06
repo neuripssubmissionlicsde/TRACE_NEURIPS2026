@@ -1,0 +1,49 @@
+{
+  "start_date": "2023-08-27",
+  "end_date": "2023-09-10",
+  "window_type": "monthly",
+  "price_change_pct": -1.060599321822426,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.2710843373493975,
+      "persistence": "short",
+      "description": "[conf=0.70] General market sentiment was bearish during this period, contributing to the decline in AAPL's price."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.3,
+      "magnitude": 0.22590361445783128,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over AAPL's product pipeline and competitive pressures may have negatively impacted investor confidence."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.18072289156626506,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested overbought conditions prior to the price decline, leading to profit-taking."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": -0.10000000000000002,
+      "magnitude": 0.10542168674698792,
+      "persistence": "medium",
+      "description": "[conf=0.50] A decrease in liquidity in the broader market may have contributed to increased volatility in AAPL's price."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.21686746987951802,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General market sentiment was bearish during this period, contributing to the decline in AAPL's price.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over AAPL's product pipeline and competitive pressures may have negatively impacted investor confidence.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested overbought conditions prior to the price decline, leading to profit-taking.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.5,\n        \"description\": \"A decrease in liquidity in the broader market may have contributed to increased volatility in AAPL's price.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

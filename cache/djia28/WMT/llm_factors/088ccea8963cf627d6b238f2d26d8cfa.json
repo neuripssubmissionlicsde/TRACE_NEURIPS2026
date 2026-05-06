@@ -1,0 +1,17 @@
+{
+  "start_date": "2018-06-24",
+  "end_date": "2018-07-08",
+  "window_type": "monthly",
+  "price_change_pct": -0.09458662664263551,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were small and lacked clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were small and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [4, 10, 22],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.8300 to 2.8500 during the window, contributing to bearish sentiment in the market [4, 10, 22].\"\n  },\n  {\n    \"name\": \"declining_treasury_spread\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [34, 43],\n    \"description\": \"The 10Y-2Y Treasury Spread decreased from 0.3200 to 0.2900, indicating potential economic slowdown concerns that may have pressured WMT's stock [34, 43].\"\n  }\n]"
+}

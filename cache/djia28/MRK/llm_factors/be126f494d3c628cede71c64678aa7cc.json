@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-04-25",
+  "end_date": "2021-05-09",
+  "window_type": "monthly",
+  "price_change_pct": 0.706401921084467,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.8026315789473685,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were influenced by multiple competing factors."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.15,
+      "magnitude": 0.19736842105263155,
+      "persistence": "short",
+      "description": "[conf=0.70] The 10-Year Treasury Rate stabilized around 1.6000, which may have contributed to a favorable environment for equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were influenced by multiple competing factors.\"\n  },\n  {\n    \"name\": \"sec_filings_2021_05_05\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"Merck filed with the SEC on 2021-05-05, which may have provided some positive sentiment among investors.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury Rate stabilized around 1.6000, which may have contributed to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"weekly_return_reversal\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.60,\n    \"source_articles\": [],\n    \"description\": \"The observed weekly returns showed a downward trend, indicating potential selling pressure.\"\n  }\n]"
+}

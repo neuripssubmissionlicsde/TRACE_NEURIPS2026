@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-07-05",
+  "end_date": "2020-07-19",
+  "window_type": "monthly",
+  "price_change_pct": -1.8316377203243424,
+  "factors": [
+    {
+      "name": "vix_volatility_index_high",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.7432432432432433,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index reached a high of 32.19 on 2020-07-13, indicating increased market uncertainty and contributing to bearish sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.25675675675675674,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_index_high\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The VIX Volatility Index reached a high of 32.19 on 2020-07-13, indicating increased market uncertainty and contributing to bearish sentiment.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],\n    \"description\": \"The 10-Year Treasury Rate increased to 0.64 on 2020-07-15, reflecting rising borrowing costs and contributing to downward pressure on equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment.\"\n  }\n]"
+}

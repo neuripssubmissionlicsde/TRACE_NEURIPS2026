@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-15",
+  "end_date": "2019-09-29",
+  "window_type": "monthly",
+  "price_change_pct": -5.013618348189682,
+  "factors": [
+    {
+      "name": "saudi_aramco_drone_attacks",
+      "category": "geopolitical",
+      "direction": -0.73,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Drone attacks on Saudi Aramco facilities led to a significant surge in Brent Crude oil prices, impacting CVX negatively due to heightened geopolitical risks and oil supply concerns."
+    },
+    {
+      "name": "vix_volatility_increase",
+      "category": "market_sentiment",
+      "direction": -0.27,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the VIX volatility index indicated rising market uncertainty, contributing to bearish sentiment around CVX."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"saudi_aramco_drone_attacks\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18],\n    \"description\": \"Drone attacks on Saudi Aramco facilities led to a significant surge in Brent Crude oil prices, impacting CVX negatively due to heightened geopolitical risks and oil supply concerns.\"\n  },\n  {\n    \"name\": \"vix_volatility_increase\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [19, 20, 21, 22, 23, 24, 25, 26],\n    \"description\": \"The increase in the VIX volatility index indicated rising market uncertainty, contributing to bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

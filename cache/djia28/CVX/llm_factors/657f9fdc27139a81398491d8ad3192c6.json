@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-07-03",
+  "end_date": "2022-07-17",
+  "window_type": "monthly",
+  "price_change_pct": -4.176821376319147,
+  "factors": [
+    {
+      "name": "bank_of_canada_rate_hike_2022",
+      "category": "macroeconomic",
+      "direction": -0.6833333333333332,
+      "magnitude": 0.5574324324324325,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Bank of Canada raised its benchmark interest rate from 1.5% to 2.5%, the largest increase since 1998, which contributed to bearish sentiment in the markets [1]."
+    },
+    {
+      "name": "vix_increase_2022",
+      "category": "market_sentiment",
+      "direction": -0.3166666666666667,
+      "magnitude": 0.2195945945945946,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index increased from 26.17 to 27.29, indicating heightened market uncertainty and contributing to the downward pressure on CVX [19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22297297297297294,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_canada_rate_hike_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Bank of Canada raised its benchmark interest rate from 1.5% to 2.5%, the largest increase since 1998, which contributed to bearish sentiment in the markets [1].\"\n  },\n  {\n    \"name\": \"vix_increase_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [19, 20],\n    \"description\": \"The VIX Volatility Index increased from 26.17 to 27.29, indicating heightened market uncertainty and contributing to the downward pressure on CVX [19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

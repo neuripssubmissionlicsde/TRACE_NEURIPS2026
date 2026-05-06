@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-06-23",
+  "end_date": "2019-07-07",
+  "window_type": "monthly",
+  "price_change_pct": 0.04382642743464679,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.1,
+      "magnitude": 0.3560830860534125,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment during this period was cautiously optimistic, contributing to slight upward pressure on MSFT's price."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": 0.07500000000000001,
+      "magnitude": 0.13353115727002968,
+      "persistence": "short",
+      "description": "[conf=0.50] Average daily volume was relatively high, indicating sufficient liquidity that could support price stability."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.3916913946587537,
+      "persistence": "transient",
+      "description": "[conf=0.70] A significant portion of price movement appears to be random noise, reflecting typical market fluctuations."
+    },
+    {
+      "name": "consolidation",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.11869436201780416,
+      "persistence": "medium",
+      "description": "[conf=0.60] The price movement during this period was largely sideways, indicating a consolidation phase."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment during this period was cautiously optimistic, contributing to slight upward pressure on MSFT's price.\"\n    },\n    {\n        \"name\": \"technical_factors\",\n        \"category\": \"technical\",\n        \"direction\": 0.05,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed a slight bullish trend, which may have influenced buying behavior.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.15,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Average daily volume was relatively high, indicating sufficient liquidity that could support price stability.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.35,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.7,\n        \"description\": \"A significant portion of price movement appears to be random noise, reflecting typical market fluctuations.\"\n    },\n    {\n        \"name\": \"consolidation\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.6,\n        \"description\": \"The price movement during this period was largely sideways, indicating a consolidation phase.\"\n    }\n]"
+}

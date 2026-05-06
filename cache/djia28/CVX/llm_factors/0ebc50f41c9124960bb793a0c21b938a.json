@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-04-14",
+  "end_date": "2019-04-28",
+  "window_type": "monthly",
+  "price_change_pct": -2.432936519268758,
+  "factors": [
+    {
+      "name": "vix_increase_april_25",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.4187192118226601,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased to 13.25 on April 25, indicating rising market volatility and contributing to bearish sentiment around CVX [9, 49]."
+    },
+    {
+      "name": "vix_stability_april_15",
+      "category": "market_sentiment",
+      "direction": 0.4,
+      "magnitude": 0.2463054187192118,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX was stable at 12.32 on April 15, which may have supported a brief bullish sentiment before the subsequent decline [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.334975369458128,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_april_25\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 49],\n    \"description\": \"The VIX increased to 13.25 on April 25, indicating rising market volatility and contributing to bearish sentiment around CVX [9, 49].\"\n  },\n  {\n    \"name\": \"vix_stability_april_15\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The VIX was stable at 12.32 on April 15, which may have supported a brief bullish sentiment before the subsequent decline [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

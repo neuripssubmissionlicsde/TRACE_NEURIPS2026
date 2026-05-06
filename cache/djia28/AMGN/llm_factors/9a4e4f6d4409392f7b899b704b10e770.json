@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-07-05",
+  "end_date": "2020-07-19",
+  "window_type": "monthly",
+  "price_change_pct": -0.6037744953702334,
+  "factors": [
+    {
+      "name": "treasury_rate_stability_0.6400",
+      "category": "macroeconomic",
+      "direction": 0.24,
+      "magnitude": 0.23529411764705882,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10-Year Treasury Rate at 0.6400 during the week of July 15 provided a backdrop of low interest rates, which generally supports equity prices [16][21]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42156862745098045,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty and mixed signals in the market."
+    },
+    {
+      "name": "treasury_rate_decline_0.6900_to_0.6200",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3431372549019607,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate from 0.6900 to 0.6200 during the window indicated lower borrowing costs, which typically supports equity valuations [36][11][21]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_0.6900\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [36, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 0.6900 on July 6 may have supported equity valuations, contributing to a bullish sentiment in the market [36][41].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_0.6400\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [16, 21],\n    \"description\": \"The stability of the 10-Year Treasury Rate at 0.6400 during the week of July 15 provided a backdrop of low interest rates, which generally supports equity prices [16][21].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty and mixed signals in the market.\"\n  }\n]"
+}

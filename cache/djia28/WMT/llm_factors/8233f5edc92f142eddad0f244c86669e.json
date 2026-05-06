@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -6.194352950497837,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_2022",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.46335697399527187,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 3.6100 to 3.4400 [7, 22] contributed to bearish sentiment in the market, impacting WMT's stock price."
+    },
+    {
+      "name": "negative_market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.4,
+      "magnitude": 0.27186761229314416,
+      "persistence": "transient",
+      "description": "[conf=0.80] Overall market sentiment was negative during this period, contributing to downward pressure on WMT's stock price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26477541371158386,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [7, 22],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 3.6100 to 3.4400 [7, 22] contributed to bearish sentiment in the market, impacting WMT's stock price.\"\n  },\n  {\n    \"name\": \"negative_market_sentiment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment was negative during this period, contributing to downward pressure on WMT's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in the market.\"\n  }\n]"
+}

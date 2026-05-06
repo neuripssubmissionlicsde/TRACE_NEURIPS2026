@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": 1.1005452370806863,
+  "factors": [
+    {
+      "name": "fed_rate_cut_50bps",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.38461538461538464,
+      "persistence": "short",
+      "description": "[conf=0.85] The Fed cut the federal funds rate by 0.5% in an emergency move, which generally supports equity prices [1][5]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2970822281167108,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market."
+    },
+    {
+      "name": "market_selloff_due_to_covid",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.31830238726790444,
+      "persistence": "short",
+      "description": "[conf=0.85] U.S. stocks extended their drop in response to the Fed's cuts and ongoing concerns about the COVID-19 pandemic, leading to significant market volatility [9][17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_50bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 5],\n    \"description\": \"The Fed cut the federal funds rate by 0.5% in an emergency move, which generally supports equity prices [1][5].\"\n  },\n  {\n    \"name\": \"market_selloff_covid_fears\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"U.S. stocks extended their drop due to fears surrounding COVID-19, leading to significant market volatility [9][17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-07-19",
+  "end_date": "2020-08-02",
+  "window_type": "monthly",
+  "price_change_pct": 0.9214038563937339,
+  "factors": [
+    {
+      "name": "covid_economic_impact",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.44000000000000006,
+      "persistence": "medium",
+      "description": "[conf=0.85] The ongoing economic impact of the COVID-19 pandemic influenced investor sentiment positively, as technology stocks like CSCO were seen as beneficiaries of increased remote work and digital transformation."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.28,
+      "persistence": "long",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained stable at 0.1%, contributing to a favorable borrowing environment, which supported equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.27999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"covid_economic_impact\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The ongoing economic impact of the COVID-19 pandemic influenced investor sentiment positively, as technology stocks like CSCO were seen as beneficiaries of increased remote work and digital transformation.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [14, 15, 16, 17, 18, 19, 20, 21],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.1%, contributing to a favorable borrowing environment, which supported equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

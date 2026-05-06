@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": 1.3783442713740717,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2022_april",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5112219451371571,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 2.9000 on April 21, 2022, contributing to bearish sentiment in the market as higher yields typically lead to lower equity valuations [1][49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.488778054862843,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022_april\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 49],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.9000 on April 21, 2022, contributing to bearish sentiment in the market as higher yields typically lead to lower equity valuations [1][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver.\"\n  }\n]"
+}

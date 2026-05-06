@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-12-20",
+  "end_date": "2021-01-03",
+  "window_type": "monthly",
+  "price_change_pct": 1.8787871994737866,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.09%, contributing to a favorable borrowing environment and supporting equity valuations [1-5]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "treasury_yield_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.3,
+      "persistence": "medium",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 0.93%-0.94%, indicating low inflation expectations and supporting investor confidence in equities [6, 11, 21, 36]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.09%, contributing to a favorable borrowing environment and supporting equity valuations [1-5].\"\n  },\n  {\n    \"name\": \"ten_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [6, 11, 21],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 0.94%, indicating low interest rate expectations which generally support equity prices [6, 11, 21].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

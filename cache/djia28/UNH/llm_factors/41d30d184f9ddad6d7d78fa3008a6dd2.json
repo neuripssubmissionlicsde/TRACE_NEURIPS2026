@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": 4.5311984891569965,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4577114427860697,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "turkish_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": 0.1,
+      "magnitude": 0.318407960199005,
+      "persistence": "short",
+      "description": "[conf=0.75] The Turkish central bank raised its main interest rate to combat inflation, which may have influenced global market sentiment and investor behavior [1]."
+    },
+    {
+      "name": "treasury_yield_stability",
+      "category": "macroeconomic",
+      "direction": 0.25,
+      "magnitude": 0.22388059701492538,
+      "persistence": "short",
+      "description": "[conf=0.70] The stability of the 10-Year Treasury Rate around 4.01% during this period may have provided a favorable environment for equities, including UNH [24]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"turkish_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Turkish central bank raised its main interest rate to combat inflation, which may have influenced global market sentiment and investor behavior [1].\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [24, 32],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 4.01% during this period may have provided a favorable environment for equities, including UNH [24].\"\n  }\n]"
+}

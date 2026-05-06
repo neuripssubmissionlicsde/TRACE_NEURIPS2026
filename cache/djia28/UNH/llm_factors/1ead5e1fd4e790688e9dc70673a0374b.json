@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-01-20",
+  "end_date": "2019-02-03",
+  "window_type": "monthly",
+  "price_change_pct": 1.7647384848717658,
+  "factors": [
+    {
+      "name": "unemployment_rate_stable",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.33472803347280333,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.8%, indicating a strong labor market which supports consumer spending and healthcare demand [25]."
+    },
+    {
+      "name": "treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.44999999999999996,
+      "magnitude": 0.26359832635983266,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 2.72% on January 29 may have made equities more attractive, contributing to bullish sentiment in the market [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.401673640167364,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 29],\n    \"description\": \"The unemployment rate remained stable at 3.8%, indicating a strong labor market which supports consumer spending and healthcare demand [25].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.72% on January 29 may have made equities more attractive, contributing to bullish sentiment in the market [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

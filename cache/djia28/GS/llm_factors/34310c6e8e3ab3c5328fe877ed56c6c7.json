@@ -1,0 +1,17 @@
+{
+  "start_date": "2018-07-08",
+  "end_date": "2018-07-22",
+  "window_type": "monthly",
+  "price_change_pct": 3.7294478146698737,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_yield_decline_2_8400\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.8400 on July 19 supported equity valuations, contributing to GS's price increase [9][41].\"\n  },\n  {\n    \"name\": \"treasury_yield_increase_2_8900\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 2.8900 on July 20 created some headwinds for GS, countering the previous bullish sentiment [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

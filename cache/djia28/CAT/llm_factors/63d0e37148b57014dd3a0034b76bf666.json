@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-20",
+  "window_type": "monthly",
+  "price_change_pct": 1.5043818038315206,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_nov_2022",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] Declining 10-year Treasury yields from 4.22% to 3.77% during the window [5, 13] contributed to a bullish sentiment in equities, including CAT."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "uk_inflation_pressure_nov_2022",
+      "category": "geopolitical",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.75] Record inflation in the UK at 11.1% raised concerns about global economic stability, which may have tempered bullish sentiment [33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_nov_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 13, 17],\n    \"description\": \"Declining 10-year Treasury yields from 4.22% to 3.77% during the window [5, 13] contributed to a bullish sentiment in equities, including CAT.\"\n  },\n  {\n    \"name\": \"uk_inflation_record_high\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33, 34],\n    \"description\": \"Record inflation in the UK at 11.1% raised concerns about global economic stability, which may have tempered bullish sentiment [33, 34].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

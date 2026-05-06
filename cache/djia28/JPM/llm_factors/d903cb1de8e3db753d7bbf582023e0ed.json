@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -10.90627162020007,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.425531914893617,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment due to growing concerns about the economic impact of COVID-19."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.0425531914893617,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement not attributable to observable factors."
+    },
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.3191489361702127,
+      "persistence": "short",
+      "description": "[conf=0.60] Economic indicators suggesting a potential recession as businesses began to shut down."
+    },
+    {
+      "name": "sector_specific_concerns",
+      "category": "sector_specific",
+      "direction": -1.0,
+      "magnitude": 0.21276595744680854,
+      "persistence": "short",
+      "description": "[conf=0.50] Financial sector concerns heightened due to anticipated loan defaults and reduced consumer spending."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment due to growing concerns about the economic impact of COVID-19.\"\n    },\n    {\n        \"name\": \"macroeconomic_fears\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Widespread fears of a recession as economic indicators began to show signs of distress.\"\n    },\n    {\n        \"name\": \"technical_sell_off\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested a sell-off as prices broke below key support levels.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement not attributable to observable factors.\"\n    }\n]"
+}

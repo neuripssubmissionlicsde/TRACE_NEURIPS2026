@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": 4.0064762342901235,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.6599999999999999,
+      "magnitude": 0.39097744360902253,
+      "persistence": "medium",
+      "description": "[conf=0.85] Stable unemployment rate at 3.6% reported on 2019-11-01 [1], contributing to positive market sentiment and investor confidence."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3208020050125313,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.5499999999999999,
+      "magnitude": 0.2882205513784461,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate from 1.84% to 1.79% and then to 1.94% indicated lower borrowing costs, supporting equity valuations [9, 41, 49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Stable unemployment rate at 3.6% reported on 2019-11-01 [1], contributing to positive market sentiment and investor confidence.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 41, 49],\n    \"description\": \"Decline in the 10-Year Treasury Rate from 1.84% to 1.79% [41] and then to 1.94% [49] during the window, indicating lower borrowing costs and supporting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

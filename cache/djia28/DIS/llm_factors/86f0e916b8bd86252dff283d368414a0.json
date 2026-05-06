@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-10-22",
+  "end_date": "2023-11-05",
+  "window_type": "monthly",
+  "price_change_pct": 3.642773633808522,
+  "factors": [
+    {
+      "name": "positive_earnings_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.5714285714285714,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive sentiment surrounding Disney's earnings report contributed to upward price movement."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.2631578947368421,
+      "persistence": "short",
+      "description": "[conf=0.60] A technical breakout above key resistance levels may have attracted momentum traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.16541353383458648,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"positive_earnings_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive sentiment surrounding Disney's earnings report contributed to upward price movement.\"\n    },\n    {\n        \"name\": \"strong_box_office_performance\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Recent strong box office performance of Disney films likely boosted investor confidence.\"\n    },\n    {\n        \"name\": \"market_volatility\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Increased market volatility during this period may have caused some downward pressure on stock prices.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"A technical breakout above key resistance levels may have attracted momentum traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

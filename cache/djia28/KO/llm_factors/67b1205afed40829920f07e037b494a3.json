@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-01-19",
+  "end_date": "2020-02-02",
+  "window_type": "monthly",
+  "price_change_pct": 2.726461187676856,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.3,
+      "persistence": "long",
+      "description": "[conf=0.85] Unemployment rate remained stable at 3.5% [16], supporting consumer confidence."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.20000000000000004,
+      "magnitude": 0.20000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.75] 10-Year Treasury Rate declined to 1.57% on January 30 [40], indicating lower borrowing costs."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [16],\n    \"description\": \"Unemployment rate remained stable at 3.5% [16], supporting consumer confidence.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [40],\n    \"description\": \"10-Year Treasury Rate declined to 1.57% on January 30 [40], indicating lower borrowing costs.\"\n  }\n]"
+}

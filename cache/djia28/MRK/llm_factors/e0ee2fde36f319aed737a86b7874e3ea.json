@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": -2.3421657412381496,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.54,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted MRK's price during this period."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.45999999999999996,
+      "magnitude": 0.45999999999999996,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased from 1.6200 to 1.6300 on June 3, contributing to bearish sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted MRK's price during this period.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The 10-Year Treasury Rate increased from 1.6200 to 1.6300 on June 3, contributing to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"market_sentiment_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment was bearish during this period, reflected in the overall price decline of MRK.\"\n  }\n]"
+}

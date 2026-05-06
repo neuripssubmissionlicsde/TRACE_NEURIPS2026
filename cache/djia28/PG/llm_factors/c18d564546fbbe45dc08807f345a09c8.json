@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": 5.1757438314038815,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5864661654135338,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "turkish_interest_rate_hike",
+      "category": "geopolitical",
+      "direction": 0.35000000000000003,
+      "magnitude": 0.4135338345864662,
+      "persistence": "short",
+      "description": "[conf=0.75] The Turkish central bank raised its main interest rate from 15% to 17.5% to control inflation, impacting global market sentiment [41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"turkish_interest_rate_hike\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 42, 43],\n    \"description\": \"The Turkish central bank raised its main interest rate from 15% to 17.5% to control inflation, impacting global market sentiment [41].\"\n  }\n]"
+}

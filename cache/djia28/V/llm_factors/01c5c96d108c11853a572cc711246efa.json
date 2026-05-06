@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-07-08",
+  "end_date": "2018-07-22",
+  "window_type": "monthly",
+  "price_change_pct": 4.483495902466137,
+  "factors": [
+    {
+      "name": "vix_decline_july_2018",
+      "category": "macroeconomic",
+      "direction": 0.76,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The decline in the VIX from 12.58 to 12.10 during the window indicated reduced market volatility, contributing to bullish sentiment and upward price movement for V [9][10][49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by general market sentiment without a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_july_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 10, 49],\n    \"description\": \"The decline in the VIX from 12.58 to 12.10 during the window indicated reduced market volatility, contributing to bullish sentiment and upward price movement for V [9][10][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by general market sentiment without a dominant driver.\"\n  }\n]"
+}

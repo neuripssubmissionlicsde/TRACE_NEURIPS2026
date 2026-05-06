@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-09",
+  "end_date": "2021-05-23",
+  "window_type": "monthly",
+  "price_change_pct": -1.2597934609055068,
+  "factors": [
+    {
+      "name": "sec_filing_2021_05_19",
+      "category": "company_specific",
+      "direction": -0.44000000000000006,
+      "magnitude": 0.2061855670103093,
+      "persistence": "transient",
+      "description": "[conf=0.75] AMGN filed with the SEC on 2021-05-19, which may have raised concerns among investors about regulatory scrutiny."
+    },
+    {
+      "name": "treasury_rate_increase_2021_05_19",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.2577319587628866,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased to 1.6800 on 2021-05-19, which typically pressures equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5360824742268041,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2021_05_19\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"AMGN filed with the SEC on 2021-05-19, which may have raised concerns among investors about regulatory scrutiny.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2021_05_19\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [11, 12, 13, 14, 15],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.6800 on 2021-05-19, which typically pressures equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

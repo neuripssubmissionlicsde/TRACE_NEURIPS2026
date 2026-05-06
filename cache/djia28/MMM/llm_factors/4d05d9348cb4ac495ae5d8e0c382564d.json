@@ -1,0 +1,41 @@
+{
+  "start_date": "2021-03-28",
+  "end_date": "2021-04-11",
+  "window_type": "monthly",
+  "price_change_pct": 2.2621590732406016,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.32,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate remained stable at 6.1%, indicating a steady labor market which can support consumer confidence and spending."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.42000000000000004,
+      "magnitude": 0.26,
+      "persistence": "medium",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained low at 0.07%, contributing to a favorable borrowing environment for businesses."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.45999999999999996,
+      "magnitude": 0.22999999999999998,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate from 1.73% to 1.64% may have boosted investor sentiment towards equities, including MMM."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 6.1%, indicating a steady labor market which can support consumer confidence and spending.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The Federal Funds Effective Rate remained low at 0.07%, contributing to a favorable borrowing environment for businesses.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 49],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.73% to 1.64% may have boosted investor sentiment towards equities, including MMM.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

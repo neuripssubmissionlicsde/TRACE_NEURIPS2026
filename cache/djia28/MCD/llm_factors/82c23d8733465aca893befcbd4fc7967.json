@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-07-18",
+  "end_date": "2021-08-01",
+  "window_type": "monthly",
+  "price_change_pct": 4.386913502389007,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2592592592592592,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating stochastic price movements."
+    },
+    {
+      "name": "strong_earnings_report_q2_2021",
+      "category": "company_specific",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.5092592592592593,
+      "persistence": "short",
+      "description": "[conf=0.90] MCD's strong earnings report for Q2 2021 likely boosted investor sentiment, contributing to the price increase."
+    },
+    {
+      "name": "market_sentiment_recovery_post_covid",
+      "category": "market_sentiment",
+      "direction": 0.39999999999999997,
+      "magnitude": 0.23148148148148145,
+      "persistence": "medium",
+      "description": "[conf=0.80] General recovery in market sentiment as economies reopened post-COVID contributed to bullish sentiment around MCD."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_rate_1.3\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.3000, indicating a shift in investor sentiment towards riskier assets like equities, contributing to MCD's price increase [1][9].\"\n  },\n  {\n    \"name\": \"positive_market_sentiment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"General positive sentiment in the market during this period supported MCD's upward price movement, although specific articles were not identified.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating stochastic price movements.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-04-25",
+  "end_date": "2021-05-09",
+  "window_type": "monthly",
+  "price_change_pct": 8.296998925636226,
+  "factors": [
+    {
+      "name": "market_sentiment_recovery",
+      "category": "market_sentiment",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.5188679245283019,
+      "persistence": "medium",
+      "description": "[conf=0.85] Overall market sentiment improved during this period, contributing to a bullish trend in AXP's price."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.5750000000000001,
+      "magnitude": 0.23584905660377356,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate from 1.6300 to 1.5800 [9, 33] likely supported higher valuations for AXP."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24528301886792453,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_recovery\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment improved during this period, contributing to a bullish trend in AXP's price.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 33],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.6300 to 1.5800 [9, 33] likely supported higher valuations for AXP.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

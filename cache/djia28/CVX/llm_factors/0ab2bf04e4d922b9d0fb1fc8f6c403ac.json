@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-22",
+  "window_type": "monthly",
+  "price_change_pct": 0.27045086559245785,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5733788395904437,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_volatility_increase_2023_10_18",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.4266211604095564,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose to 19.22 on 2023-10-18, indicating increased market uncertainty and contributing to downward pressure on CVX prices [1][9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_increase_19.32\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10],\n    \"description\": \"The VIX Volatility Index rose to 19.32 on October 13, indicating increased market uncertainty, which likely pressured CVX prices.\"\n  },\n  {\n    \"name\": \"vix_volatility_stabilization_17.88\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33, 34],\n    \"description\": \"The VIX stabilized at 17.88 on October 17, suggesting a temporary easing of market fears, which may have supported a slight recovery in CVX prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

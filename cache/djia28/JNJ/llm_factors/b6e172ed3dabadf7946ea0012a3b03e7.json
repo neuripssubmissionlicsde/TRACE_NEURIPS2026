@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-07-18",
+  "end_date": "2021-08-01",
+  "window_type": "monthly",
+  "price_change_pct": 3.435845418381658,
+  "factors": [
+    {
+      "name": "sec_filing_jnj_2021_07_21",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "[conf=0.85] Johnson & Johnson filed with the SEC on 2021-07-21, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "stable_treasury_rates_july_2021",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 1.30%, contributing to a favorable environment for equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_jnj_2021_07_21\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Johnson & Johnson filed with the SEC on 2021-07-21, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"stable_treasury_rates_july_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [3, 5, 11],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.30%, contributing to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

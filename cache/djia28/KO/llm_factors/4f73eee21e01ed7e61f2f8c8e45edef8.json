@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-27",
+  "window_type": "monthly",
+  "price_change_pct": -4.414391945769777,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6082474226804124,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    },
+    {
+      "name": "swedbank_investigation",
+      "category": "geopolitical",
+      "direction": -0.38,
+      "magnitude": 0.3917525773195876,
+      "persistence": "short",
+      "description": "[conf=0.85] The announcement of an investigation into Swedbank for market abuses may have contributed to broader market concerns, impacting investor sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"swedbank_investigation\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The announcement of an investigation into Swedbank for market abuses may have contributed to broader market concerns, impacting investor sentiment.\"\n  },\n  {\n    \"name\": \"stable_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"long\",\n    \"confidence\": 0.70,\n    \"source_articles\": [17, 25],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 0.6800 during this period, indicating no significant macroeconomic shifts affecting KO's price.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-06-09",
+  "end_date": "2019-06-23",
+  "window_type": "monthly",
+  "price_change_pct": 1.5852816015038438,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5454545454545454,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited some volatility without clear directional drivers."
+    },
+    {
+      "name": "treasury_rate_decline_2.01",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.45454545454545453,
+      "persistence": "medium",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 2.01% on June 20 indicated easing monetary conditions, which generally supports equity valuations [17][20]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_june_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 21],\n    \"description\": \"The 10-Year Treasury yield declined from 2.1500 to 2.0100 during the window, indicating a shift towards lower interest rates which typically supports equity prices [17, 21].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited some volatility without clear directional drivers.\"\n  }\n]"
+}

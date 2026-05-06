@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-19",
+  "window_type": "monthly",
+  "price_change_pct": 4.786537010428034,
+  "factors": [
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.6944444444444444,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 4.5800 to 4.6300 during the window, contributing to bearish sentiment in equity markets [1, 5, 9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3055555555555555,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 5, 9],\n    \"description\": \"The 10-Year Treasury Rate rose from 4.5800 to 4.6300 during the window, contributing to bearish sentiment in equity markets [1, 5, 9].\"\n  },\n  {\n    \"name\": \"decreasing_10_year_2_year_spread\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [45, 49],\n    \"description\": \"The 10Y-2Y Treasury Spread decreased to -0.3800, indicating potential recession fears and impacting investor sentiment negatively [45, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-01-30",
+  "end_date": "2022-02-13",
+  "window_type": "monthly",
+  "price_change_pct": -0.7670284225669609,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.29411764705882354,
+      "persistence": "short",
+      "description": "[conf=0.60] General market sentiment was cautious due to ongoing inflation concerns and interest rate hikes."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.3,
+      "magnitude": 0.19607843137254902,
+      "persistence": "short",
+      "description": "[conf=0.70] AAPL's recent earnings report showed mixed results, leading to some investor uncertainty."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.2,
+      "magnitude": 0.19607843137254902,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested overbought conditions, prompting profit-taking."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.3137254901960784,
+      "persistence": "transient",
+      "description": "[conf=0.50] Price movements included random fluctuations not attributable to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was cautious due to ongoing inflation concerns and interest rate hikes.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"AAPL's recent earnings report showed mixed results, leading to some investor uncertainty.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested overbought conditions, prompting profit-taking.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Price movements included random fluctuations not attributable to observable factors.\"\n    }\n]"
+}

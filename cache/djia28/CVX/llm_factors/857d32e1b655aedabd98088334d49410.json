@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-06-23",
+  "end_date": "2019-07-07",
+  "window_type": "monthly",
+  "price_change_pct": -0.8029406445037027,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.375,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver."
+    },
+    {
+      "name": "vix_increase_june_25",
+      "category": "macroeconomic",
+      "direction": -0.43333333333333335,
+      "magnitude": 0.3947368421052632,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index increased significantly on June 25, indicating heightened market uncertainty, which likely contributed to the downward price movement of CVX."
+    },
+    {
+      "name": "vix_decline_july_2",
+      "category": "macroeconomic",
+      "direction": 0.26666666666666666,
+      "magnitude": 0.2302631578947368,
+      "persistence": "short",
+      "description": "[conf=0.75] A decline in the VIX on July 2 suggested a temporary easing of market fears, which may have provided a slight upward pressure on CVX prices."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_june_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17, 25],\n    \"description\": \"The VIX increased from 14.06 on July 1 to 15.26 on June 24, indicating rising market volatility and contributing to bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver.\"\n  }\n]"
+}

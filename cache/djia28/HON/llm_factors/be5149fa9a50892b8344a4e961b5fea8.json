@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-29",
+  "end_date": "2020-04-12",
+  "window_type": "monthly",
+  "price_change_pct": 9.697903704807413,
+  "factors": [
+    {
+      "name": "fed_rate_cut_0.25",
+      "category": "macroeconomic",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.7333333333333334,
+      "persistence": "long",
+      "description": "[conf=0.90] The Federal Reserve's effective funds rate was reported at 0.0500, indicating a significant monetary easing that likely boosted market sentiment and equity valuations [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_0.25\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"long\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve's effective funds rate was reported at 0.0500, indicating a significant monetary easing that likely boosted market sentiment and equity valuations [1].\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 49],\n    \"description\": \"The 10-Year Treasury Rate declined to 0.6200, which typically supports higher equity prices as lower yields make stocks more attractive [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

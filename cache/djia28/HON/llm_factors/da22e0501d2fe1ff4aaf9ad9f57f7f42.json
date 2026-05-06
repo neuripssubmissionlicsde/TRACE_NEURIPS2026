@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-11-10",
+  "end_date": "2019-11-24",
+  "window_type": "monthly",
+  "price_change_pct": -1.672035279549677,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty and lack of clear directional drivers in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_nov_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.8800 to 1.7900 during the window indicated a shift in investor sentiment towards lower yields, contributing to bearish pressure on HON's stock price [9, 25, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty and lack of clear directional drivers in the market.\"\n  }\n]"
+}

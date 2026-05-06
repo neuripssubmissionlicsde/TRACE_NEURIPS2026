@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-01-07",
+  "end_date": "2018-01-21",
+  "window_type": "monthly",
+  "price_change_pct": 2.6333242412819895,
+  "factors": [
+    {
+      "name": "north_korea_sanctions_meeting",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.6111111111111112,
+      "persistence": "short",
+      "description": "[conf=0.85] The meeting of senior officials discussing sanctions against North Korea created a positive sentiment in the market, contributing to the price increase of KO."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38888888888888884,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_sanctions_meeting\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The meeting of senior officials discussing sanctions against North Korea created a positive sentiment in the market, contributing to the price increase of KO.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained market movements.\"\n  }\n]"
+}

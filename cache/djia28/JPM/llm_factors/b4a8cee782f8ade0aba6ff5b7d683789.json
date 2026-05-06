@@ -1,0 +1,57 @@
+{
+  "start_date": "2019-04-28",
+  "end_date": "2019-05-12",
+  "window_type": "monthly",
+  "price_change_pct": -1.8237038676008586,
+  "factors": [
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.2664692820133234,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over slowing economic growth and potential interest rate changes may have negatively impacted investor sentiment."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.36000000000000004,
+      "magnitude": 0.22205773501110287,
+      "persistence": "short",
+      "description": "[conf=0.70] General market sentiment was bearish during this period, influenced by broader market trends and investor anxiety."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -0.5,
+      "magnitude": 0.11843079200592152,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested potential sell signals, contributing to downward price movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.11547002220577349,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.35000000000000003,
+      "magnitude": 0.18874907475943745,
+      "persistence": "short",
+      "description": "[conf=0.50] The financial sector faced headwinds due to regulatory concerns and market volatility."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.15000000000000002,
+      "magnitude": 0.08882309400444115,
+      "persistence": "transient",
+      "description": "[conf=0.30] Liquidity conditions were slightly tighter, which may have affected trading volumes and price movements."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_conditions\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over slowing economic growth and potential interest rate changes may have negatively impacted investor sentiment.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General market sentiment was bearish during this period, influenced by broader market trends and investor anxiety.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested potential sell signals, contributing to downward price movement.\"\n    },\n    {\n        \"name\": \"liquidity_concerns\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Concerns about liquidity in the market may have led to cautious trading behavior among investors.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

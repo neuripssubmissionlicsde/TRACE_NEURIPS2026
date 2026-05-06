@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-11-11",
+  "end_date": "2018-11-25",
+  "window_type": "monthly",
+  "price_change_pct": -1.9035956511839431,
+  "factors": [
+    {
+      "name": "vix_volatility_increase_nov_2018",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased significantly during this period, indicating heightened market uncertainty and contributing to downward pressure on JNJ's stock price [17][21][23]."
+    },
+    {
+      "name": "treasury_yield_decline_nov_2018",
+      "category": "macroeconomic",
+      "direction": -0.35000000000000003,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury yield during this period may have influenced investor sentiment negatively, contributing to the price drop in JNJ [3][11]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_increase_nov_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 21, 23],\n    \"description\": \"The VIX increased significantly during this period, indicating heightened market uncertainty and contributing to downward pressure on JNJ's stock price [17][21][23].\"\n  },\n  {\n    \"name\": \"treasury_yield_decline_nov_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [3, 11],\n    \"description\": \"The decline in the 10-Year Treasury yield during this period may have influenced investor sentiment negatively, contributing to the price drop in JNJ [3][11].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

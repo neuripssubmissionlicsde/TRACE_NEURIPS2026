@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": 0.3672281879987648,
+  "factors": [
+    {
+      "name": "cpi_release_market_reaction",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5106382978723404,
+      "persistence": "short",
+      "description": "[conf=0.85] The release of the Bureau of Labor Statistics consumer price index for August led to a significant drop in the Dow Jones Industrial Average, impacting JNJ negatively as part of the broader market reaction [1][2]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48936170212765956,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as JNJ's price movements were relatively stable with no dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_market_reaction\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2],\n    \"description\": \"The release of the Bureau of Labor Statistics consumer price index for August led to a significant drop in the Dow Jones Industrial Average, impacting JNJ negatively as part of the broader market reaction [1][2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as JNJ's price movements were relatively stable with no dominant driver.\"\n  }\n]"
+}

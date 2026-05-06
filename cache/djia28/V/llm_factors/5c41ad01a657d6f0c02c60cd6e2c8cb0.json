@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-11-19",
+  "end_date": "2023-12-03",
+  "window_type": "monthly",
+  "price_change_pct": 2.740285278206286,
+  "factors": [
+    {
+      "name": "vix_decline_2023_11_24",
+      "category": "market_sentiment",
+      "direction": 0.6,
+      "magnitude": 0.4726368159203981,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined to 12.46 on 2023-11-24, indicating reduced market fear and contributing to upward price momentum for V [49, 50]."
+    },
+    {
+      "name": "treasury_rate_decline_2023_12_01",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.3283582089552239,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate decreased to 4.22% on 2023-12-01, which typically supports equity valuations by lowering discount rates [25, 41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19900497512437815,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2023_11_24\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The VIX Volatility Index declined to 12.46 on 2023-11-24, indicating reduced market fear and contributing to upward price momentum for V [49, 50].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_12_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 41],\n    \"description\": \"The 10-Year Treasury Rate decreased to 4.22% on 2023-12-01, which typically supports equity valuations by lowering discount rates [25, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-11-21",
+  "end_date": "2021-12-05",
+  "window_type": "monthly",
+  "price_change_pct": -1.8399835291871587,
+  "factors": [
+    {
+      "name": "vix_volatility_spike",
+      "category": "market_sentiment",
+      "direction": -0.25,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index spiked to 31.12, indicating increased market fear and uncertainty [25][33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "omicron_variant_concerns",
+      "category": "geopolitical",
+      "direction": -0.8000000000000002,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Stocks and oil prices declined sharply amid growing concerns over the SARS-CoV-2 Omicron variant [1, 2, 3]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"omicron_variant_fears\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Growing concerns over the SARS-CoV-2 Omicron variant led to a sharp decline in stocks and oil prices [1][2][3].\"\n  },\n  {\n    \"name\": \"vix_volatility_spike\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 33],\n    \"description\": \"The VIX Volatility Index spiked to 31.12, indicating increased market fear and uncertainty [25][33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

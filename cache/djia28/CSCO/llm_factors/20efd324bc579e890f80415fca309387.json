@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-11-25",
+  "end_date": "2018-12-09",
+  "window_type": "monthly",
+  "price_change_pct": 2.879898224129324,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "fed_rate_hike_25bps",
+      "category": "macroeconomic",
+      "direction": 0.7249999999999999,
+      "magnitude": 0.7333333333333334,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Federal Funds Effective Rate was reported at 2.27%, indicating a tightening monetary policy that generally supports equity valuations [41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_2018_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 43],\n    \"description\": \"The Federal Funds Effective Rate was reported at 2.27%, indicating a tightening monetary policy that generally supports higher equity valuations [41].\"\n  },\n  {\n    \"name\": \"treasury_yield_decline_2018_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [49],\n    \"description\": \"The 10-Year Treasury Rate declined to 2.98%, which typically boosts investor sentiment towards equities as lower yields make stocks more attractive [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

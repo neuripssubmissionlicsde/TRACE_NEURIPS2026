@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-10-14",
+  "end_date": "2018-10-28",
+  "window_type": "monthly",
+  "price_change_pct": 4.698417094780457,
+  "factors": [
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.6111111111111112,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 3.1600 to 3.2000 during the window, indicating increased investor confidence in economic growth, which likely supported WMT's price increase [1][10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38888888888888884,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 7, 10],\n    \"description\": \"The 10-Year Treasury Rate rose from 3.1600 to 3.2000 during the window, indicating increased investor confidence in economic growth, which likely supported WMT's price increase [1][10].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

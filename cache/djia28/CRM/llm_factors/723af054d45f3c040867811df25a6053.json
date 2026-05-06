@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-10-28",
+  "end_date": "2018-11-11",
+  "window_type": "monthly",
+  "price_change_pct": -0.8544583529086078,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7882352941176471,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly caused the price movement."
+    },
+    {
+      "name": "geopolitical_uncertainty_brexit",
+      "category": "geopolitical",
+      "direction": -0.2,
+      "magnitude": 0.21176470588235297,
+      "persistence": "short",
+      "description": "[conf=0.70] Increased uncertainty regarding Brexit negotiations may have contributed to market volatility, impacting investor sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.85,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly caused the price movement.\"\n  },\n  {\n    \"name\": \"geopolitical_uncertainty_brexit\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"Increased uncertainty regarding Brexit negotiations may have contributed to market volatility, impacting investor sentiment.\"\n  }\n]"
+}

@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-21",
+  "window_type": "monthly",
+  "price_change_pct": -6.261428499133757,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"kazakhstan_delayed_share_sale\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Kazakhstan's sovereign wealth fund delayed the sale of shares in a major oil and gas company, raising concerns about economic stability in the region [1].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"short\",\n    \"confidence\": 0.5,\n    \"source_articles\": [15, 23],\n    \"description\": \"The 10-Year Treasury Rate remained stable during this period, indicating a lack of significant macroeconomic shifts impacting investor sentiment.\"\n  }\n]"
+}

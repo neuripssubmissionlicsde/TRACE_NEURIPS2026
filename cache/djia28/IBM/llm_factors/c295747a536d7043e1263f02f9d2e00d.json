@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": -0.7331230876381635,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6686746987951807,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted IBM's price during this period."
+    },
+    {
+      "name": "rising_treasury_yields_april_2020",
+      "category": "macroeconomic",
+      "direction": -0.35000000000000003,
+      "magnitude": 0.3313253012048193,
+      "persistence": "short",
+      "description": "[conf=0.80] Increase in 10-Year Treasury Rate from 0.6200 to 0.7200 during the window [9, 17] likely contributed to bearish sentiment in equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted IBM's price during this period.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_april_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"Increase in 10-Year Treasury Rate from 0.6200 to 0.7200 during the window [9, 17] likely contributed to bearish sentiment in equities.\"\n  }\n]"
+}

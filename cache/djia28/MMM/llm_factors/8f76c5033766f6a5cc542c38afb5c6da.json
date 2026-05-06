@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-11-19",
+  "end_date": "2023-12-03",
+  "window_type": "monthly",
+  "price_change_pct": 5.083137545424596,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4172932330827067,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited characteristics of random fluctuations."
+    },
+    {
+      "name": "treasury_rate_decline_2023_11_29",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5827067669172933,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 4.2700 on 2023-11-29 likely boosted investor sentiment, contributing to the price increase of MMM."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_4.2200\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 4.2200 on December 1 contributed to a bullish sentiment in the market, supporting higher equity valuations [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited characteristics of random fluctuations.\"\n  }\n]"
+}

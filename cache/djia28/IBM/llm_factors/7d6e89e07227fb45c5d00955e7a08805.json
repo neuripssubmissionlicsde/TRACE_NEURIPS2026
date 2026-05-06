@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-07-19",
+  "end_date": "2020-08-02",
+  "window_type": "monthly",
+  "price_change_pct": -2.482728863090483,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5918367346938775,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted IBM's price during this period."
+    },
+    {
+      "name": "declining_treasury_yields_july_2020",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.40816326530612246,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined to 0.5500 on July 30, 2020, which typically signals lower investor confidence and can lead to bearish sentiment in equities like IBM."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted IBM's price during this period.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.50,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 33],\n    \"description\": \"The 10-Year Treasury Rate declined from 0.6200 to 0.5500 [25, 33], contributing to a bearish sentiment in the market.\"\n  }\n]"
+}

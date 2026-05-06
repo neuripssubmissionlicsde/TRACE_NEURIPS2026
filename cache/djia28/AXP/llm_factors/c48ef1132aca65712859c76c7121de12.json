@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-01-21",
+  "end_date": "2018-02-04",
+  "window_type": "monthly",
+  "price_change_pct": -0.5963174789374758,
+  "factors": [
+    {
+      "name": "ecb_policy_stability",
+      "category": "geopolitical",
+      "direction": 0.3,
+      "magnitude": 0.510204081632653,
+      "persistence": "medium",
+      "description": "[conf=0.75] The European Central Bank's decision to maintain its policy despite the euro's strength provided some stability to the market, countering bearish sentiment [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.489795918367347,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"mnuchin_comments_strong_dollar_policy\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [6, 9],\n    \"description\": \"Remarks by Treasury Secretary Mnuchin suggested a potential shift away from the strong dollar policy, leading to negative sentiment in the market [6][9].\"\n  },\n  {\n    \"name\": \"ecb_policy_stability\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The European Central Bank's decision to maintain its policy despite the euro's strength provided some stability to the market, countering bearish sentiment [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

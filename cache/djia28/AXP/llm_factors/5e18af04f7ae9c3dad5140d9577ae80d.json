@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-20",
+  "window_type": "monthly",
+  "price_change_pct": 4.309146868924761,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by broader market dynamics without specific news events."
+    },
+    {
+      "name": "treasury_rate_decline_2022_nov",
+      "category": "macroeconomic",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 4.22% to 3.77% during the window [9, 25] likely boosted investor sentiment and contributed to the price increase of AXP."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_nov_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury yield declined from 4.22% to 3.77% during the window, which typically supports higher equity valuations and investor sentiment [9, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by broader market dynamics without specific news events.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-07-31",
+  "end_date": "2022-08-14",
+  "window_type": "monthly",
+  "price_change_pct": 1.561180581243302,
+  "factors": [
+    {
+      "name": "bank_of_england_rate_hike_2022",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Bank of England raised its benchmark interest rate from 1.25% to 1.75%, the largest hike since 1995, which likely boosted investor confidence in the asset [1][4]."
+    },
+    {
+      "name": "vix_volatility_decrease",
+      "category": "market_sentiment",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index decreased from 21.15 to 19.74 during the period, indicating reduced market fear and contributing to a bullish sentiment for the asset [32][48]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_england_rate_hike_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 4],\n    \"description\": \"The Bank of England raised its benchmark interest rate from 1.25% to 1.75%, the largest hike since 1995, which likely boosted investor confidence in the asset [1][4].\"\n  },\n  {\n    \"name\": \"vix_volatility_decrease\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [32, 48],\n    \"description\": \"The VIX Volatility Index decreased from 21.15 to 19.74 during the period, indicating reduced market fear and contributing to a bullish sentiment for the asset [32][48].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

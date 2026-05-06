@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-11-25",
+  "end_date": "2018-12-09",
+  "window_type": "monthly",
+  "price_change_pct": -4.1125606900074185,
+  "factors": [
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3284671532846716,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over rising interest rates and inflation pressures may have negatively impacted investor sentiment during this period."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.25547445255474455,
+      "persistence": "short",
+      "description": "[conf=0.50] The financial sector faced headwinds due to broader market volatility and uncertainty, contributing to JPM's price decline."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.54,
+      "magnitude": 0.30656934306569344,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment driven by geopolitical tensions and trade concerns likely influenced investor behavior."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10948905109489053,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over rising interest rates and inflation pressures may have negatively impacted investor sentiment during this period.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The financial sector faced headwinds due to broader market volatility and uncertainty, contributing to JPM's price decline.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.6,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment driven by geopolitical tensions and trade concerns likely influenced investor behavior.\"\n    },\n    {\n        \"name\": \"technical_sell_off\",\n        \"category\": \"technical\",\n        \"direction\": -0.7,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have triggered sell-offs as the stock broke below key support levels.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations.\"\n    }\n]"
+}

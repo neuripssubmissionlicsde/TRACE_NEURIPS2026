@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-03-17",
+  "end_date": "2019-03-31",
+  "window_type": "monthly",
+  "price_change_pct": 2.1025300688761224,
+  "factors": [
+    {
+      "name": "declining_10y_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.43568464730290457,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 2.6000 to 2.3900 during the window, indicating a shift towards lower interest rates which generally supports equity prices [5][17][25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2987551867219917,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "increasing_10y_2y_spread",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.26556016597510373,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10Y-2Y Treasury Spread increased, suggesting a more favorable economic outlook which can boost investor sentiment towards equities [41, 49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10y_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 17, 25],\n    \"description\": \"The 10-Year Treasury Rate declined from 2.6000 to 2.3900 during the window, indicating a shift towards lower interest rates which generally supports equity prices [5][17][25].\"\n  },\n  {\n    \"name\": \"10y_2y_treasury_spread_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 45],\n    \"description\": \"The stability of the 10Y-2Y Treasury Spread around 0.1700 suggests a stable yield curve, which can reduce recession fears and support equity valuations [41][45].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

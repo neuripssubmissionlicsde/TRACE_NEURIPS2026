@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-03-31",
+  "end_date": "2019-04-14",
+  "window_type": "monthly",
+  "price_change_pct": 2.006896229487873,
+  "factors": [
+    {
+      "name": "sec_filing_2019_04_04",
+      "category": "company_specific",
+      "direction": 0.45,
+      "magnitude": 0.3791469194312796,
+      "persistence": "transient",
+      "description": "[conf=0.85] IBM filed with the SEC on 2019-04-04, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "stable_treasury_rate_2019_04_12",
+      "category": "macroeconomic",
+      "direction": 0.2875,
+      "magnitude": 0.2606635071090047,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable at 2.56% on 2019-04-12, supporting a favorable borrowing environment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3601895734597156,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2019_04_04\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"IBM filed with the SEC on 2019-04-04, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"stable_treasury_rate_2019_04_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 2.56% on 2019-04-12, supporting a favorable borrowing environment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

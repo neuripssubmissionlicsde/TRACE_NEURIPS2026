@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-08-04",
+  "end_date": "2019-08-18",
+  "window_type": "monthly",
+  "price_change_pct": 2.66172963967371,
+  "factors": [
+    {
+      "name": "declining_10yr_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.7333333333333334,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 1.6800 to 1.5500 during the window, indicating lower borrowing costs and supporting equity valuations [9, 49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited volatility without clear directional drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10yr_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 49],\n    \"description\": \"The 10-Year Treasury Rate declined from 1.6800 to 1.5500 during the window, indicating lower borrowing costs and supporting equity valuations [9, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited volatility without clear directional drivers.\"\n  }\n]"
+}

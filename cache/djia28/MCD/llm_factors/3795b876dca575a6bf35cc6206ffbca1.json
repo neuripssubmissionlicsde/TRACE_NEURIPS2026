@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-22",
+  "window_type": "monthly",
+  "price_change_pct": -5.599859552932196,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.8360655737704918,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    },
+    {
+      "name": "market_sentiment_shift",
+      "category": "market_sentiment",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.1639344262295082,
+      "persistence": "transient",
+      "description": "[conf=0.70] General market sentiment may have shifted negatively during this period, contributing to the overall price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 9],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 0.9800 to 0.8300 during the window may have influenced investor sentiment negatively, contributing to the price drop.\"\n  },\n  {\n    \"name\": \"market_sentiment_shift\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment may have shifted negatively during this period, contributing to the overall price decline.\"\n  }\n]"
+}

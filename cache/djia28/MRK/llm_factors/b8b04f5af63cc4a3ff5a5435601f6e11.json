@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": -0.2729555171053629,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2021_08_10",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4807692307692307,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 1.36% on 2021-08-10, contributing to bearish sentiment in the market as higher yields typically pressure equity valuations [9][10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5192307692307693,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear trend amidst mixed signals."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_08_10\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 25],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.36% on 2021-08-10, contributing to bearish sentiment in the market as higher yields typically pressure equity valuations [9][10].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear trend amidst mixed signals.\"\n  }\n]"
+}

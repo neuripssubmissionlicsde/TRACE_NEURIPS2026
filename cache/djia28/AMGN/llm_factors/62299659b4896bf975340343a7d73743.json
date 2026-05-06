@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-06-09",
+  "end_date": "2019-06-23",
+  "window_type": "monthly",
+  "price_change_pct": 6.342722863044214,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4329896907216495,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited characteristics of randomness."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5670103092783505,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 2.1500 to 2.0100 during the window, indicating lower borrowing costs and supporting equity valuations [6][26]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_june_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [6, 26],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.0100 on June 20, 2019, indicated a shift towards lower borrowing costs, which generally supports equity valuations [6, 26].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited characteristics of randomness.\"\n  }\n]"
+}

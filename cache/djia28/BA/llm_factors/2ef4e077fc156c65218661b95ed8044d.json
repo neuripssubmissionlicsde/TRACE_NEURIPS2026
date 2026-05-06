@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-05-26",
+  "end_date": "2019-06-09",
+  "window_type": "monthly",
+  "price_change_pct": -0.4475179353808253,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 2.38% [1], contributing to a cautious market sentiment."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate held steady at 3.6% [9], indicating a stable labor market which may have supported investor confidence."
+    },
+    {
+      "name": "treasury_yield_fluctuations",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.75] Fluctuations in the 10-Year Treasury Rate, dropping to 2.12% [17], may have negatively impacted investor sentiment towards equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 2.38% [1], contributing to a cautious market sentiment.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9],\n    \"description\": \"The unemployment rate held steady at 3.6% [9], indicating a stable labor market which may have supported investor confidence.\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuations\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 41],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, dropping to 2.12% [17], may have negatively impacted investor sentiment towards equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

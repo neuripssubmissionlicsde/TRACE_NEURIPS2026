@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-03-28",
+  "end_date": "2021-04-11",
+  "window_type": "monthly",
+  "price_change_pct": 3.5407189238898544,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3442622950819672,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced fluctuations without clear drivers."
+    },
+    {
+      "name": "s_p_500_above_4000",
+      "category": "market_sentiment",
+      "direction": 0.6999999999999998,
+      "magnitude": 0.3770491803278688,
+      "persistence": "short",
+      "description": "[conf=0.85] The S&P 500 closed above 4,000 for the first time, boosting overall market sentiment and positively impacting WMT's price."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.5666666666666668,
+      "magnitude": 0.27868852459016397,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury yield declined from 1.7400 to 1.6400, which typically supports equity valuations and contributed to WMT's price increase."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"s_p_500_closes_above_4000\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [37, 38, 39],\n    \"description\": \"The S&P 500 closed above 4,000 for the first time, boosting investor sentiment and contributing to WMT's price increase [37].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced fluctuations without clear drivers.\"\n  }\n]"
+}

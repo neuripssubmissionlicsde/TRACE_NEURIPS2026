@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-02-04",
+  "end_date": "2018-02-18",
+  "window_type": "monthly",
+  "price_change_pct": 2.506369342475156,
+  "factors": [
+    {
+      "name": "market_selloff_feb_5",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.6111111111111112,
+      "persistence": "short",
+      "description": "[conf=0.90] The Wall Street stock market experienced a significant selloff on February 5, with the Dow dropping 4.6%, impacting investor sentiment and leading to a bearish environment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38888888888888884,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_selloff_feb_5\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Wall Street stock market experienced a significant selloff on February 5, with the Dow dropping 4.6%, impacting investor sentiment and leading to a bearish environment.\"\n  },\n  {\n    \"name\": \"nke_price_recovery\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Nike's stock price showed resilience and recovery following the market selloff, indicating strong brand loyalty and consumer demand.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period.\"\n  }\n]"
+}

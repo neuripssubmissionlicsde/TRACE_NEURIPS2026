@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-11-10",
+  "end_date": "2019-11-24",
+  "window_type": "monthly",
+  "price_change_pct": 6.388947764201667,
+  "factors": [
+    {
+      "name": "market_sentiment_improvement",
+      "category": "market_sentiment",
+      "direction": 0.4,
+      "magnitude": 0.2533783783783784,
+      "persistence": "transient",
+      "description": "[conf=0.75] General market sentiment improved during this period, contributing to upward price pressure."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32432432432432434,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "treasury_rate_decline_1.81",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.4222972972972973,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 1.81% on November 18 and 21 supported equity valuations, contributing to BA's price increase [17][25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_1.77\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 33],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.77% on 2019-11-21 supported equity valuations, contributing to the bullish price movement [25][33].\"\n  },\n  {\n    \"name\": \"market_sentiment_improvement\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment improved during this period, contributing to upward price pressure.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

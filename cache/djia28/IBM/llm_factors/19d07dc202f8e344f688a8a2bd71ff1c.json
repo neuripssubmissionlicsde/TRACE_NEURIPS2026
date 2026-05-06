@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-21",
+  "window_type": "monthly",
+  "price_change_pct": -7.4090939405642295,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_june_2020",
+      "category": "macroeconomic",
+      "direction": -0.675,
+      "magnitude": 0.5789473684210527,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield fell to 0.7000 on June 19, indicating a flight to safety that negatively impacted IBM's stock price as investors sought safer assets."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_june_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 34],\n    \"description\": \"The 10-Year Treasury yield fell to 0.7000 on June 19, indicating a flight to safety that negatively impacted IBM's stock price as investors sought safer assets.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

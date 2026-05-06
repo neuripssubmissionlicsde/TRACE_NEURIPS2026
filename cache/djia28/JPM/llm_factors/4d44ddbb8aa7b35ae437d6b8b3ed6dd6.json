@@ -1,0 +1,57 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": -10.212491093667902,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.14814814814814814,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment due to broader economic concerns likely contributed to the decline in JPM's stock price."
+    },
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.2777777777777778,
+      "persistence": "medium",
+      "description": "[conf=0.60] Rising inflation and interest rate concerns during this period may have negatively impacted financial stocks, including JPM."
+    },
+    {
+      "name": "company_specific_news",
+      "category": "company_specific",
+      "direction": -1.0,
+      "magnitude": 0.11111111111111112,
+      "persistence": "transient",
+      "description": "[conf=0.50] Any negative news or earnings reports specific to JPM during this period could have influenced investor sentiment."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.09259259259259262,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in stock price movement that cannot be attributed to observable factors."
+    },
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": -1.0,
+      "magnitude": 0.18518518518518523,
+      "persistence": "short",
+      "description": "[conf=0.60] Rising geopolitical tensions, particularly related to Eastern Europe, contributed to market volatility."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -1.0,
+      "magnitude": 0.18518518518518523,
+      "persistence": "short",
+      "description": "[conf=0.50] The financial sector faced headwinds as investors reacted to broader market concerns, impacting JPM's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment due to broader economic concerns likely contributed to the decline in JPM's stock price.\"\n    },\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.6,\n        \"description\": \"Rising inflation and interest rate concerns during this period may have negatively impacted financial stocks, including JPM.\"\n    },\n    {\n        \"name\": \"company_specific_news\",\n        \"category\": \"company_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Any negative news or earnings reports specific to JPM during this period could have influenced investor sentiment.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in stock price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

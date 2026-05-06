@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-02-28",
+  "end_date": "2021-03-14",
+  "window_type": "monthly",
+  "price_change_pct": 8.881498469461192,
+  "factors": [
+    {
+      "name": "vix_decline_march_2021",
+      "category": "macroeconomic",
+      "direction": 0.7333333333333334,
+      "magnitude": 0.7534246575342467,
+      "persistence": "short",
+      "description": "[conf=0.90] The VIX Volatility Index declined to 20.69 on March 12, indicating reduced market fear and contributing to bullish sentiment for equities [41, 43]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2465753424657534,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_march_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [41, 43],\n    \"description\": \"The VIX Volatility Index declined to 20.69 on March 12, indicating reduced market fear and contributing to bullish sentiment for equities [41, 43].\"\n  },\n  {\n    \"name\": \"vix_increase_february_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 25],\n    \"description\": \"The VIX increased to 24.10 on March 2, reflecting heightened market uncertainty that may have initially pressured prices before the subsequent recovery [9, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

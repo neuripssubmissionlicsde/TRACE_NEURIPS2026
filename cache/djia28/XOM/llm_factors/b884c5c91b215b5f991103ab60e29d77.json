@@ -1,0 +1,41 @@
+{
+  "start_date": "2021-11-07",
+  "end_date": "2021-11-21",
+  "window_type": "monthly",
+  "price_change_pct": -6.200836875810132,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.3703703703703704,
+      "persistence": "short",
+      "description": "[conf=0.70] A decline in crude oil prices during this period likely contributed to the bearish movement in XOM's stock price."
+    },
+    {
+      "name": "earnings_report",
+      "category": "company_specific",
+      "direction": -1.0,
+      "magnitude": 0.24691358024691365,
+      "persistence": "short",
+      "description": "[conf=0.50] XOM's recent earnings report, which may have disappointed investors, likely contributed to the downward price movement."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -1.0,
+      "magnitude": 0.20987654320987653,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showing sell signals may have prompted traders to exit positions, adding to the downward pressure on the stock."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.17283950617283952,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to the price movement without a clear causal factor."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"A decline in crude oil prices during this period likely contributed to the bearish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment_shift\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Negative sentiment in the broader market, influenced by concerns over inflation and interest rates, coincided with the decline in XOM's stock price.\"\n    },\n    {\n        \"name\": \"earnings_report\",\n        \"category\": \"company_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's recent earnings report, which may have disappointed investors, likely contributed to the downward price movement.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showing sell signals may have prompted traders to exit positions, adding to the downward pressure on the stock.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to the price movement without a clear causal factor.\"\n    }\n]"
+}

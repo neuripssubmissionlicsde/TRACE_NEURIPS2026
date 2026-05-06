@@ -1,0 +1,49 @@
+{
+  "start_date": "2019-05-26",
+  "end_date": "2019-06-09",
+  "window_type": "monthly",
+  "price_change_pct": -0.03660465357909698,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.24000000000000005,
+      "magnitude": 0.3231597845601436,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment during this period was cautious, contributing to slight bearish pressure."
+    },
+    {
+      "name": "technical_indicators",
+      "category": "technical",
+      "direction": -0.125,
+      "magnitude": 0.18850987432675043,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested overbought conditions, which may have led to profit-taking."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": 0.05,
+      "magnitude": 0.10771992818671455,
+      "persistence": "short",
+      "description": "[conf=0.50] Liquidity conditions were stable, providing some support to the stock price."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.3447037701974866,
+      "persistence": "transient",
+      "description": "[conf=0.70] Random market fluctuations contributed to unexplained variance in price movement."
+    },
+    {
+      "name": "consolidation",
+      "category": "technical",
+      "direction": 0.0,
+      "magnitude": 0.03590664272890485,
+      "persistence": "medium",
+      "description": "[conf=0.80] The stock exhibited a range-bound movement, indicating a period of consolidation."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment during this period was cautious, contributing to slight bearish pressure.\"\n    },\n    {\n        \"name\": \"technical_indicators\",\n        \"category\": \"technical\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested overbought conditions, which may have led to profit-taking.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Liquidity conditions were stable, providing some support to the stock price.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.7,\n        \"description\": \"Random market fluctuations contributed to unexplained variance in price movement.\"\n    },\n    {\n        \"name\": \"consolidation\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.8,\n        \"description\": \"The stock exhibited a range-bound movement, indicating a period of consolidation.\"\n    }\n]"
+}

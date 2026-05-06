@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": -1.3710971157567753,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in market dynamics during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10y_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [10, 11, 13],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.76% on July 13, which typically supports equity valuations and investor sentiment [10, 11, 13].\"\n  },\n  {\n    \"name\": \"inverted_10y_2y_spread\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [31, 34, 37],\n    \"description\": \"The 10Y-2Y Treasury Spread remained inverted, indicating potential recession fears, which negatively impacted market sentiment [31, 34, 37].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in market dynamics during this period.\"\n  }\n]"
+}

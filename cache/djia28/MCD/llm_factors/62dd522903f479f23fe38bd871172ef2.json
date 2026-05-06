@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-11-20",
+  "end_date": "2022-12-04",
+  "window_type": "monthly",
+  "price_change_pct": 0.10553133196900828,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2022_dec",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.36815920398009955,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 3.5100 on December 2, 2022, likely supported MCD's price stability as lower rates can enhance consumer spending and corporate profitability."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.35820895522388063,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall low volatility and mixed signals during the period."
+    },
+    {
+      "name": "treasury_rate_fluctuation_2022_nov",
+      "category": "macroeconomic",
+      "direction": -0.35000000000000003,
+      "magnitude": 0.27363184079601993,
+      "persistence": "short",
+      "description": "[conf=0.75] Fluctuations in the 10-Year Treasury Rate during late November, peaking at 3.8300, created uncertainty that negatively impacted MCD's price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2022_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 32],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.5100 on December 2, 2022, likely supported MCD's price stability as lower rates can enhance consumer spending and corporate profitability.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2022_nov\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 3.8300 on November 21, 2022, may have exerted downward pressure on MCD's price due to rising borrowing costs impacting consumer spending.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall low volatility and mixed signals during the period.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-01-29",
+  "end_date": "2023-02-12",
+  "window_type": "monthly",
+  "price_change_pct": -1.1099070972992517,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.2333333333333333,
+      "magnitude": 0.663265306122449,
+      "persistence": "medium",
+      "description": "[conf=0.75] The unemployment rate remained stable at 3.6%, suggesting a resilient labor market that could support consumer confidence [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.336734693877551,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_index_increase\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 25],\n    \"description\": \"The VIX Volatility Index increased from 17.87 to 18.73, indicating heightened market uncertainty which likely pressured asset V's price downward [1, 25].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9],\n    \"description\": \"The unemployment rate remained stable at 3.6%, suggesting a resilient labor market that could support consumer confidence [9].\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_increase\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41],\n    \"description\": \"The 10-Year Treasury Rate rose from 3.63% to 3.74%, which typically signals rising borrowing costs and can negatively impact equity valuations [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.1,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-05-24",
+  "end_date": "2020-06-07",
+  "window_type": "monthly",
+  "price_change_pct": -2.235812959938918,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_release_11pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [28, 29, 30],\n    \"description\": \"The unemployment rate was reported at 11.0% on June 1, raising concerns about consumer spending and economic recovery.\"\n  },\n  {\n    \"name\": \"treasury_yield_increase_0.9100\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [16, 17, 18],\n    \"description\": \"The 10-Year Treasury Rate increased to 0.9100 on June 5, indicating rising borrowing costs which negatively impacted equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment during this period.\"\n  }\n]"
+}

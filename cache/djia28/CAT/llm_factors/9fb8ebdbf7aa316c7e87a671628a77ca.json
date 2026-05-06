@@ -1,0 +1,17 @@
+{
+  "start_date": "2022-05-08",
+  "end_date": "2022-05-22",
+  "window_type": "monthly",
+  "price_change_pct": -6.701887575476306,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events explain the significant price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.70,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events explain the significant price decline.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.30,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [5, 9, 13],\n    \"description\": \"The 10-Year Treasury Rate increased from 3.05% on May 9 to 2.84% on May 12, indicating rising borrowing costs which typically pressure equity valuations [5, 9, 13].\"\n  }\n]"
+}

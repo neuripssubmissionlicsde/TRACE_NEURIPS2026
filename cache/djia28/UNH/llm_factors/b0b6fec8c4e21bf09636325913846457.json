@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": -1.1934554444323975,
+  "factors": [
+    {
+      "name": "unemployment_rate_stable_4_percent",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.3731343283582089,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 4%, indicating a steady labor market which may have contributed to investor confidence."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6268656716417911,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable_4_percent\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 4%, indicating a steady labor market which may have contributed to investor confidence.\"\n  },\n  {\n    \"name\": \"treasury_yield_increase_2_86_percent\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 18, 19, 20, 21, 22, 23, 24],\n    \"description\": \"The 10-Year Treasury yield rose to 2.86%, which typically pressures equity valuations, contributing to the price decline.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

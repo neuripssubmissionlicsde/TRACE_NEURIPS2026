@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": 0.06348631054957485,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5783132530120482,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers."
+    },
+    {
+      "name": "sec_filing_2021_06_04",
+      "category": "company_specific",
+      "direction": 0.08666666666666667,
+      "magnitude": 0.2108433734939759,
+      "persistence": "transient",
+      "description": "[conf=0.75] Walmart filed with the SEC on 2021-06-04, which may have provided some investor confidence."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.2108433734939759,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10-Year Treasury Rate around 1.56% to 1.63% during this period contributed to a stable investment environment, supporting WMT's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.70,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"sec_filing_2021_06_04\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.06,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"Walmart filed with the SEC on 2021-06-04, which may have provided some investor confidence.\"\n  }\n]"
+}

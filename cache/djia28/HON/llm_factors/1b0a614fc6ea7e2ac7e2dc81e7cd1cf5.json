@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-11-21",
+  "end_date": "2021-12-05",
+  "window_type": "monthly",
+  "price_change_pct": -6.792499614358386,
+  "factors": [
+    {
+      "name": "omicron_variant_concerns",
+      "category": "geopolitical",
+      "direction": -0.78,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.95] Stocks and oil prices declined sharply due to growing concerns over the SARS-CoV-2 Omicron variant, impacting market sentiment significantly [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"omicron_variant_concerns\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n    \"description\": \"Stocks and oil prices declined sharply due to growing concerns over the SARS-CoV-2 Omicron variant, impacting market sentiment significantly [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

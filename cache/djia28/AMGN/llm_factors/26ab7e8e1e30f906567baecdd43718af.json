@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": -5.137967616419231,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.55,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "rising_treasury_yields_2021_august",
+      "category": "macroeconomic",
+      "direction": -0.45,
+      "magnitude": 0.45,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased from 1.2000 to 1.2900 during the period, contributing to bearish sentiment in equities [11, 21]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"sec_filings_2021_aug\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"SEC filings on 2021-08-03 and 2021-08-04 may have raised concerns about regulatory scrutiny, contributing to negative sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_aug_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.45,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [6, 11, 21],\n    \"description\": \"Increase in 10-Year Treasury yields from 1.2000 to 1.2900 during the period may have pressured equity valuations, impacting AMGN's price.\"\n  }\n]"
+}

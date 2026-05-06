@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-22",
+  "window_type": "monthly",
+  "price_change_pct": -4.8920776898698985,
+  "factors": [
+    {
+      "name": "vix_volatility_spike_nov19",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.38177339901477836,
+      "persistence": "transient",
+      "description": "[conf=0.85] A spike in the VIX Volatility Index to 23.11 on November 19 indicated increased market uncertainty, contributing to bearish sentiment and price decline [41][49]."
+    },
+    {
+      "name": "treasury_rate_decline_nov20",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.2832512315270935,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 0.83% on November 20 may have influenced investor sentiment negatively, contributing to the price drop [33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.33497536945812806,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_spike_nov19\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 49],\n    \"description\": \"A spike in the VIX Volatility Index to 23.11 on November 19 indicated increased market uncertainty, contributing to bearish sentiment and price decline [41][49].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_nov20\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 0.83% on November 20 may have influenced investor sentiment negatively, contributing to the price drop [33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

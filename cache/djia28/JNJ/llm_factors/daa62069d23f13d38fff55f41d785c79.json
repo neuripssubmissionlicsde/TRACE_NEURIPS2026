@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-05-24",
+  "end_date": "2020-06-07",
+  "window_type": "monthly",
+  "price_change_pct": 0.7592637731743023,
+  "factors": [
+    {
+      "name": "vix_volatility_decline",
+      "category": "market_sentiment",
+      "direction": 0.52,
+      "magnitude": 0.36,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 28.23 to 25.66 during the window, indicating reduced market fear and supporting bullish sentiment [39][41]."
+    },
+    {
+      "name": "unemployment_rate_stabilization",
+      "category": "macroeconomic",
+      "direction": 0.32,
+      "magnitude": 0.26,
+      "persistence": "medium",
+      "description": "[conf=0.75] The unemployment rate was reported at 11.0%, stabilizing expectations for economic recovery, which positively influenced market sentiment [19][20]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [39, 41],\n    \"description\": \"The VIX Volatility Index declined from 28.23 to 25.66 during the window, indicating reduced market fear and supporting bullish sentiment [39][41].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stabilization\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [19, 20],\n    \"description\": \"The unemployment rate was reported at 11.0%, stabilizing expectations for economic recovery, which positively influenced market sentiment [19][20].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

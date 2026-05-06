@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-11-22",
+  "end_date": "2020-12-06",
+  "window_type": "monthly",
+  "price_change_pct": -0.7481647835172096,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5029940119760479,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.24251497005988026,
+      "persistence": "short",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained stable at 0.09% [1], contributing to a lack of significant market movement."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.25449101796407186,
+      "persistence": "long",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable around 0.84% to 0.92%, reflecting low borrowing costs and stable investor sentiment [9, 17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.75,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver.\"\n  },\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.09% [1], contributing to a lack of significant market movement.\"\n  }\n]"
+}

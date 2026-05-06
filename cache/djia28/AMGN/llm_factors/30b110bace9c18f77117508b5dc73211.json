@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-04-14",
+  "end_date": "2019-04-28",
+  "window_type": "monthly",
+  "price_change_pct": -5.4055504527048255,
+  "factors": [
+    {
+      "name": "singapore_export_slump_april_2019",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.40816326530612246,
+      "persistence": "transient",
+      "description": "[conf=0.85] Singapore's non-oil exports slumped in March, raising concerns about global trade and economic health, which negatively impacted market sentiment [46]."
+    },
+    {
+      "name": "treasury_rate_decline_april_2019",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.30612244897959184,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate to 2.5100 on April 26 indicated a flight to safety, contributing to bearish sentiment in equities [31]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28571428571428575,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"singapore_export_slump_april_2019\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [46, 47, 48, 49],\n    \"description\": \"Singapore's non-oil exports slumped in March, raising concerns about global trade and economic health, which negatively impacted market sentiment [46].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_april_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [31, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.5100 on April 26 indicated a flight to safety, contributing to bearish sentiment in equities [31].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

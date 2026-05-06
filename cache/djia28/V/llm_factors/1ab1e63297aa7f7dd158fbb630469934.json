@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-04-28",
+  "end_date": "2019-05-12",
+  "window_type": "monthly",
+  "price_change_pct": -1.5317703825329847,
+  "factors": [
+    {
+      "name": "vix_spike_2019_05_07",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.6875,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 19.32 on 2019-05-07, indicating increased market fear and contributing to downward pressure on asset V."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3125,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_2019_05_07\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The VIX Volatility Index spiked to 19.32 on 2019-05-07, indicating increased market fear and contributing to downward pressure on asset V.\"\n  },\n  {\n    \"name\": \"vix_decline_2019_05_03\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The VIX Volatility Index was reported at 12.87 on 2019-05-03, suggesting a temporary easing of market fears which may have supported asset V's price prior to the decline.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

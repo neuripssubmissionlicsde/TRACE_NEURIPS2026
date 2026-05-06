@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-24",
+  "window_type": "monthly",
+  "price_change_pct": 1.5338037946350362,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2020_05_20",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.4794520547945206,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 0.6800 on 2020-05-20, indicating increased investor confidence and contributing to the upward price movement of UNH."
+    },
+    {
+      "name": "stable_treasury_yields_2020_05_14",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.22831050228310504,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate was stable at 0.6300 on 2020-05-14, providing a favorable environment for equities including UNH."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2922374429223744,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2020_05_20\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The 10-Year Treasury Rate rose to 0.6800 on 2020-05-20, indicating increased investor confidence and contributing to the upward price movement of UNH.\"\n  },\n  {\n    \"name\": \"stable_treasury_yields_2020_05_14\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The 10-Year Treasury Rate was stable at 0.6300 on 2020-05-14, providing a favorable environment for equities including UNH.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during this period.\"\n  }\n]"
+}

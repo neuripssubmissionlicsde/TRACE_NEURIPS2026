@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-01-30",
+  "end_date": "2022-02-13",
+  "window_type": "monthly",
+  "price_change_pct": -1.920327259536298,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2022",
+      "category": "macroeconomic",
+      "direction": -0.7000000000000001,
+      "magnitude": 0.5263157894736843,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 1.8100 to 1.9200 during the window, indicating increased borrowing costs which negatively impacted equity valuations [9][33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4736842105263158,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33],\n    \"description\": \"The 10-Year Treasury Rate rose from 1.8100 to 1.9200 during the window, indicating increased borrowing costs which negatively impacted equity valuations [9][33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver.\"\n  }\n]"
+}

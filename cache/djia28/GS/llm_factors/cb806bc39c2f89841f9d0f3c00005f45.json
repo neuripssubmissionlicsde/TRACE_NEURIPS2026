@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-06-23",
+  "end_date": "2019-07-07",
+  "window_type": "monthly",
+  "price_change_pct": 5.785350787877436,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_july_2019",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.5789473684210527,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate declined from 2.0300 to 1.9600 during the window, indicating a shift towards lower interest rates which typically supports equity prices [1][9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_july_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate declined from 2.0300 to 1.9600 during the window, indicating a shift towards lower interest rates which typically supports equity prices [1][9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver.\"\n  }\n]"
+}

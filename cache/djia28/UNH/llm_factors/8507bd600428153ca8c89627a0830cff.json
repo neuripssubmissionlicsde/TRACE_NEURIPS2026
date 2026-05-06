@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-07-07",
+  "end_date": "2019-07-21",
+  "window_type": "monthly",
+  "price_change_pct": 4.155678101442722,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4021739130434782,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting stochastic price movements during the period."
+    },
+    {
+      "name": "rising_10_year_treasury_rate_2.09",
+      "category": "macroeconomic",
+      "direction": 0.19999999999999998,
+      "magnitude": 0.5978260869565217,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 2.09% on July 15, indicating a shift in investor sentiment towards equities as yields increased, which likely supported UNH's price rise."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2.0500\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 32],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.0500 on July 19 created a favorable environment for equities, boosting investor sentiment towards UNH [25].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2.0600\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 25],\n    \"description\": \"The earlier decline in the 10-Year Treasury Rate to 2.0600 on July 17 also contributed to positive sentiment, supporting the price increase of UNH [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting stochastic price movements during the period.\"\n  }\n]"
+}

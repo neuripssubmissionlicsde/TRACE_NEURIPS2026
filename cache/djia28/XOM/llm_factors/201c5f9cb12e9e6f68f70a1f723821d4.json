@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-02-17",
+  "end_date": "2019-03-03",
+  "window_type": "monthly",
+  "price_change_pct": 3.145969947561917,
+  "factors": [
+    {
+      "name": "venezuela_diplomatic_crisis",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.5405405405405407,
+      "persistence": "short",
+      "description": "[conf=0.85] Venezuela's diplomatic crisis and the closure of maritime borders raised concerns about oil supply disruptions, positively impacting XOM's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45945945945945943,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"venezuela_diplomatic_crisis\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [34, 47],\n    \"description\": \"Venezuela's diplomatic crisis and the closure of maritime borders raised concerns about oil supply disruptions, positively impacting XOM's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

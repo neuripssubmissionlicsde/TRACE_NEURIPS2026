@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": -1.1642608429104053,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_3.76",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 3.76% on July 13, which typically supports equity valuations and investor sentiment."
+    },
+    {
+      "name": "treasury_rate_decline_3.99",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate fell to 3.99% on July 11, contributing to a favorable environment for equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_3.76\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.76% on July 13, which typically supports equity valuations and investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_3.99\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25],\n    \"description\": \"The 10-Year Treasury Rate fell to 3.99% on July 11, contributing to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in the market.\"\n  }\n]"
+}

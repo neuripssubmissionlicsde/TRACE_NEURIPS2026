@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-10-22",
+  "end_date": "2023-11-05",
+  "window_type": "monthly",
+  "price_change_pct": 3.786888823575479,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2023_nov_01",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5483870967741936,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 4.7700 on November 1, 2023, contributed to a bullish sentiment in the market, supporting equity valuations [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4516129032258065,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2023_nov_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42, 43],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 4.7700 on November 1, 2023, contributed to a bullish sentiment in the market, supporting equity valuations [41].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_oct_30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [49, 50],\n    \"description\": \"The drop in the 10-Year Treasury Rate to 4.8800 on October 30, 2023, provided a favorable environment for equities, contributing to the price increase of CRM [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

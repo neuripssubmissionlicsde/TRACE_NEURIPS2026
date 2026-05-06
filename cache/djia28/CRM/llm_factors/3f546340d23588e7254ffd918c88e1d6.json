@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-07-18",
+  "end_date": "2021-08-01",
+  "window_type": "monthly",
+  "price_change_pct": 2.2916592909702227,
+  "factors": [
+    {
+      "name": "sec_filing_crm_2021_07_21",
+      "category": "company_specific",
+      "direction": 0.52,
+      "magnitude": 0.39999999999999997,
+      "persistence": "transient",
+      "description": "[conf=0.85] Salesforce filed with the SEC on 2021-07-21, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "treasury_rate_decline_2021_07_22",
+      "category": "macroeconomic",
+      "direction": 0.32,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined to 1.2700 on 2021-07-22, potentially boosting equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_crm_2021_07_21\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Salesforce filed with the SEC on 2021-07-21, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2021_07_22\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.2700 on 2021-07-22, potentially boosting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating stochastic price movements.\"\n  }\n]"
+}

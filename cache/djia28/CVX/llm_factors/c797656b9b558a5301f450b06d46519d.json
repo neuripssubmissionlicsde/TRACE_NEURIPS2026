@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-01-01",
+  "end_date": "2023-01-15",
+  "window_type": "monthly",
+  "price_change_pct": -0.26957498967785853,
+  "factors": [
+    {
+      "name": "vix_decline_january_2023",
+      "category": "macroeconomic",
+      "direction": 0.45999999999999996,
+      "magnitude": 0.39,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 22.90 on January 3 to 18.35 on January 13, indicating reduced market volatility and contributing to a more favorable environment for equities [1, 9, 33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.61,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were modest and lacked a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_january_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 33],\n    \"description\": \"The VIX Volatility Index declined from 22.90 on January 3 to 18.35 on January 13, indicating reduced market volatility and contributing to a more favorable environment for equities [1, 9, 33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were modest and lacked a dominant driver.\"\n  }\n]"
+}

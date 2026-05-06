@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-08-18",
+  "end_date": "2019-09-01",
+  "window_type": "monthly",
+  "price_change_pct": 1.0281514018675317,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_1.5pct",
+      "category": "macroeconomic",
+      "direction": 0.5750000000000001,
+      "magnitude": 0.5678670360110804,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 1.5000, which typically supports equity valuations and investor sentiment [1, 43]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4321329639889197,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_1.5pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 43],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.5000, which typically supports equity valuations and investor sentiment [1, 43].\"\n  },\n  {\n    \"name\": \"volcker_rule_modification\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 26],\n    \"description\": \"The modification of the Volcker rule was approved, easing trading restrictions for banks, which may have positively influenced market sentiment [25, 26].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

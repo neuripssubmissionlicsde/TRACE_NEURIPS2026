@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": -1.3727569186726645,
+  "factors": [
+    {
+      "name": "north_korea_patience_warning",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "transient",
+      "description": "[conf=0.85] North Korea warned it is 'running out of patience' with the U.S., raising geopolitical tensions and negatively impacting market sentiment [41-45]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced fluctuations without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_patience_warning\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42, 43, 44, 45],\n    \"description\": \"North Korea warned it is 'running out of patience' with the U.S., raising geopolitical tensions and negatively impacting market sentiment [41-45].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced fluctuations without a clear dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": 3.265926590264755,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2892768079800499,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "cpi_release_positive_sentiment",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.4239401496259352,
+      "persistence": "short",
+      "description": "[conf=0.85] The Consumer Price Index (CPI) release on 2019-12-01 showed stable inflation, boosting investor confidence in economic stability [1][2][3]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.286783042394015,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.6% as reported on 2019-12-01, contributing to positive market sentiment [9][10][11]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_2019_12_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The Consumer Price Index (CPI) release on 2019-12-01 indicated stable inflation, which likely supported investor confidence and contributed to the price increase.\"\n  },\n  {\n    \"name\": \"unemployment_rate_release_2019_12_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The unemployment rate reported at 3.6% on 2019-12-01 indicated a strong labor market, further boosting market sentiment and contributing to the price rise.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

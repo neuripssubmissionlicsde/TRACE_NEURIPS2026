@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.368235958080954,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4444444444444445,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the stock experienced a notable price decline without clear, consistent drivers."
+    },
+    {
+      "name": "vaccine_production_cancellation_denmark",
+      "category": "geopolitical",
+      "direction": -0.5333333333333333,
+      "magnitude": 0.27777777777777773,
+      "persistence": "transient",
+      "description": "[conf=0.85] The Danish government's cancellation of its national vaccine production tender raised concerns about vaccine supply, negatively impacting JNJ's stock due to its involvement in vaccine production."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.27777777777777773,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield rose from 1.2900 to 1.3500 during the window, indicating tightening financial conditions that typically pressure equity valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vaccine_production_tender_cancellation_denmark\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26],\n    \"description\": \"The Danish government's cancellation of its national vaccine production tender raised concerns about vaccine supply, negatively impacting JNJ's stock as it is involved in vaccine production.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the stock experienced a notable price decline without clear, consistent drivers.\"\n  }\n]"
+}

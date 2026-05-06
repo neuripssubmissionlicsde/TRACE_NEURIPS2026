@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-01-07",
+  "end_date": "2018-01-21",
+  "window_type": "monthly",
+  "price_change_pct": 4.329151042096461,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5802919708029197,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.05000000000000001,
+      "magnitude": 0.4197080291970803,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased from 2.5700 to 2.6400 during the window, which typically exerts downward pressure on equity prices [4, 22]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"sec_filing_impact\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"Walmart filed with the SEC, which may have positively influenced investor sentiment [1].\"\n  }\n]"
+}

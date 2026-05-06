@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-06-20",
+  "end_date": "2021-07-04",
+  "window_type": "monthly",
+  "price_change_pct": 1.8923997651793665,
+  "factors": [
+    {
+      "name": "vix_decline_june_2021",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5368421052631579,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 17.89 on June 21 to 15.48 on July 1, indicating reduced market fear and contributing to bullish sentiment for CVX [17][25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.46315789473684216,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by various competing factors without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_june_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25],\n    \"description\": \"The VIX Volatility Index declined from 17.89 on June 21 to 15.48 on July 1, indicating reduced market fear and contributing to bullish sentiment for CVX [17][25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by various competing factors without a clear dominant driver.\"\n  }\n]"
+}

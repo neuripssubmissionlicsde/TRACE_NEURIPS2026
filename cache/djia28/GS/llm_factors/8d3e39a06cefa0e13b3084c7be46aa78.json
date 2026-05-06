@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": -11.61682638851335,
+  "factors": [
+    {
+      "name": "cpi_release_august_2022",
+      "category": "macroeconomic",
+      "direction": -0.8300000000000001,
+      "magnitude": 0.6470588235294118,
+      "persistence": "medium",
+      "description": "[conf=0.95] The release of the Bureau of Labor Statistics consumer price index for August showed higher inflation, leading to a 3.9% drop in the Dow Jones Industrial Average, which negatively impacted GS."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3529411764705882,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_august_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The release of the Bureau of Labor Statistics consumer price index for August showed higher inflation, leading to a 3.9% drop in the Dow Jones Industrial Average, which negatively impacted GS.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [13, 21, 29],\n    \"description\": \"The 10-Year Treasury rate increased during this period, reflecting rising borrowing costs and contributing to bearish sentiment in the equity markets.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

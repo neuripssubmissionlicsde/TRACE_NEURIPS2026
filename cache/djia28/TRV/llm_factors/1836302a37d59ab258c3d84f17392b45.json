@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-20",
+  "window_type": "monthly",
+  "price_change_pct": 0.4408220240102914,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "declining_treasury_yields_nov_2022",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.7333333333333334,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 4.2200 to 3.7700 during the window, contributing to a bullish sentiment in the market [9][33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_november_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33],\n    \"description\": \"The 10-Year Treasury yield declined from 4.2200 to 3.7700 during the window, which typically supports equity prices by lowering discount rates [9][33].\"\n  },\n  {\n    \"name\": \"uk_inflation_record_high\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [49],\n    \"description\": \"Record inflation in the UK reached 11.1%, raising concerns about global economic stability and potentially impacting investor sentiment negatively [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

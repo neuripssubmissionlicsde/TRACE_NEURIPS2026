@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-08-13",
+  "end_date": "2023-08-27",
+  "window_type": "monthly",
+  "price_change_pct": -6.326536155360348,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.9199999999999999,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment surrounding the broader market may have contributed to the decline in DIS's stock price."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.9,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns regarding DIS's recent earnings performance and future guidance likely influenced investor sentiment negatively."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -1.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators may have signaled a bearish trend, prompting selling pressure."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment surrounding the broader market may have contributed to the decline in DIS's stock price.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns regarding DIS's recent earnings performance and future guidance likely influenced investor sentiment negatively.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have signaled a bearish trend, prompting selling pressure.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations.\"\n    }\n]"
+}

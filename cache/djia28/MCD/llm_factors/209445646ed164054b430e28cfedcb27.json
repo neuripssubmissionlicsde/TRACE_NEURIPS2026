@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-15",
+  "end_date": "2018-04-29",
+  "window_type": "monthly",
+  "price_change_pct": -1.8599054541557327,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver."
+    },
+    {
+      "name": "rising_10_year_treasury_rate_april_2018",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.0300 on April 25, 2018, contributing to bearish sentiment in equities as higher rates typically pressure valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_april_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 17, 25],\n    \"description\": \"The 10-Year Treasury Rate rose from 2.83% to 3.03% during the window, indicating tightening monetary conditions that negatively impacted equity valuations [1, 9, 17, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-08-19",
+  "end_date": "2018-09-02",
+  "window_type": "monthly",
+  "price_change_pct": -1.853205649777246,
+  "factors": [
+    {
+      "name": "argentina_interest_rate_hike",
+      "category": "geopolitical",
+      "direction": -0.56,
+      "magnitude": 0.4342105263157895,
+      "persistence": "transient",
+      "description": "[conf=0.85] Argentina's interest rate hike to 60% amid currency collapse raised global market concerns, contributing to bearish sentiment."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.3666666666666667,
+      "magnitude": 0.3289473684210526,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate to 2.89% indicated tightening financial conditions, negatively impacting equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23684210526315785,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"argentina_interest_rate_hike\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [34, 35, 36],\n    \"description\": \"Argentina's interest rate hike to 60% amid currency collapse raised global market concerns, contributing to bearish sentiment.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.35,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [7, 10, 13],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 2.89% indicated tightening financial conditions, negatively impacting equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": 5.076150063329391,
+  "factors": [
+    {
+      "name": "strong_consumer_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.4,
+      "magnitude": 0.5555555555555556,
+      "persistence": "short",
+      "description": "[conf=0.80] General positive sentiment in the market likely supported WMT's price increase, although specific articles were not identified."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4444444444444445,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_august_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [7, 13],\n    \"description\": \"The 10-Year Treasury yield rose from 1.2000 to 1.3600 during the period, indicating increased investor confidence and contributing to WMT's price increase [7, 13].\"\n  },\n  {\n    \"name\": \"strong_consumer_sentiment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"General positive sentiment in the market likely supported WMT's price increase, although specific articles were not identified.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

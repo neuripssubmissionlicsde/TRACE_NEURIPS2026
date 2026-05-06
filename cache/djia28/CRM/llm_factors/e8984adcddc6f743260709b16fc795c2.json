@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-30",
+  "end_date": "2020-09-13",
+  "window_type": "monthly",
+  "price_change_pct": -9.962960438765396,
+  "factors": [
+    {
+      "name": "india_economic_contraction",
+      "category": "geopolitical",
+      "direction": -0.5199999999999999,
+      "magnitude": 0.3777777777777778,
+      "persistence": "short",
+      "description": "[conf=0.85] India's economy contracted by 23.9% in the April\u2013June quarter, raising concerns about global economic recovery and impacting market sentiment [49][50]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.33333333333333337,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased from 0.6300 to 0.6800 during the window, indicating rising borrowing costs which negatively affected equity valuations [9][10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28888888888888886,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"india_economic_contraction\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"India's economy contracted by 23.9% in the April\u2013June quarter, raising concerns about global economic recovery and impacting market sentiment [49][50].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10],\n    \"description\": \"The 10-Year Treasury Rate increased from 0.6300 to 0.6800 during the window, indicating rising borrowing costs which negatively affected equity valuations [9][10].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market movements.\"\n  }\n]"
+}

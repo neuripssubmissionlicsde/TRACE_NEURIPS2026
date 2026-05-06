@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-06-23",
+  "end_date": "2019-07-07",
+  "window_type": "monthly",
+  "price_change_pct": 2.8659337784474515,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.7,
+      "magnitude": 0.3419689119170985,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment around technology stocks likely contributed to the upward price movement."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 0.9,
+      "magnitude": 0.33678756476683935,
+      "persistence": "short",
+      "description": "[conf=0.60] AAPL's strong product lineup and positive sales forecasts may have driven investor interest."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 0.85,
+      "magnitude": 0.2072538860103627,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showing bullish patterns could have attracted momentum traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.1139896373056995,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that does not correlate with observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive market sentiment around technology stocks likely contributed to the upward price movement.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"AAPL's strong product lineup and positive sales forecasts may have driven investor interest.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showing bullish patterns could have attracted momentum traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that does not correlate with observable factors.\"\n    }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-01-19",
+  "end_date": "2020-02-02",
+  "window_type": "monthly",
+  "price_change_pct": -12.752284050466397,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6979166666666667,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly explain the price decline."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.29,
+      "magnitude": 0.3020833333333333,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate from 1.77% to 1.57% may have contributed to bearish sentiment in the market [25, 33]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 33],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.77% to 1.57% may have contributed to bearish sentiment in the market [25, 33].\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [9],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.58%, indicating no immediate monetary policy changes that could support bullish sentiment [9].\"\n  }\n]"
+}

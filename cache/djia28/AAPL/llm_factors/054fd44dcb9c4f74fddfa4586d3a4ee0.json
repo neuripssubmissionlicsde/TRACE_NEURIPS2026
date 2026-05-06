@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-01-21",
+  "end_date": "2018-02-04",
+  "window_type": "monthly",
+  "price_change_pct": -9.47546710496234,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment surrounding tech stocks contributed to the decline in AAPL's price."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -1.0,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns about AAPL's sales performance and product demand during this period negatively impacted investor confidence."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -1.0,
+      "magnitude": 0.20000000000000004,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showed bearish signals, contributing to selling pressure on AAPL stock."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity that did not correlate with observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment surrounding tech stocks contributed to the decline in AAPL's price.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns about AAPL's sales performance and product demand during this period negatively impacted investor confidence.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed bearish signals, contributing to selling pressure on AAPL stock.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity that did not correlate with observable factors.\"\n    }\n]"
+}

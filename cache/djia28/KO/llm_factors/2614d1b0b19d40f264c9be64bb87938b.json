@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": 2.9471088120903497,
+  "factors": [
+    {
+      "name": "g7_minimum_tax_agreement",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.29999999999999993,
+      "persistence": "transient",
+      "description": "[conf=0.85] The G7 finance ministers agreed on a minimum global corporate tax rate, which may have positively influenced investor sentiment towards multinational corporations like KO [49][50]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.22727272727272727,
+      "persistence": "short",
+      "description": "[conf=0.75] The unemployment rate remained stable at 5.9%, indicating a recovering labor market which supports consumer spending and positively impacts companies like KO [9][16]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4727272727272727,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"g7_minimum_tax_agreement\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The G7 finance ministers agreed on a minimum global corporate tax rate, which may have positively influenced investor sentiment towards multinational corporations like KO [49][50].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 16],\n    \"description\": \"The unemployment rate remained stable at 5.9%, indicating a recovering labor market which supports consumer spending and positively impacts companies like KO [9][16].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

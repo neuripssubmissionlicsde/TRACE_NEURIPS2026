@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-12-06",
+  "end_date": "2020-12-20",
+  "window_type": "monthly",
+  "price_change_pct": -0.03720576290283083,
+  "factors": [
+    {
+      "name": "brexit_internal_market_bill",
+      "category": "geopolitical",
+      "direction": -0.34800000000000003,
+      "magnitude": 0.39,
+      "persistence": "short",
+      "description": "[conf=0.85] The ongoing Brexit negotiations and the Internal Market Bill raised uncertainty in the market, contributing to a slight bearish sentiment around KO."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6100000000000001,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minimal and lacked a clear driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"brexit_internal_market_bill\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The ongoing Brexit negotiations and the Internal Market Bill raised uncertainty in the market, contributing to a slight bearish sentiment around KO.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minimal and lacked a clear driver.\"\n  }\n]"
+}

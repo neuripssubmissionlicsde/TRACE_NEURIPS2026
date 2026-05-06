@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-21",
+  "window_type": "monthly",
+  "price_change_pct": -1.9013671179956313,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5430809399477806,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in the market."
+    },
+    {
+      "name": "bank_of_england_rate_hike_4.5%",
+      "category": "macroeconomic",
+      "direction": -0.625,
+      "magnitude": 0.4569190600522194,
+      "persistence": "short",
+      "description": "[conf=0.85] The Bank of England raised interest rates to 4.5%, impacting global market sentiment and contributing to JNJ's price decline [1][2]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_england_rate_hike_4.5pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2],\n    \"description\": \"The Bank of England raised interest rates to 4.5%, impacting global market sentiment and contributing to JNJ's price decline [1, 2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in the market.\"\n  }\n]"
+}

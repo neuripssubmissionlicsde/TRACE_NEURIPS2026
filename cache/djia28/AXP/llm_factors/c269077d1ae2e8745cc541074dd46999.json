@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-12-22",
+  "end_date": "2020-01-05",
+  "window_type": "monthly",
+  "price_change_pct": -0.5631465429848209,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2020_01_03",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.44520547945205485,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 1.8000 on 2020-01-03, which typically signals lower borrowing costs and can negatively impact financial stocks like AXP."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5547945205479452,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in AXP's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2020_01_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 34],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.8000 on 2020-01-03, which typically signals lower borrowing costs and can negatively impact financial stocks like AXP.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_2019_12_30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury Rate was stable around 1.9000 on 2019-12-30, which may have provided a temporary support for AXP's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in AXP's price.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-04-28",
+  "end_date": "2019-05-12",
+  "window_type": "monthly",
+  "price_change_pct": -5.8494417181484115,
+  "factors": [
+    {
+      "name": "us_china_trade_tensions",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.51,
+      "persistence": "medium",
+      "description": "[conf=0.85] Increased tensions between the U.S. and China over tariffs led to a significant drop in Chinese stocks, impacting U.S. market sentiment and contributing to CAT's price decline [49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.49000000000000005,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"us_china_trade_tensions\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49],\n    \"description\": \"Increased tensions between the U.S. and China over tariffs led to a significant drop in Chinese stocks, impacting U.S. market sentiment and contributing to CAT's price decline [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty.\"\n  }\n]"
+}

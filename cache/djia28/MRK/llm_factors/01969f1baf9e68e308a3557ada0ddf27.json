@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-10-14",
+  "end_date": "2018-10-28",
+  "window_type": "monthly",
+  "price_change_pct": 1.74884583031948,
+  "factors": [
+    {
+      "name": "sec_filing_2018_10_25",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.5087719298245614,
+      "persistence": "transient",
+      "description": "[conf=0.75] Merck filed with the SEC on 2018-10-25, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.49122807017543857,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2018_10_25\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"Merck filed with the SEC on 2018-10-25, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2018_10_19\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate increased to 3.2000 on 2018-10-19, contributing to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2018_10_26\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [17],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.0800 on 2018-10-26, which may have supported a bullish sentiment for MRK.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating stochastic price movements.\"\n  }\n]"
+}

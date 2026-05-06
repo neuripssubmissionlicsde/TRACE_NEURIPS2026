@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-02-26",
+  "end_date": "2023-03-12",
+  "window_type": "monthly",
+  "price_change_pct": -2.126675838077449,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.37499999999999994,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty."
+    },
+    {
+      "name": "rising_treasury_yields_2023_03_01",
+      "category": "macroeconomic",
+      "direction": -0.5666666666666667,
+      "magnitude": 0.625,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 4.01% on March 1, contributing to bearish sentiment in the market [1], which likely pressured MRK's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10yr_treasury_rate_4.08\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.08% on March 2, increasing borrowing costs and negatively impacting equity valuations [9][25].\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate_3.5\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17],\n    \"description\": \"The unemployment rate remained stable at 3.5%, indicating a resilient labor market which could support consumer spending [17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty.\"\n  }\n]"
+}

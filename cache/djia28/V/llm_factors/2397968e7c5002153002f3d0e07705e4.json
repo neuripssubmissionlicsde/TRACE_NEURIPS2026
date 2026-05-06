@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-26",
+  "window_type": "monthly",
+  "price_change_pct": -3.230780875054904,
+  "factors": [
+    {
+      "name": "vix_increase_2023_02_22",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5238095238095238,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose to 22.29 on February 22, indicating increased market uncertainty and contributing to bearish sentiment."
+    },
+    {
+      "name": "vix_stability_2023_02_16",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.23809523809523808,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX was stable at 20.17 on February 16, which may have contributed to a temporary pause in selling pressure before the subsequent increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23809523809523808,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2023_02_22\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The VIX Volatility Index rose to 22.29 on February 22, indicating increased market uncertainty and contributing to bearish sentiment.\"\n  },\n  {\n    \"name\": \"vix_stability_2023_02_16\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The VIX was stable at 20.17 on February 16, which may have contributed to a temporary pause in selling pressure before the subsequent increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

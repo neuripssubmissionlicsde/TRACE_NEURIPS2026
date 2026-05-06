@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-22",
+  "window_type": "monthly",
+  "price_change_pct": -1.1151446590807732,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_nov_2020",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.43,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 0.9800 to 0.8300 during the window, indicating a shift in investor sentiment towards equities as lower yields typically support higher valuations [9][17]."
+    },
+    {
+      "name": "japanese_economic_growth_nov_2020",
+      "category": "geopolitical",
+      "direction": 0.3,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.75] Reports of Japan's economy growing at an annualized rate of 21.4% in the previous quarter boosted global market sentiment, contributing positively to CRM's price movement [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty and volatility in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_nov_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury yield declined from 0.9800 to 0.8300 during the window, indicating a shift in investor sentiment towards equities as lower yields typically support higher valuations [9][17].\"\n  },\n  {\n    \"name\": \"japanese_economic_growth_nov_2020\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"Reports of Japan's economy growing at an annualized rate of 21.4% in the previous quarter boosted global market sentiment, contributing positively to CRM's price movement [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty and volatility in the market during this period.\"\n  }\n]"
+}

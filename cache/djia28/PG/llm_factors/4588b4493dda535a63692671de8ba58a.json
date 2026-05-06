@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-09-02",
+  "end_date": "2018-09-16",
+  "window_type": "monthly",
+  "price_change_pct": 1.3700082849226605,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2.99",
+      "category": "macroeconomic",
+      "direction": 0.16666666666666666,
+      "magnitude": 0.5263157894736843,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 2.99% on 2018-09-14, indicating increased borrowing costs which generally support higher valuations for stable companies like PG [1, 41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4736842105263158,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2.99\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.99% on 2018-09-14, indicating increased borrowing costs which generally support higher valuations for stable companies like PG [1, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -3.6785316692166163,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7590361445783134,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events explain the price decline during this period."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.26666666666666666,
+      "magnitude": 0.24096385542168675,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate decreased from 3.6100 to 3.4900 during the window, indicating rising yields which typically exert downward pressure on equities [9, 41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 1.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events explain the price decline during this period.\"\n  }\n]"
+}

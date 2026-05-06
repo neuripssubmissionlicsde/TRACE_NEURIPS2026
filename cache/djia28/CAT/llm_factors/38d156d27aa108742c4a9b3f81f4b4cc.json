@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-06-18",
+  "end_date": "2023-07-02",
+  "window_type": "monthly",
+  "price_change_pct": 1.5350870948634017,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_june_2023",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.7142857142857143,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 3.7400 to 3.8500 during the window, indicating increased borrowing costs which typically pressure equity valuations [1][13]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28571428571428575,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_june_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 13],\n    \"description\": \"The 10-Year Treasury Rate rose from 3.7400 to 3.8500 during the window, indicating increased borrowing costs which typically pressure equity valuations [1][13].\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate_june_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33],\n    \"description\": \"The unemployment rate remained stable at 3.5%, supporting consumer confidence and spending, which can positively influence stock prices [33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

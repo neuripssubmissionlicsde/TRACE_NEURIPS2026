@@ -1,0 +1,49 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": -1.0673132749126737,
+  "factors": [
+    {
+      "name": "macroeconomic_indicators",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] Recent macroeconomic indicators suggested a slowdown in economic growth, which may have negatively impacted investor sentiment."
+    },
+    {
+      "name": "oil_price_fluctuations",
+      "category": "sector_specific",
+      "direction": -0.4,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.70] Fluctuations in oil prices during this period likely influenced XOM's stock price, as it is heavily tied to the energy sector."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.2,
+      "persistence": "short",
+      "description": "[conf=0.50] General market sentiment was bearish, contributing to downward pressure on XOM's stock price."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -0.2,
+      "magnitude": 0.13,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showed sell signals, which may have prompted traders to exit positions."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.12,
+      "persistence": "transient",
+      "description": "[conf=0.40] Unexplained random variance in trading activity contributed to price movements."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_indicators\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Recent macroeconomic indicators suggested a slowdown in economic growth, which may have negatively impacted investor sentiment.\"\n    },\n    {\n        \"name\": \"oil_price_fluctuations\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Fluctuations in oil prices during this period likely influenced XOM's stock price, as it is heavily tied to the energy sector.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General market sentiment was bearish, contributing to downward pressure on XOM's stock price.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed sell signals, which may have prompted traders to exit positions.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Unexplained random variance in trading activity contributed to price movements.\"\n    }\n]"
+}

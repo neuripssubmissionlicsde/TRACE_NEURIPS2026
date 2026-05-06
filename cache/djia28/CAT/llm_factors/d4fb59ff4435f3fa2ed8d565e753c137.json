@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-03-13",
+  "end_date": "2022-03-27",
+  "window_type": "monthly",
+  "price_change_pct": 3.2639777383840523,
+  "factors": [
+    {
+      "name": "moscow_stock_exchange_reopening",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.41275167785234895,
+      "persistence": "transient",
+      "description": "[conf=0.85] The reopening of the Moscow Stock Exchange for bond trading after a month-long closure [45] boosted market sentiment, contributing to CAT's price increase."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.13333333333333333,
+      "magnitude": 0.2852348993288591,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate from 2.2000 to 2.4800 during the window [9, 25] indicated rising investor confidence, supporting CAT's price movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3020134228187919,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"moscow_stock_exchange_reopening\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [45, 46],\n    \"description\": \"The reopening of the Moscow Stock Exchange for bond trading after a month-long closure [45] boosted market sentiment, contributing to CAT's price increase.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 25],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 2.2000 to 2.4800 during the window [9, 25] indicated rising investor confidence, supporting CAT's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

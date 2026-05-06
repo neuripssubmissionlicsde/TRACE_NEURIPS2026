@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-01-16",
+  "end_date": "2022-01-30",
+  "window_type": "monthly",
+  "price_change_pct": -11.230907883666937,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6799999999999999,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events explain the significant price decline."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.32,
+      "magnitude": 0.32,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate rose to 1.8300 on January 20 and then decreased to 1.7800 by January 28, indicating a volatile interest rate environment that may have pressured equity valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events explain the significant price decline.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 9, 13, 21],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.8300 on January 20 and then decreased to 1.7800 by January 28, indicating a volatile interest rate environment that may have pressured equity valuations.\"\n  },\n  {\n    \"name\": \"market_sentiment_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment was bearish during this period, contributing to the downward price movement.\"\n  }\n]"
+}

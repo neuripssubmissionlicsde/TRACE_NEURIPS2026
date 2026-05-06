@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-11-10",
+  "end_date": "2019-11-24",
+  "window_type": "monthly",
+  "price_change_pct": 4.385000582335854,
+  "factors": [
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5236486486486487,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 1.8400 to 1.7700 during the window [7, 11] likely boosted investor sentiment towards equities, including JNJ."
+    },
+    {
+      "name": "vix_volatility_index_decline",
+      "category": "market_sentiment",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.2533783783783784,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the VIX Volatility Index from 12.78 to 12.46 during the window [29, 43] indicated reduced market uncertainty, contributing to a bullish sentiment for JNJ."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22297297297297294,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [7, 11],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.8400 to 1.7700 during the window [7, 11] likely boosted investor sentiment towards equities, including JNJ.\"\n  },\n  {\n    \"name\": \"vix_volatility_index_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [29, 43],\n    \"description\": \"The decline in the VIX Volatility Index from 12.78 to 12.46 during the window [29, 43] indicated reduced market uncertainty, contributing to a bullish sentiment for JNJ.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

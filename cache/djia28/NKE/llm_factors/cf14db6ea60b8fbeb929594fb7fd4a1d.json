@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-29",
+  "end_date": "2020-04-12",
+  "window_type": "monthly",
+  "price_change_pct": 3.3214237195588843,
+  "factors": [
+    {
+      "name": "covid_economic_impact_uk",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "medium",
+      "description": "[conf=0.85] The economic impact of the COVID-19 pandemic in the UK raised concerns about consumer spending and retail performance, affecting NKE's stock negatively."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"covid_economic_impact_uk\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The economic impact of the COVID-19 pandemic in the UK raised concerns about consumer spending and retail performance, affecting NKE's stock negatively.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the uncertainty in the market during this period.\"\n  }\n]"
+}

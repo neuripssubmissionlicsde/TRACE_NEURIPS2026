@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-27",
+  "window_type": "monthly",
+  "price_change_pct": -0.4165988860634786,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6385542168674698,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted AMGN's price during this period."
+    },
+    {
+      "name": "stable_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.36144578313253006,
+      "persistence": "long",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 0.68% to 0.66% during this period, contributing to a lack of significant market movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted AMGN's price during this period.\"\n  },\n  {\n    \"name\": \"stable_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 6, 31],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 0.68% to 0.66% during this period, contributing to a lack of significant market movement.\"\n  },\n  {\n    \"name\": \"low_trading_volume\",\n    \"category\": \"liquidity\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Average daily trading volume of 2,698,430 suggests low liquidity, which can lead to less price movement and increased volatility.\"\n  }\n]"
+}

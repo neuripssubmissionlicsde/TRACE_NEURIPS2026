@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-06-24",
+  "end_date": "2018-07-08",
+  "window_type": "monthly",
+  "price_change_pct": 3.243108825950621,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.44609665427509293,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news directly influenced AMGN's price movement during this period."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3875,
+      "magnitude": 0.34572490706319703,
+      "persistence": "short",
+      "description": "[conf=0.75] The Federal Funds Effective Rate remained stable at 1.91%, contributing to a favorable environment for equities [5]."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.31666666666666665,
+      "magnitude": 0.20817843866171,
+      "persistence": "short",
+      "description": "[conf=0.70] The 10-Year Treasury Rate showed minimal fluctuations, remaining around 2.83% to 2.85%, which supported investor sentiment in equities [10, 15]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news directly influenced AMGN's price movement during this period.\"\n  },\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.91%, contributing to a favorable environment for equities [5].\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [10, 15],\n    \"description\": \"The 10-Year Treasury Rate showed minimal fluctuations, remaining around 2.83% to 2.85%, which supported investor sentiment in equities [10, 15].\"\n  }\n]"
+}

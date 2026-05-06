@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": 3.9602405992330976,
+  "factors": [
+    {
+      "name": "russia_interest_rate_hike_2022",
+      "category": "geopolitical",
+      "direction": -0.56,
+      "magnitude": 0.53,
+      "persistence": "short",
+      "description": "[conf=0.90] The Central Bank of Russia raised interest rates sharply from 9.5% to 20% [1], causing global market volatility and impacting investor sentiment."
+    },
+    {
+      "name": "ukraine_peace_talks_progress",
+      "category": "geopolitical",
+      "direction": 0.43999999999999995,
+      "magnitude": 0.27999999999999997,
+      "persistence": "transient",
+      "description": "[conf=0.85] Stock prices increased after reports of progress in peace talks between Russia and Ukraine [24], boosting market optimism."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"russia_interest_rate_hike_2022\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Central Bank of Russia raised interest rates sharply from 9.5% to 20% [1], causing global market volatility and impacting investor sentiment.\"\n  },\n  {\n    \"name\": \"ukraine_peace_talks_progress\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [24, 25, 26],\n    \"description\": \"Stock prices increased after reports of progress in peace talks between Russia and Ukraine [24], boosting market optimism.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty.\"\n  }\n]"
+}

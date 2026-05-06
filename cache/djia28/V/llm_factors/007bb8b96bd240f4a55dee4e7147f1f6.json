@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-10-09",
+  "end_date": "2022-10-23",
+  "window_type": "monthly",
+  "price_change_pct": 3.3889038361856443,
+  "factors": [
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "market_sentiment",
+      "direction": 0.575,
+      "magnitude": 0.45918367346938777,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index showed relative stability around 30.5, indicating reduced fear in the market, which likely supported the price increase of V [1, 25, 41]."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.38000000000000006,
+      "magnitude": 0.2755102040816327,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 4.01%, which may have contributed to a favorable environment for equities, including V [9, 17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2653061224489796,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_index_stability\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 25, 41],\n    \"description\": \"The VIX Volatility Index showed relative stability around 30.5, indicating reduced fear in the market, which likely supported the price increase of V [1, 25, 41].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 4.01%, which may have contributed to a favorable environment for equities, including V [9, 17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

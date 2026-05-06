@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": 11.153940807333774,
+  "factors": [
+    {
+      "name": "covid_vaccine_progress",
+      "category": "macroeconomic",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] Positive sentiment around COVID-19 vaccine progress likely boosted healthcare stocks, including UNH."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate to 0.6000 on April 24 may have influenced investor sentiment towards equities [25, 41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"covid_vaccine_progress\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [],\n    \"description\": \"Positive sentiment around COVID-19 vaccine progress likely boosted healthcare stocks, including UNH.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 0.6000 on April 24 may have influenced investor sentiment towards equities [25, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

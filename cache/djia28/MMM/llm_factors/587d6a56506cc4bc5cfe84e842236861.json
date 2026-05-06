@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": -0.3389804515429583,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_0.6",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4166666666666667,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 0.6000 on April 24, signaling lower borrowing costs and supporting equity valuations [25, 26]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5833333333333334,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_0.6\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26],\n    \"description\": \"The 10-Year Treasury Rate declined to 0.6000 on April 24, signaling lower borrowing costs and supporting equity valuations [25, 26].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_0.63\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 0.6300 during the earlier part of the window, contributing to a lack of directional momentum [9, 10].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall uncertainty in the market.\"\n  }\n]"
+}

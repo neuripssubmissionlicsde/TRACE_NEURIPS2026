@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-11-07",
+  "end_date": "2021-11-21",
+  "window_type": "monthly",
+  "price_change_pct": -1.6392062171950308,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2903225806451613,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_increase_nov_19",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.4032258064516129,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased to 17.91 on November 19, indicating rising market volatility and contributing to bearish sentiment around CVX [17][19]."
+    },
+    {
+      "name": "vix_stability_nov_12",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.30645161290322576,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX was stable at 16.29 on November 12, suggesting a temporary calm in market sentiment that may have supported CVX's price stability [9][12]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_17_91\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 19],\n    \"description\": \"The VIX increased to 17.91 on November 19, indicating rising market volatility and contributing to bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"vix_stability_16_29\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 12],\n    \"description\": \"The VIX was stable around 16.29 earlier in the window, suggesting a brief period of calm before the volatility spike.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

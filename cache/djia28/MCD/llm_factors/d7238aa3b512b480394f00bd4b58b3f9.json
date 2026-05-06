@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": 1.2874335259784997,
+  "factors": [
+    {
+      "name": "ecb_rate_hike_25bps",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The European Central Bank raised interest rates by 25bps, signaling a cautious approach to monetary tightening which positively influenced market sentiment [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_rate_hike_25bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank raised interest rates by 25bps, signaling a cautious approach to monetary tightening which positively influenced market sentiment [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market fluctuations.\"\n  }\n]"
+}

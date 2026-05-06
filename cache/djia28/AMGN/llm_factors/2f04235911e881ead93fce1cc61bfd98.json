@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": 5.5271829662947995,
+  "factors": [
+    {
+      "name": "food_price_index_increase",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.5163727959697733,
+      "persistence": "short",
+      "description": "[conf=0.90] The Food and Agriculture Organisation's food price index increased by 13% in March, driven by the fallout from the Russian invasion of Ukraine, which likely boosted investor sentiment in the healthcare sector, including AMGN."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.31999999999999995,
+      "magnitude": 0.2619647355163728,
+      "persistence": "short",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained stable at 0.33%, contributing to a favorable borrowing environment that supports equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2216624685138539,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"food_price_index_increase\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The Food and Agriculture Organisation's food price index increased by 13% in March, driven by the fallout from the Russian invasion of Ukraine, which likely boosted investor sentiment in the healthcare sector, including AMGN.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [5],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.33%, contributing to a favorable borrowing environment that supports equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period.\"\n  }\n]"
+}

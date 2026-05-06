@@ -1,0 +1,49 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": 5.941743778543932,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.2977667493796526,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely contributed to the bullish sentiment around XOM."
+    },
+    {
+      "name": "market_sentiment_recovery",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.24813895781637715,
+      "persistence": "short",
+      "description": "[conf=0.60] General market recovery sentiment post-COVID-19 lockdowns may have positively influenced XOM's price."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.11910669975186103,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that does not correlate with observable factors."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.19851116625310172,
+      "persistence": "transient",
+      "description": "[conf=0.50] XOM's price breaking above key resistance levels may have triggered buying from technical traders."
+    },
+    {
+      "name": "earnings_expectations",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.13647642679900743,
+      "persistence": "short",
+      "description": "[conf=0.50] Positive expectations regarding upcoming earnings reports may have influenced investor behavior."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely contributed to the bullish sentiment around XOM.\"\n    },\n    {\n        \"name\": \"market_sentiment_recovery\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General market recovery sentiment post-COVID-19 lockdowns may have positively influenced XOM's price.\"\n    },\n    {\n        \"name\": \"technical_support_levels\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's price bouncing off established technical support levels may have contributed to upward movement.\"\n    },\n    {\n        \"name\": \"increased_trading_volume\",\n        \"category\": \"liquidity\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Higher than average trading volume could indicate increased investor interest, supporting price increases.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that does not correlate with observable factors.\"\n    }\n]"
+}

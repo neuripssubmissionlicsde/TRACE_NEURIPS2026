@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-26",
+  "window_type": "monthly",
+  "price_change_pct": -0.7656930740016727,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5199999999999999,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    },
+    {
+      "name": "ftse_100_record_high",
+      "category": "geopolitical",
+      "direction": -0.04,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.70] The FTSE 100 Index reached a record high, which may have shifted investor sentiment negatively for TRV, contributing to its price decline."
+    },
+    {
+      "name": "10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.22999999999999998,
+      "magnitude": 0.21000000000000002,
+      "persistence": "short",
+      "description": "[conf=0.70] The 10-Year Treasury Rate was reported at 3.8100, which could have influenced market sentiment negatively, impacting TRV's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"ftse_100_record_high\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The FTSE 100 Index reached a record high, which may have shifted investor sentiment negatively for TRV, contributing to its price decline.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [45, 46],\n    \"description\": \"The 10-Year Treasury Rate was reported at 3.8100, which could have influenced market sentiment negatively, impacting TRV's price.\"\n  },\n  {\n    \"name\": \"consolidation\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The price movement exhibited characteristics of consolidation, with no strong directional bias evident in the trading days.\"\n  }\n]"
+}

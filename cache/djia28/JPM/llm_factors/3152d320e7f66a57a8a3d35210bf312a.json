@@ -1,0 +1,49 @@
+{
+  "start_date": "2021-06-20",
+  "end_date": "2021-07-04",
+  "window_type": "monthly",
+  "price_change_pct": 5.265053737587083,
+  "factors": [
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.30848329048843187,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive macroeconomic indicators, such as employment data and GDP growth, likely contributed to investor confidence during this period."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": 1.0,
+      "magnitude": 0.21593830334190234,
+      "persistence": "short",
+      "description": "[conf=0.60] The financial sector showed strong performance, which likely buoyed JPM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.22622107969151667,
+      "persistence": "short",
+      "description": "[conf=0.80] Overall positive market sentiment and bullish trends in equities likely supported the upward movement in JPM's stock price."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.11568123393316194,
+      "persistence": "transient",
+      "description": "[conf=0.50] JPM's stock price broke through key resistance levels, attracting technical traders and contributing to the price increase."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.13367609254498714,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations contributed to unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_conditions\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive macroeconomic indicators, such as employment data and GDP growth, likely contributed to investor confidence during this period.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The financial sector showed strong performance, which likely buoyed JPM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.8,\n        \"description\": \"Overall positive market sentiment and bullish trends in equities likely supported the upward movement in JPM's stock price.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"JPM's stock price broke through key resistance levels, attracting technical traders and contributing to the price increase.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations contributed to unexplained price movements.\"\n    }\n]"
+}

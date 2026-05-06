@@ -1,0 +1,57 @@
+{
+  "start_date": "2023-07-30",
+  "end_date": "2023-08-13",
+  "window_type": "monthly",
+  "price_change_pct": -1.736864972930804,
+  "factors": [
+    {
+      "name": "macroeconomic_conditions",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.26548672566371684,
+      "persistence": "short",
+      "description": "[conf=0.70] Concerns over inflation and interest rate hikes may have negatively impacted investor sentiment during this period."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.3333333333333333,
+      "magnitude": 0.17699115044247793,
+      "persistence": "short",
+      "description": "[conf=0.60] The financial sector faced headwinds due to regulatory concerns and mixed earnings reports from peers."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.42000000000000004,
+      "magnitude": 0.24778761061946908,
+      "persistence": "short",
+      "description": "[conf=0.50] General market sentiment was bearish, influenced by broader economic uncertainties."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -0.5333333333333333,
+      "magnitude": 0.08849557522123896,
+      "persistence": "transient",
+      "description": "[conf=0.60] Technical indicators suggested a sell-off, contributing to downward pressure on the stock price."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.08849557522123896,
+      "persistence": "short",
+      "description": "[conf=0.50] Tighter liquidity conditions may have led to reduced buying interest in the stock."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.13274336283185845,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and noise contributed to unexplained variance in price movement."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_conditions\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Concerns over inflation and interest rate hikes may have negatively impacted investor sentiment during this period.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The financial sector faced headwinds due to regulatory concerns and mixed earnings reports from peers.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General market sentiment was bearish, influenced by broader economic uncertainties.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"Technical indicators suggested a sell-off, contributing to downward pressure on the stock price.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Tighter liquidity conditions may have led to reduced buying interest in the stock.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and noise contributed to unexplained variance in price movement.\"\n    }\n]"
+}

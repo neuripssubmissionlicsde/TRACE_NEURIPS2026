@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-12-18",
+  "end_date": "2023-01-01",
+  "window_type": "monthly",
+  "price_change_pct": 1.0636628927126393,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.52,
+      "magnitude": 0.35179153094462534,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.5%, contributing to positive sentiment around economic stability and consumer spending."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.37133550488599343,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "treasury_yield_increase",
+      "category": "macroeconomic",
+      "direction": -0.3333333333333333,
+      "magnitude": 0.2768729641693811,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield increased from 3.57% to 3.88%, reflecting rising borrowing costs which can negatively impact healthcare stocks like UNH [9, 25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.5%, contributing to positive sentiment around economic stability and consumer spending.\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 25, 33],\n    \"description\": \"The 10-Year Treasury yield fluctuated, peaking at 3.88%, which may have negatively impacted investor sentiment towards equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

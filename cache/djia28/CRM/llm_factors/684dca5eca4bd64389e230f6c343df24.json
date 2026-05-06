@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-29",
+  "end_date": "2018-05-13",
+  "window_type": "monthly",
+  "price_change_pct": 8.074782882745755,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6046511627906976,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "argentina_financial_support_talks",
+      "category": "geopolitical",
+      "direction": 0.32,
+      "magnitude": 0.39534883720930236,
+      "persistence": "short",
+      "description": "[conf=0.75] President of Argentina announced talks with the IMF for financial support, which may have positively influenced market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"argentina_financial_support_talks\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 4],\n    \"description\": \"President of Argentina announced talks with the IMF for financial support, which may have positively influenced market sentiment.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-20",
+  "window_type": "monthly",
+  "price_change_pct": 3.1724492204407753,
+  "factors": [
+    {
+      "name": "uk_inflation_record_high",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.6470588235294118,
+      "persistence": "medium",
+      "description": "[conf=0.85] UK inflation reached a record 11.1%, raising concerns about economic stability and influencing investor sentiment positively towards consumer staples like KO [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3529411764705882,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"uk_inflation_record_high\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"UK inflation reached a record 11.1%, raising concerns about economic stability and influencing investor sentiment positively towards consumer staples like KO [1].\"\n  },\n  {\n    \"name\": \"japan_inflation_high\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33, 34],\n    \"description\": \"Japan's inflation reached 3.6%, the highest since 1982, contributing to global inflation concerns and positively impacting defensive stocks like KO [33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

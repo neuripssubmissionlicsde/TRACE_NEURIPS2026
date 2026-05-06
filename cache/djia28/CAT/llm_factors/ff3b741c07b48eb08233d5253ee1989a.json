@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-01",
+  "end_date": "2019-09-15",
+  "window_type": "monthly",
+  "price_change_pct": 13.469050189679685,
+  "factors": [
+    {
+      "name": "drone_attacks_saudi_aramco",
+      "category": "geopolitical",
+      "direction": 1.0,
+      "magnitude": 0.5700000000000001,
+      "persistence": "short",
+      "description": "[conf=0.90] Drone attacks on Saudi Aramco facilities caused a surge in oil prices, positively impacting CAT's stock as it is sensitive to energy sector dynamics."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate from 1.6300 to 1.9000 during the period indicated a shift in investor sentiment towards riskier assets, supporting CAT's price rise."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.18,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"drone_attacks_saudi_aramco\",\n    \"category\": \"geopolitical\",\n    \"direction\": 1.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"Drone attacks on Saudi Aramco facilities caused a surge in oil prices, positively impacting CAT's stock as it is sensitive to energy sector dynamics.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 25],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 1.6300 to 1.9000 during the period indicated a shift in investor sentiment towards riskier assets, supporting CAT's price rise.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

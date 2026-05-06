@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-10-13",
+  "end_date": "2019-10-27",
+  "window_type": "monthly",
+  "price_change_pct": -2.2914174666823217,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    },
+    {
+      "name": "hong_kong_recession",
+      "category": "geopolitical",
+      "direction": -0.38,
+      "magnitude": 0.31481481481481477,
+      "persistence": "short",
+      "description": "[conf=0.80] The Hong Kong economy entering a recession due to ongoing protests may have contributed to negative market sentiment affecting JNJ."
+    },
+    {
+      "name": "treasury_rate_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.1851851851851852,
+      "persistence": "short",
+      "description": "[conf=0.70] Fluctuations in the 10-Year Treasury Rate during the period may have influenced investor sentiment and contributed to the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"hong_kong_recession\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.30,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [19, 20],\n    \"description\": \"The Hong Kong economy entering a recession due to ongoing protests may have contributed to negative market sentiment affecting JNJ.\"\n  },\n  {\n    \"name\": \"treasury_rate_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [13, 15, 25],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate during the period may have influenced investor sentiment and contributed to the price decline.\"\n  }\n]"
+}

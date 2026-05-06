@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-30",
+  "end_date": "2020-09-13",
+  "window_type": "monthly",
+  "price_change_pct": -6.89432222840147,
+  "factors": [
+    {
+      "name": "vix_spike_33.6",
+      "category": "market_sentiment",
+      "direction": -0.7,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 33.6 on 2020-09-03, indicating increased market fear and contributing to the downward pressure on asset V."
+    },
+    {
+      "name": "treasury_yield_increase_0.68",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased to 0.68% on 2020-09-10, signaling rising borrowing costs which negatively impacted equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_33.6\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The VIX Volatility Index spiked to 33.6 on 2020-09-03, indicating increased market fear and contributing to the downward pressure on asset V.\"\n  },\n  {\n    \"name\": \"treasury_yield_increase_0.68\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 24],\n    \"description\": \"The 10-Year Treasury Rate increased to 0.68% on 2020-09-10, signaling rising borrowing costs which negatively impacted equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

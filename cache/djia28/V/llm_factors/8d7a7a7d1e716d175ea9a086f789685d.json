@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -4.062149553624067,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.41295546558704455,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited randomness amidst the prevailing volatility."
+    },
+    {
+      "name": "vix_increase_2022_12_12",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.5870445344129555,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased significantly to 25.00 on 2022-12-12, indicating heightened market volatility and fear, which likely contributed to the downward pressure on asset V."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2022_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The VIX increased from 22.17 to 22.83 during the window, indicating rising market volatility and contributing to bearish sentiment [9][25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited randomness amidst the prevailing volatility.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-09",
+  "end_date": "2021-05-23",
+  "window_type": "monthly",
+  "price_change_pct": -1.9432538529056809,
+  "factors": [
+    {
+      "name": "vix_spike_2021_05_19",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.42009884678747944,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 22.18 on May 19, indicating increased market fear and contributing to downward pressure on asset V."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3163097199341021,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "stable_treasury_yield_2021_05_10",
+      "category": "macroeconomic",
+      "direction": 0.13333333333333333,
+      "magnitude": 0.26359143327841844,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable at 1.63% throughout the window, suggesting no significant macroeconomic shifts that would drive prices."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_2021_05_19\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42, 43],\n    \"description\": \"The VIX Volatility Index spiked to 22.18 on May 19, indicating increased market fear and contributing to downward pressure on asset V.\"\n  },\n  {\n    \"name\": \"stable_treasury_yield\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"long\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 17, 33],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 1.63% throughout the window, providing a backdrop of low interest rates that did not support upward price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

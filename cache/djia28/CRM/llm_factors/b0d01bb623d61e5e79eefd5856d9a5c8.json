@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": -8.663341566002178,
+  "factors": [
+    {
+      "name": "ecb_interest_rate_hike_10th_time",
+      "category": "macroeconomic",
+      "direction": -0.6599999999999999,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The European Central Bank raised interest rates for the 10th time to combat high inflation, contributing to bearish sentiment in equity markets [1, 2, 3]."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.42000000000000004,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 4.49% on September 21, indicating rising borrowing costs and negatively impacting equity valuations [17, 25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_interest_rate_hike_10th_time\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank raised interest rates for the 10th time to combat high inflation, contributing to bearish sentiment in equity markets [1, 2, 3].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25],\n    \"description\": \"The 10-Year Treasury Rate increased to 4.49% on September 21, indicating rising borrowing costs and negatively impacting equity valuations [17, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment.\"\n  }\n]"
+}

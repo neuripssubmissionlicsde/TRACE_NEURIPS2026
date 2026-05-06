@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-30",
+  "end_date": "2020-09-13",
+  "window_type": "monthly",
+  "price_change_pct": -3.842958800759587,
+  "factors": [
+    {
+      "name": "india_economic_contraction",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.3883495145631068,
+      "persistence": "short",
+      "description": "[conf=0.85] India's economy contracted by 23.9% in the April\u2013June quarter, raising concerns about global economic recovery and impacting investor sentiment [6]."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.05,
+      "magnitude": 0.14563106796116507,
+      "persistence": "long",
+      "description": "[conf=0.75] The Federal Funds Effective Rate remained stable at 0.09%, indicating a continued accommodative monetary policy environment [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4660194174757281,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"india_economic_contraction\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [6, 7, 8],\n    \"description\": \"India's economy contracted by 23.9% in the April\u2013June quarter, raising concerns about global economic recovery and impacting investor sentiment [6].\"\n  },\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.1,\n    \"persistence\": \"long\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.09%, indicating a continued accommodative monetary policy environment [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

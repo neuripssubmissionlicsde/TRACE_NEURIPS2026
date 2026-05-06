@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-27",
+  "window_type": "monthly",
+  "price_change_pct": -4.107250355976409,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5300751879699248,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": -0.15,
+      "magnitude": 0.4699248120300752,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable at 0.6800 during the period, contributing to a lack of directional pressure on equity prices."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_policy_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 0.6800 during the window, indicating no immediate changes in Fed policy that could have influenced market sentiment [1][9].\"\n  },\n  {\n    \"name\": \"market_sentiment_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.90,\n    \"source_articles\": [2, 3],\n    \"description\": \"Overall market sentiment declined as investors reacted to economic uncertainties, contributing to the bearish price movement of GS [2][3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

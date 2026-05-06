@@ -1,0 +1,49 @@
+{
+  "start_date": "2022-10-23",
+  "end_date": "2022-11-06",
+  "window_type": "monthly",
+  "price_change_pct": 6.29374423122351,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.3495145631067961,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price."
+    },
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": 1.0,
+      "magnitude": 0.19417475728155342,
+      "persistence": "short",
+      "description": "[conf=0.60] Ongoing geopolitical tensions in oil-producing regions may have supported higher oil prices, positively impacting XOM."
+    },
+    {
+      "name": "earnings_report_expectations",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.1941747572815534,
+      "persistence": "short",
+      "description": "[conf=0.50] Market anticipation of favorable earnings reports could have driven investor sentiment positively towards XOM."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.17475728155339804,
+      "persistence": "short",
+      "description": "[conf=0.50] General bullish sentiment in the broader market during this period may have contributed to XOM's price increase."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.08737864077669902,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in stock price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Ongoing geopolitical tensions in oil-producing regions may have supported higher oil prices, positively impacting XOM.\"\n    },\n    {\n        \"name\": \"earnings_report_expectations\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Market anticipation of favorable earnings reports could have driven investor sentiment positively towards XOM.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General bullish sentiment in the broader market during this period may have contributed to XOM's price increase.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.05,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"XOM's price breaking above key technical resistance levels may have triggered additional buying.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in stock price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

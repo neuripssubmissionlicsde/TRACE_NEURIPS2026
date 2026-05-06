@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": 3.481019248196166,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4508670520231214,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced CRM's price movement."
+    },
+    {
+      "name": "geopolitical_instability_eu",
+      "category": "geopolitical",
+      "direction": -0.31666666666666665,
+      "magnitude": 0.2745664739884393,
+      "persistence": "short",
+      "description": "[conf=0.80] Revelations of bribery involving a Belgian politician and the Chinese Ministry of State Security created uncertainty in the EU, potentially impacting market sentiment."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.31666666666666665,
+      "magnitude": 0.2745664739884393,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate from 4.18% to 4.23% during the window may have contributed to a bearish sentiment in equities, including CRM."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced CRM's price movement.\"\n  },\n  {\n    \"name\": \"geopolitical_instability_eu\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9],\n    \"description\": \"Revelations of bribery involving a Belgian politician and the Chinese Ministry of State Security created uncertainty in the EU, potentially impacting market sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [10, 18, 42],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 4.18% to 4.23% during the window may have contributed to a bearish sentiment in equities, including CRM.\"\n  },\n  {\n    \"name\": \"consolidation\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.70,\n    \"source_articles\": [],\n    \"description\": \"The price movement showed a lack of strong directional bias, indicating a consolidation phase with competing bullish and bearish forces.\"\n  }\n]"
+}

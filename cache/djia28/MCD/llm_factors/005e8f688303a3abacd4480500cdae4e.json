@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-07-03",
+  "end_date": "2022-07-17",
+  "window_type": "monthly",
+  "price_change_pct": 1.5369110638414278,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4736842105263158,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with no clear dominant driver."
+    },
+    {
+      "name": "bank_of_canada_rate_hike_2022",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5263157894736843,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Bank of Canada raised its benchmark interest rate from 1.5% to 2.5%, the largest increase since 1998, which contributed to bearish sentiment in the market [1][4]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_canada_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Bank of Canada raised its benchmark interest rate from 1.5% to 2.5%, the largest increase since 1998, amid surging inflation, which likely contributed to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with no clear dominant driver.\"\n  }\n]"
+}

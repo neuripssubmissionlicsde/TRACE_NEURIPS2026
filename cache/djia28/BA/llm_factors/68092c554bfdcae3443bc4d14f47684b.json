@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -39.11426209286562,
+  "factors": [
+    {
+      "name": "fed_rate_cut_50bps",
+      "category": "macroeconomic",
+      "direction": -0.7,
+      "magnitude": 0.5527638190954773,
+      "persistence": "short",
+      "description": "[conf=0.90] The Fed cut the federal funds rate by 0.5% in an emergency move, signaling a response to economic pressures [17], which contributed to market volatility and bearish sentiment [19]."
+    },
+    {
+      "name": "market_sell_off_due_to_covid",
+      "category": "market_sentiment",
+      "direction": -0.375,
+      "magnitude": 0.27638190954773867,
+      "persistence": "short",
+      "description": "[conf=0.85] The bond market fell and major U.S. indexes dropped significantly due to widespread panic selling related to COVID-19, indicating a broader market sell-off [25][33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1708542713567839,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_50bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [17, 19],\n    \"description\": \"The Fed cut the federal funds rate by 0.5% in an emergency move, signaling a response to economic pressures [17], which contributed to market volatility and bearish sentiment [19].\"\n  },\n  {\n    \"name\": \"market_sell_off_due_to_covid\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 33],\n    \"description\": \"The bond market fell and major U.S. indexes dropped significantly due to widespread panic selling related to COVID-19, indicating a broader market sell-off [25][33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-12-18",
+  "end_date": "2023-01-01",
+  "window_type": "monthly",
+  "price_change_pct": -1.1621218139093976,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6186440677966102,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.06666666666666667,
+      "magnitude": 0.21186440677966104,
+      "persistence": "short",
+      "description": "[conf=0.70] Stable unemployment rate reported at 3.5% [1] may have contributed to market sentiment but did not drive significant price movement."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.09999999999999999,
+      "magnitude": 0.16949152542372886,
+      "persistence": "short",
+      "description": "[conf=0.70] Federal Funds Effective Rate reported at 4.33% [9] indicates a stable monetary policy environment, contributing to overall market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"Stable unemployment rate reported at 3.5% [1] may have contributed to market sentiment but did not drive significant price movement.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [9],\n    \"description\": \"Federal Funds Effective Rate reported at 4.33% [9] indicates a stable monetary policy environment, contributing to overall market sentiment.\"\n  }\n]"
+}

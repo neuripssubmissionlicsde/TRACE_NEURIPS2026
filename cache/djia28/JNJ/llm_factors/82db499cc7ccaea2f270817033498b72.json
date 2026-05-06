@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-22",
+  "window_type": "monthly",
+  "price_change_pct": -1.394582931608212,
+  "factors": [
+    {
+      "name": "vaccine_announcement_pfizer",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3846153846153845,
+      "persistence": "transient",
+      "description": "[conf=0.85] The Dow Jones Industrial Average surged due to Pfizer's COVID-19 vaccine announcement, leading to a broader market sell-off in defensive stocks like JNJ."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.36,
+      "magnitude": 0.27791563275434245,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield declined from 0.9800 to 0.8600 during the window, indicating a shift in investor sentiment that may have pressured JNJ's stock price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.337468982630273,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random fluctuations in JNJ's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vaccine_announcement_pfizer\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [21],\n    \"description\": \"The Dow Jones Industrial Average surged due to Pfizer's COVID-19 vaccine announcement, leading to a broader market sell-off in defensive stocks like JNJ.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 7, 15],\n    \"description\": \"The 10-Year Treasury yield declined from 0.9800 to 0.8600 during the window, indicating a shift in investor sentiment that may have pressured JNJ's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random fluctuations in JNJ's stock price.\"\n  }\n]"
+}

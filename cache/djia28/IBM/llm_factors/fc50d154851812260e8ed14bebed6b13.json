@@ -1,0 +1,41 @@
+{
+  "start_date": "2021-09-26",
+  "end_date": "2021-10-10",
+  "window_type": "monthly",
+  "price_change_pct": 3.8126675445482574,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5454545454545454,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    },
+    {
+      "name": "sec_filings_2021_09_28",
+      "category": "company_specific",
+      "direction": 0.25,
+      "magnitude": 0.219435736677116,
+      "persistence": "short",
+      "description": "[conf=0.70] IBM filed with the SEC on 2021-09-28, which may have provided some investor confidence."
+    },
+    {
+      "name": "sec_filings_2021_10_04",
+      "category": "company_specific",
+      "direction": 0.18333333333333335,
+      "magnitude": 0.1880877742946709,
+      "persistence": "short",
+      "description": "[conf=0.70] Multiple SEC filings by IBM on 2021-10-04 may have contributed to positive sentiment among investors."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.04702194357366772,
+      "persistence": "transient",
+      "description": "[conf=0.00] Fluctuations in the 10-Year Treasury Rate [9, 17] did not have a clear directional impact on IBM's price during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"sec_filings_2021_09_28\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"IBM filed with the SEC on 2021-09-28, which may have provided some investor confidence.\"\n  },\n  {\n    \"name\": \"sec_filings_2021_10_04\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [2, 3, 4],\n    \"description\": \"Multiple SEC filings by IBM on 2021-10-04 may have contributed to positive sentiment among investors.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.60,\n    \"source_articles\": [9, 17],\n    \"description\": \"The stability of the 10-Year Treasury Rate during this period did not significantly impact IBM's price movements.\"\n  }\n]"
+}

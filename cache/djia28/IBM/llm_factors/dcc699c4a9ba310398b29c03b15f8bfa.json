@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-01-16",
+  "end_date": "2022-01-30",
+  "window_type": "monthly",
+  "price_change_pct": 1.1658570035314488,
+  "factors": [
+    {
+      "name": "sec_filing_2022_01_24",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.35,
+      "persistence": "transient",
+      "description": "[conf=0.85] IBM filed with the SEC on January 24, which may have positively influenced investor sentiment and contributed to the price increase [1]."
+    },
+    {
+      "name": "treasury_rate_decline_2022_01_27",
+      "category": "macroeconomic",
+      "direction": 0.32,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate to 1.8100 on January 27 may have supported equity valuations, contributing to the upward price movement [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2022_01_24\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"IBM filed with the SEC on January 24, which may have positively influenced investor sentiment and contributed to the price increase [1].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2022_01_27\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.8100 on January 27 may have supported equity valuations, contributing to the upward price movement [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during this period.\"\n  }\n]"
+}

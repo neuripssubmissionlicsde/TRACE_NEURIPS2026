@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": 8.83001701566197,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.504950495049505,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by various market dynamics."
+    },
+    {
+      "name": "central_bank_stability_lebanon",
+      "category": "geopolitical",
+      "direction": -0.3,
+      "magnitude": 0.297029702970297,
+      "persistence": "short",
+      "description": "[conf=0.75] Concerns over Lebanon's economic stability [1] created a risk-off sentiment that may have influenced investor behavior."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.19801980198019803,
+      "persistence": "short",
+      "description": "[conf=0.70] Fluctuations in the 10-Year Treasury yield [5] may have influenced investor sentiment towards equities, including AMGN."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"amgn_sec_filings\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2],\n    \"description\": \"Amgen filed important SEC documents on 2019-10-29 and 2019-10-30, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by various market dynamics.\"\n  }\n]"
+}

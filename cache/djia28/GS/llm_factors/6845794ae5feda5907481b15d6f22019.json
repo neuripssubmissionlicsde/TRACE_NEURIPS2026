@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": -4.377341857050671,
+  "factors": [
+    {
+      "name": "ecb_rate_hike_25bps",
+      "category": "macroeconomic",
+      "direction": -0.65,
+      "magnitude": 0.5729166666666667,
+      "persistence": "medium",
+      "description": "[conf=0.90] The European Central Bank raised interest rates by 25bps, signaling tighter monetary policy which negatively impacted market sentiment and contributed to the decline in GS's price [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4270833333333333,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_rate_hike_25bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank raised interest rates by 25bps, signaling tighter monetary policy which negatively impacted market sentiment and contributed to the decline in GS's price [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [13, 21, 29],\n    \"description\": \"The 10-Year Treasury yield increased during the period, reflecting higher borrowing costs and contributing to downward pressure on equity prices, including GS [13].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

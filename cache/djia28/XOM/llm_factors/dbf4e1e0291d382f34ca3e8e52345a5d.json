@@ -1,0 +1,65 @@
+{
+  "start_date": "2022-07-03",
+  "end_date": "2022-07-17",
+  "window_type": "monthly",
+  "price_change_pct": -2.084775431661524,
+  "factors": [
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -0.38,
+      "magnitude": 0.2542372881355932,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over inflation and interest rates may have negatively impacted investor sentiment during this period."
+    },
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": -0.26,
+      "magnitude": 0.16949152542372883,
+      "persistence": "short",
+      "description": "[conf=0.50] Ongoing geopolitical tensions, particularly related to energy supply, coincided with the price decline."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.34,
+      "magnitude": 0.15254237288135594,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment driven by broader market trends contributed to the decline in XOM's price."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.14,
+      "magnitude": 0.08474576271186442,
+      "persistence": "transient",
+      "description": "[conf=0.40] Liquidity conditions in the market may have contributed to the volatility observed in XOM's price."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.08474576271186442,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations that cannot be attributed to observable factors."
+    },
+    {
+      "name": "oil_price_fluctuations",
+      "category": "sector_specific",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.16949152542372886,
+      "persistence": "short",
+      "description": "[conf=0.70] Volatility in crude oil prices during this period likely influenced XOM's stock price negatively."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -0.10000000000000002,
+      "magnitude": 0.08474576271186443,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators may have triggered sell signals, contributing to the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over inflation and interest rates may have negatively impacted investor sentiment during this period.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Ongoing geopolitical tensions, particularly related to energy supply, coincided with the price decline.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The energy sector faced headwinds as oil prices fluctuated, impacting XOM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.6,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment driven by broader market trends contributed to the decline in XOM's price.\"\n    },\n    {\n        \"name\": \"technical_indicators\",\n        \"category\": \"technical\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Technical indicators suggested a bearish trend, which may have influenced trading behavior.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Liquidity conditions in the market may have contributed to the volatility observed in XOM's price.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations that cannot be attributed to observable factors.\"\n    }\n]"
+}

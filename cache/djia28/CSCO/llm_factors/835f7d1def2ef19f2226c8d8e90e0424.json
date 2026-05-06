@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-31",
+  "end_date": "2021-02-14",
+  "window_type": "monthly",
+  "price_change_pct": 5.276035123983103,
+  "factors": [
+    {
+      "name": "unemployment_rate_stable_6.2",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3680203045685279,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained stable at 6.2%, indicating a steady labor market which supported investor confidence [6]."
+    },
+    {
+      "name": "treasury_yield_increase_1.2",
+      "category": "macroeconomic",
+      "direction": 0.12499999999999999,
+      "magnitude": 0.266497461928934,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield increased to 1.2%, raising concerns about inflation and impacting tech stock valuations negatively [22]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.36548223350253806,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable_6.2\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [6],\n    \"description\": \"The unemployment rate remained stable at 6.2%, indicating a steady labor market which supported investor confidence [6].\"\n  },\n  {\n    \"name\": \"treasury_yield_increase_1.2\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [22],\n    \"description\": \"The 10-Year Treasury yield increased to 1.2%, raising concerns about inflation and impacting tech stock valuations negatively [22].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

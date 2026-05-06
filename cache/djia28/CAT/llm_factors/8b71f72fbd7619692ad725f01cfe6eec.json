@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-06-05",
+  "end_date": "2022-06-19",
+  "window_type": "monthly",
+  "price_change_pct": -13.575597733360304,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": -0.85,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.95] The Federal Reserve raised its benchmark interest rate by 0.75% to combat surging inflation, leading to a significant sell-off in equities [1]."
+    },
+    {
+      "name": "global_market_selloff",
+      "category": "market_sentiment",
+      "direction": -0.75,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.90] Global stocks and government bonds plunged, with major indices like the S&P 500 confirming a bear market, contributing to negative sentiment around CAT [5]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.15,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve raised its benchmark interest rate by 0.75% to combat surging inflation, leading to a significant sell-off in equities [1].\"\n  },\n  {\n    \"name\": \"global_market_selloff\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.75,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [5, 6, 9],\n    \"description\": \"Global stocks and government bonds plunged, with major indices like the S&P 500 confirming a bear market, contributing to negative sentiment around CAT [5].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

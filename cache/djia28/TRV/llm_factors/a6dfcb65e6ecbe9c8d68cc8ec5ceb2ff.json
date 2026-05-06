@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-04-11",
+  "end_date": "2021-04-25",
+  "window_type": "monthly",
+  "price_change_pct": 3.9173053566332183,
+  "factors": [
+    {
+      "name": "sec_filing_2021_04_20",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.485781990521327,
+      "persistence": "short",
+      "description": "[conf=0.85] TRV filed with the SEC on 2021-04-20, which may have positively influenced investor sentiment and contributed to the price increase."
+    },
+    {
+      "name": "treasury_rate_increase_2021_04_20",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.24881516587677727,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased to 1.5800 on 2021-04-20, indicating rising interest rates that can positively affect financial sector stocks like TRV."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2654028436018957,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2021_04_20\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"TRV filed with the SEC on 2021-04-20, which may have positively influenced investor sentiment and contributed to the price increase.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2021_04_20\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.5800 on 2021-04-20, indicating rising interest rates that can positively affect financial sector stocks like TRV.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

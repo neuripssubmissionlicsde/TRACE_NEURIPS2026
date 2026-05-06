@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-01",
+  "end_date": "2019-09-15",
+  "window_type": "monthly",
+  "price_change_pct": -5.706687207244643,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23809523809523808,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market volatility during the period."
+    },
+    {
+      "name": "saudi_aramco_drone_attacks",
+      "category": "geopolitical",
+      "direction": -0.625,
+      "magnitude": 0.5238095238095238,
+      "persistence": "short",
+      "description": "[conf=0.90] Drone attacks on Saudi Aramco facilities led to a significant spike in oil prices, creating broader market uncertainty and negatively impacting AMGN's stock."
+    },
+    {
+      "name": "treasury_yield_increase",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.23809523809523808,
+      "persistence": "short",
+      "description": "[conf=0.80] The rise in the 10-Year Treasury Rate to 1.90% on September 13 indicated tightening financial conditions, contributing to downward pressure on AMGN's stock."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"drone_attacks_saudi_aramco\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"Drone attacks on Saudi Aramco facilities led to a significant spike in oil prices, creating broader market uncertainty and negatively impacting AMGN's stock.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 26, 27, 28, 29],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.90% on September 13 raised borrowing costs, contributing to bearish sentiment in the equity markets.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market volatility during the period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-29",
+  "end_date": "2020-04-12",
+  "window_type": "monthly",
+  "price_change_pct": 11.387323257598062,
+  "factors": [
+    {
+      "name": "stimulus_package_impact",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The release of economic stimulus measures boosted consumer confidence and spending expectations, positively impacting MCD's stock price [1]."
+    },
+    {
+      "name": "increased_demand_for_takeout",
+      "category": "sector_specific",
+      "direction": 0.6,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.85] The COVID-19 pandemic led to increased demand for takeout and delivery services, benefiting MCD's business model during this period."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market volatility during the pandemic."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stimulus_package_impact\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1],\n    \"description\": \"The release of economic stimulus measures boosted consumer confidence and spending expectations, positively impacting MCD's stock price [1].\"\n  },\n  {\n    \"name\": \"increased_demand_for_takeout\",\n    \"category\": \"sector_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"The COVID-19 pandemic led to increased demand for takeout and delivery services, benefiting MCD's business model during this period.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market volatility during the pandemic.\"\n  }\n]"
+}

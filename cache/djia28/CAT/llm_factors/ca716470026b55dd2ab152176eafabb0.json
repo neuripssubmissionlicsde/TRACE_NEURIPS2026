@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.8504529513932586,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7391304347826086,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted CAT's price during this period."
+    },
+    {
+      "name": "fed_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.2608695652173913,
+      "persistence": "long",
+      "description": "[conf=0.85] Federal Funds Effective Rate remained stable at 0.08% [1], contributing to a lack of significant market movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted CAT's price during this period.\"\n  },\n  {\n    \"name\": \"fed_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"Federal Funds Effective Rate remained stable at 0.08% [1], contributing to a lack of significant market movement.\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [5, 9, 21],\n    \"description\": \"10-Year Treasury Rate remained relatively stable around 1.30% to 1.38% [5, 9, 21], indicating low pressure on equity valuations.\"\n  }\n]"
+}

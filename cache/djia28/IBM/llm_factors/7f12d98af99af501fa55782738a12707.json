@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-04-11",
+  "end_date": "2021-04-25",
+  "window_type": "monthly",
+  "price_change_pct": 5.488100433406276,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"sec_filings_april_19\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"IBM filed with the SEC on April 19, which may have contributed to positive sentiment around transparency and compliance [1].\"\n  },\n  {\n    \"name\": \"sec_filings_april_20\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [2],\n    \"description\": \"IBM filed with the SEC again on April 20, potentially reinforcing investor confidence in the company's governance [2].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_april_20\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.10,\n    \"persistence\": \"short\",\n    \"confidence\": 0.60,\n    \"source_articles\": [9],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.5800 on April 20, which could have influenced market sentiment but did not directly drive IBM's price movement.\"\n  }\n]"
+}

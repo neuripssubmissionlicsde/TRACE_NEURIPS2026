@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": 14.25420904751843,
+  "factors": [
+    {
+      "name": "ba_credit_card_trust_filings",
+      "category": "company_specific",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] Filings related to BA Credit Card Trust on December 11 and 14 indicated positive developments in BA's financial operations, contributing to bullish sentiment."
+    },
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate to 3.92% on December 14 supported equity valuations, providing a favorable environment for BA's price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ba_credit_card_trust_filings\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Filings related to BA Credit Card Trust on December 11 and 14 indicated positive developments in BA's financial operations, contributing to bullish sentiment.\"\n  },\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 33],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.92% on December 14 supported equity valuations, providing a favorable environment for BA's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting stochastic price movements.\"\n  }\n]"
+}

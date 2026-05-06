@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-11-11",
+  "end_date": "2018-11-25",
+  "window_type": "monthly",
+  "price_change_pct": -0.6122941484721207,
+  "factors": [
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.29069767441860467,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 3.0600 during this period, contributing to a lack of significant market movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7093023255813954,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating a lack of clear drivers for price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9, 25],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 3.0600 during this period, contributing to a lack of significant market movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.75,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating a lack of clear drivers for price movement.\"\n  }\n]"
+}

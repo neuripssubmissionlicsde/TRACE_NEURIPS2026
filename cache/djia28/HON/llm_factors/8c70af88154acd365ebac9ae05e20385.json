@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-02-14",
+  "end_date": "2021-02-28",
+  "window_type": "monthly",
+  "price_change_pct": -0.7880265493701313,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4736842105263158,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear trend amidst mixed signals."
+    },
+    {
+      "name": "rising_treasury_yields_february_2021",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5263157894736843,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 1.3800 on February 24, 2021, contributing to bearish sentiment in equity markets as higher yields typically reduce the attractiveness of stocks."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_02\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.3800 on February 24, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations [17][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear trend amidst mixed signals.\"\n  }\n]"
+}

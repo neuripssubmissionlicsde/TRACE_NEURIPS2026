@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": 3.511991443547826,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5731707317073171,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4268292682926829,
+      "persistence": "short",
+      "description": "[conf=0.85] The stability of the 10-Year Treasury Rate around 0.63% to 0.72% during this period provided a favorable environment for equities, supporting GS's price increase."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_0.7200\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42],\n    \"description\": \"The 10-Year Treasury Rate increased to 0.7200 on 2020-05-06, indicating rising yields which typically support financial sector stocks like GS.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_0.6400\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 49],\n    \"description\": \"The 10-Year Treasury Rate rose to 0.6400 on 2020-05-04, contributing to a favorable environment for GS as higher rates can improve bank margins.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": 2.2574143475695174,
+  "factors": [
+    {
+      "name": "treasury_rate_increase_1.84",
+      "category": "macroeconomic",
+      "direction": 0.56,
+      "magnitude": 0.43000000000000005,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate to 1.84% on 2019-12-06 indicated rising interest rates, which generally supports financial sector valuations, including GS."
+    },
+    {
+      "name": "treasury_rate_increase_1.76",
+      "category": "macroeconomic",
+      "direction": 0.36000000000000004,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The earlier increase in the 10-Year Treasury Rate to 1.76% on 2019-11-25 contributed to positive sentiment in the financial sector, supporting GS's price movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.31999999999999995,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_1.84\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 25],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.84% on 2019-12-06 indicated rising interest rates, which generally supports financial sector valuations, including GS.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_1.76\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 49],\n    \"description\": \"The earlier increase in the 10-Year Treasury Rate to 1.76% on 2019-11-25 contributed to positive sentiment in the financial sector, supporting GS's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

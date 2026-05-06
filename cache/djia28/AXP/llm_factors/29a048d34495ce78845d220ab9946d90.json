@@ -1,0 +1,17 @@
+{
+  "start_date": "2020-10-25",
+  "end_date": "2020-11-08",
+  "window_type": "monthly",
+  "price_change_pct": -3.087130233869022,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.70,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"reserve_bank_australia_rate_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.30,\n    \"magnitude\": 0.30,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The Reserve Bank of Australia slashed its cash rate to a historic low, which may have influenced global market sentiment negatively, impacting AXP's price.\"\n  }\n]"
+}

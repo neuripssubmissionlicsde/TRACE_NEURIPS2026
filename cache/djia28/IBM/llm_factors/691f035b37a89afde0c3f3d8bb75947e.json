@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": 7.646717506440728,
+  "factors": [
+    {
+      "name": "turkish_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": 0.54,
+      "magnitude": 0.4662162162162163,
+      "persistence": "short",
+      "description": "[conf=0.85] The Turkish central bank raised its main interest rate from 15% to 17.5% to control inflation, which positively influenced global market sentiment and contributed to IBM's price increase [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2635135135135135,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3666666666666667,
+      "magnitude": 0.2702702702702703,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10-Year Treasury Rate around 4.01% during this period provided a favorable environment for equities, supporting IBM's price rise [16]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkish_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Turkish central bank raised its main interest rate from 15% to 17.5% to control inflation, which positively influenced global market sentiment and contributed to IBM's price increase [1].\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [16, 24],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 4.01% during this period provided a favorable environment for equities, supporting IBM's price rise [16].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

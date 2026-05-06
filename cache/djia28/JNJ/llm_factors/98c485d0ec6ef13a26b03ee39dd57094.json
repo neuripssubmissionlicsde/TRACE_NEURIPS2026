@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": 3.4053871039337746,
+  "factors": [
+    {
+      "name": "hong_kong_recession",
+      "category": "geopolitical",
+      "direction": 0.12499999999999999,
+      "magnitude": 0.2914798206278027,
+      "persistence": "short",
+      "description": "[conf=0.85] The Hong Kong economy entering a recession due to ongoing protests may have led to increased investor interest in stable companies like JNJ, contributing to price gains [21][22]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21524663677130043,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "rising_treasury_yields_november_2019",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.4932735426008969,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose from 1.7300 to 1.9400 during the window, indicating increased investor confidence and contributing to JNJ's price increase [7, 9, 11]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"hong_kong_recession\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [21, 22],\n    \"description\": \"The Hong Kong economy entering a recession due to ongoing protests may have led to increased investor interest in stable companies like JNJ, contributing to price gains [21][22].\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [27, 28],\n    \"description\": \"The stability of the Federal Funds Rate at 1.55% during this period may have supported investor confidence in equities, including JNJ [27][28].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

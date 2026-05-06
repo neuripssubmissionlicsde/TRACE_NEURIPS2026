@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-03-13",
+  "end_date": "2022-03-27",
+  "window_type": "monthly",
+  "price_change_pct": 10.014004920078625,
+  "factors": [
+    {
+      "name": "moscow_stock_exchange_reopening",
+      "category": "geopolitical",
+      "direction": 0.76,
+      "magnitude": 0.53,
+      "persistence": "short",
+      "description": "[conf=0.85] The reopening of the Moscow Stock Exchange for bond trading after a month-long closure following the invasion boosted market sentiment and contributed to NKE's price increase [15][21]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.48,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate to 2.32% on March 21 indicated rising interest rates, which can signal economic recovery and positively impact equities like NKE [45]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21000000000000002,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"moscow_stock_exchange_reopening\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [15, 21],\n    \"description\": \"The reopening of the Moscow Stock Exchange for bond trading after a month-long closure following the invasion boosted market sentiment and contributed to NKE's price increase [15][21].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [45],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 2.32% on March 21 indicated rising interest rates, which can signal economic recovery and positively impact equities like NKE [45].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

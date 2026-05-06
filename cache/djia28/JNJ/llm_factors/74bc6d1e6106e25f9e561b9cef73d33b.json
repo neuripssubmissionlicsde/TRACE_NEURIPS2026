@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-07-19",
+  "end_date": "2020-08-02",
+  "window_type": "monthly",
+  "price_change_pct": -2.975412940969295,
+  "factors": [
+    {
+      "name": "japan_recession_declaration",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.3909774436090225,
+      "persistence": "medium",
+      "description": "[conf=0.85] Japan's Cabinet Office declared the economy had entered a recession, raising concerns about global economic stability and impacting investor sentiment [19][20]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3208020050125313,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty."
+    },
+    {
+      "name": "south_korea_recession",
+      "category": "geopolitical",
+      "direction": -0.4,
+      "magnitude": 0.28822055137844615,
+      "persistence": "medium",
+      "description": "[conf=0.80] South Korea's economy entered recession after a significant drop in exports, contributing to negative sentiment in Asian markets [25][26]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"japan_recession_declaration\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [19, 20],\n    \"description\": \"Japan's Cabinet Office declared the economy had entered a recession, raising concerns about global economic stability and impacting investor sentiment [19][20].\"\n  },\n  {\n    \"name\": \"south_korea_recession_declaration\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25, 26],\n    \"description\": \"South Korea's economy entered recession after a significant drop in exports, contributing to negative market sentiment regarding Asian economies [25][26].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty.\"\n  }\n]"
+}

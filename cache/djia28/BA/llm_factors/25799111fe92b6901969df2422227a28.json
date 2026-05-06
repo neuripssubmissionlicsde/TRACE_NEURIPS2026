@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-06-21",
+  "end_date": "2020-07-05",
+  "window_type": "monthly",
+  "price_change_pct": -2.0318595847453116,
+  "factors": [
+    {
+      "name": "high_volatility_market_conditions",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.34050179211469533,
+      "persistence": "short",
+      "description": "[conf=0.80] The market experienced high volatility with an annualized volatility of 91.1%, suggesting competing forces affecting price movements."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6594982078853046,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_stability_0.09\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.09%, indicating a low-interest environment that generally supports equity valuations [1, 9].\"\n  },\n  {\n    \"name\": \"high_volatility_market_conditions\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The market experienced high volatility with an annualized volatility of 91.1%, suggesting competing forces affecting price movements.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

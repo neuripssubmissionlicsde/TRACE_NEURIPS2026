@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-11-22",
+  "end_date": "2020-12-06",
+  "window_type": "monthly",
+  "price_change_pct": 2.9176045951873406,
+  "factors": [
+    {
+      "name": "sec_filing_2020_12_03",
+      "category": "company_specific",
+      "direction": 0.25,
+      "magnitude": 0.36764705882352944,
+      "persistence": "transient",
+      "description": "[conf=0.75] JNJ filed with the SEC on 2020-12-03, which may have contributed to investor confidence and price support."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6323529411764707,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_post_vaccine_optimism\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"General market optimism surrounding COVID-19 vaccine developments likely boosted JNJ's stock price during this period.\"\n  },\n  {\n    \"name\": \"sec_filing_2020_12_03\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"JNJ filed with the SEC on 2020-12-03, which may have contributed to investor confidence and price support.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

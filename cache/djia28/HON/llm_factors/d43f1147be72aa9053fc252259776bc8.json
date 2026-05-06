@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-18",
+  "window_type": "monthly",
+  "price_change_pct": 2.138689431040768,
+  "factors": [
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3545454545454545,
+      "persistence": "short",
+      "description": "[conf=0.80] The stability of the 10-Year Treasury Rate around 3.73% to 3.84% during this period contributed to a favorable environment for equities, supporting HON's price increase [1][9][41]."
+    },
+    {
+      "name": "market_sentiment_positive",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.22727272727272727,
+      "persistence": "transient",
+      "description": "[conf=0.75] Overall positive market sentiment during this period, reflected in the upward price movement of HON, suggests investor confidence despite external uncertainties."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4181818181818182,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9, 41],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 3.73% to 3.84% during this period contributed to a favorable environment for equities, supporting HON's price increase [1][9][41].\"\n  },\n  {\n    \"name\": \"market_sentiment_positive\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Overall positive market sentiment during this period, reflected in the upward price movement of HON, suggests investor confidence despite external uncertainties.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

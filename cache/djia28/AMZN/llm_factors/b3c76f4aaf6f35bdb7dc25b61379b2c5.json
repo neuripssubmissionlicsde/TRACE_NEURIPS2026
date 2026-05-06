@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-08-05",
+  "end_date": "2018-08-19",
+  "window_type": "monthly",
+  "price_change_pct": 3.0895912859734564,
+  "factors": [
+    {
+      "name": "turkey_financial_turmoil",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.51,
+      "persistence": "short",
+      "description": "[conf=0.85] Asian stock prices sank due to fears of contagion from Turkey's financial turmoil, impacting investor sentiment and contributing to AMZN's price movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.49000000000000005,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkey_financial_turmoil\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"Asian stock prices sank due to fears of contagion from Turkey's financial turmoil, impacting investor sentiment and contributing to AMZN's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

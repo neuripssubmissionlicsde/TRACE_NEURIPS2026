@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": -4.527142724858787,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.281524926686217,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period."
+    },
+    {
+      "name": "russia_interest_rate_hike_2022",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.4838709677419355,
+      "persistence": "short",
+      "description": "[conf=0.90] The Central Bank of Russia raised interest rates from 9.5% to 20%, causing global market instability and negatively impacting investor sentiment towards equities, including AMZN."
+    },
+    {
+      "name": "russia_stock_market_suspension",
+      "category": "geopolitical",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.2346041055718475,
+      "persistence": "transient",
+      "description": "[conf=0.85] The suspension of stock trading on the Moscow Stock Exchange due to geopolitical tensions added to market uncertainty, contributing to downward pressure on AMZN's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"russia_interest_rate_hike\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The Central Bank of Russia raised interest rates sharply from 9.5% to 20%, causing global market instability and negatively impacting investor sentiment towards equities, including AMZN.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period.\"\n  }\n]"
+}

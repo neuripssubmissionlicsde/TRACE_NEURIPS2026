@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-04-28",
+  "end_date": "2019-05-12",
+  "window_type": "monthly",
+  "price_change_pct": 0.5608091578247771,
+  "factors": [
+    {
+      "name": "us_china_trade_tensions",
+      "category": "geopolitical",
+      "direction": -0.56,
+      "magnitude": 0.53,
+      "persistence": "short",
+      "description": "[conf=0.85] Escalating trade tensions between the U.S. and China, highlighted by President Trump's tariff threats, negatively impacted market sentiment and contributed to WMT's price movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.47000000000000003,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"us_china_trade_tensions\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Escalating trade tensions between the U.S. and China, highlighted by President Trump's tariff threats, negatively impacted market sentiment and contributed to WMT's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period.\"\n  }\n]"
+}

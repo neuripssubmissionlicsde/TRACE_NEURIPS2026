@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": -0.957042734181604,
+  "factors": [
+    {
+      "name": "rising_10yr_treasury_rate_4.01",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.46875000000000006,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 4.01% on July 10, contributing to bearish sentiment in equities as higher rates typically increase borrowing costs and reduce consumer spending."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.53125,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10yr_treasury_rate_4.01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 25],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.01% on July 10, contributing to bearish sentiment in equities as higher rates typically increase borrowing costs and reduce consumer spending.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver.\"\n  }\n]"
+}

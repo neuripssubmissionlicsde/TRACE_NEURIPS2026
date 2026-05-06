@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-06-21",
+  "end_date": "2020-07-05",
+  "window_type": "monthly",
+  "price_change_pct": 1.9167977602656927,
+  "factors": [
+    {
+      "name": "pakistan_stock_exchange_attack",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.4565217391304348,
+      "persistence": "transient",
+      "description": "[conf=0.85] The attack on the Pakistan Stock Exchange raised geopolitical tensions, contributing to market uncertainty and downward pressure on prices [1-10]."
+    },
+    {
+      "name": "unemployment_rate_release",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.3260869565217391,
+      "persistence": "short",
+      "description": "[conf=0.75] The unemployment rate reported at 10.2% indicated ongoing economic challenges, which may have contributed to bearish sentiment [25-32]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21739130434782608,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"pakistan_stock_exchange_attack\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n    \"description\": \"The attack on the Pakistan Stock Exchange raised geopolitical tensions, contributing to market uncertainty and downward pressure on prices [1-10].\"\n  },\n  {\n    \"name\": \"unemployment_rate_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34],\n    \"description\": \"The unemployment rate reported at 10.2% indicated ongoing economic challenges, which may have contributed to bearish sentiment [25-32].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

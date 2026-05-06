@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-02-03",
+  "end_date": "2019-02-17",
+  "window_type": "monthly",
+  "price_change_pct": 3.8435634159440664,
+  "factors": [
+    {
+      "name": "vix_increase_16_22",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.5952380952380952,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose to 16.22 on February 14, indicating increased market uncertainty and contributing to downward pressure on asset V."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.40476190476190477,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random fluctuations in price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_16_22\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The VIX Volatility Index rose to 16.22 on February 14, indicating increased market uncertainty and contributing to downward pressure on asset V.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random fluctuations in price.\"\n  }\n]"
+}

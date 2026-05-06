@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": 9.200635496345901,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3529411764705882,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced fluctuations without a clear dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields_2021_08_10",
+      "category": "macroeconomic",
+      "direction": 0.6666666666666666,
+      "magnitude": 0.6470588235294118,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate rose to 1.36% on August 10, signaling increased investor confidence and contributing to GS's price increase [17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_august\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [17, 33],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.3600 on August 10, indicating increased investor confidence and contributing to GS's price increase [17, 33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced fluctuations without a clear dominant driver.\"\n  }\n]"
+}

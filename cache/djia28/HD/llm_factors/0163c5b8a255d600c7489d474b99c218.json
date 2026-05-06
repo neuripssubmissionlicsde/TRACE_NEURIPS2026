@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-06-05",
+  "end_date": "2022-06-19",
+  "window_type": "monthly",
+  "price_change_pct": -11.39870928369007,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": -0.85,
+      "magnitude": 0.541871921182266,
+      "persistence": "medium",
+      "description": "[conf=0.95] The Federal Reserve raised its benchmark interest rate by 0.75% to combat surging inflation, leading to a significant market sell-off as investors reacted to tighter monetary conditions [1][10]."
+    },
+    {
+      "name": "s_and_p_500_bear_market_confirmation",
+      "category": "market_sentiment",
+      "direction": -0.15,
+      "magnitude": 0.18472906403940884,
+      "persistence": "short",
+      "description": "[conf=0.85] The S&P 500 confirmed its bear market status by closing more than 20% below its January high, contributing to negative sentiment across equities [14][19]."
+    },
+    {
+      "name": "global_market_sell_off",
+      "category": "market_sentiment",
+      "direction": -0.1,
+      "magnitude": 0.1354679802955665,
+      "persistence": "short",
+      "description": "[conf=0.80] Global stocks and government bonds experienced a significant sell-off, with major indices dropping sharply, which negatively impacted investor sentiment [27][30]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.13793103448275862,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 10],\n    \"description\": \"The Federal Reserve raised its benchmark interest rate by 0.75% to combat surging inflation, leading to a significant market sell-off as investors reacted to tighter monetary conditions [1][10].\"\n  },\n  {\n    \"name\": \"s_and_p_500_bear_market_confirmation\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [14, 19],\n    \"description\": \"The S&P 500 confirmed its bear market status by closing more than 20% below its January high, contributing to negative sentiment across equities [14][19].\"\n  },\n  {\n    \"name\": \"global_market_sell_off\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.10,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [27, 30],\n    \"description\": \"Global stocks and government bonds experienced a significant sell-off, with major indices dropping sharply, which negatively impacted investor sentiment [27][30].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.10,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

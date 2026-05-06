@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -8.38799321787065,
+  "factors": [
+    {
+      "name": "fed_rate_cut_100bps",
+      "category": "macroeconomic",
+      "direction": -0.6199999999999999,
+      "magnitude": 0.6923076923076923,
+      "persistence": "short",
+      "description": "[conf=0.90] The Fed cut its benchmark rate by 100bps in an emergency move, signaling aggressive monetary easing which contributed to market volatility and downward pressure on stock prices [1][2][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3076923076923077,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_100bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Fed cut its benchmark rate by 100bps in an emergency move, signaling aggressive monetary easing which contributed to market volatility and downward pressure on stock prices [1][2][3].\"\n  },\n  {\n    \"name\": \"market_sell_off_due_to_covid\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [15, 43],\n    \"description\": \"U.S. stocks extended their drop in response to ongoing concerns about COVID-19, leading to a massive sell-off as investors sought cash [15][43].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market.\"\n  }\n]"
+}

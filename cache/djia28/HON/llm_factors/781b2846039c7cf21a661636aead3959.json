@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": 2.0706797287062515,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38888888888888884,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    },
+    {
+      "name": "ecb_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": 0.5333333333333333,
+      "magnitude": 0.6111111111111112,
+      "persistence": "medium",
+      "description": "[conf=0.90] The European Central Bank raised interest rates for the 10th time to combat high inflation, which positively influenced market sentiment towards HON as investors anticipated stronger economic conditions."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_interest_rate_hike_10th_time\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank raised interest rates for the 10th time to combat high inflation, which likely boosted investor confidence in financial stability and supported HON's price increase [1].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [14, 46],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.49% on September 21, which typically pressures equity valuations, but the overall market sentiment remained positive for HON [14].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

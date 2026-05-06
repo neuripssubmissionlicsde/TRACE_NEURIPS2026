@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-06-21",
+  "end_date": "2020-07-05",
+  "window_type": "monthly",
+  "price_change_pct": 1.1395955021267243,
+  "factors": [
+    {
+      "name": "treasury_rate_stability_0.68",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.38888888888888884,
+      "persistence": "short",
+      "description": "[conf=0.85] The stability of the 10-Year Treasury Rate at 0.6800 on multiple occasions provided a supportive backdrop for equities, contributing to a bullish sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6111111111111112,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability_0.68\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17],\n    \"description\": \"The stability of the 10-Year Treasury Rate at 0.6800 on multiple occasions provided a supportive backdrop for equities, contributing to a bullish sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_0.64\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25],\n    \"description\": \"The decline of the 10-Year Treasury Rate to 0.6400 on June 29 indicated easing financial conditions, which likely supported investor confidence in HD.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

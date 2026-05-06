@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-12-23",
+  "end_date": "2019-01-06",
+  "window_type": "monthly",
+  "price_change_pct": 7.279795405313311,
+  "factors": [
+    {
+      "name": "vix_decline_january_2019",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The VIX Volatility Index declined from 30.41 on December 26 to 23.22 on January 2, indicating reduced market fear and contributing to bullish sentiment for CVX [9][33]."
+    },
+    {
+      "name": "vix_high_december_2018",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.80] The VIX was notably high at 36.07 on December 24, which may have initially pressured prices before the subsequent decline [1][17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_january_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 33],\n    \"description\": \"The VIX Volatility Index declined from 30.41 on December 26 to 23.22 on January 2, indicating reduced market fear and contributing to bullish sentiment for CVX [9][33].\"\n  },\n  {\n    \"name\": \"vix_high_december_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 17],\n    \"description\": \"The VIX was notably high at 36.07 on December 24, which may have initially pressured prices before the subsequent decline [1][17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

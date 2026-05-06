@@ -1,0 +1,17 @@
+{
+  "start_date": "2021-10-10",
+  "end_date": "2021-10-24",
+  "window_type": "monthly",
+  "price_change_pct": 7.559690057671636,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"strong_earnings_report_q1_2022\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [],\n    \"description\": \"NKE's strong earnings report for Q1 2022 led to increased investor confidence and buying pressure.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.15,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 41],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.6800 on 2021-10-21 raised concerns about future borrowing costs, impacting market sentiment [1, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

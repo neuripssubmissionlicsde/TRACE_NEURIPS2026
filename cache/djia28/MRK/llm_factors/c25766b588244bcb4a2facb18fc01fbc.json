@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-27",
+  "window_type": "monthly",
+  "price_change_pct": -0.40452134603556555,
+  "factors": [
+    {
+      "name": "norway_divestment_russian_holdings",
+      "category": "geopolitical",
+      "direction": -0.48,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] Norway's sovereign fund announced it would divest its Russian holdings, contributing to negative sentiment in the market amid rising geopolitical tensions [1, 2, 3]."
+    },
+    {
+      "name": "moscow_stock_exchange_selloff",
+      "category": "geopolitical",
+      "direction": -0.38,
+      "magnitude": 0.38,
+      "persistence": "transient",
+      "description": "[conf=0.80] A massive selloff on the Moscow Stock Exchange triggered circuit breakers, causing broader market concerns and impacting investor sentiment [18, 19, 20]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.12,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"norway_divestment_russian_holdings\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Norway's sovereign fund announced it would divest its Russian holdings, contributing to negative sentiment in the market amid rising geopolitical tensions [1, 2, 3].\"\n  },\n  {\n    \"name\": \"moscow_stock_exchange_selloff\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [18, 19, 20],\n    \"description\": \"A massive selloff on the Moscow Stock Exchange triggered circuit breakers, causing broader market concerns and impacting investor sentiment [18, 19, 20].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

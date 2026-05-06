@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": -0.07008838193227324,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5148514851485149,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers."
+    },
+    {
+      "name": "rising_treasury_yields_april_2022",
+      "category": "macroeconomic",
+      "direction": -0.29,
+      "magnitude": 0.2871287128712871,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate rose to 2.90% by April 22, contributing to bearish sentiment in the equity markets [10][19]."
+    },
+    {
+      "name": "stable_wmt_stock_price",
+      "category": "company_specific",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.19801980198019806,
+      "persistence": "short",
+      "description": "[conf=0.75] Walmart's stock price remained stable with minimal fluctuations, reflecting investor caution amid broader market conditions [1][2]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were minimal and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_april_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.30,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [10, 19],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.90% by April 22, contributing to bearish sentiment in the equity markets [10][19].\"\n  },\n  {\n    \"name\": \"stable_wmt_stock_price\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"Walmart's stock price remained stable with minimal fluctuations, reflecting investor caution amid broader market conditions [1][2].\"\n  }\n]"
+}

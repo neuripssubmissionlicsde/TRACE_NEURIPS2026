@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-10-22",
+  "end_date": "2023-11-05",
+  "window_type": "monthly",
+  "price_change_pct": 4.075118482325258,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2023_11_03",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.4166666666666667,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 4.5700 on 2023-11-03 likely boosted investor sentiment, contributing to HON's price increase [9, 49]."
+    },
+    {
+      "name": "treasury_rate_stability_2023_10_27",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.26960784313725494,
+      "persistence": "medium",
+      "description": "[conf=0.80] The stability of the 10-Year Treasury Rate around 4.8400 on 2023-10-27 provided a favorable environment for equities, supporting HON's price movement [1, 4]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3137254901960784,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2023_11_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 49],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 4.5700 on 2023-11-03 likely boosted investor sentiment, contributing to HON's price increase [9, 49].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_2023_10_27\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.30,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 4],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 4.8400 on 2023-10-27 provided a favorable environment for equities, supporting HON's price movement [1, 4].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

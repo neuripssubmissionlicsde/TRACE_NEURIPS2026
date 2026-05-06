@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-11-22",
+  "end_date": "2020-12-06",
+  "window_type": "monthly",
+  "price_change_pct": 4.863064299806329,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.60431654676259,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced CAT's price movement during this period."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.375,
+      "magnitude": 0.20383693045563547,
+      "persistence": "long",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained stable at 0.09%, contributing to a favorable borrowing environment and supporting equity valuations [1]."
+    },
+    {
+      "name": "10_year_treasury_rate_increase",
+      "category": "macroeconomic",
+      "direction": -0.3375,
+      "magnitude": 0.19184652278177455,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate from 0.84% to 0.97% during the window may have exerted downward pressure on CAT's price due to rising discount rates [5, 13]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced CAT's price movement during this period.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.20,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.09%, contributing to a favorable borrowing environment and supporting equity valuations [1].\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_increase\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 13, 33],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 0.84% to 0.97% during the window may have exerted downward pressure on CAT's price due to rising discount rates [5, 13].\"\n  }\n]"
+}

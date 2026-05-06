@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-10-14",
+  "end_date": "2018-10-28",
+  "window_type": "monthly",
+  "price_change_pct": 2.3080420509226007,
+  "factors": [
+    {
+      "name": "declining_10y_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.6,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 3.1600 to 3.0800 during the window, which typically supports equity valuations and investor sentiment [3][9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.39999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10y_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [3, 9],\n    \"description\": \"The 10-Year Treasury Rate declined from 3.1600 to 3.0800 during the window, which typically supports equity valuations and investor sentiment [3][9].\"\n  },\n  {\n    \"name\": \"increasing_vix_volatility_index\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 29],\n    \"description\": \"The VIX increased from 17.6200 to 24.2200, indicating rising market volatility and uncertainty, which could have tempered bullish sentiment [25][29].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

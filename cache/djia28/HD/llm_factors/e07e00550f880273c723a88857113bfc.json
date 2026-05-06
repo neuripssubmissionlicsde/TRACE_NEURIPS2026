@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": 10.756505644663141,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_dec_2023",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The 10-Year Treasury Rate declined from 4.2000 to 3.9200 during the window, supporting equity valuations and investor sentiment [33][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced a significant price increase without clear additional drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_dec_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [33, 41],\n    \"description\": \"The 10-Year Treasury Rate declined from 4.2000 to 3.9200 during the window, supporting equity valuations and investor sentiment [33][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced a significant price increase without clear additional drivers.\"\n  }\n]"
+}

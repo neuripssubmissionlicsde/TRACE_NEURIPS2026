@@ -1,0 +1,49 @@
+{
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-26",
+  "window_type": "monthly",
+  "price_change_pct": -4.801464116824691,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.3846153846153847,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment surrounding financial stocks contributed to the decline in JPM's price."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.5,
+      "magnitude": 0.2884615384615385,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns about JPM's recent earnings performance and outlook may have influenced investor sentiment negatively."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.4,
+      "magnitude": 0.19230769230769235,
+      "persistence": "short",
+      "description": "[conf=0.50] Technical indicators showed bearish signals, which may have prompted selling pressure."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": -0.3,
+      "magnitude": 0.09615384615384619,
+      "persistence": "transient",
+      "description": "[conf=0.40] A decrease in liquidity in the market may have exacerbated price movements."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.03846153846153847,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations that cannot be attributed to any specific observable factor."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.6,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment surrounding financial stocks contributed to the decline in JPM's price.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns about JPM's recent earnings performance and outlook may have influenced investor sentiment negatively.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed bearish signals, which may have prompted selling pressure.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"A decrease in liquidity in the market may have exacerbated price movements.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations that cannot be attributed to any specific observable factor.\"\n    }\n]"
+}

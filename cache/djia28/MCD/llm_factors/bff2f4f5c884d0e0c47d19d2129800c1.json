@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-12-23",
+  "end_date": "2019-01-06",
+  "window_type": "monthly",
+  "price_change_pct": 2.3186269454927833,
+  "factors": [
+    {
+      "name": "dow_jones_drop_christmas_eve",
+      "category": "market_sentiment",
+      "direction": -0.1,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "[conf=0.85] The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, creating a negative sentiment that likely influenced MCD's price movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by broader market sentiment without a clear driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"dow_jones_drop_christmas_eve\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 19],\n    \"description\": \"The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, creating a negative sentiment that likely influenced MCD's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by broader market sentiment without a clear driver.\"\n  }\n]"
+}

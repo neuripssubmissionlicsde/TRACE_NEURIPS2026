@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -11.027589617419352,
+  "factors": [
+    {
+      "name": "coronavirus_market_reaction",
+      "category": "macroeconomic",
+      "direction": -0.76,
+      "magnitude": 0.5527638190954773,
+      "persistence": "short",
+      "description": "[conf=0.90] The Dow Jones Industrial Average dropped more than 3% as the coronavirus pandemic spread outside China, leading to significant market sell-offs [36], culminating in a drop of 800 points at opening on February 28, marking the worst week since the financial crisis [41]."
+    },
+    {
+      "name": "dow_correction_territory",
+      "category": "macroeconomic",
+      "direction": -0.475,
+      "magnitude": 0.27638190954773867,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Dow Jones Industrial Average entered correction territory after plunging 700 points, contributing to overall market bearish sentiment [25], which affected HD's price negatively."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.1708542713567839,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this volatile period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"coronavirus_market_reaction\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [36, 41],\n    \"description\": \"The Dow Jones Industrial Average dropped more than 3% as the coronavirus pandemic spread outside China, leading to significant market sell-offs [36], culminating in a drop of 800 points at opening on February 28, marking the worst week since the financial crisis [41].\"\n  },\n  {\n    \"name\": \"dow_correction_territory\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 41],\n    \"description\": \"The Dow Jones Industrial Average entered correction territory after plunging 700 points, contributing to overall market bearish sentiment [25], which affected HD's price negatively.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market reactions during this volatile period.\"\n  }\n]"
+}

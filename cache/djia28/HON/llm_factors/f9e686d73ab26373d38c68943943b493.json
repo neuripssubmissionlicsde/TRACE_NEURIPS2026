@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-01-01",
+  "end_date": "2023-01-15",
+  "window_type": "monthly",
+  "price_change_pct": 0.6786047072761597,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.47916666666666663,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "stable_unemployment_rate_3.5",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.2604166666666667,
+      "persistence": "long",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.5%, indicating a resilient labor market which supports consumer confidence and spending."
+    },
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.42500000000000004,
+      "magnitude": 0.2604166666666667,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-year Treasury rate declined from 3.79% to 3.43%, suggesting lower borrowing costs which can positively influence equity valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"Stable unemployment rate at 3.5% [1] contributed to positive market sentiment, supporting HON's price stability.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_jan_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 18, 19, 20, 21, 22, 23, 24],\n    \"description\": \"Decline in the 10-Year Treasury Rate to 3.43% on January 12 [17] likely boosted investor confidence in equities, including HON.\"\n  },\n  {\n    \"name\": \"treasury_rate_fluctuation_jan_3_to_jan_10\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.20,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 41, 42, 43, 44],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate from 3.79% to 3.61% [9, 41] created uncertainty, contributing to price volatility in HON.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

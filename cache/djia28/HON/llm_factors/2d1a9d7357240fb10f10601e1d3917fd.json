@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-03-26",
+  "end_date": "2023-04-09",
+  "window_type": "monthly",
+  "price_change_pct": 0.9701601653181467,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.56,
+      "magnitude": 0.3576158940397351,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.4%, contributing to positive market sentiment and investor confidence [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3774834437086092,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.43333333333333335,
+      "magnitude": 0.2649006622516556,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined to 3.3%, which typically supports equity valuations by lowering discount rates [17][49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9],\n    \"description\": \"The unemployment rate remained stable at 3.4%, contributing to positive market sentiment and investor confidence [9].\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 49],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.3% indicated easing financial conditions, supporting equity valuations [17][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

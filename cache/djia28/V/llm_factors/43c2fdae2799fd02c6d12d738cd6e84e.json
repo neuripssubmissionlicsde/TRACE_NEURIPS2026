@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-04",
+  "end_date": "2019-08-18",
+  "window_type": "monthly",
+  "price_change_pct": 3.7655759211585385,
+  "factors": [
+    {
+      "name": "vix_increase_2019_08_14",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4433497536945813,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index increased to 22.10 on 2019-08-14, indicating heightened market uncertainty which likely pressured prices downward."
+    },
+    {
+      "name": "treasury_rate_decline_2019_08_15",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4187192118226602,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 1.52% on 2019-08-15, which typically supports equity prices by making bonds less attractive."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.13793103448275862,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2019_08_14\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 18],\n    \"description\": \"The VIX Volatility Index increased to 22.10 on 2019-08-14, indicating heightened market uncertainty which likely pressured prices downward.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2019_08_15\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.52% on 2019-08-15, which typically supports equity prices by making bonds less attractive.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

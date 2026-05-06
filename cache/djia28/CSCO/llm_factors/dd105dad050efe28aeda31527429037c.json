@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-05-22",
+  "end_date": "2022-06-05",
+  "window_type": "monthly",
+  "price_change_pct": 4.406990983568547,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.38461538461538464,
+      "persistence": "medium",
+      "description": "[conf=0.85] Stable unemployment rate at 3.6% reported on June 1 [1], contributing to positive market sentiment and investor confidence."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.28846153846153844,
+      "persistence": "short",
+      "description": "[conf=0.75] Decline in the 10-Year Treasury Rate from 2.96% to 2.92% [17] likely supported equity valuations, contributing to price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32692307692307687,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some stochastic price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Stable unemployment rate at 3.6% reported on June 1 [1], contributing to positive market sentiment and investor confidence.\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 25],\n    \"description\": \"Decline in the 10-Year Treasury Rate from 2.96% to 2.92% [17] likely supported equity valuations, contributing to price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some stochastic price movements.\"\n  }\n]"
+}

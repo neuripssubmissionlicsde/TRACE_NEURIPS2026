@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -5.879640577132807,
+  "factors": [
+    {
+      "name": "fed_rate_cut_50bps",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.4347826086956522,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Fed cut the federal funds rate by 0.5% in response to economic concerns, contributing to a broader market sell-off [14][27]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23913043478260868,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market."
+    },
+    {
+      "name": "market_selloff_due_to_covid",
+      "category": "market_sentiment",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.32608695652173914,
+      "persistence": "short",
+      "description": "[conf=0.80] All three major U.S. trading indexes fell over 9% due to fears surrounding COVID-19, leading to increased selling pressure across the market [40][49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_50bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [14, 27],\n    \"description\": \"The Fed cut the federal funds rate by 0.5% in response to economic concerns, contributing to a broader market sell-off [14][27].\"\n  },\n  {\n    \"name\": \"fed_rate_cut_100bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 3],\n    \"description\": \"The Fed announced a further emergency rate cut of 1% and a $700 billion quantitative easing program, intensifying market fears and leading to significant price declines [1][3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.1,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market.\"\n  }\n]"
+}

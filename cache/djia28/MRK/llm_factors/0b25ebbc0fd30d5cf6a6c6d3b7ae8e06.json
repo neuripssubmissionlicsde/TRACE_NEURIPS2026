@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-04-14",
+  "end_date": "2019-04-28",
+  "window_type": "monthly",
+  "price_change_pct": -3.3791563130627935,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4736842105263158,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility and drawdowns without a clear dominant driver."
+    },
+    {
+      "name": "declining_treasury_yields_april_2019",
+      "category": "macroeconomic",
+      "direction": -0.5666666666666668,
+      "magnitude": 0.5263157894736843,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 2.6000 to 2.5100 during the window, indicating a flight to safety that negatively impacted MRK's stock price [9][25][49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25, 49],\n    \"description\": \"The 10-Year Treasury yield declined from 2.6000 to 2.5100 during the window, contributing to bearish sentiment in the market [9][25][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility and drawdowns without a clear dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-05-12",
+  "end_date": "2019-05-26",
+  "window_type": "monthly",
+  "price_change_pct": 3.6262395135283993,
+  "factors": [
+    {
+      "name": "vix_decline_2019_05_22",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.46875000000000006,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined to 14.75 on 2019-05-22, indicating reduced market fear and contributing to bullish sentiment [41]."
+    },
+    {
+      "name": "vix_stability_2019_05_16",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.2604166666666667,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX remained stable around 15.29 on 2019-05-16, suggesting a calm market environment that supported price increases [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.27083333333333337,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2019_05_22\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42, 43],\n    \"description\": \"The VIX Volatility Index declined to 14.75 on 2019-05-22, indicating reduced market fear and contributing to bullish sentiment [41].\"\n  },\n  {\n    \"name\": \"vix_stability_2019_05_16\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 17],\n    \"description\": \"The VIX remained stable around 15.29 on 2019-05-16, suggesting a calm market environment that supported price increases [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

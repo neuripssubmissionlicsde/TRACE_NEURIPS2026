@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": -0.47793124076359883,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2346938775510204,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period."
+    },
+    {
+      "name": "vix_increase_22.47",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5102040816326531,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased to 22.47 on March 1, indicating heightened market volatility and contributing to bearish sentiment [17][49]."
+    },
+    {
+      "name": "vix_decline_19.59",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.25510204081632654,
+      "persistence": "short",
+      "description": "[conf=0.75] A subsequent decline in the VIX to 19.59 on March 2 provided a brief bullish sentiment, but was not strong enough to offset earlier bearish trends [25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_20_6000\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The VIX Volatility Index rose to 20.6000 on February 20, indicating increased market uncertainty and contributing to downward pressure on asset V prices [1][9].\"\n  },\n  {\n    \"name\": \"vix_increase_22_4700\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17],\n    \"description\": \"The VIX Volatility Index further increased to 22.4700 on March 1, exacerbating market fears and leading to additional selling pressure on asset V [17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-03-28",
+  "end_date": "2021-04-11",
+  "window_type": "monthly",
+  "price_change_pct": -0.18384364224049368,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_april_2021",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 1.6800 on April 7, 2021, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks relative to bonds."
+    },
+    {
+      "name": "unemployment_rate_stability_april_2021",
+      "category": "macroeconomic",
+      "direction": 0.20000000000000004,
+      "magnitude": 0.20000000000000004,
+      "persistence": "medium",
+      "description": "[conf=0.75] The unemployment rate remained stable at 6.1% on April 1, 2021, which provided some support to market sentiment despite rising yields."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_april_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 33],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.6800 on April 7, 2021, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks relative to bonds.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability_april_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17],\n    \"description\": \"The unemployment rate remained stable at 6.1% on April 1, 2021, which provided some support to market sentiment despite rising yields.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-01-20",
+  "end_date": "2019-02-03",
+  "window_type": "monthly",
+  "price_change_pct": 1.164488663494892,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6774193548387096,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced MRK's price movement during this period."
+    },
+    {
+      "name": "sec_filing_2019_01_30",
+      "category": "company_specific",
+      "direction": 0.35000000000000003,
+      "magnitude": 0.3225806451612903,
+      "persistence": "transient",
+      "description": "[conf=0.70] Merck filed with the SEC on 2019-01-30, which may have provided some investor confidence, contributing to a slight upward price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced MRK's price movement during this period.\"\n  },\n  {\n    \"name\": \"stable_treasury_rates\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 25],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 2.63% [25], contributing to a favorable environment for equities, including MRK.\"\n  },\n  {\n    \"name\": \"consolidation_period\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Price movements were characterized by a lack of significant upward or downward momentum, indicating a consolidation phase.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-08-27",
+  "end_date": "2023-09-10",
+  "window_type": "monthly",
+  "price_change_pct": 1.3955937700155858,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5652173913043478,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "interest_rate_cut_poland",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.43478260869565216,
+      "persistence": "short",
+      "description": "[conf=0.75] The National Bank of Poland's interest rate cut may have contributed to a favorable macroeconomic sentiment, indirectly benefiting tech stocks like CSCO."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"poland_interest_rate_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.30,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The National Bank of Poland's interest rate cut led to a weaker z\u0142oty, influencing global market sentiment positively [1].\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [11, 19],\n    \"description\": \"Stable 10-Year Treasury yields during this period contributed to a favorable environment for equities [11, 19].\"\n  }\n]"
+}

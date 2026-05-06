@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-02-26",
+  "end_date": "2023-03-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.0936637667583056,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2592592592592592,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited characteristics of randomness without a clear dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields_march_2023",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5092592592592593,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 3.92% to 4.08% during the window, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks relative to bonds."
+    },
+    {
+      "name": "increased_market_volatility_march_2023",
+      "category": "market_sentiment",
+      "direction": -0.3666666666666667,
+      "magnitude": 0.23148148148148145,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index increased to 19.11, indicating heightened market uncertainty and contributing to downward pressure on stock prices."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2023_03_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 3],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.0100 on 2023-03-01, contributing to bearish sentiment in the market as higher yields typically lead to lower equity valuations [1][3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited characteristics of randomness without a clear dominant driver.\"\n  }\n]"
+}

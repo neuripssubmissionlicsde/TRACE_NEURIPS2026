@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-11-08",
+  "end_date": "2020-11-22",
+  "window_type": "monthly",
+  "price_change_pct": -4.686998630164388,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_nov_2020",
+      "category": "macroeconomic",
+      "direction": -0.36000000000000004,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 0.9800 to 0.8300 during the window indicated a shift in investor sentiment towards lower yields, contributing to bearish pressure on PG's stock price [9][25][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5000000000000001,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_nov_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 0.9800 to 0.8300 during the window indicated a shift in investor sentiment towards lower yields, contributing to bearish pressure on PG's stock price [9][25][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": 22.711291560380023,
+  "factors": [
+    {
+      "name": "rising_vix_volatility_index",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.42000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose significantly during this period, indicating increased market uncertainty and contributing to price fluctuations [1][9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.27999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "central_bank_russia_interest_rate_hike",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "[conf=0.80] The Central Bank of Russia raised interest rates sharply, leading to a depreciation of the ruble and increased demand for oil, positively impacting CVX's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_vix_volatility_index\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The VIX Volatility Index rose significantly during this period, indicating increased market uncertainty and contributing to price fluctuations [1][9].\"\n  },\n  {\n    \"name\": \"russia_interest_rate_hike\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [49],\n    \"description\": \"The Central Bank of Russia raised interest rates sharply, which heightened geopolitical tensions and positively impacted oil prices, benefiting CVX [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

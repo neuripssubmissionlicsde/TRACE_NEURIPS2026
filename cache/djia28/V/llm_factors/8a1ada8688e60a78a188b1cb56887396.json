@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-03-14",
+  "end_date": "2021-03-28",
+  "window_type": "monthly",
+  "price_change_pct": -4.771891738126645,
+  "factors": [
+    {
+      "name": "pope_salary_cut_decree",
+      "category": "geopolitical",
+      "direction": -0.525,
+      "magnitude": 0.4869358669833729,
+      "persistence": "transient",
+      "description": "[conf=0.85] Pope Francis issued a decree cutting salaries of cardinals and officials due to a financial deficit, which may have negatively impacted market sentiment [1, 2, 3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5130641330166271,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"pope_salary_cut_decree\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Pope Francis issued a decree cutting salaries of cardinals and officials due to a financial deficit, which may have negatively impacted market sentiment [1, 2, 3].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 33, 49],\n    \"description\": \"The 10-Year Treasury Rate rose during the window, indicating tightening financial conditions that likely pressured asset prices [25, 33, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market movements.\"\n  }\n]"
+}

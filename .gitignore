@@ -1,0 +1,49 @@
+# ── Python / build ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Virtual environments ────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── IDE / OS ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Secrets ─────────────────────────────────────────────────────────
+.env
+
+# ── Outputs (regenerable) ───────────────────────────────────────────
+results/
+tensorboard_log/
+*.parquet
+logs/
+final_run_phaseB/
+
+# ── Reproducibility cache ──────────────────────────────────────────
+# Keep ONLY the LLM-extracted factor cache that ships with the repo;
+# all other caches are regenerable / private to local runs.
+cache/*
+!cache/final_run_phaseB/
+!cache/final_run_phaseB/**
+
+# ── Vendored / third-party / non-public ────────────────────────────
+emergent-finrl/
+paper/
+.docs_aux/
+.roo/
+.roorules
+.github/
+aws
+ROADMAP_PUBLICATION.md
+test_results.md

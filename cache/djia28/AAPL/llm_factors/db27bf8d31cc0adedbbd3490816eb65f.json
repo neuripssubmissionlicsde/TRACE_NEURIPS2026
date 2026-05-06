@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-05-08",
+  "end_date": "2022-05-22",
+  "window_type": "monthly",
+  "price_change_pct": -11.192181203893286,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment driven by broader market trends and investor concerns contributed to the decline in AAPL's price."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns regarding AAPL's future earnings and product demand may have influenced investor behavior during this period."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to price fluctuations."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": -0.3,
+      "magnitude": 0.2,
+      "persistence": "short",
+      "description": "[conf=0.50] A decrease in liquidity in the tech sector may have exacerbated the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.6,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment driven by broader market trends and investor concerns contributed to the decline in AAPL's price.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns regarding AAPL's future earnings and product demand may have influenced investor behavior during this period.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed bearish signals, which may have prompted selling pressure among traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations.\"\n    }\n]"
+}

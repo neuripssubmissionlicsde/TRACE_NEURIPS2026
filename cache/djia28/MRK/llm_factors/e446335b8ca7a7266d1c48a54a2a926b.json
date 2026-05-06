@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-06-18",
+  "end_date": "2023-07-02",
+  "window_type": "monthly",
+  "price_change_pct": 5.784739569550461,
+  "factors": [
+    {
+      "name": "cpi_release_2023_07_01",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The Consumer Price Index (CPI) release on July 1 indicated stable inflation, boosting investor confidence and contributing to MRK's price increase."
+    },
+    {
+      "name": "unemployment_rate_release_2023_07_01",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate remained low at 3.5% as reported on July 1, supporting positive economic sentiment and contributing to MRK's upward price movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_2023_07_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The Consumer Price Index (CPI) release on July 1 indicated stable inflation, boosting investor confidence and contributing to MRK's price increase.\"\n  },\n  {\n    \"name\": \"unemployment_rate_release_2023_07_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The unemployment rate remained low at 3.5% as reported on July 1, supporting positive economic sentiment and contributing to MRK's upward price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

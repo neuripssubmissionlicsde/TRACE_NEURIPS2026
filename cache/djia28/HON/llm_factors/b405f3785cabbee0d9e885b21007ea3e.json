@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": -2.648693050755545,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.65,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced HON's price movement during this period."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.1,
+      "magnitude": 0.19,
+      "persistence": "short",
+      "description": "[conf=0.75] Stable unemployment rate at 4.0% reported on 2018-03-01 [1], contributing to a generally positive economic outlook."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.22999999999999998,
+      "magnitude": 0.15999999999999998,
+      "persistence": "transient",
+      "description": "[conf=0.70] Increase in 10-Year Treasury Rate to 2.86% on 2018-03-02 [9, 25] may have pressured equity valuations, contributing to price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced HON's price movement during this period.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"Stable unemployment rate at 4.0% reported on 2018-03-01 [1], contributing to a generally positive economic outlook.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.10,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [9, 25],\n    \"description\": \"Increase in 10-Year Treasury Rate to 2.86% on 2018-03-02 [9, 25] may have pressured equity valuations, contributing to price decline.\"\n  }\n]"
+}

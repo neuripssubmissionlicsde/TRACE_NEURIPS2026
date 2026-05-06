@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-12-20",
+  "end_date": "2021-01-03",
+  "window_type": "monthly",
+  "price_change_pct": 3.532677002146572,
+  "factors": [
+    {
+      "name": "eu_investment_deal_with_china",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.37,
+      "persistence": "medium",
+      "description": "[conf=0.85] The European Union announced it was close to reaching an investment deal with China, positively impacting global economic sentiment and boosting JNJ's stock price [23][24]."
+    },
+    {
+      "name": "vix_volatility_decrease",
+      "category": "market_sentiment",
+      "direction": 0.4,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] A decrease in the VIX Volatility Index from 25.16 to 22.75 indicated reduced market uncertainty, contributing to a bullish sentiment for JNJ [37][38]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"eu_investment_deal_with_china\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [23, 24],\n    \"description\": \"The European Union announced it was close to reaching an investment deal with China, positively impacting global economic sentiment and boosting JNJ's stock price [23][24].\"\n  },\n  {\n    \"name\": \"vix_volatility_decrease\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [37, 38],\n    \"description\": \"A decrease in the VIX Volatility Index from 25.16 to 22.75 indicated reduced market uncertainty, contributing to a bullish sentiment for JNJ [37][38].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

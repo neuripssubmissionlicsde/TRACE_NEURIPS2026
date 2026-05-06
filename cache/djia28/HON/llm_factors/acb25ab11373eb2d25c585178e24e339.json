@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-01-29",
+  "end_date": "2023-02-12",
+  "window_type": "monthly",
+  "price_change_pct": -2.934210297990294,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.23183925811437403,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.6%, indicating a resilient labor market which can support consumer spending and economic stability [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2503863987635239,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "ftse_100_record_high",
+      "category": "geopolitical",
+      "direction": 0.15,
+      "magnitude": 0.20865533230293662,
+      "persistence": "transient",
+      "description": "[conf=0.70] The FTSE 100 Index reached a record intraday value, indicating strong market performance and investor confidence [9]."
+    },
+    {
+      "name": "treasury_rate_increase",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3091190108191654,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 3.74%, raising concerns about higher borrowing costs and impacting equity valuations negatively [39]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.6%, indicating a resilient labor market which can support consumer spending and economic stability [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [23, 39],\n    \"description\": \"The 10-Year Treasury Rate increased from 3.39% to 3.74%, raising concerns about higher borrowing costs and impacting equity valuations negatively [23, 39].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

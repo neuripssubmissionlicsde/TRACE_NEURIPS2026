@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-09-30",
+  "end_date": "2018-10-14",
+  "window_type": "monthly",
+  "price_change_pct": -4.337588650048104,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_spike_2018_10_10",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 22.96 on 2018-10-10, indicating increased market fear and contributing to the decline in CVX's price [17][25]."
+    },
+    {
+      "name": "vix_increase_2018_10_12",
+      "category": "market_sentiment",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX rose to 21.31 on 2018-10-12, reflecting ongoing market volatility and uncertainty, which likely pressured CVX's price further [49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_22_96\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25],\n    \"description\": \"The VIX Volatility Index spiked to 22.96 on 2018-10-10, indicating increased market fear and contributing to the bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"vix_increase_24_98\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25],\n    \"description\": \"The VIX rose to 24.98 on 2018-10-11, further heightening market volatility and negatively impacting investor sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

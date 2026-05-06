@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-06-21",
+  "end_date": "2020-07-05",
+  "window_type": "monthly",
+  "price_change_pct": -1.9816426213371268,
+  "factors": [
+    {
+      "name": "sec_filing_2020_07_02",
+      "category": "company_specific",
+      "direction": -0.3333333333333333,
+      "magnitude": 0.3164556962025316,
+      "persistence": "transient",
+      "description": "[conf=0.80] IBM filed with the SEC on 2020-07-02, which may have raised concerns about regulatory scrutiny, contributing to negative sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6835443037974683,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2020_07_02\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"IBM filed with the SEC on 2020-07-02, which may have raised concerns about regulatory scrutiny, contributing to negative sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2020_06_29\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"The 10-Year Treasury Rate declined to 0.6400 on 2020-06-29, indicating lower yields that typically pressure equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting uncertainty in market sentiment during this period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-18",
+  "end_date": "2019-09-01",
+  "window_type": "monthly",
+  "price_change_pct": -1.2155725871347192,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    },
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 1.5000, indicating lower bond yields which typically pressure equity valuations negatively [17][49]."
+    },
+    {
+      "name": "stable_unemployment_rate",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.75] The unemployment rate remained stable at 3.5%, suggesting a resilient labor market which could support consumer spending [25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_august_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 49],\n    \"description\": \"The 10-Year Treasury yield fell to 1.5000 by August 30, 2019, indicating a flight to safety that negatively impacted MMM's stock price [17][49].\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate_august_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"The unemployment rate remained stable at 3.5% on September 1, 2019, suggesting a resilient labor market that could support consumer spending [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

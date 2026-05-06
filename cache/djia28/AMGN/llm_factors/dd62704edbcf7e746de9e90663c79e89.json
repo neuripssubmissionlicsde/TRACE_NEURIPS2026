@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-07-04",
+  "end_date": "2021-07-18",
+  "window_type": "monthly",
+  "price_change_pct": 0.28310830126615166,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42307692307692313,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver."
+    },
+    {
+      "name": "treasury_rate_increase_2021_07_12",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.33653846153846145,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 1.3000 to 1.3800 on 2021-07-12, which typically pressures equity valuations, including AMGN."
+    },
+    {
+      "name": "treasury_rate_stability_2021_07_15",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.24038461538461536,
+      "persistence": "short",
+      "description": "[conf=0.80] The stabilization of the 10-Year Treasury Rate at 1.3100 on 2021-07-15 provided a supportive backdrop for equities, including AMGN."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [6, 11, 16],\n    \"description\": \"The 10-Year Treasury Rate increased from 1.3000 to 1.4200 during the window, indicating rising borrowing costs which typically pressure equity valuations [6, 11, 16].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver.\"\n  }\n]"
+}

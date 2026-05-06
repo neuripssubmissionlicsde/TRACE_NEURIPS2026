@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": -5.450507751750846,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3529411764705882,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    },
+    {
+      "name": "cpi_release_august_2022",
+      "category": "macroeconomic",
+      "direction": -0.7,
+      "magnitude": 0.6470588235294118,
+      "persistence": "short",
+      "description": "[conf=0.95] The release of the Bureau of Labor Statistics consumer price index for August led to a significant drop in all Dow stocks, including KO, as it indicated rising inflation concerns [1]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_market_reaction\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The release of the Bureau of Labor Statistics consumer price index for August led to a significant market reaction, causing all 30 stocks in the Dow Jones Industrial Average, including KO, to decrease in value by 3.9% [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 49],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 3.7% on September 22 contributed to bearish sentiment in the market, impacting KO's price negatively [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

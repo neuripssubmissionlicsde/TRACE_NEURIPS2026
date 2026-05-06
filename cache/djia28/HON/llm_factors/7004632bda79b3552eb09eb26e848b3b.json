@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-04-28",
+  "end_date": "2019-05-12",
+  "window_type": "monthly",
+  "price_change_pct": -0.15708103370253187,
+  "factors": [
+    {
+      "name": "us_china_trade_tensions",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.5851063829787234,
+      "persistence": "short",
+      "description": "[conf=0.90] U.S. President Trump's threats to raise tariffs against Chinese goods led to a significant drop in Chinese stocks, impacting U.S. market sentiment and contributing to HON's price decline."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4148936170212766,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"us_china_trade_tensions\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"U.S. President Trump's threats to raise tariffs against Chinese goods led to a significant drop in Chinese stocks, impacting U.S. market sentiment and contributing to HON's price decline.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty during the period.\"\n  }\n]"
+}

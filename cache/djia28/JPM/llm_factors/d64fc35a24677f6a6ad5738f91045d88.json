@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-07-19",
+  "end_date": "2020-08-02",
+  "window_type": "monthly",
+  "price_change_pct": -0.8108163523980713,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.29411764705882354,
+      "persistence": "short",
+      "description": "[conf=0.60] General market sentiment was cautious due to ongoing economic uncertainties, which likely contributed to the price decline."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.3137254901960784,
+      "persistence": "transient",
+      "description": "[conf=0.70] A portion of the price movement can be attributed to random market noise and fluctuations."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.3,
+      "magnitude": 0.19607843137254904,
+      "persistence": "short",
+      "description": "[conf=0.50] JPMorgan Chase's earnings reports and guidance may have influenced investor perceptions negatively."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.19607843137254904,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested overbought conditions, leading to profit-taking among traders."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was cautious due to ongoing economic uncertainties, which likely contributed to the price decline.\"\n    },\n    {\n        \"name\": \"technical_retracement\",\n        \"category\": \"technical\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"The stock experienced a technical retracement after a previous rally, leading to a natural pullback in price.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Liquidity conditions were somewhat tighter, which may have pressured the stock price downward.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.7,\n        \"description\": \"A portion of the price movement can be attributed to random market noise and fluctuations.\"\n    }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-03-04",
+  "end_date": "2018-03-18",
+  "window_type": "monthly",
+  "price_change_pct": 3.5906431984525677,
+  "factors": [
+    {
+      "name": "vix_increase_march_2018",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.45454545454545453,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased from 15.78 to 16.59 during the period, indicating rising market volatility which typically pressures stock prices [9][17]."
+    },
+    {
+      "name": "oil_price_stability",
+      "category": "sector_specific",
+      "direction": 0.5,
+      "magnitude": 0.45454545454545453,
+      "persistence": "short",
+      "description": "[conf=0.80] Stable oil prices during this period likely supported CVX's price increase, although specific articles on oil prices were not provided."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.09090909090909091,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_march_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The VIX increased from 15.78 to 16.59 during the period, indicating rising market volatility which typically pressures stock prices [9][17].\"\n  },\n  {\n    \"name\": \"oil_price_stability\",\n    \"category\": \"sector_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"Stable oil prices during this period likely supported CVX's price increase, although specific articles on oil prices were not provided.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

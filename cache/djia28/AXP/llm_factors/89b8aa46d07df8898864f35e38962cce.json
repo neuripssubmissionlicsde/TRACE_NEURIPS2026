@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-07-07",
+  "end_date": "2019-07-21",
+  "window_type": "monthly",
+  "price_change_pct": -0.13598018198827985,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2.06",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.35714285714285715,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 2.0600 on July 17 supported investor sentiment, contributing to a bullish outlook for equities [9][17]."
+    },
+    {
+      "name": "treasury_rate_decline_2.09",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.30788177339901474,
+      "persistence": "short",
+      "description": "[conf=0.85] The earlier decline in the 10-Year Treasury Rate to 2.0900 on July 15 also contributed to positive market sentiment, reinforcing bullish behavior [1][49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.334975369458128,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2.06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.0600 on July 17 supported investor sentiment, contributing to a bullish outlook for equities [9][17].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2.09\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 49],\n    \"description\": \"The earlier decline in the 10-Year Treasury Rate to 2.0900 on July 15 also contributed to positive market sentiment, reinforcing bullish behavior [1][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

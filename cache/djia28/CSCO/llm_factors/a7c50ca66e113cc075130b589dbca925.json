@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-05-09",
+  "end_date": "2021-05-23",
+  "window_type": "monthly",
+  "price_change_pct": -2.8534285687787215,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5730027548209367,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news directly impacted CSCO's price movement."
+    },
+    {
+      "name": "hong_kong_singapore_travel_bubble_postponement",
+      "category": "geopolitical",
+      "direction": -0.3875,
+      "magnitude": 0.4269972451790634,
+      "persistence": "short",
+      "description": "[conf=0.70] The postponement of the Hong Kong and Singapore travel bubble due to COVID-19 concerns may have contributed to negative sentiment in the market, impacting tech stocks like CSCO."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news directly impacted CSCO's price movement.\"\n  },\n  {\n    \"name\": \"hong_kong_singapore_travel_bubble_postponement\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The postponement of the Hong Kong and Singapore travel bubble due to COVID-19 concerns may have contributed to negative sentiment in the market, impacting tech stocks like CSCO.\"\n  },\n  {\n    \"name\": \"stable_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [11, 19],\n    \"description\": \"The stability of the 10-Year Treasury Rate at 1.6300 during this period may have provided a backdrop of stability, preventing further declines in CSCO's price.\"\n  },\n  {\n    \"name\": \"market_sentiment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.10,\n    \"magnitude\": 0.10,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment was bearish during this period, contributing to the downward pressure on CSCO's stock price.\"\n  }\n]"
+}

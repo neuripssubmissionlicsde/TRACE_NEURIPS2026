@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-05-22",
+  "end_date": "2022-06-05",
+  "window_type": "monthly",
+  "price_change_pct": 4.503019291664369,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.625,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "rising_treasury_yields_2022",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.37499999999999994,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 2.7600 to 2.9400 during the window, indicating rising borrowing costs which generally support stock prices in a stable economic environment [1, 4, 19]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.50,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 4, 19],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.7600 to 2.9400 during the window, indicating rising borrowing costs which can influence investor sentiment positively towards stable companies like Walmart.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-04-10",
+  "end_date": "2022-04-24",
+  "window_type": "monthly",
+  "price_change_pct": -3.2892001715246595,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3617021276595745,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_volatility_index_decline",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.3723404255319149,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 22.17 to 20.32 during the window, indicating reduced market fear and contributing to a more favorable sentiment for equities [45][46]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.26595744680851063,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased from 2.79% to 2.85% during the window, which typically pressures equity valuations negatively [29][37]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_2022_april\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 45],\n    \"description\": \"The VIX Volatility Index increased from 22.17 to 20.32 during the window, indicating rising market uncertainty and contributing to bearish sentiment [1][45].\"\n  },\n  {\n    \"name\": \"russian_debt_rating_downgrade\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10],\n    \"description\": \"The S&P's downgrade of Russian foreign debt to 'SD' raised geopolitical tensions, impacting market sentiment negatively [9][10].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

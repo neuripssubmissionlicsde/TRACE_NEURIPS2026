@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-02-12",
+  "end_date": "2023-02-26",
+  "window_type": "monthly",
+  "price_change_pct": -3.0754238318563174,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5544554455445544,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news directly impacted AMGN's price during this period."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.45,
+      "magnitude": 0.44554455445544555,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 3.8100 to 3.8800 during the window, contributing to bearish sentiment in equities [10][29]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news directly impacted AMGN's price during this period.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [10, 29],\n    \"description\": \"The 10-Year Treasury Rate increased from 3.8100 to 3.8800 during the window, contributing to bearish sentiment in equities [10][29].\"\n  }\n]"
+}

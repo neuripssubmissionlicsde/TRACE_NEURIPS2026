@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-07-07",
+  "end_date": "2019-07-21",
+  "window_type": "monthly",
+  "price_change_pct": -7.001123388934389,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5535714285714285,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events explain the significant price drop."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.38,
+      "magnitude": 0.26785714285714285,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield declined from 2.0900 to 2.0500 during the window, indicating a risk-off sentiment that may have pressured JNJ's stock price."
+    },
+    {
+      "name": "vix_increase",
+      "category": "market_sentiment",
+      "direction": -0.2333333333333333,
+      "magnitude": 0.17857142857142863,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX increased from 12.6800 to 13.9700, reflecting heightened market volatility and uncertainty, which likely contributed to the bearish sentiment around JNJ [37, 41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.70,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events explain the significant price drop.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.30,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 11, 19],\n    \"description\": \"The 10-Year Treasury yield declined from 2.0900 to 2.0500 during the window, indicating a risk-off sentiment that may have pressured JNJ's stock price.\"\n  }\n]"
+}

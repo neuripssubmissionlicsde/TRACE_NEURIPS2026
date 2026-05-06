@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-06-09",
+  "end_date": "2019-06-23",
+  "window_type": "monthly",
+  "price_change_pct": 6.71077653980086,
+  "factors": [
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate declined from 2.1500 to 2.0300 during the window, signaling lower borrowing costs and boosting investor sentiment [9][10][17]."
+    },
+    {
+      "name": "stable_10_year_2_year_spread",
+      "category": "macroeconomic",
+      "direction": 0.2,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.80] The 10Y-2Y Treasury Spread remained stable, indicating a lack of recession fears and supporting equity valuations [41][45]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 10, 17],\n    \"description\": \"The 10-Year Treasury Rate declined from 2.1500 to 2.0300 during the window, signaling lower borrowing costs and boosting investor sentiment [9][10][17].\"\n  },\n  {\n    \"name\": \"stable_10_year_2_year_spread\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 45],\n    \"description\": \"The 10Y-2Y Treasury Spread remained stable, indicating a lack of recession fears and supporting equity valuations [41][45].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-15",
+  "end_date": "2020-03-29",
+  "window_type": "monthly",
+  "price_change_pct": 27.496944256761825,
+  "factors": [
+    {
+      "name": "fed_emergency_rate_cut",
+      "category": "macroeconomic",
+      "direction": 0.8666666666666667,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The Fed's emergency rate cut and quantitative easing announcement on March 15 boosted market sentiment and liquidity [21][22][23]."
+    },
+    {
+      "name": "market_reaction_to_global_selloff",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.85] Asian and European markets experienced substantial losses on March 16, which initially pressured NKE's price [1][2][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_emergency_rate_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [21, 22, 23],\n    \"description\": \"The Fed's emergency rate cut and quantitative easing announcement on March 15 boosted market sentiment and liquidity [21][22][23].\"\n  },\n  {\n    \"name\": \"market_reaction_to_global_selloff\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Asian and European markets experienced substantial losses on March 16, which initially pressured NKE's price [1][2][3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during this period.\"\n  }\n]"
+}

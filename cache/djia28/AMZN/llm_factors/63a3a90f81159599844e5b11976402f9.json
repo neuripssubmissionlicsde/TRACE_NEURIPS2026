@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-01-20",
+  "end_date": "2019-02-03",
+  "window_type": "monthly",
+  "price_change_pct": -3.2581825139911564,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5681063122923588,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly explain the price decline."
+    },
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.43333333333333335,
+      "magnitude": 0.4318936877076412,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined from 2.76% to 2.63% during the period, indicating a shift in investor sentiment that may have contributed to the bearish price movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 33],\n    \"description\": \"The 10-Year Treasury Rate declined from 2.76% to 2.63% during the period, indicating a shift in investor sentiment that may have contributed to the bearish price movement.\"\n  },\n  {\n    \"name\": \"consolidation_period\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The price exhibited a range-bound behavior with high volatility and drawdowns, suggesting competing forces in the market.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": -1.0459845305561095,
+  "factors": [
+    {
+      "name": "ecb_rate_hike_25bps",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.53,
+      "persistence": "medium",
+      "description": "[conf=0.90] The European Central Bank raised interest rates by 25bps, leading to market concerns about tighter monetary conditions impacting asset valuations [1][25]."
+    },
+    {
+      "name": "first_republic_bank_failure",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.27,
+      "persistence": "transient",
+      "description": "[conf=0.85] The seizure of First Republic Bank by the FDIC and its acquisition by JPMorgan Chase raised fears of instability in the banking sector, contributing to negative sentiment [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_rate_hike_25bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 25],\n    \"description\": \"The European Central Bank raised interest rates by 25bps, leading to market concerns about tighter monetary conditions impacting asset valuations [1][25].\"\n  },\n  {\n    \"name\": \"first_republic_bank_failure\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25],\n    \"description\": \"The seizure of First Republic Bank by the FDIC and its acquisition by JPMorgan Chase raised fears of instability in the banking sector, contributing to negative sentiment [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty during the period.\"\n  }\n]"
+}

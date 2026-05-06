@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-04-24",
+  "end_date": "2022-05-08",
+  "window_type": "monthly",
+  "price_change_pct": -1.710694934179733,
+  "factors": [
+    {
+      "name": "fed_rate_hike_50bps",
+      "category": "macroeconomic",
+      "direction": -0.85,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.95] The Federal Reserve raised interest rates by 0.5%, the largest hike since 2000, to combat inflation, leading to a bearish sentiment in the market [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_spike_above_30",
+      "category": "market_sentiment",
+      "direction": -0.15,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index spiked above 30, indicating increased market uncertainty and contributing to downward pressure on prices [24]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_50bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve raised interest rates by 0.5%, the largest hike since 2000, to combat inflation, leading to a bearish sentiment in the market [1].\"\n  },\n  {\n    \"name\": \"vix_spike\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [24, 40],\n    \"description\": \"The VIX Volatility Index spiked to 31.20, indicating increased market uncertainty and contributing to downward pressure on prices [24].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-09-01",
+  "end_date": "2019-09-15",
+  "window_type": "monthly",
+  "price_change_pct": 9.34856872771648,
+  "factors": [
+    {
+      "name": "treasury_rate_increase_1.9",
+      "category": "macroeconomic",
+      "direction": 0.8666666666666667,
+      "magnitude": 0.6875,
+      "persistence": "short",
+      "description": "[conf=0.90] The increase in the 10-Year Treasury Rate to 1.9% on 2019-09-13 indicated rising investor confidence, contributing to the bullish price movement of GS."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3125,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_1.9\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [17, 18, 19],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 1.9% on 2019-09-13 indicated rising investor confidence, contributing to the bullish price movement of GS.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_1.79\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The rise in the 10-Year Treasury Rate to 1.79% on 2019-09-12 reflected improving economic sentiment, further supporting GS's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

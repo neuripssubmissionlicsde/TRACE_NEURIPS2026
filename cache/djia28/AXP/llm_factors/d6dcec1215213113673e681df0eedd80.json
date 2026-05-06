@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-01-16",
+  "end_date": "2022-01-30",
+  "window_type": "monthly",
+  "price_change_pct": 5.44933864731141,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2523364485981308,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price movement."
+    },
+    {
+      "name": "sec_filing_2022_01_25",
+      "category": "company_specific",
+      "direction": 0.6,
+      "magnitude": 0.5140186915887851,
+      "persistence": "short",
+      "description": "[conf=0.85] American Express filed with the SEC on 2022-01-25, which may have positively influenced investor sentiment and contributed to the price increase."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.2336448598130841,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10-Year Treasury Rate stabilized around 1.75% to 1.85% during this period, supporting a favorable borrowing environment for consumers and businesses."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price movement.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.45,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9, 41],\n    \"description\": \"The 10-Year Treasury Rate remained relatively stable around 1.75% to 1.85% during this period, contributing to a favorable environment for equities [1, 9, 41].\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-01-07",
+  "end_date": "2018-01-21",
+  "window_type": "monthly",
+  "price_change_pct": 4.770071724651343,
+  "factors": [
+    {
+      "name": "north_korea_south_korea_relations",
+      "category": "geopolitical",
+      "direction": 0.55,
+      "magnitude": 0.5428571428571429,
+      "persistence": "transient",
+      "description": "[conf=0.75] Improved relations between North and South Korea generated optimism in the market, contributing to NKE's price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4571428571428572,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_crisis_jan_2018\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [31, 32, 33, 34, 35],\n    \"description\": \"Heightened tensions due to the North Korea crisis influenced market sentiment positively, leading to increased buying interest in equities like NKE.\"\n  },\n  {\n    \"name\": \"north_korea_south_korea_relations\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"Improved relations between North and South Korea generated optimism in the market, contributing to NKE's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

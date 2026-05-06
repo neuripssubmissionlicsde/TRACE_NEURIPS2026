@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-07-17",
+  "end_date": "2022-07-31",
+  "window_type": "monthly",
+  "price_change_pct": 6.70638770718585,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": 0.19,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Federal Reserve's consecutive 0.75% interest rate hike on July 27 created a bullish sentiment in the market, contributing to AXP's price increase [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1],\n    \"description\": \"The Federal Reserve's consecutive 0.75% interest rate hike on July 27 created a bullish sentiment in the market, contributing to AXP's price increase [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

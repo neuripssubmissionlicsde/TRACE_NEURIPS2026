@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-02-26",
+  "end_date": "2023-03-12",
+  "window_type": "monthly",
+  "price_change_pct": -2.048940761412139,
+  "factors": [
+    {
+      "name": "vix_volatility_decline_2023_03_08",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.32999999999999996,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index declined to 19.11 on 2023-03-08, indicating reduced market fear and contributing to a temporary bullish sentiment."
+    },
+    {
+      "name": "vix_volatility_increase_2023_03_01",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX Volatility Index rose to 20.58 on 2023-03-01, reflecting increased market uncertainty and contributing to bearish pressure on CVX."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_decline_2023_03_08\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 33],\n    \"description\": \"The VIX Volatility Index declined to 19.11 on 2023-03-08, indicating reduced market fear and contributing to a temporary bullish sentiment.\"\n  },\n  {\n    \"name\": \"vix_volatility_increase_2023_03_01\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The VIX Volatility Index rose to 20.58 on 2023-03-01, reflecting increased market uncertainty and contributing to bearish pressure on CVX.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

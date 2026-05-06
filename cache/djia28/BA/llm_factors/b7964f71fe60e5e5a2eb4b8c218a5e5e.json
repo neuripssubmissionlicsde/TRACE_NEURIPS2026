@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-01-21",
+  "end_date": "2018-02-04",
+  "window_type": "monthly",
+  "price_change_pct": 4.0621340698400346,
+  "factors": [
+    {
+      "name": "strong_dollar_policy_change_indication",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.68,
+      "persistence": "medium",
+      "description": "[conf=0.85] Remarks by Treasury Secretary Mnuchin suggested a potential shift in the U.S. strong dollar policy, positively impacting market sentiment and BA's stock price [7][10]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"strong_dollar_policy_change_indication\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [7, 10],\n    \"description\": \"Remarks by Treasury Secretary Mnuchin suggested a potential shift in the U.S. strong dollar policy, positively impacting market sentiment and BA's stock price [7][10].\"\n  },\n  {\n    \"name\": \"euro_strength_uncertainty\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"Mario Draghi's comments on the euro's strength created uncertainty in the market, which may have negatively impacted investor sentiment towards BA [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

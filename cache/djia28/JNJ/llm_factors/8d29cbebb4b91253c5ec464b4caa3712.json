@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": -2.88474873792114,
+  "factors": [
+    {
+      "name": "g7_minimum_tax_agreement",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.37,
+      "persistence": "transient",
+      "description": "[conf=0.80] The G7 finance ministers agreed on a minimum global corporate tax rate, raising concerns about potential impacts on multinational corporations like JNJ [23][24]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.63,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"g7_minimum_tax_agreement\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [23, 24],\n    \"description\": \"The G7 finance ministers agreed on a minimum global corporate tax rate, raising concerns about potential impacts on multinational corporations like JNJ [23][24].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": -11.254912829807642,
+  "factors": [
+    {
+      "name": "russia_interest_rate_hike_20pct",
+      "category": "geopolitical",
+      "direction": -0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The Central Bank of Russia raised interest rates to 20%, causing significant market instability and impacting global equities [1][2][3]."
+    },
+    {
+      "name": "russia_stock_market_suspension",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.85] The suspension of stock trading on the Moscow Stock Exchange due to the Russian invasion created uncertainty in global markets [17][18][19]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"russia_interest_rate_hike_20pct\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Central Bank of Russia raised interest rates to 20%, causing significant market instability and impacting global equities [1][2][3].\"\n  },\n  {\n    \"name\": \"russia_stock_market_suspension\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 18, 19],\n    \"description\": \"The suspension of stock trading on the Moscow Stock Exchange due to the Russian invasion created uncertainty in global markets [17][18][19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting high volatility and uncertainty in the market.\"\n  }\n]"
+}

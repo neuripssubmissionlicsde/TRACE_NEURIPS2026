@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-04-01",
+  "end_date": "2018-04-15",
+  "window_type": "monthly",
+  "price_change_pct": 1.2409119470487429,
+  "factors": [
+    {
+      "name": "stable_unemployment_rate_4pct",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.38590604026845643,
+      "persistence": "long",
+      "description": "[conf=0.85] The unemployment rate remained stable at 4.00%, indicating a strong labor market which supported investor confidence [1]."
+    },
+    {
+      "name": "vix_volatility_decline",
+      "category": "market_sentiment",
+      "direction": 0.36,
+      "magnitude": 0.29194630872483224,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX index showed a decline from 21.10 to 17.41, suggesting reduced market volatility and contributing to a bullish sentiment [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3221476510067114,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_unemployment_rate_4pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 4.00%, indicating a strong labor market which supported investor confidence [1].\"\n  },\n  {\n    \"name\": \"vix_volatility_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 17],\n    \"description\": \"The VIX index showed a decline from 21.10 to 17.41, suggesting reduced market volatility and contributing to a bullish sentiment [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

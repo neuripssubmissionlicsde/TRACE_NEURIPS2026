@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-07-22",
+  "end_date": "2018-08-05",
+  "window_type": "monthly",
+  "price_change_pct": -1.8478963828130426,
+  "factors": [
+    {
+      "name": "facebook_stock_drop_20_percent",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.4241645244215939,
+      "persistence": "transient",
+      "description": "[conf=0.85] Facebook's record stock drop of 20% on July 26 created negative sentiment in the market, impacting investor confidence across tech and related sectors."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5758354755784062,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"facebook_stock_drop_20_percent\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"Facebook's record stock drop of 20% on July 26 created negative sentiment in the market, impacting investor confidence across tech and related sectors.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty during the period.\"\n  }\n]"
+}

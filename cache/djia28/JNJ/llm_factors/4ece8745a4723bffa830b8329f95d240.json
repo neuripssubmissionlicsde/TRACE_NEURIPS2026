@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-12-09",
+  "end_date": "2018-12-23",
+  "window_type": "monthly",
+  "price_change_pct": -11.8990273905668,
+  "factors": [
+    {
+      "name": "vix_spike_december_2018",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.4763513513513514,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 30.11 on December 21, indicating heightened market fear and contributing to JNJ's price decline [21]."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.32094594594594594,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield fell to 2.77% on December 19, reflecting investor concerns about economic growth, which negatively impacted JNJ's stock price [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.20270270270270274,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_december_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [21, 35],\n    \"description\": \"The VIX Volatility Index spiked to 30.11 on December 21, indicating heightened market fear and contributing to JNJ's price decline [21].\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 19],\n    \"description\": \"The 10-Year Treasury yield fell to 2.77% on December 19, reflecting investor concerns about economic growth, which negatively impacted JNJ's stock price [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

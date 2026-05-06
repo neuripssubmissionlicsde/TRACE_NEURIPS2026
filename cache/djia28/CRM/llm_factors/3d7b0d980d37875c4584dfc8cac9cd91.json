@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-05-13",
+  "end_date": "2018-05-27",
+  "window_type": "monthly",
+  "price_change_pct": -2.1637752988103767,
+  "factors": [
+    {
+      "name": "turkish_central_bank_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.6470588235294118,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Turkish Central Bank raised its late liquidity window rate from 13.5% to 16.5% to counter the slide of the Turkish lira, creating uncertainty in global markets [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3529411764705882,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkish_central_bank_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Turkish Central Bank raised its late liquidity window rate from 13.5% to 16.5% to counter the slide of the Turkish lira, creating uncertainty in global markets [1].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 17, 41],\n    \"description\": \"The 10-Year Treasury Rate decreased from 3.0900 to 3.0100 during the window, indicating rising yields that typically pressure equity valuations [9, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

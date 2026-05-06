@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": 3.1135714408739847,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5801526717557253,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events drove the price movement."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.4125,
+      "magnitude": 0.4198473282442748,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased from 1.7600 on 2019-11-25 to 1.8400 on 2019-12-06, indicating a shift in investor sentiment that may have supported PG's price increase."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events drove the price movement.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate increased from 1.7600 on 2019-11-25 to 1.8400 on 2019-12-06, indicating a shift in investor sentiment that may have supported PG's price increase.\"\n  }\n]"
+}

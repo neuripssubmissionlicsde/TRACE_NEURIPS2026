@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-01-17",
+  "end_date": "2021-01-31",
+  "window_type": "monthly",
+  "price_change_pct": -7.866640728542277,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6191646191646193,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly explain the price decline."
+    },
+    {
+      "name": "rising_treasury_yields_january_2021",
+      "category": "macroeconomic",
+      "direction": -0.3875,
+      "magnitude": 0.3808353808353808,
+      "persistence": "short",
+      "description": "[conf=0.80] 10-Year Treasury yields rose to 1.12% on January 21, contributing to bearish sentiment in the market [17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_january_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17],\n    \"description\": \"10-Year Treasury yields rose to 1.12% on January 21, contributing to bearish sentiment in the market [17].\"\n  },\n  {\n    \"name\": \"sec_filings_january_2021\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2],\n    \"description\": \"SEC filings on January 21 and 29 may have raised concerns about regulatory scrutiny, impacting investor sentiment negatively [1, 2].\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-09-02",
+  "end_date": "2018-09-16",
+  "window_type": "monthly",
+  "price_change_pct": 3.9937170407408464,
+  "factors": [
+    {
+      "name": "ecb_policy_halving_stimulus",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The European Central Bank's decision to halve monetary stimulus raised investor confidence, contributing to upward price movement for KO [1]."
+    },
+    {
+      "name": "north_korea_south_korea_relations",
+      "category": "geopolitical",
+      "direction": 0.38000000000000006,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.75] Improving relations between North and South Korea created a positive geopolitical sentiment, which may have influenced market behavior [16]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_policy_halving_stimulus\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank's decision to halve monetary stimulus raised investor confidence, contributing to upward price movement for KO [1].\"\n  },\n  {\n    \"name\": \"north_korea_south_korea_relations\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [16, 17, 18],\n    \"description\": \"Improving relations between North and South Korea created a positive geopolitical sentiment, which may have influenced market behavior [16].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained market movements.\"\n  }\n]"
+}

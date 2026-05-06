@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-11-20",
+  "end_date": "2022-12-04",
+  "window_type": "monthly",
+  "price_change_pct": 1.1020828248690602,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2022_dec",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.6547619047619048,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 3.5300 on December 1, 2022, contributed to a bullish sentiment in the market, supporting higher equity valuations [17][49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3452380952380952,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2022_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 49],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.5300 on December 1, 2022, contributed to a bullish sentiment in the market, supporting higher equity valuations [17][49].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability_2022_nov\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 33],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 3.7600 during late November provided a favorable environment for equities, as it indicated reduced volatility in interest rates [25][33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

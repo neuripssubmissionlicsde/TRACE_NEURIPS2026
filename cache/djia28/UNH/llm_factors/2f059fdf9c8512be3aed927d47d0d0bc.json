@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": -1.6320035272821183,
+  "factors": [
+    {
+      "name": "unemployment_rate_release",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3771289537712896,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate was reported at 5.9%, indicating a slower recovery in the labor market, which negatively impacted investor sentiment [1-8]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2335766423357664,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.38929440389294406,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate fluctuated, impacting investor sentiment and leading to a bearish pressure on equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate was reported at 5.9%, indicating a slower recovery in the labor market, which negatively impacted investor sentiment [1-8].\"\n  },\n  {\n    \"name\": \"treasury_rate_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.63%, raising concerns about rising borrowing costs and inflation, contributing to downward pressure on equities [9-16].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

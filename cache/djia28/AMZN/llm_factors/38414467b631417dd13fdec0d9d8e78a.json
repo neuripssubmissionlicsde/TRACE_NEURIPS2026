@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-09-25",
+  "end_date": "2022-10-09",
+  "window_type": "monthly",
+  "price_change_pct": 1.1120869134137144,
+  "factors": [
+    {
+      "name": "rising_10_year_treasury_rate_3.83",
+      "category": "macroeconomic",
+      "direction": -0.5333333333333333,
+      "magnitude": 0.46875000000000006,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.83% [1, 9], contributing to bearish sentiment in the equity markets as higher rates typically increase discount rates on future earnings."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.53125,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed high volatility with no clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate_3.83\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.83% [1, 9], contributing to bearish sentiment in the equity markets as higher rates typically increase discount rates on future earnings.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed high volatility with no clear dominant driver.\"\n  }\n]"
+}

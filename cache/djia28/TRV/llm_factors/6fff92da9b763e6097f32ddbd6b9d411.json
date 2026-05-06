@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": -8.019357291707363,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.7297297297297297,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events explain the significant price decline."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.26666666666666666,
+      "magnitude": 0.2702702702702703,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate fell to 0.6000 on April 24, indicating a shift in investor sentiment that may have contributed to the bearish trend."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.80,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events explain the significant price decline.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The 10-Year Treasury Rate fell to 0.6000 on April 24, indicating a shift in investor sentiment that may have contributed to the bearish trend.\"\n  }\n]"
+}

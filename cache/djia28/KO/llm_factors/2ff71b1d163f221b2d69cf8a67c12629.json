@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-15",
+  "end_date": "2018-04-29",
+  "window_type": "monthly",
+  "price_change_pct": -3.0011429052301355,
+  "factors": [
+    {
+      "name": "uk_audit_office_rejection",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.5789473684210527,
+      "persistence": "transient",
+      "description": "[conf=0.85] The UK Audit Office's rejection of the Treasury's cost estimate for leaving the EU raised concerns about economic stability, negatively impacting market sentiment [1-5]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42105263157894735,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"uk_audit_office_rejection\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The UK Audit Office's rejection of the Treasury's cost estimate for leaving the EU raised concerns about economic stability, negatively impacting market sentiment [1-5].\"\n  },\n  {\n    \"name\": \"north_korea_relations_tension\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [15, 28, 29],\n    \"description\": \"Ongoing tensions in North Korea\u2013South Korea relations contributed to geopolitical uncertainty, further pressuring market sentiment [15, 28, 29].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

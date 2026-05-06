@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-07-04",
+  "end_date": "2021-07-18",
+  "window_type": "monthly",
+  "price_change_pct": 3.6821224845335023,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5454545454545454,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly influenced PG's price movement during this period."
+    },
+    {
+      "name": "rising_treasury_yields_july_2021",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.45454545454545453,
+      "persistence": "short",
+      "description": "[conf=0.85] 10-Year Treasury yields increased from 1.3000 to 1.4200 during the window, indicating rising interest rates which typically support equity valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 1.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly influenced PG's price movement during this period.\"\n  }\n]"
+}

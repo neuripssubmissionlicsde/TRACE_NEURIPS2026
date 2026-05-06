@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": 1.164115654808236,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5408163265306123,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news directly influenced AMGN's price movement during this period."
+    },
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.25510204081632654,
+      "persistence": "medium",
+      "description": "[conf=0.75] The Federal Funds Effective Rate remained stable at 1.5500, contributing to a favorable environment for equities [5]."
+    },
+    {
+      "name": "treasury_yield_fluctuations",
+      "category": "macroeconomic",
+      "direction": 0.06249999999999999,
+      "magnitude": 0.20408163265306123,
+      "persistence": "short",
+      "description": "[conf=0.70] Fluctuations in the 10-Year Treasury Rate, which rose slightly during the period, may have influenced investor sentiment towards equities [10, 20]."
+    },
+    {
+      "name": "market_consolidation",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.0,
+      "persistence": "short",
+      "description": "[conf=0.80] The price movement was relatively stable with low volatility, indicating a consolidation phase without strong directional bias."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news directly influenced AMGN's price movement during this period.\"\n  },\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 1.5500, contributing to a favorable environment for equities [5].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuations\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [10, 20],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, which rose slightly during the period, may have influenced investor sentiment towards equities [10, 20].\"\n  },\n  {\n    \"name\": \"market_consolidation\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The price movement was relatively stable with low volatility, indicating a consolidation phase without strong directional bias.\"\n  }\n]"
+}

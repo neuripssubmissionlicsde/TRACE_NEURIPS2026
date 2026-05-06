@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-27",
+  "window_type": "monthly",
+  "price_change_pct": -0.5923034732404535,
+  "factors": [
+    {
+      "name": "stable_treasury_rate_0.6800",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.3164556962025316,
+      "persistence": "long",
+      "description": "[conf=0.85] The 10-Year Treasury Rate remained stable at 0.6800 during the period, indicating a lack of significant macroeconomic shifts that could drive equity prices."
+    },
+    {
+      "name": "rising_treasury_rate_0.7000",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.379746835443038,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate to 0.7000 on September 18 raised concerns about rising borrowing costs, contributing to bearish sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.30379746835443033,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rate_0.6800\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 0.6800 during the period, indicating a lack of significant macroeconomic shifts that could drive equity prices.\"\n  },\n  {\n    \"name\": \"rising_treasury_rate_0.7000\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 0.7000 on September 18 raised concerns about rising borrowing costs, contributing to bearish sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

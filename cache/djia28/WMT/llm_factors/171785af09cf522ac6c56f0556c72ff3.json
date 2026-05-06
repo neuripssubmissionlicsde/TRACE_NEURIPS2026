@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": -0.5878490817702279,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were influenced by multiple competing forces."
+    },
+    {
+      "name": "german_recession_concerns",
+      "category": "geopolitical",
+      "direction": -0.4,
+      "magnitude": 0.36250000000000004,
+      "persistence": "short",
+      "description": "[conf=0.80] Concerns over the German economy entering a recession raised global economic uncertainty, impacting investor sentiment towards retail stocks like Walmart [40]."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.025,
+      "magnitude": 0.0375,
+      "persistence": "short",
+      "description": "[conf=0.70] A decline in the 10-Year Treasury yield to 3.6100 on June 1 may have provided some support to equity valuations, albeit insufficient to offset bearish sentiment [7, 19]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were influenced by multiple competing forces.\"\n  },\n  {\n    \"name\": \"german_recession_concerns\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [40],\n    \"description\": \"Concerns over the German economy entering a recession raised global economic uncertainty, impacting investor sentiment towards retail stocks like Walmart [40].\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.1,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [7, 19],\n    \"description\": \"A decline in the 10-Year Treasury yield to 3.6100 on June 1 may have provided some support to equity valuations, albeit insufficient to offset bearish sentiment [7, 19].\"\n  },\n  {\n    \"name\": \"sec_filing\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.50,\n    \"source_articles\": [1],\n    \"description\": \"Walmart's SEC filing on June 2 had no significant impact on price movement during this period [1].\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-11-19",
+  "end_date": "2023-12-03",
+  "window_type": "monthly",
+  "price_change_pct": 3.6054770962420712,
+  "factors": [
+    {
+      "name": "consumer_price_index_release",
+      "category": "macroeconomic",
+      "direction": 0.7,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] The Consumer Price Index was reported at 308.7410 on December 1, indicating inflationary pressures that may have positively influenced investor sentiment towards KO."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "treasury_rate_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased to 4.4700 on November 24, which typically raises borrowing costs and could have negatively impacted equity valuations, including KO."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"consumer_price_index_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 21],\n    \"description\": \"The Consumer Price Index was reported at 308.7410 on December 1, indicating inflationary pressures that may have positively influenced investor sentiment towards KO.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 41],\n    \"description\": \"The 10-Year Treasury Rate declined to 4.2200 on December 1, which typically supports equity valuations and may have contributed to the upward price movement of KO.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

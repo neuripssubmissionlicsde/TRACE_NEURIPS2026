@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-12-20",
+  "end_date": "2021-01-03",
+  "window_type": "monthly",
+  "price_change_pct": 6.135037378742384,
+  "factors": [
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.30201342281879195,
+      "persistence": "transient",
+      "description": "[conf=0.50] AAPL's price movement above key resistance levels may have triggered buying from technical traders."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.16107382550335572,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.5369127516778524,
+      "persistence": "short",
+      "description": "[conf=0.70] Overall bullish market sentiment during this period contributed to upward price movement in AAPL."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"strong_holiday_sales\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The holiday season typically boosts consumer spending, positively impacting tech stocks like AAPL.\"\n    },\n    {\n        \"name\": \"positive_market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General optimism in the stock market during this period contributed to upward price movement.\"\n    },\n    {\n        \"name\": \"strong_earnings_expectations\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.65,\n        \"description\": \"Anticipation of strong earnings reports in the upcoming quarter likely fueled investor interest.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"AAPL's price movement above key resistance levels may have triggered buying from technical traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

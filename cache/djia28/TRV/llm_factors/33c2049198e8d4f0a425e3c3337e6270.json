@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-12-19",
+  "end_date": "2022-01-02",
+  "window_type": "monthly",
+  "price_change_pct": 0.08957054237755951,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with minor fluctuations."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.52,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 1.4300 to 1.5200 during the window, indicating rising borrowing costs which negatively impacted TRV's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate_dec21\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 33],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.48% on December 21, which typically signals investor confidence and can lead to higher equity valuations [9, 10].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate_dec30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.52% on December 30, contributing to a bullish sentiment in the market [33, 41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with minor fluctuations.\"\n  }\n]"
+}

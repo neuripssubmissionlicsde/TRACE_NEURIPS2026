@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-01-29",
+  "end_date": "2023-02-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.3755014726098396,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2023_02_10",
+      "category": "macroeconomic",
+      "direction": -0.52,
+      "magnitude": 0.4711779448621554,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.7400 on 2023-02-10, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks."
+    },
+    {
+      "name": "covid_19_pandemic_south_korea",
+      "category": "geopolitical",
+      "direction": -0.325,
+      "magnitude": 0.28822055137844615,
+      "persistence": "transient",
+      "description": "[conf=0.75] The ongoing COVID-19 pandemic in South Korea raised concerns about supply chain disruptions and consumer demand, negatively impacting market sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24060150375939848,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2023_02_10\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.7400 on 2023-02-10, contributing to bearish sentiment in equities as higher yields typically reduce the attractiveness of stocks.\"\n  },\n  {\n    \"name\": \"covid_19_pandemic_south_korea\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 42],\n    \"description\": \"The ongoing COVID-19 pandemic in South Korea raised concerns about supply chain disruptions and consumer demand, negatively impacting market sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

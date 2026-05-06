@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-09-12",
+  "end_date": "2021-09-26",
+  "window_type": "monthly",
+  "price_change_pct": -2.589306616241591,
+  "factors": [
+    {
+      "name": "north_korea_south_korea_relations_tension",
+      "category": "geopolitical",
+      "direction": -0.325,
+      "magnitude": 0.21531100478468898,
+      "persistence": "transient",
+      "description": "[conf=0.75] Increased tensions in North Korea-South Korea relations during this period may have contributed to market uncertainty, impacting investor sentiment negatively."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2583732057416268,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "rising_treasury_yields_2021_09_24",
+      "category": "macroeconomic",
+      "direction": -0.75,
+      "magnitude": 0.5263157894736843,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate rose to 1.4700 on 2021-09-24, leading to increased borrowing costs and negatively impacting equity valuations [9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2021_september\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The 10-Year Treasury Rate rose from 1.3200 to 1.4700 during the window, contributing to a bearish sentiment in the equity markets as higher yields typically lead to lower valuations.\"\n  },\n  {\n    \"name\": \"north_korea_south_korea_relations_tension\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],\n    \"description\": \"Increased tensions in North Korea-South Korea relations during this period may have contributed to market uncertainty, impacting investor sentiment negatively.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

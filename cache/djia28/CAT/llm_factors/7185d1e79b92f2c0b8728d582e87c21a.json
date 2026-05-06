@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": 5.778307231638954,
+  "factors": [
+    {
+      "name": "german_recession_may_2023",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.3877068557919621,
+      "persistence": "short",
+      "description": "[conf=0.85] The announcement of Germany entering a recession raised concerns about global economic stability, negatively impacting investor sentiment [49][50]."
+    },
+    {
+      "name": "treasury_rate_fluctuations_may_2023",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.2718676122931442,
+      "persistence": "short",
+      "description": "[conf=0.75] Fluctuations in the 10-Year Treasury Rate, particularly the rise to 3.83% on May 25, contributed to market volatility and influenced investor behavior [5][9][13]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3404255319148936,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"german_recession_may_2023\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The announcement of Germany entering a recession raised concerns about global economic stability, negatively impacting investor sentiment [49][50].\"\n  },\n  {\n    \"name\": \"treasury_rate_fluctuations_may_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 9, 13],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, particularly the rise to 3.83% on May 25, contributed to market volatility and influenced investor behavior [5][9][13].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

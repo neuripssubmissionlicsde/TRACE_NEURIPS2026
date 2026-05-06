@@ -1,0 +1,17 @@
+{
+  "start_date": "2018-08-19",
+  "end_date": "2018-09-02",
+  "window_type": "monthly",
+  "price_change_pct": 1.9081557921305206,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate_2.89\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 29],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 2.89% on 2018-08-29 indicated rising interest rates, which typically supports financial sector stocks like GS.\"\n  },\n  {\n    \"name\": \"stable_10_year_treasury_rate_2.86\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33, 39],\n    \"description\": \"The stabilization of the 10-Year Treasury Rate at 2.86% on 2018-08-31 provided a favorable environment for financial stocks, contributing to GS's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

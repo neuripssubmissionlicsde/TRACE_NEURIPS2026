@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-01-15",
+  "end_date": "2023-01-29",
+  "window_type": "monthly",
+  "price_change_pct": 4.282053731923766,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.3846153846153846,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment driven by overall bullish trends in the tech sector likely contributed to MSFT's price increase."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.30769230769230765,
+      "persistence": "short",
+      "description": "[conf=0.60] MSFT's strong performance in previous quarters and positive earnings expectations may have influenced investor confidence."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.20512820512820515,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showing bullish patterns could have attracted momentum traders, contributing to the price rise."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.10256410256410256,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and noise that cannot be attributed to specific observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive market sentiment driven by overall bullish trends in the tech sector likely contributed to MSFT's price increase.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"MSFT's strong performance in previous quarters and positive earnings expectations may have influenced investor confidence.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showing bullish patterns could have attracted momentum traders, contributing to the price rise.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and noise that cannot be attributed to specific observable factors.\"\n    }\n]"
+}

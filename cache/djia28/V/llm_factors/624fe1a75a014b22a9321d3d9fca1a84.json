@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-18",
+  "end_date": "2019-09-01",
+  "window_type": "monthly",
+  "price_change_pct": 0.22169220782760177,
+  "factors": [
+    {
+      "name": "volcker_rule_modification",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.4255319148936171,
+      "persistence": "medium",
+      "description": "[conf=0.85] The approval of a modification to the Volcker rule by the OCC and FDIC eased trading restrictions for banks, potentially boosting market confidence and trading activity [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2553191489361702,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_increase",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.3191489361702128,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX increased from 16.88 to 19.32 during the window, indicating rising market volatility and investor uncertainty [24]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"volcker_rule_modification\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The approval of a modification to the Volcker rule by the OCC and FDIC eased trading restrictions for banks, potentially boosting market confidence and trading activity [1].\"\n  },\n  {\n    \"name\": \"vix_volatility_increase\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [24, 48],\n    \"description\": \"An increase in the VIX volatility index indicated rising market uncertainty, which may have contributed to downward pressure on prices [24].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

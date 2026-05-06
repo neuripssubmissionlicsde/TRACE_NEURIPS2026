@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": -0.01499597886390298,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2023_07_11",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.35532994923857864,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined to 3.99% on July 11, 2023, which typically supports equity valuations and investor sentiment [17][24]."
+    },
+    {
+      "name": "treasury_rate_decline_2023_07_13",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.27918781725888325,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate further declined to 3.76% on July 13, 2023, contributing to a favorable environment for equities [49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.36548223350253806,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the overall low volatility and minor price change."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2023_07_11\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 24],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.99% on July 11, 2023, which typically supports equity valuations and investor sentiment [17][24].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_07_13\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [49],\n    \"description\": \"The 10-Year Treasury Rate further declined to 3.76% on July 13, 2023, contributing to a favorable environment for equities [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the overall low volatility and minor price change.\"\n  }\n]"
+}

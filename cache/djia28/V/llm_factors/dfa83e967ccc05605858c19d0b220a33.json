@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-12-20",
+  "end_date": "2021-01-03",
+  "window_type": "monthly",
+  "price_change_pct": 5.022303163976276,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.14563106796116504,
+      "persistence": "medium",
+      "description": "[conf=0.75] The unemployment rate remained stable at 6.4%, indicating a steady labor market which can support consumer spending and economic recovery [33, 34]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.07766990291262135,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_decline_end_of_december",
+      "category": "market_sentiment",
+      "direction": 0.6,
+      "magnitude": 0.46116504854368934,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index declined from 25.16 on December 21 to 22.75 on December 31, indicating reduced market fear and contributing to bullish sentiment."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.31553398058252424,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 0.94% during the period, supporting investor confidence and risk appetite."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_end_of_year\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The decline in the VIX from 25.16 to 22.75 during the period indicated reduced market volatility and increased investor confidence [49, 50].\"\n  },\n  {\n    \"name\": \"stable_treasury_rates\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 17, 41],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 0.94% during the period contributed to a favorable borrowing environment, supporting equity valuations [9, 17, 41].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.15,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33, 34],\n    \"description\": \"The unemployment rate remained stable at 6.4%, indicating a steady labor market which can support consumer spending and economic recovery [33, 34].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.05,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

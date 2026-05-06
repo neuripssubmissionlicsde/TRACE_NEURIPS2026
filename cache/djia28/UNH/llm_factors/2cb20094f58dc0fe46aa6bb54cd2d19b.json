@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-04-29",
+  "end_date": "2018-05-13",
+  "window_type": "monthly",
+  "price_change_pct": -1.1286142515021937,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.33999999999999997,
+      "magnitude": 0.34,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.8%, indicating a strong labor market which generally supports healthcare spending and insurance demand [1]."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.38,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury rate rose to 2.97%, increasing borrowing costs and negatively impacting healthcare stocks like UNH [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.27999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 3.8%, indicating a strong labor market which generally supports healthcare spending and insurance demand [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury rate rose to 2.97%, increasing borrowing costs and negatively impacting healthcare stocks like UNH [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty.\"\n  }\n]"
+}

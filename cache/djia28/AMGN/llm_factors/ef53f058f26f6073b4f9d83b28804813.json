@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-02-27",
+  "end_date": "2022-03-13",
+  "window_type": "monthly",
+  "price_change_pct": 2.1515082255793976,
+  "factors": [
+    {
+      "name": "russia_interest_rate_hike_20pct",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.6060606060606062,
+      "persistence": "short",
+      "description": "[conf=0.85] The Central Bank of Russia raised interest rates to 20%, causing significant market volatility and impacting investor sentiment globally [1][2][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.39393939393939387,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"russia_interest_rate_hike_20pct\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Central Bank of Russia raised interest rates to 20%, causing significant market volatility and impacting investor sentiment globally [1][2][3].\"\n  },\n  {\n    \"name\": \"us_market_recovery_progress_talks\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"U.S. stock prices increased following reports of progress in talks between Russia and Ukraine, boosting market sentiment [9][10][11].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

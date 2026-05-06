@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-15",
+  "end_date": "2020-03-29",
+  "window_type": "monthly",
+  "price_change_pct": 7.364495899925212,
+  "factors": [
+    {
+      "name": "fed_rate_cut_100bps",
+      "category": "macroeconomic",
+      "direction": 0.8,
+      "magnitude": 0.7333333333333334,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Fed cut rates by 100bps and announced a $700 billion quantitative easing program, boosting market sentiment and liquidity [1][2][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_100bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Fed cut rates by 100bps and announced a $700 billion quantitative easing program, boosting market sentiment and liquidity [1][2][3].\"\n  },\n  {\n    \"name\": \"market_reaction_to_fed_actions\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 6],\n    \"description\": \"Initial market reactions to the Fed's actions were mixed, with Asian and European markets experiencing significant losses, indicating volatility and uncertainty [5][6].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market during this period.\"\n  }\n]"
+}

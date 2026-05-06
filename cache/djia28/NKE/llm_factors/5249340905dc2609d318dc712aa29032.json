@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-03-28",
+  "end_date": "2021-04-11",
+  "window_type": "monthly",
+  "price_change_pct": 1.8880675726488592,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32286995515695066,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news directly impacted NKE's price movement."
+    },
+    {
+      "name": "north_korea_olympics_withdrawal",
+      "category": "geopolitical",
+      "direction": 0.25,
+      "magnitude": 0.3901345291479821,
+      "persistence": "transient",
+      "description": "[conf=0.85] North Korea's withdrawal from the Summer Olympics due to COVID-19 concerns created geopolitical uncertainty, impacting market sentiment negatively [1][2][3]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.28699551569506726,
+      "persistence": "short",
+      "description": "[conf=0.75] The stable unemployment rate reported at 6.1% indicated a recovering labor market, contributing to positive investor sentiment during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news directly impacted NKE's price movement.\"\n  },\n  {\n    \"name\": \"unemployment_rate_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [20],\n    \"description\": \"The unemployment rate was reported at 6.1%, indicating a recovering labor market which may have positively influenced consumer sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [36],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 1.68% may have supported equity valuations, contributing to NKE's price increase.\"\n  },\n  {\n    \"name\": \"range_bound_market_sentiment\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The market exhibited range-bound behavior with mixed signals, leading to a lack of clear directional movement.\"\n  }\n]"
+}

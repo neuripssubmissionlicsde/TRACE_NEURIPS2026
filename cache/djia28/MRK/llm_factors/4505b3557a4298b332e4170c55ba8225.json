@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-06-19",
+  "end_date": "2022-07-03",
+  "window_type": "monthly",
+  "price_change_pct": 7.402657887641836,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.35,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.5%, indicating a resilient labor market which likely supported investor confidence [1]."
+    },
+    {
+      "name": "treasury_yield_stability",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10-Year Treasury Rate stabilized around 3.2%, suggesting a balanced interest rate environment that may have encouraged equity investment [9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The unemployment rate remained stable at 3.5%, indicating a resilient labor market which likely supported investor confidence [1].\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury Rate stabilized around 3.2%, suggesting a balanced interest rate environment that may have encouraged equity investment [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during the period.\"\n  }\n]"
+}

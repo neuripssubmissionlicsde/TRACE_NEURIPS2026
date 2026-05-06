@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-07-17",
+  "end_date": "2022-07-31",
+  "window_type": "monthly",
+  "price_change_pct": 3.1852432454971393,
+  "factors": [
+    {
+      "name": "fed_rate_hike_75bps",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.4926108374384237,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Federal Reserve raised its benchmark interest rate by 0.75%, contributing to a bearish sentiment in the market as tighter monetary conditions were anticipated."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.0394088669950739,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "mcd_q2_earnings_miss",
+      "category": "company_specific",
+      "direction": -0.475,
+      "magnitude": 0.4679802955665025,
+      "persistence": "transient",
+      "description": "[conf=0.90] McDonald's reported a 46% drop in profits and a 3% decline in revenue for Q2 2022, following its exit from Russia, which negatively impacted investor sentiment [35][39]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_75bps\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 18],\n    \"description\": \"The Federal Reserve raised its benchmark interest rate by 0.75%, contributing to a bearish sentiment in the market as tighter monetary conditions were anticipated.\"\n  },\n  {\n    \"name\": \"mcdonalds_q2_earnings_miss\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [35, 39],\n    \"description\": \"McDonald's reported a 46% drop in profits and a 3% decline in revenue for Q2 2022, following its exit from Russia, which negatively impacted investor sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.1,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-04-29",
+  "end_date": "2018-05-13",
+  "window_type": "monthly",
+  "price_change_pct": 0.06706679143036963,
+  "factors": [
+    {
+      "name": "multiannual_financial_framework",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.35,
+      "persistence": "short",
+      "description": "[conf=0.80] The discussions around the Multiannual Financial Framework may have positively influenced market sentiment, contributing to a slight upward price movement for MRK [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The stability of the 10-Year Treasury Rate around 2.97% during this period provided a favorable environment for equities, supporting MRK's price [19, 27]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"multiannual_financial_framework\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The discussions around the Multiannual Financial Framework may have positively influenced market sentiment, contributing to a slight upward price movement for MRK [1].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [19, 27, 35],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 2.97% during this period likely provided a supportive backdrop for equities, including MRK [19].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

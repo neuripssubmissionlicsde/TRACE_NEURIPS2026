@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-11-25",
+  "end_date": "2018-12-09",
+  "window_type": "monthly",
+  "price_change_pct": 0.9256148866538201,
+  "factors": [
+    {
+      "name": "stable_treasury_rate_3.01",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3979238754325259,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate stabilized at 3.01%, contributing to a favorable borrowing environment and supporting equity valuations [1, 9, 17]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6020761245674741,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed limited clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rate_3.01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate stabilized at 3.01%, contributing to a favorable borrowing environment and supporting equity valuations [1, 9, 17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.65,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed limited clear drivers.\"\n  }\n]"
+}

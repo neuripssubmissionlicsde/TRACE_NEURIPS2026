@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-02-16",
+  "end_date": "2020-03-01",
+  "window_type": "monthly",
+  "price_change_pct": -14.606818449621347,
+  "factors": [
+    {
+      "name": "market_crisis_feb_2020",
+      "category": "macroeconomic",
+      "direction": -0.85,
+      "magnitude": 0.5574324324324323,
+      "persistence": "short",
+      "description": "[conf=0.95] Markets were on pace for their worst week since the 2008 financial crisis due to growing fears over the economic impact of COVID-19 [1, 2, 3]."
+    },
+    {
+      "name": "declining_treasury_yields_feb_2020",
+      "category": "macroeconomic",
+      "direction": -0.15,
+      "magnitude": 0.21959459459459457,
+      "persistence": "medium",
+      "description": "[conf=0.80] The 10-Year Treasury rate fell significantly during this period, indicating a flight to safety as investors sought lower-risk assets [12, 37]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22297297297297297,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_crisis_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Markets were on pace for their worst week since the 2008 financial crisis due to growing fears over the economic impact of COVID-19 [1, 2, 3].\"\n  },\n  {\n    \"name\": \"declining_treasury_yields_feb_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [12, 37],\n    \"description\": \"The 10-Year Treasury rate fell significantly during this period, indicating a flight to safety as investors sought lower-risk assets [12, 37].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market.\"\n  }\n]"
+}

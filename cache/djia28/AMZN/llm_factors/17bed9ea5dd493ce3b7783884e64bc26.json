@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-05-13",
+  "end_date": "2018-05-27",
+  "window_type": "monthly",
+  "price_change_pct": 0.383419898108576,
+  "factors": [
+    {
+      "name": "turkish_central_bank_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.42000000000000004,
+      "persistence": "short",
+      "description": "[conf=0.85] The Turkish Central Bank raised its late liquidity window rate from 13.5% to 16.5% to counter the lira's decline, which contributed to market volatility and affected investor sentiment."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.3,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 3.06% to 3.11%, indicating a lack of significant upward pressure on interest rates, which supported equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.27999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkish_central_bank_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The Turkish Central Bank raised its late liquidity window rate from 13.5% to 16.5% to counter the lira's decline, which contributed to market volatility and affected investor sentiment.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [7, 15, 23, 31],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 3.06% to 3.11%, indicating a lack of significant upward pressure on interest rates, which supported equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

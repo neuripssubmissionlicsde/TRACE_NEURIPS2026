@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-11-21",
+  "end_date": "2021-12-05",
+  "window_type": "monthly",
+  "price_change_pct": -3.71551250389319,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3019480519480519,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market fluctuations."
+    },
+    {
+      "name": "fed_rate_stability_0.08",
+      "category": "macroeconomic",
+      "direction": -0.16666666666666666,
+      "magnitude": 0.38961038961038963,
+      "persistence": "short",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.08, indicating no immediate monetary tightening, which contributed to a neutral market sentiment [1]."
+    },
+    {
+      "name": "treasury_yield_decline_1.43",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.3084415584415584,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined to 1.43, which typically supports equity valuations, but the impact was limited during this period [17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.08% during this period, contributing to a lack of significant market movement.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 33],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.63% to 1.43% may have contributed to bearish sentiment in the market, impacting MMM's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market fluctuations.\"\n  }\n]"
+}

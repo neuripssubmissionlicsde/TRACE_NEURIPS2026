@@ -1,0 +1,57 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": -3.943205727677933,
+  "factors": [
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.27777777777777773,
+      "persistence": "short",
+      "description": "[conf=0.70] Concerns over inflation and interest rate hikes were prevalent during this period, contributing to bearish sentiment in the market."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.38,
+      "magnitude": 0.2222222222222222,
+      "persistence": "short",
+      "description": "[conf=0.60] The financial sector faced headwinds due to rising interest rates and regulatory concerns, impacting JPM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.42000000000000004,
+      "magnitude": 0.16666666666666666,
+      "persistence": "short",
+      "description": "[conf=0.50] General market sentiment was bearish, influenced by broader economic uncertainties and market volatility."
+    },
+    {
+      "name": "technical_indicators",
+      "category": "technical",
+      "direction": -0.26,
+      "magnitude": 0.12962962962962962,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showed bearish patterns, which may have contributed to selling pressure on JPM's stock."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.11111111111111112,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and noise contributed to some of the price movement without clear causation."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.13333333333333333,
+      "magnitude": 0.0925925925925926,
+      "persistence": "short",
+      "description": "[conf=0.50] Liquidity conditions were tightening, which may have affected trading volumes and price movements."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Concerns over inflation and interest rate hikes were prevalent during this period, contributing to bearish sentiment in the market.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The financial sector faced headwinds due to rising interest rates and regulatory concerns, impacting JPM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General market sentiment was bearish, influenced by broader economic uncertainties and market volatility.\"\n    },\n    {\n        \"name\": \"technical_indicators\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators showed bearish patterns, which may have contributed to selling pressure on JPM's stock.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and noise contributed to some of the price movement without clear causation.\"\n    }\n]"
+}

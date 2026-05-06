@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-20",
+  "window_type": "monthly",
+  "price_change_pct": 5.330392845181036,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38888888888888884,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear single driver."
+    },
+    {
+      "name": "declining_10yr_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.6111111111111112,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate declined from 4.2200 to 3.7700 during the window, indicating easing financial conditions that likely supported equity prices [9][17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 17],\n    \"description\": \"The 10-Year Treasury Rate declined from 4.2200 to 3.7700 during the window, indicating easing financial conditions that likely supported equity valuations [9][17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility with no clear single driver.\"\n  }\n]"
+}

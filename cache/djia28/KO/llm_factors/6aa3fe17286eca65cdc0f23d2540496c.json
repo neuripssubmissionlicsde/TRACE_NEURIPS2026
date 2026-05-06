@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-06-18",
+  "end_date": "2023-07-02",
+  "window_type": "monthly",
+  "price_change_pct": -2.224392698531536,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.3424657534246575,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.5%, indicating a resilient labor market which may have supported consumer confidence."
+    },
+    {
+      "name": "consumer_price_index_release",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.3424657534246575,
+      "persistence": "short",
+      "description": "[conf=0.80] The Consumer Price Index was reported at 304.6090, reflecting inflationary pressures that could have influenced market sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3150684931506849,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.5%, indicating a resilient labor market which may have supported consumer confidence.\"\n  },\n  {\n    \"name\": \"consumer_price_index_release\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The Consumer Price Index was reported at 304.6090, reflecting inflationary pressures that could have influenced market sentiment.\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuations\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 41, 49],\n    \"description\": \"The 10-Year Treasury Rate increased to 3.85%, which typically raises borrowing costs and can negatively impact equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

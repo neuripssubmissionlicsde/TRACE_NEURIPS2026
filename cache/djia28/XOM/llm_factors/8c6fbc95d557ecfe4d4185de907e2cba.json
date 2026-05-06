@@ -1,0 +1,57 @@
+{
+  "start_date": "2023-09-24",
+  "end_date": "2023-10-08",
+  "window_type": "monthly",
+  "price_change_pct": -6.881585047609352,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.29556650246305416,
+      "persistence": "short",
+      "description": "[conf=0.70] Recent fluctuations in global oil prices negatively impacted XOM's stock price."
+    },
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": -1.0,
+      "magnitude": 0.19704433497536944,
+      "persistence": "short",
+      "description": "[conf=0.60] Increased geopolitical tensions in oil-producing regions raised concerns about supply stability."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -1.0,
+      "magnitude": 0.09852216748768472,
+      "persistence": "transient",
+      "description": "[conf=0.60] Technical indicators suggested bearish trends, prompting traders to sell XOM shares."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.039408866995073885,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity contributed to price movements."
+    },
+    {
+      "name": "earnings_report",
+      "category": "company_specific",
+      "direction": -1.0,
+      "magnitude": 0.2463054187192118,
+      "persistence": "short",
+      "description": "[conf=0.80] A disappointing earnings report released during this period led to negative sentiment around XOM."
+    },
+    {
+      "name": "market_sentiment_shift",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.1231527093596059,
+      "persistence": "short",
+      "description": "[conf=0.50] Overall bearish market sentiment influenced investor behavior towards XOM."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Recent fluctuations in global oil prices negatively impacted XOM's stock price.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Increased geopolitical tensions in oil-producing regions raised concerns about supply stability.\"\n    },\n    {\n        \"name\": \"earnings_report_sentiment\",\n        \"category\": \"company_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Negative sentiment surrounding upcoming earnings reports contributed to downward pressure on XOM's stock.\"\n    },\n    {\n        \"name\": \"market_volatility\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Overall market volatility during this period led to increased selling pressure on XOM shares.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"Technical indicators suggested bearish trends, prompting traders to sell XOM shares.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity contributed to price movements.\"\n    }\n]"
+}

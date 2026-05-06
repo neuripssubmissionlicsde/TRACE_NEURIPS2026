@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-09-15",
+  "end_date": "2019-09-29",
+  "window_type": "monthly",
+  "price_change_pct": -4.744161581712471,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.3488372093023256,
+      "persistence": "short",
+      "description": "[conf=0.70] A decline in oil prices during this period likely contributed to the bearish movement in XOM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.29069767441860467,
+      "persistence": "short",
+      "description": "[conf=0.60] Overall negative market sentiment towards energy stocks may have influenced XOM's price decline."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -1.0,
+      "magnitude": 0.23255813953488375,
+      "persistence": "short",
+      "description": "[conf=0.50] Technical indicators suggesting overbought conditions may have triggered selling pressure."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.12790697674418602,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity may account for some of the price movement."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"A decline in oil prices during this period likely contributed to the bearish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Overall negative market sentiment towards energy stocks may have influenced XOM's price decline.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggesting overbought conditions may have triggered selling pressure.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Ongoing geopolitical tensions in oil-producing regions may have contributed to uncertainty in the energy sector.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity may account for some of the price movement.\"\n    }\n]"
+}

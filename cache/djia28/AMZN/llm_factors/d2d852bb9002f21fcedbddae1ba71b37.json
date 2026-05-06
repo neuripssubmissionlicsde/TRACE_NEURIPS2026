@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-05-12",
+  "end_date": "2019-05-26",
+  "window_type": "monthly",
+  "price_change_pct": -0.7230925683445109,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38095238095238093,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was largely influenced by market sentiment without clear drivers."
+    },
+    {
+      "name": "sec_filing_amzn_2019_05_24",
+      "category": "company_specific",
+      "direction": -0.3,
+      "magnitude": 0.2857142857142857,
+      "persistence": "transient",
+      "description": "[conf=0.75] AMZN filed with the SEC on 2019-05-24, which may have raised concerns about regulatory scrutiny, contributing to a slight price decline."
+    },
+    {
+      "name": "treasury_rate_decline_2019_05_24",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.3333333333333333,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined to 2.3200 on 2019-05-24, indicating a shift in investor sentiment that may have negatively impacted AMZN's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was largely influenced by market sentiment without clear drivers.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 18, 19],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.3200 on May 24 [17] may have contributed to bearish sentiment in the market, impacting AMZN's price.\"\n  },\n  {\n    \"name\": \"sec_filing\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.32,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"The SEC filing on May 24 [1] may have raised concerns among investors, contributing to the downward price movement.\"\n  }\n]"
+}

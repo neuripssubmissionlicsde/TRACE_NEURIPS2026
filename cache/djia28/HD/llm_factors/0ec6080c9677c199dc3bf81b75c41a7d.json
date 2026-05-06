@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-03-28",
+  "end_date": "2021-04-11",
+  "window_type": "monthly",
+  "price_change_pct": 5.2522268825885545,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_april_2021",
+      "category": "macroeconomic",
+      "direction": 0.64,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 1.7400 to 1.6800 during the window supported equity valuations, contributing to the price increase of HD [9][17][49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2727272727272727,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced a notable price increase without clear additional drivers."
+    },
+    {
+      "name": "strong_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.43333333333333335,
+      "magnitude": 0.22727272727272727,
+      "persistence": "short",
+      "description": "[conf=0.85] Overall positive market sentiment during this period contributed to the upward price movement, despite no specific news articles detailing this."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_april_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17, 49],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.7400 to 1.6800 during the window supported equity valuations, contributing to the price increase of HD [9][17][49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced a notable price increase without clear additional drivers.\"\n  }\n]"
+}

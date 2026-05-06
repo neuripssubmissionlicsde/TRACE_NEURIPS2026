@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-01-30",
+  "end_date": "2022-02-13",
+  "window_type": "monthly",
+  "price_change_pct": 0.8974821850733894,
+  "factors": [
+    {
+      "name": "fed_rate_stability_2022",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.08%, indicating a continuation of accommodative monetary policy, which supported investor sentiment [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment."
+    },
+    {
+      "name": "rising_10_year_treasury_yield",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased from 1.81% to 2.03%, which typically signals higher borrowing costs and can negatively impact equity valuations [9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_stability_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.08%, indicating a continuation of accommodative monetary policy, which supported investor sentiment [1].\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 25],\n    \"description\": \"The 10-Year Treasury Rate increased from 1.81% to 2.03%, reflecting market concerns over inflation and potential future rate hikes, which negatively impacted equity valuations [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment.\"\n  }\n]"
+}

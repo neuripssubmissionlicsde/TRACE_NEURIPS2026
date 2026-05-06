@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-06-21",
+  "end_date": "2020-07-05",
+  "window_type": "monthly",
+  "price_change_pct": 2.940716877505526,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5070422535211269,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced CRM's price movement during this period."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.28169014084507044,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 0.68% during this period [10, 18], contributing to a favorable environment for equities."
+    },
+    {
+      "name": "pakistan_stock_exchange_attack",
+      "category": "geopolitical",
+      "direction": -0.3125,
+      "magnitude": 0.2112676056338028,
+      "persistence": "transient",
+      "description": "[conf=0.70] The attack on the Pakistan Stock Exchange raised geopolitical tensions [1, 2], which may have caused some investors to adopt a more cautious stance."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced CRM's price movement during this period.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [10, 18],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 0.68% during this period [10, 18], contributing to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"pakistan_stock_exchange_attack\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2],\n    \"description\": \"The attack on the Pakistan Stock Exchange raised geopolitical tensions [1, 2], which may have caused some investors to adopt a more cautious stance.\"\n  },\n  {\n    \"name\": \"market_sentiment_consolidation\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"The market exhibited signs of consolidation with mixed signals, leading to a range-bound price action for CRM.\"\n  }\n]"
+}

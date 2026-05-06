@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-11-24",
+  "end_date": "2019-12-08",
+  "window_type": "monthly",
+  "price_change_pct": -1.3493618547557336,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.32,
+      "magnitude": 0.2376237623762376,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.6% [9], contributing to a positive sentiment in the market."
+    },
+    {
+      "name": "treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.44999999999999996,
+      "magnitude": 0.24752475247524752,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined to 1.7200 on December 3, 2019 [33], which may have negatively impacted investor sentiment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5148514851485149,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market showed mixed signals with no dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9],\n    \"description\": \"The unemployment rate remained stable at 3.6% [9], contributing to a positive sentiment in the market.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.7200 on December 3, 2019 [33], which may have negatively impacted investor sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market showed mixed signals with no dominant driver.\"\n  }\n]"
+}

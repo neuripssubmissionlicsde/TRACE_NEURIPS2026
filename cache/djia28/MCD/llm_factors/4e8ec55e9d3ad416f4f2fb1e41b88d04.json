@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -1.8079891703869866,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market fluctuations."
+    },
+    {
+      "name": "treasury_rate_decline_3_5100",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.35,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 3.5100 on 2022-12-06 [9] may have supported a temporary bullish sentiment in equities, including MCD."
+    },
+    {
+      "name": "treasury_rate_increase_3_6100",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.35,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate to 3.6100 on 2022-12-12 [41] likely contributed to bearish sentiment, pressuring MCD's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2022_12_06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.51% on December 6 [9] may have provided a temporary boost to equities, including MCD.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2022_12_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 42],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 3.61% on December 12 [41] likely contributed to bearish sentiment, pressuring MCD's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market fluctuations.\"\n  }\n]"
+}

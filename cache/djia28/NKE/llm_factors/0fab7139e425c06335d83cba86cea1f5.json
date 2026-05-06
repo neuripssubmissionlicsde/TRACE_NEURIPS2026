@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-03-03",
+  "end_date": "2019-03-17",
+  "window_type": "monthly",
+  "price_change_pct": -0.5954698447342911,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were minor and lacked clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were minor and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 21],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 2.6400 to 2.5900 [17, 21] may have contributed to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"low_average_daily_volume\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.00,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [],\n    \"description\": \"The average daily volume of 5,491,200 suggests a lack of strong conviction among investors, contributing to price stagnation.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-01",
+  "end_date": "2018-04-15",
+  "window_type": "monthly",
+  "price_change_pct": 2.190553578557841,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.504950495049505,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "us_stocks_drop_due_to_tariff_statement",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.49504950495049505,
+      "persistence": "transient",
+      "description": "[conf=0.85] U.S. stocks dropped by about 2 percent following President Trump's tariff statement concerning Chinese imports, impacting market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"us_stock_market_drop_april_6\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [21, 22],\n    \"description\": \"U.S. stocks dropped by about 2 percent due to President Trump's tariff statements concerning Chinese imports, impacting market sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_april_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 13],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.8300 on April 12, indicating increased investor confidence in economic growth, which may have supported JNJ's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

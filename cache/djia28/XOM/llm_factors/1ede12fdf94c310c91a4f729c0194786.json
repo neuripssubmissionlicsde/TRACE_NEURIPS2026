@@ -1,0 +1,57 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": 0.13773146021486293,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.3082191780821918,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely supported XOM's price increase."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.20547945205479454,
+      "persistence": "short",
+      "description": "[conf=0.60] Positive market sentiment towards energy stocks contributed to XOM's price stability."
+    },
+    {
+      "name": "technical_support_levels",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.10273972602739727,
+      "persistence": "transient",
+      "description": "[conf=0.50] XOM's price remained above key technical support levels, which may have encouraged buying."
+    },
+    {
+      "name": "consolidation",
+      "category": "technical",
+      "direction": 0.0,
+      "magnitude": 0.14383561643835616,
+      "persistence": "medium",
+      "description": "[conf=0.60] The price movement during this period was largely sideways, indicating a consolidation phase."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10273972602739727,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations contributed to unexplained price changes."
+    },
+    {
+      "name": "earnings_report_anticipation",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.13698630136986303,
+      "persistence": "short",
+      "description": "[conf=0.50] Anticipation of upcoming earnings reports could have led to increased buying interest."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely supported XOM's price increase.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Positive market sentiment towards energy stocks contributed to XOM's price stability.\"\n    },\n    {\n        \"name\": \"earnings_report_expectations\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Anticipation of favorable earnings reports may have buoyed investor confidence in XOM.\"\n    },\n    {\n        \"name\": \"technical_support_levels\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's price remained above key technical support levels, which may have encouraged buying.\"\n    },\n    {\n        \"name\": \"consolidation\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.6,\n        \"description\": \"The price movement during this period was largely sideways, indicating a consolidation phase.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations contributed to unexplained price changes.\"\n    }\n]"
+}

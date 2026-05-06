@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-10-11",
+  "end_date": "2020-10-25",
+  "window_type": "monthly",
+  "price_change_pct": 0.1946963273810902,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32168968318440294,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver."
+    },
+    {
+      "name": "treasury_rate_increase_2020_10_21",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4021121039805036,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 0.8300 on 2020-10-21, indicating rising interest rates which generally support financial sector valuations [17, 21]."
+    },
+    {
+      "name": "treasury_rate_increase_2020_10_23",
+      "category": "macroeconomic",
+      "direction": 0.3666666666666667,
+      "magnitude": 0.2761982128350934,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate further increased to 0.8500 on 2020-10-23, contributing to a bullish sentiment in the market [25, 29]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10yr_treasury_rate_0.8100\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 17],\n    \"description\": \"The 10-Year Treasury Rate rose to 0.8100 on 2020-10-20, indicating increased investor confidence and contributing to upward pressure on MMM's price [1][17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minimal and lacked a dominant driver.\"\n  }\n]"
+}

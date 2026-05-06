@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-09-13",
+  "end_date": "2020-09-27",
+  "window_type": "monthly",
+  "price_change_pct": -5.253264547657661,
+  "factors": [
+    {
+      "name": "economic_recession_q3_2020",
+      "category": "macroeconomic",
+      "direction": -0.6599999999999999,
+      "magnitude": 0.47000000000000003,
+      "persistence": "medium",
+      "description": "[conf=0.90] The economy entered recession for the first time since 1987, with a significant GDP decline due to COVID-19 lockdowns, negatively impacting market sentiment and stock prices [45][46][47][48]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.53,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market experienced high volatility and a notable drawdown without clear directional drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"economic_recession_q3_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [45, 46, 47, 48],\n    \"description\": \"The economy entered recession for the first time since 1987, with a significant GDP decline due to COVID-19 lockdowns, negatively impacting market sentiment and stock prices [45][46][47][48].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market experienced high volatility and a notable drawdown without clear directional drivers.\"\n  }\n]"
+}

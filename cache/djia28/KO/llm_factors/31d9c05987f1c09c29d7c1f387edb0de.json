@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-11-05",
+  "end_date": "2023-11-19",
+  "window_type": "monthly",
+  "price_change_pct": 0.8453638426111378,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.8404255319148936,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were modest and lacked clear drivers."
+    },
+    {
+      "name": "geopolitical_tensions_north_korea",
+      "category": "geopolitical",
+      "direction": -0.15,
+      "magnitude": 0.15957446808510636,
+      "persistence": "short",
+      "description": "[conf=0.70] Increased geopolitical tensions due to North Korea's missile tests and the U.S. response may have created a risk-off sentiment impacting consumer stocks like KO."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were modest and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_nov_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 25],\n    \"description\": \"10-Year Treasury yields increased from 4.5800 to 4.6300 during the window, contributing to bearish sentiment in equities [17][25].\"\n  },\n  {\n    \"name\": \"geopolitical_tensions_nov_2023\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"Increased geopolitical tensions due to North Korea's missile tests and the U.S. response may have negatively impacted market sentiment [1][2].\"\n  }\n]"
+}

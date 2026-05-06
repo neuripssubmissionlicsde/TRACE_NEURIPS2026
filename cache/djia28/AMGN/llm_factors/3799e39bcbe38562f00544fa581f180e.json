@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-04-23",
+  "end_date": "2023-05-07",
+  "window_type": "monthly",
+  "price_change_pct": -2.7425865922687604,
+  "factors": [
+    {
+      "name": "fdic_seizure_first_republic_bank",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.43000000000000005,
+      "persistence": "short",
+      "description": "[conf=0.85] The FDIC's seizure of First Republic Bank raised concerns about the stability of the banking sector, leading to negative sentiment in the market [5]."
+    },
+    {
+      "name": "ecb_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.29,
+      "persistence": "medium",
+      "description": "[conf=0.75] The European Central Bank's decision to raise interest rates contributed to a tightening monetary environment, impacting investor sentiment negatively [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.27999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fdic_seizure_first_republic_bank\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 6, 7],\n    \"description\": \"The FDIC's seizure of First Republic Bank raised concerns about the stability of the banking sector, leading to negative sentiment in the market [5].\"\n  },\n  {\n    \"name\": \"ecb_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The European Central Bank's decision to raise interest rates contributed to a tightening monetary environment, impacting investor sentiment negatively [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

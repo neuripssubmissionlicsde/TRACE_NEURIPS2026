@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": 9.878739161517396,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.42424242424242425,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "treasury_rate_decline_2023_dec",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5757575757575758,
+      "persistence": "short",
+      "description": "[conf=0.90] The 10-Year Treasury Rate declined from 4.20% to 3.91% during the window, which typically supports equity valuations and investor sentiment [33][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_increase_4.2\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 4.2% on December 12 raised concerns about borrowing costs, which typically influences equity valuations positively in the short term as investors adjust their expectations.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_3.9\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.9% on December 15 provided a bullish signal, as lower rates generally support higher equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

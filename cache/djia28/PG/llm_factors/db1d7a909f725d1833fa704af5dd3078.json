@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-06-10",
+  "end_date": "2018-06-24",
+  "window_type": "monthly",
+  "price_change_pct": 0.5976296449655597,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and lacked clear drivers."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.4000000000000001,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate rose to 2.90% on June 19, contributing to bearish sentiment in the market [1, 49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 9, 49],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 2.89% during this period, contributing to a favorable environment for equities [1, 49].\"\n  },\n  {\n    \"name\": \"pg_electricity_regulation_filing\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.00,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.50,\n    \"source_articles\": [1],\n    \"description\": \"PG&E Corp filed with the SEC, but the impact on PG's stock was neutral and did not drive significant price movement.\"\n  }\n]"
+}

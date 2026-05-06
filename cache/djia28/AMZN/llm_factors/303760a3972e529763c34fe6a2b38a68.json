@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-21",
+  "window_type": "monthly",
+  "price_change_pct": 10.672123940181304,
+  "factors": [
+    {
+      "name": "bank_of_england_rate_hike_4.5%",
+      "category": "macroeconomic",
+      "direction": 0.58,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Bank of England raised interest rates to 4.5%, influencing global market sentiment and contributing to a bullish trend in equities, including AMZN."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased during the window, which typically exerts downward pressure on growth stocks like AMZN, although the overall impact was mitigated by other factors."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_england_rate_hike_4.5%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Bank of England raised interest rates to 4.5%, influencing global market sentiment and contributing to a bullish trend in equities, including AMZN.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [8, 24, 48],\n    \"description\": \"The 10-Year Treasury Rate increased during the window, which typically exerts downward pressure on growth stocks like AMZN, although the overall impact was mitigated by other factors.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

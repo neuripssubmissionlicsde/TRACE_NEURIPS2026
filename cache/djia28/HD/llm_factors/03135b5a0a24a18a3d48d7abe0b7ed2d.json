@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-11-10",
+  "end_date": "2019-11-24",
+  "window_type": "monthly",
+  "price_change_pct": -5.409979710081565,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_november_2019",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5183946488294314,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 1.8800 to 1.7900 and then to 1.7700 during this period indicated a shift in investor sentiment towards lower growth expectations, contributing to the bearish price movement in HD."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4816053511705685,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement exhibited high volatility and drawdowns without a clear dominant driver."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_november_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25, 49],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 1.8800 to 1.7900 and then to 1.7700 during this period indicated a shift in investor sentiment towards lower growth expectations, contributing to the bearish price movement in HD.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement exhibited high volatility and drawdowns without a clear dominant driver.\"\n  }\n]"
+}

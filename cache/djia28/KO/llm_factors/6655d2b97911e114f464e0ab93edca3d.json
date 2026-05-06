@@ -1,0 +1,49 @@
+{
+  "start_date": "2021-01-31",
+  "end_date": "2021-02-14",
+  "window_type": "monthly",
+  "price_change_pct": 5.013457929709513,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.43235294117647066,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "unemployment_rate_stable_6.2%",
+      "category": "macroeconomic",
+      "direction": 0.38,
+      "magnitude": 0.22941176470588237,
+      "persistence": "short",
+      "description": "[conf=0.85] Stable unemployment rate at 6.2% [15] contributed to positive sentiment in consumer stocks."
+    },
+    {
+      "name": "norwegian_economy_contraction",
+      "category": "geopolitical",
+      "direction": -0.26666666666666666,
+      "magnitude": 0.1323529411764706,
+      "persistence": "short",
+      "description": "[conf=0.75] Reports of Norway's economy contracting by 2.5% [1] raised concerns about global economic recovery, impacting market sentiment."
+    },
+    {
+      "name": "indonesia_gdp_contraction",
+      "category": "geopolitical",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.11764705882352941,
+      "persistence": "short",
+      "description": "[conf=0.70] Indonesia's GDP contraction of 2.07% [23] added to fears of economic slowdown, influencing investor sentiment."
+    },
+    {
+      "name": "malaysia_gdp_contraction",
+      "category": "geopolitical",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.08823529411764708,
+      "persistence": "short",
+      "description": "[conf=0.65] Malaysia's GDP contraction of 5.6% [39] further highlighted regional economic challenges, affecting market outlook."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stable_6.2%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [15],\n    \"description\": \"Stable unemployment rate at 6.2% [15] contributed to positive sentiment in consumer stocks.\"\n  },\n  {\n    \"name\": \"norwegian_economy_contraction\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"Reports of Norway's economy contracting by 2.5% [1] raised concerns about global economic recovery, impacting market sentiment.\"\n  },\n  {\n    \"name\": \"indonesia_gdp_contraction\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [23],\n    \"description\": \"Indonesia's GDP contraction of 2.07% [23] added to fears of economic slowdown, influencing investor sentiment.\"\n  },\n  {\n    \"name\": \"malaysia_gdp_contraction\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.1,\n    \"persistence\": \"short\",\n    \"confidence\": 0.65,\n    \"source_articles\": [39],\n    \"description\": \"Malaysia's GDP contraction of 5.6% [39] further highlighted regional economic challenges, affecting market outlook.\"\n  }\n]"
+}

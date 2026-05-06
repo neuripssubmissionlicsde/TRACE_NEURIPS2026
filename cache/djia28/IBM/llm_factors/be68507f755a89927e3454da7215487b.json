@@ -1,0 +1,17 @@
+{
+  "start_date": "2019-05-12",
+  "end_date": "2019-05-26",
+  "window_type": "monthly",
+  "price_change_pct": -0.7503203931874912,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market uncertainty."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filings_may_14_17\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2],\n    \"description\": \"SEC filings on May 14 and May 17 indicated potential regulatory scrutiny, contributing to bearish sentiment around IBM.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_may_17_24\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.35,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 17, 25],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 2.39% to 2.43% during this period raised concerns about borrowing costs, negatively impacting stock valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market uncertainty.\"\n  }\n]"
+}

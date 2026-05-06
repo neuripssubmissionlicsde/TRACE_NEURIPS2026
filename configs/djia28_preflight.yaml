@@ -1,0 +1,103 @@
+tickers:
+- AAPL
+- MSFT
+- JPM
+- XOM
+- JNJ
+- WMT
+- CAT
+- AMGN
+- AMZN
+train_start: '2018-01-01'
+train_end: '2023-12-31'
+llm_provider: openrouter
+llm_model: openrouter/openai/gpt-4o-mini
+llm_api_key: ''
+llm_temperature: 0.05
+llm_n_samples: 5
+llm_max_workers: 8
+use_rag: true
+rag_persist_dir: cache/rag_store
+rag_sources:
+- wikipedia
+- fred
+- sec_edgar
+rag_cache_mode: reuse
+rag_max_articles: 50
+rag_content_limit: 500
+fred_api_key: ''
+sec_email: ''
+window_sizes:
+- 2W
+factor_threshold: 0.0
+max_factors: 200
+cross_window_validation: false
+fin:
+  architecture: tft
+  n_lags: 10
+  epochs: 300
+  batch_size: 64
+  learning_rate: 0.001
+  patience: 30
+  device: auto
+n_scenarios: 1
+scenario_llm_samples: 1
+generation:
+  n_steps: 0
+  n_samples: 10
+  noise_scale: 1.0
+  start_date: '2018-01-01'
+evaluation:
+  include_deep_metrics: true
+  skip_if_no_test: true
+neural_sde:
+  enabled: false
+  hidden: 64
+  epochs: 200
+  batch_size: 256
+  learning_rate: 0.001
+  patience: 30
+cross_asset:
+  enabled: true
+  method: pearson
+factor_scoring:
+  enabled: true
+  min_score: 0.1
+transfer_learning:
+  enabled: true
+  scale: 0.5
+dcc_garch:
+  enabled: true
+  garch_p: 1
+  garch_q: 1
+interactive:
+  post_extraction: false
+  pre_generation: false
+  port: 8050
+user_factors:
+  file: ''
+  mode: disabled
+quality_report:
+  enabled: false
+  disc_epochs: 100
+  disc_hidden: 64
+  disc_window_size: 20
+  disc_n_folds: 5
+output_dir: djia28
+cache_dir: cache/djia28
+seed: 42
+resume: true
+validate: true
+timegan:
+  seq_len: 24
+  hidden_dim: 24
+  embedding_epochs: 600
+  supervised_epochs: 600
+  joint_epochs: 600
+  batch_size: 128
+  device: auto
+tstr:
+  n_lags: 10
+  epochs: 100
+  n_runs: 3
+  vol_window: 20

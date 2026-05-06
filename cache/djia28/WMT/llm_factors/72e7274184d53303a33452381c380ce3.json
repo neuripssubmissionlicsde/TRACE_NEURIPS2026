@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-10-11",
+  "end_date": "2020-10-25",
+  "window_type": "monthly",
+  "price_change_pct": 0.5803700516793995,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6283783783783783,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    },
+    {
+      "name": "rising_treasury_yields_2020_oct",
+      "category": "macroeconomic",
+      "direction": -0.15,
+      "magnitude": 0.3716216216216217,
+      "persistence": "short",
+      "description": "[conf=0.80] 10-Year Treasury yields increased from 0.7400 to 0.8500 during the window [4, 16, 25], contributing to bearish sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_2020_oct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [4, 16, 25],\n    \"description\": \"10-Year Treasury yields increased from 0.7400 to 0.8500 during the window [4, 16, 25], contributing to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"wmt_sec_filing_2020_oct\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1],\n    \"description\": \"Walmart filed with the SEC on 2020-10-23 [1], which may have provided a temporary boost in investor confidence.\"\n  }\n]"
+}

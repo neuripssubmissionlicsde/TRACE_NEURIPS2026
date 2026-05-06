@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-02-04",
+  "end_date": "2018-02-18",
+  "window_type": "monthly",
+  "price_change_pct": -2.5113401670229787,
+  "factors": [
+    {
+      "name": "market_selloff_feb_2018",
+      "category": "macroeconomic",
+      "direction": -0.825,
+      "magnitude": 0.7236842105263158,
+      "persistence": "short",
+      "description": "[conf=0.95] The Wall Street stock market experienced a significant selloff, with the Dow Jones Industrial Average dropping 4.6% on February 5, impacting investor sentiment and leading to declines in equities including JNJ [1][2]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.27631578947368424,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_selloff_feb_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2],\n    \"description\": \"The Wall Street stock market experienced a significant selloff, with the Dow Jones Industrial Average dropping 4.6% on February 5, impacting investor sentiment and leading to declines in equities including JNJ [1][2].\"\n  },\n  {\n    \"name\": \"high_vix_feb_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [39, 40],\n    \"description\": \"The VIX Volatility Index spiked to 37.32 on February 5, indicating heightened market uncertainty and contributing to bearish sentiment around JNJ [39][40].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

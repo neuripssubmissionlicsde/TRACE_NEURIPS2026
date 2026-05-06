@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-12-19",
+  "end_date": "2022-01-02",
+  "window_type": "monthly",
+  "price_change_pct": 4.907948128657312,
+  "factors": [
+    {
+      "name": "vix_decline_dec_2021",
+      "category": "market_sentiment",
+      "direction": 0.7,
+      "magnitude": 0.5326876513317191,
+      "persistence": "short",
+      "description": "[conf=0.90] The VIX Volatility Index declined from 22.87 on December 20 to 16.95 on December 29, indicating reduced market fear and contributing to bullish sentiment for CVX [17][49]."
+    },
+    {
+      "name": "oil_price_recovery_dec_2021",
+      "category": "sector_specific",
+      "direction": 0.525,
+      "magnitude": 0.3026634382566586,
+      "persistence": "medium",
+      "description": "[conf=0.85] The recovery in oil prices during this period likely supported CVX's price increase, as the company is heavily influenced by oil market dynamics."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.16464891041162227,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_dec_2021\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [17, 49],\n    \"description\": \"The VIX Volatility Index declined from 22.87 on December 20 to 16.95 on December 29, indicating reduced market fear and contributing to bullish sentiment for CVX [17][49].\"\n  },\n  {\n    \"name\": \"oil_price_recovery_dec_2021\",\n    \"category\": \"sector_specific\",\n    \"direction\": 0.7,\n    \"magnitude\": 0.30,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"The recovery in oil prices during this period likely supported CVX's price increase, as the company is heavily influenced by oil market dynamics.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

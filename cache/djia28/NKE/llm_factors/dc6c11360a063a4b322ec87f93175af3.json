@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-01-31",
+  "end_date": "2021-02-14",
+  "window_type": "monthly",
+  "price_change_pct": 4.986324941884301,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    },
+    {
+      "name": "norwegian_economy_contraction",
+      "category": "geopolitical",
+      "direction": -0.26,
+      "magnitude": 0.28,
+      "persistence": "short",
+      "description": "[conf=0.80] The contraction of the Norwegian economy by 2.5% due to COVID-19 raised concerns about global economic recovery, impacting market sentiment negatively [1]."
+    },
+    {
+      "name": "malaysian_economy_contraction",
+      "category": "geopolitical",
+      "direction": -0.24,
+      "magnitude": 0.24,
+      "persistence": "short",
+      "description": "[conf=0.80] Malaysia's GDP contraction of 5.6% in 2020 heightened fears of economic instability in Southeast Asia, contributing to bearish sentiment [15]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  },\n  {\n    \"name\": \"norwegian_economy_contraction\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"The contraction of the Norwegian economy by 2.5% due to COVID-19 raised concerns about global economic recovery, impacting market sentiment negatively [1].\"\n  },\n  {\n    \"name\": \"malaysian_economy_contraction\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [15],\n    \"description\": \"Malaysia's GDP contraction of 5.6% in 2020 heightened fears of economic instability in Southeast Asia, contributing to bearish sentiment [15].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [35],\n    \"description\": \"The stability of the 10-Year Treasury Rate at 1.2000 provided a supportive backdrop for equities, contributing to a positive sentiment [35].\"\n  }\n]"
+}

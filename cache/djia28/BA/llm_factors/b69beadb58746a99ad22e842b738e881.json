@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -5.4193850780232955,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.75,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.09999999999999999,
+      "magnitude": 0.25,
+      "persistence": "long",
+      "description": "[conf=0.80] Federal Funds Effective Rate remained stable at 0.08%, indicating no immediate monetary policy changes that would impact market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [6],\n    \"description\": \"Federal Funds Effective Rate remained stable at 0.08%, indicating no immediate monetary policy changes that would impact market sentiment.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.30,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [14, 22],\n    \"description\": \"10-Year Treasury Rate increased from 1.29% to 1.38%, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations.\"\n  }\n]"
+}

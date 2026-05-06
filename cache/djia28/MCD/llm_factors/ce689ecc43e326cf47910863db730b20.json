@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-07-21",
+  "end_date": "2019-08-04",
+  "window_type": "monthly",
+  "price_change_pct": 0.32275702102498555,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5989304812834224,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver."
+    },
+    {
+      "name": "treasury_rate_decline_2019_08_02",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4010695187165776,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined to 1.8600 on 2019-08-02, which typically supports equity valuations and investor sentiment [1, 9]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_1.86\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.8600 on 2019-08-02, which typically supports equity valuations and investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2.06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 49],\n    \"description\": \"The 10-Year Treasury Rate increased to 2.0600 on 2019-07-30, which may have exerted downward pressure on equity prices due to rising borrowing costs.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was modest and lacked a dominant driver.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-08-14",
+  "end_date": "2022-08-28",
+  "window_type": "monthly",
+  "price_change_pct": -3.7731259276187146,
+  "factors": [
+    {
+      "name": "eurozone_inflation_record_high",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.638888888888889,
+      "persistence": "medium",
+      "description": "[conf=0.85] Eurozone inflation reached a record 8.9% in July [49], raising concerns about economic stability and impacting market sentiment negatively [50]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3611111111111111,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"eurozone_inflation_record_high\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"Eurozone inflation reached a record 8.9% in July [49], raising concerns about economic stability and impacting market sentiment negatively [50].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate increased to 3.05% on August 23, signaling tighter monetary conditions that typically pressure equity valuations [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

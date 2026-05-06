@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": 1.0395137362377518,
+  "factors": [
+    {
+      "name": "sec_filing_2019_10_29",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.3870967741935483,
+      "persistence": "transient",
+      "description": "[conf=0.80] Merck filed with the SEC on 2019-10-29, which may have positively influenced investor sentiment."
+    },
+    {
+      "name": "treasury_rate_decline_2019_11_04",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.2853598014888338,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined to 1.7900 on 2019-11-04, potentially boosting equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32754342431761785,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2019_10_29\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"Merck filed with the SEC on 2019-10-29, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2019_11_04\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17],\n    \"description\": \"The 10-Year Treasury Rate declined to 1.7900 on 2019-11-04, potentially boosting equity valuations.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2019_11_07\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [33],\n    \"description\": \"The 10-Year Treasury Rate increased to 1.9200 on 2019-11-07, which may have exerted downward pressure on MRK's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

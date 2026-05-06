@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": 4.363169176623517,
+  "factors": [
+    {
+      "name": "strong_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment driven by overall bullish trends in the financial sector likely contributed to the price increase."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.2,
+      "persistence": "short",
+      "description": "[conf=0.50] The stock may have broken through key resistance levels, attracting technical traders and contributing to upward momentum."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity that does not correlate with observable factors."
+    },
+    {
+      "name": "company_specific_growth",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] JPM's strong performance metrics and growth outlook during this period may have positively influenced investor confidence."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"strong_market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive market sentiment driven by overall bullish trends in the financial sector likely contributed to the price increase.\"\n    },\n    {\n        \"name\": \"company_specific_positive_news\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"JPMorgan Chase may have released favorable earnings reports or strategic announcements during this period, boosting investor confidence.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The stock may have broken through key resistance levels, attracting technical traders and contributing to upward momentum.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity that does not correlate with observable factors.\"\n    }\n]"
+}

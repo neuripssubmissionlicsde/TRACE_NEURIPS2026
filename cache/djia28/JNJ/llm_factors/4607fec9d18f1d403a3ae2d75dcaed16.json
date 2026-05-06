@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-29",
+  "end_date": "2019-10-13",
+  "window_type": "monthly",
+  "price_change_pct": 1.7509898090377278,
+  "factors": [
+    {
+      "name": "declining_treasury_yields_2019_10_07",
+      "category": "macroeconomic",
+      "direction": 0.3333333333333333,
+      "magnitude": 0.28716216216216217,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield declined to 1.5600 on 2019-10-07, contributing to a favorable environment for equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32432432432432434,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "sec_filing_jnj_2019_10_07",
+      "category": "company_specific",
+      "direction": 0.5,
+      "magnitude": 0.38851351351351354,
+      "persistence": "transient",
+      "description": "[conf=0.85] Johnson & Johnson filed with the SEC on 2019-10-07, which may have positively influenced investor sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filing_2019_10_07\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1],\n    \"description\": \"Johnson & Johnson filed with the SEC on 2019-10-07, which may have positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields_2019_10_07\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 9],\n    \"description\": \"The 10-Year Treasury yield declined to 1.5600 on 2019-10-07, contributing to a favorable environment for equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

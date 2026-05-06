@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-06-07",
+  "end_date": "2020-06-21",
+  "window_type": "monthly",
+  "price_change_pct": -15.972220806004362,
+  "factors": [
+    {
+      "name": "oil_price_decline",
+      "category": "macroeconomic",
+      "direction": -1.0,
+      "magnitude": 0.39999999999999997,
+      "persistence": "short",
+      "description": "[conf=0.70] A decline in global oil prices during this period likely contributed to the bearish movement in XOM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -1.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "short",
+      "description": "[conf=0.50] General bearish sentiment in the market, influenced by economic uncertainties, likely affected XOM's stock price."
+    },
+    {
+      "name": "technical_breakdown",
+      "category": "technical",
+      "direction": -1.0,
+      "magnitude": 0.17333333333333334,
+      "persistence": "short",
+      "description": "[conf=0.50] A breakdown below key technical support levels may have triggered additional selling pressure."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.16,
+      "persistence": "transient",
+      "description": "[conf=0.40] Unexplained random variance in trading activity contributed to price fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_decline\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"A decline in global oil prices during this period likely contributed to the bearish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"covid_impact\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.6,\n        \"description\": \"Ongoing concerns about the economic impact of COVID-19 continued to weigh on investor sentiment and energy demand.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General bearish sentiment in the market, influenced by economic uncertainties, likely affected XOM's stock price.\"\n    },\n    {\n        \"name\": \"technical_breakdown\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"A breakdown below key technical support levels may have triggered additional selling pressure.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Unexplained random variance in trading activity contributed to price fluctuations.\"\n    }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-12-23",
+  "end_date": "2019-01-06",
+  "window_type": "monthly",
+  "price_change_pct": 8.445461440279175,
+  "factors": [
+    {
+      "name": "dow_jones_drop_christmas_eve",
+      "category": "market_sentiment",
+      "direction": 0.3,
+      "magnitude": 0.37,
+      "persistence": "short",
+      "description": "[conf=0.85] The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, creating a sentiment shift that likely influenced CAT's price movement positively as investors sought safer assets."
+    },
+    {
+      "name": "nikkei_index_drop_december_25",
+      "category": "geopolitical",
+      "direction": 0.18,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.75] The Nikkei index dropped 5% on December 25, indicating global market stress that may have led investors to favor CAT as a more stable investment."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.36,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during the holiday season."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"dow_jones_drop_christmas_eve\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [37, 38, 39, 40],\n    \"description\": \"The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, creating a sentiment shift that likely influenced CAT's price movement positively as investors sought safer assets.\"\n  },\n  {\n    \"name\": \"nikkei_index_drop_december_25\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [45, 46, 47, 48],\n    \"description\": \"The Nikkei index dropped 5% on December 25, indicating global market stress that may have led investors to favor CAT as a more stable investment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during the holiday season.\"\n  }\n]"
+}

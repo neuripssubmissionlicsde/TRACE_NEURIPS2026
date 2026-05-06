@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-09-10",
+  "end_date": "2023-09-24",
+  "window_type": "monthly",
+  "price_change_pct": 0.6769894391046182,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.30612244897959184,
+      "persistence": "short",
+      "description": "[conf=0.70] General positive market sentiment during this period likely contributed to the upward price movement."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 0.8400000000000001,
+      "magnitude": 0.20408163265306123,
+      "persistence": "short",
+      "description": "[conf=0.60] The price movement above key resistance levels may have triggered buying from technical traders."
+    },
+    {
+      "name": "liquidity_increase",
+      "category": "liquidity",
+      "direction": 0.76,
+      "magnitude": 0.12244897959183673,
+      "persistence": "transient",
+      "description": "[conf=0.50] Increased trading volume could indicate higher liquidity, supporting price stability and upward movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.3673469387755102,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations that cannot be attributed to specific observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General positive market sentiment during this period likely contributed to the upward price movement.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 0.6,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"The price movement above key resistance levels may have triggered buying from technical traders.\"\n    },\n    {\n        \"name\": \"liquidity_increase\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.4,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Increased trading volume could indicate higher liquidity, supporting price stability and upward movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations that cannot be attributed to specific observable factors.\"\n    }\n]"
+}

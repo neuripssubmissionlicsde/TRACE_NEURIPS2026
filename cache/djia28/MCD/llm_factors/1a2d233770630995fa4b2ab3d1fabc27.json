@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-06-21",
+  "end_date": "2020-07-05",
+  "window_type": "monthly",
+  "price_change_pct": -1.3333159488286401,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48137535816618915,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    },
+    {
+      "name": "pakistan_stock_exchange_attack",
+      "category": "geopolitical",
+      "direction": -0.27,
+      "magnitude": 0.23209169054441262,
+      "persistence": "transient",
+      "description": "[conf=0.75] The attack on the Pakistan Stock Exchange raised global geopolitical tensions, contributing to a risk-off sentiment in the markets [1]."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.016666666666666673,
+      "magnitude": 0.15759312320916907,
+      "persistence": "short",
+      "description": "[conf=0.80] The stability of the 10-Year Treasury Rate around 0.68% during this period provided a backdrop of low interest rates, which typically supports equity valuations [18]."
+    },
+    {
+      "name": "consolidation",
+      "category": "market_sentiment",
+      "direction": 0.08333333333333333,
+      "magnitude": 0.12893982808022922,
+      "persistence": "medium",
+      "description": "[conf=0.85] MCD's price exhibited a range-bound behavior with minor fluctuations, indicating a consolidation phase amidst mixed market signals."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  },\n  {\n    \"name\": \"pakistan_stock_exchange_attack\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The attack on the Pakistan Stock Exchange raised global geopolitical tensions, contributing to a risk-off sentiment in the markets [1].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [18, 26],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 0.68% during this period provided a backdrop of low interest rates, which typically supports equity valuations [18].\"\n  }\n]"
+}

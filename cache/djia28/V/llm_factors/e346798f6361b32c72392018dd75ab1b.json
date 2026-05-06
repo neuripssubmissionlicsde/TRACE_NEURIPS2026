@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-01-01",
+  "end_date": "2023-01-15",
+  "window_type": "monthly",
+  "price_change_pct": 6.584500799039724,
+  "factors": [
+    {
+      "name": "vix_decline_january_2023",
+      "category": "market_sentiment",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The VIX Volatility Index declined from 22.90 on January 3 to 18.35 on January 13, indicating reduced market fear and contributing to bullish sentiment [1][9][17]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.25,
+      "persistence": "long",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.5% on January 1, supporting confidence in economic stability and consumer spending [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_january_2023\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The VIX Volatility Index declined from 22.90 on January 3 to 18.35 on January 13, indicating reduced market fear and contributing to bullish sentiment [1][9][17].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41],\n    \"description\": \"The unemployment rate remained stable at 3.5% on January 1, supporting confidence in economic stability and consumer spending [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

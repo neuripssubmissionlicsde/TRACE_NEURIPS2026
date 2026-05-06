@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-01",
+  "end_date": "2020-03-15",
+  "window_type": "monthly",
+  "price_change_pct": -6.251511696795655,
+  "factors": [
+    {
+      "name": "fed_rate_cut_0.5%",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.6653992395437263,
+      "persistence": "short",
+      "description": "[conf=0.90] The Fed cut the federal funds rate by 0.5% in an emergency move, leading to increased market volatility and a negative reaction in equities [1][11]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.33460076045627385,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_0.5%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 11],\n    \"description\": \"The Fed cut the federal funds rate by 0.5% in an emergency move, leading to increased market volatility and a negative reaction in equities [1][11].\"\n  },\n  {\n    \"name\": \"market_selloff_due_to_fed_action\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [21, 41],\n    \"description\": \"U.S. stocks extended their drop in response to the Fed's rate cuts, indicating a bearish sentiment in the market [21][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market.\"\n  }\n]"
+}

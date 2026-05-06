@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-30",
+  "end_date": "2020-09-13",
+  "window_type": "monthly",
+  "price_change_pct": -3.4118123070792263,
+  "factors": [
+    {
+      "name": "economic_recession_q2_2020",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.4554455445544555,
+      "persistence": "medium",
+      "description": "[conf=0.85] The economy officially entered a recession for the first time since 1991, with a reported 7% decline in GDP over the second quarter, impacting investor sentiment and leading to a sell-off in equities [25][26]."
+    },
+    {
+      "name": "covid19_economic_impact",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.297029702970297,
+      "persistence": "medium",
+      "description": "[conf=0.80] The ongoing economic impact of the COVID-19 pandemic continued to weigh on market sentiment, contributing to declines in stock prices [23][24]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24752475247524752,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"economic_recession_q2_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26],\n    \"description\": \"The economy officially entered a recession for the first time since 1991, with a reported 7% decline in GDP over the second quarter, impacting investor sentiment and leading to a sell-off in equities [25][26].\"\n  },\n  {\n    \"name\": \"covid19_economic_impact\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [23, 24],\n    \"description\": \"The ongoing economic impact of the COVID-19 pandemic continued to weigh on market sentiment, contributing to declines in stock prices [23][24].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

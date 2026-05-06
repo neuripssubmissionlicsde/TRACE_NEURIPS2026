@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-04-11",
+  "end_date": "2021-04-25",
+  "window_type": "monthly",
+  "price_change_pct": -0.30725226925195054,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5454545454545454,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was minor and lacked a clear driver."
+    },
+    {
+      "name": "rising_treasury_yields_april_2021",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.45454545454545453,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 1.5600 to 1.6100 during the window, contributing to bearish sentiment in equities as higher yields typically pressure stock valuations [1, 41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9, 17],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.58% during this period, contributing to a balanced market sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.75,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was minor and lacked a clear driver.\"\n  }\n]"
+}

@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-07-21",
+  "end_date": "2019-08-04",
+  "window_type": "monthly",
+  "price_change_pct": 0.18169739868326087,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.27999999999999997,
+      "magnitude": 0.3128491620111732,
+      "persistence": "short",
+      "description": "[conf=0.70] General positive market sentiment during this period may have contributed to the slight upward price movement."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 0.15,
+      "magnitude": 0.19553072625698323,
+      "persistence": "transient",
+      "description": "[conf=0.60] Technical indicators may have suggested a bullish trend, influencing some traders' decisions."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": 0.12,
+      "magnitude": 0.1340782122905028,
+      "persistence": "short",
+      "description": "[conf=0.50] High average daily volume indicates strong liquidity, which can support price stability and minor upward movements."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.3575418994413408,
+      "persistence": "transient",
+      "description": "[conf=0.80] A significant portion of price movement may be attributed to random noise, given the lack of strong causal factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.3,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General positive market sentiment during this period may have contributed to the slight upward price movement.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": 0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"Technical indicators may have suggested a bullish trend, influencing some traders' decisions.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"High average daily volume indicates strong liquidity, which can support price stability and minor upward movements.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"A significant portion of price movement may be attributed to random noise, given the lack of strong causal factors.\"\n    }\n]"
+}

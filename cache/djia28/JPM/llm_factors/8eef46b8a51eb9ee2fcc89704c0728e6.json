@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": 5.903091490146343,
+  "factors": [
+    {
+      "name": "strong_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.41666666666666674,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment driven by overall bullish trends in the financial sector likely contributed to JPM's price increase."
+    },
+    {
+      "name": "company_specific_growth",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.31250000000000006,
+      "persistence": "medium",
+      "description": "[conf=0.60] JPM's reported growth in earnings and revenue during this period likely fueled investor confidence and contributed to the price rise."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.18750000000000003,
+      "persistence": "transient",
+      "description": "[conf=0.50] A technical breakout above key resistance levels may have attracted momentum traders, pushing the price higher."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.08333333333333334,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and trading volume variations that cannot be attributed to specific factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"strong_market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive market sentiment driven by overall bullish trends in the financial sector likely contributed to JPM's price increase.\"\n    },\n    {\n        \"name\": \"company_specific_growth\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.6,\n        \"description\": \"JPM's reported growth in earnings and revenue during this period likely fueled investor confidence and contributed to the price rise.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"A technical breakout above key resistance levels may have attracted momentum traders, pushing the price higher.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and trading volume variations that cannot be attributed to specific factors.\"\n    }\n]"
+}

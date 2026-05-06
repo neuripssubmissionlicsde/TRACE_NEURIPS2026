@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-05-24",
+  "end_date": "2020-06-07",
+  "window_type": "monthly",
+  "price_change_pct": 12.241784401252124,
+  "factors": [
+    {
+      "name": "unemployment_rate_stabilization",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.47000000000000003,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate stabilized at 11.0%, suggesting a potential recovery in economic conditions, which positively influenced investor sentiment."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.48,
+      "magnitude": 0.25,
+      "persistence": "long",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained low at 0.08%, indicating continued accommodative monetary policy, which supported equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.27999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stabilization\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate stabilized at 11.0%, suggesting a potential recovery in economic conditions, which positively influenced investor sentiment.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The Federal Funds Effective Rate remained low at 0.08%, indicating continued accommodative monetary policy, which supported equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

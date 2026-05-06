@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-11-20",
+  "end_date": "2022-12-04",
+  "window_type": "monthly",
+  "price_change_pct": -1.5649999999166493,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.45999999999999996,
+      "magnitude": 0.3022388059701493,
+      "persistence": "short",
+      "description": "[conf=0.70] General market sentiment was bearish during this period, influenced by broader economic concerns."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.3,
+      "magnitude": 0.2238805970149254,
+      "persistence": "short",
+      "description": "[conf=0.60] AAPL faced scrutiny over supply chain issues and product demand, contributing to negative sentiment."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.1492537313432836,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested a potential downward trend, influencing trading behavior."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.3246268656716418,
+      "persistence": "transient",
+      "description": "[conf=0.80] Random market fluctuations contributed to price changes that cannot be attributed to specific factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General market sentiment was bearish during this period, influenced by broader economic concerns.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"AAPL faced scrutiny over supply chain issues and product demand, contributing to negative sentiment.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggested a potential downward trend, influencing trading behavior.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"Random market fluctuations contributed to price changes that cannot be attributed to specific factors.\"\n    }\n]"
+}

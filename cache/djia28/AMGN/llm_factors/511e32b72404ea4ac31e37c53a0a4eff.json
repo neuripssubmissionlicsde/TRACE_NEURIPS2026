@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-03-04",
+  "end_date": "2018-03-18",
+  "window_type": "monthly",
+  "price_change_pct": 1.7238558809539544,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2.8200",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.4401408450704225,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 2.8200 on March 15 contributed to a bullish sentiment in the market, supporting equity valuations [36, 39]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5598591549295774,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed limited clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2.8200\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [36, 39],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.8200 on March 15 contributed to a bullish sentiment in the market, supporting equity valuations [36, 39].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed limited clear drivers.\"\n  }\n]"
+}

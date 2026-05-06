@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-05-22",
+  "end_date": "2022-06-05",
+  "window_type": "monthly",
+  "price_change_pct": 5.859205687330976,
+  "factors": [
+    {
+      "name": "vix_stability_2022",
+      "category": "macroeconomic",
+      "direction": 0.5333333333333333,
+      "magnitude": 0.3859060402684564,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index remained stable at 26.19, indicating reduced market fear and contributing to upward price movement [1-8]."
+    },
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.34,
+      "magnitude": 0.2718120805369128,
+      "persistence": "medium",
+      "description": "[conf=0.80] The unemployment rate held steady at 3.6%, suggesting a stable labor market which supported investor confidence [9-16]."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.31999999999999995,
+      "magnitude": 0.20134228187919465,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-Year Treasury Rate from 2.94% to 2.92% during the window indicated a shift towards lower borrowing costs, supporting equity prices [25-32]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.14093959731543623,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_stability_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The VIX Volatility Index remained stable at 26.19, indicating reduced market fear and contributing to upward price movement [1-8].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The unemployment rate held steady at 3.6%, suggesting a stable labor market which supported investor confidence [9-16].\"\n  },\n  {\n    \"name\": \"treasury_yield_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 26, 27, 28, 29, 30, 31, 32],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 2.94% to 2.92% during the window indicated a shift towards lower borrowing costs, supporting equity prices [25-32].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.10,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

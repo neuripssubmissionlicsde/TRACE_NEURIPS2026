@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-05-24",
+  "end_date": "2020-06-07",
+  "window_type": "monthly",
+  "price_change_pct": 19.899707360063022,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2020_06_03",
+      "category": "macroeconomic",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.90] The 10-Year Treasury Rate rose to 0.7700 on 2020-06-03, indicating increased investor confidence and contributing to TRV's price increase [17][41]."
+    },
+    {
+      "name": "federal_funds_rate_stability_2020_06_01",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.25,
+      "persistence": "long",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.0800 on 2020-06-01, supporting a favorable borrowing environment for investors [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2020_06_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [17, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 0.7700 on 2020-06-03, indicating increased investor confidence and contributing to TRV's price increase [17][41].\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability_2020_06_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.0800 on 2020-06-01, supporting a favorable borrowing environment for investors [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

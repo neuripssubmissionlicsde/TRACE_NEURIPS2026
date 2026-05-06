@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-05-27",
+  "end_date": "2018-06-10",
+  "window_type": "monthly",
+  "price_change_pct": 6.973778572145682,
+  "factors": [
+    {
+      "name": "oil_price_increase",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.41666666666666674,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price."
+    },
+    {
+      "name": "positive_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.31249999999999994,
+      "persistence": "short",
+      "description": "[conf=0.60] General positive sentiment in the stock market may have supported the upward price movement of XOM."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.16666666666666666,
+      "persistence": "transient",
+      "description": "[conf=0.50] XOM's price breaking above key resistance levels could have attracted technical traders, contributing to the price increase."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.10416666666666666,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity may have influenced price movements without clear causation."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_increase\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"positive_market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General positive sentiment in the stock market may have supported the upward price movement of XOM.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"XOM's price breaking above key resistance levels could have attracted technical traders, contributing to the price increase.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity may have influenced price movements without clear causation.\"\n    }\n]"
+}

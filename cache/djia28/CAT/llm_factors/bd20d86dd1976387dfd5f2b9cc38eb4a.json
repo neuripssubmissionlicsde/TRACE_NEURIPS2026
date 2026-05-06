@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": 1.1366933597401778,
+  "factors": [
+    {
+      "name": "unemployment_rate_spike_april_2020",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.39285714285714285,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate surged to 13.2% on May 1, 2020 [1], raising concerns about economic recovery and negatively impacting market sentiment [4]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.33928571428571425,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the market exhibited high volatility and drawdowns without clear directional drivers."
+    },
+    {
+      "name": "covid_economic_impact",
+      "category": "geopolitical",
+      "direction": -0.3,
+      "magnitude": 0.26785714285714285,
+      "persistence": "medium",
+      "description": "[conf=0.80] The ongoing economic impact of the COVID-19 pandemic continued to weigh on investor sentiment during this period [25][26]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_spike_april_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 4],\n    \"description\": \"The unemployment rate surged to 13.2% on May 1, 2020 [1], raising concerns about economic recovery and negatively impacting market sentiment [4].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the market exhibited high volatility and drawdowns without clear directional drivers.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-11-11",
+  "end_date": "2018-11-25",
+  "window_type": "monthly",
+  "price_change_pct": -6.365413595931817,
+  "factors": [
+    {
+      "name": "north_korea_south_korea_relations",
+      "category": "geopolitical",
+      "direction": -0.56,
+      "magnitude": 0.5063694267515924,
+      "persistence": "short",
+      "description": "[conf=0.85] Increased tensions in North Korea\u2013South Korea relations [1] led to negative sentiment impacting NKE's stock price."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.3666666666666667,
+      "magnitude": 0.25477707006369427,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained elevated during this period [18], contributing to a bearish sentiment in equities including NKE."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23885350318471338,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_south_korea_relations\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],\n    \"description\": \"Increased tensions in North Korea\u2013South Korea relations [1] led to negative sentiment impacting NKE's stock price.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41],\n    \"description\": \"The 10-Year Treasury Rate remained elevated during this period [18], contributing to a bearish sentiment in equities including NKE.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

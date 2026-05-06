@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-11-21",
+  "end_date": "2021-12-05",
+  "window_type": "monthly",
+  "price_change_pct": -0.7748210113287709,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48648648648648646,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    },
+    {
+      "name": "declining_treasury_yields_nov_2021",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5135135135135135,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury yield declined from 1.6300 to 1.3500 during the window, indicating a shift in investor sentiment towards equities as lower yields typically support higher valuations [9][33][41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_nov_30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 33],\n    \"description\": \"The 10-Year Treasury yield dropped from 1.6300 to 1.4300 on November 30, signaling a shift in investor sentiment towards equities, which may have supported MCD's price.\"\n  },\n  {\n    \"name\": \"market_sentiment_shift_nov_30\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 41],\n    \"description\": \"Investor sentiment turned bearish as the 10-Year Treasury yield fell sharply, indicating a flight to safety that negatively impacted MCD's stock price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

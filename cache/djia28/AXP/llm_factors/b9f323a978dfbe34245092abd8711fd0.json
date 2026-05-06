@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-12-23",
+  "end_date": "2019-01-06",
+  "window_type": "monthly",
+  "price_change_pct": 8.044518797330117,
+  "factors": [
+    {
+      "name": "dow_jones_drop_christmas_eve",
+      "category": "geopolitical",
+      "direction": -0.52,
+      "magnitude": 0.5368421052631579,
+      "persistence": "transient",
+      "description": "[conf=0.85] The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, contributing to negative market sentiment that likely influenced AXP's price movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.46315789473684216,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"dow_jones_drop_christmas_eve\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The Dow Jones Industrial Average dropped 2.9% on Christmas Eve, contributing to negative market sentiment that likely influenced AXP's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

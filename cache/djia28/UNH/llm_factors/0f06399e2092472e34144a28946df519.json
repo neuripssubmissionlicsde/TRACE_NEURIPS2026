@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": 3.9838424472529868,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.54,
+      "magnitude": 0.40816326530612246,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.6%, contributing to positive sentiment around economic stability and consumer spending."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.3333333333333333,
+      "magnitude": 0.20408163265306126,
+      "persistence": "transient",
+      "description": "[conf=0.75] The 10-Year Treasury yield fluctuated, impacting investor sentiment and leading to some downward pressure on equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38775510204081637,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.6%, contributing to positive sentiment around economic stability and consumer spending.\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 17, 25],\n    \"description\": \"The 10-Year Treasury yield fluctuated, impacting investor sentiment and leading to some downward pressure on equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random market movements.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": -0.6539597709879439,
+  "factors": [
+    {
+      "name": "turkish_interest_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The Turkish central bank raised its main interest rate from 15% to 17.5% to control inflation, which likely influenced global market sentiment and contributed to MRK's price decline."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as MRK experienced a price change amidst high volatility and limited clear drivers."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkish_interest_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Turkish central bank raised its main interest rate from 15% to 17.5% to control inflation, which likely influenced global market sentiment and contributed to MRK's price decline.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as MRK experienced a price change amidst high volatility and limited clear drivers.\"\n  }\n]"
+}

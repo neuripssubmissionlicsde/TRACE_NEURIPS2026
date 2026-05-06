@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-01-30",
+  "end_date": "2022-02-13",
+  "window_type": "monthly",
+  "price_change_pct": -0.21921877455951364,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_feb_2022",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5346534653465347,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose from 1.8100 to 2.0300 during the window, indicating increased borrowing costs which negatively impacted equity valuations [9][41]."
+    },
+    {
+      "name": "vix_volatility_increase_feb_2022",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.24752475247524752,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index increased to 22.09, reflecting heightened market uncertainty and contributing to bearish sentiment [49]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2178217821782178,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_feb_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The 10-Year Treasury Rate rose from 1.8100 to 2.0300 during the window, indicating increased borrowing costs which negatively impacted equity valuations [9][41].\"\n  },\n  {\n    \"name\": \"vix_volatility_increase_feb_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [49],\n    \"description\": \"The VIX Volatility Index increased to 22.09, reflecting heightened market uncertainty and contributing to bearish sentiment [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

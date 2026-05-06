@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-01-02",
+  "end_date": "2022-01-16",
+  "window_type": "monthly",
+  "price_change_pct": -2.496287073611441,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.70] General market sentiment was bearish during this period, influenced by broader economic concerns."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.44000000000000006,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.60] Disney's stock faced pressure due to concerns over subscriber growth and content performance."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations that cannot be attributed to specific observable factors."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.325,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators suggested a bearish trend, leading to selling pressure."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"General market sentiment was bearish during this period, influenced by broader economic concerns.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Disney's stock faced pressure due to concerns over subscriber growth and content performance.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Increased trading volume may have contributed to price volatility, reflecting liquidity conditions.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations that cannot be attributed to specific observable factors.\"\n    }\n]"
+}

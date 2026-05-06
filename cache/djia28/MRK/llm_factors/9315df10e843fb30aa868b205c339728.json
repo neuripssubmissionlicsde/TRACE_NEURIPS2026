@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": 7.7547076687501955,
+  "factors": [
+    {
+      "name": "food_price_index_increase_march_2022",
+      "category": "geopolitical",
+      "direction": 0.8,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The Food and Agriculture Organisation's food price index increased by 13% in March, driven by the fallout from the Russian invasion of Ukraine, which likely boosted investor sentiment towards MRK as a key player in the healthcare sector."
+    },
+    {
+      "name": "federal_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.2,
+      "magnitude": 0.25,
+      "persistence": "medium",
+      "description": "[conf=0.80] The Federal Funds Effective Rate remained stable at 0.33%, contributing to a favorable borrowing environment that supports equity valuations, including MRK."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"food_price_index_increase_march_2022\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Food and Agriculture Organisation's food price index increased by 13% in March, driven by the fallout from the Russian invasion of Ukraine, which likely boosted investor sentiment towards MRK as a key player in the healthcare sector.\"\n  },\n  {\n    \"name\": \"federal_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [20],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.33%, contributing to a favorable borrowing environment that supports equity valuations, including MRK.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

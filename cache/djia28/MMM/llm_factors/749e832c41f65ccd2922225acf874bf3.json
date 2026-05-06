@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-20",
+  "window_type": "monthly",
+  "price_change_pct": 2.900001570705445,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5625,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly influenced the price movement."
+    },
+    {
+      "name": "uk_inflation_pressure",
+      "category": "macroeconomic",
+      "direction": -0.3375,
+      "magnitude": 0.4375,
+      "persistence": "short",
+      "description": "[conf=0.75] Record inflation in the UK reached 11.1%, creating global economic uncertainty and impacting investor sentiment [2]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly influenced the price movement.\"\n  },\n  {\n    \"name\": \"uk_inflation_pressure\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"Record inflation in the UK reached 11.1%, creating global economic uncertainty and impacting investor sentiment [2].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [19, 27],\n    \"description\": \"Fluctuations in the 10-Year Treasury Rate, dropping from 4.22% to 3.77%, influenced market dynamics and investor behavior [19][27].\"\n  }\n]"
+}

@@ -1,0 +1,57 @@
+{
+  "start_date": "2023-02-26",
+  "end_date": "2023-03-12",
+  "window_type": "monthly",
+  "price_change_pct": -2.7256414027282028,
+  "factors": [
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": -0.6399999999999999,
+      "magnitude": 0.19230769230769232,
+      "persistence": "short",
+      "description": "[conf=0.60] Ongoing geopolitical tensions in oil-producing regions could have contributed to market volatility."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.7666666666666666,
+      "magnitude": 0.19230769230769235,
+      "persistence": "short",
+      "description": "[conf=0.50] The energy sector faced headwinds due to fluctuating oil prices, impacting XOM's stock performance."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.8,
+      "magnitude": 0.19230769230769232,
+      "persistence": "short",
+      "description": "[conf=0.60] Negative market sentiment driven by broader market trends may have influenced XOM's price decline."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -0.7,
+      "magnitude": 0.09615384615384616,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators may have triggered sell signals, contributing to the downward price movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.038461538461538464,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity that does not correlate with observable factors."
+    },
+    {
+      "name": "macroeconomic_indicators",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.28846153846153844,
+      "persistence": "short",
+      "description": "[conf=0.70] Concerns over inflation and interest rates may have contributed to bearish sentiment in the market."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_concerns\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Concerns over inflation and interest rates may have negatively impacted investor sentiment during this period.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Ongoing geopolitical tensions in oil-producing regions could have contributed to market volatility.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The energy sector faced headwinds due to fluctuating oil prices, impacting XOM's stock performance.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Negative market sentiment driven by broader market trends may have influenced XOM's price decline.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have triggered sell signals, contributing to the downward price movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity that does not correlate with observable factors.\"\n    }\n]"
+}

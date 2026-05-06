@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-11-21",
+  "end_date": "2021-12-05",
+  "window_type": "monthly",
+  "price_change_pct": -7.795439139579581,
+  "factors": [
+    {
+      "name": "omicron_variant_concerns",
+      "category": "geopolitical",
+      "direction": -0.7200000000000001,
+      "magnitude": 0.55,
+      "persistence": "transient",
+      "description": "[conf=0.90] Stocks and oil prices declined sharply amid growing concerns over the SARS-CoV-2 Omicron variant, impacting market sentiment and leading to a sell-off in equities [9][11]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "treasury_yield_decline",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined from 1.6300 to 1.3500 during the window, indicating a flight to safety that typically supports growth stocks like AMZN [16][32]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"omicron_variant_concerns\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 11],\n    \"description\": \"Stocks and oil prices declined sharply amid growing concerns over the SARS-CoV-2 Omicron variant, impacting market sentiment and leading to a sell-off in equities [9][11].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [16, 32],\n    \"description\": \"The 10-Year Treasury Rate declined from 1.6300 to 1.3500 during the window, which typically supports equity valuations [16][32].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

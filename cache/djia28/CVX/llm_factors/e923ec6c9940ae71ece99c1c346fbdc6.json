@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-04",
+  "end_date": "2018-02-18",
+  "window_type": "monthly",
+  "price_change_pct": -3.191432316333715,
+  "factors": [
+    {
+      "name": "vix_spike_feb_5_2018",
+      "category": "market_sentiment",
+      "direction": -0.7,
+      "magnitude": 0.53,
+      "persistence": "short",
+      "description": "[conf=0.90] The VIX Volatility Index spiked to 37.32 on February 5, 2018, indicating heightened market fear and contributing to the sell-off in equities."
+    },
+    {
+      "name": "vix_decline_feb_15_2018",
+      "category": "market_sentiment",
+      "direction": 0.3,
+      "magnitude": 0.25,
+      "persistence": "transient",
+      "description": "[conf=0.80] The VIX declined to 19.13 on February 15, 2018, suggesting a temporary easing of market fears, but the earlier spike had already impacted CVX's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21999999999999997,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_feb_5_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The VIX Volatility Index spiked to 37.32 on February 5, 2018, indicating heightened market fear and contributing to the sell-off in equities.\"\n  },\n  {\n    \"name\": \"vix_decline_feb_15_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 17],\n    \"description\": \"The VIX declined to 19.13 on February 15, 2018, suggesting a temporary easing of market fears, but the earlier spike had already impacted CVX's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

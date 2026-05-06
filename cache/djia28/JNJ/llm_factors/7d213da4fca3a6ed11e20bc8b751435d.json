@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-01-29",
+  "end_date": "2023-02-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.441915726352228,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.49180327868852464,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly explain the price decline."
+    },
+    {
+      "name": "rising_10y_treasury_rate_3.74",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5081967213114755,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.7400 on February 10, contributing to bearish sentiment in the equity markets as higher rates typically increase borrowing costs and reduce valuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly explain the price decline.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_feb_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 10],\n    \"description\": \"The 10-Year Treasury Rate increased from 3.6300 to 3.7400 during the window, contributing to bearish sentiment in equities [5, 10].\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-12-08",
+  "end_date": "2019-12-22",
+  "window_type": "monthly",
+  "price_change_pct": 3.3534764190424684,
+  "factors": [
+    {
+      "name": "vix_stability_below_13",
+      "category": "market_sentiment",
+      "direction": 0.72,
+      "magnitude": 0.53,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX remained stable below 13, indicating low market volatility and contributing to bullish sentiment [1][9][25]."
+    },
+    {
+      "name": "10_year_treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.27,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable at 1.79%, supporting investor confidence in equities [41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_stability_below_13\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 25],\n    \"description\": \"The VIX remained stable below 13, indicating low market volatility and contributing to bullish sentiment [1][9][25].\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 1.79%, supporting investor confidence in equities [41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

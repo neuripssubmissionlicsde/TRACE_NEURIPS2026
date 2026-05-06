@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-03-27",
+  "end_date": "2022-04-10",
+  "window_type": "monthly",
+  "price_change_pct": 3.0965061427452327,
+  "factors": [
+    {
+      "name": "food_price_index_increase",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.45918367346938777,
+      "persistence": "short",
+      "description": "[conf=0.85] The Food and Agriculture Organisation's food price index increased by 13% in March, impacting market sentiment positively for JNJ as a healthcare provider amid rising food costs."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.25510204081632654,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate rose from 2.3200 to 2.7200 during the window, indicating tightening monetary conditions which typically exert downward pressure on equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28571428571428575,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"food_price_index_increase\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2],\n    \"description\": \"The Food and Agriculture Organisation's food price index increased by 13% in March, impacting market sentiment positively for JNJ as a healthcare provider amid rising food costs.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [3, 9],\n    \"description\": \"The 10-Year Treasury Rate rose from 2.3200 to 2.7200 during the window, indicating tightening monetary conditions which typically exert downward pressure on equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

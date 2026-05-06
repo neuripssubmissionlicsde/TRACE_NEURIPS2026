@@ -1,0 +1,57 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -3.687430062176855,
+  "factors": [
+    {
+      "name": "macroeconomic_factors",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.2608695652173913,
+      "persistence": "short",
+      "description": "[conf=0.60] Concerns over inflation and interest rate hikes may have negatively impacted investor sentiment during this period."
+    },
+    {
+      "name": "sector_performance",
+      "category": "sector_specific",
+      "direction": -0.4,
+      "magnitude": 0.2173913043478261,
+      "persistence": "short",
+      "description": "[conf=0.50] The financial sector faced headwinds due to broader market volatility and uncertainty."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.3,
+      "magnitude": 0.1739130434782609,
+      "persistence": "short",
+      "description": "[conf=0.70] Negative market sentiment driven by economic concerns likely contributed to the decline in JPM's stock price."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -0.22500000000000003,
+      "magnitude": 0.13043478260869565,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators may have triggered sell signals, contributing to the downward price movement."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.13333333333333333,
+      "magnitude": 0.08695652173913046,
+      "persistence": "short",
+      "description": "[conf=0.40] Tightening liquidity conditions could have influenced selling pressure in the market."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.13043478260869565,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations and noise that cannot be attributed to specific factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_factors\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Concerns over inflation and interest rate hikes may have negatively impacted investor sentiment during this period.\"\n    },\n    {\n        \"name\": \"sector_performance\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"The financial sector faced headwinds due to broader market volatility and uncertainty.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Negative market sentiment driven by economic concerns likely contributed to the decline in JPM's stock price.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators may have triggered sell signals, contributing to the downward price movement.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.4,\n        \"description\": \"Tightening liquidity conditions could have influenced selling pressure in the market.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations and noise that cannot be attributed to specific factors.\"\n    }\n]"
+}

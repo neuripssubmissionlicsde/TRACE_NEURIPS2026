@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-09-02",
+  "end_date": "2018-09-16",
+  "window_type": "monthly",
+  "price_change_pct": 3.0531752788544444,
+  "factors": [
+    {
+      "name": "ecb_policy_halving_stimulus",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "medium",
+      "description": "[conf=0.85] The European Central Bank's decision to halve monetary stimulus and end it in December 2018 created a favorable environment for equities, contributing to MRK's price increase [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting stochastic price movements during the period."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate to 2.9900 on September 14 indicated rising interest rates, which typically supports financial sector stocks like MRK [19]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"ecb_policy_halving_stimulus\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The European Central Bank's decision to halve monetary stimulus and end it in December 2018 created a favorable environment for equities, contributing to MRK's price increase [1].\"\n  },\n  {\n    \"name\": \"rising_protectionism_concerns\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"Concerns about rising protectionism were highlighted by the ECB, which may have created some headwinds for market sentiment, partially offsetting bullish momentum [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting stochastic price movements during the period.\"\n  }\n]"
+}

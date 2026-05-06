@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-15",
+  "end_date": "2020-03-29",
+  "window_type": "monthly",
+  "price_change_pct": 1.3494620293329047,
+  "factors": [
+    {
+      "name": "global_market_selloff",
+      "category": "geopolitical",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.3104575163398693,
+      "persistence": "short",
+      "description": "[conf=0.85] Asian and European markets experienced substantial losses, leading to a bearish sentiment that affected KO's price [1][3]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21568627450980393,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market."
+    },
+    {
+      "name": "fed_emergency_rate_cut_100bps",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.47385620915032683,
+      "persistence": "short",
+      "description": "[conf=0.90] The Fed cut its benchmark rate by 100bps and announced a $700 billion quantitative easing program, which provided immediate support to the markets [17][19][21]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_cut_1pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [17, 19, 21],\n    \"description\": \"The Fed cut its benchmark rate by 1% and announced a $700 billion quantitative easing program, which provided significant liquidity and support to the markets [17][19][21].\"\n  },\n  {\n    \"name\": \"global_market_selloff\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 3],\n    \"description\": \"Asian and European markets experienced substantial losses, leading to a bearish sentiment that affected KO's price [1][3].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the high volatility and uncertainty in the market.\"\n  }\n]"
+}

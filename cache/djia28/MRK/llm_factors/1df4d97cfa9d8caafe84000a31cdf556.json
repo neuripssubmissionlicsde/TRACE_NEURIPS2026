@@ -1,0 +1,41 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -3.735266458429079,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5172413793103449,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly impacted MRK's price during this period."
+    },
+    {
+      "name": "india_economic_rebound",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.2241379310344828,
+      "persistence": "short",
+      "description": "[conf=0.75] Reports of India's economy rebounding at a record rate may have provided a temporary boost to market sentiment, influencing MRK's price indirectly."
+    },
+    {
+      "name": "stable_treasury_rates",
+      "category": "macroeconomic",
+      "direction": 0.10000000000000002,
+      "magnitude": 0.12931034482758622,
+      "persistence": "short",
+      "description": "[conf=0.60] Stable 10-Year Treasury rates during the period may have contributed to a lack of significant market movement, influencing investor sentiment [8, 16]."
+    },
+    {
+      "name": "market_sentiment_decline",
+      "category": "market_sentiment",
+      "direction": -0.375,
+      "magnitude": 0.12931034482758622,
+      "persistence": "transient",
+      "description": "[conf=0.50] General market sentiment appears to have declined, but no specific events are cited to support this."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.70,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly impacted MRK's price during this period.\"\n  },\n  {\n    \"name\": \"india_economic_rebound\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1],\n    \"description\": \"Reports of India's economy rebounding at a record rate may have provided a temporary boost to market sentiment, influencing MRK's price indirectly.\"\n  },\n  {\n    \"name\": \"stable_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"short\",\n    \"confidence\": 0.0,\n    \"source_articles\": [8, 16],\n    \"description\": \"The stability of the 10-Year Treasury Rate during this period did not contribute to significant price movement for MRK.\"\n  }\n]"
+}

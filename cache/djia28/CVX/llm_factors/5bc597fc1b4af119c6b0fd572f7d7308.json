@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-12-09",
+  "end_date": "2018-12-23",
+  "window_type": "monthly",
+  "price_change_pct": -9.6183903323506,
+  "factors": [
+    {
+      "name": "vix_spike_dec_2018",
+      "category": "market_sentiment",
+      "direction": -0.7666666666666666,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The VIX Volatility Index spiked to 30.11 on December 21, indicating heightened market fear and contributing to the sell-off in CVX shares [1, 25]."
+    },
+    {
+      "name": "oil_price_decline_dec_2018",
+      "category": "sector_specific",
+      "direction": -0.5666666666666668,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.85] Declining oil prices during this period negatively impacted energy stocks, including CVX, although specific articles were not provided."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.15,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_dec_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 9, 25],\n    \"description\": \"The VIX Volatility Index spiked to 30.11 on December 21, indicating heightened market fear and contributing to the sell-off in CVX shares [1, 25].\"\n  },\n  {\n    \"name\": \"oil_price_decline_dec_2018\",\n    \"category\": \"sector_specific\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"Declining oil prices during this period negatively impacted energy stocks, including CVX, although specific articles were not provided.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

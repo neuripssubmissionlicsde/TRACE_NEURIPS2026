@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-05-24",
+  "end_date": "2020-06-07",
+  "window_type": "monthly",
+  "price_change_pct": 16.8086019176648,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2020_06_03",
+      "category": "macroeconomic",
+      "direction": 0.68,
+      "magnitude": 0.49698795180722893,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 0.6800 to 0.7700 on 2020-06-03, indicating rising investor confidence and contributing to AXP's price increase [9][25]."
+    },
+    {
+      "name": "market_sentiment_recovery_post_covid",
+      "category": "market_sentiment",
+      "direction": 0.43333333333333335,
+      "magnitude": 0.24096385542168675,
+      "persistence": "medium",
+      "description": "[conf=0.80] General market sentiment improved as economies began to reopen post-COVID, supporting AXP's price rise."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2620481927710843,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2020_06_03\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury Rate increased from 0.6800 to 0.7700 on 2020-06-03, indicating rising investor confidence and contributing to AXP's price increase [9][25].\"\n  },\n  {\n    \"name\": \"market_sentiment_recovery_post_covid\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.30,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment improved as economies began to reopen post-COVID, supporting AXP's price rise.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

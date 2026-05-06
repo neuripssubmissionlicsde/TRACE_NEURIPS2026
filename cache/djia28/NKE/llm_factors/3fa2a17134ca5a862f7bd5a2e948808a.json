@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-05-10",
+  "end_date": "2020-05-24",
+  "window_type": "monthly",
+  "price_change_pct": 4.807146565178525,
+  "factors": [
+    {
+      "name": "market_sentiment_recovery_post_covid",
+      "category": "market_sentiment",
+      "direction": 0.5333333333333333,
+      "magnitude": 0.5583756345177665,
+      "persistence": "medium",
+      "description": "[conf=0.85] General market sentiment improved as economies began to reopen post-COVID, contributing to bullish momentum."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.44162436548223344,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_sentiment_recovery_post_covid\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [],\n    \"description\": \"General market sentiment improved as economies began to reopen post-COVID, contributing to bullish momentum.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 49],\n    \"description\": \"The 10-Year Treasury Rate rose to 0.7000 on May 19, indicating increased investor confidence and potential inflation expectations [25, 49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

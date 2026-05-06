@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": -5.014775266882469,
+  "factors": [
+    {
+      "name": "unemployment_rate_spike_13.2%",
+      "category": "macroeconomic",
+      "direction": -0.7200000000000001,
+      "magnitude": 0.49668874172185434,
+      "persistence": "medium",
+      "description": "[conf=0.90] The unemployment rate surged to 13.2% on May 1, 2020, raising concerns about consumer spending and economic recovery."
+    },
+    {
+      "name": "covid19_economic_impact",
+      "category": "geopolitical",
+      "direction": -0.5666666666666667,
+      "magnitude": 0.31456953642384106,
+      "persistence": "long",
+      "description": "[conf=0.85] The ongoing economic impact of the COVID-19 pandemic continued to weigh heavily on market sentiment, contributing to bearish price movements."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.18874172185430466,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_spike_13.2%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [31, 32, 33],\n    \"description\": \"The unemployment rate surged to 13.2% on May 1, 2020, raising concerns about consumer spending and economic recovery.\"\n  },\n  {\n    \"name\": \"covid19_economic_impact\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.30,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [49, 50],\n    \"description\": \"The ongoing economic impact of the COVID-19 pandemic continued to weigh heavily on market sentiment, contributing to bearish price movements.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

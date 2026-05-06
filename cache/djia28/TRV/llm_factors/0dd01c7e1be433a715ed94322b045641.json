@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-03-29",
+  "end_date": "2020-04-12",
+  "window_type": "monthly",
+  "price_change_pct": 9.904863059537258,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_0.62",
+      "category": "macroeconomic",
+      "direction": 0.6666666666666666,
+      "magnitude": 0.5942622950819672,
+      "persistence": "short",
+      "description": "[conf=0.90] The decline in the 10-Year Treasury Rate to 0.62% on April 1 [9] and subsequent rise to 0.77% on April 8 [41] contributed to a bullish sentiment in the market, supporting TRV's price increase."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4057377049180328,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_0.62\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 41],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 0.62% on April 1 [9] and subsequent rise to 0.77% on April 8 [41] contributed to a bullish sentiment in the market, supporting TRV's price increase.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_0.77\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.2,\n    \"magnitude\": 0.15,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 0.77% on April 8 [41] created some bearish pressure, but was not strong enough to offset the overall bullish trend.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market movements during this period.\"\n  }\n]"
+}

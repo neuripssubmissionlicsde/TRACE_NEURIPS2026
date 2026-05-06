@@ -1,0 +1,49 @@
+{
+  "start_date": "2018-01-21",
+  "end_date": "2018-02-04",
+  "window_type": "monthly",
+  "price_change_pct": -3.0285699628094314,
+  "factors": [
+    {
+      "name": "oil_price_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.8,
+      "magnitude": 0.28776978417266186,
+      "persistence": "short",
+      "description": "[conf=0.70] The decline in oil prices during this period likely contributed to the bearish movement in XOM's stock price."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.675,
+      "magnitude": 0.20383693045563553,
+      "persistence": "transient",
+      "description": "[conf=0.60] General negative sentiment in the market may have influenced investor behavior, leading to selling pressure on XOM."
+    },
+    {
+      "name": "technical_sell_signals",
+      "category": "technical",
+      "direction": -0.7,
+      "magnitude": 0.14388489208633093,
+      "persistence": "short",
+      "description": "[conf=0.50] Technical indicators suggesting overbought conditions may have prompted traders to sell, contributing to the price decline."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.17266187050359713,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity and price movements that cannot be attributed to observable factors."
+    },
+    {
+      "name": "earnings_report_anticipation",
+      "category": "company_specific",
+      "direction": -0.8,
+      "magnitude": 0.19184652278177458,
+      "persistence": "short",
+      "description": "[conf=0.50] Anticipation of an upcoming earnings report may have led to cautious trading behavior among investors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The decline in oil prices during this period likely contributed to the bearish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General negative sentiment in the market may have influenced investor behavior, leading to selling pressure on XOM.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Technical indicators suggesting overbought conditions may have prompted traders to sell, contributing to the price decline.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity and price movements that cannot be attributed to observable factors.\"\n    }\n]"
+}

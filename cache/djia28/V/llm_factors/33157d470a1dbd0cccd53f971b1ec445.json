@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": 9.748046676026245,
+  "factors": [
+    {
+      "name": "unemployment_rate_spike_april_2020",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.7142857142857143,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate surged to 13.2% on May 1, 2020, raising concerns about economic recovery and impacting market sentiment negatively."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.28571428571428575,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_spike_april_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate surged to 13.2% on May 1, 2020, raising concerns about economic recovery and impacting market sentiment negatively.\"\n  },\n  {\n    \"name\": \"vix_volatility_index_high_april_2020\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The VIX index remained elevated at 37.19 on May 1, indicating high market volatility and uncertainty, which typically pressures asset prices.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

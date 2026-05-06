@@ -1,0 +1,25 @@
+{
+  "start_date": "2019-08-04",
+  "end_date": "2019-08-18",
+  "window_type": "monthly",
+  "price_change_pct": 0.3437512924996567,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5406360424028268,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no specific news events directly influenced JNJ's price movement during this period."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.43333333333333335,
+      "magnitude": 0.45936395759717313,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury yield declined from 1.7300 to 1.5200 during the window [3, 7], contributing to a bullish sentiment in equities including JNJ."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no specific news events directly influenced JNJ's price movement during this period.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [3, 7],\n    \"description\": \"The 10-Year Treasury yield declined from 1.7300 to 1.5200 during the window [3, 7], contributing to a bullish sentiment in equities including JNJ.\"\n  },\n  {\n    \"name\": \"vix_volatility_index_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.0,\n    \"source_articles\": [39, 49],\n    \"description\": \"The VIX index showed fluctuations but did not have a clear impact on JNJ's price movement during this period.\"\n  }\n]"
+}

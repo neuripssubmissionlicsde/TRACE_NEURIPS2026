@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-11-22",
+  "end_date": "2020-12-06",
+  "window_type": "monthly",
+  "price_change_pct": 8.319826946402756,
+  "factors": [
+    {
+      "name": "10_year_treasury_rate_increase_2020_12_01",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.45893719806763283,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 0.9200 on 2020-12-01, indicating rising interest rates which typically support financial sector stocks like IBM [25]."
+    },
+    {
+      "name": "10_year_treasury_rate_stability_2020_11_30",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.24154589371980673,
+      "persistence": "short",
+      "description": "[conf=0.80] The stability of the 10-Year Treasury Rate at 0.8400 on 2020-11-30 contributed to a favorable environment for equities, including IBM [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.29951690821256033,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"10_year_treasury_rate_increase_2020_12_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 29],\n    \"description\": \"The 10-Year Treasury Rate increased to 0.9200 on 2020-12-01, indicating rising interest rates which typically support financial sector stocks like IBM [25].\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability_2020_11_30\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 9],\n    \"description\": \"The stability of the 10-Year Treasury Rate at 0.8400 on 2020-11-30 contributed to a favorable environment for equities, including IBM [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

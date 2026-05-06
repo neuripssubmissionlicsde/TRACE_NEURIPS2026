@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-08-04",
+  "end_date": "2019-08-18",
+  "window_type": "monthly",
+  "price_change_pct": 3.8556819145627497,
+  "factors": [
+    {
+      "name": "japan_south_korea_trade_tensions",
+      "category": "geopolitical",
+      "direction": 0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.85] Escalating trade tensions between Japan and South Korea led to increased investor optimism for KO as a stable consumer staple amidst geopolitical uncertainty [10]."
+    },
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline in the 10-year Treasury rate from 1.68% to 1.55% during the window contributed to a favorable environment for equities, including KO [25][33]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"japan_south_korea_trade_tensions\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [10, 11, 12],\n    \"description\": \"Escalating trade tensions between Japan and South Korea led to increased investor optimism for KO as a stable consumer staple amidst geopolitical uncertainty [10].\"\n  },\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 33],\n    \"description\": \"The decline in the 10-year Treasury rate from 1.68% to 1.55% during the window contributed to a favorable environment for equities, including KO [25][33].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-08-29",
+  "end_date": "2021-09-12",
+  "window_type": "monthly",
+  "price_change_pct": -0.36195356199626333,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5098039215686274,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were minor and lacked clear drivers."
+    },
+    {
+      "name": "stable_treasury_rates",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.49019607843137253,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable around 1.30% during this period, contributing to a lack of significant market movement."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were minor and lacked clear drivers.\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 4, 10],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 1.30% during this period, contributing to a lack of significant market movement.\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [28, 29, 30],\n    \"description\": \"The unemployment rate held steady at 4.7%, indicating a stable labor market that did not drive significant price changes.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-07-16",
+  "end_date": "2023-07-30",
+  "window_type": "monthly",
+  "price_change_pct": 9.220656520390907,
+  "factors": [
+    {
+      "name": "sec_filings_july_2023",
+      "category": "company_specific",
+      "direction": 0.8000000000000002,
+      "magnitude": 0.625,
+      "persistence": "short",
+      "description": "[conf=0.90] Multiple SEC filings by Johnson & Johnson during the period indicated positive corporate activity, contributing to investor confidence and driving the stock price up."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.37499999999999994,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting general market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"sec_filings_july_2023\",\n    \"category\": \"company_specific\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Multiple SEC filings by Johnson & Johnson during the period indicated positive corporate activity, contributing to investor confidence and driving the stock price up.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting general market fluctuations.\"\n  }\n]"
+}

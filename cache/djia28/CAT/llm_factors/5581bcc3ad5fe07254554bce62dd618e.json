@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-01-20",
+  "end_date": "2019-02-03",
+  "window_type": "monthly",
+  "price_change_pct": -2.979329989455749,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5294117647058824,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as price movements were influenced by multiple competing factors."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.3088235294117647,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined from 2.7600 to 2.6300 during the window, indicating a shift in investor sentiment that may have pressured CAT's stock price."
+    },
+    {
+      "name": "high_volatility_market_conditions",
+      "category": "market_sentiment",
+      "direction": -0.2333333333333333,
+      "magnitude": 0.16176470588235295,
+      "persistence": "transient",
+      "description": "[conf=0.70] High annualized volatility of 61.6% suggests increased uncertainty in the market, contributing to the price decline."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as price movements were influenced by multiple competing factors.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields_january_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.25,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [5, 9, 17],\n    \"description\": \"Declining 10-Year Treasury yields during January 2019 [5, 9, 17] contributed to bearish sentiment in the market.\"\n  },\n  {\n    \"name\": \"stable_unemployment_rate_january_2019\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.15,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [41],\n    \"description\": \"Stable unemployment rate reported at 3.8% [41] may have contributed to cautious market sentiment, impacting CAT's price.\"\n  },\n  {\n    \"name\": \"sec_filings_january_2019\",\n    \"category\": \"company_specific\",\n    \"direction\": -0.10,\n    \"magnitude\": 0.10,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"SEC filings by Caterpillar Financial Services Corp [1, 2] may have raised concerns about regulatory scrutiny, contributing to price decline.\"\n  }\n]"
+}

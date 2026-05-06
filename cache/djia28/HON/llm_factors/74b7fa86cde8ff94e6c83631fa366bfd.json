@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-11-19",
+  "end_date": "2023-12-03",
+  "window_type": "monthly",
+  "price_change_pct": 3.728946176446009,
+  "factors": [
+    {
+      "name": "cpi_release_2023_12_01",
+      "category": "macroeconomic",
+      "direction": 0.6333333333333333,
+      "magnitude": 0.42122999157540014,
+      "persistence": "short",
+      "description": "[conf=0.85] The Consumer Price Index (CPI) release on 2023-12-01 indicated inflationary pressures, which likely boosted investor sentiment towards equities, including HON [25]."
+    },
+    {
+      "name": "treasury_rate_decline_2023_12_01",
+      "category": "macroeconomic",
+      "direction": 0.375,
+      "magnitude": 0.3159224936815501,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate to 4.2200 on 2023-12-01 likely encouraged equity investment as lower yields make stocks more attractive [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2628475147430497,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_2023_12_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25],\n    \"description\": \"The Consumer Price Index (CPI) release on 2023-12-01 indicated inflationary pressures, which likely boosted investor sentiment towards equities, including HON [25].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_12_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 4.2200 on 2023-12-01 likely encouraged equity investment as lower yields make stocks more attractive [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-07-05",
+  "end_date": "2020-07-19",
+  "window_type": "monthly",
+  "price_change_pct": -1.3781008929897036,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_0.6900_to_0.6200",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate from 0.6900 to 0.6200 [49, 17] may have supported equity valuations, contributing to a temporary bullish sentiment."
+    },
+    {
+      "name": "treasury_rate_increase_0.6200_to_0.6400",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate from 0.6200 to 0.6400 [9, 25] likely pressured equity prices, contributing to the bearish movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45999999999999996,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating a significant component of randomness in price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_0.6900_to_0.6200\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [49, 17],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 0.6900 to 0.6200 [49, 17] may have supported equity valuations, contributing to a temporary bullish sentiment.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_0.6200_to_0.6400\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 25],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 0.6200 to 0.6400 [9, 25] likely pressured equity prices, contributing to the bearish movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating a significant component of randomness in price movements.\"\n  }\n]"
+}

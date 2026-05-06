@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-01",
+  "end_date": "2018-04-15",
+  "window_type": "monthly",
+  "price_change_pct": 5.294581537601731,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2783505154639175,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    },
+    {
+      "name": "vix_decline_april_2018",
+      "category": "market_sentiment",
+      "direction": 0.5666666666666668,
+      "magnitude": 0.7216494845360825,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX declined from 21.49 on April 6 to 18.94 on April 5, suggesting a temporary easing of market fears, which likely supported the upward price movement of CVX."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_vix_april_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17, 25],\n    \"description\": \"The VIX increased from 18.49 on April 12 to 20.24 on April 11, indicating rising market uncertainty which may have contributed to price fluctuations.\"\n  },\n  {\n    \"name\": \"decreasing_vix_april_2018\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [33, 41],\n    \"description\": \"The VIX decreased from 23.62 on April 2 to 21.49 on April 6, suggesting a temporary easing of market fears which could have supported the price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.2,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

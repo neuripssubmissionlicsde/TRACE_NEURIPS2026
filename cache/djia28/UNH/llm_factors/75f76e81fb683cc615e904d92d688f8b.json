@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-08-19",
+  "end_date": "2018-09-02",
+  "window_type": "monthly",
+  "price_change_pct": 2.0760568372883195,
+  "factors": [
+    {
+      "name": "unemployment_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.56,
+      "magnitude": 0.3861386138613861,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate remained stable at 3.7%, contributing to positive sentiment in the market and supporting healthcare sector valuations."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.3333333333333333,
+      "magnitude": 0.297029702970297,
+      "persistence": "medium",
+      "description": "[conf=0.75] The 10-Year Treasury Rate remained stable around 2.86%, indicating a lack of immediate inflationary pressures, which supported equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.31683168316831684,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The unemployment rate remained stable at 3.7%, contributing to positive sentiment in the market and supporting healthcare sector valuations.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 16],\n    \"description\": \"The 10-Year Treasury Rate remained stable around 2.86%, indicating a lack of immediate inflationary pressures, which supported equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

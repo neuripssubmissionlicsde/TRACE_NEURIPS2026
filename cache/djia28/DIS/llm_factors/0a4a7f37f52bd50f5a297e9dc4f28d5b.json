@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": 7.019607898898942,
+  "factors": [
+    {
+      "name": "positive_earnings_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.544041450777202,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment surrounding earnings expectations may have contributed to the price increase."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.15544041450777205,
+      "persistence": "transient",
+      "description": "[conf=0.50] A technical breakout above key resistance levels could have attracted momentum traders."
+    },
+    {
+      "name": "market_volatility",
+      "category": "liquidity",
+      "direction": -1.0,
+      "magnitude": 0.12953367875647667,
+      "persistence": "short",
+      "description": "[conf=0.40] Increased market volatility during this period may have led to some bearish sentiment affecting stock prices."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.17098445595854922,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in stock price movement that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"positive_earnings_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive market sentiment surrounding earnings expectations may have contributed to the price increase.\"\n    },\n    {\n        \"name\": \"reopening_economy\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.25,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.6,\n        \"description\": \"The gradual reopening of the economy amid COVID-19 restrictions likely boosted investor confidence in Disney's recovery.\"\n    },\n    {\n        \"name\": \"increased_streaming_interest\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.65,\n        \"description\": \"Growing interest in Disney's streaming services during the pandemic may have positively influenced stock performance.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"A technical breakout above key resistance levels could have attracted momentum traders.\"\n    },\n    {\n        \"name\": \"market_volatility\",\n        \"category\": \"liquidity\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.05,\n        \"persistence\": \"short\",\n        \"confidence\": 0.4,\n        \"description\": \"Increased market volatility during this period may have led to some bearish sentiment affecting stock prices.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in stock price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

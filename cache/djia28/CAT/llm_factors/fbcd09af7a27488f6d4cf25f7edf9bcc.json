@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-04-29",
+  "end_date": "2018-05-13",
+  "window_type": "monthly",
+  "price_change_pct": 6.645570408629537,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3529411764705882,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "rising_treasury_yields_2018_05_09",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.6470588235294118,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose to 3.0000 on 2018-05-09, indicating increased investor confidence and contributing to CAT's price increase."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10_year_treasury_rate_3pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [29, 30, 31],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.0000 on 2018-05-09, indicating increased borrowing costs which negatively impacted equity valuations [29, 30, 31].\"\n  },\n  {\n    \"name\": \"argentina_financial_crisis\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41, 42, 43, 44],\n    \"description\": \"The announcement of Argentina seeking financial support from the IMF due to a severe economic crisis created global market uncertainty, impacting investor sentiment [41, 42, 43, 44].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

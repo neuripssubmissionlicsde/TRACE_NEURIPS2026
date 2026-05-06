@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-03-31",
+  "end_date": "2019-04-14",
+  "window_type": "monthly",
+  "price_change_pct": -0.532031845737324,
+  "factors": [
+    {
+      "name": "unemployment_rate_stable_3.7",
+      "category": "macroeconomic",
+      "direction": 0.09999999999999999,
+      "magnitude": 0.25125628140703515,
+      "persistence": "short",
+      "description": "[conf=0.80] The unemployment rate remained stable at 3.7%, indicating a steady labor market which may have supported investor sentiment [16]."
+    },
+    {
+      "name": "treasury_yield_stability",
+      "category": "macroeconomic",
+      "direction": 0.05,
+      "magnitude": 0.22613065326633167,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate showed stability around 2.56%, suggesting a lack of significant market shifts that could impact equity valuations [24][32]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5226130653266332,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_stable_3.7\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [16],\n    \"description\": \"The unemployment rate remained stable at 3.7%, indicating a steady labor market which may have supported investor sentiment [16].\"\n  },\n  {\n    \"name\": \"treasury_yield_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [24, 32],\n    \"description\": \"The 10-Year Treasury Rate showed stability around 2.56%, suggesting a lack of significant market shifts that could impact equity valuations [24][32].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price during the period.\"\n  }\n]"
+}

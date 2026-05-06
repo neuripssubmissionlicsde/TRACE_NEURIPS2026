@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-04-11",
+  "end_date": "2021-04-25",
+  "window_type": "monthly",
+  "price_change_pct": -3.384037932363044,
+  "factors": [
+    {
+      "name": "covid_impact_japan",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.5,
+      "persistence": "medium",
+      "description": "[conf=0.90] The ongoing economic impact of the COVID-19 pandemic in Japan raised concerns about consumer spending and supply chain disruptions, negatively affecting NKE's stock price."
+    },
+    {
+      "name": "rising_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.22727272727272727,
+      "persistence": "short",
+      "description": "[conf=0.80] The increase in the 10-Year Treasury Rate from 1.5600 to 1.5700 during the window contributed to a bearish sentiment in equities, impacting NKE's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2727272727272727,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"covid_impact_japan\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The ongoing economic impact of the COVID-19 pandemic in Japan raised concerns about consumer spending and supply chain disruptions, negatively affecting NKE's stock price.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [18, 26, 34],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 1.5600 to 1.5700 during the window contributed to a bearish sentiment in equities, impacting NKE's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

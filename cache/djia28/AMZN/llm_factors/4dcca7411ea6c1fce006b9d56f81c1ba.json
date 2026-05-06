@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-01-06",
+  "end_date": "2019-01-20",
+  "window_type": "monthly",
+  "price_change_pct": 5.8596602062356755,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    },
+    {
+      "name": "treasury_rate_decline_2019_01_16",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.45,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 2.7300 on January 16 created a favorable environment for equities, contributing to AMZN's price increase."
+    },
+    {
+      "name": "treasury_rate_increase_2019_01_18",
+      "category": "macroeconomic",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate to 2.7900 on January 18 introduced some bearish pressure, partially offsetting the earlier bullish momentum."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2.7300\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 2.7300 on January 8 and 16 contributed to a bullish sentiment in the market, supporting higher equity valuations [9][17].\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2.7900\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.2,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 2.7900 on January 18 created some bearish pressure, as rising rates can negatively impact equity valuations [25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

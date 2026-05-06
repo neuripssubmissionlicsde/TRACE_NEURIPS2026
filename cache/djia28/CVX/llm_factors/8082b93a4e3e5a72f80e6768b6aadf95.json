@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-09",
+  "end_date": "2021-05-23",
+  "window_type": "monthly",
+  "price_change_pct": -5.424873514786906,
+  "factors": [
+    {
+      "name": "vix_spike_2021_05_12",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.45918367346938777,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 27.59 on May 12, indicating increased market fear and contributing to the bearish sentiment around CVX."
+    },
+    {
+      "name": "vix_decline_2021_05_17",
+      "category": "market_sentiment",
+      "direction": 0.4,
+      "magnitude": 0.25510204081632654,
+      "persistence": "transient",
+      "description": "[conf=0.75] A decline in the VIX to 19.72 on May 17 provided a brief bullish sentiment, but was not enough to offset the overall bearish trend."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2857142857142857,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_2021_05_12\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42, 43, 44],\n    \"description\": \"The VIX Volatility Index spiked to 27.59 on May 12, indicating increased market fear and contributing to the bearish sentiment around CVX.\"\n  },\n  {\n    \"name\": \"vix_decline_2021_05_17\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 26, 27],\n    \"description\": \"A decline in the VIX to 19.72 on May 17 provided a brief bullish sentiment, but was not enough to offset the overall bearish trend.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market movements during the period.\"\n  }\n]"
+}

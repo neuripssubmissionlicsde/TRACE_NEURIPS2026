@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-11-06",
+  "end_date": "2022-11-20",
+  "window_type": "monthly",
+  "price_change_pct": 1.0441157569130852,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48717948717948717,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors."
+    },
+    {
+      "name": "vix_volatility_increase_nov_2022",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.5128205128205128,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX increased from 24.11 on November 16 to 26.09 on November 9, indicating rising market uncertainty which likely pressured CVX prices."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_increase_nov_2022\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 41],\n    \"description\": \"The VIX increased from 24.11 on November 16 to 23.12 on November 18, indicating rising market volatility and contributing to bearish sentiment.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors.\"\n  }\n]"
+}

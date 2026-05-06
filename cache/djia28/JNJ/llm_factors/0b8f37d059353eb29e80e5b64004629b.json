@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": -1.7974537895485734,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5843828715365239,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news directly impacted JNJ's price movement."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.36523929471032746,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury yield dropped from 4.2300 to 3.9100 during the window, which typically supports equity valuations and could have provided some upward pressure on JNJ's price."
+    },
+    {
+      "name": "increased_market_volatility",
+      "category": "market_sentiment",
+      "direction": -0.4000000000000001,
+      "magnitude": 0.0503778337531486,
+      "persistence": "transient",
+      "description": "[conf=0.70] The VIX volatility index showed fluctuations, indicating increased market uncertainty, which may have contributed to downward pressure on JNJ's price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news directly impacted JNJ's price movement.\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [9, 10],\n    \"description\": \"The 10-Year Treasury yield dropped from 4.2300 to 3.9100 during the window, which typically supports equity valuations and could have provided some upward pressure on JNJ's price.\"\n  },\n  {\n    \"name\": \"increased_volatility_index\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.00,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.70,\n    \"source_articles\": [27, 35],\n    \"description\": \"The VIX increased slightly during the period, indicating rising market uncertainty, which may have contributed to downward pressure on JNJ's price.\"\n  }\n]"
+}

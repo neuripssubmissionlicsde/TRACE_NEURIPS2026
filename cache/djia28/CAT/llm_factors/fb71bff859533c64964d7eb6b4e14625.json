@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-12-04",
+  "end_date": "2022-12-18",
+  "window_type": "monthly",
+  "price_change_pct": -0.8858741023533716,
+  "factors": [
+    {
+      "name": "inverted_10y_2y_spread",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3968253968253968,
+      "persistence": "medium",
+      "description": "[conf=0.80] The 10Y-2Y Treasury Spread inverted to -0.7900, indicating potential recession fears that could negatively impact investor sentiment [41][45]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6031746031746031,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [5, 9],\n    \"description\": \"The 10-Year Treasury Rate declined from 3.6000 to 3.4400 during the window, suggesting easing financial conditions that may have supported equity valuations [5][9].\"\n  },\n  {\n    \"name\": \"inverted_10y_2y_spread\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [41, 45],\n    \"description\": \"The 10Y-2Y Treasury Spread inverted to -0.7900, indicating potential recession fears that could negatively impact investor sentiment [41][45].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the period.\"\n  }\n]"
+}

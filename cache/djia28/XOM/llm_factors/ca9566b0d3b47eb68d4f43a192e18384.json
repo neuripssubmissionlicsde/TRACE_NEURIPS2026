@@ -1,0 +1,41 @@
+{
+  "start_date": "2022-05-22",
+  "end_date": "2022-06-05",
+  "window_type": "monthly",
+  "price_change_pct": 6.939382766091859,
+  "factors": [
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": 1.0,
+      "magnitude": 0.2978723404255319,
+      "persistence": "short",
+      "description": "[conf=0.60] Increased geopolitical tensions in oil-producing regions may have heightened market sentiment towards energy stocks like XOM."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.06382978723404258,
+      "persistence": "transient",
+      "description": "[conf=0.00] Unexplained random variance in stock price movement."
+    },
+    {
+      "name": "oil_price_increase",
+      "category": "macroeconomic",
+      "direction": 1.0,
+      "magnitude": 0.42553191489361714,
+      "persistence": "short",
+      "description": "[conf=0.70] Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price."
+    },
+    {
+      "name": "strong_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.21276595744680854,
+      "persistence": "short",
+      "description": "[conf=0.50] General bullish sentiment in the stock market during this period likely supported XOM's price increase."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"oil_price_fluctuation\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Rising crude oil prices during this period likely contributed to the bullish movement in XOM's stock price.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Increased geopolitical tensions in oil-producing regions may have heightened market sentiment towards energy stocks like XOM.\"\n    },\n    {\n        \"name\": \"earnings_report_expectations\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Positive market expectations regarding upcoming earnings reports could have driven investor interest in XOM.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"General bullish sentiment in the stock market during this period may have contributed to XOM's price increase.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.0,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.0,\n        \"description\": \"Unexplained random variance in stock price movement.\"\n    }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-10-08",
+  "end_date": "2023-10-22",
+  "window_type": "monthly",
+  "price_change_pct": -4.0853649672683465,
+  "factors": [
+    {
+      "name": "rising_10yr_treasury_rate_4.83",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.5150753768844222,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 4.83% on October 17, contributing to bearish sentiment in the market as higher rates typically increase borrowing costs and reduce consumer spending."
+    },
+    {
+      "name": "rising_10yr_treasury_rate_4.91",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.26381909547738697,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate further increased to 4.91% on October 18, reinforcing concerns about rising interest rates impacting consumer credit and spending."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.22110552763819094,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_10yr_treasury_rate_4.83\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 18],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.83% on October 17, contributing to bearish sentiment in the market as higher rates typically increase borrowing costs and reduce consumer spending.\"\n  },\n  {\n    \"name\": \"rising_10yr_treasury_rate_4.91\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [25],\n    \"description\": \"The 10-Year Treasury Rate further increased to 4.91% on October 18, reinforcing concerns about rising interest rates impacting consumer credit and spending.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

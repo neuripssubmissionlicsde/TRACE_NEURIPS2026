@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-03-03",
+  "end_date": "2019-03-17",
+  "window_type": "monthly",
+  "price_change_pct": 2.5570790642800474,
+  "factors": [
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 0.9333333333333332,
+      "magnitude": 0.21978021978021978,
+      "persistence": "short",
+      "description": "[conf=0.60] A technical breakout above key resistance levels likely attracted buying interest."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.23076923076923073,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that cannot be attributed to observable factors."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.9,
+      "magnitude": 0.5494505494505494,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment driven by overall bullish trends in the tech sector likely contributed to the price increase."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"positive_earnings_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive sentiment surrounding Microsoft's earnings performance contributed to upward price movement.\"\n    },\n    {\n        \"name\": \"tech_sector_strength\",\n        \"category\": \"sector_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Strength in the technology sector during this period likely supported MSFT's price increase.\"\n    },\n    {\n        \"name\": \"market_volatility\",\n        \"category\": \"liquidity\",\n        \"direction\": -1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Increased market volatility may have caused some fluctuations in MSFT's price.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"A technical breakout above key resistance levels likely attracted buying interest.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that cannot be attributed to observable factors.\"\n    }\n]"
+}

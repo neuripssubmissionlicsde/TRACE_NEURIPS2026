@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-15",
+  "end_date": "2019-09-29",
+  "window_type": "monthly",
+  "price_change_pct": -1.231739005944061,
+  "factors": [
+    {
+      "name": "saudi_aramco_drone_attacks",
+      "category": "geopolitical",
+      "direction": -0.78,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] Drone attacks on Saudi Aramco facilities led to a significant surge in oil prices, impacting market sentiment negatively for V [1]."
+    },
+    {
+      "name": "fed_liquidity_injection",
+      "category": "macroeconomic",
+      "direction": 0.32999999999999996,
+      "magnitude": 0.26,
+      "persistence": "short",
+      "description": "[conf=0.80] The Federal Reserve injected over $200 billion into the money market to stabilize liquidity, which provided some support to market sentiment [24]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.19,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"saudi_aramco_drone_attacks\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Drone attacks on Saudi Aramco facilities led to a significant surge in oil prices, impacting market sentiment negatively for V [1].\"\n  },\n  {\n    \"name\": \"fed_liquidity_injection\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [24, 26],\n    \"description\": \"The Federal Reserve injected over $200 billion into the money market to stabilize liquidity, which provided some support to market sentiment [24].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

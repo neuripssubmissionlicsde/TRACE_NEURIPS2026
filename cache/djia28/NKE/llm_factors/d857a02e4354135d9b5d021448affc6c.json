@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-09-12",
+  "end_date": "2021-09-26",
+  "window_type": "monthly",
+  "price_change_pct": -7.409013135558025,
+  "factors": [
+    {
+      "name": "north_korea_south_korea_relations",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.4107142857142857,
+      "persistence": "transient",
+      "description": "[conf=0.85] Increased tensions in North Korea-South Korea relations [9] led to market uncertainty, contributing to NKE's price decline."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.26785714285714285,
+      "persistence": "short",
+      "description": "[conf=0.75] The rise in the 10-Year Treasury Rate to 1.4100 [50] indicated tightening financial conditions, negatively impacting equity valuations including NKE."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32142857142857145,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_south_korea_relations\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"Increased tensions in North Korea-South Korea relations [9] led to market uncertainty, contributing to NKE's price decline.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 50],\n    \"description\": \"The rise in the 10-Year Treasury Rate to 1.4100 [50] indicated tightening financial conditions, negatively impacting equity valuations including NKE.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

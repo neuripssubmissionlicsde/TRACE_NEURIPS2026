@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-06-19",
+  "end_date": "2022-07-03",
+  "window_type": "monthly",
+  "price_change_pct": -2.7619479930790716,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_3.16",
+      "category": "macroeconomic",
+      "direction": -0.55,
+      "magnitude": 0.43237250554323725,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 3.16% on June 22, contributing to bearish sentiment in the equity markets as higher yields typically lead to lower valuations for growth stocks like CSCO."
+    },
+    {
+      "name": "rising_treasury_yields_3.20",
+      "category": "macroeconomic",
+      "direction": -0.43333333333333335,
+      "magnitude": 0.3104212860310422,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate increased to 3.20% on June 27, further pressuring equity prices as investors reacted to tightening monetary conditions."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2572062084257206,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_3.16\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.16% on June 22, contributing to bearish sentiment in the equity markets as higher yields typically lead to lower valuations for growth stocks like CSCO.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_3.20\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 33],\n    \"description\": \"The 10-Year Treasury Rate increased to 3.20% on June 27, further pressuring equity prices as investors reacted to tightening monetary conditions.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting the unpredictable nature of market movements during this period.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-10-22",
+  "end_date": "2023-11-05",
+  "window_type": "monthly",
+  "price_change_pct": 4.827199952262463,
+  "factors": [
+    {
+      "name": "north_korea_russia_relations",
+      "category": "geopolitical",
+      "direction": 0.54,
+      "magnitude": 0.59375,
+      "persistence": "short",
+      "description": "[conf=0.85] Increased tensions and developments in North Korea-Russia relations created a favorable sentiment for NKE, contributing to price appreciation."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.40625,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"north_korea_russia_relations\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9],\n    \"description\": \"Increased tensions and developments in North Korea-Russia relations created a favorable sentiment for NKE, contributing to price appreciation.\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [10, 34],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 4.86% during this period reduced market volatility, supporting NKE's price increase.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

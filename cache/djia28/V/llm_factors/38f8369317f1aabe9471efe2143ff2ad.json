@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-10-27",
+  "end_date": "2019-11-10",
+  "window_type": "monthly",
+  "price_change_pct": 0.022364344935829474,
+  "factors": [
+    {
+      "name": "vix_volatility_index_stability",
+      "category": "macroeconomic",
+      "direction": 0.45999999999999996,
+      "magnitude": 0.36000000000000004,
+      "persistence": "medium",
+      "description": "[conf=0.85] The VIX Volatility Index remained relatively stable, indicating lower market fear and supporting a slight upward price movement [1][9][25]."
+    },
+    {
+      "name": "treasury_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.28,
+      "magnitude": 0.26,
+      "persistence": "medium",
+      "description": "[conf=0.80] The 10-Year Treasury Rate remained stable, suggesting a lack of significant pressure on equity valuations during this period [17][41]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.38,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_index_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 9, 25],\n    \"description\": \"The VIX Volatility Index remained relatively stable, indicating lower market fear and supporting a slight upward price movement [1][9][25].\"\n  },\n  {\n    \"name\": \"treasury_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 41],\n    \"description\": \"The 10-Year Treasury Rate remained stable, suggesting a lack of significant pressure on equity valuations during this period [17][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

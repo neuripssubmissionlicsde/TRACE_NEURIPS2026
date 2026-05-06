@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-04",
+  "end_date": "2018-02-18",
+  "window_type": "monthly",
+  "price_change_pct": 0.877799378355981,
+  "factors": [
+    {
+      "name": "market_selloff_feb_5",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.90] The Wall Street stock market experienced a significant selloff on February 5, shedding 4.6% of its value, which likely impacted CAT's price negatively."
+    },
+    {
+      "name": "rising_treasury_yields_feb_12",
+      "category": "macroeconomic",
+      "direction": -0.3,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate rose to 2.8600 on February 12, indicating increasing borrowing costs that could negatively affect equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_selloff_feb_5\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The Wall Street stock market experienced a significant selloff on February 5, shedding 4.6% of its value, which likely impacted CAT's price negatively.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_feb_12\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [5, 6, 7, 8],\n    \"description\": \"The 10-Year Treasury Rate rose to 2.8600 on February 12, indicating increasing borrowing costs that could negatively affect equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

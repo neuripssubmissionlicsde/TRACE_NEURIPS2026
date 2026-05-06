@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-01-01",
+  "end_date": "2023-01-15",
+  "window_type": "monthly",
+  "price_change_pct": 3.3947369491342276,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5909090909090908,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    },
+    {
+      "name": "treasury_rate_decline_jan_2023",
+      "category": "macroeconomic",
+      "direction": 0.4666666666666666,
+      "magnitude": 0.40909090909090906,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate from 3.7900 to 3.4300 during the period likely boosted investor sentiment towards equities, including IBM."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.60,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_jan_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.40,\n    \"magnitude\": 0.40,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 11, 12, 13, 14, 15, 17],\n    \"description\": \"The decline in the 10-Year Treasury Rate from 3.7900 to 3.4300 during the period likely boosted investor sentiment towards equities, including IBM.\"\n  }\n]"
+}

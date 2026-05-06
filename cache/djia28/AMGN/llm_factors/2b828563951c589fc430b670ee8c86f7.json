@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-11-20",
+  "end_date": "2022-12-04",
+  "window_type": "monthly",
+  "price_change_pct": -1.2383455016145941,
+  "factors": [
+    {
+      "name": "10_year_treasury_rate_decline",
+      "category": "macroeconomic",
+      "direction": -0.38749999999999996,
+      "magnitude": 0.5121951219512195,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined to 3.53%, reflecting changing investor sentiment towards risk assets, contributing to downward pressure on AMGN's price [11, 36]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.48780487804878053,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_hike_4.1pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.85,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1],\n    \"description\": \"The Federal Funds Effective Rate was reported at 4.1%, indicating a tightening monetary policy that negatively impacted equity valuations [1].\"\n  },\n  {\n    \"name\": \"10_year_treasury_rate_decline\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.35,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [11, 36],\n    \"description\": \"The 10-Year Treasury Rate declined to 3.53%, reflecting changing investor sentiment towards risk assets, contributing to downward pressure on AMGN's price [11, 36].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in market sentiment.\"\n  }\n]"
+}

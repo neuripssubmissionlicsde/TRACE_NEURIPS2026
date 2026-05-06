@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-18",
+  "window_type": "monthly",
+  "price_change_pct": 4.123993723251141,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.29447852760736193,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed some volatility without a clear single driver."
+    },
+    {
+      "name": "rising_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.2333333333333333,
+      "magnitude": 0.4601226993865031,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 3.7900 to 3.8300 during the window, contributing to bearish sentiment in the equity markets [1][4]."
+    },
+    {
+      "name": "new_zealand_recession",
+      "category": "geopolitical",
+      "direction": -0.3666666666666667,
+      "magnitude": 0.24539877300613497,
+      "persistence": "transient",
+      "description": "[conf=0.75] News of New Zealand entering a recession raised concerns about global economic conditions, impacting investor sentiment [31]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_3.83\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [4, 16],\n    \"description\": \"The 10-Year Treasury Rate rose to 3.83% on June 14, indicating increased investor confidence in economic growth, which likely supported WMT's price increase [4][16].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed some volatility without a clear single driver.\"\n  }\n]"
+}

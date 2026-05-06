@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-05-09",
+  "end_date": "2021-05-23",
+  "window_type": "monthly",
+  "price_change_pct": -2.5708226495290107,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.6945337620578778,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no clear dominant driver was present during this period."
+    },
+    {
+      "name": "dogecoin_musk_announcement",
+      "category": "geopolitical",
+      "direction": -0.0625,
+      "magnitude": 0.30546623794212213,
+      "persistence": "transient",
+      "description": "[conf=0.75] Elon Musk's announcement regarding Dogecoin acceptance for a SpaceX mission may have influenced market sentiment positively, albeit indirectly."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.55,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no clear dominant driver was present during this period.\"\n  },\n  {\n    \"name\": \"dogecoin_musk_announcement\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [41],\n    \"description\": \"Elon Musk's announcement regarding Dogecoin acceptance for a SpaceX mission may have influenced market sentiment positively, albeit indirectly.\"\n  },\n  {\n    \"name\": \"stable_treasury_rates\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.15,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 5],\n    \"description\": \"The stability of the 10-Year Treasury Rate around 1.6300 during this period may have contributed to a cautious market environment.\"\n  },\n  {\n    \"name\": \"market_sentiment_consolidation\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.0,\n    \"persistence\": \"short\",\n    \"confidence\": 0.0,\n    \"source_articles\": [],\n    \"description\": \"The market exhibited signs of consolidation with mixed signals, leading to a lack of clear direction.\"\n  }\n]"
+}

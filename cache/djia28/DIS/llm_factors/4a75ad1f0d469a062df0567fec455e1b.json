@@ -1,0 +1,49 @@
+{
+  "start_date": "2023-01-29",
+  "end_date": "2023-02-12",
+  "window_type": "monthly",
+  "price_change_pct": -0.18474203486582927,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.31999999999999995,
+      "magnitude": 0.28846153846153844,
+      "persistence": "short",
+      "description": "[conf=0.60] General market sentiment was cautious during this period, contributing to slight bearish pressure."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.18,
+      "magnitude": 0.19230769230769232,
+      "persistence": "short",
+      "description": "[conf=0.50] Concerns regarding Disney's recent earnings report and future guidance may have influenced investor sentiment."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.14,
+      "magnitude": 0.11538461538461538,
+      "persistence": "transient",
+      "description": "[conf=0.40] Technical indicators suggested a potential reversal, which may have led to some selling pressure."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": 0.10000000000000002,
+      "magnitude": 0.09615384615384617,
+      "persistence": "short",
+      "description": "[conf=0.50] Average daily volume was relatively high, indicating sufficient liquidity for trading."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.30769230769230765,
+      "persistence": "transient",
+      "description": "[conf=0.70] Random market fluctuations contributed to unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was cautious during this period, contributing to slight bearish pressure.\"\n    },\n    {\n        \"name\": \"company_specific\",\n        \"category\": \"company_specific\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Concerns regarding Disney's recent earnings report and future guidance may have influenced investor sentiment.\"\n    },\n    {\n        \"name\": \"technical\",\n        \"category\": \"technical\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Technical indicators suggested a potential reversal, which may have led to some selling pressure.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Average daily volume was relatively high, indicating sufficient liquidity for trading.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.7,\n        \"description\": \"Random market fluctuations contributed to unexplained price movements.\"\n    }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-05-23",
+  "end_date": "2021-06-06",
+  "window_type": "monthly",
+  "price_change_pct": -5.47173970961704,
+  "factors": [
+    {
+      "name": "fed_rate_stability_0.08",
+      "category": "macroeconomic",
+      "direction": 0.0,
+      "magnitude": 0.24509803921568626,
+      "persistence": "long",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.08%, indicating no immediate monetary tightening, which contributed to a neutral market sentiment."
+    },
+    {
+      "name": "treasury_yield_fluctuation",
+      "category": "macroeconomic",
+      "direction": -0.45999999999999996,
+      "magnitude": 0.37254901960784315,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate fluctuated, peaking at 1.63% and dropping to 1.56%, which likely influenced investor sentiment negatively towards equities."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3823529411764706,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_rate_stability_0.08\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"long\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.08%, indicating no immediate monetary tightening, which contributed to a neutral market sentiment.\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [6, 11, 31, 36],\n    \"description\": \"The 10-Year Treasury Rate fluctuated, peaking at 1.63% and dropping to 1.56%, which likely influenced investor sentiment negatively towards equities.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the period.\"\n  }\n]"
+}

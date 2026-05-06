@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-03-26",
+  "end_date": "2023-04-09",
+  "window_type": "monthly",
+  "price_change_pct": 1.52747450347473,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2023_04_06",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.673076923076923,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate fell from 3.57% on March 29 to 3.30% on April 6, contributing to a favorable borrowing environment and supporting asset prices [33][34]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3269230769230769,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_2023_03_30\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 33],\n    \"description\": \"The VIX Volatility Index declined from 20.60 on March 27 to 19.02 on March 30, indicating reduced market fear and supporting upward price movement [9][10][33].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_04_06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [33, 34],\n    \"description\": \"The 10-Year Treasury Rate fell from 3.57% on March 29 to 3.30% on April 6, contributing to a favorable borrowing environment and supporting asset prices [33][34].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

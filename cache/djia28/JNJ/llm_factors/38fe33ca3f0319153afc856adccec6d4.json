@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-02-18",
+  "end_date": "2018-03-04",
+  "window_type": "monthly",
+  "price_change_pct": -2.4272584385869225,
+  "factors": [
+    {
+      "name": "rising_vix_volatility_index",
+      "category": "market_sentiment",
+      "direction": -0.5,
+      "magnitude": 0.37,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index rose significantly, indicating increased market uncertainty and contributing to downward pressure on JNJ's stock price [31][41]."
+    },
+    {
+      "name": "declining_treasury_yields",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate declined during the period, reflecting market concerns about economic growth, which negatively impacted JNJ's stock [5][13]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.36,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in JNJ's stock price."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_vix_volatility_index\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [31, 41],\n    \"description\": \"The VIX Volatility Index rose significantly, indicating increased market uncertainty and contributing to downward pressure on JNJ's stock price [31][41].\"\n  },\n  {\n    \"name\": \"declining_treasury_yields\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 13],\n    \"description\": \"The 10-Year Treasury Rate declined during the period, reflecting market concerns about economic growth, which negatively impacted JNJ's stock [5][13].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in JNJ's stock price.\"\n  }\n]"
+}

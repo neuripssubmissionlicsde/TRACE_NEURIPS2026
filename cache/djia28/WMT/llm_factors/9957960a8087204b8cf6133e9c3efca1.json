@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-08-28",
+  "end_date": "2022-09-11",
+  "window_type": "monthly",
+  "price_change_pct": 4.593752556780289,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_3.29",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.7333333333333334,
+      "persistence": "medium",
+      "description": "[conf=0.85] The 10-Year Treasury yield rose to 3.29% by September 8, indicating increased borrowing costs and tightening financial conditions, which negatively impacted equity valuations [13]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26666666666666666,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_3.29\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [13, 22, 25],\n    \"description\": \"The 10-Year Treasury yield rose to 3.29% by September 8, indicating increased borrowing costs and tightening financial conditions, which negatively impacted equity valuations [13].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [28, 29],\n    \"description\": \"The unemployment rate remained stable at 3.5%, suggesting a resilient labor market that supported consumer spending expectations [28].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements during the period.\"\n  }\n]"
+}

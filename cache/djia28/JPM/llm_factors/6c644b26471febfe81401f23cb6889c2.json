@@ -1,0 +1,41 @@
+{
+  "start_date": "2019-07-21",
+  "end_date": "2019-08-04",
+  "window_type": "monthly",
+  "price_change_pct": 0.017706146692689512,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.1,
+      "magnitude": 0.3125,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment during this period was cautiously optimistic, contributing to slight upward pressure on JPM's price."
+    },
+    {
+      "name": "technical_consolidation",
+      "category": "technical",
+      "direction": 0.0,
+      "magnitude": 0.20833333333333334,
+      "persistence": "short",
+      "description": "[conf=0.70] JPM's price movement exhibited characteristics of consolidation, with limited volatility and range-bound trading."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": 0.025,
+      "magnitude": 0.10416666666666667,
+      "persistence": "short",
+      "description": "[conf=0.50] Average daily volume was relatively high, indicating sufficient liquidity but not a strong directional influence on price."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.37500000000000006,
+      "persistence": "transient",
+      "description": "[conf=0.80] A significant portion of price movement can be attributed to random noise, reflecting typical market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 0.1,\n        \"magnitude\": 0.3,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment during this period was cautiously optimistic, contributing to slight upward pressure on JPM's price.\"\n    },\n    {\n        \"name\": \"technical_consolidation\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"JPM's price movement exhibited characteristics of consolidation, with limited volatility and range-bound trading.\"\n    },\n    {\n        \"name\": \"liquidity\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Average daily volume was relatively high, indicating sufficient liquidity but not a strong directional influence on price.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.8,\n        \"description\": \"A significant portion of price movement can be attributed to random noise, reflecting typical market fluctuations.\"\n    }\n]"
+}

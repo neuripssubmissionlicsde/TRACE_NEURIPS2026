@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-08-19",
+  "end_date": "2018-09-02",
+  "window_type": "monthly",
+  "price_change_pct": -4.520133111725531,
+  "factors": [
+    {
+      "name": "argentina_interest_rate_hike_60pct",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.4623115577889447,
+      "persistence": "medium",
+      "description": "[conf=0.85] Argentina hiked interest rates to 60%, causing global market concerns and impacting investor sentiment [16][19]."
+    },
+    {
+      "name": "saudi_aramco_ipohalt",
+      "category": "geopolitical",
+      "direction": -0.4,
+      "magnitude": 0.27638190954773867,
+      "persistence": "transient",
+      "description": "[conf=0.75] The halt of the Saudi Aramco IPO raised concerns about global oil supply and market stability [1][2]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.26130653266331655,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"argentina_interest_rate_hike_60pct\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [16, 19],\n    \"description\": \"Argentina hiked interest rates to 60%, causing global market concerns and impacting investor sentiment [16][19].\"\n  },\n  {\n    \"name\": \"saudi_aramco_ipohalt\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2],\n    \"description\": \"The halt of the Saudi Aramco IPO raised concerns about global oil supply and market stability [1][2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

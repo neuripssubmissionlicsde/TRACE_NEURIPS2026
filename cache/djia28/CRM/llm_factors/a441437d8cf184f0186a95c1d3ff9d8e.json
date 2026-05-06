@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-04-26",
+  "end_date": "2020-05-10",
+  "window_type": "monthly",
+  "price_change_pct": 13.089886922551782,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3497757847533632,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "unemployment_rate_spike",
+      "category": "macroeconomic",
+      "direction": -0.6333333333333333,
+      "magnitude": 0.6502242152466368,
+      "persistence": "medium",
+      "description": "[conf=0.85] The unemployment rate surged to 13.2% on May 1, raising concerns about economic recovery and impacting market sentiment [41]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"unemployment_rate_spike_13.2\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [41, 42, 43, 44, 45, 46, 47, 48],\n    \"description\": \"The unemployment rate surged to 13.2% on May 1, raising concerns about economic recovery and negatively impacting market sentiment [41].\"\n  },\n  {\n    \"name\": \"treasury_yield_increase_0.72\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [17, 18, 19, 20, 21, 22, 23, 24],\n    \"description\": \"The 10-Year Treasury yield rose to 0.72% on May 6, indicating a shift in investor sentiment towards riskier assets, which may have supported CRM's price increase [17].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

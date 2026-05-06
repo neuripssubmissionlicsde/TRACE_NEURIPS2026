@@ -1,0 +1,49 @@
+{
+  "start_date": "2021-02-28",
+  "end_date": "2021-03-14",
+  "window_type": "monthly",
+  "price_change_pct": -0.06356934218624735,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.12,
+      "magnitude": 0.26294820717131473,
+      "persistence": "transient",
+      "description": "[conf=0.60] General market sentiment was cautious due to ongoing economic uncertainties."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.23904382470119523,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations contributed to unexplained price variance."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": -0.11666666666666668,
+      "magnitude": 0.2589641434262948,
+      "persistence": "short",
+      "description": "[conf=0.50] MSFT's performance was influenced by mixed earnings reports from tech companies."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": -0.10000000000000002,
+      "magnitude": 0.11952191235059764,
+      "persistence": "transient",
+      "description": "[conf=0.40] Technical indicators suggested overbought conditions, leading to profit-taking."
+    },
+    {
+      "name": "liquidity",
+      "category": "liquidity",
+      "direction": 0.08333333333333333,
+      "magnitude": 0.11952191235059764,
+      "persistence": "short",
+      "description": "[conf=0.50] Liquidity in the market remained stable, supporting price levels."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.6,\n        \"description\": \"General market sentiment was cautious due to ongoing economic uncertainties.\"\n    },\n    {\n        \"name\": \"technical_correction\",\n        \"category\": \"technical\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"The stock experienced a technical correction after reaching recent highs.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.1,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Liquidity conditions were slightly tighter, impacting trading volumes.\"\n    },\n    {\n        \"name\": \"consolidation\",\n        \"category\": \"technical\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.8,\n        \"description\": \"The stock was in a consolidation phase, showing limited price movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations contributed to unexplained price variance.\"\n    }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-04-12",
+  "end_date": "2020-04-26",
+  "window_type": "monthly",
+  "price_change_pct": -2.8677371945659966,
+  "factors": [
+    {
+      "name": "vix_volatility_spike_april_2020",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.44554455445544555,
+      "persistence": "short",
+      "description": "[conf=0.85] The VIX Volatility Index spiked to 38.15 on April 17, indicating increased market fear and contributing to downward pressure on asset prices [9]."
+    },
+    {
+      "name": "stable_treasury_rate_april_2020",
+      "category": "macroeconomic",
+      "direction": 0.1,
+      "magnitude": 0.19801980198019803,
+      "persistence": "long",
+      "description": "[conf=0.70] The 10-Year Treasury Rate remained stable at 0.6300 during the period, indicating a lack of significant macroeconomic shifts that could drive prices higher or lower [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3564356435643564,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market behavior during this period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_spike_april_2020\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10],\n    \"description\": \"The VIX Volatility Index spiked to 38.15 on April 17, indicating increased market fear and contributing to downward pressure on asset prices [9].\"\n  },\n  {\n    \"name\": \"stable_treasury_rate_april_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.15,\n    \"persistence\": \"long\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 41],\n    \"description\": \"The 10-Year Treasury Rate remained stable at 0.6300 during the period, indicating a lack of significant macroeconomic shifts that could drive prices higher or lower [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market behavior during this period.\"\n  }\n]"
+}

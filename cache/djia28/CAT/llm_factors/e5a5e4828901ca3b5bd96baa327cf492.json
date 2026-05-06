@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-12-19",
+  "end_date": "2022-01-02",
+  "window_type": "monthly",
+  "price_change_pct": 4.651996655932067,
+  "factors": [
+    {
+      "name": "fed_funds_rate_stability",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5352798053527981,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Federal Funds Effective Rate remained stable at 0.08%, contributing to a favorable borrowing environment and supporting equity valuations [1]."
+    },
+    {
+      "name": "rising_10_year_treasury_yield",
+      "category": "macroeconomic",
+      "direction": -0.22499999999999998,
+      "magnitude": 0.27980535279805346,
+      "persistence": "short",
+      "description": "[conf=0.75] The 10-Year Treasury Rate increased from 1.43% to 1.55%, indicating rising borrowing costs which typically pressure equity prices [5, 9]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.18491484184914844,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the holiday period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.08%, contributing to a favorable borrowing environment and supporting equity valuations [1].\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_yield\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [5, 9, 13, 37],\n    \"description\": \"The 10-Year Treasury Rate increased from 1.43% to 1.55%, indicating rising borrowing costs which typically pressure equity prices [5, 9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the holiday period.\"\n  }\n]"
+}

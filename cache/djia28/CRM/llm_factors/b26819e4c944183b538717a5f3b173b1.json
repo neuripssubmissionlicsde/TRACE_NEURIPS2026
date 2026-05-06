@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-29",
+  "end_date": "2019-10-13",
+  "window_type": "monthly",
+  "price_change_pct": 0.9597810707070201,
+  "factors": [
+    {
+      "name": "greece_negative_interest_rate",
+      "category": "geopolitical",
+      "direction": 0.5,
+      "magnitude": 0.3547297297297297,
+      "persistence": "transient",
+      "description": "[conf=0.80] Greece issued new three-month debt at a negative interest rate [9], which may have contributed to a favorable sentiment in the market, influencing CRM's price positively."
+    },
+    {
+      "name": "declining_10_year_treasury_rate",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.32094594594594594,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 1.68% to 1.56% during the window [1, 25], which typically supports equity valuations and may have positively impacted CRM's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.32432432432432434,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"greece_negative_interest_rate\",\n    \"category\": \"geopolitical\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.80,\n    \"source_articles\": [9, 10],\n    \"description\": \"Greece issued new three-month debt at a negative interest rate [9], which may have contributed to a favorable sentiment in the market, influencing CRM's price positively.\"\n  },\n  {\n    \"name\": \"declining_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 25],\n    \"description\": \"The 10-Year Treasury Rate declined from 1.68% to 1.56% during the window [1, 25], which typically supports equity valuations and may have positively impacted CRM's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

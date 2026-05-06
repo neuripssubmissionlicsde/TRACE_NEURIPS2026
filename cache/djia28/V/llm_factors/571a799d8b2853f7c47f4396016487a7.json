@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-08-02",
+  "end_date": "2020-08-16",
+  "window_type": "monthly",
+  "price_change_pct": 2.678455057533697,
+  "factors": [
+    {
+      "name": "indonesia_economic_contraction_q2_2020",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.5373134328358209,
+      "persistence": "medium",
+      "description": "[conf=0.90] The Indonesian economy contracted by 5.32% in Q2 2020, raising concerns about economic stability and impacting investor sentiment [1]."
+    },
+    {
+      "name": "treasury_rate_decline_2020_08_06",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.26119402985074625,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury Rate declined to 0.55% on August 6, 2020, indicating lower borrowing costs and potentially boosting equity valuations [19]."
+    },
+    {
+      "name": "vix_stability_2020_08_10",
+      "category": "market_sentiment",
+      "direction": 0.2,
+      "magnitude": 0.16169154228855717,
+      "persistence": "short",
+      "description": "[conf=0.75] The VIX remained stable at 22.13, suggesting reduced market fear and contributing to a more favorable trading environment [35]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.03980099502487562,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"indonesia_economic_contraction_q2_2020\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [1, 2, 3, 4, 5],\n    \"description\": \"The Indonesian economy contracted by 5.32% in Q2 2020, raising concerns about economic stability and impacting investor sentiment [1].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2020_08_06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [19, 20, 21],\n    \"description\": \"The 10-Year Treasury Rate declined to 0.55% on August 6, 2020, indicating lower borrowing costs and potentially boosting equity valuations [19].\"\n  },\n  {\n    \"name\": \"vix_stability_2020_08_10\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.15,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [35, 36, 37],\n    \"description\": \"The VIX remained stable at 22.13, suggesting reduced market fear and contributing to a more favorable trading environment [35].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.05,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors.\"\n  }\n]"
+}

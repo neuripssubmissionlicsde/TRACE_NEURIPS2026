@@ -1,0 +1,25 @@
+{
+  "start_date": "2022-09-11",
+  "end_date": "2022-09-25",
+  "window_type": "monthly",
+  "price_change_pct": -9.113572599508306,
+  "factors": [
+    {
+      "name": "cpi_release_august_2022",
+      "category": "macroeconomic",
+      "direction": -0.8100000000000002,
+      "magnitude": 0.55,
+      "persistence": "short",
+      "description": "[conf=0.95] The release of the Bureau of Labor Statistics consumer price index for August led to a significant drop in the Dow Jones Industrial Average, impacting all stocks including MMM."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.45,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting overall market uncertainty during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_august_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.95,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The release of the Bureau of Labor Statistics consumer price index for August led to a significant drop in the Dow Jones Industrial Average, impacting all stocks including MMM.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting overall market uncertainty during the period.\"\n  }\n]"
+}

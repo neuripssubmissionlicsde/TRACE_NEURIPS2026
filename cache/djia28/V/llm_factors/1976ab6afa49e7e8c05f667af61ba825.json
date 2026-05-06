@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-05-21",
+  "end_date": "2023-06-04",
+  "window_type": "monthly",
+  "price_change_pct": -1.937327753492478,
+  "factors": [
+    {
+      "name": "vix_spike_may_25",
+      "category": "market_sentiment",
+      "direction": -0.6,
+      "magnitude": 0.41343669250646004,
+      "persistence": "short",
+      "description": "[conf=0.85] A spike in the VIX Volatility Index to 19.14 on May 25 indicated increased market fear, contributing to downward pressure on asset V [17][41]."
+    },
+    {
+      "name": "vix_decline_june_2",
+      "category": "market_sentiment",
+      "direction": 0.32499999999999996,
+      "magnitude": 0.24547803617571057,
+      "persistence": "short",
+      "description": "[conf=0.75] The decline of the VIX to 14.6 on June 2 suggested a temporary easing of market fears, which could have provided some support to asset V [25]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.34108527131782945,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_spike_may_25\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 41],\n    \"description\": \"A spike in the VIX Volatility Index to 19.14 on May 25 indicated increased market fear, contributing to downward pressure on asset V [17][41].\"\n  },\n  {\n    \"name\": \"vix_decline_june_2\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25],\n    \"description\": \"The decline of the VIX to 14.6 on June 2 suggested a temporary easing of market fears, which could have provided some support to asset V [25].\"\n  },\n  {\n    \"name\": \"unemployment_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.1,\n    \"magnitude\": 0.15,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.70,\n    \"source_articles\": [9],\n    \"description\": \"The stable unemployment rate at 3.6% reported on June 1 indicated a resilient labor market, which may have provided a slight bullish sentiment [9].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting unpredictable market dynamics during the period.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-08-16",
+  "end_date": "2020-08-30",
+  "window_type": "monthly",
+  "price_change_pct": 7.206780743396604,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_2020_august",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.5238095238095238,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 0.6800 to 0.7400 during the period, indicating rising yields which typically support equity valuations."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23809523809523808,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    },
+    {
+      "name": "market_sentiment_tech_growth",
+      "category": "market_sentiment",
+      "direction": 0.4000000000000001,
+      "magnitude": 0.23809523809523808,
+      "persistence": "short",
+      "description": "[conf=0.80] Positive sentiment surrounding technology stocks contributed to AMZN's price increase, reflecting broader market trends favoring growth equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2020_august\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The 10-Year Treasury Rate increased from 0.6800 to 0.7400 during the period, indicating rising yields which typically support equity valuations.\"\n  },\n  {\n    \"name\": \"market_sentiment_positive\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"General positive market sentiment during this period contributed to upward price movement, despite no specific news articles detailing this.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

@@ -1,0 +1,33 @@
+{
+  "start_date": "2019-09-15",
+  "end_date": "2019-09-29",
+  "window_type": "monthly",
+  "price_change_pct": -2.2354124898351526,
+  "factors": [
+    {
+      "name": "fed_liquidity_injection",
+      "category": "macroeconomic",
+      "direction": 0.32499999999999996,
+      "magnitude": 0.2849740932642487,
+      "persistence": "medium",
+      "description": "[conf=0.80] The Federal Reserve injected over $200 billion into the money market to stabilize liquidity, which provided some support to equity markets [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.24870466321243526,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "saudi_aramco_drone_attacks",
+      "category": "geopolitical",
+      "direction": -0.6,
+      "magnitude": 0.46632124352331605,
+      "persistence": "short",
+      "description": "[conf=0.90] Drone attacks on Saudi Aramco facilities caused a significant spike in oil prices, impacting market sentiment negatively [9][10][11]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"drone_attacks_saudi_aramco\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.90,\n    \"source_articles\": [9, 10, 11],\n    \"description\": \"Drone attacks on Saudi Aramco facilities caused a significant spike in oil prices, leading to broader market concerns and negatively impacting CRM's stock price [9].\"\n  },\n  {\n    \"name\": \"fed_liquidity_injection\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.80,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Federal Reserve injected over $200 billion into the money market to stabilize liquidity, which provided some support to equity markets [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

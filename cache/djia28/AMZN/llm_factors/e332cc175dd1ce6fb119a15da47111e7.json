@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": 2.9506078087857586,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_2023_07_10",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.43,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 4.0100 on July 10 [9] likely boosted investor sentiment, contributing to AMZN's price increase [25]."
+    },
+    {
+      "name": "treasury_rate_decline_2023_07_14",
+      "category": "macroeconomic",
+      "direction": 0.4,
+      "magnitude": 0.27,
+      "persistence": "short",
+      "description": "[conf=0.80] The further decline in the 10-Year Treasury Rate to 3.8300 on July 14 [49] may have reinforced bullish sentiment in the market, supporting AMZN's price movement."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating stochastic price movements during the period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_2023_07_10\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 25],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 4.0100 on July 10 [9] likely boosted investor sentiment, contributing to AMZN's price increase [25].\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_07_14\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [49],\n    \"description\": \"The further decline in the 10-Year Treasury Rate to 3.8300 on July 14 [49] may have reinforced bullish sentiment in the market, supporting AMZN's price movement.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating stochastic price movements during the period.\"\n  }\n]"
+}

@@ -1,0 +1,41 @@
+{
+  "start_date": "2020-01-05",
+  "end_date": "2020-01-19",
+  "window_type": "monthly",
+  "price_change_pct": 1.2009679214789803,
+  "factors": [
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": 0.8,
+      "magnitude": 0.3523489932885906,
+      "persistence": "short",
+      "description": "[conf=0.70] Positive market sentiment driven by overall bullish trends in the financial sector during this period."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.11073825503355703,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in price movement that does not correlate with observable factors."
+    },
+    {
+      "name": "company_specific",
+      "category": "company_specific",
+      "direction": 0.5666666666666668,
+      "magnitude": 0.3355704697986577,
+      "persistence": "short",
+      "description": "[conf=0.60] JPMorgan Chase's strong performance and positive outlook contributed to upward price movement."
+    },
+    {
+      "name": "technical",
+      "category": "technical",
+      "direction": 0.5,
+      "magnitude": 0.20134228187919465,
+      "persistence": "transient",
+      "description": "[conf=0.50] Technical indicators showed bullish signals, attracting momentum traders."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Positive market sentiment driven by overall bullish trends in the financial sector during this period.\"\n    },\n    {\n        \"name\": \"company_specific_performance\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"JPM's strong performance metrics and positive outlook contributed to investor confidence.\"\n    },\n    {\n        \"name\": \"technical_breakout\",\n        \"category\": \"technical\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"JPM's price movement above key resistance levels may have attracted technical traders.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in price movement that does not correlate with observable factors.\"\n    }\n]"
+}

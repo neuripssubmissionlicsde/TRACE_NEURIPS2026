@@ -1,0 +1,17 @@
+{
+  "start_date": "2023-07-02",
+  "end_date": "2023-07-16",
+  "window_type": "monthly",
+  "price_change_pct": 1.16277370809858,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 1.0,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as no significant news events directly influenced price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.50,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as no significant news events directly influenced price movements.\"\n  },\n  {\n    \"name\": \"rising_treasury_yields_july_2023\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.30,\n    \"magnitude\": 0.30,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 25, 41],\n    \"description\": \"The 10-Year Treasury Rate rose to 4.01% on July 10 and further decreased to 3.76% by July 13, impacting investor sentiment and leading to a cautious approach towards equities.\"\n  },\n  {\n    \"name\": \"geopolitical_tensions_hong_kong_japan\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.20,\n    \"magnitude\": 0.20,\n    \"persistence\": \"short\",\n    \"confidence\": 0.70,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"Increased geopolitical tensions regarding foreign relations in Hong Kong and Japan created uncertainty, contributing to a bearish sentiment in the market.\"\n  }\n]"
+}

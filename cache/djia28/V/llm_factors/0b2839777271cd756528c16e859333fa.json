@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-08-01",
+  "end_date": "2021-08-15",
+  "window_type": "monthly",
+  "price_change_pct": -5.390213151862352,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.23076923076923075,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "rising_treasury_yields_2021_08_10",
+      "category": "macroeconomic",
+      "direction": -0.5666666666666668,
+      "magnitude": 0.5128205128205128,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate rose to 1.36% on August 10, indicating increased borrowing costs which negatively impacted equity valuations [25]."
+    },
+    {
+      "name": "vix_volatility_increase_2021_08_06",
+      "category": "market_sentiment",
+      "direction": -0.3666666666666667,
+      "magnitude": 0.2564102564102564,
+      "persistence": "transient",
+      "description": "[conf=0.75] The VIX Volatility Index increased to 16.15 on August 6, reflecting heightened market uncertainty and contributing to downward pressure on asset prices [17]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_volatility_index_stability\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17],\n    \"description\": \"The VIX Volatility Index was reported at 16.15 on 2021-08-06, indicating a stable market environment that may have contributed to the bearish sentiment.\"\n  },\n  {\n    \"name\": \"rising_10_year_treasury_rate\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.45,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.90,\n    \"source_articles\": [25, 33],\n    \"description\": \"The 10-Year Treasury Rate rose to 1.36% by 2021-08-10, which typically signals higher borrowing costs and can negatively impact equity valuations.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-06-04",
+  "end_date": "2023-06-18",
+  "window_type": "monthly",
+  "price_change_pct": -0.7510296943905468,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5089285714285714,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "vix_decline_2023_06_14",
+      "category": "market_sentiment",
+      "direction": 0.5,
+      "magnitude": 0.4910714285714286,
+      "persistence": "short",
+      "description": "[conf=0.80] The VIX Volatility Index declined to 13.88 on 2023-06-14, indicating reduced market fear and contributing to a more favorable sentiment for equities."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"vix_decline_13.88\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 41],\n    \"description\": \"The VIX Volatility Index declined to 13.88 on June 14, indicating reduced market fear and supporting a bullish sentiment for equities [9, 10].\"\n  },\n  {\n    \"name\": \"vix_stability_15.01\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.2,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The VIX remained stable around 15.01 on June 12, suggesting a period of low volatility and contributing to a cautious market outlook [1, 2].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

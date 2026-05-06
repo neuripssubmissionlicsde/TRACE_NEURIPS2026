@@ -1,0 +1,33 @@
+{
+  "start_date": "2020-03-29",
+  "end_date": "2020-04-12",
+  "window_type": "monthly",
+  "price_change_pct": 8.886141199564907,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.21501706484641636,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    },
+    {
+      "name": "rising_unemployment_rate_april_2020",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3924914675767918,
+      "persistence": "short",
+      "description": "[conf=0.85] The unemployment rate surged to 14.8% [31], raising concerns about consumer spending and economic stability, which negatively impacted market sentiment."
+    },
+    {
+      "name": "declining_treasury_yields_april_2020",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3924914675767918,
+      "persistence": "short",
+      "description": "[conf=0.80] The 10-Year Treasury yield fell to 0.63% [4], indicating lower borrowing costs and supporting equity valuations, which contributed to the price increase."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"surge_in_grocery_demand_covid19\",\n    \"category\": \"sector_specific\",\n    \"direction\": 0.8,\n    \"magnitude\": 0.55,\n    \"persistence\": \"long\",\n    \"confidence\": 0.90,\n    \"source_articles\": [],\n    \"description\": \"Increased consumer demand for grocery items due to COVID-19 pandemic led to significant sales growth for WMT.\"\n  },\n  {\n    \"name\": \"federal_reserve_rate_cut\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [28, 31],\n    \"description\": \"Federal Reserve's decision to lower the Federal Funds Effective Rate to 0.05% [28] contributed to a favorable borrowing environment, supporting retail spending [31].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

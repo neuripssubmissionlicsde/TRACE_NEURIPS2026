@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-01-07",
+  "end_date": "2018-01-21",
+  "window_type": "monthly",
+  "price_change_pct": 5.012506448083054,
+  "factors": [
+    {
+      "name": "rising_treasury_yields_january_2018",
+      "category": "macroeconomic",
+      "direction": 0.6499999999999999,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased from 2.5500 to 2.6200 during the window, indicating rising yields which typically support equity prices as investors seek higher returns."
+    },
+    {
+      "name": "market_sentiment_positive_trend",
+      "category": "market_sentiment",
+      "direction": 0.3333333333333333,
+      "magnitude": 0.22727272727272727,
+      "persistence": "short",
+      "description": "[conf=0.75] Overall positive market sentiment during this period contributed to the upward price movement, as evidenced by the lack of negative news impacting HD."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.2727272727272727,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating some unexplained price movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_january_2018\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.7,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 10, 25],\n    \"description\": \"The 10-Year Treasury Rate increased from 2.5500 to 2.6200 during the window, indicating rising yields which typically support equity prices as investors seek higher returns.\"\n  },\n  {\n    \"name\": \"market_sentiment_positive_trend\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Overall positive market sentiment during this period contributed to the upward price movement, as evidenced by the lack of negative news impacting HD.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.20,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating some unexplained price movements.\"\n  }\n]"
+}

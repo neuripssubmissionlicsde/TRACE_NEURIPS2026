@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-12-19",
+  "end_date": "2022-01-02",
+  "window_type": "monthly",
+  "price_change_pct": 1.6967419019893455,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4549763033175355,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements during the holiday period."
+    },
+    {
+      "name": "treasury_rate_increase_dec21",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.5450236966824644,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 1.4800 on December 21, which may have contributed to a bullish sentiment in the market as investors adjusted their expectations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"fed_funds_rate_stability\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [25, 26],\n    \"description\": \"The Federal Funds Effective Rate remained stable at 0.08%, indicating a supportive monetary environment for equities [25].\"\n  },\n  {\n    \"name\": \"treasury_yield_fluctuation\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.3,\n    \"magnitude\": 0.3,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [33, 49],\n    \"description\": \"The 10-Year Treasury Rate fluctuated, reaching 1.55% by December 29, which may have influenced investor sentiment towards equities [49].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.3,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements during the holiday period.\"\n  }\n]"
+}

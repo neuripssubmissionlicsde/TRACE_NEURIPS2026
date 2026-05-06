@@ -1,0 +1,33 @@
+{
+  "start_date": "2021-06-06",
+  "end_date": "2021-06-20",
+  "window_type": "monthly",
+  "price_change_pct": -2.7352992186431013,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.30379746835443033,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    },
+    {
+      "name": "declining_treasury_yields_2021_06_11",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.3481012658227848,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 1.4700 on 2021-06-11 contributed to a temporary bullish sentiment in equities, including HD [9], [17]."
+    },
+    {
+      "name": "rising_treasury_yields_2021_06_16",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.3481012658227848,
+      "persistence": "short",
+      "description": "[conf=0.85] The increase in the 10-Year Treasury Rate to 1.5700 on 2021-06-16 created bearish pressure on equities, including HD, as higher yields typically reduce equity valuations [25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"declining_treasury_yields_june_2021\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.35,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17, 41],\n    \"description\": \"The 10-Year Treasury yield declined from 1.5300 to 1.4700 during the window, which typically supports equity valuations and investor sentiment [9, 17, 41].\"\n  },\n  {\n    \"name\": \"market_sentiment_decline\",\n    \"category\": \"market_sentiment\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.25,\n    \"persistence\": \"transient\",\n    \"confidence\": 0.75,\n    \"source_articles\": [],\n    \"description\": \"Overall market sentiment was negative, contributing to the price decline despite the favorable macroeconomic conditions.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

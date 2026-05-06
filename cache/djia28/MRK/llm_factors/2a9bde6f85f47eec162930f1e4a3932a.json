@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-07-22",
+  "end_date": "2018-08-05",
+  "window_type": "monthly",
+  "price_change_pct": 5.3699676272844155,
+  "factors": [
+    {
+      "name": "cpi_release_2018_08_01",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.45,
+      "persistence": "short",
+      "description": "[conf=0.85] The Consumer Price Index (CPI) release on 2018-08-01 indicated stable inflation, which likely boosted investor confidence and contributed to the price increase."
+    },
+    {
+      "name": "treasury_rate_increase_2018_08_01",
+      "category": "macroeconomic",
+      "direction": -0.4,
+      "magnitude": 0.25,
+      "persistence": "short",
+      "description": "[conf=0.75] The increase in the 10-Year Treasury Rate to 3.0000 on 2018-08-01 may have created some headwinds for equities, but the overall market sentiment remained positive."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.3,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market movements."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_2018_08_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.45,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The Consumer Price Index (CPI) release on 2018-08-01 indicated stable inflation, which likely boosted investor confidence and contributed to the price increase.\"\n  },\n  {\n    \"name\": \"treasury_rate_increase_2018_08_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.75,\n    \"source_articles\": [25, 26, 27, 28, 29, 30, 31, 32],\n    \"description\": \"The increase in the 10-Year Treasury Rate to 3.0000 on 2018-08-01 may have created some headwinds for equities, but the overall market sentiment remained positive.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.30,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market movements.\"\n  }\n]"
+}

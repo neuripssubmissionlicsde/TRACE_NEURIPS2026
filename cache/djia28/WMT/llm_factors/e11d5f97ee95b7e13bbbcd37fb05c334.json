@@ -1,0 +1,33 @@
+{
+  "start_date": "2022-02-13",
+  "end_date": "2022-02-27",
+  "window_type": "monthly",
+  "price_change_pct": 0.7758739661898685,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.49367088607594944,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver."
+    },
+    {
+      "name": "rising_treasury_yields_feb_2022",
+      "category": "macroeconomic",
+      "direction": -0.06666666666666665,
+      "magnitude": 0.31645569620253167,
+      "persistence": "short",
+      "description": "[conf=0.75] 10-Year Treasury yields rose from 1.9200 to 1.9900 during the window, indicating tightening financial conditions that may have pressured equity valuations [4, 10, 22]."
+    },
+    {
+      "name": "geopolitical_tensions_russia_ukraine",
+      "category": "geopolitical",
+      "direction": -0.20000000000000004,
+      "magnitude": 0.18987341772151906,
+      "persistence": "short",
+      "description": "[conf=0.70] A massive selloff on the Moscow Stock Exchange due to geopolitical tensions raised market uncertainty, impacting investor sentiment [28, 30]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"rising_treasury_yields_2022\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [4, 10, 13],\n    \"description\": \"The increase in the 10-Year Treasury Rate from 1.9200 to 1.9900 during the window indicated rising borrowing costs, which generally supports WMT's stock price as investors seek stable returns.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was relatively stable with no dominant driver.\"\n  }\n]"
+}

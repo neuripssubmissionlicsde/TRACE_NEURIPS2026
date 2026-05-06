@@ -1,0 +1,25 @@
+{
+  "start_date": "2018-08-05",
+  "end_date": "2018-08-19",
+  "window_type": "monthly",
+  "price_change_pct": 0.5396374586317831,
+  "factors": [
+    {
+      "name": "turkey_financial_turmoil",
+      "category": "geopolitical",
+      "direction": -0.5,
+      "magnitude": 0.5,
+      "persistence": "short",
+      "description": "[conf=0.85] Asian stock prices sank due to fears of contagion from Turkey's financial turmoil, negatively impacting investor sentiment and TRV's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by broader market sentiment."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"turkey_financial_turmoil\",\n    \"category\": \"geopolitical\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],\n    \"description\": \"Asian stock prices sank due to fears of contagion from Turkey's financial turmoil, negatively impacting investor sentiment and TRV's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by broader market sentiment.\"\n  }\n]"
+}

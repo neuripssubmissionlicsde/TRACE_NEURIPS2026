@@ -1,0 +1,25 @@
+{
+  "start_date": "2020-11-22",
+  "end_date": "2020-12-06",
+  "window_type": "monthly",
+  "price_change_pct": -1.3278809011978552,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.5698924731182795,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver."
+    },
+    {
+      "name": "treasury_rate_increase_0.92",
+      "category": "macroeconomic",
+      "direction": -0.5,
+      "magnitude": 0.43010752688172044,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate increased to 0.92% on December 1, raising borrowing costs and negatively impacting equity valuations [17][25]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_yield_increase_2020_dec\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [17, 25],\n    \"description\": \"The 10-Year Treasury Rate increased to 0.9200 on December 1, 2020, raising concerns about rising interest rates impacting equity valuations [17, 25].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement showed no clear dominant driver.\"\n  }\n]"
+}

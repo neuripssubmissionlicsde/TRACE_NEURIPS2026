@@ -1,0 +1,41 @@
+{
+  "start_date": "2018-04-29",
+  "end_date": "2018-05-13",
+  "window_type": "monthly",
+  "price_change_pct": 3.7448627803232077,
+  "factors": [
+    {
+      "name": "strong_earnings_report",
+      "category": "company_specific",
+      "direction": 1.0,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.70] JPMorgan Chase reported strong earnings, which likely contributed to positive sentiment and upward price movement."
+    },
+    {
+      "name": "noise_residual",
+      "category": "liquidity",
+      "direction": 0.0,
+      "magnitude": 0.1,
+      "persistence": "transient",
+      "description": "[conf=0.50] Unexplained random variance in trading activity that does not correlate with observable factors."
+    },
+    {
+      "name": "positive_market_sentiment",
+      "category": "market_sentiment",
+      "direction": 1.0,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.60] Overall positive sentiment in the financial sector during this period may have supported JPM's price movement."
+    },
+    {
+      "name": "technical_breakout",
+      "category": "technical",
+      "direction": 1.0,
+      "magnitude": 0.20000000000000004,
+      "persistence": "transient",
+      "description": "[conf=0.50] JPM's price broke above a key resistance level, attracting technical traders and contributing to upward momentum."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"strong_earnings_report\",\n        \"category\": \"company_specific\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.4,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"JPMorgan Chase reported strong earnings, which likely contributed to positive sentiment and upward price movement.\"\n    },\n    {\n        \"name\": \"interest_rate_expectations\",\n        \"category\": \"macroeconomic\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.3,\n        \"persistence\": \"medium\",\n        \"confidence\": 0.6,\n        \"description\": \"Market expectations of stable interest rates during this period may have supported bank stock valuations.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": 1.0,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"General positive market sentiment towards financial stocks likely contributed to the upward price movement.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"liquidity\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Unexplained random variance in trading activity that does not correlate with observable factors.\"\n    }\n]"
+}

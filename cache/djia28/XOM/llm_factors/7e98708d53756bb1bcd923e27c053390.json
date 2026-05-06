@@ -1,0 +1,41 @@
+{
+  "start_date": "2023-03-12",
+  "end_date": "2023-03-26",
+  "window_type": "monthly",
+  "price_change_pct": -1.7182518335691899,
+  "factors": [
+    {
+      "name": "geopolitical_tensions",
+      "category": "geopolitical",
+      "direction": -0.32499999999999996,
+      "magnitude": 0.30888030888030893,
+      "persistence": "short",
+      "description": "[conf=0.50] Ongoing geopolitical tensions in oil-producing regions may have contributed to uncertainty in the energy sector."
+    },
+    {
+      "name": "market_sentiment",
+      "category": "market_sentiment",
+      "direction": -0.45999999999999996,
+      "magnitude": 0.29343629343629346,
+      "persistence": "transient",
+      "description": "[conf=0.50] General market sentiment was bearish, which may have affected XOM's stock performance."
+    },
+    {
+      "name": "liquidity_conditions",
+      "category": "liquidity",
+      "direction": -0.175,
+      "magnitude": 0.13513513513513514,
+      "persistence": "short",
+      "description": "[conf=0.40] Tightening liquidity conditions may have contributed to downward pressure on stock prices."
+    },
+    {
+      "name": "noise_residual",
+      "category": "noise",
+      "direction": 0.0,
+      "magnitude": 0.2625482625482625,
+      "persistence": "transient",
+      "description": "[conf=0.50] Random market fluctuations that cannot be attributed to observable factors."
+    }
+  ],
+  "raw_llm_response": "[\n    {\n        \"name\": \"macroeconomic_indicators\",\n        \"category\": \"macroeconomic\",\n        \"direction\": -0.5,\n        \"magnitude\": 0.3,\n        \"persistence\": \"short\",\n        \"confidence\": 0.6,\n        \"description\": \"Recent macroeconomic indicators suggested a slowdown in economic growth, which may have negatively impacted investor sentiment.\"\n    },\n    {\n        \"name\": \"geopolitical_tensions\",\n        \"category\": \"geopolitical\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.2,\n        \"persistence\": \"short\",\n        \"confidence\": 0.5,\n        \"description\": \"Ongoing geopolitical tensions in oil-producing regions may have contributed to uncertainty in the energy sector.\"\n    },\n    {\n        \"name\": \"oil_price_fluctuations\",\n        \"category\": \"sector_specific\",\n        \"direction\": -0.4,\n        \"magnitude\": 0.25,\n        \"persistence\": \"short\",\n        \"confidence\": 0.7,\n        \"description\": \"Volatility in crude oil prices during this period likely influenced XOM's stock price movement.\"\n    },\n    {\n        \"name\": \"market_sentiment\",\n        \"category\": \"market_sentiment\",\n        \"direction\": -0.2,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"General market sentiment was bearish, which may have affected XOM's stock performance.\"\n    },\n    {\n        \"name\": \"technical_sell_signals\",\n        \"category\": \"technical\",\n        \"direction\": -0.3,\n        \"magnitude\": 0.1,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.4,\n        \"description\": \"Technical indicators showed sell signals, which could have prompted traders to exit positions.\"\n    },\n    {\n        \"name\": \"liquidity_conditions\",\n        \"category\": \"liquidity\",\n        \"direction\": -0.1,\n        \"magnitude\": 0.05,\n        \"persistence\": \"short\",\n        \"confidence\": 0.4,\n        \"description\": \"Tightening liquidity conditions may have contributed to downward pressure on stock prices.\"\n    },\n    {\n        \"name\": \"noise_residual\",\n        \"category\": \"noise\",\n        \"direction\": 0.0,\n        \"magnitude\": 0.15,\n        \"persistence\": \"transient\",\n        \"confidence\": 0.5,\n        \"description\": \"Random market fluctuations that cannot be attributed to observable factors.\"\n    }\n]"
+}

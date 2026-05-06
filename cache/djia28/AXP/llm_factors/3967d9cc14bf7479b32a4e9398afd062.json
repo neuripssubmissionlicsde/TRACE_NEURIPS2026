@@ -1,0 +1,25 @@
+{
+  "start_date": "2021-10-24",
+  "end_date": "2021-11-07",
+  "window_type": "monthly",
+  "price_change_pct": -5.376758509668841,
+  "factors": [
+    {
+      "name": "central_bank_brazil_rate_hike",
+      "category": "macroeconomic",
+      "direction": -0.6,
+      "magnitude": 0.49000000000000005,
+      "persistence": "short",
+      "description": "[conf=0.85] The Central Bank of Brazil raised its interest rate by 150 basis points, which likely increased global market volatility and negatively impacted investor sentiment towards financial stocks like AXP."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.51,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in the market."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"central_bank_brazil_rate_hike\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.6,\n    \"magnitude\": 0.55,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6],\n    \"description\": \"The Central Bank of Brazil raised its interest rate by 150 basis points, which likely increased global market volatility and negatively impacted investor sentiment towards financial stocks like AXP.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.45,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in the market.\"\n  }\n]"
+}

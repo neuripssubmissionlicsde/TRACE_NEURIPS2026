@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-12-03",
+  "end_date": "2023-12-17",
+  "window_type": "monthly",
+  "price_change_pct": 0.8000400847029101,
+  "factors": [
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.53125,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, indicating random fluctuations in price."
+    },
+    {
+      "name": "treasury_rate_decline_2023_dec",
+      "category": "macroeconomic",
+      "direction": 0.6,
+      "magnitude": 0.46875000000000006,
+      "persistence": "short",
+      "description": "[conf=0.85] The 10-Year Treasury Rate declined from 4.2300 to 3.9200 during the window, which typically supports equity valuations and investor sentiment [41, 49]."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"stable_treasury_rate_4.20\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 41],\n    \"description\": \"The 10-Year Treasury Rate stabilized at 4.20%, contributing to a favorable borrowing environment and supporting equity valuations [1][41].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, indicating random fluctuations in price.\"\n  }\n]"
+}

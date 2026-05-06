@@ -1,0 +1,108 @@
+# ══════════════════════════════════════════════════════════════════════
+# Daily Windows Ablation — WITH DAILY (1BD + standard resolutions)
+# ══════════════════════════════════════════════════════════════════════
+# 1 year (2020), 2 tickers, daily + multi-resolution [1BD, 2W, 1ME, 1QE]
+# Same period & tickers as baseline for controlled comparison.
+
+tickers:
+  - AAPL
+  - JPM
+
+train_start: "2020-01-01"
+train_end:   "2020-12-31"
+
+llm_provider: "openrouter"
+llm_model: "openrouter/mistralai/mistral-small-24b-instruct-2501"
+llm_api_key: ""
+llm_temperature: 0.05
+llm_n_samples: 5
+llm_max_workers: 8
+
+use_rag: true
+rag_persist_dir: "cache/rag_store"
+rag_sources:
+  - wikipedia
+  - fred
+  - sec_edgar
+rag_cache_mode: "reuse"
+rag_max_articles: 50
+rag_content_limit: 500
+fred_api_key: ""
+sec_email: ""
+
+# ── WITH DAILY: adds 1BD (true business-day daily) to resolutions ───
+window_sizes:
+  - "1BD"
+  - "2W"
+  - "1ME"
+  - "1QE"
+factor_threshold: 0.0
+max_factors: 200
+cross_window_validation: true
+
+fin:
+  architecture: "tft"
+  n_lags: 10
+  epochs: 300
+  batch_size: 64
+  learning_rate: 0.001
+  patience: 30
+  device: "auto"
+
+n_scenarios: 1
+scenario_llm_samples: 1
+
+generation:
+  n_steps: 0
+  n_samples: 10
+  noise_scale: 1.0
+  start_date: "2020-01-01"
+
+evaluation:
+  include_deep_metrics: true
+  skip_if_no_test: true
+
+neural_sde:
+  enabled: false
+  hidden: 64
+  epochs: 200
+  batch_size: 256
+  learning_rate: 0.001
+  patience: 30
+
+cross_asset:
+  enabled: true
+  method: "pearson"
+
+factor_scoring:
+  enabled: true
+  min_score: 0.10
+
+transfer_learning:
+  enabled: true
+  scale: 0.5
+
+dcc_garch:
+  enabled: true
+  garch_p: 1
+  garch_q: 1
+
+interactive:
+  post_extraction: false
+  pre_generation: false
+  port: 8050
+
+user_factors:
+  file: ""
+  mode: "disabled"
+
+quality_report:
+  enabled: false
+
+# ── I/O: separate output/cache dirs ─────────────────────────────────
+output_dir: "ablation_daily/with_daily"
+cache_dir: "cache/ablation_daily/with_daily"
+seed: 42
+
+resume: true
+validate: true

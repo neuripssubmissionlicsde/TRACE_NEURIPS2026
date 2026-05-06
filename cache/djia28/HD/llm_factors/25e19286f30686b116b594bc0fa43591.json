@@ -1,0 +1,25 @@
+{
+  "start_date": "2023-05-07",
+  "end_date": "2023-05-21",
+  "window_type": "monthly",
+  "price_change_pct": 0.6504883666775324,
+  "factors": [
+    {
+      "name": "bank_of_england_rate_hike_4.5%",
+      "category": "macroeconomic",
+      "direction": -0.1,
+      "magnitude": 0.5531914893617021,
+      "persistence": "medium",
+      "description": "[conf=0.85] The Bank of England raised interest rates to 4.5%, impacting global market sentiment and leading to a cautious outlook on equities [1]."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.4468085106382979,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"bank_of_england_rate_hike_4.5%\",\n    \"category\": \"macroeconomic\",\n    \"direction\": -0.5,\n    \"magnitude\": 0.5,\n    \"persistence\": \"medium\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3],\n    \"description\": \"The Bank of England raised interest rates to 4.5%, impacting global market sentiment and leading to a cautious outlook on equities [1].\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.5,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations.\"\n  }\n]"
+}

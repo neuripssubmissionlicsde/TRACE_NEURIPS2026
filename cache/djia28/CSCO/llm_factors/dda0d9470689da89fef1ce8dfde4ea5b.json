@@ -1,0 +1,33 @@
+{
+  "start_date": "2023-11-19",
+  "end_date": "2023-12-03",
+  "window_type": "monthly",
+  "price_change_pct": 1.91337309100117,
+  "factors": [
+    {
+      "name": "cpi_release_2023_12_01",
+      "category": "macroeconomic",
+      "direction": 0.58,
+      "magnitude": 0.4,
+      "persistence": "short",
+      "description": "[conf=0.85] The Consumer Price Index (CPI) release on December 1 indicated stable inflation, which positively influenced market sentiment and contributed to CSCO's price increase."
+    },
+    {
+      "name": "treasury_rate_decline_2023_12_01",
+      "category": "macroeconomic",
+      "direction": 0.38,
+      "magnitude": 0.3,
+      "persistence": "short",
+      "description": "[conf=0.80] The decline in the 10-Year Treasury Rate on December 1 reduced borrowing costs, supporting equity valuations and contributing to the upward price movement of CSCO."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.30000000000000004,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"cpi_release_2023_12_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.6,\n    \"magnitude\": 0.35,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [1, 2, 3, 4, 5, 6, 7, 8],\n    \"description\": \"The Consumer Price Index (CPI) release on December 1 indicated stable inflation, which positively influenced market sentiment and contributed to CSCO's price increase.\"\n  },\n  {\n    \"name\": \"treasury_rate_decline_2023_12_01\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.4,\n    \"magnitude\": 0.25,\n    \"persistence\": \"short\",\n    \"confidence\": 0.80,\n    \"source_articles\": [17, 18, 19, 20, 21, 22, 23, 24],\n    \"description\": \"The decline in the 10-Year Treasury Rate on December 1 reduced borrowing costs, supporting equity valuations and contributing to the upward price movement of CSCO.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.40,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, reflecting random market fluctuations during the observation period.\"\n  }\n]"
+}

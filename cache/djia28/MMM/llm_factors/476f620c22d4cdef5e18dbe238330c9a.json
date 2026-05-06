@@ -1,0 +1,33 @@
+{
+  "start_date": "2018-11-11",
+  "end_date": "2018-11-25",
+  "window_type": "monthly",
+  "price_change_pct": -1.2095916736858803,
+  "factors": [
+    {
+      "name": "treasury_rate_decline_3.06",
+      "category": "macroeconomic",
+      "direction": 0.5,
+      "magnitude": 0.35714285714285715,
+      "persistence": "short",
+      "description": "[conf=0.85] The decline in the 10-Year Treasury Rate to 3.0600 on multiple occasions during the window [9, 17, 25] likely supported investor sentiment, contributing to a stabilization in MMM's price."
+    },
+    {
+      "name": "market_noise",
+      "category": "market_sentiment",
+      "direction": 0.0,
+      "magnitude": 0.375,
+      "persistence": "transient",
+      "description": "Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver."
+    },
+    {
+      "name": "treasury_rate_decline_3.05",
+      "category": "macroeconomic",
+      "direction": 0.3,
+      "magnitude": 0.26785714285714285,
+      "persistence": "short",
+      "description": "[conf=0.80] The further decline in the 10-Year Treasury Rate to 3.0500 on November 23 [33, 39] may have contributed to a supportive environment for equities, although the impact was less pronounced."
+    }
+  ],
+  "raw_llm_response": "[\n  {\n    \"name\": \"treasury_rate_decline_3.06\",\n    \"category\": \"macroeconomic\",\n    \"direction\": 0.5,\n    \"magnitude\": 0.4,\n    \"persistence\": \"short\",\n    \"confidence\": 0.85,\n    \"source_articles\": [9, 17, 25],\n    \"description\": \"The decline in the 10-Year Treasury Rate to 3.0600 on multiple occasions during the window [9, 17, 25] likely supported investor sentiment, contributing to a stabilization in MMM's price.\"\n  },\n  {\n    \"name\": \"market_noise\",\n    \"category\": \"market_sentiment\",\n    \"direction\": 0.0,\n    \"magnitude\": 0.6,\n    \"persistence\": \"transient\",\n    \"confidence\": 1.0,\n    \"source_articles\": [],\n    \"description\": \"Residual variance not attributable to identified factors, as the price movement was influenced by multiple competing factors without a clear dominant driver.\"\n  }\n]"
+}
